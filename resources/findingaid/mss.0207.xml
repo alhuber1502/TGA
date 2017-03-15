@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-mss.0207"
+             identifier="grayt.ead.0001-mss.0207">grayt.ead.0001-mss.0207</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-mss.0207#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.poems</unitid>
+               <unittitle id="mss.poems">Poems</unittitle>
+               <unitdate normal="1725/1771" certainty="circa">[ca.
+										1725]-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="work">poems.oxst</unitid>
+                  <unittitle type="uniform" label="Uniform Title:">
+                     <title render="doublequote" linktype="simple">On L[or]d H[olland']s Seat near M[argat]e,
+								K[en]t</title>
+                  </unittitle>
+                  <unittitle label="First Line:">
+                     <title linktype="simple">Old and abandoned by each venal friend,</title>
+                  </unittitle>
+                  <unitdate normal="1769" era="ce" calendar="gregorian">1769</unitdate>
+               </did>
+               <bibliography>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#S/H_1966"
+                          linktype="simple">Starr/Hendrickson (eds.), <title render="italic" linktype="simple">Complete Poems</title> (1966),  53</bibref>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#LoR_1969"
+                          linktype="simple">Lonsdale (ed.), <title render="italic" linktype="simple">Poems</title> (1969),  259-264</bibref>
+               </bibliography>
+               <scopecontent>
+                  <p>Written while on a visit to <extref href="http://www.thomasgray.org/resources/glnames.shtml#Robinson, William, Rev., c. 1726-1803"
+                             show="replace"
+                             linktype="simple">
+                        <persname role="trc" normal="Robinson, William, Rev., c.         1726-1803">William Robinson</persname>
+                     </extref> in <geogname normal="Denton (Kent, England, United Kingdom), inhabited place          [7027350]">Denton, Kent</geogname>, in <extref href="http://www.thomasgray.org/resources/table.shtml#1768"
+                             show="replace"
+                             linktype="simple">
+                        <date normal="176806"
+                              certainty="probably"
+                              era="ce"
+                              calendar="gregorian">June 1768</date>
+                     </extref>.
+							First published, anonymously without <persname normal="Gray, Thomas,         1716-1771" source="lcnaf">Gray</persname>'s consent, as <title render="doublequote" linktype="simple">Inscription
+								for the	Villa of a decay'd Satesman [sic] on the Sea-Coast</title>, in 
+							<title render="italic" linktype="simple">The New Foundling Hospital for Wit</title> (London,
+							<date normal="1769" era="ce" calendar="gregorian">1769</date>) iii. 34-35.
+						</p>
+               </scopecontent>
+               <c03 level="item">
+                  <did>
+                     <unitid type="TGA">mss.0207</unitid>
+                     <unitid type="work">poems.oxst</unitid>
+                     <unittitle label="Title:">
+                        <title linktype="simple">[untitled]</title>
+                     </unittitle>
+                     <unitdate normal="1769" certainty="after" era="ce" calendar="gregorian">[after 1769]</unitdate>
+                     <physdesc>
+                        <extent unit="pages">2</extent>
+                        <physfacet>transcript in an unidentified hand </physfacet>
+                        <dimensions>220 mm x 177 mm</dimensions>
+                     </physdesc>
+                     <physloc label="Identifier:">
+                        <extref href="http://searcharchives.bl.uk/primo_library/libweb/action/search.do?vl%28freeText0%29=Add.+MS+61842&amp;fn=search"
+                                show="new"
+                                linktype="simple">Add. MS 61842</extref>, f. 55
+							</physloc>
+                     <physloc label="Collection:"> Manuscripts Collection </physloc>
+                     <repository>BLUK</repository>
+                     <note>
+                        <p>MS catalogued by <persname normal="Huber, Alexander">Alexander 
+									Huber</persname> in Manuscripts, British Library, on <date normal="20061104" era="ce" calendar="gregorian">04/11/2006</date>.</p>
+                     </note>
+                  </did>
+                  <bibliography>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SmM_1989"
+                             linktype="simple">Smith (ed.), <title render="italic" linktype="simple">Index</title> (1989),  89</bibref>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SuD_1995"
+                             linktype="simple">Sutton (ed.), <title render="italic" linktype="simple">Location Register</title> (1995),  414</bibref>
+                     <bibref title="" linktype="simple">Nelson (ed.), <title render="italic" linktype="simple">Union First Line Index</title>. Mar. 2010. Folger Shakespeare
+								Library. 19 March 2010. &lt;<extref href="http://firstlines.folger.edu/detail.php?id=137055"
+                                show="new"
+                                linktype="simple">http://firstlines.folger.edu/detail.php?id=137055</extref>&gt;</bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Transcript in an unidentified hand in the form of six numbered
+								stanzas, untitled, but headed "The following Stanzas were written
+								by M<emph render="super">r</emph>. Gray at Kingsgate in Kent, the Seat
+								of Lord Holland", in a volume entitled <title render="italic" linktype="simple">Eighteenth Century Verse</title>.
+							</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

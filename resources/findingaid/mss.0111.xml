@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-mss.0111"
+             identifier="grayt.ead.0001-mss.0111">grayt.ead.0001-mss.0111</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-mss.0111#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.poems</unitid>
+               <unittitle id="mss.poems">Poems</unittitle>
+               <unitdate normal="1725/1771" certainty="circa">[ca.
+										1725]-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="work">poems.oopv</unitid>
+                  <unittitle type="uniform" label="Uniform Title:">
+                     <title render="doublequote" linktype="simple">[Ode on the Pleasure Arising from
+								Vicissitude]</title>
+                  </unittitle>
+                  <unittitle label="First Line:">
+                     <title linktype="simple">Now the golden Morn aloft</title>
+                  </unittitle>
+                  <unitdate normal="1775" era="ce" calendar="gregorian">1775</unitdate>
+               </did>
+               <bibliography>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#S/H_1966"
+                          linktype="simple">Starr/Hendrickson (eds.), <title render="italic" linktype="simple">Complete Poems</title> (1966),  100-103</bibref>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#LoR_1969"
+                          linktype="simple">Lonsdale (ed.), <title render="italic" linktype="simple">Poems</title> (1969),  201-207</bibref>
+               </bibliography>
+               <scopecontent>
+                  <p>Written probably in <extref href="http://www.thomasgray.org/resources/table.shtml#1754"
+                             show="replace"
+                             linktype="simple">
+                        <date normal="1754/1755"
+                              certainty="circa"
+                              era="ce"
+                              calendar="gregorian">1754 or 
+							1755</date>
+                     </extref>.
+							First printed privately in 1774. First published, in two versions, among
+							the notes to the poems, entitled <title render="doublequote" linktype="simple">Ode, On the
+								Pleasure arising from Vicissitude</title>, and as <title render="doublequote" linktype="simple">Ode</title> in <extref href="http://www.thomasgray.org/resources/glnames.shtml#Mason, William, 1724-1797"
+                             show="replace"
+                             linktype="simple">
+                        <persname normal="Mason, William, 1724-1797">Mason</persname>'s</extref>
+                     <title render="italic" linktype="simple">Memoirs</title> (<date normal="1775" type="publication" era="ce" calendar="gregorian">1775</date>), <extref href="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=1775&amp;part=2&amp;page=78"
+                             show="replace"
+                             linktype="simple">78-81</extref> (with <extref href="http://www.thomasgray.org/resources/glnames.shtml#Mason, William, 1724-1797"
+                             show="replace"
+                             linktype="simple">
+                        <persname normal="Mason, William, 1724-1797">Mason</persname>'s</extref> additions) and <extref href="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=1775&amp;part=1&amp;page=236"
+                             show="replace"
+                             linktype="simple">236-237</extref> (ll. 1-48 only) respectively.
+						</p>
+               </scopecontent>
+               <c03 level="item">
+                  <did>
+                     <unitid type="TGA">mss.0111</unitid>
+                     <unitid type="work">poems.oopv</unitid>
+                     <unittitle label="Title:">
+                        <title linktype="simple">[?]</title>
+                     </unittitle>
+                     <unitdate normal="17??" era="ce" calendar="gregorian">[17??]</unitdate>
+                     <physdesc>
+                        <extent unit="pages">[?]</extent>
+                        <physfacet>transcript in the hand of <extref href="http://www.thomasgray.org/resources/glnames.shtml#Beattie, James, 1735-1803"
+                                   show="replace"
+                                   linktype="simple">
+                              <persname role="trc" normal="Beattie, James,           1735-1803">James Beattie</persname>
+                           </extref>
+                        </physfacet>
+                        <dimensions>250 mm x 200 mm</dimensions>
+                     </physdesc>
+                     <physloc label="Identifier:">
+                        <extref href="http://calms.abdn.ac.uk/DServe/dserve.exe?&amp;dsqIni=Dserve.ini&amp;dsqApp=Archive&amp;dsqDb=Catalog&amp;dsqCmd=Show.tcl&amp;dsqSearch=(RefNo=='MS%2030/44')"
+                                show="new"
+                                linktype="simple">MS 30/44</extref> (<title render="doublequote" linktype="simple">Copies of the poems of Thomas Gray</title>)
+							</physloc>
+                     <physloc label="Collection:"> Historic Collections </physloc>
+                     <physloc label="Building:"> Special Libraries and Archives, King's
+								College </physloc>
+                     <repository>UABD</repository>
+                  </did>
+                  <bibliography>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SmM_1989"
+                             linktype="simple">Smith (ed.), <title render="italic" linktype="simple">Index</title> (1989),  88</bibref>
+                     <bibref title="" linktype="simple">Ellner, June, "Re: MS 30/44, James Beattie
+								papers". E-mail to the editor, 20 December 2006</bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Transcript in the hand of <extref href="http://www.thomasgray.org/resources/glnames.shtml#Beattie, James, 1735-1803"
+                                show="replace"
+                                linktype="simple">
+                           <persname normal="Beattie, James, 1735-1803">James
+								Beattie</persname>
+                        </extref>, annotated in his hand "A note which I
+								find in a Memorandum-book of <persname normal="Gray, Thomas, 1716-1771" source="lcnaf">Mr Gray</persname>'s <date normal="1754" era="ce" calendar="gregorian">1754</date>
+								will best explain the 
+								intended plan of this beautiful Lyrical fragment, and will give the
+								poetical reader how he meant to conclude it. "Contrast between the
+								winter past and coming spring – Joy owing to that vicissitude
+								– many who never feel that delight – Sloth - Envy - Ambition
+								– how much happier the Rustick who feels it though he knows not
+								how.""
+							</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

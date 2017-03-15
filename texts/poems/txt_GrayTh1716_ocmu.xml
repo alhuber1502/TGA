@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title corresp="authors.xml#txt_GrayTh1716_ocmu">Ode for Music</title>
+            <author corresp="authors.xml#aut_GrayTh1716">Gray, Thomas, 1716-1771</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="SUB">Göttingen State and University Library, University of Göttingen</name>
+               <address>
+                  <addrLine>Historic Building</addrLine>
+                  <addrLine>Papendiek 14</addrLine>
+                  <addrLine>D-37073 Göttingen</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Bodleian Libraries</addrLine>
+               <addrLine>Osney One Bldg.</addrLine>
+               <addrLine>Osney Mead</addrLine>
+               <addrLine>Oxford OX2 0EW</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@thomasgray.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="http://www.thomasgray.org/">http://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><ref target="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=1769"><emph>1769</emph></ref></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>
+								Spelling has been modernized throughout, except in case of conscious archaisms. 
+								Contractions, italics and initial capitalization have been largely eliminated, 
+								except where of real import. Obvious errors have been silently corrected, 
+								punctuation has been lightly modernized. 
+							
+						The editor would like to express his gratitude to the library staff of the
+						<ref target="http://www.sub.uni-goettingen.de/" rend="newWindow">Göttingen State and 
+							University Library (SUB Göttingen)</ref> for their invaluable assistance.
+						</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem"
+              xml:id="txt_GrayTh1716_ocmu"
+              corresp="authors.xml#txt_GrayTh1716_ocmu"
+              subtype="eceptext"
+              rendition="#lgvspave"
+              rhyme="irregular"
+              met="irregular"
+              n=""
+              ana="#trimeter #tetrameter">
+            <link type="author" target="authors.xml#aut_GrayTh1716"/>
+            <head>Ode for Music</head>
+            <lg>
+               <head>
+                  <emph>Air </emph>
+               </head>
+               <l n="1">'Hence, avaunt, ('tis holy ground)</l>
+               <l n="2">'Comus and his midnight-crew,</l>
+               <l n="3">'And Ignorance with looks profound,</l>
+               <l n="4">'And dreaming Sloth of pallid hue,</l>
+               <l n="5">'Mad Sedition's cry profane,</l>
+               <l n="6">'Servitude that hugs her chain,</l>
+               <l n="7">'Nor in these consecrated bowers</l>
+               <l n="8">'Let painted Flattery hide her serpent-train in flowers.</l>
+            </lg>
+            <lg>
+               <head>
+                  <emph>Chorus </emph>
+               </head>
+               <l n="9">'Nor Envy base nor creeping Gain</l>
+               <l n="10">'Dare the Muse's walk to stain,</l>
+               <l n="11">'While bright-eyed Science watches round:</l>
+               <l n="12">'Hence, away, 'tis holy ground!'</l>
+            </lg>
+            <lg>
+               <head>
+                  <emph>Recitative </emph>
+               </head>
+               <l n="13">From yonder realms of empyrean day</l>
+               <l n="14">Bursts on my ear the indignant lay:</l>
+               <l n="15">There sit the sainted sage, the bard divine,</l>
+               <l n="16">The few whom genius gave to shine</l>
+               <l n="17">Through every unborn age and undiscovered clime.</l>
+               <l n="18">Rapt in celestial transport they,</l>
+               <stage rendition="#inline #i">(accomp.)</stage>
+               <l n="19">Yet hither oft a glance from high</l>
+               <l n="20">They send of tender sympathy</l>
+               <l n="21">To bless the place, where on their opening soul</l>
+               <l n="22">First the genuine ardour stole.</l>
+               <l n="23">'Twas Milton struck the deep-toned shell,</l>
+               <l n="24">And, as the choral warblings round him swell,</l>
+               <l n="25">Meek Newton's self bends from his state sublime,</l>
+               <l n="26">And nods his hoary head and listens to the rhyme.</l>
+            </lg>
+            <lg>
+               <head>
+                  <emph>Air </emph>
+               </head>
+               <l n="27">'Ye brown o'er-arching groves,</l>
+               <l n="28">'That Contemplation loves,</l>
+               <l n="29">'Where willowy Camus lingers with delight!</l>
+               <l n="30">'Oft at the blush of dawn</l>
+               <l n="31">'I trod your level lawn,</l>
+               <l n="32">'Oft wooed the gleam of Cynthia silver-bright</l>
+               <l n="33">'In cloisters dim, far from the haunts of Folly,</l>
+               <l n="34">'With Freedom by my side, and soft-eyed Melancholy.'</l>
+            </lg>
+            <lg>
+               <head>
+                  <emph>Recitative </emph>
+               </head>
+               <l n="35">But hark! the portals sound and, pacing forth</l>
+               <l n="36">With solemn steps and slow,</l>
+               <l n="37">High potentates and dames of royal birth</l>
+               <l n="38">And mitred fathers in long order go:</l>
+               <l n="39">Great Edward with the lilies on his brow</l>
+               <l n="40">From haughty Gallia torn,</l>
+               <l n="41">And sad Chatillon, on her bridal morn</l>
+               <l n="42">That wept her bleeding love, and princely Clare,</l>
+               <l n="43">And Anjou's heroine, and the paler rose,</l>
+               <l n="44">The rival of her crown and of her woes,</l>
+               <l n="45">And either Henry there,</l>
+               <l n="46">The murthered saint and the majestic lord,</l>
+               <l n="47">That broke the bonds of Rome,</l>
+               <l n="48">(Their tears, their little triumphs o'er,</l>
+               <stage rendition="#inline #i">(accomp.)</stage>
+               <l n="49">Their human passions now no more,</l>
+               <l n="50">Save charity, that glows beyond the tomb).</l>
+               <l n="51">All that on Granta's fruitful plain</l>
+               <l n="52">Rich streams of regal bounty poured,</l>
+               <l n="53">And bade these awful fanes and turrets rise,</l>
+               <l n="54">To hail their Fitzroy's festal morning come;</l>
+               <l n="55">And thus they speak in soft accord</l>
+               <l n="56">The liquid language of the skies.</l>
+            </lg>
+            <lg>
+               <head>
+                  <emph>Quartetto </emph>
+               </head>
+               <l n="57">'What is grandeur, what is power?</l>
+               <l n="58">'Heavier toil, superior pain.</l>
+               <l n="59">'What the bright reward we gain?</l>
+               <l n="60">'The grateful memory of the good.</l>
+               <l n="61">'Sweet is the breath of vernal shower,</l>
+               <l n="62">'The bee's collected treasures sweet,</l>
+               <l n="63">'Sweet music's melting fall, but sweeter yet</l>
+               <l n="64">'The still small voice of gratitude.'</l>
+            </lg>
+            <lg>
+               <head>
+                  <emph>Recitative </emph>
+               </head>
+               <l n="65">Foremost and leaning from her golden cloud</l>
+               <l n="66">The venerable Margaret see!</l>
+               <l n="67">'Welcome, my noble son,' (she cries aloud)</l>
+               <l n="68">'To this, thy kindred train, and me:</l>
+               <l n="69">'Pleased in thy lineaments we trace</l>
+               <l n="70">'A Tudor's fire, a Beaufort's grace.</l>
+            </lg>
+            <lg>
+               <head>
+                  <emph>Air </emph>
+               </head>
+               <l n="71">'Thy liberal heart, thy judging eye,</l>
+               <l n="72">'The flower unheeded shall descry,</l>
+               <l n="73">'And bid it round heaven's altars shed</l>
+               <l n="74">'The fragrance of its blushing head:</l>
+               <l n="75">'Shall raise from earth the latent gem</l>
+               <l n="76">'To glitter on the diadem.</l>
+            </lg>
+            <lg>
+               <head>
+                  <emph>Recitative </emph>
+               </head>
+               <l n="77">'Lo, Granta waits to lead her blooming band,</l>
+               <l n="78">'Not obvious, not obtrusive, she</l>
+               <l n="79">'No vulgar praise, no venal incense flings;</l>
+               <l n="80">'Nor dares with courtly tongue refined</l>
+               <l n="81">'Profane thy inborn royalty of mind:</l>
+               <l n="82">'She reveres herself and thee.</l>
+               <l n="83">'With modest pride to grace thy youthful brow</l>
+               <l n="84">'The laureate wreath, that Cecil wore, she brings,</l>
+               <l n="85">'And to thy just, thy gentle hand</l>
+               <l n="86">'Submits the fasces of her sway,</l>
+               <l n="87">'While spirits blest above and men below</l>
+               <l n="88">'Join with glad voice the loud symphonious lay.</l>
+            </lg>
+            <lg>
+               <head>
+                  <emph>Grand Chorus </emph>
+               </head>
+               <l n="89">'Through the wild waves as they roar</l>
+               <l n="90">'With watchful eye and dauntless mien</l>
+               <l n="91">'Thy steady course of honour keep,</l>
+               <l n="92">'Nor fear the rocks nor seek the shore:</l>
+               <l n="93">'The star of Brunswick smiles serene,</l>
+               <l n="94">'And gilds the horrors of the deep.'</l>
+            </lg>
+            <trailer>
+               <emph>FINIS</emph>
+            </trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

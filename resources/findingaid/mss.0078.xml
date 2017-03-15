@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-mss.0078"
+             identifier="grayt.ead.0001-mss.0078">grayt.ead.0001-mss.0078</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-mss.0078#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.poems</unitid>
+               <unittitle id="mss.poems">Poems</unittitle>
+               <unitdate normal="1725/1771" certainty="circa">[ca.
+										1725]-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="work">poems.imp2</unitid>
+                  <unittitle type="uniform" label="Uniform Title:">
+                     <title render="doublequote" linktype="simple">[Imitated] From Propertius. Lib: 2: Eleg:
+								1.</title>
+                  </unittitle>
+                  <unittitle label="First Line:">
+                     <title linktype="simple">You ask why thus my loves I still rehearse,</title>
+                  </unittitle>
+                  <unitdate normal="1814" era="ce" calendar="gregorian">1814</unitdate>
+               </did>
+               <bibliography>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#S/H_1966"
+                          linktype="simple">Starr/Hendrickson (eds.), <title render="italic" linktype="simple">Complete Poems</title> (1966),  64-67</bibref>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#LoR_1969"
+                          linktype="simple">Lonsdale (ed.), <title render="italic" linktype="simple">Poems</title> (1969),  44-47</bibref>
+               </bibliography>
+               <scopecontent>
+                  <p>Probably written in <extref href="http://www.thomasgray.org/resources/table.shtml#1742"
+                             show="replace"
+                             linktype="simple">
+                        <date normal="174204" era="ce" calendar="gregorian">April of 1742</date>
+                     </extref> and
+							sent in a <extref href="http://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0121"
+                             show="replace"
+                             linktype="simple">letter</extref> to <extref href="http://www.thomasgray.org/resources/glnames.shtml#West, Richard, 1716-1742"
+                             show="replace"
+                             linktype="simple">
+                        <persname normal="West, Richard, 1716-1742">Richard
+										West</persname>
+                     </extref>, <date normal="17420423" era="ce" calendar="gregorian">[23 April 
+											1742]</date>.
+							First published, except ll. 1-30, in <bibref title="http://www.thomasgray.org/resources/biblp.shtml#MaW_1814"
+                             linktype="simple">
+								Mathias (ed.), <title render="italic" linktype="simple">Works</title> (1814), vol. II, 	<extref href="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=MaW_1814ii:87"
+                                show="replace"
+                                linktype="simple">87-89</extref>
+                     </bibref>, published in full in <bibref title="http://www.thomasgray.org/resources/biblp.shtml#GoE_1884"
+                             linktype="simple">
+								Gosse (ed.), <title render="italic" linktype="simple">Works</title> (1884), vol. i, 
+								153</bibref>.
+						</p>
+               </scopecontent>
+               <c03 level="item">
+                  <did>
+                     <unitid type="TGA">mss.0078</unitid>
+                     <unitid type="work">poems.imp2</unitid>
+                     <unittitle label="Title:">
+                        <title render="doublequote" linktype="simple">From Propertius. Lib: 2: Eleg: 1. To
+									Mecaenas</title>
+                     </unittitle>
+                     <unitdate normal="174204" era="ce" calendar="gregorian">April 1742</unitdate>
+                     <physdesc>
+                        <extent unit="pages">2</extent>
+                        <physfacet>autograph fair copy</physfacet>
+                     </physdesc>
+                     <physloc label="Identifier:">
+                        <title render="italic" linktype="simple">Commonplace Book</title>, Vol. I,
+								254-255 </physloc>
+                     <physloc label="Building:"> College Library </physloc>
+                     <repository>PBCC</repository>
+                  </did>
+                  <altformavail>
+                     <p>Microfilm copy available in <bibref title="http://www.thomasgray.org/resources/biblp.shtml#MeP_1991"
+                                linktype="simple">
+                           <title render="italic" linktype="simple">Poetic Commonplace Books and Manuscripts of Thomas Gray, 1716-1771, from Pembroke College, Cambridge</title> (1999),
+								reel one</bibref>
+                     </p>
+                  </altformavail>
+                  <bibliography>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SmM_1989"
+                             linktype="simple">Smith (ed.), <title render="italic" linktype="simple">Index</title> (1989), item GrT 64,  85</bibref>
+                     <bibref title="http://www.thomasgray.org/resources/biblp.shtml#MeP_1999"
+                             linktype="simple">
+                        <title render="italic" linktype="simple">Poetic C.
+								B.</title>, Pembroke College (1999),  24</bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Autograph fair copy, under the heading "Carmina",
+								here entitled <title render="doublequote" linktype="simple">From Propertius. Lib: 2: Eleg:
+									1. To Mecaenas</title>, in 
+								<persname normal="Gray, Thomas, 1716-1771" source="lcnaf">Gray</persname>'s <title render="italic" linktype="simple">Commonplace Book</title>, vol. I,  254-255.
+							</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

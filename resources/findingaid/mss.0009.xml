@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-mss.0009"
+             identifier="grayt.ead.0001-mss.0009">grayt.ead.0001-mss.0009</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-mss.0009#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.poems</unitid>
+               <unittitle id="mss.poems">Poems</unittitle>
+               <unitdate normal="1725/1771" certainty="circa">[ca.
+										1725]-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="work">poems.aleg</unitid>
+                  <unittitle type="uniform" label="Uniform Title:">
+                     <title render="italic" linktype="simple">[The Alliance of Education and Government.
+								A Fragment]</title>
+                  </unittitle>
+                  <unittitle label="First Line:">
+                     <title linktype="simple">As sickly plants betray a niggard earth,</title>
+                  </unittitle>
+                  <unitdate normal="1775" era="ce" calendar="gregorian">1775</unitdate>
+               </did>
+               <bibliography>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#S/H_1966"
+                          linktype="simple">Starr/Hendrickson (eds.), <title render="italic" linktype="simple">Complete Poems</title> (1966),  93-97</bibref>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#LoR_1969"
+                          linktype="simple">Lonsdale (ed.), <title render="italic" linktype="simple">Poems</title> (1969),  85-100</bibref>
+               </bibliography>
+               <scopecontent>
+                  <p>Written in <extref href="http://www.thomasgray.org/resources/table.shtml#1748"
+                             show="replace"
+                             linktype="simple">
+                        <date normal="1748/1749" era="ce" calendar="gregorian">1748-49</date>
+                     </extref> and probably abandoned by <date normal="174903" era="ce" calendar="gregorian">March 1749</date>. <persname normal="Gray, Thomas,             1716-1771" source="lcnaf">Gray</persname> sent <extref href="${disprg}text=aleg#line" show="replace" linktype="simple">ll. 1-57</extref> of the 
+							fragment in a <extref href="http://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0165"
+                             show="replace"
+                             linktype="simple">letter</extref>, 
+							dated	<date normal="17480819" era="ce" calendar="gregorian">19 August 1748</date>, to <extref href="http://www.thomasgray.org/resources/glnames.shtml#Wharton, Thomas, 1717-1794"
+                             show="replace"
+                             linktype="simple">
+                        <persname role="trc" normal="Wharton, Thomas,           1717-1794">Thomas Wharton</persname>
+                     </extref>.
+							First published, entitled <title render="doublequote" linktype="simple">Essay
+							I</title>, in <extref href="http://www.thomasgray.org/resources/glnames.shtml#Mason, William, 1724-1797"
+                             show="replace"
+                             linktype="simple">
+                        <persname normal="Mason, William, 1724-1797">Mason</persname>'s</extref>
+                     <title render="italic" linktype="simple">Memoirs</title> (<date normal="1775" type="publication" era="ce" calendar="gregorian">1775</date>), <extref href="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=1775&amp;part=1&amp;text=aleg"
+                             show="replace"
+                             linktype="simple">193-200</extref>.</p>
+               </scopecontent>
+               <c03 level="item">
+                  <did>
+                     <unitid type="TGA">mss.0009</unitid>
+                     <unitid type="work">poems.aleg</unitid>
+                     <unittitle label="Title:">
+                        <title render="italic" linktype="simple">An Essay on Education and
+									Government</title>
+                     </unittitle>
+                     <unitdate normal="17??" era="ce" calendar="gregorian">[17??]</unitdate>
+                     <physdesc>
+                        <extent unit="pages">[?]</extent>
+                        <physfacet>transcript in the hand of <extref href="http://www.thomasgray.org/resources/glnames.shtml#Beattie, James, 1735-1803"
+                                   show="replace"
+                                   linktype="simple">
+                              <persname role="trc" normal="Beattie, James,           1735-1803">James Beattie</persname>
+                           </extref>
+                        </physfacet>
+                        <dimensions>250 mm x 200 mm</dimensions>
+                     </physdesc>
+                     <physloc label="Identifier:">
+                        <extref href="http://calms.abdn.ac.uk/DServe/dserve.exe?&amp;dsqIni=Dserve.ini&amp;dsqApp=Archive&amp;dsqDb=Catalog&amp;dsqCmd=Show.tcl&amp;dsqSearch=(RefNo=='MS%2030/44')"
+                                show="new"
+                                linktype="simple">MS 30/44</extref> (<title render="doublequote" linktype="simple">Copies of the poems of Thomas Gray</title>)
+							</physloc>
+                     <physloc label="Collection:"> Historic Collections </physloc>
+                     <physloc label="Building:"> Special Libraries and Archives, King's
+								College </physloc>
+                     <repository>UABD</repository>
+                  </did>
+                  <bibliography>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SmM_1989"
+                             linktype="simple">Smith (ed.), <title render="italic" linktype="simple">Index</title> (1989),  79</bibref>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SuD_1995"
+                             linktype="simple">Sutton (ed.), <title render="italic" linktype="simple">Location Register</title> (1995),  414</bibref>
+                     <bibref title="" linktype="simple">Ellner, June, "Re: MS 30/44, James Beattie
+								papers". E-mail to the editor, 20 December 2006</bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Transcript in the hand of <extref href="http://www.thomasgray.org/resources/glnames.shtml#Beattie, James, 1735-1803"
+                                show="replace"
+                                linktype="simple">
+                           <persname normal="Beattie, James, 1735-1803">James
+									Beattie</persname>
+                        </extref>, entitled <title render="doublequote" linktype="simple">An 
+									Essay on Education and Government</title> and annotated in his hand
+								"This beginning of an ethical play is finished in the Author's
+								highest manner. He began it in the year <date normal="1748" era="ce" calendar="gregorian">1748</date>,
+								as appears from a letter 
+								to one on his friends inclosing a part of it. In that letter, he
+								entitles it, <title render="doublequote" linktype="simple">An Essay on Education and
+									Government, or rather, on the
+								necessary alliance of them to produce the external happiness of
+								mankind.</title> He relinquished the prosecution of this work on the
+								publication of <extref href="http://en.wikipedia.org/wiki/Montesquieu"
+                                show="new"
+                                linktype="simple">
+                           <persname normal="Montesquieu, Charles de Secondat, baron          de, 1689-1755">M. de Montesquieu</persname>
+                        </extref>'s <extref href="http://en.wikipedia.org/wiki/De_l%27esprit_des_lois"
+                                show="new"
+                                linktype="simple">
+                           <title render="italic" linktype="simple">Esprit des Loix</title>
+                        </extref>: a book which he
+								highly admired; and which he said had forestalled the principal things
+								he meant to advance upon the subject. And yet we see, from what he has
+								here left, that he differed from the Baron in one material point, viz,
+								the influence of soil or climate on national manners."</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

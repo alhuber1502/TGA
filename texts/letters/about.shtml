@@ -1,0 +1,82 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Texts : Letters : About the Letters" -->
+<!--#set var="youarehere" value="<li><a href=\"/\" class=\"breadcrumb\">Home</a></li><li><a href=\"/texts/\" class=\"breadcrumb\">Texts</a></li><li><a href=\"/texts/letters.shtml\" class=\"breadcrumb\">Letters</a></li><li>About the Letters</li>" -->
+<!--#set var="bodyid" value="texts"  -->
+<!--#set var="texts" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+    <!-- Begin page content -->
+    
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-9">
+            
+		<section id="main">
+
+	    <h1>About the Letters</h1>
+						<p>
+								This section of the <EM>Thomas Gray Archive</EM> contains detailed bibliographic records for all
+<!--#set var="QUERY_STRING" value="part=let" -->
+<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=let" -->
+								known original, copied, or published letters written by or to the poet.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of a printed edition.  Many letters have been transcribed and searchable text encoded in TEI/XML is also available.</p>
+
+						<h2 id="letters">About the letter manuscripts</h2>
+								<p>The majority of the letters survive in autograph MSS or (near) contemporary
+								transcripts. There are 133 letters for which no MS copy has yet been located, 59 letters
+								are known to have existed, but have not survived. <A
+								href="/materials/glnames.shtml#Mason%2C%20William%2C%201724-1797">William Mason</a>,
+								who was authorized by Gray in
+								his <a href="/cgi-bin/view.cgi?collection=primary&amp;edition=BrJ_1891&amp;page=285">will</a>
+								to &quot;preserve or destroy [Gray's papers] at his own discretion&quot;, edited many of Gray's letters for his edition of <A
+								href="/cgi-bin/view.cgi?collection=primary&amp;edition=1775">1775</a>, which
+								for a number of letters is now the only authority. Today most of
+								Gray's letters are preserved in libraries, archives, and museums around the
+								world. A few are still privately owned.</p>
+
+								<h2 id="catalogue">About this catalogue</h2>
+								<p>This correspondence catalogue is a <a target="_blank" class="external"
+								href="http://www.tei-c.org/">standards</a>-based and
+								up-to-date record of Gray's known correspondence and is intended as a research
+								tool for Gray scholars. It is work in progress: information on dates, contents,
+								and contexts of the letters will be added and updated on a regular
+								basis. Please see this <a href="/help/#letters">help</a> section for
+								more information, and contact
+								the <a href="mailto:huber@thomasgray.org">editor</a> with any queries regarding
+		this resource, with information to add, or corrections to make.</p>
+
+
+		</section> <!-- end main section -->
+
+        </div>
+
+
+        <div class="col-xs-3" id="myScrollspy">
+          <nav class="affix">
+            <ul class="nav nav-stacked">
+
+<!--#include virtual="/texts/letters/lettersnav.shtml" -->
+            </ul>
+          </nav>
+
+        </div> <!-- end highlight boxes section -->
+
+      </div>
+      
+    </div>
+
+<script type="text/javascript">
+  var citation = "";
+  citation += "Huber, Alexander. ";
+  var citlink = 'http:\/\/<!--#echo var="HTTP_HOST" --><!--#echo
+  var="DOCUMENT_URI" -->';
+  citation += '\"About the Letters\". ';
+  citation +='<em>Thomas Gray Archive</em>, '+
+    '<!--#flastmod virtual="/about/index.shtml" -->'+
+    '. Web. <!--#echo var="DATE_LOCAL"
+  -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+</script>
+
+
+<!--#include virtual="/bottom.shtml" -->

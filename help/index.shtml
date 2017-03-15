@@ -1,0 +1,123 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Help" -->
+<!--#set var="youarehere" value="<li><a href=\"/\" class=\"breadcrumb\">Home</a></li><li>Help</li>" -->
+<!--#set var="bodyid" value="help"  -->
+<!--#set var="help" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+    <!-- Begin page content -->
+    
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-9">
+           
+		<section id="main">
+<h1>Help</h1>
+
+
+<p>The <em>Thomas Gray Archive</em> Website consists of a general <a
+href="../search/">search engine</a>, and two main sub-sites, the <a
+href="../texts/"><em>Texts</em></a> section and the <a
+href="../resources/"><em>Resources</em></a> section. While the former contains
+Gray's complete <a href="../texts/poems.shtml">poems</a> and the commentary,
+selected <a href="../texts/prose.shtml">prose works</a>, his complete <a
+href="../texts/letters.shtml">correspondence</a>, and a <a
+href="../texts/diglib.shtml">digital library</a>, the latter
+comprises secondary resources, such as a <a
+href="../resources/findaid.shtml">finding aid</a> to Gray MSS, a <a
+href="../resources/concordance.shtml">concordance</a>, a <a
+href="../resources/criticism.shtml">criticism section</a>, a <a
+href="../resources/bio.shtml">biographical sketch</a>, a <a
+href="../resources/table.shtml">chronological table</a> of Gray's life and
+work, a <a href="../resources/glossary.shtml">glossary</a> of names and
+terms, a <a href="../resources/bib.shtml">select bibliography</a> of
+printed materials, a <a
+href="../resources/gallery.shtml">picture gallery</a>, and <a
+href="../resources/links.shtml">links</a> to related online resources.</p>
+
+<p>Please see also the most <a href="faq.shtml">Frequently Asked Questions (FAQ)</a>.</p>
+
+
+<h2 id="gen">General introduction</h2>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Archive at a glance</h3>
+            </div>
+            <div class="panel-body">
+	      <!--#set var="QUERY_STRING" value="part=all" -->
+	      <!--#include virtual="/cgi-bin/ssi_glance.cgi?part=all" -->
+	    </div>
+	  </div>
+
+<!--#include virtual="/help/help_gen.htmlf"-->
+
+<h2 id="search">Search</h2>
+<!--#include virtual="/help/help_sch.htmlf" -->
+
+<h2 id="poems">Poems</h2>
+
+<h3 id="edit">Editorial practices</h3>
+<!--#include virtual="/help/help_edit.htmlf" -->
+
+<h3 id="select">Selecting a text</h3>
+<!--#include virtual="/help/help_sel.htmlf" -->
+
+<h3 id="comm">Commentary display</h3>
+<!--#include virtual="/help/help_com.htmlf" -->
+
+<h2 id="letters">Letters</h2>
+<!--#include virtual="/help/help_let.htmlf" -->
+
+<h2 id="diglib">Digital Library</h2>
+<!--#include virtual="/help/help_dlb.htmlf" -->
+
+<h2 id="findaid">Finding Aid</h2>
+<!--#include virtual="/help/help_fad.htmlf" -->
+
+<h2 id="conc">Concordance</h2>
+<!--#include virtual="/help/help_cnc.htmlf" -->
+
+
+</section> <!-- end main section -->
+
+        </div>
+
+        <div class="col-xs-3" id="myScrollspy">
+          <nav class="affix">
+            <ul class="nav nav-stacked" data-offset-top="41"
+                data-offset-bottom="41">
+	      <li><a href="#gen">General introduction</a></li>
+	      <li><a href="#search">Search</a></li>
+	      <li><a href="#poems">Poems</a>
+		<ul>
+		  <li><a href="#edit">Editorial practices</a></li>
+		  <li><a href="#select">Selecting a text</a></li>		  
+		  <li><a href="#comm">Commentary display</a></li>
+		</ul>
+	      </li>
+	      <li><a href="#letters">Letters</a></li>
+	      <li><a href="#diglib">Digital Library</a></li>
+	      <li><a href="#findaid">Finding Aid</a></li>
+	      <li><a href="#conc">Concordance</a></li>
+	    </ul>
+	  </nav>
+	</div>
+
+      </div>
+    </div>
+
+<script type="text/javascript">
+  var citation = "";
+  citation += "Huber, Alexander. ";
+  var citlink = 'http:\/\/<!--#echo var="HTTP_HOST" --><!--#echo
+  var="DOCUMENT_URI" -->';
+  citation += '\"Help\". ';
+  citation +='<em>Thomas Gray Archive</em>, '+
+    '<!--#flastmod virtual="/about/index.shtml" -->'+
+    '. Web. <!--#echo var="DATE_LOCAL"
+  -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+</script>
+
+<!--#include virtual="/bottom.shtml" -->

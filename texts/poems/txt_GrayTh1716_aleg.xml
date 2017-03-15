@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title corresp="authors.xml#txt_GrayTh1716_aleg">[The Alliance of Education and Government. A Fragment]</title>
+            <author corresp="authors.xml#aut_GrayTh1716">Gray, Thomas, 1716-1771</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="SUB">Göttingen State and University Library, University of Göttingen</name>
+               <address>
+                  <addrLine>Historic Building</addrLine>
+                  <addrLine>Papendiek 14</addrLine>
+                  <addrLine>D-37073 Göttingen</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Bodleian Libraries</addrLine>
+               <addrLine>Osney One Bldg.</addrLine>
+               <addrLine>Osney Mead</addrLine>
+               <addrLine>Oxford OX2 0EW</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@thomasgray.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="http://www.thomasgray.org/">http://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Commonplace Book</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>
+								Spelling has been modernized throughout, except in case of conscious archaisms. 
+								Contractions, italics and initial capitalization have been largely eliminated, 
+								except where of real import. Obvious errors have been silently corrected, 
+								punctuation has been supplied. 
+							
+						The editor would like to express his gratitude to the library staff of the
+						<ref target="http://www.sub.uni-goettingen.de/" rend="newWindow">Göttingen State and 
+							University Library (SUB Göttingen)</ref> for their invaluable assistance.
+						</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem"
+              xml:id="txt_GrayTh1716_aleg"
+              corresp="authors.xml#txt_GrayTh1716_aleg"
+              subtype="eceptext"
+              rendition="#lgindent"
+              rhyme="aa"
+              met="-+|-+|-+|-+|-+/"
+              n="10"
+              ana="#iamb #pentameter #couplet #heroiccouplet">
+            <link type="author" target="authors.xml#aut_GrayTh1716"/>
+            <head>
+               <emph>[The Alliance of Education and Government. A Fragment]</emph>
+            </head>
+            <head type="heading">Essay I.</head>
+            <epigraph>
+               <p>
+                  	                . . . 
+                  	πόταγ᾽, ὦ 
+                  	᾽γαθέ· τὰν 
+                  	γὰρ ἀοιδάν<lb/>
+                  		οὔτι πω εἰς 
+                  		Ἀΐδαν γε τὸν 
+                  		ἐκλελάθοντα 
+                  		ϕυλαξεῖς.
+                  </p>
+               <bibl>
+                  	Theoc[ritus, <emph>Idyll</emph> i. 62-63].
+                  </bibl>
+            </epigraph>
+            <lg>
+               <l n="1">As sickly plants betray a niggard earth,</l>
+               <l n="2">Whose barren bosom starves her generous birth,</l>
+               <l n="3">Nor genial warmth nor genial juice retains</l>
+               <l n="4">Their roots to feed and fill their verdant veins;</l>
+               <l n="5">And as in climes, where winter holds his reign,</l>
+               <l n="6">The soil, though fertile, will not teem in vain,</l>
+               <l n="7">Forbids her gems to swell, her shades to rise,</l>
+               <l n="8">Nor trusts her blossoms to the churlish skies:</l>
+               <l n="9">So draw mankind in vain the vital airs,</l>
+               <l n="10">Unformed, unfriended, by those kindly cares</l>
+               <l n="11">That health and vigour to the soul impart,</l>
+               <l n="12">Spread the young thought and warm the opening heart.</l>
+               <l n="13">So fond Instruction on the growing powers</l>
+               <l n="14">Of nature idly lavishes her stores,</l>
+               <l n="15">If equal Justice with unclouded face</l>
+               <l n="16">Smile not indulgent on the rising race,</l>
+               <l n="17">And scatter with a free though frugal hand</l>
+               <l n="18">Light golden showers of plenty o'er the land:</l>
+               <l n="19" rhyme="aaa" ana="#triplet">But Tyranny has fixed her empire there,</l>
+               <l n="20" rhyme="aaa" ana="#triplet">To check their tender hopes with chilling fear,</l>
+               <l n="21" rhyme="aaa" ana="#triplet">And blast the blooming promise of the year.</l>
+            </lg>
+            <lg>
+               <l n="22">This spacious animated scene survey</l>
+               <l n="23">From where the rolling orb, that gives the day,</l>
+               <l n="24">His sable sons with nearer course surrounds,</l>
+               <l n="25">To either pole and life's remotest bounds.</l>
+               <l n="26">How rude so e'er the exterior form we find,</l>
+               <l n="27">Howe'er opinion tinge the varied mind,</l>
+               <l n="28">Alike to all the kind impartial heaven</l>
+               <l n="29">The sparks of truth and happiness has given:</l>
+               <l n="30">With sense to feel, with memory to retain,</l>
+               <l n="31">They follow pleasure and they fly from pain;</l>
+               <l n="32">Their judgement mends the plan their fancy draws,</l>
+               <l n="33">The event presages and explores the cause.</l>
+               <l n="34">The soft returns of gratitude they know,</l>
+               <l n="35">By fraud elude, by force repel the foe;</l>
+               <l n="36">While mutual wishes, mutual woes, endear</l>
+               <l n="37">The social smile and sympathetic tear.</l>
+            </lg>
+            <lg>
+               <l n="38">Say then, through ages by what fate confined</l>
+               <l n="39">To different climes seem different souls assigned?</l>
+               <l n="40">Here measured laws and philosophic ease</l>
+               <l n="41">Fix and improve the polished arts of peace.</l>
+               <l n="42">There Industry and Gain their vigils keep,</l>
+               <l n="43">Command the winds and tame the unwilling deep.</l>
+               <l n="44">Here force and hardy deeds of blood prevail;</l>
+               <l n="45">There languid pleasure sighs in every gale.</l>
+               <l n="46">Oft o'er the trembling nations from afar</l>
+               <l n="47">Has Scythia breathed the living cloud of war;</l>
+               <l n="48">And, where the deluge burst, with sweepy sway</l>
+               <l n="49">Their arms, their kings, their gods were rolled away.</l>
+               <l n="50">As oft have issued, host impelling host,</l>
+               <l n="51">The blue-eyed myriads from the Baltic coast.</l>
+               <l n="52">The prostrate south to the destroyer yields</l>
+               <l n="53">Her boasted titles and her golden fields:</l>
+               <l n="54">With grim delight the brood of winter view</l>
+               <l n="55">A brighter day and heavens of azure hue,</l>
+               <l n="56">Scent the new fragrance of the breathing rose,</l>
+               <l n="57">And quaff the pendent vintage, as it grows.</l>
+               <l n="58">Proud of the yoke and pliant to the rod,</l>
+               <l n="59">Why yet does Asia dread a monarch's nod,</l>
+               <l n="60">While European freedom still withstands</l>
+               <l n="61">The encroaching tide, that drowns her lessening lands,</l>
+               <l n="62">And sees far off with an indignant groan</l>
+               <l n="63">Her native plains and empires once her own?</l>
+               <l n="64">Can opener skies and suns of fiercer flame</l>
+               <l n="65">O'erpower the fire that animates our frame,</l>
+               <l n="66">As lamps, that shed at even a cheerful ray,</l>
+               <l n="67">Fade and expire beneath the eye of day?</l>
+               <l n="68">Need we the influence of the northern star</l>
+               <l n="69">To string our nerves and steel our hearts to war?</l>
+               <l n="70">And, where the face of nature laughs around,</l>
+               <l n="71">Must sickening Virtue fly the tainted ground?</l>
+               <l n="72">Unmanly thought! what seasons can control,</l>
+               <l n="73">What fancied zone can circumscribe the Soul,</l>
+               <l n="74">Who, conscious of the source from whence she springs,</l>
+               <l n="75">By Reason's light on Resolution's wings,</l>
+               <l n="76">Spite of her frail companion, dauntless goes</l>
+               <l n="77">O'er Libya's deserts and through Zembla's snows?</l>
+               <l n="78">She bids each slumbering energy awake,</l>
+               <l n="79">Another touch, another temper take,</l>
+               <l n="80">Suspends the inferior laws that rule our clay:</l>
+               <l n="81">The stubborn elements confess her sway;</l>
+               <l n="82">Their little wants, their low desires, refine,</l>
+               <l n="83">And raise the mortal to a height divine.</l>
+            </lg>
+            <lg>
+               <l n="84">Not but the human fabric from the birth</l>
+               <l n="85">Imbibes a flavour of its parent earth:</l>
+               <l n="86">As various tracts enforce a various toil,</l>
+               <l n="87">The manners speak the idiom of their soil.</l>
+               <l n="88">An iron-race the mountain-cliffs maintain,</l>
+               <l n="89">Foes to the gentler genius of the plain:</l>
+               <l n="90">For where unwearied sinews must be found</l>
+               <l n="91">With sidelong plough to quell the flinty ground,</l>
+               <l n="92">To turn the torrent's swift-descending flood,</l>
+               <l n="93">To brave the savage rushing from the wood,</l>
+               <l n="94">What wonder if, to patient valour trained,</l>
+               <l n="95">They guard with spirit what by strength they gained;</l>
+               <l n="96">And while their rocky ramparts round they see,</l>
+               <l n="97">The rough abode of want and liberty,</l>
+               <l n="98">(As lawless force from confidence will grow)</l>
+               <l n="99">Insult the plenty of the vales below?</l>
+               <l n="100">What wonder in the sultry climes, that spread</l>
+               <l n="101">Where Nile redundant o'er his summer-bed</l>
+               <l n="102">From his broad bosom life and verdure flings,</l>
+               <l n="103">And broods o'er Egypt with his watery wings,</l>
+               <l n="104">If with adventurous oar and ready sail,</l>
+               <l n="105">The dusky people drive before the gale,</l>
+               <l n="106">Or on frail floats to distant cities ride,</l>
+               <l n="107">That rise and glitter o'er the ambient tide.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
