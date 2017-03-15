@@ -1,0 +1,134 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Resources" -->
+<!--#set var="youarehere" value="<li><a href=\"/\" class=\"breadcrumb\">Home</a></li><li>Resources</li>" -->
+<!--#set var="bodyid" value="resources"  -->
+<!--#set var="resources" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+    <!-- Begin page content -->
+    
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-9">
+            
+	  <section id="main">
+
+
+<div class="quote" style="margin-top:20px;"><q>I do not love notes, though you see I had resolved
+to put two or three. They are signs of weakness and obscurity. If a thing
+cannot be understood without them, it had better be not understood at
+all.</q>
+<div class="right"><cite>&mdash; <a href="/cgi-bin/display.cgi?text=tgal0273#2">Letter to Horace Walpole</a></cite>, 11 July 1757</div></div>
+
+
+<h1>Resources</h1>
+
+<p>The <em>Resources</em> section is designed to be a general
+area for secondary materials of use to readers of Gray's <a
+href="../texts/">works</a>. It offers a framework for a structured repository 
+of secondary literature for those reading, teaching, researching, and studying 
+Gray's works. It aims to provide an overview and background information on various
+aspects of Gray's life and work, and to help readers by providing an
+introduction to Gray studies in print and online. It will develop and
+expand as a workspace area incorporating the contributions, suggestions,
+and proposals received from its
+users. The <a href="mailto:huber@thomasgray.org">editor</a> welcomes
+contributions to this section and suggestions for further additions.</p>
+
+<P>The <em>Resources</em> section comprises the following categories:</P>
+<ul>
+<li><a href="findaid.shtml">Finding Aid</a>: integrated guide to Gray
+  manuscripts. Quick links:
+  <ul>
+    <li><a href="/resources/findaid.shtml#panel_overview">About</a> the Finding Aid</li>
+    <li><a href="/cgi-bin/findaid.cgi?ead=grayt.ead.0001">Show all MSS</a>
+  </ul>
+ </li>
+<li><a href="concordance.shtml">Concordance</a>: concordance to the complete
+  poems. Quick links:
+  <ul>
+    <li><a href="/cgi-bin/search.cgi?occurlist=1&amp;lang=eng">English poems</a>
+    <li><a href="/cgi-bin/search.cgi?occurlist=1&amp;lang=lat">Latin poems</a>
+  </ul>
+</li>
+<li><a href="criticism.shtml">Criticism</a>: research and teaching
+materials. Quick links:
+  <ul>
+    <li><a href="/resources/criticism.shtml#research">Research materials</a>
+    <li><a href="/resources/criticism.shtml#teaching">Teaching materials</a>
+  </ul>
+</li>
+<li><a href="bio.shtml">Biography</a>: biographical sketch</li>
+<li><a href="table.shtml">Chronology</a>: chronological table of Gray's
+life and works</li>
+<li><a href="glossary.shtml">Glossary</a>: people, places, and literary terms
+  relevant to Gray's life and works. Quick links:
+  <ul>
+    <li><a href="/resources/glnames.shtml">Personal names</a></li>
+    <li><a href="/resources/glplaces.shtml">Place names</a></li>
+    <li><a href="/resources/gllitterms.shtml">Literary terms</a></li>
+  </ul>
+</li>
+<li><a href="bib.shtml">Bibliography</a>: select bibliography of primary and
+secondary texts. Quick links:
+  <ul>
+    <li><a href="/resources/bibyr.shtml">Publications by year</a></li>
+    <li><a href="/resources/bibau.shtml">Publications by author/editor</a></li>
+  </ul>
+</li>
+<li><a href="gallery.shtml">Gallery</a>: portraits, places, illustrations,
+maps. Quick links:
+  <ul>
+    <li><a href="/resources/gport.shtml">Gray portraits</a></li>
+    <li><a href="/resources/gcirc.shtml">Gray's circle</a></li>
+    <li><a href="/resources/gplaces.shtml">Places and maps</a></li>
+    <li><a href="/resources/gmisc.shtml">Miscellaneous</a></li>
+  </ul>
+</li>
+<li><a href="links.shtml">Related Links</a>: links to related online
+resources</li>
+</ul>
+
+</section> <!-- end main section -->
+
+	</div>
+
+	<div class="col-xs-3" id="myScrollspy">
+          <nav class="affix">
+            <ul class="nav nav-stacked" data-offset-top="41" data-offset-bottom="41">
+	      <li><a href="findaid.shtml">Finding Aid</a></li>
+	      <li><a href="concordance.shtml">Concordance</a></li>
+	      <li><a href="criticism.shtml">Criticism</a></li>
+	      <li><a href="bio.shtml">Biography</a></li>
+	      <li><a href="table.shtml">Chronology</a></li>
+	      <li><a href="glossary.shtml">Glossary</a></li>
+	      <li><a href="bib.shtml">Bibliography</a></li>
+	      <li><a href="gallery.shtml">Gallery</a></li>
+	      <li><a href="links.shtml">Related Links</a></li>
+	      
+	    </ul>
+	  </nav>
+
+	</div> <!-- end highlight boxes section -->
+
+      </div>
+
+    </div>
+
+
+<script type="text/javascript">
+  var citation = "";
+  citation += "Huber, Alexander. ";
+  var citlink = 'http:\/\/<!--#echo var="HTTP_HOST" --><!--#echo
+  var="DOCUMENT_URI" -->';
+  citation += '\"Resources\". ';
+  citation +='<em>Thomas Gray Archive</em>, '+
+    '<!--#flastmod virtual="/about/index.shtml" -->'+
+    '. Web. <!--#echo var="DATE_LOCAL"
+  -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+</script>
+
+
+<!--#include virtual="/bottom.shtml" -->

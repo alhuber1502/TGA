@@ -1,0 +1,64 @@
+<form id="sitesearchform" name="search" method=GET action="/cgi-bin/search.cgi">
+
+<input type=text name="terms" id="terms" size="55" value="$cgi{terms}" required="required">
+<br>
+<br>
+<br>
+<label for="collection" class="label">Currently searching:&nbsp; </label>
+<select name="collection" id="collection">
+	<option value="poems">Poems
+	<option value="english poems" $bool_h>&nbsp; &nbsp; English poems
+	<!--
+	<option value="anthumous poems"> &nbsp; anthumous poems
+	<option value="posthumous poems"> &nbsp; posthumous poems
+	//-->
+	<option value="latin poems" $bool_y>&nbsp; &nbsp; Latin poems
+	<option value="commentary" $bool_m>Commentary
+	<option value="commentary_ta" $bool_w> &nbsp; &nbsp; textual notes/queries
+	<option value="commentary_ea" $bool_x> &nbsp; &nbsp; explanatory notes/queries
+	<!--
+	<option value="commentary_an" $bool_n>  &nbsp; all notes
+	<option value="commentary_tn" $bool_o> &nbsp; &nbsp; textual notes
+	<option value="commentary_en" $bool_p> &nbsp; &nbsp; explanatory notes
+	<option value="commentary_aq" $bool_q> &nbsp; all queries
+	<option value="commentary_tq" $bool_r> &nbsp; &nbsp; textual queries
+	<option value="commentary_eq" $bool_s> &nbsp; &nbsp; explanatory queries
+	//-->
+	<option value="prose" $bool_aa>Prose Works
+	<option value="diglib" $bool_z>Digital Library
+	<option value="primary" $bool_u>&nbsp; &nbsp; primary sources
+	<option value="secondary" $bool_v>&nbsp; &nbsp; secondary literature
+</select>
+
+
+
+
+<h3>Query Options</h3>
+
+<label class="label">Find: </label>
+<input type="radio" name="find" value="all the words" id="all" $bool_a  class="radio"/><label for="all" class="label nested">all the words</label>
+<input type="radio" name="find" value="any word" id="any" $bool_b  class="radio"/><label for="any" class="label nested">any word</label>
+<input type="radio" name="find" value="exact phrase" id="exact" $bool_c  class="radio"/><label for="exact" class="label nested">exact phrase</label>
+<br>
+<label class="label">Case: </label>
+<input type="radio" name="case" value="insensitive" id="insensitive" class="radio" $bool_d /><label for="insensitive" class="label nested">insensitive</label>
+<input type="radio" name="case" value="sensitive" id="sensitive" class="radio" $bool_e /><label for="sensitive" class="label nested">sensitive</label>
+
+<h3>Result Options</h3>
+
+<label class="label">Expanded display: </label>
+<input type="radio" name="display" value="on" id="on" class="radio" $bool_i /><label for="on" class="label nested">on</label>
+<input type="radio" name="display" value="off" id="off" class="radio" $bool_j /><label for="off" class="label nested">off</label>
+
+<br>
+<label class="label">Sort by: </label>
+<input type="radio" name="sortby" value="results" id="hits" class="radio" $bool_k />
+<label for="hits" class="label nested">number of results</label>
+<input type="radio" name="sortby" value="title" id="title" class="radio" $bool_l /><label for="title" class="label nested">title</label>
+
+
+<input class="normal submit" name="search" type=submit value="Search"> &nbsp;
+<!--
+<input class="normal reset" name="reset" type=reset value="Clear Form">
+//-->
+</form>

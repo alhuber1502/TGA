@@ -1,0 +1,66 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Error 500 - Internal Server Error" -->
+<!--#set var="youarehere" value="<li><a href=\"/\" class=\"breadcrumb\">Home</a></li><li>Error 500 - Internal Server Error</li>" -->
+<!--#set var="bodyid" value="help"  -->
+<!--#set var="help" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+    <!-- Begin page content -->
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-9">
+
+		<section id="main">
+
+	    <h1>We're sorry! HTTP error 500 - Internal Server Error.</h1>
+
+	 <h2>Description</h2>
+	 
+	 <P>The server encountered an unexpected condition, which prevented it from 
+fulfilling the request.</P>
+
+
+
+<h2>What next?</h2>
+
+<P>Please <A href="mailto:webmaster@thomasgray.org?subject=http://<!--#echo var="HTTP_HOST" -->/ error 500">report</A> 
+this error to the webmaster. You can also return to the <EM>Archive</EM> <A 
+href="http://<!--#echo var="HTTP_HOST" -->/">home page</A>, or 
+simply select a link from the top navigation to go to a 
+specific section in the <EM>Archive</EM>.</P> 
+
+
+<h2>If you can spare a few seconds...</h2>
+
+<P>Please take a few seconds to send the webmaster an <A href="mailto:webmaster@thomasgray.org?subject=http://<!--#echo var="HTTP_HOST" -->/ error 500">e-mail</A>, 
+outlining how you encountered the error. When reporting the error, please 
+be as precise as possible. Give, for example the date and time the error 
+occurred, send the URL that led to the error, send information about your 
+operating system, browser, browser version, etc. <em>Thank you!</em></P>
+
+
+
+		</section> <!-- end main section -->
+
+	</div>
+
+
+        <div class="col-xs-3" id="myScrollspy">
+          <nav class="affix">
+            <ul class="nav nav-stacked">
+	      <li><a href="/help/">Help</a></li>
+	      <li><a href="/help/faq.shtml">Frequently Asked Questions</a></li>
+	      <li><a href="/help/sitemap.shtml">Sitemap</a></li>
+	    </ul>
+	  </nav>
+	  
+	</div> <!-- end highlight boxes section -->
+
+      </div>
+
+    </div>
+
+<!--#include virtual="/bottom.shtml" -->

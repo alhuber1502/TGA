@@ -1,0 +1,721 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Texts : Letters : Browse Places" -->
+<!--#set var="youarehere" value="<li><a href=\"/\" class=\"breadcrumb\">Home</a></li><li><a href=\"/texts/\" class=\"breadcrumb\">Texts</a></li><li><a href=\"/texts/letters.shtml\" class=\"breadcrumb\">Letters</a></li><li>Browse Places</li>" -->
+<!--#set var="bodyid" value="texts"  -->
+<!--#set var="texts" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+    <!-- Begin page content -->
+    
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-9">
+            
+		<section id="main">
+
+	    <h1>Browse Places</h1>
+
+
+
+						<div id="placelist">
+						<div class="placebrowse clearfix">
+						<h3>Abbeville - Burnham</h3>
+									<ul class="placelist">
+
+										<li id="placeAbbeville"><a class="bookmark" href="#detailsAbbeville">Abbeville</a></li>
+										<li id="placeAberdeen"><a class="bookmark" href="#detailsAberdeen">Aberdeen</a></li>
+										<li id="placeAmiens"><a class="bookmark" href="#detailsAmiens">Amiens</a></li>
+										<li id="placeAndover"><a class="bookmark" href="#detailsAndover">Andover</a></li>
+										<li id="placeAston"><a class="bookmark" href="#detailsAston">Aston</a></li>
+										<li id="placeAubonne"><a class="bookmark" href="#detailsAubonne">Aubonne</a></li>
+										<li id="placeBath"><a class="bookmark" href="#detailsBath">Bath</a></li>
+										<li id="placeBern"><a class="bookmark" href="#detailsBern">Bern</a></li>
+										<li id="placeBlundeston"><a class="bookmark" href="#detailsBlundeston">Blundeston</a></li>
+										<li id="placeBologna"><a class="bookmark" href="#detailsBologna">Bologna</a></li>
+										<li id="placeBrussels"><a class="bookmark" href="#detailsBrussels">Brussels</a></li>
+										<li id="placeBurnham"><a class="bookmark" href="#detailsBurnham">Burnham</a></li>
+						</ul>
+						</div>
+						<div class="placebrowse clearfix">
+												<h3>Cambridge - Florence</h3>
+									<ul class="placelist">
+										<li id="placeCambridge"><a class="bookmark" href="#detailsCambridge">Cambridge</a></li>
+										<li id="placeChiswick"><a class="bookmark" href="#detailsChiswick">Chiswick</a></li>
+										<li id="placeDijon"><a class="bookmark" href="#detailsDijon">Dijon</a></li>
+										<li id="placeDover"><a class="bookmark" href="#detailsDover">Dover</a></li>
+										<li id="placeDurham"><a class="bookmark" href="#detailsDurham">Durham</a></li>
+										<li id="placeEpsom"><a class="bookmark" href="#detailsEpsom">Epsom</a></li>
+										<li id="placeFlorence"><a class="bookmark" href="#detailsFlorence">Florence</a></li>
+						</ul>
+												</div>
+												<div class="placebrowse clearfix">
+																		<h3>Genoa - Lyon</h3>
+									<ul class="placelist">
+										<li id="placeGenoa"><a class="bookmark" href="#detailsGenoa">Genoa</a></li>
+										<li id="placeGlamisCastle"><a class="bookmark" href="#detailsGlamisCastle">Glamis Castle</a></li>
+										<li id="placeHanover"><a class="bookmark" href="#detailsHanover">Hanover</a></li>
+										<li id="placeHornbyCastle"><a class="bookmark" href="#detailsHornbyCastle">Hornby Castle</a></li>
+										<li id="placeKingston"><a class="bookmark" href="#detailsKingston">Kingston</a></li>
+										<li id="placeLancaster"><a class="bookmark" href="#detailsLancaster">Lancaster</a></li>
+										<li id="placeLondon"><a class="bookmark" href="#detailsLondon">London</a></li>
+										<li id="placeLyon"><a class="bookmark" href="#detailsLyon">Lyon</a></li>
+						</ul>
+												</div>
+												<div class="placebrowse clearfix">
+																		<h3>Milton - Royal Tunbridge Wells</h3>
+									<ul class="placelist">
+										<li id="placeMilton"><a class="bookmark" href="#detailsMilton">Milton</a></li>
+										<li id="placeNaples"><a class="bookmark" href="#detailsNaples">Naples</a></li>
+										<li id="placeOxford"><a class="bookmark" href="#detailsOxford">Oxford</a></li>
+										<li id="placeParis"><a class="bookmark" href="#detailsParis">Paris</a></li>
+										<li id="placePisa"><a class="bookmark" href="#detailsPisa">Pisa</a></li>
+										<li id="placePopes"><a class="bookmark" href="#detailsPopes">Pope's</a></li>
+										<li id="placeReims"><a class="bookmark" href="#detailsReims">Reims</a></li>
+										<li id="placeRome"><a class="bookmark" href="#detailsRome">Rome</a></li>
+										<li id="placeRoyalTunbridgeWells"><a class="bookmark" href="#detailsRoyalTunbridgeWells">Royal Tunbridge Wells</a></li>
+
+					</ul>
+											</div>
+											<div class="placebrowse clearfix">
+																	<h3>Southampton - York</h3>
+									<ul class="placelist">
+
+										<li id="placeSouthampton"><a class="bookmark" href="#detailsSouthampton">Southampton</a></li>
+										<li id="placeSpa"><a class="bookmark" href="#detailsSpa">Spa</a></li>
+										<li id="placeStokePoges"><a class="bookmark" href="#detailsStokePoges">Stoke Poges</a></li>
+										<li id="placeStrawberryHill"><a class="bookmark" href="#detailsStrawberryHill">Strawberry Hill</a></li>
+										<li id="placeSyonHill"><a class="bookmark" href="#detailsSyonHill">Syon Hill</a></li>
+										<li id="placeTivoli"><a class="bookmark" href="#detailsTivoli">Tivoli</a></li>
+										<li id="placeTurin"><a class="bookmark" href="#detailsTurin">Turin</a></li>
+										<li id="placeVyne"><a class="bookmark" href="#detailsVyne">Vyne</a></li>
+										<li id="placeWadworth"><a class="bookmark" href="#detailsWadworth">Wadworth</a></li>
+										<li id="placeWinchester"><a class="bookmark" href="#detailsWinchester">Winchester</a></li>
+										<li id="placeYork"><a class="bookmark" href="#detailsYork">York</a></li>
+
+
+
+
+
+									</ul>
+								</div>
+
+								</div>
+
+									<div id="placedetails">
+						<div id="detailsAbbeville" class="placesummary clearfix">
+						<h3 id="Abbeville%20%28Somme%2C%20Picardy%2C%20France%29%2C%20inhabited%20place%20%5B7010587%5D">
+						Abbeville (Somme, Picardy, France), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7010587">[7010587]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Abbeville">1 letter</a> is known to be associated with this place.</p>
+
+
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/abbeville.shtml" --></div>
+						</div>
+
+
+						<div id="detailsAberdeen" class="placesummary clearfix">
+						<h3 id="Aberdeen%20%28Aberdeen%2C%20Scotland%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7009782%5D">
+						Aberdeen (Aberdeen, Scotland, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7009782">[7009782]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Aberdeen">5 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/aberdeen.shtml" --></div>
+						</div>
+
+
+						<div id="detailsAmiens" class="placesummary clearfix">
+						<h3 id="Amiens%20%28Somme%2C%20Picardy%2C%20France%29%2C%20inhabited%20place%20%5B7010588%5D">
+						Amiens (Somme, Picardy, France), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7010588">[7010588]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Amiens">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/amiens.shtml" --></div>
+						</div>
+
+
+						<div id="detailsAndover" class="placesummary clearfix">
+						<h3 id="Andover%20%28Hampshire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011400%5D">
+						Andover (Hampshire, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011400">[7011400]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Andover">2 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/andover.shtml" --></div>
+						</div>
+
+
+						<div id="detailsAston" class="placesummary clearfix">
+						<h3 id="Aston%20%28Rotherham%2C%20South%20Yorkshire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7029839%5D">
+						Aston (Rotherham, South Yorkshire, England, United Kingdom), inhabited
+						place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7029839">[7029839]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Aston">12 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/aston.shtml" --></div>
+						</div>
+
+
+						<div id="detailsAubonne" class="placesummary clearfix">
+						<h3 id="Aubonne%20%28Vaud%2C%20Switzerland%29%2C%20inhabited%20place%20%5B7007297%5D">
+						Aubonne (Vaud, Switzerland), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7007297">[7007297]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Aubonne">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/aubonne.shtml" --></div>
+						</div>
+
+
+						<div id="detailsBath" class="placesummary clearfix">
+						<h3 id="Bath%20%28Bath%20and%20Northeast%20Somerset%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011197%5D">
+						Bath (Bath and Northeast Somerset, England, United Kingdom), inhabited
+						place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011197">[7011197]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Bath">3 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/bath.shtml" --></div>
+						</div>
+
+
+						<div id="detailsBern" class="placesummary clearfix">
+						<h3 id="Bern%20%28Bern%20canton%2C%20Switzerland%29%2C%20inhabited%20place%20%5B7007557%5D">
+						Bern (Bern canton, Switzerland), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7007557">[7007557]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Bern">4 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/bern.shtml" --></div>
+						</div>
+
+
+						<div id="detailsBlundeston" class="placesummary clearfix">
+						<h3 id="Blundeston%20%28Suffolk%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place">
+						Blundeston (Suffolk, England, United Kingdom), inhabited place
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Blundeston">10 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/blundeston.shtml" --></div>
+						</div>
+
+
+						<div id="detailsBologna" class="placesummary clearfix">
+						<h3 id="Bologna%20%28Bologna%20province%2C%20Emilia-Romagna%2C%20Italy%29%2C%20inhabited%20place%20%5B7004847%5D">
+						Bologna (Bologna province, Emilia-Romagna, Italy), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7004847">[7004847]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Bologna">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/bologna.shtml" --></div>
+						</div>
+
+
+						<div id="detailsBrussels" class="placesummary clearfix">
+						<h3 id="Brussels%20%28Bruxelles%20region%2C%20Belgium%29%2C%20inhabited%20place%20%5B7007868%5D">
+						Brussels (Bruxelles region, Belgium), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7007868">[7007868]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Brussels">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/brussels.shtml" --></div>
+						</div>
+
+
+						<div id="detailsBurnham" class="placesummary clearfix">
+						<h3 id="Burnham%20%28Buckinghamshire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7026497%5D">
+						Burnham (Buckinghamshire, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7026497">[7026497]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Burnham">3 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/burnham.shtml" --></div>
+						</div>
+
+
+						<div id="detailsCambridge" class="placesummary clearfix">
+						<h3 id="Cambridge%20%28Cambridgeshire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7010874%5D">
+						Cambridge (Cambridgeshire, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7010874">[7010874]</a>
+						| see <a href="/resources/gplaces.shtml#c0001">gallery</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Cambridge">270 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/cambridge.shtml" --></div>
+						</div>
+
+
+						<div id="detailsChiswick" class="placesummary clearfix">
+						<h3 id="Chiswick%20%28Hounslow%2C%20Greater%20London%2C%20England%2C%20United%20Kingdom%29%2C%20neighborhood%20%5B1004281%5D">
+						Chiswick (Hounslow, Greater London, England, United Kingdom),
+						neighborhood
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=1004281">[1004281]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Chiswick">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/chiswick.shtml" --></div>
+						</div>
+
+
+						<div id="detailsDijon" class="placesummary clearfix">
+						<h3 id="Dijon%20%28C&ocirc;te-d'Or%2C%20Burgundy%20region%2C%20France%29%2C%20inhabited%20place%20%5B7008224%5D">
+						Dijon (C&ocirc;te-d'Or, Burgundy region, France), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7008224">[7008224]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Dijon">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/dijon.shtml" --></div>
+						</div>
+
+
+						<div id="detailsDover" class="placesummary clearfix">
+						<h3 id="Dover%20%28Kent%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011554%5D">
+						Dover (Kent, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011554">[7011554]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Dover">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/dover.shtml" --></div>
+						</div>
+
+
+						<div id="detailsDurham" class="placesummary clearfix">
+						<h3 id="Durham%20%28England%2C%20United%20Kingdom%29%2C%20county%20%5B7008127%5D">
+						Durham (England, United Kingdom), county
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7008127">[7008127]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Durham">14 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/durham.shtml" --></div>
+						</div>
+
+
+						<div id="detailsEpsom" class="placesummary clearfix">
+						<h3 id="Epsom%20%28Surrey%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011734%5D">
+						Epsom (Surrey, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011734">[7011734]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Epsom">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/epsom.shtml" --></div>
+						</div>
+
+
+						<div id="detailsFlorence" class="placesummary clearfix">
+						<h3 id="Florence%20%28Firenze%20province%2C%20Tuscany%2C%20Italy%29%2C%20inhabited%20place%20%5B7000457%5D">
+						Florence (Firenze province, Tuscany, Italy), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7000457">[7000457]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Florence">14 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/florence.shtml" --></div>
+						</div>
+
+
+						<div id="detailsGenoa" class="placesummary clearfix">
+						<h3 id="Genoa%20%28Genova%20province%2C%20Liguria%2C%20Italy%29%2C%20inhabited%20place%20%5B7008546%5D">
+						Genoa (Genova province, Liguria, Italy), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7008546">[7008546]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Genoa">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/genoa.shtml" --></div>
+						</div>
+
+
+						<div id="detailsGlamisCastle" class="placesummary clearfix">
+						<h3 id="Glamis%20Castle%20%28Angus%2C%20Scotland%2C%20United%20Kingdom%29%2C%20castle%20%5B1100274%5D">
+						Glamis Castle (Angus, Scotland, United Kingdom), castle
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=1100274">[1100274]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Glamis">3 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/glamisCastle.shtml" --></div>
+						</div>
+
+
+						<div id="detailsHanover" class="placesummary clearfix">
+						<h3 id="Hanover%20%28Hannover%20district%2C%20Lower%20Saxony%2C%20Germany%29%2C%20inhabited%20place%20%5B7013260%5D">
+						Hanover (Hannover district, Lower Saxony, Germany), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7013260">[7013260]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Hanover">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/hanover.shtml" --></div>
+						</div>
+
+
+						<div id="detailsHornbyCastle" class="placesummary clearfix">
+						<h3 id="Hornby%20Castle%20%28North%20Yorkshire%2C%20England%2C%20United%20Kingdom%29%2C%20castle">
+						Hornby Castle (North Yorkshire, England, United Kingdom), castle
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Hornby">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/hornbyCastle.shtml" --></div>
+						</div>
+
+
+						<div id="detailsKingston" class="placesummary clearfix">
+						<h3 id="Kingston-Upon-Hull%20%28Kingston%20upon%20Hull%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7010370%5D">
+						Kingston-Upon-Hull (Kingston upon Hull, England, United Kingdom),
+						inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7010370">[7010370]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Kingston">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/kingston.shtml" --></div>
+						</div>
+
+
+						<div id="detailsLancaster" class="placesummary clearfix">
+						<h3 id="Lancaster%20%28Lancashire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7010393%5D">
+						Lancaster (Lancashire, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7010393">[7010393]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Lancaster">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/lancaster.shtml" --></div>
+						</div>
+
+
+						<div id="detailsLondon" class="placesummary clearfix">
+						<h3 id="London%20%28Greater%20London%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011781%5D">
+						London (Greater London, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011781">[7011781]</a>
+						| see <a href="/resources/gplaces.shtml#l0001">gallery</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=London">155 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/london.shtml" --></div>
+						</div>
+
+
+						<div id="detailsLyon" class="placesummary clearfix">
+						<h3 id="Lyon%20%28Rh&ocirc;ne%2C%20Rh&ocirc;ne-Alpes%2C%20France%29%2C%20inhabited%20place%20%5B7008772%5D">
+						Lyon (Rh&ocirc;ne, Rh&ocirc;ne-Alpes, France), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7008772">[7008772]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Lyon">3 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/lyon.shtml" --></div>
+						</div>
+
+
+						<div id="detailsMilton" class="placesummary clearfix">
+						<h3 id="Milton%20%28Cambridgeshire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B1030066%5D">
+						Milton (Cambridgeshire, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=1030066">[1030066]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Milton">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/milton.shtml" --></div>
+						</div>
+
+
+						<div id="detailsNaples" class="placesummary clearfix">
+						<h3 id="Naples%20%28Napoli%20province%2C%20Campania%2C%20Italy%29%2C%20inhabited%20place%20%5B7004474%5D">
+						Naples (Napoli province, Campania, Italy), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7004474">[7004474]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Naples">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/naples.shtml" --></div>
+						</div>
+
+
+						<div id="detailsOxford" class="placesummary clearfix">
+						<h3 id="Oxford%20%28Oxfordshire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011931%5D">
+						Oxford (Oxfordshire, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011931">[7011931]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Oxford">7 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/oxford.shtml" --></div>
+						</div>
+
+
+						<div id="detailsParis" class="placesummary clearfix">
+						<h3 id="Paris%20%28Ville%20de%20Paris%20department%2C%20Ile-de-France%2C%20France%29%2C%20inhabited%20place%20%5B7008038%5D">
+						Paris (Ville de Paris department, Ile-de-France, France), inhabited
+						place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7008038">[7008038]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Paris">12 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/paris.shtml" --></div>
+						</div>
+
+
+						<div id="detailsPisa" class="placesummary clearfix">
+						<h3 id="Pisa%20%28Pisa%20province%2C%20Tuscany%2C%20Italy%29%2C%20inhabited%20place%20%5B7006082%5D">
+						Pisa (Pisa province, Tuscany, Italy), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7006082">[7006082]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Pisa">2 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/pisa.shtml" --></div>
+						</div>
+
+
+						<div id="detailsPopes" class="placesummary clearfix">
+						<h3 id="Pope's%20%28Hatfield%2C%20Hertfordshire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place">
+						Pope's (Hatfield, Hertfordshire, England, United Kingdom), inhabited place
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Pope's">5 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/popes.shtml" --></div>
+						</div>
+
+
+						<div id="detailsReims" class="placesummary clearfix">
+						<h3 id="Reims%20%28Marne%2C%20Champagne-Ardenne%2C%20France%29%2C%20inhabited%20place%20%5B7011060%5D">
+						Reims (Marne, Champagne-Ardenne, France), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011060">[7011060]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Reims">4 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/reims.shtml" --></div>
+						</div>
+
+
+						<div id="detailsRome" class="placesummary clearfix">
+						<h3 id="Rome%20%28Roma%20province%2C%20Lazio%2C%20Italy%29%2C%20inhabited%20place%20%5B7000874%5D">
+						Rome (Roma province, Lazio, Italy), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7000874">[7000874]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Rome">5 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/rome.shtml" --></div>
+						</div>
+
+
+						<div id="detailsRoyalTunbridgeWells" class="placesummary clearfix">
+						<h3 id="Royal%20Tunbridge%20Wells%20%28Kent%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011676%5D">
+						Royal Tunbridge Wells (Kent, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011676">[7011676]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Royal">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/royalTunbridgeWells.shtml" --></div>
+						</div>
+
+
+						<div id="detailsSouthampton" class="placesummary clearfix">
+						<h3 id="Southampton%20%28Southampton%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011385%5D">
+						Southampton (Southampton, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011385">[7011385]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Southampton">2 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/southampton.shtml" --></div>
+						</div>
+
+
+						<div id="detailsSpa" class="placesummary clearfix">
+						<h3 id="Spa%20%28Lihge%20province%2C%20Wallonia%2C%20Belgium%29%2C%20inhabited%20place%20%5B7007991%5D">
+						Spa (Lihge province, Wallonia, Belgium), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7007991">[7007991]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Spa">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/spa.shtml" --></div>
+						</div>
+
+
+						<div id="detailsStokePoges" class="placesummary clearfix">
+						<h3 id="Stoke%20Poges%20%28Buckinghamshire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011896%5D">
+						Stoke Poges (Buckinghamshire, England, United Kingdom), inhabited
+						place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011896">[7011896]</a>
+						| see <a href="/resources/gplaces.shtml#s0001">gallery</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Stoke">74 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/stokePoges.shtml" --></div>
+						</div>
+
+
+						<div id="detailsStrawberryHill" class="placesummary clearfix">
+						<h3 id="Strawberry%20Hill%20%28Richmond%20upon%20Thames%2C%20Greater%20London%2C%20England%2C%20United%20Kingdom%29%2C%20neighborhood%20%5B4010855%5D">
+						Strawberry Hill (Richmond upon Thames, Greater London, England, United
+						Kingdom), neighborhood
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=4010855">[4010855]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Strawberry">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/strawberryHill.shtml" --></div>
+						</div>
+
+
+						<div id="detailsSyonHill" class="placesummary clearfix">
+						<h3 id="Syon%20Hill%20%28Isleworth%2C%20Hounslow%2C%20Greater%20London%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place">
+						Syon Hill (Isleworth, Hounslow, Greater London, England, United
+						Kingdom), inhabited place
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Syon">2 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/syonHill.shtml" --></div>
+						</div>
+
+
+						<div id="detailsTivoli" class="placesummary clearfix">
+						<h3 id="Tivoli%20%28Roma%20province%2C%20Lazio%2C%20Italy%29%2C%20inhabited%20place%20%5B7006968%5D">
+						Tivoli (Roma province, Lazio, Italy), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7006968">[7006968]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Tivoli">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/tivoli.shtml" --></div>
+						</div>
+
+
+						<div id="detailsTurin" class="placesummary clearfix">
+						<h3 id="Turin%20%28Torino%20province%2C%20Piedmont%2C%20Italy%29%2C%20inhabited%20place%20%5B7005688%5D">
+						Turin (Torino province, Piedmont, Italy), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7005688">[7005688]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Turin">2 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/turin.shtml" --></div>
+						</div>
+
+
+						<div id="detailsVyne" class="placesummary clearfix">
+						<h3 id="Vyne%2C%20The%20%28Hampshire%2C%20England%2C%20United%20Kingdom%29%2C%20country%20house">
+						The Vyne (Hampshire, England, United Kingdom), country house
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Vyne">5 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/vyne.shtml" --></div>
+						</div>
+
+
+						<div id="detailsWadworth" class="placesummary clearfix">
+						<h3 id="Wadworth%20%28Doncaster%20unitary%20authority%2C%20South%20Yorkshire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7030631%5D">
+						Wadworth (Doncaster unitary authority, South Yorkshire, England,
+						United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7030631">[7030631]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Wadworth">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/wadworth.shtml" --></div>
+						</div>
+
+
+						<div id="detailsWinchester" class="placesummary clearfix">
+						<h3 id="Winchester%20%28Hampshire%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011375%5D">
+						Winchester (Hampshire, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011375">[7011375]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=Winchester">1 letter</a> is known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/winchester.shtml" --></div>
+						</div>
+
+
+						<div id="detailsYork" class="placesummary clearfix">
+						<h3 id="York%20%28York%2C%20England%2C%20United%20Kingdom%29%2C%20inhabited%20place%20%5B7011995%5D">
+						York (York, England, United Kingdom), inhabited place
+						<a class="external" target="_blank" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=7011995">[7011995]</a>
+
+						</h3>
+						<p><a href="/cgi-bin/display.cgi?collection=letters&amp;placelet=York">7 letters</a> are known to be associated with this place.</p>
+						<h4>From the <a href="/resources/glplaces.shtml">Glossary of Place Names</a>:</h4>
+<div class="placedetails"><!--#include virtual="/resources/glossary/glplaces/york.shtml" --></div>
+						</div>
+						</div>
+
+
+
+
+
+
+
+
+
+
+		</section> <!-- end main section -->
+
+        </div>
+
+
+        <div class="col-xs-3" id="myScrollspy">
+          <nav class="affix">
+            <ul class="nav nav-stacked">
+
+<!--#include virtual="/texts/letters/lettersnav.shtml" -->
+            </ul>
+          </nav>
+
+        </div> <!-- end highlight boxes section -->
+
+      </div>
+      
+    </div>
+
+<script type="text/javascript">
+  var citation = "";
+  citation += "Huber, Alexander. ";
+  var citlink = 'http:\/\/<!--#echo var="HTTP_HOST" --><!--#echo
+  var="DOCUMENT_URI" -->';
+  citation += '\"Places\". ';
+  citation +='<em>Thomas Gray Archive</em>, '+
+    '<!--#flastmod virtual="/about/index.shtml" -->'+
+    '. Web. <!--#echo var="DATE_LOCAL"
+  -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+</script>
+
+
+<!--#include virtual="/bottom.shtml" -->

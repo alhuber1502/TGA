@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-mss.0046"
+             identifier="grayt.ead.0001-mss.0046">grayt.ead.0001-mss.0046</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-mss.0046#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.poems</unitid>
+               <unittitle id="mss.poems">Poems</unittitle>
+               <unitdate normal="1725/1771" certainty="circa">[ca.
+										1725]-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="work">poems.elcc</unitid>
+                  <unittitle type="uniform" label="Uniform Title:">
+                     <title render="doublequote" linktype="simple">Elegy Written in a Country
+							Churchyard</title>
+                  </unittitle>
+                  <unittitle label="First Line:">
+                     <title linktype="simple">The curfew tolls the knell of parting day,</title>
+                  </unittitle>
+                  <unitdate normal="1751" era="ce" calendar="gregorian">1751</unitdate>
+               </did>
+               <bibliography>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#S/H_1966"
+                          linktype="simple">Starr/Hendrickson (eds.), <title render="italic" linktype="simple">Complete Poems</title> (1966),  37-43</bibref>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#LoR_1969"
+                          linktype="simple">Lonsdale (ed.), <title render="italic" linktype="simple">Poems</title> (1969),  103-141</bibref>
+               </bibliography>
+               <scopecontent>
+                  <p>Begun <extref href="http://www.thomasgray.org/resources/table.shtml#1745"
+                             show="replace"
+                             linktype="simple">
+                        <date normal="1745" certainty="circa" era="ce" calendar="gregorian">c. 1745</date>
+                     </extref> and completed
+							<extref href="http://www.thomasgray.org/resources/table.shtml#1750"
+                             show="replace"
+                             linktype="simple">
+                        <date normal="175006" era="ce" calendar="gregorian">early in June 1750</date>
+                     </extref> at <extref href="http://www.thomasgray.org/resources/glplaces.shtml#Stoke Poges (Buckinghamshire, England, United         Kingdom), inhabited place [7011896]"
+                             show="replace"
+                             linktype="simple">
+                        <geogname normal="Stoke Poges (Buckinghamshire, England, United Kingdom),          inhabited place [7011896]">Stoke Poges</geogname>
+                     </extref>. 
+							<persname normal="Gray, Thomas, 1716-1771">Gray</persname> sent the poem
+							in a <extref href="http://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0173"
+                             show="replace"
+                             linktype="simple">letter</extref> to
+							<extref href="http://www.thomasgray.org/resources/glnames.shtml#Walpole, Horace, 1717-1797"
+                             show="replace"
+                             linktype="simple">
+                        <persname normal="Walpole, Horace, 1717-1797">Horace
+									Walpole</persname>
+                     </extref> dated <date normal="17500612" era="ce" calendar="gregorian">12 June 1750</date>.
+							First published, as <extref href="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=1751"
+                             show="replace"
+                             linktype="simple">
+                        <title render="doublequote" linktype="simple">An Elegy wrote in a Country Church
+									Yard</title>
+                     </extref> and printed by <extref href="http://www.thomasgray.org/resources/glnames.shtml#Dodsley, Robert, 1703-1764"
+                             show="replace"
+                             linktype="simple">
+                        <persname normal="Dodsley, Robert, 1703-1764">Dodsley</persname>
+                     </extref>, in <date normal="1751" type="publication" era="ce" calendar="gregorian">1751</date>.
+						</p>
+               </scopecontent>
+               <c03 level="item">
+                  <did>
+                     <unitid type="TGA">mss.0046</unitid>
+                     <unitid type="work">poems.elcc</unitid>
+                     <unittitle label="Title:">
+                        <title linktype="simple">[untitled]</title>
+                     </unittitle>
+                     <unitdate normal="17680201"
+                               certainty="circa"
+                               era="ce"
+                               calendar="gregorian">[1?] February 1768</unitdate>
+                     <physdesc>
+                        <extent unit="page">1</extent>
+                        <physfacet>autograph, partial [notes only]</physfacet>
+                        <dimensions>324 mm x 200 mm</dimensions>
+                     </physdesc>
+                     <physloc label="Identifier:">
+                        <extref href="http://searcharchives.bl.uk/primo_library/libweb/action/search.do?vl%28freeText0%29=Add.+MS+38511&amp;fn=search"
+                                show="new"
+                                linktype="simple">Add. MS 38511</extref>, f. 7r </physloc>
+                     <physloc label="Collection:"> Manuscripts Collection </physloc>
+                     <repository>BLUK</repository>
+                     <note>
+                        <p>MS catalogued by <persname normal="Huber, Alexander">Alexander 
+									Huber</persname> in Manuscripts, British Library, on <date normal="20061104" era="ce" calendar="gregorian">04/11/2006</date>.</p>
+                     </note>
+                  </did>
+                  <bibliography>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SmM_1989"
+                             linktype="simple">Smith (ed.), <title render="italic" linktype="simple">Index</title> (1989), item GrT 35, 
+								82</bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Autograph notes to the poem, untitled but numbered 10. and identified
+								on f. 3r as "10. Elegy, written in a country-churchyard" in MS
+								instructions to <extref href="http://www.thomasgray.org/resources/glnames.shtml#Dodsley, James, 1724-1797"
+                                show="replace"
+                                linktype="simple">
+                           <persname normal="Dodsley, James, 1724-1797">Dodsley</persname>
+                        </extref> for the <extref href="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=1768"
+                                show="replace"
+                                linktype="simple">
+                           <date normal="1768" type="publication" era="ce" calendar="gregorian">1768</date>
+                           <geogname normal="London (Greater London, England, United Kingdom),            inhabited place [7011781]">London</geogname> edition</extref>, sent in a <extref href="http://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0521"
+                                show="replace"
+                                linktype="simple">letter</extref>, <date normal="17680201"
+                              certainty="circa"
+                              era="ce"
+                              calendar="gregorian">[1?] February
+													1768</date>. The notes were first published in the poem's version
+								in <extref href="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=1768&amp;text=elcc"
+                                show="replace"
+                                linktype="simple">
+                           <title render="italic" linktype="simple">Poems</title>
+                        </extref> (<date normal="1768" type="publication" era="ce" calendar="gregorian">1768</date>).
+							</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

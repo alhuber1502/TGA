@@ -1,0 +1,137 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Help : FAQ" -->
+<!--#set var="youarehere" value="<li><a href=\"/\" class=\"breadcrumb\">Home</a></li><li><a href=\"/help/\" class=\"breadcrumb\">Help</a></li><li>FAQ</li>" -->
+<!--#set var="bodyid" value="help"  -->
+<!--#set var="help" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+    <!-- Begin page content -->
+    
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12">
+           
+		<section id="main">
+
+
+
+<h1>Frequently Asked Questions (FAQ)</h1>
+
+<p>Please note, if you cannot find
+the answer to your question here, please do not hesitate to <a
+href="mailto:help@thomasgray.org">e-mail</a> for further assistance.</p>
+
+
+<ol>
+<li><a href="#whatis">What is the <em>Thomas Gray Archive</em>?</a></li>
+<li><a href="#special">What is the <em>Archive's</em> purpose?</a></li>
+<li><a href="#director">Who directs the <em>Archive</em>?</a></li>
+<li><a href="#start">Where do I start?</a></li>
+<li><a href="#research">Will you help me with my homework or research?</a></li>
+<li><a href="#estimate">Can you estimate the value of a Gray book I
+own?</a></li>
+<li><a href="#cite">How do I cite material from the <em>Archive?</em></a></li>
+</ol>
+
+
+<h2 id="whatis">1. What is the <em>Thomas Gray Archive</em>?</h2>
+
+<p>The <em>Thomas Gray Archive</em> is a collaborative digital archive
+  devoted to the eighteenth-century poet, letter-writer, and scholar Thomas Gray (1716-1771). It is intended as a learning, teaching, and research tool for Gray
+studies. It aims at contributing to Gray scholarship by applying good practice
+in the creation and presentation of its primary texts and secondary materials.
+The <em>Thomas Gray Archive</em> is 
+<em>not</em> a physical archive in the sense the term is used by the
+professional archiving community, it exists as an educational online resource, solely intended for teaching, research, and study (<a href="./#gen">more
+information</a>).
+</p>
+
+<h2 id="special">2. What is the <em>Archive's</em> purpose?</h2>
+
+<p>The <em>Archive</em> is committed to providing scholars, teachers, and
+students of Gray's works with as large and as reliable a corpus of the
+works and secondary materials as possible, drawing on the resources of
+libraries, archives, and collections from around the world. It is developing an
+online environment that is easy-to-use, standards-based, open access, 
+and CC licensed. The <em>Archive</em> will provide users with assistance and
+guidance on the use of the Website and its resources.</p>
+
+<h2  id="director">3. Who directs the <em>Archive</em>?</h2>
+
+<p>The <em>Thomas Gray Archive</em> was co-founded by Reimer Eck
+  (Associate Director, Göttingen State and University Library) and
+  Alexander Huber (Bodleian Libraries, Oxford) who is also its editor. Please see
+  the <a href="/about/#contact">contact information</a> on how to get
+  in touch.</p> 
+
+<h2  id="start">4. Where do I start?</h2>
+
+<p>This largely depends on the kind of information you are looking for.
+If you want to find out about Gray's poetry, letters, or prose works, need to
+analyse a poem, or conduct research on particular topics in Gray's works, the
+<a  href="/texts/"><em>Texts</em></a> section is the place to start.
+It offers complete lists of titles and first lines to access the poems, a calendar of Gray's letters, including some digitised images of manuscripts, selected prose works, and a digital library of primary sources. On the other hand,
+if you need background information, e.g. about Gray's life, but also about
+Gray scholarship, archival resources, and related Websites, the <A
+href="/resources/"><em>Resources</em></a> section is the best place to
+start. It offers a finding aid to manuscripts, a concordance, a criticism section, a biographical sketch, a chronology of
+Gray's life and works, a glossary of names and terms, as well as a Gray
+bibliography, a picture gallery, and related links. All of these sections are
+heavily cross-linked, so that there is really more than one way of discovering
+the resources in the <em>Archive</em>. If all else fails, you can always <a href="/search/">search</a> the <em>Archive's</em> resources.</p>
+
+<h2 id="research">5. Will you help me with my homework or research?</h2>
+
+<p>We are not a research service and cannot answer specific questions or
+find materials for you. Nor can we answer questions relating to homework
+topics. We are, however, committed to assisting you in using the
+<em>Archive</em> and finding information located in its resources. Please
+consider the <a href="/resources/bib.shtml">select bibliography</a> of
+print materials and the list of <a href="/resources/links.shtml">related Web
+sites</a> as additional starting points for research or homework.</p>
+
+<h2  id="estimate">6. Can you estimate the value of a Gray book I
+own?</h2>
+
+<p>Sorry, but we cannot provide this kind of service. You might try
+contacting local antiquarian booksellers specializing in English
+literature or an appraiser at the <a href="http://www.ilab.org/"
+target="_blank" class="external">International League of Antiquarian
+Booksellers</a> for an estimate of the book. You could also try to
+contact a subject librarian at a research or university library if you
+want to donate a rare or out-of-print book.</p>
+
+<h2  id="cite">7. How do I cite material from the <em>Archive?</em></h2>
+
+<p>If you want to reference the <em>Archive</em> as a source for your
+work, please do include the <em>Archive's</em> full title, its editor, its
+URL, and the date you accessed it. When citing the <em>Archive</em> as a
+whole, please use this example (<abbr>MLA</abbr> style):</p>
+
+<p>Huber, Alexander, ed. <em>Thomas Gray Archive</em>. Thomas Gray Archive,
+<!--#config timefmt="%d %b %Y" -->
+<!--#flastmod virtual="/about/index.shtml" -->. Web.
+<!--#echo var="DATE_GMT" -->.
+&lt;http://www.thomasgray.org/&gt;.
+</p>
+
+</section> <!-- end main section -->
+        </div>
+      </div>
+    </div>
+
+<script type="text/javascript">
+  var citation = "";
+  citation += "Huber, Alexander. ";
+  var citlink = 'http:\/\/<!--#echo var="HTTP_HOST" --><!--#echo
+  var="DOCUMENT_URI" -->';
+  citation += '\"Help: FAQ\". ';
+  citation +='<em>Thomas Gray Archive</em>, '+
+    '<!--#flastmod virtual="/about/index.shtml" -->'+
+    '. Web. <!--#echo var="DATE_LOCAL"
+  -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+</script>
+
+<!--#include virtual="/bottom.shtml" -->

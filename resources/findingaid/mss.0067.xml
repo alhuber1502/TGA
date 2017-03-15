@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-mss.0067"
+             identifier="grayt.ead.0001-mss.0067">grayt.ead.0001-mss.0067</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-mss.0067#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.poems</unitid>
+               <unittitle id="mss.poems">Poems</unittitle>
+               <unitdate normal="1725/1771" certainty="circa">[ca.
+										1725]-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="work">poems.fsio</unitid>
+                  <unittitle type="uniform" label="Uniform Title:">
+                     <title render="doublequote" linktype="simple">The Fatal Sisters</title>
+                  </unittitle>
+                  <unittitle label="First Line:">
+                     <title linktype="simple">Now the storm begins to lower,</title>
+                  </unittitle>
+                  <unitdate normal="1768" era="ce" calendar="gregorian">1768</unitdate>
+               </did>
+               <bibliography>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#S/H_1966"
+                          linktype="simple">Starr/Hendrickson (eds.), <title render="italic" linktype="simple">Complete Poems</title> (1966),  27-31</bibref>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#LoR_1969"
+                          linktype="simple">Lonsdale (ed.), <title render="italic" linktype="simple">Poems</title> (1969),  210-220</bibref>
+               </bibliography>
+               <scopecontent>
+                  <p>Written at <extref href="http://www.thomasgray.org/resources/glplaces.shtml#London (Greater London, England, United Kingdom),        inhabited place [7011781]"
+                             show="replace"
+                             linktype="simple">
+                        <geogname normal="London (Greater London, England, United Kingdom),         inhabited place [7011781]">London</geogname>
+                     </extref> not later than 
+							<extref href="http://www.thomasgray.org/resources/table.shtml#1761"
+                             show="replace"
+                             linktype="simple">
+                        <date normal="176105"
+                              certainty="before"
+                              era="ce"
+                              calendar="gregorian">the beginning of
+									May 1761</date>
+                     </extref>, 
+							based largely on a Latin translation
+							of the original poem preserved in the late 13th-century <title render="italic" linktype="simple">Njáls Saga</title>, ch. 157. This untitled Old
+							Norse poem is a prophetic account of the Battle of Clontarf, fought on 
+							<date normal="10140423" era="ce" calendar="gregorian">Good Friday 1014</date>.
+							First published in <extref href="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=1768&amp;text=fsio"
+                             show="replace"
+                             linktype="simple">
+                        <title render="italic" linktype="simple">Poems</title>
+                     </extref> (<date normal="1768" type="publication" era="ce" calendar="gregorian">1768</date>).
+						</p>
+               </scopecontent>
+               <c03 level="item">
+                  <did>
+                     <unitid type="TGA">mss.0067</unitid>
+                     <unitid type="work">poems.fsio</unitid>
+                     <unittitle label="Title:">
+                        <title linktype="simple">[untitled]</title>
+                     </unittitle>
+                     <unitdate normal="1761" certainty="circa" era="ce" calendar="gregorian">[1761?]</unitdate>
+                     <physdesc>
+                        <extent unit="page">1</extent>
+                        <physfacet>autograph draft, partial [preface only]</physfacet>
+                     </physdesc>
+                     <physloc label="Identifier:">
+                        <title render="italic" linktype="simple">Commonplace Book</title>, Vol. III,
+								1041 </physloc>
+                     <physloc label="Building:"> College Library </physloc>
+                     <repository>PBCC</repository>
+                  </did>
+                  <altformavail>
+                     <p>Microfilm copy available in <bibref title="http://www.thomasgray.org/resources/biblp.shtml#MeP_1991"
+                                linktype="simple">
+                           <title render="italic" linktype="simple">Poetic Commonplace Books and Manuscripts of Thomas Gray, 1716-1771, from Pembroke College, Cambridge</title> (1999),
+								reel one</bibref>
+                     </p>
+                  </altformavail>
+                  <bibliography>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SmM_1989"
+                             linktype="simple">Smith (ed.), <title render="italic" linktype="simple">Index</title> (1989), item GrT 53,  84</bibref>
+                     <bibref title="http://www.thomasgray.org/resources/biblp.shtml#MeP_1999"
+                             linktype="simple">
+                        <title render="italic" linktype="simple">Poetic C.
+								B.</title>, Pembroke College (1999),  30</bibref>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#MnR_1931"
+                             linktype="simple">Martin, <title render="italic" linktype="simple">Chronologie</title> (1931),  147</bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Autograph draft of the "Preface", here untitled but under
+								the heading "Gothi", beginning "About the year 1029
+								Sigurd, Earl of the Orkney-Islands...", in 
+								<persname normal="Gray, Thomas, 1716-1771" source="lcnaf">Gray</persname>'s <title render="italic" linktype="simple">Commonplace Book</title>, vol. III,  1041.
+							</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

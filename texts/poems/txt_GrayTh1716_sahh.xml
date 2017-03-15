@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title corresp="authors.xml#txt_GrayTh1716_sahh">Satire on the Heads of Houses; or, Never a Barrel the Better Herring</title>
+            <author corresp="authors.xml#aut_GrayTh1716">Gray, Thomas, 1716-1771</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="SUB">Göttingen State and University Library, University of Göttingen</name>
+               <address>
+                  <addrLine>Historic Building</addrLine>
+                  <addrLine>Papendiek 14</addrLine>
+                  <addrLine>D-37073 Göttingen</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Bodleian Libraries</addrLine>
+               <addrLine>Osney One Bldg.</addrLine>
+               <addrLine>Osney Mead</addrLine>
+               <addrLine>Oxford OX2 0EW</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@thomasgray.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="http://www.thomasgray.org/">http://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>1884</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>
+								Spelling has been modernized throughout, except in case of conscious archaisms. 
+								Contractions, italics and initial capitalization have been largely eliminated, 
+								except where of real import. Obvious errors have been silently corrected, 
+								punctuation has been supplied. 
+							
+						The editor would like to express his gratitude to the library staff of the
+						<ref target="http://www.sub.uni-goettingen.de/" rend="newWindow">Göttingen State and 
+							University Library (SUB Göttingen)</ref> for their invaluable assistance.
+						</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem"
+              xml:id="txt_GrayTh1716_sahh"
+              corresp="authors.xml#txt_GrayTh1716_sahh"
+              subtype="eceptext"
+              rendition="#lgindent"
+              rhyme="aa"
+              met="--+|--+/"
+              n="6"
+              ana="#anapaest #hypercatalexis #catalexis #dimeter #couplet">
+            <link type="author" target="authors.xml#aut_GrayTh1716"/>
+            <head>Satire on the Heads of Houses; or, Never a Barrel the Better Herring</head>
+            <lg>
+               <l n="1">O Cambridge, attend</l>
+               <l n="2">To the satire I've penned</l>
+               <l n="3">On the heads of thy Houses,</l>
+               <l n="4">Thou seat of the Muses!</l>
+               <l n="5">Know the Master of Jesus</l>
+               <l n="6">Does hugely displease us;</l>
+               <l n="7">The Master of Maudlin</l>
+               <l n="8">In the same dirt is dawdling;</l>
+               <l n="9">The Master of Sidney</l>
+               <l n="10">Is of the same kidney;</l>
+               <l n="11">The Master of Trinity</l>
+               <l n="12">To him bears affinity;</l>
+               <l n="13">As the Master of Keys</l>
+               <l n="14">Is as like as two peas,</l>
+               <l n="15">So the Master of Queen's</l>
+               <l n="16">Is as like as two beans;</l>
+               <l n="17">The Master of King's</l>
+               <l n="18">Copies them in all things;</l>
+               <l n="19">The Master of Catherine</l>
+               <l n="20">Takes them all for his pattern;</l>
+               <l n="21">The Master of Clare</l>
+               <l n="22">Hits them all to a hair;</l>
+               <l n="23">The Master of Christ</l>
+               <l n="24">By the rest is enticed;</l>
+               <l n="25">But the Master of Emmanuel</l>
+               <l n="26">Follows them like a spaniel;</l>
+               <l n="27">The Master of Benet</l>
+               <l n="28">Is of the like tenet;</l>
+               <l n="29">The Master of Pembroke</l>
+               <l n="30">Has from them his system took;</l>
+               <l n="31">The Master of Peter's</l>
+               <l n="32">Has all the same features;</l>
+               <l n="33">The Master of St John's</l>
+               <l n="34">Like the rest of the dons.</l>
+            </lg>
+            <lg>
+               <l n="35">
+                  <emph>P.S.</emph> ---As to Trinity Hall</l>
+               <l n="36">We say nothing at all.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

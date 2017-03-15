@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-mss.0057"
+             identifier="grayt.ead.0001-mss.0057">grayt.ead.0001-mss.0057</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-mss.0057#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.poems</unitid>
+               <unittitle id="mss.poems">Poems</unittitle>
+               <unitdate normal="1725/1771" certainty="circa">[ca.
+										1725]-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="work">poems.epww</unitid>
+                  <unittitle type="uniform" label="Uniform Title:">
+                     <title render="doublequote" linktype="simple">[Epitaph on Sir William Williams]</title>
+                  </unittitle>
+                  <unittitle label="First Line:">
+                     <title linktype="simple">Here, foremost in the dangerous paths of fame,</title>
+                  </unittitle>
+                  <unitdate normal="1775" era="ce" calendar="gregorian">1775</unitdate>
+               </did>
+               <bibliography>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#S/H_1966"
+                          linktype="simple">Starr/Hendrickson (eds.), <title render="italic" linktype="simple">Complete Poems</title> (1966),  104-105</bibref>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#LoR_1969"
+                          linktype="simple">Lonsdale (ed.), <title render="italic" linktype="simple">Poems</title> (1969),  238-240</bibref>
+               </bibliography>
+               <scopecontent>
+                  <p>Written <extref href="http://www.thomasgray.org/resources/table.shtml#1761"
+                             show="replace"
+                             linktype="simple">
+                        <date normal="176105/176108" era="ce" calendar="gregorian">between May and August
+						1761</date>
+                     </extref> at the request of one of the executors of <extref href="http://en.wikipedia.org/wiki/Sir_William_Peere_Williams,_2nd_Baronet,_of_Clapton"
+                             show="new"
+                             linktype="simple">
+                        <persname normal="Williams, William Peere, Sir, d. 1761">Sir William
+								Williams</persname>
+                     </extref>, a politician and soldier <persname normal="Gray, Thomas, 1716-1771">Gray</persname> briefly met early in 
+							<date normal="176010" era="ce" calendar="gregorian">October 1760</date>, who died <date normal="17610427" era="ce" calendar="gregorian">27 April 1761</date> on an expedition against 
+							<geogname normal="Belle Ile (Morbihan, Brittany, France),         island [7010035]">Belle Ile</geogname>.							
+							First published, as <title render="doublequote" linktype="simple">Epitaph II. On Sir
+							William Williams</title>, in <extref href="http://www.thomasgray.org/resources/glnames.shtml#Mason,         William, 1724-1797"
+                             show="replace"
+                             linktype="simple">
+                        <persname normal="Mason, William,          1724-1797">Mason</persname>'s</extref>
+                     <title render="italic" linktype="simple">Poems</title> (<date normal="1775" type="publication" era="ce" calendar="gregorian">1775</date>), <extref href="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=1775&amp;part=2&amp;page=62"
+                             show="replace"
+                             linktype="simple">62</extref>.
+						</p>
+               </scopecontent>
+               <c03 level="item">
+                  <did>
+                     <unitid type="TGA">mss.0057</unitid>
+                     <unitid type="work">poems.epww</unitid>
+                     <unittitle label="Title:">
+                        <title linktype="simple">[untitled]</title>
+                     </unittitle>
+                     <unitdate normal="1845/1856" era="ce" calendar="gregorian">[between 1845 and 1856]</unitdate>
+                     <physdesc>
+                        <extent unit="page">1</extent>
+                        <physfacet>transcript in the hand of
+									<extref href="http://spenserians.cath.vt.edu/authorrecord.php?action=GET&amp;recordid=33384"
+                                   show="new"
+                                   linktype="simple">
+                              <persname role="trc" normal="Mitford, John, 1781-1859">John
+										Mitford</persname>
+                           </extref>, partial [ll. 5-6] and crossed out
+								</physfacet>
+                        <dimensions>180 mm x 110 mm</dimensions>
+                     </physdesc>
+                     <physloc label="Identifier:">
+                        <extref href="http://searcharchives.bl.uk/primo_library/libweb/action/search.do?vl%28freeText0%29=Add.+MS+32562&amp;fn=search"
+                                show="new"
+                                linktype="simple">Add. MS 32562</extref>, f. 32v </physloc>
+                     <physloc label="Collection:"> Manuscripts Collection </physloc>
+                     <repository>BLUK</repository>
+                     <note>
+                        <p>MS catalogued by <persname normal="Huber, Alexander">Alexander 
+									Huber</persname> in Manuscripts, British Library, on <date normal="20061007" era="ce" calendar="gregorian">07/10/2006</date>.</p>
+                     </note>
+                  </did>
+                  <bibliography>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SmM_1989"
+                             linktype="simple">Smith (ed.), <title render="italic" linktype="simple">Index</title> (1989),  83</bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Transcript of ll. 5-6 in the hand of <extref href="http://spenserians.cath.vt.edu/authorrecord.php?action=GET&amp;recordid=33384"
+                                show="new"
+                                linktype="simple">
+                           <persname role="trc" normal="Mitford, John, 1781-1859">John
+								Mitford</persname>
+                        </extref> (crossed out), annotated "Mr. Montague asked him
+								to write the Epitaph on Sir W. Williams, he could not refuse. He did not
+								know much of him...", in <persname role="trc" normal="Mitford,           John, 1781-1859">John Mitford</persname>, <title render="italic" linktype="simple">Note-Books</title>, vol. IV, f. 32v.
+							</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

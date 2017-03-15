@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-mss.0010"
+             identifier="grayt.ead.0001-mss.0010">grayt.ead.0001-mss.0010</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-mss.0010#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.poems</unitid>
+               <unittitle id="mss.poems">Poems</unittitle>
+               <unitdate normal="1725/1771" certainty="circa">[ca.
+										1725]-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="work">poems.aleg</unitid>
+                  <unittitle type="uniform" label="Uniform Title:">
+                     <title render="italic" linktype="simple">[The Alliance of Education and Government.
+								A Fragment]</title>
+                  </unittitle>
+                  <unittitle label="First Line:">
+                     <title linktype="simple">As sickly plants betray a niggard earth,</title>
+                  </unittitle>
+                  <unitdate normal="1775" era="ce" calendar="gregorian">1775</unitdate>
+               </did>
+               <bibliography>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#S/H_1966"
+                          linktype="simple">Starr/Hendrickson (eds.), <title render="italic" linktype="simple">Complete Poems</title> (1966),  93-97</bibref>
+                  <bibref title="http://www.thomasgray.org/resources/biblp.shtml#LoR_1969"
+                          linktype="simple">Lonsdale (ed.), <title render="italic" linktype="simple">Poems</title> (1969),  85-100</bibref>
+               </bibliography>
+               <scopecontent>
+                  <p>Written in <extref href="http://www.thomasgray.org/resources/table.shtml#1748"
+                             show="replace"
+                             linktype="simple">
+                        <date normal="1748/1749" era="ce" calendar="gregorian">1748-49</date>
+                     </extref> and probably abandoned by <date normal="174903" era="ce" calendar="gregorian">March 1749</date>. <persname normal="Gray, Thomas,             1716-1771" source="lcnaf">Gray</persname> sent <extref href="${disprg}text=aleg#line" show="replace" linktype="simple">ll. 1-57</extref> of the 
+							fragment in a <extref href="http://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0165"
+                             show="replace"
+                             linktype="simple">letter</extref>, 
+							dated	<date normal="17480819" era="ce" calendar="gregorian">19 August 1748</date>, to <extref href="http://www.thomasgray.org/resources/glnames.shtml#Wharton, Thomas, 1717-1794"
+                             show="replace"
+                             linktype="simple">
+                        <persname role="trc" normal="Wharton, Thomas,           1717-1794">Thomas Wharton</persname>
+                     </extref>.
+							First published, entitled <title render="doublequote" linktype="simple">Essay
+							I</title>, in <extref href="http://www.thomasgray.org/resources/glnames.shtml#Mason, William, 1724-1797"
+                             show="replace"
+                             linktype="simple">
+                        <persname normal="Mason, William, 1724-1797">Mason</persname>'s</extref>
+                     <title render="italic" linktype="simple">Memoirs</title> (<date normal="1775" type="publication" era="ce" calendar="gregorian">1775</date>), <extref href="http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=1775&amp;part=1&amp;text=aleg"
+                             show="replace"
+                             linktype="simple">193-200</extref>.</p>
+               </scopecontent>
+               <c03 level="item">
+                  <did>
+                     <unitid type="TGA" id="mss.0010">mss.0010</unitid>
+                     <unitid type="work">poems.aleg</unitid>
+                     <unittitle label="Title:">
+                        <title linktype="simple">[untitled]</title>
+                     </unittitle>
+                     <unitdate normal="17480819"
+                               certainty="probably"
+                               era="ce"
+                               calendar="gregorian">19 August [1748]</unitdate>
+                     <physdesc>
+                        <extent unit="pages">2</extent>
+                        <physfacet>autograph fair copy, partial [ll. 1-57] and revised</physfacet>
+                        <dimensions>238 mm x 180 mm</dimensions>
+                     </physdesc>
+                     <physloc label="Identifier:">
+                        <extref href="http://searcharchives.bl.uk/primo_library/libweb/action/search.do?vl%28freeText0%29=MS+Egerton+2400&amp;fn=search"
+                                show="new"
+                                linktype="simple">MS Egerton 2400</extref> (Wharton MS), ff. 29v-30r </physloc>
+                     <physloc label="Collection:"> Manuscripts Collection </physloc>
+                     <repository>BLUK</repository>
+                     <note>
+                        <p>MS catalogued by <persname normal="Huber, Alexander">Alexander 
+									Huber</persname> in Manuscripts, British Library, on <date normal="20061125" era="ce" calendar="gregorian">25/11/2006</date>.</p>
+                     </note>
+                  </did>
+                  <bibliography>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SmM_1989"
+                             linktype="simple">Smith (ed.), <title render="italic" linktype="simple">Index</title> (1989), item GrT 7,  79</bibref>
+                     <bibref title="http://www.thomasgray.org/resources/bibll.shtml#T/W_1971"
+                             linktype="simple">Toynbee/Whibley (eds.), <title render="italic" linktype="simple">Correspondence</title> (1971), letter no. 146,
+								vol. i, <extref href="http://www.e-enlightenment.com/item/graythOU0010308_1key001cor"
+                                show="new"
+                                linktype="simple">308-312</extref> (subscription required)</bibref>
+                     <bibref title="http://www.thomasgray.org/resources/biblb.shtml#SuD_1995"
+                             linktype="simple">Sutton (ed.), <title render="italic" linktype="simple">Location Register</title> (1995),  414</bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Autograph fair copy, revised, of ll. 1-57, here untitled, followed by 
+								<extref href="http://www.thomasgray.org/resources/findingaid/mss.0011.xml">MS 0011</extref>, in a
+									<extref href="http://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0165"
+                                show="replace"
+                                linktype="simple">letter</extref>
+								to <extref href="http://www.thomasgray.org/resources/glnames.shtml#Wharton, Thomas, 1717-1794"
+                                show="replace"
+                                linktype="simple">
+                           <persname normal="Wharton, Thomas, 1717-1794">Thomas
+										Wharton</persname>
+                        </extref>, <date normal="17480819"
+                              certainty="probably"
+                              era="ce"
+                              calendar="gregorian">19 August	[1748]</date>. Beneath the poem is 
+								written "I desire your Judgement upon so far, before I proceed any 
+								farther", and "Pray shew it to no one (as it is a Fragment)
+								except it be <extref href="http://www.thomasgray.org/resources/glnames.shtml#Stonhewer, Richard, 1728-1809"
+                                show="replace"
+                                linktype="simple">
+                           <persname role="trc" normal="Stonhewer, Richard,           1728-1809">St:<emph render="super">r</emph>
+                           </persname>
+                        </extref> who
+								has seen most of it already, I think".</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

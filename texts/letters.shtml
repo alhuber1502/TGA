@@ -1,0 +1,386 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Texts : Letters" -->
+<!--#set var="youarehere" value="<li><a href=\"/\" class=\"breadcrumb\">Home</a></li><li><a href=\"/texts/\" class=\"breadcrumb\">Texts</a></li><li>Letters</li>" -->
+<!--#set var="bodyid" value="texts"  -->
+<!--#set var="texts" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+    <!-- Begin page content -->
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-9">
+
+		<section id="main">
+
+	    <h1>Letters</h1>
+
+
+				<h3>Correspondents</h3>
+
+				<form name="correspondents" method="GET" action="/cgi-bin/display.cgi" id="mainsearch">
+				<input type="hidden" name="collection" value="letters">
+					<div id="authors">
+														<label for="author" class="label">Letters from:</label>
+
+														<select name="author" id="author">
+														<option value="all">Select an author</option>
+														<option value="Algarotti, Francesco, Conte, 1712-1764">Conte Francesco Algarotti</option>
+														<option value="Beattie, James, 1735-1803">James Beattie</option>
+														<option value="Birkett, George, 1690-1745">George Birkett</option>
+														<option value="Bonstetten, Charles Victor de, 1745-1832">Charles Victor de Bonstetten</option>
+														<option value="Butler, J., Mr">Mr J. Butler</option>
+														<option value="Cole, William, 1714-1782">William Cole</option>
+														<option value="Conway, Henry Seymour, 1721-1795">Henry Seymour Conway</option>
+														<option value="Dodsley, Robert, 1703-1764">Robert Dodsley</option>
+														<option value="Grafton, Augustus Henry Fitzroy, Duke of, 1735-1811">Duke of Grafton</option>
+														<option class="authorGray" value="Gray, Thomas, 1716-1771">Thomas Gray</option>
+														<option value="How, William Taylor, d. 1777">William Taylor How</option>
+														<option value="Hurd, Richard, 1720-1808">Richard Hurd</option>
+														<option value="Mason, William, 1724-1797">William Mason</option>
+														<option value="Nicholls, Norton, c. 1742-1809">Norton Nicholls</option>
+														<option value="Schaub, Lady, d. 1793">Lady Schaub</option>
+														<option value="Speed, Henrietta Jane, 1728-1783">Henrietta Jane Speed</option>
+														<option value="Talbot, William, d. 1811">William Talbot</option>
+														<option value="Walpole, Horace, 1717-1797">Horace Walpole</option>
+														<option value="Warton, Thomas, 1728-1790">Thomas Warton</option>
+														<option value="West, Richard, 1716-1742">Richard West</option>
+														<option value="Wharton, Thomas, 1717-1794">Thomas Wharton</option>
+														</select>
+					</div>
+
+					<div id="addresseeDiv">
+															<label for="addressee" class="label">to:</label>
+
+															<select name="addressee" id="addressee">
+															<option id="addresseeblank" value="all">Select an addressee</option>
+															<option class="addresseeOther" value="Alderson, Christopher, Rev., 1738-1814">Christopher Alderson</option>
+															<option class="addresseeOther" value="Algarotti, Francesco, Conte, 1712-1764">Conte Francesco Algarotti</option>
+															<option class="addresseeOther" value="Anstey, Christopher, 1724-1805">Christopher Anstey</option>
+															<option class="addresseeOther" value="Antrobus, Mrs. (Elizabeth), 1709-1773">Mrs Elizabeth Antrobus</option>
+															<option class="addresseeOther" value="Antrobus, Mary, b. 1732">Mary Antrobus</option>
+															<option class="addresseeOther" value="Ashby, George, 1724-1808">George Ashby</option>
+															<option class="addresseeOther" value="Ashton, Thomas, 1715-1775">Thomas Ashton</option>
+															<option class="addresseeOther" value="Beattie, James, 1735-1803">James Beattie</option>
+															<option class="addresseeOther" value="Bedingfield, Edward, b. 1730">Edward Bedingfield</option>
+															<option class="addresseeOther" value="Bentham, James, 1708-1794">James Bentham</option>
+															<option class="addresseeOther" value="Birkett, George, 1690-1745">George Birkett</option>
+															<option class="addresseeOther" value="Bonstetten, Charles Victor de, 1745-1832">Charles Victor de Bonstetten</option>
+															<option class="addresseeOther" value="Brockett, Lawrence, 1724-1768">Lawrence Brockett</option>
+															<option class="addresseeOther" value="Brown, James, 1709-1784">James Brown</option>
+															<option class="addresseeOther" value="Butler, J., Mr">Mr J. Butler</option>
+															<option class="addresseeOther" value="Chute, John, 1701-1776">John Chute</option>
+															<option class="addresseeOther" value="Clerke, John, 1717-1790">John Clerke</option>
+															<option class="addresseeOther" value="Cole, William, 1714-1782">William Cole</option>
+															<option class="addresseeOther" value="Dodsley, James, 1724-1797">James Dodsley</option>
+															<option class="addresseeOther" value="Dodsley, Robert, 1703-1764">Robert Dodsley</option>
+															<option class="addresseeOther" value="Farmer, Richard, 1735-1797">Richard Farmer</option>
+															<option class="addresseeOther" value="Grafton, Augustus Henry Fitzroy, Duke of, 1735-1811">Duke of Grafton</option>
+															<option class="addresseeOther" value="Gray, Mrs. (Dorothy), 1685-1753">Mrs Dorothy Gray</option>
+															<option class="addresseeOther" value="Gray, Philip, 1676-1741">Philip Gray</option>
+															<option id="addresseeGray" value="Gray, Thomas, 1716-1771">Thomas Gray</option>
+															<option class="addresseeOther" value="How, William Taylor, d. 1777">William Taylor How</option>
+															<option class="addresseeOther" value="Hurd, Richard, 1720-1808">Richard Hurd</option>
+															<option class="addresseeOther" value="Jennings, Mrs, 1703-1790">Mrs Jennings</option>
+															<option class="addresseeOther" value="Lort, Michael, 1725-1790">Michael Lort</option>
+															<option class="addresseeOther" value="Macpherson, James, 1736-1796">James Macpherson</option>
+															<option class="addresseeOther" value="Mann, Horace, Sir, 1706-1786">Sir Horace Mann</option>
+															<option class="addresseeOther" value="Mason, William, 1724-1797">William Mason</option>
+															<option class="addresseeOther" value="Nicholls, Norton, c. 1742-1809">Norton Nicholls</option>
+															<option class="addresseeOther" value="Palgrave, William, 1735-1799">William Palgrave</option>
+															<option class="addresseeOther" value="Percy, Thomas, 1729-1811">Thomas Percy</option>
+															<option class="addresseeOther" value="Robinson, William, Rev., c. 1726-1803">William Robinson</option>
+															<option class="addresseeOther" value="Speed, Henrietta Jane, 1728-1783">Henrietta Jane Speed</option>
+															<option class="addresseeOther" value="Stonhewer, Richard, 1728-1809">Richard Stonhewer</option>
+															<option class="addresseeOther" value="Walpole, Horace, 1717-1797">Horace Walpole</option>
+															<option class="addresseeOther" value="Warton, Thomas, 1728-1790">Thomas Warton</option>
+															<option class="addresseeOther" value="West, Richard, 1716-1742">Richard West</option>
+															<option class="addresseeOther" value="Whalley, John, 1698 or 9-1748">John Whalley</option>
+															<option class="addresseeOther" value="Wharton, Thomas, 1717-1794">Thomas Wharton</option>
+															</select>
+					</div>
+
+					<div id="responseDiv">
+															<input type="checkbox" name="response" id="response">
+															<label for="response" class="label">Include responses (if available)</label>
+					</div>
+
+
+
+						<span class="h3">More Search Options</span>
+
+						<div id="mentioning">
+																					<label for="mentions" class="label">Letters mentioning:</label>
+
+																					<select name="mentions" id="mentions">
+																					<option id="mentionsblank" value="all">None specified</option>
+																					<option value="Alderson, Christopher, Rev., 1738-1814">Christopher Alderson</option>
+																					<option value="Algarotti, Francesco, Conte, 1712-1764">Conte Francesco Algarotti</option>
+																				
+																					<option value="Antrobus, Mrs. (Elizabeth), 1709-1773">Mrs Elizabeth Antrobus</option>
+																					<option value="Antrobus, Mary, b. 1732">Mary Antrobus</option>
+																			
+																					<option value="Ashton, Thomas, 1715-1775">Thomas Ashton</option>
+																					<option value="Beattie, James, 1735-1803">James Beattie</option>
+																					<option value="Bedingfield, Edward, b. 1730">Edward Bedingfield</option>
+																			
+																					<option value="Birkett, George, 1690-1745">George Birkett</option>
+																					<option value="Bonstetten, Charles Victor de, 1745-1832">Charles Victor de Bonstetten</option>
+																					<option value="Brockett, Lawrence, 1724-1768">Lawrence Brockett</option>
+																					<option value="Brown, James, 1709-1784">James Brown</option>
+																					<option value="Butler, J., Mr">Mr J. Butler</option>
+																					<option value="Chute, John, 1701-1776">John Chute</option>
+																					<option value="Clerke, John, 1717-1790">John Clerke</option>
+																					<option value="Cole, William, 1714-1782">William Cole</option>
+																					<option value="Conway, Henry Seymour, 1721-1795">Henry Seymour Conway</option>
+																					<option value="Dodsley, James, 1724-1797">James Dodsley</option>
+																					<option value="Dodsley, Robert, 1703-1764">Robert Dodsley</option>
+																					<option value="Farmer, Richard, 1735-1797">Richard Farmer</option>
+																					<option value="Grafton, Augustus Henry Fitzroy, Duke of, 1735-1811">Duke of Grafton</option>
+																					<option value="Gray, Mrs. (Dorothy), 1685-1753">Mrs Dorothy Gray</option>
+																					<option value="Gray, Philip, 1676-1741">Philip Gray</option>
+																					<option value="How, William Taylor, d. 1777">William Taylor How</option>
+																					<option value="Hurd, Richard, 1720-1808">Richard Hurd</option>
+																					<option value="Jennings, Mrs, 1703-1790">Mrs Jennings</option>
+																					<option value="Lort, Michael, 1725-1790">Michael Lort</option>
+																					<option value="Macpherson, James, 1736-1796">James Macpherson</option>
+																					<option value="Mann, Horace, Sir, 1706-1786">Sir Horace Mann</option>
+																					<option value="Mason, William, 1724-1797">William Mason</option>
+																					<option value="Nicholls, Norton, c. 1742-1809">Norton Nicholls</option>
+																					<option value="Palgrave, William, 1735-1799">William Palgrave</option>
+																			
+																					<option value="Robinson, William, Rev., c. 1726-1803">William Robinson</option>
+																					<option value="Speed, Henrietta Jane, 1728-1783">Henrietta Jane Speed</option>
+																					<option value="Stonhewer, Richard, 1728-1809">Richard Stonhewer</option>
+																					<option value="Talbot, William, d. 1811">William Talbot</option>																				
+																					<option value="Walpole, Horace, 1717-1797">Horace Walpole</option>
+																					<option value="Warton, Thomas, 1728-1790">Thomas Warton</option>
+																					<option value="West, Richard, 1716-1742">Richard West</option>
+																					<option value="Whalley, John, 1698 or 9-1748">John Whalley</option>
+																					<option value="Wharton, Thomas, 1717-1794">Thomas Wharton</option>
+																					</select>
+					</div>
+
+
+						<span class="label" id="datelabel">Date:</span>
+					<div id="datefrom">
+												<label for="dateletfrom">from:</label>
+												<select name="dateletfrom" id="dateletfrom">
+
+												<option value="1734">1734</option>
+												<option value="1735">1735</option>
+												<option value="1736">1736</option>
+												<option value="1737">1737</option>
+												<option value="1738">1738</option>
+												<option value="1739">1739</option>
+												<option value="1740">1740</option>
+												<option value="1741">1741</option>
+												<option value="1742">1742</option>
+												<option value="1743">1743</option>
+												<option value="1744">1744</option>
+												<option value="1745">1745</option>
+												<option value="1746">1746</option>
+												<option value="1747">1747</option>
+												<option value="1748">1748</option>
+												<option value="1749">1749</option>
+												<option value="1750">1750</option>
+												<option value="1751">1751</option>
+												<option value="1752">1752</option>
+												<option value="1753">1753</option>
+												<option value="1754">1754</option>
+												<option value="1755">1755</option>
+												<option value="1756">1756</option>
+												<option value="1757">1757</option>
+												<option value="1758">1758</option>
+												<option value="1759">1759</option>
+												<option value="1760">1760</option>
+												<option value="1761">1761</option>
+												<option value="1762">1762</option>
+												<option value="1763">1763</option>
+												<option value="1764">1764</option>
+												<option value="1765">1765</option>
+												<option value="1766">1766</option>
+												<option value="1767">1767</option>
+												<option value="1768">1768</option>
+												<option value="1769">1769</option>
+												<option value="1770">1770</option>
+												<option value="1771">1771</option>
+												</select>
+					</div>
+					<div id="dateto">
+												<label for="dateletto">to:</label>
+												<select name="dateletto" id="dateletto">
+
+												<option value="1734">1734</option>
+												<option value="1735">1735</option>
+												<option value="1736">1736</option>
+												<option value="1737">1737</option>
+												<option value="1738">1738</option>
+												<option value="1739">1739</option>
+												<option value="1740">1740</option>
+												<option value="1741">1741</option>
+												<option value="1742">1742</option>
+												<option value="1743">1743</option>
+												<option value="1744">1744</option>
+												<option value="1745">1745</option>
+												<option value="1746">1746</option>
+												<option value="1747">1747</option>
+												<option value="1748">1748</option>
+												<option value="1749">1749</option>
+												<option value="1750">1750</option>
+												<option value="1751">1751</option>
+												<option value="1752">1752</option>
+												<option value="1753">1753</option>
+												<option value="1754">1754</option>
+												<option value="1755">1755</option>
+												<option value="1756">1756</option>
+												<option value="1757">1757</option>
+												<option value="1758">1758</option>
+												<option value="1759">1759</option>
+												<option value="1760">1760</option>
+												<option value="1761">1761</option>
+												<option value="1762">1762</option>
+												<option value="1763">1763</option>
+												<option value="1764">1764</option>
+												<option value="1765">1765</option>
+												<option value="1766">1766</option>
+												<option value="1767">1767</option>
+												<option value="1768">1768</option>
+												<option value="1769">1769</option>
+												<option value="1770">1770</option>
+												<option value="1771">1771</option>
+												</select>
+						</div>
+
+						<div id="place">
+												<label for="placelet" class="label">Place:</label>
+												<select name="placelet" id="placelet">
+												<option value="all">All locations</option>
+												<option value="\W">[an unknown location]</option>
+												<option value="Abbeville (Somme, Picardy, France), inhabited place [7010587]">Abbeville, France</option>
+												<option value="Aberdeen (Aberdeen, Scotland, United Kingdom), inhabited place [7009782]">Aberdeen, United Kingdom</option>
+												<option value="Amiens (Somme, Picardy, France), inhabited place [7010588]">Amiens, France</option>
+												<option value="Andover (Hampshire, England, United Kingdom), inhabited place [7011400]">Andover, United Kingdom</option>
+												<option value="Aston (Rotherham, South Yorkshire, England, United Kingdom), inhabited place [7029839]">Aston, United Kingdom</option>
+												<option value="Aubonne (Vaud, Switzerland), inhabited place [7007297]">Aubonne, Switzerland</option>
+												<option value="Bath (Bath and Northeast Somerset, England, United Kingdom), inhabited place [7011197]">Bath, United Kingdom</option>
+												<option value="Bern (Bern canton, Switzerland), inhabited place [7007557]">Bern, Switzerland</option>
+												<option value="Blundeston (Suffolk, England, United Kingdom), inhabited place">Blundeston, United Kingdom</option>
+												<option value="Bologna (Bologna province, Emilia-Romagna, Italy), inhabited place [7004847]">Bologna, Italy</option>
+												<option value="Brussels (Bruxelles region, Belgium), inhabited place [7007868]">Brussels, Belgium</option>
+												<option value="Burnham (Buckinghamshire, England, United Kingdom), inhabited place [7026497]">Burnham, United Kingdom</option>
+												<option value="Cambridge (Cambridgeshire, England, United Kingdom), inhabited place [7010874]">Cambridge, United Kingdom</option>
+												<option value="Chiswick (Hounslow, Greater London, England, United Kingdom), neighborhood [1004281]">Chiswick, United Kingdom</option>
+												<option value="Dijon (C&ocirc;te-d'Or, Burgundy region, France), inhabited place [7008224]">Dijon, France</option>
+												<option value="Dover (Kent, England, United Kingdom), inhabited place [7011554]">Dover, United Kingdom</option>
+												<option value="Durham (England, United Kingdom), county [7008127]">Durham, United Kingdom</option>
+												<option value="Epsom (Surrey, England, United Kingdom), inhabited place [7011734]">Epsom, United Kingdom</option>
+												<option value="Florence (Firenze province, Tuscany, Italy), inhabited place [7000457]">Florence, Italy</option>
+												<option value="Genoa (Genova province, Liguria, Italy), inhabited place [7008546]">Genoa, Italy</option>
+												<option value="Glamis Castle (Angus, Scotland, United Kingdom), castle [1100274]">Glamis Castle, United Kingdom</option>
+												<option value="Hanover (Hannover district, Lower Saxony, Germany), inhabited place [7013260]">Hanover, Germany</option>
+												<option value="Hornby Castle (North Yorkshire, England, United Kingdom), castle">Hornby Castle, United Kingdom</option>
+												<option value="Kingston-Upon-Hull (Kingston upon Hull, England, United Kingdom), inhabited place [7010370]">Kingston-Upon-Hull, United Kingdom</option>
+												<option value="Lancaster (Lancashire, England, United Kingdom), inhabited place [7010393]">Lancaster, United Kingdom</option>
+												<option value="London (Greater London, England, United Kingdom), inhabited place [7011781]">London, United Kingdom</option>
+												<option value="Lyon (Rh&ocirc;ne, Rh&ocirc;ne-Alpes, France), inhabited place [7008772]">Lyon, France</option>
+												<option value="Milton (Cambridgeshire, England, United Kingdom), inhabited place [1030066]">Milton, United Kingdom</option>
+												<option value="Naples (Napoli province, Campania, Italy), inhabited place [7004474]">Naples, Italy</option>
+												<option value="Oxford (Oxfordshire, England, United Kingdom), inhabited place [7011931]">Oxford, United Kingdom</option>
+												<option value="Paris (Ville de Paris department, Ile-de-France, France), inhabited place [7008038]">Paris, France</option>
+												<option value="Pisa (Pisa province, Tuscany, Italy), inhabited place [7006082]">Pisa, Italy</option>
+												<option value="Pope's (Hatfield, Hertfordshire, England, United Kingdom), inhabited place">Pope's, United Kingdom</option>
+												<option value="Reims (Marne, Champagne-Ardenne, France), inhabited place [7011060]">Reims, France</option>
+												<option value="Rome (Roma province, Lazio, Italy), inhabited place [7000874]">Rome, Italy</option>
+												<option value="Royal Tunbridge Wells (Kent, England, United Kingdom), inhabited place [7011676]">Royal Tunbridge Wells, United Kingdom</option>
+												<option value="Southampton (Southampton, England, United Kingdom), inhabited place [7011385]">Southampton, United Kingdom</option>
+												<option value="Spa (Lihge province, Wallonia, Belgium), inhabited place [7007991]">Spa, Belgium</option>
+												<option value="Stoke Poges (Buckinghamshire, England, United Kingdom), inhabited place [7011896]">Stoke Poges, United Kingdom</option>
+												<option value="Strawberry Hill (Richmond upon Thames, Greater London, England, United Kingdom), neighborhood [4010855]">Strawberry Hill, United Kingdom</option>
+												<option value="Syon Hill (Isleworth, Hounslow, Greater London, England, United Kingdom), inhabited place">Syon Hill, United Kingdom</option>
+												<option value="Tivoli (Roma province, Lazio, Italy), inhabited place [7006968]">Tivoli, Italy</option>
+												<option value="Turin (Torino province, Piedmont, Italy), inhabited place [7005688]">Turin, Italy</option>
+												<option value="Vyne, The (Hampshire, England, United Kingdom), country house">The Vyne, United Kingdom</option>
+												<option value="Wadworth (Doncaster unitary authority, South Yorkshire, England, United Kingdom), inhabited place [7030631]">Wadworth, United Kingdom</option>
+												<option value="Winchester (Hampshire, England, United Kingdom), inhabited place [7011375]">Winchester, United Kingdom</option>
+												<option value="York (York, England, United Kingdom), inhabited place [7011995]">York, United Kingdom</option>
+												</select>
+						</div>
+						<div id="holdingDiv">
+												<label for="holding" class="label">Holding Institution:</label>
+												<select name="holding" id="holding">
+												<option value="all">All Holding Institutions</option>
+												<option value="BDLN">Bodleian Library, Oxford University</option>
+												<option value="BLUK">British Library</option>
+												<option value="CAMB">Cambridge University Library</option>
+												<option value="ETON">Eton College</option>
+												<option value="FITZ">Fitzwilliam Museum</option>
+												<option value="FOLG">Folger Shakespeare Library</option>
+												<option value="HARC">Hartlebury Castle</option>
+												<option value="HARV">Harvard University Libraries</option>
+												<option value="HAVC">Haverford College</option>
+												<option value="HSPO">Historical Society of Pennsylvania</option>
+												<option value="HulI">The Huntington</option>
+												<option value="KILA">Kingston Lacy</option>
+												<option value="MAHI">Maine Historical Society</option>
+												<option value="MOLI">Morgan Library &amp; Museum</option>
+												<option value="NYPL">New York Public Library</option>
+												<option value="PBCC">Pembroke College, Cambridge</option>
+												<option value="PRIN">Princeton University Library</option>
+												<option value="PRIV">[Private collections]</option>
+												<option value="ROBA">Rosenbach Museum &amp; Library</option>
+												<option value="SALO">Society of Antiquaries of London</option>
+												<option value="TXCU">Texas Christian University Library</option>
+												<option value="UABD">University of Aberdeen Library</option>
+												<option value="UROC">University of Rochester Libraries</option>
+												<option value="VYNE">The Vyne</option>
+												<option value="WFMU">Wisbech &amp; Fenland Museum</option>
+												<option value="YALE">Yale University Library</option>
+												</select>
+
+
+							</div>
+					<input class="normal" type="submit" value="Submit" id="submit">
+					</form>
+
+
+
+
+
+
+
+
+
+		</section> <!-- end main section -->
+
+		</div>
+
+        <div class="col-xs-3" id="myScrollspy">
+          <nav class="affix">
+            <ul class="nav nav-stacked">
+
+<!--#include virtual="letters/lettersnav.shtml" -->
+	    </ul>
+	  </nav>
+
+	</div> <!-- end highlight boxes section -->
+
+      </div>
+
+    </div>
+
+<script type="text/javascript">
+  var citation = "";
+  citation += "Huber, Alexander. ";
+  var citlink = 'http:\/\/<!--#echo var="HTTP_HOST" --><!--#echo
+  var="DOCUMENT_URI" -->';
+  citation += '\"Letters\". ';
+  citation +='<em>Thomas Gray Archive</em>, '+
+    '<!--#flastmod virtual="/about/index.shtml" -->'+
+    '. Web. <!--#echo var="DATE_LOCAL"
+  -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+</script>
+
+<!--#include virtual="/bottom.shtml" -->
