@@ -1229,7 +1229,7 @@ var user_details =
 <div class="modal-footer">\
 <p class="small"><em>Please note:</em> this contribution will be submitted to the editor in the first instance for review.  Once peer reviewed, the contribution will be made publicly available under a <a class="external" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons BY-NC-SA License</a>.</p>\
 <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>\
-<button type="button" class="btn btn-primary" id="newNoteSubmit" >Submit</button>\
+<button type="button" class="btn" id="newNoteSubmit" >Submit</button>\
 </div>\
 </div>\
 </div>\
