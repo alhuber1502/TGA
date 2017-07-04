@@ -2107,11 +2107,22 @@ body {
   margin-top:0px;
   border:0px;
 }
-.navbar-nav > li > .dropdown-menu {
+.navbar-nav > li,
+.navbar-nav > li > .dropdown-menu,
+.navbar-nav > li > .dropdown-menu li {
   background-color: #222;
 }
 .dropdown-menu > li > a {
   color: #fff;
+}
+.navbar-nav {
+    margin: 0px -15px 7.5px -15px;
+}
+.navbar-header {
+    padding-right:15px;
+}
+.navbar-toggle {
+    margin-top: 4px;
 }
 
 #footer > .container p, #footer > .container nav {
