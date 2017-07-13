@@ -7,6 +7,7 @@ $(document).ready(function() {
         var twitterTimelineAuthor = twitterFrame.contents().find(".TweetAuthor-name");
         var twitterTimelineText = twitterFrame.contents().find(".timeline-Tweet-text");
 	if( twitterFrame.length && twitterTimelineHeader.length) {
+	    twitterFrame.attr("style","width:100%;");
             twitterTimelineHeader.attr("style","display:none;");
             twitterTimelineHead.attr("style","padding:5px 0;");
             twitterTimelineFoot.attr("style","color: #8C001A;");
