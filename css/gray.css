@@ -2125,6 +2125,12 @@ body {
     margin-top: 4px;
 }
 
+@media print {
+  #top,#footer {
+    display:none;
+  }
+}
+
 #footer > .container p, #footer > .container nav {
   padding-top: 10px;
   display: inline;
