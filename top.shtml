@@ -59,17 +59,13 @@
     <link rel="stylesheet"
           href="/_js/galleriffic-2.0/css/galleriffic-5.css"
           type="text/css" />
-    <script type="text/javascript"
-            src="/_js/galleriffic-2.0/js/jquery-1.3.2.js"></script>
-    <script type="text/javascript"
-            src="/_js/galleriffic-2.0/js/jquery.history.js"></script>
-    <script type="text/javascript"
-            src="/_js/galleriffic-2.0/js/jquery.galleriffic.js"></script>
-    <script type="text/javascript"
-            src="/_js/galleriffic-2.0/js/jquery.opacityrollover.js"></script>
+    <script src="/_js/galleriffic-2.0/js/jquery-1.3.2.js"></script>
+    <script src="/_js/galleriffic-2.0/js/jquery.history.js"></script>
+    <script src="/_js/galleriffic-2.0/js/jquery.galleriffic.js"></script>
+    <script src="/_js/galleriffic-2.0/js/jquery.opacityrollover.js"></script>
     <!-- We only want the thunbnails to display when javascript is                                                        
          disabled -->
-    <script type="text/javascript">
+    <script>
       document.write('<style>.noscript { display: none; }</style>');
     </script>
     <script src="/_js/jquery.ba-hashchange.min.js"></script>
@@ -86,7 +82,7 @@
 //-->
     <!-- styles -->
 
-    <script type="text/javascript">
+    <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
       Date();a=s.createElement(o),
@@ -111,8 +107,7 @@
     <!-- Header -->
     <header id="top">
       <a class="sr-only" href="#skip">Skip main navigation</a>
-      <script type="text/javascript"
-              src="//s7.addthis.com/js/300/addthis_widget.js#pubid=alhuber1502"
+      <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=alhuber1502"
               async="async"></script>
 
       <!-- Fixed navbar -->
