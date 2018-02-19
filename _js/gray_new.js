@@ -1243,4 +1243,27 @@ jq(document.body).on('hidden.bs.modal', '#newNote', function(e) {
 });
 
 
+// Elegy Translations
+
+jq(function(){
+	jq('.trans_sel').on('change', function () {
+		var d = this;
+		var file = jq(d).val(); // get selected value
+		if (file) { // require a text
+		    jq(d).parent().parent().parent().find(".panel-body").load( file +" section.main" );
+		    jq(d).parent().parent().parent().find(".panel-footer").load( file +" div.bibl" ); 
+		}
+	    });
+    });
+
+
+jq(function(){
+	jq('.col_rs button.close').on('click', function () {
+		jq(this).parent().parent().find(".panel-body").empty( );
+		jq(this).parent().parent().find(".panel-footer").empty( );
+		jq(this).parent().find(".trans_sel").val( "" );
+	    });
+    });
+
+
 }); // end ready

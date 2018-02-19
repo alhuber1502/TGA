@@ -1,0 +1,127 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Texts : Poems : Gray's \"Elegy\" in translation" -->
+<!--#set var="youarehere" value="<li class=\"breadcrumb-item active\">Home</li>" -->
+<!--#set var="bodyid" value="texts"  -->
+<!--#set var="texts" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+    <!-- Begin page content -->
+    
+<style>
+
+.panel-body {
+   display: flex;
+   flex-grow:1;
+   padding: 5px;
+}
+.panel-footer {
+   font-size: 12px;
+}
+.col_rs {
+    display: flex;
+    max-width: 390px;
+    margin-right: 10px;
+    border-style: dotted;
+    flex-direction: column;
+    margin-top: 5px;
+    width: auto;
+}
+.col_rs:last-child {
+    margin-right:0;
+}
+.panel-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    width: 50px;
+}
+.trans_sel {
+    width:93%;
+}
+
+</style>
+
+<script>
+
+jq(function() {
+    jq( ".panel-group" ).sortable({
+        connectWith: ".panel-group",
+        handle: ".panel-heading",
+        placeholder: "panel-placeholder ui-corner-all"
+    });
+});
+
+</script>
+
+    <div class="container">
+
+      <div class="row">
+
+	<div class="col-xs-12" id="main">
+
+	  <h1>Gray's "Elegy" in translation</h1>
+
+          <div id="text" class="panel-group ui-sortable"
+	       style="display:flex; align-items: stretch; flex: 1 0 auto;" role="tablist">
+
+	    <div class="panel panel-default col_rs no1
+			ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+	      <div class="panel-heading ui-sortable-handle ui-widget-header
+			  ui-corner-all" role="tab">
+		<button type="button" class="close"
+			aria-label="Close"><span aria-hidden="true">×</span></button>
+		<h3 class="panel-title">
+		  <!--#include virtual="/texts/poems/elegy/trans_sel.shtml" -->
+		</h3>
+	      </div>
+	      <div class="panel-body" role="tabpanel"></div>
+	      <div class="panel-footer"></div>
+	    </div>
+	    
+	    <div class="panel panel-default col_rs no2
+			ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+	      <div class="panel-heading ui-sortable-handle ui-widget-header
+			  ui-corner-all" role="tab">
+		<button type="button" class="close"
+			aria-label="Close"><span aria-hidden="true">×</span></button>
+		<h3 class="panel-title">
+		  <!--#include virtual="/texts/poems/elegy/trans_sel.shtml" -->
+		</h3>
+	      </div>
+	      <div class="panel-body" role="tabpanel"></div>
+	      <div class="panel-footer"></div>
+	    </div>
+	    
+	    <div class="panel panel-default col_rs no3
+			ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+	      <div class="panel-heading ui-sortable-handle ui-widget-header
+			  ui-corner-all" role="tab">
+		<button type="button" class="close"
+			aria-label="Close"><span aria-hidden="true">×</span></button>
+		<h3 class="panel-title">
+		  <!--#include virtual="/texts/poems/elegy/trans_sel.shtml" -->
+		</h3>
+	      </div>
+	      <div class="panel-body" role="tabpanel"></div>
+	      <div class="panel-footer"></div>
+	    </div>
+	    
+          </div>
+
+	</div>
+
+      </div>
+
+    </div>
+
+<script>
+  var citation = "";
+  citation += "Turk, Tom, and Alexander Huber, eds. ";
+  var citlink = 'http:\/\/<!--#echo var="HTTP_HOST" --><!--#echo var="DOCUMENT_URI" -->';
+  citation += '"Gray\'s \'Elegy\' in translation". ';
+  citation +='<em>Thomas Gray Archive</em>, '+
+  '<!--#flastmod virtual="/about/index.shtml" -->'+
+  '. Web. <!--#echo var="DATE_LOCAL" -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+
+</script>
+
+<!--#include virtual="/bottom.shtml" -->
