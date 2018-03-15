@@ -43,6 +43,10 @@
 #text .halftitle h2.sub {
     font-size: 1.2em;
 }
-#text .half-title, #text .halftitle, #text .titlepage, #text .align-center {
+#text .half-title, #text .halftitle, #text .titlepage {
+    text-align: center;
+    display: none;
+}
+#text .align-center {
     text-align: center;
 }

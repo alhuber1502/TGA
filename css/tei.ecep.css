@@ -41,6 +41,10 @@
 #text .ln.rend {
     color: inherit;
 }
+#text .lg:hover > .ln:not(.rend),
+#text .lg.idsSelected .ln:not(.rend) {
+    color: #f7f5f5;
+}
 
 #text .castList {
     width: 75%;
@@ -89,7 +93,20 @@ span.bibl {
     width: auto; /* <--- adapt this dynamically as an inline style to create center block for full-text */
 }
 
+/* highlight prose paragraphs */
+#text p::before {
+    content: '\00a0\00a0\00a0\00a0';
+}
+#text p:hover::before {
+    content: '❡\00a0';
+    color: #822;
+/*    background-color: #F7F7F7;*/
+}
 /* highlight poem lines */
+
+#text div.line:hover .collapse.in {
+      color: #333;
+}
 #text div.line:hover *:not(a):not(sup):not(i) {
 /*    color: #000;
     background-color: #F7F7F7;*/
@@ -135,6 +152,7 @@ span.bibl {
 }
 
 #text div.note {
+    background-color: #fff;
     border-width: 1px;
     border-style: dotted none;
     font-size: 12px;
@@ -196,7 +214,7 @@ span.bibl {
     padding: 10px 20px 0 20px;
 }
 
-.sstart, .send, .sdiv, #meta-tabs { display: none }
+/*.sstart, .send, .sdiv, #meta-tabs { display: none }*/
 
 /* uses flex to reorder elements in authors */
 #portrait {
@@ -226,4 +244,9 @@ span.bibl {
 }
 .portrait {
 /*    max-width: 400px !important; */
+}
+
+.text .idsSelected {
+    background-color: #f7f5f5 !important;
+    color:#333 !important;
 }

@@ -335,7 +335,29 @@ display: none;
 
 #main ul.statistics li { line-height: 1.2em; }
 
-#main .record ul.bibliography {
+#main .bibliography .listBibl li,
+.main .bibliography .listBibl li {
+    text-indent: -1.2em;
+    margin-left: 1.2em;
+}
+.listBibl li ul {
+    margin-left:-15px;
+}
+.lacunae > ul {
+    columns:2;
+}
+.lacunae div.listhead h1 {
+  font-size: 1.3em !important;
+  font-family:"Playfair Display","Times New Roman",Times,serif !important;
+  line-height:normal !important;
+}
+.lacunae div.argument p {
+    font-style:italic;
+}
+.bibliography h4 {
+    margin-left:15px;
+}
+#main .record .bibliography {
 
 text-decoration: none;
  list-style: none;
@@ -344,14 +366,14 @@ text-decoration: none;
 
 }
 
-#main .record ul.bibliography li {
+#main .record .bibliography li {
 
 padding: 0 0 5px 30px;
 margin: 0;
 
 }
 
-#main  ul.bibliography {
+#main  .bibliography {
 
 text-decoration: none;
  list-style: none;
@@ -360,14 +382,14 @@ text-decoration: none;
 
 }
 
-#main  ul.bibliography ul li {
+#main  .bibliography ul li {
 
 padding: 0 0 0 30px;
 margin: 0;
 text-indent: -30px;
 
 }
-#main  ul.bibliography li {
+#main  .bibliography li {
 
 padding: 0 0 5px 30px;
 margin: 0;
@@ -375,8 +397,8 @@ text-indent: -30px;
 
 }
 
-#main .update ul.bibliography li,
-#main .update ul.bibliography ul li {
+#main .update .bibliography li,
+#main .update .bibliography ul li {
 
 padding: 0 0 0 0;
 margin: 0;
@@ -2303,4 +2325,47 @@ a,a:focus,a:hover {
 }
 .content {
   padding-bottom: 60px;
+}
+select.input-sm {
+    height: 24px;
+    line-height: 30px;
+}
+.worktitle {
+    font-size: 14px;
+}
+
+span.collapse,span.collapsing {
+    display: none;
+}
+span.collapse,span.collapsing,span.collapse.in {
+    transition: none;
+}
+span.collapse.in {
+    display: block;
+    border-top: 1px dotted #333;
+    border-bottom: 1px dotted #333;
+    background-color: white;
+    font-size: 12px;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    padding: 2px;
+    font-variant: normal;
+    font-weight: normal;
+}
+.collapsing {
+    color: #333;
+}
+
+.trans_done {
+    background-color: #e5f5e5;;
+}
+.trans_todo {
+    background-color: #f5e5e5;
+}
+.red {
+    color:#993333;
+}
+#trans_menu {
+    padding-left:1px;
 }
