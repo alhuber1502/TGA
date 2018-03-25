@@ -1,5 +1,17 @@
 jq(document).ready(function() {
 
+    // Allow Page URL to activate a tab's ID
+    var taburl = document.location.toString();
+    if( taburl.match('#') ) {
+	jq('.nav-tabs a[href="#'+taburl.split('#')[1]+'"]').tab('show');
+    }
+
+    // Allow internal links to activate a tab.
+    jq('a[data-toggle="tab"]').click(function (e) {
+	    e.preventDefault();
+	    jq('a[href="' + $(this).attr('href') + '"]').tab('show');
+	});
+
     // dropdown navigation
     jq('.dropdown').hover(function() {
 	$(this).addClass('open');
@@ -19,7 +31,7 @@ jq(document).ready(function() {
 
     //    jq('#main h2').append('<a href="#top" class="backtotop"><img src="/images/backtotop.png" alt="back to top" title="Back to Top"/></a>');
 
-    jq('#main h2,#panel_ft div.page,ul.ead_work h3,h3[id="earlyYears"],h3[id="middleYears"],h3[id="laterYears"],dl.glossary dt').prepend('<a href="#top" class="backtotop noborder" style="float:right;"><img src="/images/backtotop.png" alt="back to top" title="Back to Top"/></a>');
+    jq('#main h2,#ft div.page,ul.ead_work h3,h3[id="earlyYears"],h3[id="middleYears"],h3[id="laterYears"],dl.glossary dt').prepend('<a href="#top" class="backtotop noborder" style="float:right;"><img src="/images/backtotop.png" alt="back to top" title="Back to Top"/></a>');
 
 // jq('.panel').hide();
     jq('.tabs a.active').removeClass('active');
@@ -288,7 +300,7 @@ jq(document).ready(function() {
 		
 		return false;
 		
-	    } else if (anchor == 'panel_record') {
+	    } else if (anchor == 'record') {
 		
 		jq('a[href="#' + anchor + '"]').click(); 
 		return false;
@@ -1036,26 +1048,6 @@ if (/view\.cgi/.test(self.location.href)) {
 // annotation modal (available on ALL w/pc of the text, and on all tabs)
 jq(document.body).on('click', '.linetext,.addnote', function (e) {
 
-//    if (e.target.nodeName == "SUP") { e.preventDefault(); return true; } // prevent modal on footnotes
-//    if (e.target.parentNode.href) { return true; } // prevent modal on clicking on internal links a.link_ref
-//    var isWord = false, ref = '';
-//    if ( $(this).hasClass("w") || $(this).hasClass("pc") ) { isWord = true; }
-//    if (isWord) {
-//	ref = o[ $(e.target).attr("id") ].tok;
-//	if ($(e.target).closest(".line").attr("id")) {
-//	    ref = reference( $(e.target) );
-//	    ref += ' ('+currentline( $(e.target).closest(".line").attr("id") )+')';
-//	} else {
-//	    ref += ' (paratext)] ';
-//	}
-//    } else {
-//	if ($(e.target).closest(".line").attr("id")) {
-//	    ref += currentline( $(e.target).closest(".line").attr("id") );
-//	} else {
-//	    ref += 'this paratext';
-//	}
-//    }
-
 var my_modal = `
 <div id="newNote" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="newModalLabel">
   <div class="modal-dialog" role="document">
@@ -1105,21 +1097,6 @@ for (i = 0; i <= lines_in; i++) {
 }
 my_modal += '</select>';
 
-//<div class="btn-group" data-toggle="buttons">\
-//  <label class="btn btn-default btn-sm">\
-//    <input type="radio" name="obj" autocomplete="off" class="form-control" value="word: '+jq(e.target).attr("id")+'"/> word\
-//  </label>\
-//  <label class="btn btn-default btn-sm active">\
-//    <input type="radio" name="obj" autocomplete="off" class="form-control" checked="checked" value="'+(jq(e.target).parent().attr("id")?jq(e.target).parent().attr("id"):'line: '+jq(e.target).attr("id"))+'"> line(s) \
-//  </label>\
-//  <label class="btn btn-default btn-sm">\
-//    <input class="form-control" type="radio" name="obj" autocomplete="off" value="stanza: '+jq(e.target).parent().attr("id")+'"> stanza/paragraph\
-//  </label>\
-//  <label class="btn btn-default btn-sm">\
-//    <input class="form-control" type="radio" name="obj" autocomplete="off" value="whole text: '+jq(e.target).parent().attr("id")+'"/> whole text\
-//  </label>\
-//</div>\
-
 my_modal += '\
 <h5>Your <span id="contribution-type">note</span>'+
 '</span></h5>'+
@@ -1142,16 +1119,12 @@ my_modal += '\
     <input class="form-control" type="radio" name="level" autocomplete="off" value="interpretation"/> interpretation\
   </label>\
 </div>\
-'+add_user();
+'+add_user(1);
 
     jq( "body" ).prepend(my_modal);
     jq('#newNote').modal('show');
 
-//    if ( isWord ) { // prevent double firing of modal
-//	e.stopPropagation();
-//    }
-
-});
+    });
 
 jq(document.body).on('change', '[name=sort]' , function(e) {
     if ( jq('input[name=sort]:checked', '#newNoteForm').val()=="annotation" ) {
@@ -1187,6 +1160,49 @@ jq(document.body).on('click', 'button#newNoteSubmit' , function(e) {
 });
 
 
+// save annotation modal form
+jq(document.body).on('click', 'button#newTransSubmit' , function(e) {
+	e.preventDefault();
+
+	// new JSON-ified form submission
+	var serialized = jq("#newNoteForm").serializeArray(), obj = {};
+	//	var serialized = JSON.parse(JSON.stringify(jq("#newNoteForm").serializeArray())), obj = {}; 
+	// build key-values                                                           
+	jq.each(serialized, function() {
+		obj[this.name] = this.value;
+	    });
+       	obj['file'] = docname;
+	//	obj['source'] = source;
+	obj['results'] = results;
+	obj['ref'] = ref;
+	obj['time'] = Math.floor(Date.now() / 1000);
+	
+	d = this;
+	jq(d).html("Submitting...");
+	jq.ajax({
+		type: 'POST',
+		    url: '/cgi-bin/handleCS.cgi',
+		    data: { "data": JSON.stringify(obj) },
+		    dataType: 'text',
+		    success: function() {
+		    jq(d).html("Thank You!");
+		    setTimeout(function() {
+			    jq('#newNote').modal('hide');
+			}, 1000);
+		    },
+		    error: function(jqXHR, textStatus, errorThrown) {
+		    jq(d).html("Error - Please try again!");
+		    console.log('jqXHR:');
+		    console.log(jqXHR);
+		    console.log('textStatus:');
+		    console.log(textStatus);
+		    console.log('errorThrown:');
+		    console.log(errorThrown);
+		}
+	    });
+	});
+
+
 // line/word reference
 function reference (token) {
     if (token.hasClass("w")) {
@@ -1205,8 +1221,145 @@ function reference (token) {
 }
 
 
+jq(document.body).on('hidden.bs.modal', '#newNote', function(e) { 
+    $(this).remove();
+});
+
+// Elegy Translations project
+var stn = []; // for rejected stanzas
+// Eton MS l. 100 stanza
+stn[0] = `
+<div style="display:none;" id="tgaen-stn33" class="lg lgvspace" data-id="stn33" data-corresp="#stn33">
+    <div class="line"><span class="ln"></span><span class="l">
+        \'Him have we seen the Green-wood Side along,
+    </span></div>
+    <div class="line"><span class="ln"></span><span class="l">
+        \'While o\'er the Heath we hied, our Labours done,
+    </span></div>
+    <div class="line"><span class="ln"></span><span class="l">
+        \'Oft as the Woodlark piped her farewell Song
+    </span></div>
+    <div class="line"><span class="ln"></span><span class="l">
+        \'With whistful Eyes pursue the setting Sun.
+    </span></div>
+</div>
+`;
+// Eton/Pembroke MSS l. 117 stanza
+stn[1] = `
+<div style="display:none;" id="tgaen-stn34" class="lg lgvspace" data-id="stn34" data-corresp="#stn34">
+    <div class="line"><span class="ln"></span><span class="l">
+        There scatter\'d oft, the earliest of the Year,
+    </span></div>
+    <div class="line"><span class="ln"></span><span class="l">
+        By Hands unseen, are show\'rs of Violets found;
+    </span></div>
+    <div class="line"><span class="ln"></span><span class="l">
+	The Red-breast loves to build and warble there,
+    </span></div>
+    <div class="line"><span class="ln"></span><span class="l">
+	And little Footsteps lightly print the Ground.
+    </span></div>
+</div>
+`;
+
+// load text
+jq(function(){
+	jq('.trans_sel').on('change', function () {
+		var d = this;
+		var file = jq(d).val(); // get selected value
+		if (file) { // require a text
+		    jq(d).parent().parent().parent().find(".panel-body").load( file +" section.main", function() {
+			    // make texts draggable for maximum vertical alignment flexibility
+			    jq('.draggable').draggable({ containment:"parent",axis:"y",
+					scroll:true,scrollSensitivity:200,scrollSpeed:100,
+					cancel: ".w,.pc"
+					});
+			    setup_highlight();
+			});
+		    jq(d).parent().parent().parent().find(".panel-footer").load( file +" div.bibl" ); 		    
+		}
+	    });
+    });
+
+// unload text
+jq(function(){
+	jq('.col_rs button.close').on('click', function () {
+		jq(this).parent().parent().find(".panel-body").empty( );
+		jq(this).parent().parent().find(".panel-footer").empty( );
+		jq(this).parent().find(".trans_sel").val( "" );
+	    });
+    });
+
+// highlight equivalence on stanza-level (where marked up)
+jq(document.body).on('mouseenter', 'div.lg,p', function () {
+	var d = this;
+	if (jq(d).attr('data-corresp')) { // get equivalence
+	    var ids = jq(d).attr('data-corresp').split(' '); // e.g. "#stn1 #stn2"
+	    jq.each( ids , function( index, item ) {
+		    var stnnum = item.replace( /^\D+/g, '');
+		    if (stnnum > 32) {    // rejected stanzas, needs @prev for location
+			jq("div[id^='tgaen'][data-corresp='"+jq(d).attr('data-prev')+"']").after( stn[stnnum-33] );
+			jq("div[id='tgaen-stn"+stnnum+"']").fadeIn(1500);
+		    }
+		    jq( "div.lg[data-corresp~='"+item+"'],p[data-corresp~='"+item+"']" ).addClass("idsSelected");
+		});
+	}
+    }).on('mouseleave', 'div.lg,p', function () {
+	var d = this;
+	if (jq(d).attr('data-corresp')) { // get equivalence
+	    var ids = jq(d).attr('data-corresp').split(' '); // e.g. "#stn1 #stn2"
+	    jq.each( ids , function( index, item ) {
+		    var stnnum = item.replace( /^\D+/g, '');
+		    if (stnnum > 32) {
+			jq("div[id='tgaen-stn"+stnnum+"']").remove();
+		    }
+		    jq( "div.lg[data-corresp~='"+item+"'],p[data-corresp~='"+item+"']" ).removeClass("idsSelected");
+		});
+	}
+	});
+
+// make texts sortable vertically
+jq( ".panel-group" ).sortable({
+	connectWith: ".panel-group",
+	    handle: ".panel-heading",
+	    placeholder: "panel-placeholder ui-corner-all"
+	    });
+
+// pre-load texts
+function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+var texts = getParameterByName('texts');
+var preloaded = [];
+if (!texts || texts == '') {
+    // pre-load Gray's original in first slot
+    preloaded[0]="tgaen-welcc";
+} else {
+    preloaded=texts.split(':'); // preloaded array
+}
+jq.each(preloaded,function(number){
+	jq(".panel-group .panel").eq(number).find(".panel-body").load( preloaded[number] +".shtml section.main", function() {
+		// make texts draggable for maximum vertical alignment flexibility
+		jq('.draggable').draggable({ containment:"parent",axis:"y",
+			    scroll:true,scrollSensitivity:200,scrollSpeed:100,
+			    cancel: ".w,.pc"
+			    });
+		setup_highlight();
+	    });
+	jq(".panel-group .panel").eq(number).find(".panel-footer").load( preloaded[number] +".shtml div.bibl" );
+	jq("select.trans_sel").eq(number).val( preloaded[number]+".shtml" );
+	
+    });
+
+    init_translations();
+
+}); // end ready
+
+
 // IC user details
-function add_user () {
+function add_user (type) {
 var user_details =
 '<h5 style="padding-top:5px;">Your details (if you wish to be acknowledged)</h5>'+
 '<div class="input-group input-group-sm">\
@@ -1229,7 +1382,9 @@ var user_details =
 <div class="modal-footer">\
 <p class="small"><em>Please note:</em> this contribution will be submitted to the editor in the first instance for review.  Once peer reviewed, the contribution will be made publicly available under a <a class="external" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons BY-NC-SA License</a>.</p>\
 <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>\
-<button type="button" class="btn" id="newNoteSubmit" >Submit</button>\
+<button type="button" class="btn" style="color:#fff; background-color:#79211F;" id="'+
+    ((type==1)?"newNoteSubmit":"newTransSubmit")+
+'" >Submit</button> \
 </div>\
 </div>\
 </div>\
@@ -1238,32 +1393,283 @@ var user_details =
 return user_details;
 }
 
-jq(document.body).on('hidden.bs.modal', '#newNote', function(e) { 
-    $(this).remove();
-});
+var selectedElements = [];
+
+function init_translations() {
+    var done = {};
+
+    if (typeof trans !== 'undefined') {
+    var trans_menu = `<div id="trans_menu"><div class="radio">
+  <label>
+    <input type="radio" name="transRadio" id="transRadio1" value="done">
+    Highlight translated passages
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="transRadio" id="transRadio2" value="todo">
+    Highlight passages yet to be translated
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="transRadio" id="transRadio3" value="bytrans">
+	Select translations by this contributor:
+  </label>
+</div>
+	<select class="form-control" id="bytrans" disabled>`;
+    var bytrans = [];
+    for (var i = 0; i < trans.length; i++) {
+        if (done[trans[i]["e-mail"]] != 1) {
+            done[trans[i]["e-mail"]] = 1;
+            bytrans.push((trans[i].name+":"+trans[i]["e-mail"]));
+        }
+    }
+    bytrans.sort(); // sort alphabetically by name                                                   
+    trans_menu += '<option value="all">All</option>';
+    for (var i = 0; i < bytrans.length; i++) {
+        var split = bytrans[i].split(":");
+        trans_menu += '<option value="'+split[0]+":"+split[1]+'">'+split[0]+'</option>';
+    }
+    trans_menu += '</select></div><div id="trans_body" />';
+    jq("#trans_menu").append( trans_menu );
+    trans_by("all");
+    } else {
+        jq("#trans_menu").html(`<br/><p>Be the <b>first</b> to translate a passage!</p>
+	    <p>Just click on any word (and keep the button pressed) and highlight the passage you want to translate.  When you release the button, just fill in the form and submit it.</p>
+            <p><b>Thank you</b> for your contribution!</p>`);
+    }
+}
+
+jq(document.body).on('change', 'input[name="transRadio"]', function () {
+	jq(selectedElements).removeClass("trans_done");
+	jq(selectedElements).removeClass("trans_todo");
+	var transValue = jq("input[name='transRadio']:checked").val();
+	if (transValue == "bytrans") {
+	    jq("select[id='bytrans']").removeAttr("disabled");
+	    trans_by(jq("select[id='bytrans']").val());
+	} else {
+	    if (!(jq("select[id='bytrans']").attr("disabled"))) {
+		jq("select[id='bytrans']").attr("disabled","disabled");
+	    }
+	    if (transValue == "done") { trans_done("all"); }
+	    else if (transValue == "todo") { trans_todo(); }
+	    trans_by("all");
+	}
+    });
+
+jq(document.body).on('change', 'select[id="bytrans"]', function () {
+	jq(selectedElements).removeClass("trans_done");
+	jq(selectedElements).removeClass("trans_todo");
+	trans_by( jq("select[id='bytrans']" ).val());
+    });
+
+function trans_by (translator) {
+    var translations, results = [];
+    var split = translator.split(":");
+    if (translator == "all") {
+	//      trans_done("all");       
+        translations = "<h1>All available translations</h1>";
+        for (var i = 0; i < trans.length; i++) {
+            results.push(trans[i]);
+        }
+    } else {
+	//      trans_done(split[1]);                                                                 
+        translations = "<h1>All translations by "+split[0]+"</h1>";
+        for (var i = 0; i < trans.length; i++) {
+            if (trans[i]["e-mail"] == split[1]) {
+                results.push(trans[i]);
+            }
+        }
+    }
+    results.sort(function(a, b) { // sort results by first ocurrence of id in the text      
+	    return compareStrings(a.results[0], b.results[0]);
+	});
+    translations += trans_display(results);
+    jq("#trans_body").html( translations );
+}
+
+function compareStrings(a, b) {
+    return (a < b) ? -1 : (a > b) ? 1 : 0;
+}
+
+function trans_display (json) {
+    var result = "";
+    result += "<ul>";
+    for (var i = 0; i < json.length; i++) {
+        var refs = "", refa = [];
+        result += "<li>";
+        if (json[i].results.length > 2) {
+            refa = json[i].ref.split(" ");
+            refs = refa[0]+" ... "+refa[refa.length - 1];
+        } else {
+            refs = json[i].ref;
+        }
+        result += '<a class="visualize_ids" data-ids="'+json[i]["results"]+'" href="#'+json[i]["results"][0]+'">'+refs+"</a>]<br />";
+        result += '"'+json[i]["comment"]+'" ('+json[i]["note"]+')<br/>';
+        result += "Contributed on "+timeConverter(json[i]['time'])+" by <a href='mailto:"+json[i]['e-mail']+
+            "'>"+json[i]['name']+"</a> ("+json[i]['affiliation']+").";// ["+json[i]['website']+"].";
+        result += "</li>";
+    }
+    result += "</ul>";
+    return result;
+}
+
+function jqid( myid ) {
+    return "#" + myid.replace( /(:|\.|\[|\]|,|=)/g, "\\$1" );
+}
+
+function trans_done (translator) {
+    var highlighted = [];
+    for (var i = 0; i < trans.length; i++) {
+        if (translator == trans[i]["e-mail"] || translator == "all") {
+            highlighted = highlighted.concat( trans[i].results );
+        }
+    }
+    for (var i = 0; i < highlighted.length; i++) {
+        jq( jqid( highlighted[i] ) ).addClass("trans_done");
+    }
+}
+
+function trans_todo () {
+    var highlighted = [];
+    for (var i = 0; i < trans.length; i++) {
+        highlighted = highlighted.concat( trans[i].results );
+    }
+    highlighted = ids.filter( function ( el ) {
+	    return highlighted.indexOf( el ) < 0;
+	});
+    for (var i = 0; i < highlighted.length; i++) {
+        jq( jqid( highlighted[i] ) ).addClass("trans_todo");
+    }
+}
 
 
-// Elegy Translations
+function timeConverter(UNIX_timestamp){
+    var a = new Date(UNIX_timestamp * 1000);
+    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var year = a.getFullYear();
+    var month = months[a.getMonth()];
+    var date = a.getDate();
+    var hour = a.getHours();
+    var min = a.getMinutes();
+    var sec = a.getSeconds();
+    var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
+    return time;
+}
 
-jq(function(){
-	jq('.trans_sel').on('change', function () {
-		var d = this;
-		var file = jq(d).val(); // get selected value
-		if (file) { // require a text
-		    jq(d).parent().parent().parent().find(".panel-body").load( file +" section.main" );
-		    jq(d).parent().parent().parent().find(".panel-footer").load( file +" div.bibl" ); 
+jq(document.body).on('shown.bs.modal', "#newNote,#newIC", function () {
+	jq('#newNoteText').focus();
+    });
+
+var results = [], ref = "", docname = "";
+(typeof exports !== "undefined" && exports !== null ? exports : this).setup_highlight = function() {
+    var all_colors, all_facets, color, colormap, current_facet_num, currently_marking, facet, facet_num, get_word_number, i, j, len, len1, mark, storage, marking_start, marking_end;
+    ids = [];
+    jq(document.body).find('.w:not(.note .w,.fw .w),.pc:not(.note .pc,.fw .pc)').each(function(n,i){
+	    selectedElements.push($(i));
+	});
+    for (var i = 0; i < selectedElements.length; i++) {
+	ids.push ( jq(selectedElements[i]).attr("id") );
+    }
+
+    // This code tracks the marking.  Initially not in marking mode.                           
+    currently_marking = false;
+
+    highlight = function(elt_start, elt_end) {
+       	var index = ids.indexOf(elt_start);
+       	var index2 = ids.indexOf(elt_end);
+	if (index <= index2) {
+	    jq( "span.sstart,span.send" ).remove();
+	    jq( " <span class='glyphicon glyphicon-chevron-right sstart'></span> " ).insertBefore( "#"+ elt_start );
+	    jq( " <span class='glyphicon glyphicon-chevron-left send'></span> " ).insertAfter( "#"+ elt_end );
+	}
+    };
+
+    //    highlight = function(elt_start, elt_end) {
+    //	var index = ids.indexOf(elt_start);
+    //	var index2 = ids.indexOf(elt_end);
+    //	jq(selectedElements).removeClass("idsSelected");
+    //	if (index > index2) {
+    //	    for (var i = index2; i <= index; i++) {
+    //		jq(selectedElements[i]).addClass("idsSelected");
+    //	    }
+    //	} else {
+    //	    for (var i = index; i <= index2; i++) {
+    //		jq(selectedElements[i]).addClass("idsSelected");
+    //	    }
+    //	}
+    //    };
+
+    // CSS selector for spans class=word. When mouse is clicked, start marking mode in the current color          
+    jq(document.body).on('mousedown', '.text .w:not(.note .w,.fw .w),.text .pc:not(.note .pc, .fw .pc)', function (event) {
+	    event.stopImmediatePropagation();
+	    event.preventDefault();
+	    currently_marking = true;
+	    marking_start = jq(this).attr("id");
+	    marking_end = jq(this).attr("id");
+	    highlight (marking_start,marking_end);
+	    docname = jq(this).closest("section").attr("data-docname");
+	});
+
+    // Only marks text when the mouse is down                                     
+    jq(document.body).on('mouseover', '.text .w:not(.note .w,.fw .w),.text .pc:not(.note .pc, .fw .pc)', function (e) {
+	    //	    e.preventDefault();
+	    if (currently_marking) {
+		var index = ids.indexOf(marking_start);
+		var index2 = ids.indexOf( jq(this).attr("id") );
+		if (index <= index2) {
+		    marking_end = jq(this).attr("id");
+		    highlight (marking_start,marking_end);
 		}
-	    });
-    });
+	    }
+	});
 
+    // Stop marking when mouse is released
+    jq(document.body).on('mouseup', function (e) {
+	    if (currently_marking) {
+		results = [];
+		ref="";
+		currently_marking = false;
+		var index = ids.indexOf(marking_start);
+		var index2 = ids.indexOf(marking_end);
+		//		if (index > index2) {
+		//		    for (var i = index2; i <= index; i++) {
+		//			results.push (jq(selectedElements[i]).attr("id"));
+		//		    }
+		//		}
+		if (index <= index2) {
+		    for (var i = index; i <= index2; i++) {
+			results.push (jq(selectedElements[i]).attr("id"));
+		    }
+		}
+		for (var i = 0; i < results.length; i++) {
+		    ref += jq('[id="'+results[i]+'"]').text()+" ";
+		}
+		ref = ref.slice(0,-1);
 
-jq(function(){
-	jq('.col_rs button.close').on('click', function () {
-		jq(this).parent().parent().find(".panel-body").empty( );
-		jq(this).parent().parent().find(".panel-footer").empty( );
-		jq(this).parent().find(".trans_sel").val( "" );
-	    });
-    });
+		jq( "body" ).prepend('\
+<div id="newNote" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="newModalLabel">\
+  <div class="modal-dialog" role="document">\
+    <div class="modal-content">\
+      <div class="modal-header">\
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>\
+        <h4 class="modal-title" id="newModalLabel">Add a translation</h4>\
+      </div>\
+      <div class="modal-body">\
+<form id="newNoteForm">\
+<h5>Your translation of <span id="contribution-context">"'+ref+
+'"</span></h5><textarea style="resize:vertical;" class="form-control" name="comment" id="newNoteText" rows="4" required="required"/><h5>Note on the translation (optional)</h5>\
+<textarea style="resize:vertical;" class="form-control" name="note" id="newNoteNote" rows="2"/>'+add_user(2)
+);
+		jq('#newNote').modal('show');
 
+		jq( "span.sstart,span.send" ).remove();
+		//		jq(selectedElements).removeClass("idsSelected");
+	    }
+	});
 
-}); // end ready
+};
+
+jq('.note_link').on('click', function(e) {e.preventDefault(); return true;});
+

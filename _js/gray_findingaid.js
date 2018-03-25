@@ -10,9 +10,9 @@ $this = $(this);
 
 $('.panel').hide();
                                $('.tabs a.active').removeClass('active');
-                              $('a[href="#panel_overview"]').addClass('active').blur();
+                              $('a[href="#overview"]').addClass('active').blur();
                                
-                                $('#panel_overview').fadeIn(250);
+                                $('#overview').fadeIn(250);
                                 
                                 location.hash=$this.attr('href');
                                 

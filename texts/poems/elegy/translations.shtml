@@ -11,8 +11,9 @@
 
 .panel-body {
    display: flex;
-   flex-grow:1;
+   flex-grow: 1;
    padding: 5px;
+   overflow: auto;
 }
 .panel-footer {
    font-size: 12px;
@@ -37,20 +38,19 @@
 .trans_sel {
     width:93%;
 }
+#trans_navi {
+    float: right;
+    margin-top:25px;
+}
+#trans_navi ul li:last-child {
+    margin-right:0px;
+}
+#trans_navi li {
+    display:inline;
+    margin-right:10px;
+}
 
 </style>
-
-<script>
-
-jq(function() {
-    jq( ".panel-group" ).sortable({
-        connectWith: ".panel-group",
-        handle: ".panel-heading",
-        placeholder: "panel-placeholder ui-corner-all"
-    });
-});
-
-</script>
 
     <div class="container">
 
@@ -58,12 +58,20 @@ jq(function() {
 
 	<div class="col-xs-12" id="main">
 
-	  <h1>Gray's "Elegy" in translation</h1>
+	  <nav id="trans_navi">
+	  <ul>
+	    <li><a class="note_link" href="./#translations">Translations</a></li>
+	    <li><a class="note_link" href="./#lacunae">Lacunae</a></li>
+	    <li><a class="note_link" href="./#bibl">Bibliography</a></li>
+	    <li><a class="note_link" href="./#about">About</a></li>	    
+	  </ul>
+	  </nav>
+	  <h1>Gray's "Elegy" in translation</h1>	  
 
-          <div id="text" class="panel-group ui-sortable"
+          <div id="text" class="panel-group"
 	       style="display:flex; align-items: stretch; flex: 1 0 auto;" role="tablist">
 
-	    <div class="panel panel-default col_rs no1
+	    <div class="panel panel-default col_rs
 			ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
 	      <div class="panel-heading ui-sortable-handle ui-widget-header
 			  ui-corner-all" role="tab">
@@ -77,7 +85,7 @@ jq(function() {
 	      <div class="panel-footer"></div>
 	    </div>
 	    
-	    <div class="panel panel-default col_rs no2
+	    <div class="panel panel-default col_rs
 			ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
 	      <div class="panel-heading ui-sortable-handle ui-widget-header
 			  ui-corner-all" role="tab">
@@ -91,7 +99,7 @@ jq(function() {
 	      <div class="panel-footer"></div>
 	    </div>
 	    
-	    <div class="panel panel-default col_rs no3
+	    <div class="panel panel-default col_rs
 			ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
 	      <div class="panel-heading ui-sortable-handle ui-widget-header
 			  ui-corner-all" role="tab">

@@ -1192,7 +1192,7 @@ display: block;
 #main div#stanza1 { margin-top: 30px;  
       	   }
       	   
-#main #panel_notes .poemtitle, #main #panel_poem .poemtitle, #main #panel_ana .poemtitle {
+#main #notes .poemtitle, #main #poem .poemtitle, #main #ana .poemtitle {
 
 position: relative;
 /*font:bold 1.2em Utopia, Georgia, serif;*/
@@ -1205,8 +1205,8 @@ position: relative;
 }
 
 
-#main #panel_ana .poemtitle .anassummary,
-#main #panel_notes .poemtitle .notessummary { float: right; }
+#main #ana .poemtitle .anassummary,
+#main #notes .poemtitle .notessummary { float: right; }
 
       	    	   
 
@@ -1243,7 +1243,7 @@ line-height: 1.4em;
 
 }
 
-#main #panel_notes span.linetext, #main #panel_poem span.linetext, #main #panel_ana span.linetext
+#main #notes span.linetext, #main #poem span.linetext, #main #ana span.linetext
 {
 
 padding: 0 0 0 30px;
@@ -1251,13 +1251,13 @@ padding: 0 0 0 30px;
 display:inline-block;
 /* end */
 }
-#main #panel_notes span.linetext {
+#main #notes span.linetext {
 width:70%;
 }
-#main #panel_poem span.linetext {
+#main #poem span.linetext {
 width:90%;
 }
-#main #panel_ana span.linetext {
+#main #ana span.linetext {
 width:90%;
 }
 .linetext,.addnote {
@@ -1267,8 +1267,8 @@ cursor: pointer;
 position: initial;
 }
 
-#main #panel_notes span.notessummary,  
-#main #panel_ana span.anassummary {
+#main #notes span.notessummary,  
+#main #ana span.anassummary {
 background: url(/images/plus.png) no-repeat 0 16px;
 	padding: 10px 0 0 20px;
 	
@@ -1278,12 +1278,12 @@ float:right;
 
 } 
 
-#main #panel_notes h2 span {
+#main #notes h2 span {
     font-size: 16px;
 }
 
-#main #panel_notes span.close,
-#main #panel_ana span.close
+#main #notes span.close,
+#main #ana span.close
 {
 background-image: url(/images/minus.png);
 /*float: none;*/
@@ -1300,7 +1300,7 @@ float: left;
 
 /*end Annotations */
 
-#main #panel_notes div.quote, #main #panel_poem div.quote, #main #panel_ana div.quote {
+#main #notes div.quote, #main #poem div.quote, #main #ana div.quote {
 
 margin: 0 0 10px 60px;
 
@@ -1318,8 +1318,8 @@ margin: 0 0 10px 60px;
 
 /* Poem notes and queries   */ 
 
-#main #panel_notes p.summary,
-#main #panel_ana p.summary
+#main #notes p.summary,
+#main #ana p.summary
 {
 background: url(/images/plus.png) no-repeat 0 16px;
 	padding: 10px 0 0 20px;
@@ -1328,8 +1328,8 @@ margin-bottom: 0;
 
 } 
 
-#main #panel_notes p.close,
-#main #panel_ana p.close
+#main #notes p.close,
+#main #ana p.close
 {
 background-image: url(/images/minus.png);
 float:none;
@@ -1339,7 +1339,7 @@ font-size:inherit;
 } 
 
 
-#main #panel_notes .fullquery
+#main #notes .fullquery
 {
 
 
@@ -1347,7 +1347,7 @@ text-align: left;
 margin-left: 20px;
 }
 
-#main #panel_notes .fullquery blockquote
+#main #notes .fullquery blockquote
 {
 
 margin-top: .8em ;
@@ -1437,7 +1437,7 @@ color: #FFF;
 
 }
 
-#main  #panel_notes h2 .backtotop, #main  #panel_poem h2 .backtotop, #main  #panel_ana h2 .backtotop {
+#main  #notes h2 .backtotop, #main  #poem h2 .backtotop, #main  #ana h2 .backtotop {
 
 display: none;
 
@@ -2005,39 +2005,39 @@ line-height: 1.4em;
 	margin-top:10px;
 }
 
-#panel_ft .tei_front *, .titlem {
+#ft .tei_front *, .titlem {
     font-style: italic;
 }
 
-#panel_ft {
+#ft {
     margin-top:20px;
     line-height:1.4em;
 }
 
-#panel_ft .pb {
+#ft .pb {
     width:100%;
     border-bottom: 1px solid;
     margin-bottom:15px;
 }
 
-#panel_ft ul {
+#ft ul {
     list-style: none;
 }
 
-#panel_ft .opener .dateline, #panel_ft .closer .salute, #panel_ft .closer .signed {
+#ft .opener .dateline, #ft .closer .salute, #ft .closer .signed {
     text-align: right;
 }
 
-#panel_ft .opener *, #panel_ft .closer * {
+#ft .opener *, #ft .closer * {
     margin-bottom:10px;
     line-height:1.4em;
 }
 
-#panel_ft .figure {
+#ft .figure {
     text-align:center;
 }
 
-#panel_ft .q {
+#ft .q {
     margin-left: 2em;
 }
 

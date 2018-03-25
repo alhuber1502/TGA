@@ -228,12 +228,12 @@ else if  (/\/resources\/findaid\.shtml/.test(page)) {
 		
 					if(that.attr( 'href' ) === hash) {
 					
-					if ($('#panel_overview').is(':hidden')) {
+					if ($('#overview').is(':hidden')) {
 					$('.panel').hide();
 										                               $('.tabs a.active').removeClass('active');
-										                              $('a[href="#panel_overview"]').addClass('active').blur();
+										                              $('a[href="#overview"]').addClass('active').blur();
 										                               
-                               						 $('#panel_overview').fadeIn(250);
+                               						 $('#overview').fadeIn(250);
 					
 					
 					

@@ -357,7 +357,7 @@ if (anchor != '') {
 
 	}
 	
-	else if (anchor == 'panel_record') {
+	else if (anchor == 'record') {
 		
 		jq('a[href="#' + anchor + '"]').click(); 
 		return false;
