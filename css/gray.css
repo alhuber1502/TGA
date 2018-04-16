@@ -343,7 +343,7 @@ display: none;
 .listBibl li ul {
     margin-left:-15px;
 }
-.lacunae > ul {
+.lacunae > ol {
     columns:2;
 }
 .lacunae div.listhead h1 {
@@ -373,11 +373,19 @@ margin: 0;
 
 }
 
-#main  .bibliography {
+#main  .bibliography, #main .lacunae ol, #main .bibliography ol {
 
 text-decoration: none;
  list-style: none;
  margin-left: 0;
+ padding-left: 0;
+
+}
+
+#main .lacunae ul {
+
+text-decoration: none;
+ list-style: none;
  padding-left: 0;
 
 }
@@ -1260,7 +1268,7 @@ width:90%;
 #main #ana span.linetext {
 width:90%;
 }
-.linetext,.addnote {
+.linetext,.addnote,.pre_link {
 cursor: pointer;
 }
 .btn-group>.btn {
@@ -2368,4 +2376,7 @@ span.collapse.in {
 }
 #trans_menu {
     padding-left:1px;
+}
+.panel-footer div.tfooter {
+    display:block !important;
 }

@@ -592,7 +592,7 @@ jq('.queries').hide();
 //      	           	jq('.queries').fadeOut();
 			       	           	
 			       	var openLine = jq(this).siblings('.number').text();
-			      console.log('open line is %s ', openLine);
+				//			      console.log('open line is %s ', openLine);
 			       
 //				document.contributePoems.fromline.selectedIndex = parseInt(openLine) + 1;
 				
@@ -668,7 +668,7 @@ jq('.queries').hide();
 //      	           	jq('.queries').fadeOut();
 			       	           	
 			       	var openLine = jq(this).siblings('.number').text();
-			      console.log('open line is %s ', openLine);
+				//			      console.log('open line is %s ', openLine);
 			       
 //				document.contributePoems.fromline.selectedIndex = parseInt(openLine) + 1;
 				
@@ -1225,6 +1225,7 @@ jq(document.body).on('hidden.bs.modal', '#newNote', function(e) {
     $(this).remove();
 });
 
+
 // Elegy Translations project
 var stn = []; // for rejected stanzas
 // Eton MS l. 100 stanza
@@ -1276,7 +1277,14 @@ jq(function(){
 					});
 			    setup_highlight();
 			});
-		    jq(d).parent().parent().parent().find(".panel-footer").load( file +" div.bibl" ); 		    
+		    jq(d).parent().parent().parent().find(".panel-footer").load( file +" section.main div.tfooter" );
+		    if ( jq(d).parent().parent().parent().hasClass("pno1") &&
+			 jq( "input[name='view']:checked" ).val() == "detail"
+			 ) { choiceison = true; 
+			jq( ".pno4 .panel-body" ).html( "" );
+		    }
+		    var colno = jq(d).closest("*[data-col]").attr("data-col");
+		    updateURL(file.slice(0, -6), parseInt(colno));
 		}
 	    });
     });
@@ -1284,16 +1292,121 @@ jq(function(){
 // unload text
 jq(function(){
 	jq('.col_rs button.close').on('click', function () {
-		jq(this).parent().parent().find(".panel-body").empty( );
-		jq(this).parent().parent().find(".panel-footer").empty( );
-		jq(this).parent().find(".trans_sel").val( "" );
+	    jq(this).parent().parent().find(".panel-body").empty( );
+	    jq(this).parent().parent().find(".panel-footer").empty( );
+	    jq(this).parent().find(".trans_sel").val( "" );
+	    setup_highlight();
+	    var colno = jq(this).closest("*[data-col]").attr("data-col");
+	    updateURL('', parseInt(colno));
+	});
+    });
+
+
+// choose translations in detailed view
+jq(function(){
+	jq('.lang_sel').on('change', function () {
+		var d = this;
+		var lang = jq(d).val(); // get selected value
+		if (lang == "all") {
+		    jq( ".pno4 .panel-body div[class~='trans_stn']" ).show();
+		} else {
+		    jq( ".pno4 .panel-body div[class~='trans_stn']" ).hide();
+		    jq( ".pno4 .panel-body div[class~='trans_stn'][data-lang='"+lang+"']" ).show();
+		}
 	    });
     });
 
-// highlight equivalence on stanza-level (where marked up)
-jq(document.body).on('mouseenter', 'div.lg,p', function () {
+
+// select stanza for detailed view and get equivalents
+jq(document.body).on('mousedown', '*[data-id]', function () {
 	var d = this;
-	if (jq(d).attr('data-corresp')) { // get equivalence
+	if (choiceison) {
+	    choiceison = false;
+	    jq( '.pno1 .text *[data-id],.pno1 .text h1,.pno1 .text .head-stanza,.pno1 .text .head-part,.pno1 .text .trailer,.pno1 .text .signed,.pno1 .text .epigraph' ).hide();
+	    jq( '.pno1 .text *[data-id="'+jq(d).attr("data-id")+'"]' ).show();
+	    jq( ".pno4 .panel-body" ).html( "" );
+
+	    trans_all.sort(function(a, b) {
+		    var alpha_order = jq( a ).attr( 'data-scit' ).split( '(' )[1].substring( 0, 3 ).localeCompare( jq( b ).attr( 'data-scit' ).split( '(' )[1].substring( 0, 3 ) ); 
+		    var date_order = parseInt( jq( a ).attr( 'data-docname' ).substr(jq( a ).attr( 'data-docname' ).length - 4) ) - parseInt( jq( b ).attr( 'data-docname' ).substr(jq( b ).attr( 'data-docname' ).length - 4) );
+		    return alpha_order || date_order;
+		});
+	    for (var i = 0; i < trans_all.length; i++) {
+		if ( jq( trans_all[i] ).attr( "data-docname" ) == jq( d ).closest( "section" ).attr( "data-docname" ) ) { continue; }
+		var matched = [], unique = [], equivalents = [];
+		if ( jq( d ).attr( "data-corresp" ) ) {
+		    equivalents = jq( d ).attr( "data-corresp" ).split( " " );
+		}
+		jq.each( equivalents, function( index, item ) {
+			jq.each( jq( trans_all[i] ).find( "*[data-corresp]"), function( index2, item2 ) {
+				if ( jq.inArray ( item, jq( item2 ).attr( "data-corresp" ).split( " " )) != -1 ) {
+				    matched.push( jq( item2 ).attr( "id" ) );
+				}
+			    });
+		    });
+		jq( ".pno4 .panel-body" ).append( "<div class='trans_stn' data-id='"+jq( trans_all[i] ).attr( 'data-docname' )+"' data-lang='"+jq( trans_all[i] ).attr( 'data-lang' )+"'/>" ); 
+		if (matched.length > 0) {
+		    unique = matched.filter(function(itm, i, matched) { return i == matched.indexOf(itm); });
+		    jq.each( unique, function( index, item ) {
+			    jq( trans_all[i] ).find( " #"+item ).clone().appendTo( ".pno4 .panel-body div[data-id='"+jq( trans_all[i] ).attr( 'data-docname' )+"']" );
+			});
+		} else {
+		    jq( ".pno4 .panel-body div[data-id='"+jq( trans_all[i] ).attr( 'data-docname' )+"']" ).append( "<div>[No equivalent found.]</div>" );
+		}
+		jq( ".pno4 .panel-body div[data-id='"+jq( trans_all[i] ).attr( 'data-docname' )+"']" ).append( "<div class='scit'>"+jq( trans_all[i] ).attr( "data-scit" )+"<br/><span>[Load text into <a class='pre_link' data-col='2' data-file='"+jq( trans_all[i] ).attr( 'data-docname' )+"'>middle</a> or <a class='pre_link' data-col='3' data-file='"+jq( trans_all[i] ).attr( 'data-docname' )+"'>right</a> column.]</span></div><hr/>" );
+	    }
+	    if ( jq(d).closest( "section" ).attr( "data-lang" ) == "eng" || jq( ".pno4 .panel-body div[class~='trans_stn'][data-lang='"+jq(d).closest( "section" ).attr( "data-lang" )+"']" ).length == 0) {
+		jq("select.lang_sel").val( "all" );
+	    } else {
+		jq("select.lang_sel").val( jq(d).closest( "section" ).attr( "data-lang" ) );
+		jq( ".pno4 .panel-body div[class~='trans_stn']" ).hide();
+		jq( ".pno4 .panel-body div[class~='trans_stn'][data-lang='"+jq(d).closest( "section" ).attr( "data-lang" )+"']" ).show();
+	    }
+	}
+    });
+
+
+// select stanza for detailed view
+jq(document.body).on('mouseenter', '*[data-id]', function () {
+	var d = this;
+	if (choiceison) {
+	    jq( d ).addClass("stnSelected");
+	}
+    }).on('mouseleave', '*[data-id]', function () {
+	var d = this;
+	if (choiceison) {
+	    jq( d ).removeClass("stnSelected");
+	}
+	});
+
+// switch views
+jq( "input[name='view']" ).change( function() {
+	if ( jq( "input:checked" ).val() == "full") {
+	    choiceison = false;
+	    jq( '.pno1 div.lg,.pno1 p' ).removeClass("stnSelected");
+	    jq( '.pno1 .text *[data-id],.pno1 .text h1,.pno1 .text .head-stanza,.pno1 .text .head-part,.pno1 .text .trailer,.pno1 .text .signed,.pno1 .text .epigraph' ).show();
+	    jq( '.pno4' ).hide();
+	    jq( ['.pno2','.pno3']).each( function(n,i) {
+		    $(i).show();
+		});
+	    setup_highlight();
+	} else {
+	    jq( ['.pno2','.pno3']).each( function(n,i) {
+		    $(i).hide();
+		});
+	    jq( '.pno4').show().css({display: 'flex',height: 'initial'});
+	    //	    if ( jq( '.pno4 .panel-body').html() == '') {
+		choiceison = true;
+		//	    }
+	}
+	//	console.log(choiceison);
+    });
+
+
+// highlight equivalence on stanza-level (where marked up)
+jq(document.body).on('mouseenter', '*[data-id]', function () {
+	var d = this;
+	if (jq(d).attr('data-corresp') && !choiceison) { // get equivalence
 	    var ids = jq(d).attr('data-corresp').split(' '); // e.g. "#stn1 #stn2"
 	    jq.each( ids , function( index, item ) {
 		    var stnnum = item.replace( /^\D+/g, '');
@@ -1301,22 +1414,22 @@ jq(document.body).on('mouseenter', 'div.lg,p', function () {
 			jq("div[id^='tgaen'][data-corresp='"+jq(d).attr('data-prev')+"']").after( stn[stnnum-33] );
 			jq("div[id='tgaen-stn"+stnnum+"']").fadeIn(1500);
 		    }
-		    jq( "div.lg[data-corresp~='"+item+"'],p[data-corresp~='"+item+"']" ).addClass("idsSelected");
+		    jq( "*[data-corresp~='"+item+"']" ).addClass("idsSelected");
 		});
 	}
-    }).on('mouseleave', 'div.lg,p', function () {
+    }).on('mouseleave', '*[data-id]', function () {
 	var d = this;
-	if (jq(d).attr('data-corresp')) { // get equivalence
+	if (jq(d).attr('data-corresp') && !choiceison) { // get equivalence
 	    var ids = jq(d).attr('data-corresp').split(' '); // e.g. "#stn1 #stn2"
 	    jq.each( ids , function( index, item ) {
 		    var stnnum = item.replace( /^\D+/g, '');
 		    if (stnnum > 32) {
 			jq("div[id='tgaen-stn"+stnnum+"']").remove();
 		    }
-		    jq( "div.lg[data-corresp~='"+item+"'],p[data-corresp~='"+item+"']" ).removeClass("idsSelected");
+		    jq( "*[data-corresp~='"+item+"']" ).removeClass("idsSelected");
 		});
 	}
-	});
+    });
 
 // make texts sortable vertically
 jq( ".panel-group" ).sortable({
@@ -1326,11 +1439,6 @@ jq( ".panel-group" ).sortable({
 	    });
 
 // pre-load texts
-function getParameterByName(name) {
-    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
-    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
-}
-
 var texts = getParameterByName('texts');
 var preloaded = [];
 if (!texts || texts == '') {
@@ -1340,23 +1448,61 @@ if (!texts || texts == '') {
     preloaded=texts.split(':'); // preloaded array
 }
 jq.each(preloaded,function(number){
+    if (preloaded[number] != '') {
 	jq(".panel-group .panel").eq(number).find(".panel-body").load( preloaded[number] +".shtml section.main", function() {
-		// make texts draggable for maximum vertical alignment flexibility
-		jq('.draggable').draggable({ containment:"parent",axis:"y",
-			    scroll:true,scrollSensitivity:200,scrollSpeed:100,
-			    cancel: ".w,.pc"
-			    });
-		setup_highlight();
-	    });
-	jq(".panel-group .panel").eq(number).find(".panel-footer").load( preloaded[number] +".shtml div.bibl" );
+	    // make texts draggable for maximum vertical alignment flexibility
+	    jq('.draggable').draggable({ containment:"parent",axis:"y",
+					 scroll:true,scrollSensitivity:200,scrollSpeed:100,
+					 cancel: ".w,.pc"
+				       });
+	    setup_highlight();
+	});
+	jq(".panel-group .panel").eq(number).find(".panel-footer").load( preloaded[number] +".shtml section.main div.tfooter" );
 	jq("select.trans_sel").eq(number).val( preloaded[number]+".shtml" );
-	
-    });
+    }
+});
 
+
+// pre-load texts from detailed view
+jq(document.body).on('mousedown', 'a.pre_link', function (e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    var d = this;
+    var number = parseInt(jq(d).attr("data-col"))-1;
+    jq(".panel-group .panel").eq(number).find(".panel-body").load( jq(d).attr("data-file") +".shtml section.main", function() {
+	// make texts draggable for maximum vertical alignment flexibility
+	jq('.draggable').draggable({ containment:"parent",axis:"y",
+				     scroll:true,scrollSensitivity:200,scrollSpeed:100,
+				     cancel: ".w,.pc"
+				   });
+    });
+    jq(".panel-group .panel").eq(number).find(".panel-footer").load( jq(d).attr("data-file") +".shtml section.main div.tfooter" );
+    jq("select.trans_sel").eq(number).val( jq(d).attr("data-file") +".shtml" );
+    updateURL( jq(d).attr("data-file"), number+1);
+    jq(d).parent().replaceWith("[Done.  Switch to full-text view at any time to resume analysis.]");
+});
+
+    
     init_translations();
 
 }); // end ready
 
+var choiceison = false, colsel = 0;
+
+// update URL
+function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function updateURL (newtext, part) {
+    var url = '/texts/poems/elegy/translations.shtml?texts=';
+    var texts = getParameterByName('texts');
+    var current = texts.split(':');
+    current[part-1] = newtext;
+    url += current[0]+":"+current[1]+":"+current[2];
+    History.replaceState(null,null,url);
+}
 
 // IC user details
 function add_user (type) {
@@ -1566,7 +1712,7 @@ var results = [], ref = "", docname = "";
 (typeof exports !== "undefined" && exports !== null ? exports : this).setup_highlight = function() {
     var all_colors, all_facets, color, colormap, current_facet_num, currently_marking, facet, facet_num, get_word_number, i, j, len, len1, mark, storage, marking_start, marking_end;
     ids = [];
-    jq(document.body).find('.w:not(.note .w,.fw .w),.pc:not(.note .pc,.fw .pc)').each(function(n,i){
+    jq(document.body).find('div[data-col] .w:not(.note .w,.fw .w),div[data-col] .pc:not(.note .pc,.fw .pc)').each(function(n,i){
 	    selectedElements.push($(i));
 	});
     for (var i = 0; i < selectedElements.length; i++) {
@@ -1581,8 +1727,8 @@ var results = [], ref = "", docname = "";
        	var index2 = ids.indexOf(elt_end);
 	if (index <= index2) {
 	    jq( "span.sstart,span.send" ).remove();
-	    jq( " <span class='glyphicon glyphicon-chevron-right sstart'></span> " ).insertBefore( "#"+ elt_start );
-	    jq( " <span class='glyphicon glyphicon-chevron-left send'></span> " ).insertAfter( "#"+ elt_end );
+	    jq( "<span class='glyphicon glyphicon-chevron-right sstart'></span>" ).insertBefore( "#"+ elt_start );
+	    jq( "<span class='glyphicon glyphicon-chevron-left send'></span>" ).insertAfter( "#"+ elt_end );
 	}
     };
 
@@ -1602,20 +1748,23 @@ var results = [], ref = "", docname = "";
     //    };
 
     // CSS selector for spans class=word. When mouse is clicked, start marking mode in the current color          
-    jq(document.body).on('mousedown', '.text .w:not(.note .w,.fw .w),.text .pc:not(.note .pc, .fw .pc)', function (event) {
-	    event.stopImmediatePropagation();
-	    event.preventDefault();
-	    currently_marking = true;
-	    marking_start = jq(this).attr("id");
-	    marking_end = jq(this).attr("id");
-	    highlight (marking_start,marking_end);
-	    docname = jq(this).closest("section").attr("data-docname");
+    jq(document.body).on('mousedown', '.w:not(.note .w,.fw .w),.pc:not(.note .pc, .fw .pc)', function (event) {
+	    if ( !choiceison && !(jq(this).closest("div[class~='trans_stn']").length > 0) ) {
+		event.stopImmediatePropagation();
+		event.preventDefault();
+		currently_marking = true;
+		marking_start = jq(this).attr("id");
+		marking_end = jq(this).attr("id");
+		highlight (marking_start,marking_end);
+		docname = jq(this).closest("section").attr("data-docname");
+		colsel = parseInt( jq(this).closest("*[data-col]").attr("data-col") );
+	    }
 	});
 
     // Only marks text when the mouse is down                                     
-    jq(document.body).on('mouseover', '.text .w:not(.note .w,.fw .w),.text .pc:not(.note .pc, .fw .pc)', function (e) {
+    jq(document.body).on('mouseover', '.w:not(.note .w,.fw .w),.pc:not(.note .pc, .fw .pc)', function (e) {
 	    //	    e.preventDefault();
-	    if (currently_marking) {
+	    if (currently_marking && parseInt( jq(this).closest("*[data-col]").attr("data-col") ) == colsel ) {
 		var index = ids.indexOf(marking_start);
 		var index2 = ids.indexOf( jq(this).attr("id") );
 		if (index <= index2) {
@@ -1644,7 +1793,7 @@ var results = [], ref = "", docname = "";
 		    }
 		}
 		for (var i = 0; i < results.length; i++) {
-		    ref += jq('[id="'+results[i]+'"]').text()+" ";
+		    ref += jq('div[data-col] [id="'+results[i]+'"]').text()+" ";
 		}
 		ref = ref.slice(0,-1);
 

@@ -6,13 +6,15 @@
 <!--#include virtual="/top.shtml" -->
 
     <!-- Begin page content -->
+
+<script src="/_js/browserstate-history.js-d213d8c/scripts/bundled/html4+html5/jquery.history.js"></script>
     
 <style>
 
 .panel-body {
    display: flex;
    flex-grow: 1;
-   padding: 5px;
+   padding: 1px;
    overflow: auto;
 }
 .panel-footer {
@@ -22,14 +24,28 @@
     display: flex;
     max-width: 390px;
     margin-right: 10px;
-    border-style: dotted;
+    border-style: none;
     flex-direction: column;
     margin-top: 5px;
     width: auto;
 }
-.col_rs:last-child {
+.col_rs:nth-child(3) {
     margin-right:0;
 }
+.col_rs2 {
+    display: none;
+    height:100%;
+    max-width: 757px;
+    border-style: none;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 100%;
+}
+.col_rs2 .panel-body {
+    display:block;
+    columns:2;
+}
+
 .panel-placeholder {
     border: 1px dotted black;
     margin: 0 1em 1em 0;
@@ -38,8 +54,10 @@
 .trans_sel {
     width:93%;
 }
+.lang_sel {
+    width:96%;
+}
 #trans_navi {
-    float: right;
     margin-top:25px;
 }
 #trans_navi ul li:last-child {
@@ -49,6 +67,19 @@
     display:inline;
     margin-right:10px;
 }
+.table {
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    white-space:nowrap;
+}
+.table-row {
+    display:table-row;
+}
+.table-cell {
+    display:table-cell;
+
+}
 
 </style>
 
@@ -56,22 +87,61 @@
 
       <div class="row">
 
-	<div class="col-xs-12" id="main">
+	<div class="col-xs-12">
+	  
+	  <section id="main">
 
-	  <nav id="trans_navi">
-	  <ul>
-	    <li><a class="note_link" href="./#translations">Translations</a></li>
-	    <li><a class="note_link" href="./#lacunae">Lacunae</a></li>
-	    <li><a class="note_link" href="./#bibl">Bibliography</a></li>
-	    <li><a class="note_link" href="./#about">About</a></li>	    
-	  </ul>
-	  </nav>
-	  <h1>Gray's "Elegy" in translation</h1>	  
+	  <div class="table">
+
+	    <div class="table-row">
+
+	      <div class="table-cell"><h1>Gray's "Elegy" in translation</h1></div>
+	      <div class="table-cell" style="text-align:center;">
+		<form>
+		  <input name="view" type="radio" value="full"
+		  checked="checked"> Full-text view &nbsp; &nbsp; 
+		  <input name="view" type="radio" value="detail"> Detailed view
+		</form>
+	      </div>
+	      <div class="table-cell"><nav id="trans_navi">
+		  <ul>
+		    <li><a class="note_link" href="./#translations">Translations</a></li>
+		    <li><a class="note_link" href="./#bibl">Bibliography</a></li>
+		    <li><a class="note_link" href="./#about">About</a></li>	    
+		    <li><a class="note_link" href="./#lacunae">Lacunae</a></li>
+		    <li><a class="note_link" href="./#help">Help</a></li>	    
+		  </ul>
+		</nav>
+	      </div>
+
+	    </div>
+
+	  </div>
 
           <div id="text" class="panel-group"
 	       style="display:flex; align-items: stretch; flex: 1 0 auto;" role="tablist">
 
-	    <div class="panel panel-default col_rs
+	    <!-- base text -->
+
+	    <div data-col="1" class="panel panel-default col_rs pno1
+			ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+	      <div class="panel-heading ui-sortable-handle ui-widget-header
+			  ui-corner-all" role="tab">
+		<button type="button" class="close"
+			aria-label="Close"><span aria-hidden="true">×</span></button>
+		<h3 class="panel-title">
+		  <!--#include virtual="/texts/poems/elegy/trans_sel.shtml" -->
+		</h3>
+	      </div>
+	      <div class="panel-body" role="tabpanel"></div>
+	      <div class="panel-footer"></div>
+	    </div>
+
+	    <!-- / base text -->
+
+	    <!-- full-text -->
+	    
+	    <div data-col="2" class="panel panel-default col_rs pno2
 			ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
 	      <div class="panel-heading ui-sortable-handle ui-widget-header
 			  ui-corner-all" role="tab">
@@ -85,7 +155,7 @@
 	      <div class="panel-footer"></div>
 	    </div>
 	    
-	    <div class="panel panel-default col_rs
+	    <div data-col="3" class="panel panel-default col_rs pno3
 			ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
 	      <div class="panel-heading ui-sortable-handle ui-widget-header
 			  ui-corner-all" role="tab">
@@ -99,21 +169,29 @@
 	      <div class="panel-footer"></div>
 	    </div>
 	    
-	    <div class="panel panel-default col_rs
+	    <!-- / full-text -->
+
+	    <!-- detailed -->
+
+	    <div class="panel panel-default col_rs2 pno4
 			ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
 	      <div class="panel-heading ui-sortable-handle ui-widget-header
 			  ui-corner-all" role="tab">
 		<button type="button" class="close"
 			aria-label="Close"><span aria-hidden="true">×</span></button>
 		<h3 class="panel-title">
-		  <!--#include virtual="/texts/poems/elegy/trans_sel.shtml" -->
+		  <!--#include virtual="/texts/poems/elegy/lang_sel.shtml" -->
 		</h3>
 	      </div>
 	      <div class="panel-body" role="tabpanel"></div>
-	      <div class="panel-footer"></div>
+<!--	      <div class="panel-footer"></div> -->
 	    </div>
 	    
+	    <!-- / detailed -->
+
           </div>
+
+	  </section>
 
 	</div>
 
@@ -129,6 +207,13 @@
   citation +='<em>Thomas Gray Archive</em>, '+
   '<!--#flastmod virtual="/about/index.shtml" -->'+
   '. Web. <!--#echo var="DATE_LOCAL" -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+
+  // load detailed view
+  $.ajax({
+    url: "/texts/poems/elegy/trans_all.shtml",
+    dataType: 'html',
+    success: function(data) { trans_all = jq( data ).find( "section" ); }
+  });
 
 </script>
 
