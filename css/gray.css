@@ -335,6 +335,10 @@ display: none;
 
 #main ul.statistics li { line-height: 1.2em; }
 
+#main .bibliography li span.glyphicon,
+.main .bibliography li span.glyphicon {
+    display:inherit !important;
+}
 #main .bibliography .listBibl li,
 .main .bibliography .listBibl li {
     text-indent: -1.2em;
@@ -2018,7 +2022,7 @@ line-height: 1.4em;
 }
 
 #ft {
-    margin-top:20px;
+    margin-top:0px;
     line-height:1.4em;
 }
 

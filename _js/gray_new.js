@@ -1044,9 +1044,48 @@ if (/view\.cgi/.test(self.location.href)) {
     }
 }
 
-
+// annotate any full-text (#ft) in the Archive
+// solution taken from: http://jsfiddle.net/Vap7C/80/
+$("#ft").click(function(e) {
+    if (e.target.nodeName != "A") {
+    // Gets clicked on word (or selected text if text is selected)
+    var t = '',loc = 0;
+	if (window.getSelection && (sel = window.getSelection()).modify) {
+	    // Webkit, Gecko
+	    var s = window.getSelection();
+	    var loc = window.getSelection().getRangeAt(0);
+	    if (s.isCollapsed) {
+		s.modify('move', 'forward', 'character');
+		s.modify('move', 'backward', 'word');
+		s.modify('extend', 'forward', 'word');
+		t = s.toString();
+		s.modify('move', 'forward', 'character'); //clear selection
+	    }
+	    else {
+		t = s.toString();
+	    }
+	} else if ((sel = document.selection) && sel.type != "Control") {
+	    // IE 4+
+	    var textRange = sel.createRange();
+	    if (!textRange.text) {
+		textRange.expand("word");
+	    }
+	    // Remove trailing spaces
+	    while (/\s$/.test(textRange.text)) {
+		textRange.moveEnd("character", -1);
+	    }
+	    t = textRange.text;
+	}
+    create_annotation(t,loc);
+    }
+});
+    
 // annotation modal (available on ALL w/pc of the text, and on all tabs)
 jq(document.body).on('click', '.linetext,.addnote', function (e) {
+    create_annotation(e,0);
+    });
+
+    function create_annotation(e,f) {
 
 var my_modal = `
 <div id="newNote" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="newModalLabel">
@@ -1066,41 +1105,49 @@ var my_modal = `
   <label class="btn btn-default btn-sm">
     <input class="form-control" type="radio" name="sort" autocomplete="off" value="query"/> query
   </label>
-</div>
-<h5 style="display:inline-block; padding: 0 10px 0 20px;"> Context </h5>
-Line&nbsp; 
-<select name="fromline" class="form-control" style="width:100px; display:inline-block;">`;
-var current_line = (jq(e.target).parent().attr("id")?jq(e.target).parent().attr("id"):jq(e.target).parent().parent().parent().prev().attr("id"));
-if (jq.isNumeric(current_line) == false) {
-    current_line = current_line.substring(1);
-}
-var i, j;
-for (i = 0; i <= lines_in; i++) {
-    if (i == 0) { j = "Title/Paratext"; }
-    else { j = i; }
-    if (current_line == i) {
-	my_modal += '<option value="'+i+'" selected="selected">'+j+'</option>';
-    } else {
-	my_modal += '<option value="'+i+'">'+j+'</option>';
+</div>`;
+if (typeof e == 'object') { // poems
+    my_modal += `
+	<h5 style="display:inline-block; padding: 0 10px 0 20px;"> Context </h5>
+	Line&nbsp; 
+    <select name="fromline" class="form-control" style="width:100px; display:inline-block;">`;
+    var current_line = (jq(e.target).parent().attr("id")?jq(e.target).parent().attr("id"):jq(e.target).parent().parent().parent().prev().attr("id"));
+    if (jq.isNumeric(current_line) == false) {
+	current_line = current_line.substring(1);
     }
-}
-my_modal += `</select> &nbsp;to&nbsp;  
-<select name="toline" class="form-control" style="width:100px; display:inline-block;">`;
-for (i = 0; i <= lines_in; i++) {
-    if (i == 0) { j = "Title/Paratext"; }
-    else { j = i; }
-    if (current_line == i) {
-	my_modal += '<option value="'+i+'" selected="selected">'+j+'</option>';
-    } else {
-	my_modal += '<option value="'+i+'">'+j+'</option>';
+    var i, j;
+    for (i = 0; i <= lines_in; i++) {
+	if (i == 0) { j = "Title/Paratext"; }
+	else { j = i; }
+	if (current_line == i) {
+	    my_modal += '<option value="'+i+'" selected="selected">'+j+'</option>';
+	} else {
+	    my_modal += '<option value="'+i+'">'+j+'</option>';
+	}
     }
-}
+    my_modal += `</select> &nbsp;to&nbsp;  
+    <select name="toline" class="form-control" style="width:100px; display:inline-block;">`;
+    for (i = 0; i <= lines_in; i++) {
+	if (i == 0) { j = "Title/Paratext"; }
+	else { j = i; }
+	if (current_line == i) {
+	    my_modal += '<option value="'+i+'" selected="selected">'+j+'</option>';
+	} else {
+	    my_modal += '<option value="'+i+'">'+j+'</option>';
+	}
+    }
 my_modal += '</select>';
-
+}
 my_modal += '\
 <h5>Your <span id="contribution-type">note</span>'+
-'</span></h5>'+
-'<textarea style="resize:vertical;" class="form-control" name="comment" id="newNoteText" rows="4" required="required"/>'+
+    '</span>';
+if (jq.type( e ) === "string") {
+    my_modal += ` for "`+e+`"`;
+    my_modal += `<input type="hidden" name="ref" value="`+e+`"/>`;
+    my_modal += `<input type="hidden" name="loc" value="`+encodeURI(f.startContainer.nodeValue)+`:`
+	+f.startOffset+`"/>`;
+}
+my_modal += '</h5><textarea style="resize:vertical;" class="form-control" name="comment" id="newNoteText" rows="4" required="required"/>'+
 '<h5 style="display: inline-block; padding-right:8px;"> Sort </h5>\
 <div class="btn-group" data-toggle="buttons">\
   <label class="btn btn-default btn-sm active">\
@@ -1124,7 +1171,7 @@ my_modal += '\
     jq( "body" ).prepend(my_modal);
     jq('#newNote').modal('show');
 
-    });
+}
 
 jq(document.body).on('change', '[name=sort]' , function(e) {
     if ( jq('input[name=sort]:checked', '#newNoteForm').val()=="annotation" ) {
@@ -1151,7 +1198,7 @@ jq(document.body).on('click', 'button#newNoteSubmit' , function(e) {
         dataType: 'text',
         success: function() {
 	    jq(d).html("Thank You!");
-	    setTimeout(function() { jq('#newNote').modal('hide'); }, 500);
+	    setTimeout(function() { jq('#newNote').modal('hide'); }, 1000);
         },
         error: function() {
             jq(d).html("Error - Please try again!");
