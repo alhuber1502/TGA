@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ead
   PUBLIC "ead" "../ead.dtd">
-<ead audience="external">
+<ead xmlns:functx="http://www.functx.com" audience="external">
    <eadheader audience="internal"
               langencoding="iso639-2b"
               scriptencoding="iso15924"
@@ -94,7 +94,7 @@
                </scopecontent>
                <c03 level="item">
                   <did>
-                     <unitid type="TGA" id="mss.0010">mss.0010</unitid>
+                     <unitid id="mss.0010" type="TGA">mss.0010</unitid>
                      <unitid type="work">poems.aleg</unitid>
                      <unittitle label="Title:">
                         <title linktype="simple">[untitled]</title>

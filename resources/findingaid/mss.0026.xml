@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ead
   PUBLIC "ead" "../ead.dtd">
-<ead audience="external">
+<ead xmlns:functx="http://www.functx.com" audience="external">
    <eadheader audience="internal"
               langencoding="iso639-2b"
               scriptencoding="iso15924"
@@ -108,7 +108,7 @@
                </scopecontent>
                <c03 level="item">
                   <did>
-                     <unitid type="TGA" id="mss.0026">mss.0026</unitid>
+                     <unitid id="mss.0026" type="TGA">mss.0026</unitid>
                      <unitid type="work">poems.cand</unitid>
                      <unittitle label="Title:">
                         <title render="doublequote" linktype="simple">The Candidate. On Lord Sandwich standing for
