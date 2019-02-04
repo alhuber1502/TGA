@@ -1,5 +1,6 @@
 Thomas Gray Archive (TGA)
 ======
+![](https://img.shields.io/github/repo-size/alhuber1502/ECPA.svg?style=flat)
 
 The Thomas Gray Archive — [thomasgray.org](http://www.thomasgray.org/)
  — is a collaborative digital archive and research
