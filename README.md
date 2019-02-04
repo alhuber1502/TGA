@@ -2,6 +2,7 @@ Thomas Gray Archive (TGA)
 ======
 ![](https://img.shields.io/github/repo-size/alhuber1502/TGA.svg?style=flat)
 ![](https://img.shields.io/github/last-commit/alhuber1502/TGA.svg?style=flat)
+![](https://img.shields.io/badge/license-CC%20BY--NC--SA-orange.svg)
 
 The Thomas Gray Archive — [thomasgray.org](http://www.thomasgray.org/)
  — is a collaborative digital archive and research
