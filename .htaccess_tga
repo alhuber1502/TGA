@@ -1,0 +1,45 @@
+ErrorDocument 403 /errors/403error.shtml
+ErrorDocument 404 /errors/404error.shtml
+ErrorDocument 500 /errors/500error.shtml
+<Files ~ "^\.ht">
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+</IfModule>
+</Files>
+IndexIgnore *
+Options -Indexes +FollowSymLinks
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/shtml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+<IfModule mod_authz_core.c>
+    Require all granted
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order allow,deny
+    Allow from all
+</IfModule>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://www.thomasgray.org/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} ^thomasgray\.(.*) [NC]
+#RewriteRule ^(.*)$ https://www.thomasgray.%1/$1 [L,R=301]
+RewriteRule contacts /about/#contact [L,R=301,NE]
+RedirectMatch 301 /materials/(.*) /resources/$1
+RedirectMatch 301 /site/(.*) /about/$1
+RedirectMatch 301 /texts/concordance.shtml /resources/concordance.shtml
+RedirectMatch 301 /texts/findaid.shtml /resources/findaid.shtml
+RedirectMatch 301 /about/sitemap.shtml /help/sitemap.shtml
