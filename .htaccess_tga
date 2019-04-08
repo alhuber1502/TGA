@@ -32,11 +32,8 @@ AddOutputFilterByType DEFLATE application/x-javascript
     Allow from all
 </IfModule>
 RewriteEngine On
-RewriteBase /
 RewriteCond %{SERVER_PORT} !=443
 RewriteRule ^(.*)$ https://www.thomasgray.org/$1 [R=301,L]
-#RewriteCond %{HTTP_HOST} ^thomasgray\.(.*) [NC]
-#RewriteRule ^(.*)$ https://www.thomasgray.%1/$1 [L,R=301]
 RewriteRule contacts /about/#contact [L,R=301,NE]
 RedirectMatch 301 /materials/(.*) /resources/$1
 RedirectMatch 301 /site/(.*) /about/$1
