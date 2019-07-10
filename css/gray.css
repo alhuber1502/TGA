@@ -155,7 +155,7 @@ margin-left: 0;
 
 #main a.noborder, #slideshow a { border: none !important;
 }
-#main a:link {
+#main a:link,a {
     color: #8C001A; }
 #main a.noborder:link { border: none; 
 }
@@ -2287,7 +2287,7 @@ body:not(#home) > .container {
   padding: 0 15px 0;
   margin: 40px auto 0 auto;
 }
-a,a:focus,a:hover {
+a:focus,a:hover {
   color:#a6001A;
 }
 .footer > .container {
