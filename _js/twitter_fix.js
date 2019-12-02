@@ -15,5 +15,5 @@ $(document).ready(function() {
             twitterTimelineText.attr("style","font-size: 14px; line-height: 20px; font-family: Lato,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;");
             clearInterval(twitterCheck);
         }
-    }, 200);
+    }, 100);
 });
