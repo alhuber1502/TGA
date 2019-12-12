@@ -436,7 +436,7 @@ target="_blank">&lt;http://www.fondazionecasadioriani.it/modules.php?name=MR&amp
   <div class="table"><span class="label label-about">Title:</span> <em>Thomas Gray Archive</em></div>
   <div class="table"><span class="label label-about">Editor:</span> Alexander Huber</div>
   <div class="table"><span class="label label-about">URL:</span> <a
-href="http://www.thomasgray.org/">http://www.thomasgray.org/</a></div>
+href="https://www.thomasgray.org/">https://www.thomasgray.org/</a></div>
   <div class="table"><span class="label label-about">Publisher:</span> Thomas Gray Archive</div>
   <!--#config timefmt="%d %b %Y" -->
   <div class="table"><span class="label label-about">Date of access:</span> <!--#echo var="DATE_GMT" --></div>
@@ -449,17 +449,17 @@ href="http://www.thomasgray.org/">http://www.thomasgray.org/</a></div>
   <li>Huber, Alexander, ed. <em>Thomas Gray Archive</em>. Thomas Gray Archive, <!--#config timefmt="%d %b %Y" -->
   <!--#flastmod virtual="/about/history.shtml" -->. Web.
   <!--#config timefmt="%d %b %Y" -->
-   <!--#echo var="DATE_GMT" -->. &lt;http://www.thomasgray.org/&gt;
+   <!--#echo var="DATE_GMT" -->. &lt;https://www.thomasgray.org/&gt;
   </li>
   <li>Gray, Thomas. "Elegy Written in a Country Churchyard". Thomas Gray Archive, <!--#config timefmt="%d %b %Y" -->
   <!--#flastmod virtual="/texts/poems/elcc_txt.txt" -->. Web.
   <!--#config timefmt="%d %b %Y" -->
-   <!--#echo var="DATE_GMT" -->. &lt;http://www.thomasgray.org/cgi-bin/display.cgi?text=elcc&gt;
+   <!--#echo var="DATE_GMT" -->. &lt;https://www.thomasgray.org/cgi-bin/display.cgi?text=elcc&gt;
   </li>
   <li>Roberts, W. G., ed. <em>Notes on a Tour through France and Italy undertaken in the Years 1739 to 1741 by Thomas Gray</em>. Thomas Gray Archive, <!--#config timefmt="%d %b %Y" -->
   <!--#flastmod virtual="/images/diglib/primary/RoB_2011/RoB_2011.txt" -->. Web.
   <!--#config timefmt="%d %b %Y" -->
-   <!--#echo var="DATE_GMT" -->. &lt;http://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=RoB_2011&gt;
+   <!--#echo var="DATE_GMT" -->. &lt;https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;edition=RoB_2011&gt;
   </li>
   </ol>
 
@@ -548,10 +548,10 @@ OX1 2LG<br/><br/>
 <script>
   var citation = "";
   citation += "Huber, Alexander. ";
-  var citlink = 'http:\/\/<!--#echo var="HTTP_HOST" --><!--#echo var="DOCUMENT_URI" -->';
+  var citlink = 'https:\/\/<!--#echo var="HTTP_HOST" --><!--#echo var="DOCUMENT_URI" -->';
   citation += '\"About\". ';
   citation +='<em>Thomas Gray Archive</em>, '+
-    '<!--#flastmod virtual="/about/index.shtml" -->'+
+    '<!--#flastmod virtual="/about/history.shtml" -->'+
     '. Web. <!--#echo var="DATE_LOCAL" -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
 </script>
 

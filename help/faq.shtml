@@ -112,7 +112,7 @@ whole, please use this example (<abbr>MLA</abbr> style):</p>
 
 <p>Huber, Alexander, ed. <em>Thomas Gray Archive</em>. Thomas Gray Archive,
 <!--#config timefmt="%d %b %Y" -->
-<!--#flastmod virtual="/about/index.shtml" -->. Web.
+<!--#flastmod virtual="/about/history.shtml" -->. Web.
 <!--#echo var="DATE_GMT" -->.
 &lt;http://www.thomasgray.org/&gt;.
 </p>
@@ -125,11 +125,11 @@ whole, please use this example (<abbr>MLA</abbr> style):</p>
 <script>
   var citation = "";
   citation += "Huber, Alexander. ";
-  var citlink = 'http:\/\/<!--#echo var="HTTP_HOST" --><!--#echo
+  var citlink = 'https:\/\/<!--#echo var="HTTP_HOST" --><!--#echo
   var="DOCUMENT_URI" -->';
   citation += '\"Help: FAQ\". ';
   citation +='<em>Thomas Gray Archive</em>, '+
-    '<!--#flastmod virtual="/about/index.shtml" -->'+
+    '<!--#flastmod virtual="/about/history.shtml" -->'+
     '. Web. <!--#echo var="DATE_LOCAL"
   -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
 </script>
