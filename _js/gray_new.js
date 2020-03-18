@@ -1047,7 +1047,7 @@ if (/view\.cgi/.test(self.location.href)) {
 // annotate any full-text (#ft) in the Archive
 // solution taken from: http://jsfiddle.net/Vap7C/80/
 $("#ft").click(function(e) {
-    if (e.target.nodeName != "A") {
+    if (e.altKey && e.target.nodeName != "A") {
     // Gets clicked on word (or selected text if text is selected)
     var t = '',loc = 0;
 	if (window.getSelection && (sel = window.getSelection()).modify) {
@@ -1112,7 +1112,7 @@ if (typeof e == 'object') { // poems
 	Line&nbsp; 
     <select name="fromline" class="form-control" style="width:100px; display:inline-block;">`;
     var current_line = (jq(e.target).parent().attr("id")?jq(e.target).parent().attr("id"):jq(e.target).parent().parent().parent().prev().attr("id"));
-    if (jq.isNumeric(current_line) == false) {
+    if (current_line && jq.isNumeric(current_line) == false) {
 	current_line = current_line.substring(1);
     }
     var i, j;
