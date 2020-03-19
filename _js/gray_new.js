@@ -8,9 +8,9 @@ jq(document).ready(function() {
 
     // Allow internal links to activate a tab.
     jq('a[data-toggle="tab"]').click(function (e) {
-	    e.preventDefault();
-	    jq('a[href="' + $(this).attr('href') + '"]').tab('show');
-	});
+	e.preventDefault();
+	jq('a[href="' + $(this).attr('href') + '"]').tab('show');
+    });
 
     // dropdown navigation
     jq('.dropdown').hover(function() {
