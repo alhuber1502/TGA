@@ -2,7 +2,7 @@
 			jQuery(document).ready(function($) {
 				// We only want these styles applied when javascript is enabled
 				$('div.navigation').css({'width' : '150px'});
-				$('div.content').css({'display': 'block', 'float' : 'left'});
+				$('div.content').css({'display': 'block', 'overflow' : 'auto'});
 
 				// Initially set opacity on thumbs and add
 				// additional styling for hover effect on thumbs
