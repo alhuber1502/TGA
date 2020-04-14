@@ -2426,3 +2426,29 @@ span.collapse.in {
         display:block !important;
     }
 }
+
+.navbar-brand {
+    margin-right: 0;
+    padding-right: 0px;
+    margin-left: 0px;
+}
+.navbar-brand img {
+    margin-right: .5em;
+}
+.badge-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-top: 3px;
+}
+b,strong {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.navbar-nav li:not(.dropdown) {
+    margin-right: 0;
+}
+.addthis_inline_share_toolbox {
+    margin-left: 3px;
+}
