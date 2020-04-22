@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title corresp="#txt_GrayTh1716_lt06">De Principiis Cogitandi.Liber Secundus.</title>
+            <author corresp="authors.xml#aut_GrayTh1716">Gray, Thomas, 1716-1771</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="SUB">Göttingen State and University Library, University of Göttingen</name>
+               <address>
+                  <addrLine>Historic Building</addrLine>
+                  <addrLine>Papendiek 14</addrLine>
+                  <addrLine>D-37073 Göttingen</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@thomasgray.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>
+						Contractions, italics and initial capitalization have
+						been largely eliminated, except where of real import. Initial letters of
+						sentences have been capitalized, all accents have been removed. The editor
+						would like to express his gratitude to library staff at Pembroke College,
+						Cambridge, at the British Library, and at the Bodleian Library, Oxford, for
+						their invaluable assistance.
+					</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xmlns:ecep="http://www.eighteenthcenturypoetry.org/ns"
+              type="poem"
+              xml:id="tgane-wlt06"
+              corresp="#txt_GrayTh1716_lt06"
+              subtype="eceptext"
+              rendition="#lgindent"
+              ana="#hexameter #Lucretian #milton">
+            <link type="author" target="authors.xml#aut_GrayTh1716"/>
+            <head>
+               <emph>De Principiis Cogitandi.</emph>
+               <lb/>Liber Secundus.</head>
+            <lg>
+               <l n="1">Hactenus haud segnis Naturae arcana retexi</l>
+               <l n="2">Musarum interpres, primusque Britanna per arva</l>
+               <l n="3">Romano liquidum deduxi flumine rivum.</l>
+            </lg>
+            <lg>
+               <l n="4">    Cum Tu opere in medio, spes tanti et causa laboris,</l>
+               <l n="5">Linquis, et aeternam fati te condis in umbram!</l>
+               <l n="6">Vidi egomet duro graviter concussa dolore</l>
+               <l n="7">Pectora, in alterius non unquam lenta dolorem;</l>
+               <l n="8">Et languere oculos vidi, et pallescere amantem</l>
+               <l n="9">Vultum, quo nunquam Pietas nisi rara, Fidesque,</l>
+               <l n="10">Altus amor Veri, et purum spirabat Honestum.</l>
+               <l n="11">Visa tamen tardi demum inclementia morbi</l>
+               <l n="12">Cessare est, reducemque iterum roseo ore Salutem</l>
+               <l n="13">Speravi, atque una tecum, dilecte Favoni!</l>
+               <l n="14">Credulus heu longos, ut quondam, fallere Soles:</l>
+               <l n="15">Heu spes nequicquam dulces, atque irrita vota!</l>
+               <l n="16">Heu maestos Soles, sine te quos ducere flendo</l>
+               <l n="17">Per desideria, et questus jam cogor inanes!</l>
+            </lg>
+            <lg>
+               <l n="18">    At Tu, sancta anima, et nostri non indiga luctus,</l>
+               <l n="19">Stellanti templo, sincerique aetheris igne,</l>
+               <l n="20">Unde orta es, fruere; atque oh si secura, nec ultra</l>
+               <l n="21">Mortalis, notos olim miserata labores</l>
+               <l n="22">Respectes, tenuesque vacet cognoscere curas;</l>
+               <l n="23">Humanam si forte alta de sede procellam</l>
+               <l n="24">Contemplere, metus stimulosque cupidinis acres,</l>
+               <l n="25">Gaudiaque et gemitus, parvoque in corde tumultum</l>
+               <l n="26">Irarum ingentem, et saevos sub pectore fluctus:</l>
+               <l n="27">Respice et has lacrymas, memori quas ictus amore</l>
+               <l n="28">Fundo; quod possum, juxta lugere sepulchrum</l>
+               <l n="29">Dum juvat, et mutae vana haec jactare favillae.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
