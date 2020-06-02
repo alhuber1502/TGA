@@ -123,35 +123,41 @@
 
   <mets:fileSec>
     <mets:fileGrp USE="DEFAULT">
-      <mets:file MIMETYPE="image/gif" ID="diglib-1769-img-0001_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/0001.gif"/>
+      <mets:file ID="diglib-1769-img-ajt0002">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/ajt0002.PNG"/>
       </mets:file>
-      <mets:file MIMETYPE="image/gif" ID="diglib-1769-img-0002_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/0002.gif"/>
+      <mets:file ID="diglib-1769-img-ajt0003">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/ajt0003.PNG"/>
       </mets:file>
-      <mets:file MIMETYPE="image/gif" ID="diglib-1769-img-0003_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/0003.gif"/>
+      <mets:file ID="diglib-1769-img-ajt0004">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/ajt0004.PNG"/>
       </mets:file>
-      <mets:file MIMETYPE="image/gif" ID="diglib-1769-img-0004_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/0004.gif"/>
+      <mets:file ID="diglib-1769-img-ajt0005">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/ajt0005.PNG"/>
       </mets:file>
-      <mets:file MIMETYPE="image/gif" ID="diglib-1769-img-0005_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/0005.gif"/>
+      <mets:file ID="diglib-1769-img-ajt0006">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/ajt0006.PNG"/>
       </mets:file>
-      <mets:file MIMETYPE="image/gif" ID="diglib-1769-img-0006_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/0006.gif"/>
+      <mets:file ID="diglib-1769-img-ajt0007">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/ajt0007.PNG"/>
       </mets:file>
-      <mets:file MIMETYPE="image/gif" ID="diglib-1769-img-0007_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/0007.gif"/>
+      <mets:file ID="diglib-1769-img-ajt0008">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/ajt0008.PNG"/>
       </mets:file>
-      <mets:file MIMETYPE="image/gif" ID="diglib-1769-img-0008_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/0008.gif"/>
+      <mets:file ID="diglib-1769-img-ajt0009">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/ajt0009.PNG"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="DOWNLOAD">
+      <mets:file ID="diglib-1769-pdf" MIMETYPE="application/pdf">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1769/1769.pdf"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
 
   <mets:structMap TYPE="LOGICAL">
     <mets:div ID="diglib-1769-log-0000" DMDID="diglib-1769-dmd-0000" ADMID="diglib-1769-amd-0000" TYPE=" ">
+      <mets:fptr FILEID="diglib-1769-pdf"/>
       <mets:div ID="diglib-1769-log-0001" LABEL="ODE performed in the Senate-House at Cambridge..." TYPE="TitlePage"/>
       <mets:div ID="diglib-1769-log-0002" LABEL="Ode for Music" TYPE="TextSection"/>
     </mets:div>
@@ -159,29 +165,29 @@
 
   <mets:structMap TYPE="PHYSICAL">
     <mets:div ID="diglib-1769-phys-0000" TYPE="physSequence">
-      <mets:div ID="diglib-1769-phys-0001" ORDER="1" TYPE="page" ORDERLABEL="[1]">
-        <mets:fptr FILEID="diglib-1769-img-0001_100"/>
+      <mets:div ID="diglib-1769-phys-ajt0002" ORDER="1" TYPE="page" ORDERLABEL="[1]">
+        <mets:fptr FILEID="diglib-1769-img-ajt0002"/>
       </mets:div>
-      <mets:div ID="diglib-1769-phys-0002" ORDER="2" TYPE="page" ORDERLABEL="[2]">
-        <mets:fptr FILEID="diglib-1769-img-0002_100"/>
+      <mets:div ID="diglib-1769-phys-ajt0003" ORDER="2" TYPE="page" ORDERLABEL="[2]">
+        <mets:fptr FILEID="diglib-1769-img-ajt0003"/>
       </mets:div>
-      <mets:div ID="diglib-1769-phys-0003" ORDER="3" TYPE="page" ORDERLABEL="[3]">
-        <mets:fptr FILEID="diglib-1769-img-0003_100"/>
+      <mets:div ID="diglib-1769-phys-ajt0004" ORDER="3" TYPE="page" ORDERLABEL="[3]">
+        <mets:fptr FILEID="diglib-1769-img-ajt0004"/>
       </mets:div>
-      <mets:div ID="diglib-1769-phys-0004" ORDER="4" TYPE="page" ORDERLABEL="4">
-        <mets:fptr FILEID="diglib-1769-img-0004_100"/>
+      <mets:div ID="diglib-1769-phys-ajt0005" ORDER="4" TYPE="page" ORDERLABEL="4">
+        <mets:fptr FILEID="diglib-1769-img-ajt0005"/>
       </mets:div>
-      <mets:div ID="diglib-1769-phys-0005" ORDER="5" TYPE="page" ORDERLABEL="5">
-        <mets:fptr FILEID="diglib-1769-img-0005_100"/>
+      <mets:div ID="diglib-1769-phys-ajt0006" ORDER="5" TYPE="page" ORDERLABEL="5">
+        <mets:fptr FILEID="diglib-1769-img-ajt0006"/>
       </mets:div>
-      <mets:div ID="diglib-1769-phys-0006" ORDER="6" TYPE="page" ORDERLABEL="6">
-        <mets:fptr FILEID="diglib-1769-img-0006_100"/>
+      <mets:div ID="diglib-1769-phys-ajt0007" ORDER="6" TYPE="page" ORDERLABEL="6">
+        <mets:fptr FILEID="diglib-1769-img-ajt0007"/>
       </mets:div>
-      <mets:div ID="diglib-1769-phys-0007" ORDER="7" TYPE="page" ORDERLABEL="7">
-        <mets:fptr FILEID="diglib-1769-img-0007_100"/>
+      <mets:div ID="diglib-1769-phys-ajt0008" ORDER="7" TYPE="page" ORDERLABEL="7">
+        <mets:fptr FILEID="diglib-1769-img-ajt0008"/>
       </mets:div>
-      <mets:div ID="diglib-1769-phys-0008" ORDER="8" TYPE="page" ORDERLABEL="8">
-        <mets:fptr FILEID="diglib-1769-img-0008_100"/>
+      <mets:div ID="diglib-1769-phys-ajt0009" ORDER="8" TYPE="page" ORDERLABEL="8">
+        <mets:fptr FILEID="diglib-1769-img-ajt0009"/>
       </mets:div>
     </mets:div>
   </mets:structMap>

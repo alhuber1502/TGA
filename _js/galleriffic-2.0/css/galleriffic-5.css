@@ -1,10 +1,22 @@
 
 
 div.content {
-	display: none;
+	/*display: none;*/
 	/* clear: both; undo */
-	height: 100%;
+	/*height: 100%;*/
 	position: relative;
+	float: right;
+	width:200px;
+	text-align:center;
+}
+/* #ms div.content, */
+.gallery div.content {
+	float: unset;
+	width: unset;
+}
+/* #ms div.content #controls, */
+.gallery div.content #controls{
+	 display:none;
 }
 /*
 div.content a:link,  div.navigation a:link,  {
@@ -73,21 +85,35 @@ width: 130px !important;
 }
 
 
-
-
+div.nav-controls a.prev i,
+div.nav-controls a.next i {
+	position: relative;
+	top: 3px;
+}
 
 div.nav-controls a.prev {
-	background-image: url(prevPageArrow.gif);
+/*	background-image: url(prevPageArrow.gif);*/
+	font-size: 34px;
 }
 div.nav-controls a.next {
-	background-image: url(nextPageArrow.gif);
+/*	background-image: url(nextPageArrow.gif);*/
+	font-size: 34px;
+}
+div.nav-controls a.first {
+/*	background-image: url(prevPageArrow.gif);*/
+	font-size: 24px;
+}
+div.nav-controls a.last {
+/*	background-image: url(nextPageArrow.gif);*/
+	font-size: 24px;
 }
 
-div.nav-controls a.prev, div.nav-controls a.next {
-	display: block;
+div.nav-controls a.prev, div.nav-controls a.next,
+div.nav-controls a.first, div.nav-controls a.last {
+	display: inline-block;
 	text-align:center;
 	margin: 2px;
-	width: 20px;
+	width: 30px;
 	height:19px;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -100,27 +126,27 @@ div.nav-controls a.prev:focus, div.nav-controls a.next:focus {
 
 div.nav-controls a.prev {
 
-position: absolute;
-
+position: initial;
+/*
 right: 200px;
 top: 0;
-
+*/
 }
 
 div.nav-controls a.next {
 
-position: absolute;
-
+position: initial;
+/*
 right: 160px;
 top: 0;
-
+*/
 }
 
 div.controls {
 	
 	margin-top: 5px;
 
-	height: 23px;
+/*	height: 23px;*/
 
 }
 
@@ -138,7 +164,8 @@ div.ss-controls {
 
 div.nav-controls {
 
-	float: left;
+	/*width:160px;
+	float: right;*/
 
 }
 
@@ -174,7 +201,7 @@ div.loader {
 div.slideshow span.image-wrapper {
 	display: block;
 	position: absolute;
-	top: 30px;
+	top: 35px;
 	left: 0;
 }
 div.slideshow a.advance-link {
@@ -208,10 +235,10 @@ div.slideshow img {
 
 div.caption-container {
 
-	clear: left;
+	/*clear: left;*/
 	position: relative;
-	margin-top: 20px;
-	
+	/*margin-top: 20px;*/
+	width:inherit;
 	
 
 }
@@ -221,7 +248,6 @@ span.image-caption {
 	display: block;
 
 	position: absolute;
-	top: -20px;
 	left: 0;
 
 }
@@ -255,8 +281,6 @@ div.image-desc {
 	display: inline;
 	position: absolute;
 	left: 0;
-	top: 0;
-
 }
 
 
@@ -272,9 +296,10 @@ div.download {
 }
 div.photo-index {
 	position: absolute;
-	top: 0;
-	right: 50px;
-	padding: 12px;
+	/*top: 0;*/
+	/*right: 50px;*/
+	/*padding: 12px;*/
+	width:inherit;
 }
 
 div.photo-index {
@@ -431,7 +456,7 @@ div.gallery-gutter {
 
 .gallery div.image-desc {
 
-	
+	text-align:left;
 	max-width: 550px;
 	
 }
@@ -513,44 +538,50 @@ top: -5px;
 
 .diglib div.photo-index {
 	position: absolute;
-	top: 10px;
-	right: 15px;
-	padding: 12px;
+	/*top: 10px;
+	right: 15px;*/
+	/*padding: 12px;*/
 }
 
 .diglib div.image-desc {
 
 
-	left: 20px;
-	
-
+/*	left: 20px;*/
+	width:200px;
+	display: none !important;
 }
 
 
 .diglib div.nav-controls a.prev {
 
-position: absolute;
-
+position: initial;
+/*
 right: 200px;
 top: -5px;
-
+*/
 }
 
 .diglib div.nav-controls a.next {
 
-position: absolute;
-
+position: initial;
+/*
 right: 160px;
 top: -5px;
-
+*/
 }
 
 .diglib div.slideshow-container {
-	position: relative;
-	clear: both;
-	float: left;
-	
-	margin-top: 20px;
+	/*clear: both;*/
+	/*float: right;*/
+	/*height: 1060px;*/
+	height: unset !important;
+	width: 200px;
+	/*display:inline-block;
+	margin-top: 20px;*/
+	position:absolute;
+}
+.diglib .pagination {
+	margin: 0;
 }
 
 .diglib ul.thumbs {
@@ -569,7 +600,12 @@ clear: left;
 
 }
 
-
-
-.diglib ul.thumbs li a:before { content:'p. '; }
+.diglib ul.thumbs li a:before { content:'–'; }
+.diglib ul.thumbs li a:after { content:'–'; }
+#print.diglib ul.thumbs li a:before,
+#ms.diglib ul.thumbs li a:before 
+{ content:''; }
+#print.diglib ul.thumbs li a:after,
+#ms.diglib ul.thumbs li a:after 
+{ content:''; }
 

@@ -83,11 +83,11 @@
 
   <mets:fileSec>
     <mets:fileGrp USE="DEFAULT">
-      <mets:file MIMETYPE="image/jpeg" ID="diglib-tgal0372-img-0001_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/tgal0372/0001.jpeg"/>
+      <mets:file ID="diglib-tgal0372-img-">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/tgal0372/thumbs"/>
       </mets:file>
-      <mets:file MIMETYPE="image/jpeg" ID="diglib-tgal0372-img-0002_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/tgal0372/0002.jpeg"/>
+      <mets:file ID="diglib-tgal0372-img-0001">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/tgal0372/0001.JPG"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
@@ -100,11 +100,11 @@
 
   <mets:structMap TYPE="PHYSICAL">
     <mets:div ID="diglib-tgal0372-phys-0000" TYPE="physSequence">
-      <mets:div ID="diglib-tgal0372-phys-0001" ORDER="1" TYPE="page" ORDERLABEL="---">
-        <mets:fptr FILEID="diglib-tgal0372-img-0001_100"/>
+      <mets:div ID="diglib-tgal0372-phys-" ORDER="1" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-tgal0372-img-"/>
       </mets:div>
-      <mets:div ID="diglib-tgal0372-phys-0002" ORDER="2" TYPE="page" ORDERLABEL="---">
-        <mets:fptr FILEID="diglib-tgal0372-img-0002_100"/>
+      <mets:div ID="diglib-tgal0372-phys-0001" ORDER="2" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-tgal0372-img-0001"/>
       </mets:div>
     </mets:div>
   </mets:structMap>

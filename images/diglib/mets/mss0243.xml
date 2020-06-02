@@ -95,11 +95,11 @@
 
   <mets:fileSec>
     <mets:fileGrp USE="DEFAULT">
-      <mets:file MIMETYPE="image/jpeg" ID="diglib-mss0243-img-0001_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0243/0001.jpeg"/>
+      <mets:file ID="diglib-mss0243-img-">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0243/thumbs"/>
       </mets:file>
-      <mets:file MIMETYPE="image/jpeg" ID="diglib-mss0243-img-0002_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0243/0002.jpeg"/>
+      <mets:file ID="diglib-mss0243-img-aux0006">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0243/aux0006.jpeg"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
@@ -112,11 +112,11 @@
 
   <mets:structMap TYPE="PHYSICAL">
     <mets:div ID="diglib-mss0243-phys-0000" TYPE="physSequence">
-      <mets:div ID="diglib-mss0243-phys-0001" ORDER="1" TYPE="page" ORDERLABEL="---">
-        <mets:fptr FILEID="diglib-mss0243-img-0001_100"/>
+      <mets:div ID="diglib-mss0243-phys-" ORDER="1" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-mss0243-img-"/>
       </mets:div>
-      <mets:div ID="diglib-mss0243-phys-0002" ORDER="2" TYPE="page" ORDERLABEL="---">
-        <mets:fptr FILEID="diglib-mss0243-img-0002_100"/>
+      <mets:div ID="diglib-mss0243-phys-aux0006" ORDER="2" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-mss0243-img-aux0006"/>
       </mets:div>
     </mets:div>
   </mets:structMap>

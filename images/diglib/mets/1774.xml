@@ -118,28 +118,34 @@
 
   <mets:fileSec>
     <mets:fileGrp USE="DEFAULT">
-      <mets:file MIMETYPE="image/gif" ID="diglib-1774-img-0001_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1774/0001.gif"/>
+      <mets:file ID="diglib-1774-img-bds0002">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1774/bds0002.PNG"/>
       </mets:file>
-      <mets:file MIMETYPE="image/gif" ID="diglib-1774-img-0002_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1774/0002.gif"/>
+      <mets:file ID="diglib-1774-img-bds0003">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1774/bds0003.PNG"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="DOWNLOAD">
+      <mets:file ID="diglib-1774-pdf" MIMETYPE="application/pdf">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1774/1774.pdf"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
 
   <mets:structMap TYPE="LOGICAL">
     <mets:div ID="diglib-1774-log-0000" DMDID="diglib-1774-dmd-0000" ADMID="diglib-1774-amd-0000" TYPE=" ">
+      <mets:fptr FILEID="diglib-1774-pdf"/>
       <mets:div ID="diglib-1774-log-0001" LABEL="The Candidate&#58; By Mr. Gray" TYPE="TextSection"/>
     </mets:div>
   </mets:structMap>
 
   <mets:structMap TYPE="PHYSICAL">
     <mets:div ID="diglib-1774-phys-0000" TYPE="physSequence">
-      <mets:div ID="diglib-1774-phys-0001" ORDER="1" TYPE="page" ORDERLABEL="[1]">
-        <mets:fptr FILEID="diglib-1774-img-0001_100"/>
+      <mets:div ID="diglib-1774-phys-bds0002" ORDER="1" TYPE="page" ORDERLABEL="[1]">
+        <mets:fptr FILEID="diglib-1774-img-bds0002"/>
       </mets:div>
-      <mets:div ID="diglib-1774-phys-0002" ORDER="2" TYPE="page" ORDERLABEL="2">
-        <mets:fptr FILEID="diglib-1774-img-0002_100"/>
+      <mets:div ID="diglib-1774-phys-bds0003" ORDER="2" TYPE="page" ORDERLABEL="2">
+        <mets:fptr FILEID="diglib-1774-img-bds0003"/>
       </mets:div>
     </mets:div>
   </mets:structMap>

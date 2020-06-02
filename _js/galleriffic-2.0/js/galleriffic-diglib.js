@@ -3,7 +3,7 @@
 			jQuery(document).ready(function($) {
 				// We only want these styles applied when javascript is enabled
 				$('div.navigation').css({'width' : '150px'});
-				$('div.content').css({'display': 'block', 'float' : 'left'});
+				$('div.content').css({'display': 'block', 'float' : 'right'});
 
 				// Initially set opacity on thumbs and add
 				// additional styling for hover effect on thumbs
@@ -73,9 +73,16 @@
 					gallery.previousPage();
 					e.preventDefault();
 				});
-
 				gallery.find('a.next').click(function(e) {
 					gallery.nextPage();
+					e.preventDefault();
+				});
+				gallery.find('a.first').click(function(e) {
+					gallery.gotoIndex(0);
+					e.preventDefault();
+				});
+				gallery.find('a.last').click(function(e) {
+					gallery.gotoIndex(gallery.data.length-1);
 					e.preventDefault();
 				});
 
@@ -93,6 +100,7 @@
 					// hash doesn't contain the first # character.
 					if(hash) {
 					    $.galleriffic.gotoImage(hash);
+					    viewer.goToPage( hash-1 );
 					} else {
 					    //					    gallery.gotoIndex(0);
 					}
@@ -121,6 +129,7 @@
 			    
 			    if (image_number != "#1") {		// start at this image
 				pageload(image_number);
+				if ( image_number) { viewer.goToPage( image_number.substring(1)-1 ); }
 			    }
 
 			});

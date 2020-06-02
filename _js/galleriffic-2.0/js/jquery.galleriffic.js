@@ -944,7 +944,9 @@
 		
 			if (this.renderNavControls) {
 				this.$controlsContainer
-					.append('<div class="nav-controls"><a class="prev" rel="history" title="'+this.prevLinkText+'">'+this.prevLinkText+'</a><a class="next" rel="history" title="'+this.nextLinkText+'">'+this.nextLinkText+'</a></div>')
+				    // #AH
+				    .append('<div class="nav-controls"><a class="first" rel="history" title="first" href="#1"><i class="fa fa-step-backward"></i></a><a class="prev" rel="history" title="'+this.prevLinkText+'"><i class="fa fa-caret-left"></i></a><a class="next" rel="history" title="'+this.nextLinkText+'"><i class="fa fa-caret-right"></i></a><a class="last" rel="history" title="last" href="#'+(gallery.data.length)+'"><i class="fa fa-step-forward"></i></a></div>')
+				    // /#AH
 					.find('div.nav-controls a')
 					.click(function(e) {
 						gallery.clickHandler(e, this);

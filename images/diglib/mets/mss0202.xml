@@ -95,8 +95,8 @@
 
   <mets:fileSec>
     <mets:fileGrp USE="DEFAULT">
-      <mets:file MIMETYPE="image/jpeg" ID="diglib-mss0202-img-0001_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0202/0001.jpeg"/>
+      <mets:file ID="diglib-mss0202-img-">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0202/thumbs"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
@@ -109,8 +109,8 @@
 
   <mets:structMap TYPE="PHYSICAL">
     <mets:div ID="diglib-mss0202-phys-0000" TYPE="physSequence">
-      <mets:div ID="diglib-mss0202-phys-0001" ORDER="1" TYPE="page" ORDERLABEL="---">
-        <mets:fptr FILEID="diglib-mss0202-img-0001_100"/>
+      <mets:div ID="diglib-mss0202-phys-" ORDER="1" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-mss0202-img-"/>
       </mets:div>
     </mets:div>
   </mets:structMap>

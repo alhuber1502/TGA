@@ -97,14 +97,14 @@
 
   <mets:fileSec>
     <mets:fileGrp USE="DEFAULT">
-      <mets:file MIMETYPE="image/jpeg" ID="diglib-mss0002-img-0001_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0002/0001.jpeg"/>
+      <mets:file ID="diglib-mss0002-img-">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0002/thumbs"/>
       </mets:file>
-      <mets:file MIMETYPE="image/jpeg" ID="diglib-mss0002-img-0002_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0002/0002.jpeg"/>
+      <mets:file ID="diglib-mss0002-img-aux0003">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0002/aux0003.jpeg"/>
       </mets:file>
-      <mets:file MIMETYPE="image/jpeg" ID="diglib-mss0002-img-0003_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0002/0003.jpeg"/>
+      <mets:file ID="diglib-mss0002-img-aux0004">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/mss0002/aux0004.jpeg"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
@@ -117,14 +117,14 @@
 
   <mets:structMap TYPE="PHYSICAL">
     <mets:div ID="diglib-mss0002-phys-0000" TYPE="physSequence">
-      <mets:div ID="diglib-mss0002-phys-0001" ORDER="1" TYPE="page" ORDERLABEL="---">
-        <mets:fptr FILEID="diglib-mss0002-img-0001_100"/>
+      <mets:div ID="diglib-mss0002-phys-" ORDER="1" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-mss0002-img-"/>
       </mets:div>
-      <mets:div ID="diglib-mss0002-phys-0002" ORDER="2" TYPE="page" ORDERLABEL="---">
-        <mets:fptr FILEID="diglib-mss0002-img-0002_100"/>
+      <mets:div ID="diglib-mss0002-phys-aux0003" ORDER="2" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-mss0002-img-aux0003"/>
       </mets:div>
-      <mets:div ID="diglib-mss0002-phys-0003" ORDER="3" TYPE="page" ORDERLABEL="---">
-        <mets:fptr FILEID="diglib-mss0002-img-0003_100"/>
+      <mets:div ID="diglib-mss0002-phys-aux0004" ORDER="3" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-mss0002-img-aux0004"/>
       </mets:div>
     </mets:div>
   </mets:structMap>

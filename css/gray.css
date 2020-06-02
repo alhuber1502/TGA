@@ -1813,7 +1813,7 @@ vertical-align: bottom;
 margin-top: 15px;
 }
 
-#main.diglib td { line-height: 1.5em; padding: 0 0 .4em; vertical-align: top;
+#main.diglib td { line-height: 1.5em; padding: 0 10px .4em 0; vertical-align: top;
 }
 
 #main .clearleft {
@@ -2452,4 +2452,19 @@ b,strong {
 }
 .addthis_inline_share_toolbox {
     margin-left: 3px;
+}
+
+#openseadragon {
+    height: 770px;
+    width: 770px;
+    border: 1px solid #999;
+    background-color: black;
+    float: left;
+}
+#openseadragon > div > div:nth-child(2) > div:nth-child(2) {
+    display: none !important;
+}
+#ms #openseadragon,
+#print #openseadragon {
+    height: 737px;
 }

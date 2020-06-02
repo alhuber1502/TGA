@@ -59,11 +59,11 @@
           </mods:physicalDescription>
           <mods:location>
             <mods:physicalLocation>
-              The Thomas Gray Archive
+              Thomas Gray Archive
             </mods:physicalLocation>              
           </mods:location>
           <mods:accessCondition>
-            Copyright &copy; 2005 The Thomas Gray Archive; access to  digitized documents is granted strictly for non-commercial educational,  research and private purposes only. 
+            Copyright &copy; 2005 Thomas Gray Archive; access to  digitized documents is granted strictly for non-commercial educational,  research and private purposes only. 
           </mods:accessCondition>
           <mods:recordInfo>
             <mods:recordIdentifier source="TGA">tgal0199</mods:recordIdentifier>
@@ -100,8 +100,8 @@
 
   <mets:fileSec>
     <mets:fileGrp USE="DEFAULT">
-      <mets:file MIMETYPE="image/jpeg" ID="diglib-tgal0199-img-0001_100">
-        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/tgal0199/0001.jpeg"/>
+      <mets:file ID="diglib-tgal0199-img-">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/mss/tgal0199/thumbs"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
@@ -114,8 +114,8 @@
 
   <mets:structMap TYPE="PHYSICAL">
     <mets:div ID="diglib-tgal0199-phys-0000" TYPE="physSequence">
-      <mets:div ID="diglib-tgal0199-phys-0001" ORDER="1" TYPE="page" ORDERLABEL="---">
-        <mets:fptr FILEID="diglib-tgal0199-img-0001_100"/>
+      <mets:div ID="diglib-tgal0199-phys-" ORDER="1" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-tgal0199-img-"/>
       </mets:div>
     </mets:div>
   </mets:structMap>

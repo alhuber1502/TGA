@@ -7,7 +7,11 @@ jq(document).ready(function() {
     }
 
     // Allow internal links to activate a tab.
-    jq('a[data-toggle="tab"]').click(function (e) {
+    jq(document.body).on('click', 'a[data-toggle="tab"]', function (e) {    
+	e.preventDefault();
+	jq('a[href="' + $(this).attr('href') + '"]').tab('show');
+    });
+    jq(document.body).on('click', 'a.lettertab', function (e) {    
 	e.preventDefault();
 	jq('a[href="' + $(this).attr('href') + '"]').tab('show');
     });
