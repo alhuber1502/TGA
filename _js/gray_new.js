@@ -322,7 +322,8 @@ jq(document).ready(function() {
     // Change hash for page-reload
     jq('.nav-tabs a').on('shown.bs.tab', function (e) {
         window.location.hash = e.target.hash; //Polyfill for old browsers
-        window.scrollTo(0, 0);
+		window.scrollTo(0, 0);
+		jq('html, body').scrollTop(0,0);
     });
 
     jq("ul.tabs a").click(function(){
