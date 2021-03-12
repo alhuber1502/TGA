@@ -1,105 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-		<teiHeader>
-			   <fileDesc>
-				     <titleStmt>
-					       <title>Thomas Gray to William Mason (7 September 1768)</title>
-				        <respStmt>
-	              <name ref="#AH">Alexander Huber</name>
-	              <resp>Editor</resp>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Gray to William Mason (7 September 1768)</title>
+            <respStmt>
+               <name ref="#AH">Alexander Huber</name>
+               <resp>Editor</resp>
             </respStmt>
          </titleStmt>
-				     <publicationStmt>
-	           <publisher>Thomas Gray Archive</publisher>
-	           <address>
-		             <addrLine>Taylor Institution Library</addrLine>
-		             <addrLine>St Giles'</addrLine>
-		             <addrLine>Oxford OX1 3NA</addrLine>
-		             <addrLine>UK</addrLine>
-		             <addrLine>info@thomasgray.org</addrLine>
-		             <addrLine>https://www.thomasgray.org/</addrLine>
-	           </address>
-	           <pubPlace>Oxford</pubPlace>
-	           <availability status="restricted">
-		             <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-	           </availability>
+         <publicationStmt>
+            <publisher>Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>info@thomasgray.org</addrLine>
+               <addrLine>https://www.thomasgray.org/</addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+            </availability>
          </publicationStmt>
-				     <sourceDesc>
-					       <msDesc>
-	              <msIdentifier>
-		                <country>USA</country>
-		                <settlement>New York, NY</settlement>
-		                <institution key="NYPL">New York Public Library</institution>
-		                <repository>Humanities and Social Sciences Library</repository>
-		                <collection>Henry W. And Albert A. Berg Collection of English and American Literature</collection>
-	              </msIdentifier>
-	              <additional>
-		                <adminInfo>
-			                  <availability status="free">
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>New York, NY</settlement>
+                  <institution key="NYPL">New York Public Library</institution>
+                  <repository>Humanities and Social Sciences Library</repository>
+                  <collection>Henry W. And Albert A. Berg Collection of English and American Literature</collection>
+               </msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <availability status="free">
                         <p>The original letter is extant and usually available for academic research purposes</p>
                      </availability>
-		                </adminInfo>
-		                <listBibl>
-			                  <bibl>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
                         <title>Correspondence of Thomas Gray</title>, 3 vols. Ed. by the late Paget Toynbee and Leonard Whibley, with corrections and additions by H. W. Starr. Oxford: Clarendon Press, 1971 [1st ed. 1935], letter no. 486, vol. iii, 1046-1047
 				<ref type="url">http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=486</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Correspondence of Thomas Gray and William Mason, with Letters to the Rev. James Brown, D.D.</title> Ed. by the Rev. John Mitford. London: Richard Bentley, 1853, letter CXXIII, 422-425
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=MiJ_1853:422</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Letters of Thomas Gray, including the correspondence of Gray and Mason</title>, 3 vols. Ed. by Duncan C. Tovey. London: George Bell and Sons, 1900-12, letter no. CCCXXXVI, vol. iii, 209-210
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=ToD_1900iii:209</ref>
-			                  </bibl>
-		                </listBibl>
-	              </additional>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
-				     </sourceDesc>
-			   </fileDesc>
-			   <profileDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
          <correspDesc ref="https://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0543">
-		          <correspAction type="sent">
-			            <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
-			            <placeName cert="high" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
-			            <date cert="high" when="1768-09-07"/>
-		          </correspAction>
-		          <correspAction type="received">
-			            <persName cert="high" ref="http://viaf.org/viaf/95718679">Mason, William, 1724-1797</persName>
-		          </correspAction>
-	        </correspDesc>
+            <correspAction type="sent">
+               <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
+               <placeName cert="high" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
+               <date cert="high" when="1768-09-07"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName cert="high" ref="http://viaf.org/viaf/95718679">Mason, William, 1724-1797</persName>
+            </correspAction>
+         </correspDesc>
          <calendarDesc>
-		          <calendar target="https://lccn.loc.gov/sh85018834">
-			            <p>Gregorian</p>
-		          </calendar>
-	        </calendarDesc>
+            <calendar target="https://lccn.loc.gov/sh85018834">
+               <p>Gregorian</p>
+            </calendar>
+         </calendarDesc>
          <langUsage>
-			         <language ident="eng">English</language>
-		       </langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
       </profileDesc>
-		    <encodingDesc>
-	        <projectDesc>
-	           <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
-	           <p>XML created for the Thomas Gray Archive.</p>
+      <encodingDesc>
+         <projectDesc>
+            <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
          </projectDesc>
          <editorialDecl>
-	           <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
+            <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
          </editorialDecl>
          <classDecl>
-	           <taxonomy>
+            <taxonomy>
                <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
-		<text type="letter" xml:id="tgal0543">
-			   <body>
-				     <opener>
-					
-					       <dateline>Pemb: Coll: Sept: 7. 1768. </dateline>
-					       <salute>Dear Mason </salute>
-				     </opener>
-				     <p>What can I say more to you about Oddington. you seem engaged to Mr Wood, &amp; in consequence of that to Mr Meller. Mr Br: is not here, &amp; (if he
+   <text type="letter" xml:id="tgal0543">
+      <body>
+         <opener>
+            <dateline>Pemb: Coll: Sept: 7. 1768. </dateline>
+            <salute>Dear Mason </salute>
+         </opener>
+         <p>What can I say more to you about Oddington. you seem engaged to Mr Wood, &amp; in consequence of that to Mr Meller. Mr Br: is not here, &amp; (if he
 					were) I could by no means consult him about it: his view to the Mastership will be affected by it just
 					in the same manner, as if he had accepted of Framlingham, &amp; had it in possession, wch I little
 					doubt he would accept, if it were vacant &amp; undisputed. as to the dubious title he told me of it
@@ -108,23 +103,23 @@
 					or refuse ought to be entirely his. the only reason I have suggested any thing about it is, that (when we first talk'd on this subject)
 					you ask'd me, whether Mr B: would have it, &amp; I replied, it would hardly be worth his while, as Framl:m was of greater value, in wch
 					(all things consider'd) I may be mistaken.</p>
-				     <p>I give you joy of your vase: I can not find P. et P. PA. in my Sertorius Ursatus, &amp; consequently
+         <p>I give you joy of your vase: I can not find P. et P. PA. in my Sertorius Ursatus, &amp; consequently
 					do not know their meaning. what shall I do? My learned Brethren are dispersed over the face of the earth. I have lately dug up three
 					small vases, in workmanship at least equal to yours: they were discover'd at a place call'd Burslem in Staffordshire, &amp; are very
 					little impair'd by time. on the larger one is this inscription very legible 9/,
 					 &amp; on the two smaller this 7/. you will oblige me with an
 					explanation, for Ursatus here too leaves us in the dark.</p>
-				     <p>I fear the K: of Denmark could not stay, till your hair was dress'd. he is a genteel lively figure,
+         <p>I fear the K: of Denmark could not stay, till your hair was dress'd. he is a genteel lively figure,
 					not made by nature for a Fool: but surrounded by a pack of Knaves, whose interest it is to make him one, if they can. he has overset
 					poor Dr Marriot's head here, who raves of nothing else from morning till night.</p>
-				     <p>Pray make my best compliments to your Brother-Residentiary Mr Cowper, &amp; thank him for his
+         <p>Pray make my best compliments to your Brother-Residentiary Mr Cowper, &amp; thank him for his
 					obliging letter of congratulation, wch I did not at all expect: present also my respects &amp; acknowledgements to Miss Patty. Mr
 					Bedingfield I shall answer soon, both as to his civilities &amp; his reproaches: the latter you might have prevented by telling him,
 					that I gave my <hi rend="italic">works</hi> to no body, as it was only a new edition.</p>
-				     <closer>
-					       <salute>Adieu, &amp; write to me.<lb/> I am ever <lb/> Yours</salute>
-					       <signed>T G:</signed>
-				     </closer>
-			   </body>
-		</text>
-	</TEI>
+         <closer>
+            <salute>Adieu, &amp; write to me.<lb/> I am ever <lb/> Yours</salute>
+            <signed>T G:</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

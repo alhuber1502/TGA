@@ -1,99 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-		<teiHeader>
-			   <fileDesc>
-				     <titleStmt>
-					       <title>Thomas Gray to Edward Bedingfield (31 January 1758)</title>
-				        <respStmt>
-	              <name ref="#AH">Alexander Huber</name>
-	              <resp>Editor</resp>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Gray to Edward Bedingfield (31 January 1758)</title>
+            <respStmt>
+               <name ref="#AH">Alexander Huber</name>
+               <resp>Editor</resp>
             </respStmt>
          </titleStmt>
-				     <publicationStmt>
-	           <publisher>Thomas Gray Archive</publisher>
-	           <address>
-		             <addrLine>Taylor Institution Library</addrLine>
-		             <addrLine>St Giles'</addrLine>
-		             <addrLine>Oxford OX1 3NA</addrLine>
-		             <addrLine>UK</addrLine>
-		             <addrLine>info@thomasgray.org</addrLine>
-		             <addrLine>https://www.thomasgray.org/</addrLine>
-	           </address>
-	           <pubPlace>Oxford</pubPlace>
-	           <availability status="restricted">
-		             <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-	           </availability>
+         <publicationStmt>
+            <publisher>Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>info@thomasgray.org</addrLine>
+               <addrLine>https://www.thomasgray.org/</addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+            </availability>
          </publicationStmt>
-				     <sourceDesc>
-					       <msDesc>
-	              <msIdentifier>
-		                <country>USA</country>
-		                <settlement>San Marino, CA</settlement>
-		                <institution key="HULI">The Huntington</institution>
-		                <repository>Department of Manuscripts</repository>
-		                <collection>Huntington Manuscripts</collection>
-		                <idno>HM 21917</idno>
-	              </msIdentifier>
-	              <additional>
-		                <adminInfo>
-			                  <availability status="free">
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>San Marino, CA</settlement>
+                  <institution key="HULI">The Huntington</institution>
+                  <repository>Department of Manuscripts</repository>
+                  <collection>Huntington Manuscripts</collection>
+                  <idno>HM 21917</idno>
+               </msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <availability status="free">
                         <p>The original letter is extant and usually available for academic research purposes</p>
                      </availability>
-			                  <note>a photostat is in MS. Toynbee c.2, Bodleian Library, Oxford</note>
-		                </adminInfo>
-		                <listBibl>
-			                  <bibl>
+                     <note>a photostat is in MS. Toynbee c.2, Bodleian Library, Oxford</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
                         <title>Correspondence of Thomas Gray</title>, 3 vols. Ed. by the late Paget Toynbee and Leonard Whibley, with corrections and additions by H. W. Starr. Oxford: Clarendon Press, 1971 [1st ed. 1935], letter no. 266, vol. ii, 559-561
 				<ref type="url">http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=266</ref>
-			                  </bibl>
-		                </listBibl>
-	              </additional>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
-				     </sourceDesc>
-			   </fileDesc>
-			   <profileDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
          <correspDesc ref="https://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0307">
-		          <correspAction type="sent">
-			            <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
-			            <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
-			            <date cert="high" when="1758-01-31"/>
-		          </correspAction>
-		          <correspAction type="received">
-			            <persName cert="high">Bedingfield, Edward, b. 1730</persName>
-		          </correspAction>
-	        </correspDesc>
+            <correspAction type="sent">
+               <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
+               <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
+               <date cert="high" when="1758-01-31"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName cert="high">Bedingfield, Edward, b. 1730</persName>
+            </correspAction>
+         </correspDesc>
          <calendarDesc>
-		          <calendar target="https://lccn.loc.gov/sh85018834">
-			            <p>Gregorian</p>
-		          </calendar>
-	        </calendarDesc>
+            <calendar target="https://lccn.loc.gov/sh85018834">
+               <p>Gregorian</p>
+            </calendar>
+         </calendarDesc>
          <langUsage>
-			         <language ident="eng">English</language>
-		       </langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
       </profileDesc>
-		    <encodingDesc>
-	        <projectDesc>
-	           <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
-	           <p>XML created for the Thomas Gray Archive.</p>
+      <encodingDesc>
+         <projectDesc>
+            <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
          </projectDesc>
          <editorialDecl>
-	           <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
+            <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
          </editorialDecl>
          <classDecl>
-	           <taxonomy>
+            <taxonomy>
                <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
-		<text type="letter" xml:id="tgal0307">
-			   <body>
-				     <opener>
-					       <dateline>Jan: 31. 1758.</dateline>
-					       <salute> Dear S<hi rend="super">r</hi>
-					       </salute>
-				     </opener>
-				     <p> Having been for a little while in Huntingdonshire, on my return to this place I find a letter from
+   <text type="letter" xml:id="tgal0307">
+      <body>
+         <opener>
+            <dateline>Jan: 31. 1758.</dateline>
+            <salute> Dear S<hi rend="super">r</hi>
+            </salute>
+         </opener>
+         <p> Having been for a little while in Huntingdonshire, on my return to this place I find a letter from
 					you, the end of w<hi rend="super">ch</hi> gives me much concern. I am very sorry we are at such a distance from one another, that it
 					must be yet some time, before I can have any account of your health. if you are, as I flatter myself, recover'd, you will (I hope) do
 					me the pleasure of letting me hear it without delay. if so much of your indisposition remain as to make writing at all troublesome to
@@ -104,30 +100,30 @@
 					satisfaction, I shall be obliged to cover a part of it, &amp; consequently to rob her of a part of her due praises. this is your fault
 					(for I hope you did not explain the Latin inscription to her). however I return my thanks to you both,
 					to Miss Sw: for all above board, &amp; to You, for what only I am to see.</p>
-				     <p> I go on (with the hope, that you are well enough to read me) to tell you, that I have lately received nine pages of anonymous
+         <p> I go on (with the hope, that you are well enough to read me) to tell you, that I have lately received nine pages of anonymous
 					criticism, containing a good deal both of praise &amp; censure on the <hi>Bard</hi> only. if I thought fit to hear his opinion about
 					the other, I was to direct to A: B: at a place, w<hi rend="super">ch</hi> he told me. I have had the
 					gratitude, or curiosity, or what you please to call it, to follow his direction, &amp; now I have got six pages more, &amp; his name
 					(for that I insisted upon) yet am not much the wiser: however he is a Man of Letters &amp; a good sensible Person, &amp; depends upon
 					no body, &amp; has a little garden. this is all, that I know about him.</p>
-				     <p> I will not send you the <hi>Sonnet</hi> you mention, but here is something else full as bad, only
+         <p> I will not send you the <hi>Sonnet</hi> you mention, but here is something else full as bad, only
 					as it is just wrote, I send it you. it is an epitaph on the Wife of a Friend of mine.</p>
-				     <q> Lo, where this little Marble weeps,<lb/> A Friend, a Wife, a Mother sleeps,<lb/> A Heart, within
+         <q> Lo, where this little Marble weeps,<lb/> A Friend, a Wife, a Mother sleeps,<lb/> A Heart, within
 					whose sacred cell<lb/> Each peaceful Virtue lov'd to dwell,<lb/> Affection warm, &amp; Faith
 					sincere,<lb/> And soft Humanity, were there.<lb/> To hide her Cares her only art,<lb/> Her pleasure pleasures to impart.<lb/> In
 					ling'ring pain, in death resign'd,<lb/> Her latest agony of mind<lb/> Was felt for him, who could not save<lb/> His All from an
 					untimely grave:<lb/> Whom what awaits, while yet he strays<lb/> Along the lonely vale of days?<lb/>
 					A pang to silent Sorrow dear,<lb/> A sigh, an unavailing tear,<lb/> Till Time shall ev'ry grief
 					remove<lb/> With life, with mem'ry, &amp; with love.<lb/>
-				     </q>
-				     <closer>
-					       <salute> Adieu, dear S<hi rend="super">r</hi>. be well, or you will think this letter very impertinent I am<lb/> Your Friend &amp;
+         </q>
+         <closer>
+            <salute> Adieu, dear S<hi rend="super">r</hi>. be well, or you will think this letter very impertinent I am<lb/> Your Friend &amp;
 						Servant </salute>
-					       <signed> TG: </signed>
-				     </closer>
-				     <postscript>
-					       <p> P:S: You should not shew this, because it is not yet inscribed, where it is intended. my best Compliments to the Ladies.</p>
-				     </postscript>
-			   </body>
-		</text>
-	</TEI>
+            <signed> TG: </signed>
+         </closer>
+         <postscript>
+            <p> P:S: You should not shew this, because it is not yet inscribed, where it is intended. my best Compliments to the Ladies.</p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

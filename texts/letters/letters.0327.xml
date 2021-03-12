@@ -1,95 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-		<teiHeader>
-			   <fileDesc>
-				     <titleStmt>
-					       <title>Thomas Gray to Mary Antrobus (<hi rend="it">c.</hi> November 1758)</title>
-				        <respStmt>
-	              <name ref="#AH">Alexander Huber</name>
-	              <resp>Editor</resp>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Gray to Mary Antrobus (<hi rend="it">c.</hi> November 1758)</title>
+            <respStmt>
+               <name ref="#AH">Alexander Huber</name>
+               <resp>Editor</resp>
             </respStmt>
          </titleStmt>
-				     <publicationStmt>
-	           <publisher>Thomas Gray Archive</publisher>
-	           <address>
-		             <addrLine>Taylor Institution Library</addrLine>
-		             <addrLine>St Giles'</addrLine>
-		             <addrLine>Oxford OX1 3NA</addrLine>
-		             <addrLine>UK</addrLine>
-		             <addrLine>info@thomasgray.org</addrLine>
-		             <addrLine>https://www.thomasgray.org/</addrLine>
-	           </address>
-	           <pubPlace>Oxford</pubPlace>
-	           <availability status="restricted">
-		             <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-	           </availability>
+         <publicationStmt>
+            <publisher>Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>info@thomasgray.org</addrLine>
+               <addrLine>https://www.thomasgray.org/</addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+            </availability>
          </publicationStmt>
-				     <sourceDesc>
-					       <msDesc>
-	              <msIdentifier>
-		                <institution key="PRIV">Private collection</institution>
-	              </msIdentifier>
-	              <additional>
-		                <adminInfo>
-			                  <availability status="unknown">
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution key="PRIV">Private collection</institution>
+               </msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <availability status="unknown">
                         <p>The original letter is extant, but there is no further information about its availability</p>
                      </availability>
-		                </adminInfo>
-		                <listBibl>
-			                  <bibl>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
                         <title>Correspondence of Thomas Gray</title>, 3 vols. Ed. by the late Paget Toynbee and Leonard Whibley, with corrections and additions by H. W. Starr. Oxford: Clarendon Press, 1971 [1st ed. 1935], letter no. 283*, vol. ii, 594-595
 				<ref type="url">http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=283*</ref>
-			                  </bibl>
-		                </listBibl>
-	              </additional>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
-				     </sourceDesc>
-			   </fileDesc>
-			   <profileDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
          <correspDesc ref="https://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0327">
-		          <correspAction type="sent">
-			            <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
-			            <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7011896">Stoke Poges, United Kingdom</placeName>
-			            <date cert="medium" when="1758-11"/>
-		          </correspAction>
-		          <correspAction type="received">
-			            <persName cert="high" ref="http://viaf.org/viaf/29394522">Antrobus, Mary, b. 1732</persName>
-		          </correspAction>
-	        </correspDesc>
+            <correspAction type="sent">
+               <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
+               <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7011896">Stoke Poges, United Kingdom</placeName>
+               <date cert="medium" when="1758-11"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName cert="high" ref="http://viaf.org/viaf/29394522">Antrobus, Mary, b. 1732</persName>
+            </correspAction>
+         </correspDesc>
          <calendarDesc>
-		          <calendar target="https://lccn.loc.gov/sh85018834">
-			            <p>Gregorian</p>
-		          </calendar>
-	        </calendarDesc>
+            <calendar target="https://lccn.loc.gov/sh85018834">
+               <p>Gregorian</p>
+            </calendar>
+         </calendarDesc>
          <langUsage>
-			         <language ident="eng">English</language>
-		       </langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
       </profileDesc>
-		    <encodingDesc>
-	        <projectDesc>
-	           <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
-	           <p>XML created for the Thomas Gray Archive.</p>
+      <encodingDesc>
+         <projectDesc>
+            <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
          </projectDesc>
          <editorialDecl>
-	           <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
+            <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
          </editorialDecl>
          <classDecl>
-	           <taxonomy>
+            <taxonomy>
                <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
-		<text type="letter" xml:id="tgal0327">
-			   <body>
-				
-				
-				
-				     <p> [...] </p>
-				     <p> I have asked no body's advice: but I conclude, as poor M<hi rend="super">rs</hi> P: died after your
+   <text type="letter" xml:id="tgal0327">
+      <body>
+         <p> [...] </p>
+         <p> I have asked no body's advice: but I conclude, as poor M<hi rend="super">rs</hi> P: died after your
 						Aunt, her legacy must belong to her, &amp; consequently to her husband; &amp; this, (as I told you, &amp; still wonder at it) is also the opinion of M<hi rend="super">rs</hi> O: for once: she is pure &amp; hearty again, God bless her old soul. Bob
 					returns home tomorrow, but without any letter of attorney. I know (but this is a <hi>violent secret</hi>) she had made her will before he came. You will think consequently, that you are cut short; but be easy, &amp; hold your tongue: it
 					is not so.</p>
-			   </body>
-		</text>
-	</TEI>
+      </body>
+   </text>
+</TEI>

@@ -1,114 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-		<teiHeader>
-			   <fileDesc>
-				     <titleStmt>
-					       <title>Thomas Gray to James Brown (26 May 1761)</title>
-				        <respStmt>
-	              <name ref="#AH">Alexander Huber</name>
-	              <resp>Editor</resp>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Gray to James Brown (26 May 1761)</title>
+            <respStmt>
+               <name ref="#AH">Alexander Huber</name>
+               <resp>Editor</resp>
             </respStmt>
          </titleStmt>
-				     <publicationStmt>
-	           <publisher>Thomas Gray Archive</publisher>
-	           <address>
-		             <addrLine>Taylor Institution Library</addrLine>
-		             <addrLine>St Giles'</addrLine>
-		             <addrLine>Oxford OX1 3NA</addrLine>
-		             <addrLine>UK</addrLine>
-		             <addrLine>info@thomasgray.org</addrLine>
-		             <addrLine>https://www.thomasgray.org/</addrLine>
-	           </address>
-	           <pubPlace>Oxford</pubPlace>
-	           <availability status="restricted">
-		             <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-	           </availability>
+         <publicationStmt>
+            <publisher>Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>info@thomasgray.org</addrLine>
+               <addrLine>https://www.thomasgray.org/</addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+            </availability>
          </publicationStmt>
-				     <sourceDesc>
-					       <msDesc>
-	              <msIdentifier>
-		                <country>UK</country>
-		                <settlement>Cambridge</settlement>
-		                <institution key="PBCC">Pembroke College, Cambridge</institution>
-		                <repository>College Library</repository>
-	              </msIdentifier>
-	              <additional>
-		                <adminInfo>
-			                  <availability status="unknown">
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>UK</country>
+                  <settlement>Cambridge</settlement>
+                  <institution key="PBCC">Pembroke College, Cambridge</institution>
+                  <repository>College Library</repository>
+               </msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <availability status="unknown">
                         <p>The original letter is extant, but there is no further information about its availability</p>
                      </availability>
-		                </adminInfo>
-		                <listBibl>
-			                  <bibl>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
                         <title>Correspondence of Thomas Gray</title>, 3 vols. Ed. by the late Paget Toynbee and Leonard Whibley, with corrections and additions by H. W. Starr. Oxford: Clarendon Press, 1971 [1st ed. 1935], letter no. 334, vol. ii, 738-739
 				<ref type="url">http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=334</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Correspondence of Thomas Gray and William Mason, with Letters to the Rev. James Brown, D.D.</title> Ed. by the Rev. John Mitford. London: Richard Bentley, 1853, letter LXVI, 260-262
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=MiJ_1853:260</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Letters of Thomas Gray, including the correspondence of Gray and Mason</title>, 3 vols. Ed. by Duncan C. Tovey. London: George Bell and Sons, 1900-12, letter no. CCXXI, vol. ii, 214-215
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=ToD_1900ii:214</ref>
-			                  </bibl>
-		                </listBibl>
-	              </additional>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
-				     </sourceDesc>
-			   </fileDesc>
-			   <profileDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
          <correspDesc ref="https://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0385">
-		          <correspAction type="sent">
-			            <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
-			            <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7011781">London, United Kingdom</placeName>
-			            <date cert="high" when="1761-05-26"/>
-		          </correspAction>
-		          <correspAction type="received">
-			            <persName cert="high">Brown, James, 1709-1784</persName>
-			            <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
-		          </correspAction>
-	        </correspDesc>
+            <correspAction type="sent">
+               <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
+               <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7011781">London, United Kingdom</placeName>
+               <date cert="high" when="1761-05-26"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName cert="high">Brown, James, 1709-1784</persName>
+               <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
+            </correspAction>
+         </correspDesc>
          <calendarDesc>
-		          <calendar target="https://lccn.loc.gov/sh85018834">
-			            <p>Gregorian</p>
-		          </calendar>
-	        </calendarDesc>
+            <calendar target="https://lccn.loc.gov/sh85018834">
+               <p>Gregorian</p>
+            </calendar>
+         </calendarDesc>
          <langUsage>
-			         <language ident="eng">English</language>
-		       </langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
       </profileDesc>
-		    <encodingDesc>
-	        <projectDesc>
-	           <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
-	           <p>XML created for the Thomas Gray Archive.</p>
+      <encodingDesc>
+         <projectDesc>
+            <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
          </projectDesc>
          <editorialDecl>
-	           <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
+            <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
          </editorialDecl>
          <classDecl>
-	           <taxonomy>
+            <taxonomy>
                <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
-		<text type="letter" xml:id="tgal0385">
+   <text type="letter" xml:id="tgal0385">
       <front>
-		       <p>
-			         <address>
-				           <addrLine>To The Revd Mr Brown M:A: President of Pembroke Hall Cambridge</addrLine>
-			         </address>
-			         <stamp type="postmark">
+         <p>
+            <address>
+               <addrLine>To The Revd Mr Brown M:A: President of Pembroke Hall Cambridge</addrLine>
+            </address>
+            <stamp type="postmark">
                <date>26 MA GR</date>
             </stamp>
-		       </p>
+         </p>
       </front>
-			   <body>
-				     <opener>
-					
-					       <salute>Dear Sr </salute>
-				     </opener>
-				     <p>I thank you for your kind enquiries &amp; impatience about me. had I not been so often disappointed before, when I thought myself
+      <body>
+         <opener>
+            <salute>Dear Sr </salute>
+         </opener>
+         <p>I thank you for your kind enquiries &amp; impatience about me. had I not been so often disappointed before, when I thought myself
 					sure, I should have informed you before this time of my motions. I thought I was just setting out for Cambridge, when the Man (on whom
 					I have a mortgage) gave me notice, that he was ready to pay in his money: so that now I must
 					necessarily stay to receive it, &amp; it will be (to be sure) the middle of June before I can see
@@ -124,11 +119,11 @@
 					expected. they have not, nor (they say) possibly can throw in either Men or provisions, so it is look'd upon as ours. I know it will be
 					so next week, because I am then to buy into the Stocks.
 				</p>
-				     <closer>
-					       <salute>God bless you! I am ever <lb/> Yours </salute>
-					       <signed>T G. </signed>
-					       <dateline>May 26. 1761 </dateline>
-				     </closer>
-			   </body>
-		</text>
-	</TEI>
+         <closer>
+            <salute>God bless you! I am ever <lb/> Yours </salute>
+            <signed>T G. </signed>
+            <dateline>May 26. 1761 </dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,127 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-		<teiHeader>
-			   <fileDesc>
-				     <titleStmt>
-					       <title>James Beattie to Thomas Gray (16 February 1768)</title>
-				        <respStmt>
-	              <name ref="#AH">Alexander Huber</name>
-	              <resp>Editor</resp>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>James Beattie to Thomas Gray (16 February 1768)</title>
+            <respStmt>
+               <name ref="#AH">Alexander Huber</name>
+               <resp>Editor</resp>
             </respStmt>
          </titleStmt>
-				     <publicationStmt>
-	           <publisher>Thomas Gray Archive</publisher>
-	           <address>
-		             <addrLine>Taylor Institution Library</addrLine>
-		             <addrLine>St Giles'</addrLine>
-		             <addrLine>Oxford OX1 3NA</addrLine>
-		             <addrLine>UK</addrLine>
-		             <addrLine>info@thomasgray.org</addrLine>
-		             <addrLine>https://www.thomasgray.org/</addrLine>
-	           </address>
-	           <pubPlace>Oxford</pubPlace>
-	           <availability status="restricted">
-		             <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-	           </availability>
+         <publicationStmt>
+            <publisher>Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>info@thomasgray.org</addrLine>
+               <addrLine>https://www.thomasgray.org/</addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+            </availability>
          </publicationStmt>
-				     <sourceDesc>
-					       <msDesc>
-	              <msIdentifier>
-		                <country>UK</country>
-		                <settlement>Aberdeen</settlement>
-		                <institution key="UABD">University of Aberdeen Library</institution>
-		                <repository>Historic Collections, Special Libraries and Archives, King's College</repository>
-		                <collection>AU MS 30, Papers of James Beattie (1735-1803)</collection>
-		                <idno>AU MS 30/24/7/2</idno>
-	              </msIdentifier>
-	              <additional>
-		                <adminInfo>
-			                  <availability status="free">
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>UK</country>
+                  <settlement>Aberdeen</settlement>
+                  <institution key="UABD">University of Aberdeen Library</institution>
+                  <repository>Historic Collections, Special Libraries and Archives, King's College</repository>
+                  <collection>AU MS 30, Papers of James Beattie (1735-1803)</collection>
+                  <idno>AU MS 30/24/7/2</idno>
+               </msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <availability status="free">
                         <p>The original letter is extant and usually available for academic research purposes</p>
                      </availability>
-			                  <note>a photostat is in MS. Toynbee d.32, Bodleian Library, Oxford</note>
-		                </adminInfo>
-		                <listBibl>
-			                  <bibl>
+                     <note>a photostat is in MS. Toynbee d.32, Bodleian Library, Oxford</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
                         <title>Correspondence of Thomas Gray</title>, 3 vols. Ed. by the late Paget Toynbee and Leonard Whibley, with corrections and additions by H. W. Starr. Oxford: Clarendon Press, 1971 [1st ed. 1935], letter no. 469, vol. iii, 1010-1012
 				<ref type="url">http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=469</ref>
-			                  </bibl>
-		                </listBibl>
-	              </additional>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
-				     </sourceDesc>
-			   </fileDesc>
-			   <profileDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
          <correspDesc ref="https://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0525">
-		          <correspAction type="sent">
-			            <persName cert="high" ref="http://viaf.org/viaf/14766002">Beattie, James, 1735-1803</persName>
-			            <placeName cert="high" ref="http://vocab.getty.edu/tgn/7009782">Aberdeen, United Kingdom</placeName>
-			            <date cert="high" when="1768-02-16"/>
-		          </correspAction>
-		          <correspAction type="received">
-			            <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
-			            <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
-		          </correspAction>
-	        </correspDesc>
+            <correspAction type="sent">
+               <persName cert="high" ref="http://viaf.org/viaf/14766002">Beattie, James, 1735-1803</persName>
+               <placeName cert="high" ref="http://vocab.getty.edu/tgn/7009782">Aberdeen, United Kingdom</placeName>
+               <date cert="high" when="1768-02-16"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
+               <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
+            </correspAction>
+         </correspDesc>
          <calendarDesc>
-		          <calendar target="https://lccn.loc.gov/sh85018834">
-			            <p>Gregorian</p>
-		          </calendar>
-	        </calendarDesc>
+            <calendar target="https://lccn.loc.gov/sh85018834">
+               <p>Gregorian</p>
+            </calendar>
+         </calendarDesc>
          <langUsage>
-			         <language ident="eng">English</language>
-		       </langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
       </profileDesc>
-		    <encodingDesc>
-	        <projectDesc>
-	           <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
-	           <p>XML created for the Thomas Gray Archive.</p>
+      <encodingDesc>
+         <projectDesc>
+            <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
          </projectDesc>
          <editorialDecl>
-	           <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
+            <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
          </editorialDecl>
          <classDecl>
-	           <taxonomy>
+            <taxonomy>
                <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
-		<text type="letter" xml:id="tgal0525">
+   <text type="letter" xml:id="tgal0525">
       <front>
-		       <p>
-			         <address>
-				           <addrLine>To Thomas Gray Esquire</addrLine>
-				           <addrLine>Pembroke Hall</addrLine>
-				           <addrLine>Cambridge</addrLine>
-			         </address>
-			         <stamp type="postmark">
+         <p>
+            <address>
+               <addrLine>To Thomas Gray Esquire</addrLine>
+               <addrLine>Pembroke Hall</addrLine>
+               <addrLine>Cambridge</addrLine>
+            </address>
+            <stamp type="postmark">
                <date>FE 19 DUNDEE</date>
             </stamp>
-		       </p>
+         </p>
       </front>
-			   <body>
-				     <opener>
-					
-					       <salute> Dear Sir </salute>
-				     </opener>
-				     <p> I received Your most agreable packet a week ago, and have carefully followed all Your instructions.
+      <body>
+         <opener>
+            <salute> Dear Sir </salute>
+         </opener>
+         <p> I received Your most agreable packet a week ago, and have carefully followed all Your instructions.
 					I have written out all the Poems, in the order, and with the titles and mottos and notes, You desired. I never saw but one copy of
 					Bentley's Edition, and that was a great many years ago: I was therefore obliged to transcribe the first second third and fourth Odes
 					and the Elegy in a Country church yard from Dodsley's Collection. Such of the typographical errors as
 					were obvious I have avoided; and I flatter myself that my Manuscript is pretty correct, for Your poems have been deeply imprinted on my
 					memory for many years: however I shall recommend it to Foulis to compare the Manuscript with the folio Edition, if it can be got. The
 					two Pindarick Odes I have taken from the Strawberry hill Edition.</p>
-				     <p> I have wrote out some Directions to the Printer concerning the size of the paper, page, and type; I
+         <p> I have wrote out some Directions to the Printer concerning the size of the paper, page, and type; I
 					have made choice of a fair and thick writing paper, and have proposed the Strawberry hill Edition as a pattern for the page and type. I
 					have left it to M<hi rend="super">r</hi> Foulis to determine, whether the notes shall stand at the foot of each page, or at the end of
 					the book; recommending however the latter, as being most consistent with elegance. In a word, I shall
 					spare no pains to render our Scotch Edition in some measure worthy of the work, and of the Author.</p>
-				     <p> I think You have condescended to Your Readers inattention even more than was necessary: for my own part, I never found any difficulty in understanding Your poetry. The first of the Pindaric odes is so perspicuous,
+         <p> I think You have condescended to Your Readers inattention even more than was necessary: for my own part, I never found any difficulty in understanding Your poetry. The first of the Pindaric odes is so perspicuous,
 					that I could hardly conceive it possible for any person of Common sense to misunderstand it. If there be any obscurity in <hi>the
 						Bard</hi>, it is only in the allusions; for the style and imagery are clear distinct and strong. But readers now-a-days have nothing
 					in view but amusement; and have little relish for a book that requires any degree of attention.</p>
-				     <p> Your new pieces have given me much pleasure: I could expatiate at great length on their beauties. The <hi>Fatal Sisters</hi>
+         <p> Your new pieces have given me much pleasure: I could expatiate at great length on their beauties. The <hi>Fatal Sisters</hi>
 					exhibits a collection of the most frightful images that ever occupied human imagination: some of them in the hands of an ordinary Poet
 					would have sunk into burlesque (particularly the circumstance of the warriors heads) but You have made every thing magical and
 					dreadful; Your choice of words on this, as on every other occasion, is the happiest that can be. It will (I am persuaded) give very
@@ -132,22 +127,22 @@
 					are many other fine passages in the same poem, such as 'When long of yore to sleep &amp;c.'—It is a pity we have no more of the
 					Welch fragment; what You have given us is excellent, and has, I think, more method and perspicuity, than any other of the poems of that
 					age.</p>
-				     <p> The Public will regret with me, that You have drop'd your design of writing a history of English poetry. Percy in his Dissertations on Antient Ballads has thrown out some hints on this subject; but much remains to
+         <p> The Public will regret with me, that You have drop'd your design of writing a history of English poetry. Percy in his Dissertations on Antient Ballads has thrown out some hints on this subject; but much remains to
 					be done; and I shall expect, from what you tell us, that a greater work will make its appearance in due time.</p>
-				     <p> I am much obliged to You for ordering a Copy of Your poems to be sent me when published: I will value it much for its own sake, but
+         <p> I am much obliged to You for ordering a Copy of Your poems to be sent me when published: I will value it much for its own sake, but
 					more for the sake of the Giver. But you owe me no thanks for what I have done in preparing this Edition; it was a most agreable
 					amusement to me; and I think I have done my country a service and even an honour in being the first projector of so good a work.</p>
-				     <p> I write by this Post to M<hi rend="super">r</hi> Foulis to let him know that the Manuscript is ready and will be sent by the first
+         <p> I write by this Post to M<hi rend="super">r</hi> Foulis to let him know that the Manuscript is ready and will be sent by the first
 					sure hand. None of Your instructions will be forgotten.</p>
-				     <closer>
-					       <salute> Believe me to be with the truest affection and esteem Dear Sir<lb/> Your most faithful humble servant </salute>
-					       <signed> J Beattie. </signed>
-					       <dateline>Aberdeen 16 February 1768.</dateline>
-				     </closer>
-				     <postscript>
-					       <p> I can give You no certain information about Miss Hepburn, but I am much mistaken if I did not hear
+         <closer>
+            <salute> Believe me to be with the truest affection and esteem Dear Sir<lb/> Your most faithful humble servant </salute>
+            <signed> J Beattie. </signed>
+            <dateline>Aberdeen 16 February 1768.</dateline>
+         </closer>
+         <postscript>
+            <p> I can give You no certain information about Miss Hepburn, but I am much mistaken if I did not hear
 						some years ago that she is dead.</p>
-				     </postscript>
-			   </body>
-		</text>
-	</TEI>
+         </postscript>
+      </body>
+   </text>
+</TEI>

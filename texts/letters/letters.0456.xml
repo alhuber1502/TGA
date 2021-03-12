@@ -1,119 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-		<teiHeader>
-			   <fileDesc>
-				     <titleStmt>
-					       <title>Thomas Gray to James Brown (<hi rend="it">c.</hi> May 1765)</title>
-				        <respStmt>
-	              <name ref="#AH">Alexander Huber</name>
-	              <resp>Editor</resp>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Gray to James Brown (<hi rend="it">c.</hi> May 1765)</title>
+            <respStmt>
+               <name ref="#AH">Alexander Huber</name>
+               <resp>Editor</resp>
             </respStmt>
          </titleStmt>
-				     <publicationStmt>
-	           <publisher>Thomas Gray Archive</publisher>
-	           <address>
-		             <addrLine>Taylor Institution Library</addrLine>
-		             <addrLine>St Giles'</addrLine>
-		             <addrLine>Oxford OX1 3NA</addrLine>
-		             <addrLine>UK</addrLine>
-		             <addrLine>info@thomasgray.org</addrLine>
-		             <addrLine>https://www.thomasgray.org/</addrLine>
-	           </address>
-	           <pubPlace>Oxford</pubPlace>
-	           <availability status="restricted">
-		             <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-	           </availability>
+         <publicationStmt>
+            <publisher>Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>info@thomasgray.org</addrLine>
+               <addrLine>https://www.thomasgray.org/</addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+            </availability>
          </publicationStmt>
-				     <sourceDesc>
-					       <msDesc>
-	              <msIdentifier>
-		                <country>UK</country>
-		                <settlement>Cambridge</settlement>
-		                <institution key="PBCC">Pembroke College, Cambridge</institution>
-		                <repository>College Library</repository>
-	              </msIdentifier>
-	              <additional>
-		                <adminInfo>
-			                  <availability status="unknown">
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>UK</country>
+                  <settlement>Cambridge</settlement>
+                  <institution key="PBCC">Pembroke College, Cambridge</institution>
+                  <repository>College Library</repository>
+               </msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <availability status="unknown">
                         <p>The original letter is extant, but there is no further information about its availability</p>
                      </availability>
-		                </adminInfo>
-		                <listBibl>
-			                  <bibl>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
                         <title>Correspondence of Thomas Gray</title>, 3 vols. Ed. by the late Paget Toynbee and Leonard Whibley, with corrections and additions by H. W. Starr. Oxford: Clarendon Press, 1971 [1st ed. 1935], letter no. 402, vol. ii, 873-874
 				<ref type="url">http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=402</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Correspondence of Thomas Gray and William Mason, with Letters to the Rev. James Brown, D.D.</title> Ed. by the Rev. John Mitford. London: Richard Bentley, 1853, letter XCIII, 346-348
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=MiJ_1853:346</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Letters of Thomas Gray, including the correspondence of Gray and Mason</title>, 3 vols. Ed. by Duncan C. Tovey. London: George Bell and Sons, 1900-12, letter no. CCLXX, vol. iii, 72-74
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=ToD_1900iii:72</ref>
-			                  </bibl>
-		                </listBibl>
-	              </additional>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
-				     </sourceDesc>
-			   </fileDesc>
-			   <profileDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
          <correspDesc ref="https://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0456">
-		          <correspAction type="sent">
-			            <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
-			            <placeName cert="high" ref="http://vocab.getty.edu/tgn/7011781">London, United Kingdom</placeName>
-			            <date cert="medium" when="1765-05"/>
-		          </correspAction>
-		          <correspAction type="received">
-			            <persName cert="high">Brown, James, 1709-1784</persName>
-		          </correspAction>
-	        </correspDesc>
+            <correspAction type="sent">
+               <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
+               <placeName cert="high" ref="http://vocab.getty.edu/tgn/7011781">London, United Kingdom</placeName>
+               <date cert="medium" when="1765-05"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName cert="high">Brown, James, 1709-1784</persName>
+            </correspAction>
+         </correspDesc>
          <calendarDesc>
-		          <calendar target="https://lccn.loc.gov/sh85018834">
-			            <p>Gregorian</p>
-		          </calendar>
-	        </calendarDesc>
+            <calendar target="https://lccn.loc.gov/sh85018834">
+               <p>Gregorian</p>
+            </calendar>
+         </calendarDesc>
          <langUsage>
-			         <language ident="eng">English</language>
-		       </langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
       </profileDesc>
-		    <encodingDesc>
-	        <projectDesc>
-	           <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
-	           <p>XML created for the Thomas Gray Archive.</p>
+      <encodingDesc>
+         <projectDesc>
+            <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
          </projectDesc>
          <editorialDecl>
-	           <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
+            <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
          </editorialDecl>
          <classDecl>
-	           <taxonomy>
+            <taxonomy>
                <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
-		<text type="letter" xml:id="tgal0456">
-			   <body>
-				     <opener>
-					
-					       <salute>Dear Sr</salute>
-				     </opener>
-				     <p> I hope to be with you by Thursday or Friday-se'nnight: you will hardly go before that time out of
+   <text type="letter" xml:id="tgal0456">
+      <body>
+         <opener>
+            <salute>Dear Sr</salute>
+         </opener>
+         <p> I hope to be with you by Thursday or Friday-se'nnight: you will hardly go before that time out of
 					college, but if you do, the writings will be as safe in your drawers as in mine. you have heard so
 					much news from the party, that were going to Scotland, that it would be a vain thing for me to talk about it. I can only add, that you
 					will shortly hear (I think) of a great change of affairs, wch whenever I come to Town, always follows. today I meet with a report, that
 					Mr Pitt lies dangerously ill, but I hope &amp; rather believe, it is not true. when he is gone, all
 					is gone, &amp; England will be old England again, such as (before his administration) it always was eversince we were born.</p>
-				     <p>I went today to Becket's to look at the last Vol. of Seba. it
+         <p>I went today to Becket's to look at the last Vol. of Seba. it
 					comes unbound to 4 Guineas &amp; 1/2, &amp; contains all the insects of that collection (wch are exceeding numerous) &amp; some plates
 					of fossiles. the graving, as usual, very unequal, &amp; the descriptions as poor as ever. as you have the rest, I conclude you must
 					have this, wch compleats the work, &amp; contains the index.</p>
-				     <p>Are you not glad of the Carlisle history? walking yesterday in Windsor-Park I met the
+         <p>Are you not glad of the Carlisle history? walking yesterday in Windsor-Park I met the
 						Brother of the disgraced party, &amp; walked two hours with him. I had a vast inclination to wish
 					him joy, but did not dare.</p>
-				     <closer>
-					       <salute>Adieu!<lb/> I am ever Yours. </salute>
-					       <dateline>London. Tuesday-night.</dateline>
-				     </closer>
-			   </body>
-		</text>
-	</TEI>
+         <closer>
+            <salute>Adieu!<lb/> I am ever Yours. </salute>
+            <dateline>London. Tuesday-night.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

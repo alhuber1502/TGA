@@ -1,110 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-		<teiHeader>
-			   <fileDesc>
-				     <titleStmt>
-					       <title>William Mason to Thomas Gray (8 January 1761)</title>
-				        <respStmt>
-	              <name ref="#AH">Alexander Huber</name>
-	              <resp>Editor</resp>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>William Mason to Thomas Gray (8 January 1761)</title>
+            <respStmt>
+               <name ref="#AH">Alexander Huber</name>
+               <resp>Editor</resp>
             </respStmt>
          </titleStmt>
-				     <publicationStmt>
-	           <publisher>Thomas Gray Archive</publisher>
-	           <address>
-		             <addrLine>Taylor Institution Library</addrLine>
-		             <addrLine>St Giles'</addrLine>
-		             <addrLine>Oxford OX1 3NA</addrLine>
-		             <addrLine>UK</addrLine>
-		             <addrLine>info@thomasgray.org</addrLine>
-		             <addrLine>https://www.thomasgray.org/</addrLine>
-	           </address>
-	           <pubPlace>Oxford</pubPlace>
-	           <availability status="restricted">
-		             <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-	           </availability>
+         <publicationStmt>
+            <publisher>Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>info@thomasgray.org</addrLine>
+               <addrLine>https://www.thomasgray.org/</addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+            </availability>
          </publicationStmt>
-				     <sourceDesc>
-					       <msDesc>
-	              <msIdentifier>
-		                <country>USA</country>
-		                <settlement>New York, NY</settlement>
-		                <institution key="NYPL">New York Public Library</institution>
-		                <repository>Humanities and Social Sciences Library</repository>
-		                <collection>Henry W. And Albert A. Berg Collection of English and American Literature</collection>
-	              </msIdentifier>
-	              <additional>
-		                <adminInfo>
-			                  <availability status="free">
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>New York, NY</settlement>
+                  <institution key="NYPL">New York Public Library</institution>
+                  <repository>Humanities and Social Sciences Library</repository>
+                  <collection>Henry W. And Albert A. Berg Collection of English and American Literature</collection>
+               </msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <availability status="free">
                         <p>The original letter is extant and usually available for academic research purposes</p>
                      </availability>
-		                </adminInfo>
-		                <listBibl>
-			                  <bibl>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
                         <title>Correspondence of Thomas Gray</title>, 3 vols. Ed. by the late Paget Toynbee and Leonard Whibley, with corrections and additions by H. W. Starr. Oxford: Clarendon Press, 1971 [1st ed. 1935], letter no. 329, vol. ii, 717-720
 				<ref type="url">http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=329</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Correspondence of Thomas Gray and William Mason, with Letters to the Rev. James Brown, D.D.</title> Ed. by the Rev. John Mitford. London: Richard Bentley, 1853, letter LXII, 240-244
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=MiJ_1853:240</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Letters of Thomas Gray, including the correspondence of Gray and Mason</title>, 3 vols. Ed. by Duncan C. Tovey. London: George Bell and Sons, 1900-12, letter no. CCXVI, vol. ii, 188-191
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=ToD_1900ii:188</ref>
-			                  </bibl>
-		                </listBibl>
-	              </additional>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
-				     </sourceDesc>
-			   </fileDesc>
-			   <profileDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
          <correspDesc ref="https://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0379">
-		          <correspAction type="sent">
-			            <persName cert="high" ref="http://viaf.org/viaf/95718679">Mason, William, 1724-1797</persName>
-			            <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7029839">Aston, United Kingdom</placeName>
-			            <date cert="high" when="1761-01-08"/>
-		          </correspAction>
-		          <correspAction type="received">
-			            <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
-		          </correspAction>
-	        </correspDesc>
+            <correspAction type="sent">
+               <persName cert="high" ref="http://viaf.org/viaf/95718679">Mason, William, 1724-1797</persName>
+               <placeName cert="unknown" ref="http://vocab.getty.edu/tgn/7029839">Aston, United Kingdom</placeName>
+               <date cert="high" when="1761-01-08"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
+            </correspAction>
+         </correspDesc>
          <calendarDesc>
-		          <calendar target="https://lccn.loc.gov/sh85018834">
-			            <p>Gregorian</p>
-		          </calendar>
-	        </calendarDesc>
+            <calendar target="https://lccn.loc.gov/sh85018834">
+               <p>Gregorian</p>
+            </calendar>
+         </calendarDesc>
          <langUsage>
-			         <language ident="eng">English</language>
-		       </langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
       </profileDesc>
-		    <encodingDesc>
-	        <projectDesc>
-	           <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
-	           <p>XML created for the Thomas Gray Archive.</p>
+      <encodingDesc>
+         <projectDesc>
+            <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
          </projectDesc>
          <editorialDecl>
-	           <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
+            <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
          </editorialDecl>
          <classDecl>
-	           <taxonomy>
+            <taxonomy>
                <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
-		<text type="letter" xml:id="tgal0379">
-			   <body>
-				     <opener>
-					
-					       <dateline>Jan: 8th 1761.</dateline>
-					       <salute>Dear Mr Gray</salute>
-				     </opener>
-				     <p> I thank you much for your Criticisms But at present shall not take notice of them. They will stand me in good stead whenever I put
+   <text type="letter" xml:id="tgal0379">
+      <body>
+         <opener>
+            <dateline>Jan: 8th 1761.</dateline>
+            <salute>Dear Mr Gray</salute>
+         </opener>
+         <p> I thank you much for your Criticisms But at present shall not take notice of them. They will stand me in good stead whenever I put
 					the Elegy in my just volume and till then let them pass.</p>
-				     <p>I thank you also very much for Your Georgiana. if they be genuine I thank you as an Englishman; and prefer them before evry thing
+         <p>I thank you also very much for Your Georgiana. if they be genuine I thank you as an Englishman; and prefer them before evry thing
 					that ever ended in Ana; but you are mistaken in your Preacher, it was Dr Thomas Wilson of
 					Westminster, who they say is a Rogue, the other is only a Coxcomb, but a sort of Coxcomb that I hate almost as much as a Rogue.</p>
-				     <p>If the nouvelle Eloise be Rousseaus, pity me because I live at Aston, &amp; have not seen it, &amp;
+         <p>If the nouvelle Eloise be Rousseaus, pity me because I live at Aston, &amp; have not seen it, &amp;
 					be sure send me some account of it and that with speed. I find there is a new report that Ld H is to
 					go to Ireland this has inducd poor Fred: Hervey (glad of such an opportunity of renewing our
 					Correspondence) to write to me, &amp; to tell me that His Friends have hopes of making him first Chaplain, but that he begs first to
@@ -114,15 +109,15 @@
 					pity to his Wife &amp; family of small Children sent him an answer not so tart as he deservd, &amp;
 					given him full liberty of useing all his interest in this matter. However Keep this a Secret because I promisd to do it &amp; because
 					also I should not have broke my promise could I have thought of any thing better to write at present.</p>
-				     <p>I am glad at Heart to find this annihilation of Toryism, wch you give me an acct of. Fobus, besides Lying, had only one other
+         <p>I am glad at Heart to find this annihilation of Toryism, wch you give me an acct of. Fobus, besides Lying, had only one other
 					ministerial Art in his possession wch too was a Species of Lying, And this he exerted in making evry Man who was not a friend to the
 					Ministry a Tory. Was he askd to explain this? he had not skill enough in English History &amp; the constitution of his country to do
 					it; &amp; therefore he explaind himself by saying a Tory was a Jacobite, &amp; a Jacobite a Tory. Thus you may remember one of his
 					tools who could not cleverly make you either Tory or Jacobite said you was worse you was a Republican. May God send this measure a happy ending, &amp; may the next Generation be only distinguishd by the style &amp; title of Friends to
 					their Country.</p>
-				     <p>You have by this time heard Elisi pray give me an account of him or it as soon as possible &amp;
+         <p>You have by this time heard Elisi pray give me an account of him or it as soon as possible &amp;
 					send me also your Recipe for Chevichi, in plain terms.</p>
-				     <p>Have you made up your mind about Gothic Architecture &amp; consequently given over Your Genealogical Studies wch it seems are so intimately connected with that Science. for my part I am metamorphosing some good Old
+         <p>Have you made up your mind about Gothic Architecture &amp; consequently given over Your Genealogical Studies wch it seems are so intimately connected with that Science. for my part I am metamorphosing some good Old
 					Homilies into new-fashiond Sermons &amp; consequently spoiling every period of them. But what better can I do, living as I here do in
 					almost absolute solitude, &amp; in that state of Life wch My old Friend Jeremy Taylor so well describes in his Sermon aptly entituled
 					the Marriage ring. 'Celibate Life (sayth he) like the <hi rend="italic">Flie</hi> in the <hi rend="italic">heart of an Apple dwells in a perpetual sweetness,</hi> but sits alone, &amp; is confind, and <hi rend="italic">dies in
@@ -131,9 +126,9 @@
 					(without ever seeing it) took that thought <hi rend="italic">Poor Moralist, and what art thou,</hi> &amp;c. But the Plagiarism had been too glaring had you taken <hi rend="italic">the heart of the Apple</hi> In wch
 					however the great beauty of the thought consists. After all why will you not read Jeremy Taylor? take my word once more for it he is
 					the Shakespeare of Divines.</p>
-				     <closer>
-					       <salute>Adieu and beleive me to be ever most entirely yours.</salute>
-				     </closer>
-			   </body>
-		</text>
-	</TEI>
+         <closer>
+            <salute>Adieu and beleive me to be ever most entirely yours.</salute>
+         </closer>
+      </body>
+   </text>
+</TEI>

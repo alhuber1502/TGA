@@ -1,116 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-		<teiHeader>
-			   <fileDesc>
-				     <titleStmt>
-					       <title>Thomas Gray to James Brown (8 November 1760)</title>
-				        <respStmt>
-	              <name ref="#AH">Alexander Huber</name>
-	              <resp>Editor</resp>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Gray to James Brown (8 November 1760)</title>
+            <respStmt>
+               <name ref="#AH">Alexander Huber</name>
+               <resp>Editor</resp>
             </respStmt>
          </titleStmt>
-				     <publicationStmt>
-	           <publisher>Thomas Gray Archive</publisher>
-	           <address>
-		             <addrLine>Taylor Institution Library</addrLine>
-		             <addrLine>St Giles'</addrLine>
-		             <addrLine>Oxford OX1 3NA</addrLine>
-		             <addrLine>UK</addrLine>
-		             <addrLine>info@thomasgray.org</addrLine>
-		             <addrLine>https://www.thomasgray.org/</addrLine>
-	           </address>
-	           <pubPlace>Oxford</pubPlace>
-	           <availability status="restricted">
-		             <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-	           </availability>
+         <publicationStmt>
+            <publisher>Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>info@thomasgray.org</addrLine>
+               <addrLine>https://www.thomasgray.org/</addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+            </availability>
          </publicationStmt>
-				     <sourceDesc>
-					       <msDesc>
-	              <msIdentifier>
-		                <country>UK</country>
-		                <settlement>Windsor</settlement>
-		                <institution key="ETON">Eton College</institution>
-		                <repository>College Library</repository>
-	              </msIdentifier>
-	              <physDesc>
-		                <objectDesc form="A.L.">
-			                  <supportDesc>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>UK</country>
+                  <settlement>Windsor</settlement>
+                  <institution key="ETON">Eton College</institution>
+                  <repository>College Library</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="A.L.">
+                     <supportDesc>
 			</supportDesc>
-		                </objectDesc>
-	              </physDesc>
-	              <additional>
-		                <adminInfo>
-			                  <availability status="free">
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <availability status="free">
                         <p>The original letter is extant and usually available for academic research purposes</p>
                      </availability>
-			                  <note>bound into a copy of Mathias's <hi rend="it">Works of Thomas Gray</hi> (London, 1814), vol. II, part 2</note>
-		                </adminInfo>
-		                <listBibl>
-			                  <bibl>
+                     <note>bound into a copy of Mathias's <hi rend="it">Works of Thomas Gray</hi> (London, 1814), vol. II, part 2</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
                         <title>Correspondence of Thomas Gray</title>, 3 vols. Ed. by the late Paget Toynbee and Leonard Whibley, with corrections and additions by H. W. Starr. Oxford: Clarendon Press, 1971 [1st ed. 1935], letter no. 325, vol. ii, 710-712
 				<ref type="url">http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=325</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Correspondence of Thomas Gray and William Mason, with Letters to the Rev. James Brown, D.D.</title> Ed. by the Rev. John Mitford. London: Richard Bentley, 1853, letter LIX, 227-230
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=MiJ_1853:227</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Letters of Thomas Gray, including the correspondence of Gray and Mason</title>, 3 vols. Ed. by Duncan C. Tovey. London: George Bell and Sons, 1900-12, letter no. CCXII, vol. ii, 173-177
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=ToD_1900ii:173</ref>
-			                  </bibl>
-		                </listBibl>
-	              </additional>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
-				     </sourceDesc>
-			   </fileDesc>
-			   <profileDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
          <correspDesc ref="https://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0375">
-		          <correspAction type="sent">
-			            <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
-			            <placeName cert="high" ref="http://vocab.getty.edu/tgn/7011781">London, United Kingdom</placeName>
-			            <date cert="high" when="1760-11-08"/>
-		          </correspAction>
-		          <correspAction type="received">
-			            <persName cert="high">Brown, James, 1709-1784</persName>
-		          </correspAction>
-	        </correspDesc>
+            <correspAction type="sent">
+               <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
+               <placeName cert="high" ref="http://vocab.getty.edu/tgn/7011781">London, United Kingdom</placeName>
+               <date cert="high" when="1760-11-08"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName cert="high">Brown, James, 1709-1784</persName>
+            </correspAction>
+         </correspDesc>
          <calendarDesc>
-		          <calendar target="https://lccn.loc.gov/sh85018834">
-			            <p>Gregorian</p>
-		          </calendar>
-	        </calendarDesc>
+            <calendar target="https://lccn.loc.gov/sh85018834">
+               <p>Gregorian</p>
+            </calendar>
+         </calendarDesc>
          <langUsage>
-			         <language ident="eng">English</language>
-		       </langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
       </profileDesc>
-		    <encodingDesc>
-	        <projectDesc>
-	           <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
-	           <p>XML created for the Thomas Gray Archive.</p>
+      <encodingDesc>
+         <projectDesc>
+            <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
          </projectDesc>
          <editorialDecl>
-	           <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
+            <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
          </editorialDecl>
          <classDecl>
-	           <taxonomy>
+            <taxonomy>
                <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
-		<text type="letter" xml:id="tgal0375">
-			   <body>
-				     <opener>
-					
-					       <salute>Dear Sr </salute>
-				     </opener>
-				     <p>You will excuse me, if I write you a little news in this busy time, tho' I have nothing else to write. the Ladies are rejoiced to
+   <text type="letter" xml:id="tgal0375">
+      <body>
+         <opener>
+            <salute>Dear Sr </salute>
+         </opener>
+         <p>You will excuse me, if I write you a little news in this busy time, tho' I have nothing else to write. the Ladies are rejoiced to
 					hear, they may probably have a marriage before the Coronation, wch will restore to that pomp all the beauties it would otherwise have
 					lost. I hear (but this is <hi rend="italic">sub sigillo</hi>) no very extraordinary account of the
 					P:ss of Saxe-Gotha, either as to her person, or temper. I never saw a face of <hi rend="italic">less
 						sorrow</hi> than on the late <hi rend="italic">occasion.</hi>
-					
-					       <hi rend="italic">I do not blame</hi> the inhabitants of a certain great House for not putting on
+            <hi rend="italic">I do not blame</hi> the inhabitants of a certain great House for not putting on
 					that appearance: it would look like affectation. but even the old Servants, &amp; Friends appear insensible, &amp; he is already, as if he never had been. one Person however has behaved with
 						<hi rend="italic">firmness</hi> &amp; yet great decency. he walks (at his own desire) Chief Mourner at the solemnity on
 						Tuesday, &amp; supposing even the spectacle itself did not touch him, yet it must do so on
@@ -128,25 +122,25 @@
 					Legatee; what that amounts to, no one will know; &amp; consequently it must remain a doubt, whether he died rich or poor: I incline to
 					believe rather the latter, I mean, in comparison of what was expected.
 				</p>
-				     <p>The Archbishop is the most assiduous of Courtiers, standing for ever upright in the midst of a
+         <p>The Archbishop is the most assiduous of Courtiers, standing for ever upright in the midst of a
 					thousand Ladies. the other day he trod on the toes of the D:, who turned to him (for he made no sort of excuse) &amp; said aloud, If
 					your G: is so eager to make your court, that is the way (pointing towards the King) &amp; then to the Count de Fuentes, You see, Priests are the same in this country as in yours.</p>
-				     <p>Mr E: Finch (your Representative) has got the place that Sr H: E:
+         <p>Mr E: Finch (your Representative) has got the place that Sr H: E:
 					(my Friend) had, Surveyor (I think) of the Roads, wch is about 600£ a-year. what then (you will ask) is become of my Friend? oh, he is
 					a vast Favourite, is restored to his Regiment, &amp; made Groom of the Bed-Chamber. I have not been to see him yet, &amp; am
 					half-afraid, for I hear, he has <hi rend="italic">a Levee.</hi> pray, don't tell.</p>
-				     <p>Ld J: C: is fix'd to come at his time in spite of the World. I hear within the year, you may expect
+         <p>Ld J: C: is fix'd to come at his time in spite of the World. I hear within the year, you may expect
 					a visit from his Majesty in person. the worst I can tell you is that Squit will be a B:p
 				</p>
-				     <p>When the D: of Dev: introduced my Ld Mayor, he desired his Grace would be so kind to tell him, wch
+         <p>When the D: of Dev: introduced my Ld Mayor, he desired his Grace would be so kind to tell him, wch
 					was my <hi rend="italic">Ld</hi>
-					       <hi rend="italic">Boot</hi>? this must not be told at all; nor any thing else <hi rend="italic">as
+            <hi rend="italic">Boot</hi>? this must not be told at all; nor any thing else <hi rend="italic">as
 						from me.</hi>
          </p>
-				     <closer>
-					       <salute>Adieu!</salute>
-					       <dateline>London – Nov: 8. 1760. </dateline>
-				     </closer>
-			   </body>
-		</text>
-	</TEI>
+         <closer>
+            <salute>Adieu!</salute>
+            <dateline>London – Nov: 8. 1760. </dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

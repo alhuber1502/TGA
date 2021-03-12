@@ -1,105 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-		<teiHeader>
-			   <fileDesc>
-				     <titleStmt>
-					       <title>James Beattie to Thomas Gray (1 May 1770)</title>
-				        <respStmt>
-	              <name ref="#AH">Alexander Huber</name>
-	              <resp>Editor</resp>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>James Beattie to Thomas Gray (1 May 1770)</title>
+            <respStmt>
+               <name ref="#AH">Alexander Huber</name>
+               <resp>Editor</resp>
             </respStmt>
          </titleStmt>
-				     <publicationStmt>
-	           <publisher>Thomas Gray Archive</publisher>
-	           <address>
-		             <addrLine>Taylor Institution Library</addrLine>
-		             <addrLine>St Giles'</addrLine>
-		             <addrLine>Oxford OX1 3NA</addrLine>
-		             <addrLine>UK</addrLine>
-		             <addrLine>info@thomasgray.org</addrLine>
-		             <addrLine>https://www.thomasgray.org/</addrLine>
-	           </address>
-	           <pubPlace>Oxford</pubPlace>
-	           <availability status="restricted">
-		             <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-	           </availability>
+         <publicationStmt>
+            <publisher>Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>info@thomasgray.org</addrLine>
+               <addrLine>https://www.thomasgray.org/</addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+            </availability>
          </publicationStmt>
-				     <sourceDesc>
-					       <msDesc>
-	              <msIdentifier>
-		                <country>UK</country>
-		                <settlement>Aberdeen</settlement>
-		                <institution key="UABD">University of Aberdeen Library</institution>
-		                <repository>Historic Collections, Special Libraries and Archives, King's College</repository>
-		                <collection>AU MS 30, Papers of James Beattie (1735-1803)</collection>
-		                <idno>AU MS 30/24/7/3</idno>
-	              </msIdentifier>
-	              <additional>
-		                <adminInfo>
-			                  <availability status="free">
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>UK</country>
+                  <settlement>Aberdeen</settlement>
+                  <institution key="UABD">University of Aberdeen Library</institution>
+                  <repository>Historic Collections, Special Libraries and Archives, King's College</repository>
+                  <collection>AU MS 30, Papers of James Beattie (1735-1803)</collection>
+                  <idno>AU MS 30/24/7/3</idno>
+               </msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <availability status="free">
                         <p>The original letter is extant and usually available for academic research purposes</p>
                      </availability>
-			                  <note>a photostat is in MS. Toynbee d.32, Bodleian Library, Oxford</note>
-		                </adminInfo>
-		                <listBibl>
-			                  <bibl>
+                     <note>a photostat is in MS. Toynbee d.32, Bodleian Library, Oxford</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
                         <title>Correspondence of Thomas Gray</title>, 3 vols. Ed. by the late Paget Toynbee and Leonard Whibley, with corrections and additions by H. W. Starr. Oxford: Clarendon Press, 1971 [1st ed. 1935], letter no. 522, vol. iii, 1130-1132
 				<ref type="url">http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=522</ref>
-			                  </bibl>
-		                </listBibl>
-	              </additional>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
-				     </sourceDesc>
-			   </fileDesc>
-			   <profileDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
          <correspDesc ref="https://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0600">
-		          <correspAction type="sent">
-			            <persName cert="high" ref="http://viaf.org/viaf/14766002">Beattie, James, 1735-1803</persName>
-			            <placeName cert="high" ref="http://vocab.getty.edu/tgn/7009782">Aberdeen, United Kingdom</placeName>
-			            <date cert="high" when="1770-05-01"/>
-		          </correspAction>
-		          <correspAction type="received">
-			            <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
-			            <placeName cert="high" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
-		          </correspAction>
-	        </correspDesc>
+            <correspAction type="sent">
+               <persName cert="high" ref="http://viaf.org/viaf/14766002">Beattie, James, 1735-1803</persName>
+               <placeName cert="high" ref="http://vocab.getty.edu/tgn/7009782">Aberdeen, United Kingdom</placeName>
+               <date cert="high" when="1770-05-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
+               <placeName cert="high" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
+            </correspAction>
+         </correspDesc>
          <calendarDesc>
-		          <calendar target="https://lccn.loc.gov/sh85018834">
-			            <p>Gregorian</p>
-		          </calendar>
-	        </calendarDesc>
+            <calendar target="https://lccn.loc.gov/sh85018834">
+               <p>Gregorian</p>
+            </calendar>
+         </calendarDesc>
          <langUsage>
-			         <language ident="eng">English</language>
-		       </langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
       </profileDesc>
-		    <encodingDesc>
-	        <projectDesc>
-	           <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
-	           <p>XML created for the Thomas Gray Archive.</p>
+      <encodingDesc>
+         <projectDesc>
+            <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
          </projectDesc>
          <editorialDecl>
-	           <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
+            <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
          </editorialDecl>
          <classDecl>
-	           <taxonomy>
+            <taxonomy>
                <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
-		<text type="letter" xml:id="tgal0600">
+   <text type="letter" xml:id="tgal0600">
       <front>
-		       <p>
-			         <address>
-				           <addrLine>To Thomas Gray Esquire Regius Professor of Modern History Cambridge with a Book---To be forwarded by Mr Dilly</addrLine>
-			         </address>
-		       </p>
+         <p>
+            <address>
+               <addrLine>To Thomas Gray Esquire Regius Professor of Modern History Cambridge with a Book---To be forwarded by Mr Dilly</addrLine>
+            </address>
+         </p>
       </front>
-			   <body>
-				     <opener>
-					       <salute> Dear Sir </salute>
-				     </opener>
-				     <p> I troubled You with a letter some months ago, enclosing a specimen of a Poem, which I have some thoughts of finishing when I find myself at leisure.—The design of this, is to
+      <body>
+         <opener>
+            <salute> Dear Sir </salute>
+         </opener>
+         <p> I troubled You with a letter some months ago, enclosing a specimen of a Poem, which I have some thoughts of finishing when I find myself at leisure.—The design of this, is to
 					solicit Your acceptance of a Book called An Essay on Truth which M<hi rend="super">r</hi>
 						Dilly Bookseller in London sends You by my desire. It is not such a present as I wish to make, but
 					it is the best that is now in my power. You will think perhaps that I am very anxious to become a voluminous Author; but that is not
@@ -125,16 +121,16 @@
 					favourably received by those who understand it best. I have frequently given a little into declamation, and something of a flippant
 					drollery, both which I know are unsuitable to a philosophical enquiry. I did this, partly to amuse myself, and partly to [render
 						m]y subject not altogether unentertaining.</p>
-				     <p> [In my l]ast I complained of bad health; I am no[w] much [better], and should be glad to hear that You a[re] well and happy.</p>
-				     <closer>
-					       <salute> For I am, with the most perfect regard and esteem Dear Sir<lb/> Your affectionate &amp; most humble servant </salute>
-					       <signed> J Beattie </signed>
-					       <dateline>Aberdeen 1<hi rend="super">st</hi> May 1770</dateline>
-				     </closer>
-				     <postscript>
-					       <p> I know not what M<hi rend="super">r</hi> Foulis has done with his Milton. I thought it would have been finished long before now. I
+         <p> [In my l]ast I complained of bad health; I am no[w] much [better], and should be glad to hear that You a[re] well and happy.</p>
+         <closer>
+            <salute> For I am, with the most perfect regard and esteem Dear Sir<lb/> Your affectionate &amp; most humble servant </salute>
+            <signed> J Beattie </signed>
+            <dateline>Aberdeen 1<hi rend="super">st</hi> May 1770</dateline>
+         </closer>
+         <postscript>
+            <p> I know not what M<hi rend="super">r</hi> Foulis has done with his Milton. I thought it would have been finished long before now. I
 						hope he has not neglected to send Your Homer.</p>
-				     </postscript>
-			   </body>
-		</text>
-	</TEI>
+         </postscript>
+      </body>
+   </text>
+</TEI>

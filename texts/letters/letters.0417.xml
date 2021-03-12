@@ -1,117 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-		<teiHeader>
-			   <fileDesc>
-				     <titleStmt>
-					       <title>Thomas Gray to William Mason (21 December 1762)</title>
-				        <respStmt>
-	              <name ref="#AH">Alexander Huber</name>
-	              <resp>Editor</resp>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Gray to William Mason (21 December 1762)</title>
+            <respStmt>
+               <name ref="#AH">Alexander Huber</name>
+               <resp>Editor</resp>
             </respStmt>
          </titleStmt>
-				     <publicationStmt>
-	           <publisher>Thomas Gray Archive</publisher>
-	           <address>
-		             <addrLine>Taylor Institution Library</addrLine>
-		             <addrLine>St Giles'</addrLine>
-		             <addrLine>Oxford OX1 3NA</addrLine>
-		             <addrLine>UK</addrLine>
-		             <addrLine>info@thomasgray.org</addrLine>
-		             <addrLine>https://www.thomasgray.org/</addrLine>
-	           </address>
-	           <pubPlace>Oxford</pubPlace>
-	           <availability status="restricted">
-		             <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-	           </availability>
+         <publicationStmt>
+            <publisher>Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>info@thomasgray.org</addrLine>
+               <addrLine>https://www.thomasgray.org/</addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+            </availability>
          </publicationStmt>
-				     <sourceDesc>
-					       <msDesc>
-	              <msIdentifier>
-		                <country>USA</country>
-		                <settlement>New York, NY</settlement>
-		                <institution key="NYPL">New York Public Library</institution>
-		                <repository>Humanities and Social Sciences Library</repository>
-		                <collection>Henry W. And Albert A. Berg Collection of English and American Literature</collection>
-	              </msIdentifier>
-	              <additional>
-		                <adminInfo>
-			                  <availability status="free">
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>New York, NY</settlement>
+                  <institution key="NYPL">New York Public Library</institution>
+                  <repository>Humanities and Social Sciences Library</repository>
+                  <collection>Henry W. And Albert A. Berg Collection of English and American Literature</collection>
+               </msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <availability status="free">
                         <p>The original letter is extant and usually available for academic research purposes</p>
                      </availability>
-		                </adminInfo>
-		                <listBibl>
-			                  <bibl>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
                         <title>Correspondence of Thomas Gray</title>, 3 vols. Ed. by the late Paget Toynbee and Leonard Whibley, with corrections and additions by H. W. Starr. Oxford: Clarendon Press, 1971 [1st ed. 1935], letter no. 364, vol. ii, 789-790
 				<ref type="url">http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=364</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Correspondence of Thomas Gray and William Mason, with Letters to the Rev. James Brown, D.D.</title> Ed. by the Rev. John Mitford. London: Richard Bentley, 1853, letter LXXVIII, 292-296
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=MiJ_1853:292</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>Essays and Criticisms by Thomas Gray.</title> Ed. with Introduction and Notes by Clark Sutherland Northup. Boston and London: D. C. Heath &amp; Co., 1911, letter excerpt, 250-251
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=NoC_1911:250</ref>
-			                  </bibl>
-			                  <bibl>
+                     </bibl>
+                     <bibl>
                         <title>The Letters of Thomas Gray, including the correspondence of Gray and Mason</title>, 3 vols. Ed. by Duncan C. Tovey. London: George Bell and Sons, 1900-12, letter no. CCXLVI, vol. ii, 269-273
 				<ref type="url">https://www.thomasgray.org/cgi-bin/view.cgi?collection=primary&amp;sequence=ToD_1900ii:269</ref>
-			                  </bibl>
-		                </listBibl>
-	              </additional>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
-				     </sourceDesc>
-			   </fileDesc>
-			   <profileDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
          <correspDesc ref="https://www.thomasgray.org/cgi-bin/display.cgi?text=tgal0417">
-		          <correspAction type="sent">
-			            <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
-			            <placeName cert="high" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
-			            <date cert="high" when="1762-12-21"/>
-		          </correspAction>
-		          <correspAction type="received">
-			            <persName cert="high" ref="http://viaf.org/viaf/95718679">Mason, William, 1724-1797</persName>
-		          </correspAction>
-	        </correspDesc>
+            <correspAction type="sent">
+               <persName cert="high" ref="http://viaf.org/viaf/9889965">Gray, Thomas, 1716-1771</persName>
+               <placeName cert="high" ref="http://vocab.getty.edu/tgn/7010874">Cambridge, United Kingdom</placeName>
+               <date cert="high" when="1762-12-21"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName cert="high" ref="http://viaf.org/viaf/95718679">Mason, William, 1724-1797</persName>
+            </correspAction>
+         </correspDesc>
          <calendarDesc>
-		          <calendar target="https://lccn.loc.gov/sh85018834">
-			            <p>Gregorian</p>
-		          </calendar>
-	        </calendarDesc>
+            <calendar target="https://lccn.loc.gov/sh85018834">
+               <p>Gregorian</p>
+            </calendar>
+         </calendarDesc>
          <langUsage>
-			         <language ident="eng">English</language>
-		       </langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
       </profileDesc>
-		    <encodingDesc>
-	        <projectDesc>
-	           <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
-	           <p>XML created for the Thomas Gray Archive.</p>
+      <encodingDesc>
+         <projectDesc>
+            <p>This letter is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
          </projectDesc>
          <editorialDecl>
-	           <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
+            <p>This letter is part of the correspondence calendar of the complete correspondence of Thomas Gray. The calendar contains detailed bibliographic records for all known original, copied, or published letters written by or to the poet as well as the full-text, where available.  Each record is accompanied by digitised images of the manuscript, where available, or digitised images of the first printed edition.</p>
          </editorialDecl>
          <classDecl>
-	           <taxonomy>
+            <taxonomy>
                <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
-		<text type="letter" xml:id="tgal0417">
-			   <body>
-				     <opener>
-					
-					       <salute>Dear Mason </salute>
-				     </opener>
-				     <p>As to my pardon, for which you supplicate, you know too well how easily it is obtain'd without any reason at all: but now I have a
+   <text type="letter" xml:id="tgal0417">
+      <body>
+         <opener>
+            <salute>Dear Mason </salute>
+         </opener>
+         <p>As to my pardon, for which you supplicate, you know too well how easily it is obtain'd without any reason at all: but now I have a
 					very good one, as I have read the third Book of <hi rend="italic">the Ghost,</hi>
 					 where Churchill has so mumbled Mr Whitehead, to whom you owe all
 					your principles (see the unpublish'd elegy <hi rend="italic">de Amicitiâ</hi>) that it would be base
 					in me to demand any farther satisfaction. this only I shall add, that I would rather steal the Laureate's verses, than his
 					sentiments.</p>
-				     <p>I am sorry for the disagreeable event you mention, wch I learnt by mere accident from Mr
+         <p>I am sorry for the disagreeable event you mention, wch I learnt by mere accident from Mr
 						Curtall in a Coffee-House: I do not doubt, it must have taken up a good deal of your thoughts &amp;
 					time, &amp; should wish to know, whether there are any hopes of the poor Fellow's recovery.</p>
-				     <p>We have received your poetical packet, &amp; deliver'd them to the several parties. the sentiments
+         <p>We have received your poetical packet, &amp; deliver'd them to the several parties. the sentiments
 					we do not remark, as we can find nothing within ourselves congenial to them. for the expression, we hint (but in a low &amp; timid
 					voice) that there is a want of <hi rend="italic">strength</hi> &amp; <hi rend="italic">spirit</hi>: in short they are nothing like the
 					Choruses in Elfrida. only the lines that relate to Lady Cov:s beauty have made a deep impression upon
@@ -119,16 +114,16 @@
 					reflections here. only Mrs Rutherforth observes, that there is great delicacy &amp; tenderness in the
 					manner of treating so frail a character as that of L:y Cov:, &amp; that you have found a way to reconcile contempt &amp; compassion.
 					these might not be her words, but this was the sense of them; &amp; I don't believe, she had it from the Doctor.</p>
-				     <p>I rejoice (in a weakly way, you may be sure, as I have not seen him some years, &amp; am in so different a way of life) but I rejoice
+         <p>I rejoice (in a weakly way, you may be sure, as I have not seen him some years, &amp; am in so different a way of life) but I rejoice
 					to hear of any accession to Mr Hurd's fortune, as I do not believe he will be any thing the worse for
 					it. Forester (whom I perceive you can still remember) is removed from Easton to a better living by his Patron Ld Maynard on purpose to get rid of him,
 					for Easton is his own parish, &amp; he was sick to death of his company. he is now seated just by his Brother Pulter, &amp; they are mortal foes.</p>
-				     <p>Mr Brockett has got old Turner's Professorship, &amp; Delaval has lost it. when we meet I have
+         <p>Mr Brockett has got old Turner's Professorship, &amp; Delaval has lost it. when we meet I have
 					something to tell you on this subject. I hope to continue here till March: if not, I shall inform you. how does the Peace agree with you?</p>
-				     <closer>
-					       <salute>Adieu! I am ever<lb/> Yours. </salute>
-					       <dateline>Camb: Dec: 21. 1762.</dateline>
-				     </closer>
-			   </body>
-		</text>
-	</TEI>
+         <closer>
+            <salute>Adieu! I am ever<lb/> Yours. </salute>
+            <dateline>Camb: Dec: 21. 1762.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>
