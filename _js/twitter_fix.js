@@ -10,7 +10,7 @@ $(document).ready(function() {
 	if( twitterFrame.length && twitterTimelineHeader.length) {
 	    twitterFrame.attr("style","width:100%;");
             twitterTimelineHead.attr("style","display:none;");
-<!--            twitterTimelineHead.attr("style","padding:5px 0;"); -->
+//            twitterTimelineHead.attr("style","padding:5px 0;");
             twitterTimelineFoot.attr("style","color: #8C001A;");
             twitterTimelineTextLinks.attr("style","color: #8C001A !important;");
             twitterTimelineAuthor.attr("style","font-weight:normal;");
