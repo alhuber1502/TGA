@@ -2298,11 +2298,14 @@ a:focus,a:hover {
   padding-left: 15px;
 }
 #showcase {
-  text-align:center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #showcase img {
   box-shadow: 0 0 5px #2e2e2e;
-  margin:25px auto;
+  margin:20px auto;
 }
 #showcase .panel-footer {
   font-size: .8em;
@@ -2512,4 +2515,19 @@ blockquote.twitter-tweet a {
 blockquote.twitter-tweet a:hover,
 blockquote.twitter-tweet a:focus {
   text-decoration: underline;
+}
+
+
+#home .panel {
+  border: 0
+}
+#home .panel-heading {
+  border: 1px solid #ddd;  
+}
+#home .panel-body {
+  padding: 5px 0 10px 1px;
+  border-bottom: 1px solid #ddd;  
+}
+#home ul {
+  padding-left:20px;
 }

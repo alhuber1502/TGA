@@ -11,7 +11,7 @@
 
       <div class="row">
 
-	<div class="col-xs-9">
+	<div class="col-md-8">
 
           <section id="main">
 	    
@@ -61,15 +61,58 @@
             href="http://jacklynch.net/Texts/gray.html"
             class="external" target="_blank">[22]</a>).
 
-            <h2 class="homepage" id="news">News/Updates <i class="fa fa-twitter"></i></h2>
+            <h2 class="homepage" id="glance">Archive at a glance</h2>
+            <!--#config timefmt="%d" --><!--#set var="dayofmonth" value="$DATE_GMT" -->
+              <div class="container" style="width:inherit;">
+                <div class="row">
+                  <div class="col-md-3" style="position:relative;height:200px;">
+            <a id="showcase" href='<!--#include virtual="images/showcase/${dayofmonth}_cfg.txt"
+                              -->'><img
+                                title='<!--#include virtual="images/showcase/${dayofmonth}_cap.txt" -->'
+                                alt="[Digital Library showcase image]"
+                                src='images/showcase/<!--#echo var="dayofmonth"	-->.jpeg'/></a>
+                  </div>
+                  <div class="col-md-5">
+                  <ul style="padding:5px;">
+                  <li><a href="/texts/">Texts</a>
+                    <ul>
+                            <li><a href="/texts/poems.shtml">Poems</a>
+                              <ul>
+                            <li><a href="/cgi-bin/display.cgi?text=elcc">"Elegy
+                                    Written in a Country Churchyard"</a>  (also on <a href="https://www.eighteenthcenturypoetry.org/works/tgaen-welcc.shtml" target="_blank" class="external" title="Eighteenth-Century Poetry Archive">ECPA</a>)</li>
+                            <li><a href="/texts/poems/elegy/#translations">Gray's
+                                    "Elegy" in translation</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="/texts/prose.shtml">Prose Works</a></li>
+                            <li><a href="/texts/letters.shtml">Letters</a></li>
+                            <li><a href="/texts/diglib.shtml">Digital Library</a></li>
+                    </ul>
+                  </li>
+                  </ul>
+                  </div>
+                  <div class="col-md-4">
+                  <ul style="padding:5px;">
+                  <li><a href="/resources/">Resources</a>
+                    <ul>
+                            <li><a href="/resources/findaid.shtml">Finding Aid</a></li>
+                            <li><a href="/resources/concordance.shtml">Concordance</a></li>
+                            <li><a href="/resources/criticism.shtml">Criticism</a></li>
+                            <li><a href="/resources/bio.shtml">Biography</a></li>
+                            <li><a href="/resources/table.shtml">Chronology</a></li>
+                            <li><a href="/resources/bib.shtml">Bibliography</a></li>
+                            <li><a href="/resources/gallery.shtml">Gallery</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                </div>
 
-<a class="twitter-timeline" data-lang="en" height="500"
-   data-theme="light" data-link-color="#8C001A"
-   href="https://twitter.com/C18AH/timelines/981523183579910144?ref_src=twsrc%5Etfw">#TGA
-   News/Updates - Curated tweets by C18AH</a> <script async
-   src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-             <h2 class="homepage" id="about">About the Archive</h2>
+              </div>
+              </div>
+          
+                <!--#config timefmt="%d %b %Y" -->
+            <div style="clear:both;"></div>
+            <h2 class="homepage" id="about">About the Archive</h2>
 	    
             <p>The <em>Thomas Gray Archive</em> was co-founded by
               Reimer
@@ -83,7 +126,7 @@
 
 	</div>
 
-	<div class="col-xs-3" style="margin-top:20px;">
+	<div class="col-md-4" style="margin-top:20px;">
 
 	  <div class="panel panel-default">
 	    <div class="panel-heading">
@@ -95,59 +138,13 @@
 	    </div>
 	  </div>
 
-          <div class="panel panel-default">
+	  <div class="panel panel-default">
 	    <div class="panel-heading">
-              <h3 class="panel-title">Quick Links</h3>
+	      <h3 class="panel-title">News/Updates</h3>
 	    </div>
-            <div class="panel-body">
-              <ul>
-		<li><a href="/texts/">Texts</a>
-		  <ul>
-                    <li><a href="/texts/poems.shtml">Poems</a>
-                      <ul>
-			<li><a href="/cgi-bin/display.cgi?text=elcc">"Elegy
-                            Written in a Country Churchyard"</a>  (also on <a href="https://www.eighteenthcenturypoetry.org/works/tgaen-welcc.shtml" target="_blank" class="external" title="Eighteenth-Century Poetry Archive">ECPA</a>)</li>
-			<li><a href="/texts/poems/elegy/#translations">Gray's
-                            "Elegy" in translation</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/texts/letters.shtml">Letters</a></li>
-                    <li><a href="/texts/diglib.shtml">Digital
-			Library</a></li>
-		  </ul>
-		</li>
-		<li><a href="/resources/">Resources</a>
-		  <ul>
-                    <li><a href="/resources/findaid.shtml">Finding
-			Aid</a></li>
-                    <li><a href="/resources/bio.shtml">Biography</a></li>
-                    <li><a href="/resources/table.shtml">Chronology</a></li>
-                    <li><a href="/resources/bib.shtml">Bibliography</a></li>
-		  </ul>
-		</li>
-              </ul>
-	    </div>	
-	  </div>
-
-          <div class="panel panel-default">
-	    <div class="panel-heading">
-              <h3 class="panel-title">Digital Library showcase</h3>
-	    </div>
-            <div class="pnael-body" id="showcase">
-	      <!--#config timefmt="%d" --><!--#set var="dayofmonth"
-					      value="$DATE_GMT" -->
-	      <a href="<!--#include
-		       virtual="images/showcase/${dayofmonth}_cfg.txt"
-								      -->"><img
-									      alt="[Digital Library showcase image]"
-									      src="images/showcase/<!--#echo
-										   var="dayofmonth"	-->.jpeg"/></a>
-	      <div class="panel-footer">
-                <!--#include
-                    virtual="images/showcase/${dayofmonth}_cap.txt"
-                  -->
-	      </div>
-	      <!--#config timefmt="%d %b %Y" -->
+	    <div id="twitter-updates" class="panel-body" style="height:565px; overflow:auto;">
+	      <!--#include virtual="/updates.shtml" -->
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	    </div>
 	  </div>
 
