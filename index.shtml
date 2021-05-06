@@ -76,7 +76,7 @@
                   <ul style="padding:5px;">
                   <li><a href="/texts/">Texts</a>
                     <ul>
-                            <li><a href="/texts/poems.shtml">Poems</a>
+                            <li><a href="/texts/poems.shtml">Poems</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=com" --> notes and glosses)
                               <ul>
                             <li><a href="/cgi-bin/display.cgi?text=elcc">"Elegy
                                     Written in a Country Churchyard"</a>  (also on <a href="https://www.eighteenthcenturypoetry.org/works/tgaen-welcc.shtml" target="_blank" class="external" title="Eighteenth-Century Poetry Archive">ECPA</a>)</li>
@@ -85,23 +85,24 @@
                               </ul>
                             </li>
                             <li><a href="/texts/prose.shtml">Prose Works</a></li>
-                            <li><a href="/texts/letters.shtml">Letters</a></li>
-                            <li><a href="/texts/diglib.shtml">Digital Library</a></li>
+                            <li><a href="/texts/letters.shtml">Letters</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=let" --> letters)</li>
+                            <li><a href="/texts/diglib.shtml">Digital Library</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=dig" --> pages)</li>
                     </ul>
                   </li>
                   </ul>
                   </div>
                   <div class="col-md-4">
-                  <ul style="padding:5px;">
+                  <ul style="padding:5px 0 0 0;margin-bottom:0;">
                   <li><a href="/resources/">Resources</a>
                     <ul>
-                            <li><a href="/resources/findaid.shtml">Finding Aid</a></li>
+                            <li><a href="/resources/findaid.shtml">Finding Aid</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=let" --> MSS)</li>
                             <li><a href="/resources/concordance.shtml">Concordance</a></li>
                             <li><a href="/resources/criticism.shtml">Criticism</a></li>
                             <li><a href="/resources/bio.shtml">Biography</a></li>
                             <li><a href="/resources/table.shtml">Chronology</a></li>
-                            <li><a href="/resources/bib.shtml">Bibliography</a></li>
-                            <li><a href="/resources/gallery.shtml">Gallery</a></li>
+                            <li><a href="/resources/glossary.shtml">Glossary</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=glo" --> entries)</li>
+                            <li><a href="/resources/bib.shtml">Bibliography</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=bib" --> items)</li>
+                            <li><a href="/resources/gallery.shtml">Gallery</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=gal" --> images)</li>
                     </ul>
                   </li>
                 </ul>
