@@ -65,7 +65,7 @@
             <!--#config timefmt="%d" --><!--#set var="dayofmonth" value="$DATE_GMT" -->
               <div class="container" style="width:inherit;">
                 <div class="row">
-                  <div class="col-md-3" style="position:relative;height:200px;">
+                  <div class="col-md-3" style="position:relative;height:225px;">
             <a id="showcase" href='<!--#include virtual="images/showcase/${dayofmonth}_cfg.txt"
                               -->'><img
                                 title='<!--#include virtual="images/showcase/${dayofmonth}_cap.txt" -->'
@@ -92,10 +92,10 @@
                   </ul>
                   </div>
                   <div class="col-md-4">
-                  <ul style="padding:5px 0 0 0;margin-bottom:0;">
+                  <ul style="padding:5px 0 0 0;margin-bottom:0;margin-left:-5px;">
                   <li><a href="/resources/">Resources</a>
                     <ul>
-                            <li><a href="/resources/findaid.shtml">Finding Aid</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=let" --> MSS)</li>
+                            <li><a href="/resources/findaid.shtml">Finding Aid</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=mss" --> MSS)</li>
                             <li><a href="/resources/concordance.shtml">Concordance</a></li>
                             <li><a href="/resources/criticism.shtml">Criticism</a></li>
                             <li><a href="/resources/bio.shtml">Biography</a></li>
@@ -143,10 +143,10 @@
 	    <div class="panel-heading">
 	      <h3 class="panel-title">News/Updates</h3>
 	    </div>
-	    <div id="twitter-updates" class="panel-body" style="height:565px; overflow:auto;">
+	    <div id="twitter-updates" class="panel-body" style="height:580px; overflow:auto;">
 	      <!--#include virtual="/updates.shtml" -->
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-	    </div>
+      </div>
 	  </div>
 
 	</div>
