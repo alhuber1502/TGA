@@ -65,14 +65,14 @@
             <!--#config timefmt="%d" --><!--#set var="dayofmonth" value="$DATE_GMT" -->
               <div class="container" style="width:inherit;">
                 <div class="row">
-                  <div class="col-md-3" style="position:relative;height:225px;">
+                  <div class="col-md-4" style="position:relative;height:225px;width:25%;">
             <a id="showcase" href='<!--#include virtual="images/showcase/${dayofmonth}_cfg.txt"
                               -->'><img
                                 title='<!--#include virtual="images/showcase/${dayofmonth}_cap.txt" -->'
                                 alt="[Digital Library showcase image]"
                                 src='images/showcase/<!--#echo var="dayofmonth"	-->.jpeg'/></a>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-4" style="width:37%;">
                   <ul style="padding:5px;">
                   <li><a href="/texts/">Texts</a>
                     <ul>
@@ -85,17 +85,17 @@
                               </ul>
                             </li>
                             <li><a href="/texts/prose.shtml">Prose Works</a></li>
-                            <li><a href="/texts/letters.shtml">Letters</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=let" --> letters)</li>
+                            <li><a href="/texts/letters.shtml">Letters</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=let" --> manuscripts)</li>
                             <li><a href="/texts/diglib.shtml">Digital Library</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=dig" --> pages)</li>
                     </ul>
                   </li>
                   </ul>
                   </div>
-                  <div class="col-md-4">
-                  <ul style="padding:5px 0 0 0;margin-bottom:0;margin-left:-5px;">
+                  <div class="col-md-4" style="width:37%;">
+                  <ul style="padding:5px;margin-bottom:0;">
                   <li><a href="/resources/">Resources</a>
                     <ul>
-                            <li><a href="/resources/findaid.shtml">Finding Aid</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=mss" --> MSS)</li>
+                            <li><a href="/resources/findaid.shtml">Finding Aid</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=mss" --> archival records)</li>
                             <li><a href="/resources/concordance.shtml">Concordance</a></li>
                             <li><a href="/resources/criticism.shtml">Criticism</a></li>
                             <li><a href="/resources/bio.shtml">Biography</a></li>
