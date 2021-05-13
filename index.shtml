@@ -63,7 +63,7 @@
 
             <h2 class="homepage" id="glance">Archive at a glance</h2>
             <!--#config timefmt="%d" --><!--#set var="dayofmonth" value="$DATE_GMT" -->
-              <div class="container" style="width:inherit;">
+              <div class="container highlight-box" style="width:inherit;">
                 <div class="row">
                   <div class="col-md-4" style="position:relative;height:225px;width:25%;">
             <a id="showcase" href='<!--#include virtual="images/showcase/${dayofmonth}_cfg.txt"
@@ -143,7 +143,7 @@
 	    <div class="panel-heading">
 	      <h3 class="panel-title">News/Updates</h3>
 	    </div>
-	    <div id="twitter-updates" class="panel-body" style="height:580px; overflow:auto;">
+	    <div id="twitter-updates" class="panel-body" style="height:580px; overflow:auto; padding-top: 10px;">
 	      <!--#include virtual="/updates.shtml" -->
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
