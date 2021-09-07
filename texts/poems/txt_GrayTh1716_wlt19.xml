@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title corresp="#txt_GrayTh1716_wlt19">Luna habitabilis</title>
+            <author corresp="authors.xml#aut_GrayTh1716">Gray, Thomas, 1716-1771</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="SUB">Göttingen State and University Library, University of Göttingen</name>
+               <address>
+                  <addrLine>Historic Building</addrLine>
+                  <addrLine>Papendiek 14</addrLine>
+                  <addrLine>D-37073 Göttingen</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@thomasgray.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><emph>Musae Etonenses</emph> (London, 1755)</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>
+								Spelling has been modernized throughout, except in case of conscious archaisms. 
+								Contractions, italics and initial capitalization have been largely eliminated, 
+								except where of real import. Obvious errors have been silently corrected, 
+								punctuation has been supplied. 
+							
+						The editor would like to express his gratitude to the library staff of the
+						<ref target="http://www.sub.uni-goettingen.de/" rend="newWindow">Göttingen State and 
+							University Library (SUB Göttingen)</ref> for their invaluable assistance.
+						</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xmlns:ecep="http://www.eighteenthcenturypoetry.org/ns"
+              type="poem"
+              xml:id="tgane-wlt19"
+              corresp="#txt_GrayTh1716_wlt19"
+              subtype="eceptext"
+              rendition="#lgindent"
+              ana="#hexameter">
+            <link type="author" target="authors.xml#aut_GrayTh1716"/>
+            <head>
+               <emph>Luna habitabilis</emph>
+            </head>
+            <lg>
+               <l n="1">Dum Nox rorantes non incomitata per auras</l>
+               <l n="2">Urget equos, tacitoque inducit sidera lapsu;</l>
+               <l n="3">Ultima, sed nulli soror inficianda sororum,</l>
+               <l n="4">Huc mihi, Musa: tibi patet alti janua coeli,</l>
+               <l n="5">Astra vides, nec te numeri, nec nomina fallunt.</l>
+               <l n="6">Huc mihi, Diva veni: dulce est per aperta serena</l>
+               <l n="7">Vere frui liquido, campoque errare silenti;</l>
+               <l n="8">Vere frui dulce est; modo tu dignata petentem</l>
+               <l n="9">Sis comes, et mecum gelida spatiere sub umbra.</l>
+            </lg>
+            <lg>
+               <l n="10">    Scilicet hos orbes, coeli haec decora alta putandum est,</l>
+               <l n="11">Noctis opes, nobis tantum lucere; virumque</l>
+               <l n="12">Ostentari oculis, nostrae laquearia terrae,</l>
+               <l n="13">Ingentes scenas, vastique aulaea theatri?</l>
+               <l n="14">Oh! quis me pennis aethrae super ardua sistet</l>
+               <l n="15">Mirantem, propiusque dabit convexa tueri;</l>
+               <l n="16">Teque adeo, unde fluens reficit lux mollior arva,</l>
+               <l n="17">Pallidiorque dies, tristes solata tenebras?</l>
+            </lg>
+            <lg>
+               <l n="18">    Sic ego, subridens Dea sic ingressa vicissim:</l>
+               <l n="19">Non pennis opus hic, supera ut simul illa petamus:</l>
+               <l n="20">Disce Puer potius coelo deducere Lunam;</l>
+               <l n="21">Neu crede ad magicas te invitum accingier artes,</l>
+               <l n="22">Thessalicosve modos: ipsam descendere Phoeben</l>
+               <l n="23">Conspicies novus Endymion; seque offeret ultro</l>
+               <l n="24">Visa tibi ante oculos, et nota major imago.</l>
+            </lg>
+            <lg>
+               <l n="25">    Quin tete admoveas (tumuli super aggere spectas,</l>
+               <l n="26">Compositum) tubulo; simul imum invade canalem</l>
+               <l n="27">Sic intenta acie, coeli simul alta patescent</l>
+               <l n="28">Atria; jamque, ausus Lunaria visere regna,</l>
+               <l n="29">Ingrediere solo, et caput inter nubila condes.</l>
+            </lg>
+            <lg>
+               <l n="30">    Ecce autem! vitri se in vertice sistere Phoeben</l>
+               <l n="31">Cernis, et Oceanum, et crebris Freta consita terris;</l>
+               <l n="32">Panditur <emph>ille</emph> atram faciem caligine condens</l>
+               <l n="33">Sublustri, refugitque oculos, fallitque tuentem;</l>
+               <l n="34">Integram Solis lucem quippe haurit aperto</l>
+               <l n="35">Fluctu avidus radiorum, et longos imbibit ignes:</l>
+               <l n="36">Verum <emph>his</emph>, quae, maculis variata nitentibus, auro</l>
+               <l n="37">Caerula discernunt, celso sese insula dorso</l>
+               <l n="38">Plurima protrudit, praetentaque littora saxis;</l>
+               <l n="39">Liberior datur his quoniam natura, minusque</l>
+               <l n="40">Lumen depascunt liquidum; sed tela diei</l>
+               <l n="41">Detorquent, retroque docent se vertere flammas.</l>
+            </lg>
+            <lg>
+               <l n="42">    Hinc longos videas tractus, terrasque jacentes</l>
+               <l n="43">Ordine candenti, et claros se attollere montes;</l>
+               <l n="44">Montes queis Rhodope assurgat, quibus Ossa nivali</l>
+               <l n="45">Vertice: tum scopulis infra pendentibus antra</l>
+               <l n="46">Nigrescunt clivorum umbra, nemorumque tenebris.</l>
+               <l n="47">Non rores illi, aut desunt sua nubila mundo;</l>
+               <l n="48">Non frigus gelidum, atque herbis gratissimus imber:</l>
+               <l n="49">His quoque nota ardet picto Thaumantias arcu,</l>
+               <l n="50">Os roseum Aurorae, propriique crepuscula coeli.</l>
+            </lg>
+            <lg>
+               <l n="51">    Et dubitas tantum certis cultoribus orbem</l>
+               <l n="52">Destitui? exercent agros, sua moenia condunt</l>
+               <l n="53">Hi quoque, vel Martem invadunt, curantque triumphos</l>
+               <l n="54">Victores: sunt hic etiam sua praemia laudi;</l>
+               <l n="55">His metus, atque amor, et mentem mortalia tangunt.</l>
+            </lg>
+            <lg>
+               <l n="56">    Quin, uti nos oculis jam nunc juvat ire per arva,</l>
+               <l n="57">Lucentesque plagas Lunae, pontumque profundum:</l>
+               <l n="58">Idem illos etiam ardor agit, cum se aureus effert</l>
+               <l n="59">Sub sudum globus, et Terrarum ingentior orbis;</l>
+               <l n="60">Scilicet omne aequor tum lustrant, scilicet omnem</l>
+               <l n="61">Tellurem, gentesque polo sub utroque jacentes:</l>
+               <l n="62">Et quidam aestivi indefessus ad aetheris ignes</l>
+               <l n="63">Pervigilat, noctem exercens, coelumque fatigat;</l>
+               <l n="64">Jam Galli apparent, jam se Germania late</l>
+               <l n="65">Tollit, et albescens pater Apenninus ad auras:</l>
+               <l n="66">Jam tandem in Borean, en! parvulus Anglia naevus</l>
+               <l n="67">(Quanquam aliis longe fulgentior) extulit oras:</l>
+               <l n="68">Formosum extemplo lumen, maculamque nitentem</l>
+               <l n="69">Invisunt crebri Proceres, serumque tuendo</l>
+               <l n="70">Haerent, certatimque suo cognomine signant:</l>
+               <l n="71">Forsitan et Lunae longinquus in orbe Tyrannus</l>
+               <l n="72">Se dominum vocat, et nostra se jactat in aula.</l>
+            </lg>
+            <lg>
+               <l n="73">    Terras possim alias propiori Sole calentes</l>
+               <l n="74">Narrare; atque alias, jubaris queis parcior usus,</l>
+               <l n="75">Lunarum chorus, et tenuis penuria Phoebi:</l>
+               <l n="76">Ni, meditans eadem haec audaci evolvere cantu,</l>
+               <l n="77">Jam pulset citharam Soror, et praeludia tentet.</l>
+            </lg>
+            <lg>
+               <l n="78">    Non tamen has proprias laudes, nec facta silebo</l>
+               <l n="79">Jampridem in fatis, patriaeque oracula famae.</l>
+               <l n="80">Tempus erit, sursum totos contendere coetus</l>
+               <l n="81">Quo cernes longo excursu, primosque colonos</l>
+               <l n="82">Migrare in lunam, et notos mutare Penates:</l>
+               <l n="83">Dum stupet obtutu tacito vetus incola, longeque</l>
+               <l n="84">Insolitas explorat aves, classemque volantem.</l>
+            </lg>
+            <lg>
+               <l n="85">    Ut quondam ignotum marmor, camposque natantes</l>
+               <l n="86">Tranavit Zephyros visens, nova regna, Columbus;</l>
+               <l n="87">Litora mirantur circum, mirantur et undae</l>
+               <l n="88">Inclusas acies ferro, turmasque biformes,</l>
+               <l n="89">Monstraque foeta armis, et non imitabile fulmen.</l>
+               <l n="90">Foedera mox icta, et gemini commercia mundi,</l>
+               <l n="91">Agminaque assueto glomerata sub aethere cerno.</l>
+               <l n="92">Anglia, quae pelagi jamdudum torquet habenas,</l>
+               <l n="93">Exercetque frequens ventos, atque imperat undae;</l>
+               <l n="94">Aeris attollet fasces, veteresque triumphos</l>
+               <l n="95">Huc etiam feret, et victis dominabitur auris.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

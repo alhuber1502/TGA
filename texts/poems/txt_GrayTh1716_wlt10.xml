@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title corresp="#txt_GrayTh1716_wlt10">[The Gaurus]</title>
+            <author corresp="authors.xml#aut_GrayTh1716">Gray, Thomas, 1716-1771</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="SUB">Göttingen State and University Library, University of Göttingen</name>
+               <address>
+                  <addrLine>Historic Building</addrLine>
+                  <addrLine>Papendiek 14</addrLine>
+                  <addrLine>D-37073 Göttingen</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@thomasgray.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Commonplace Book</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>
+								Spelling has been modernized throughout, except in case of conscious archaisms. 
+								Contractions, italics and initial capitalization have been largely eliminated, 
+								except where of real import. Obvious errors have been silently corrected, 
+								punctuation has been supplied. 
+							
+						The editor would like to express his gratitude to the library staff of the
+						<ref target="http://www.sub.uni-goettingen.de/" rend="newWindow">Göttingen State and 
+							University Library (SUB Göttingen)</ref> for their invaluable assistance.
+						</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xmlns:ecep="http://www.eighteenthcenturypoetry.org/ns"
+              type="poem"
+              xml:id="tgane-wlt10"
+              corresp="#txt_GrayTh1716_wlt10"
+              subtype="eceptext"
+              rendition="#lgindent"
+              ana="#hexameter">
+            <link type="author" target="authors.xml#aut_GrayTh1716"/>
+            <head>[The Gaurus]</head>
+            <lg>
+               <l n="1">Nec procul infelix se tollit in aethera Gaurus,</l>
+               <l n="2">Prospiciens vitreum lugenti vertice pontum.</l>
+               <l n="3">Tristior ille diu, et veteri desuetus oliva</l>
+               <l n="4">Gaurus, pampineaeque eheu jam nescius umbrae:</l>
+               <l n="5">Horrendi tam saeva premit vicinia montis,</l>
+               <l n="6">Attonitumque urget latus, exuritque ferentem.</l>
+            </lg>
+            <lg>
+               <l n="7">    Nam fama est, olim, media dum rura silebant</l>
+               <l n="8">Nocte deo victa, et molli perfusa quiete;</l>
+               <l n="9">Infremuisse aequor ponti, auditamque per omnes</l>
+               <l n="10">Late tellurem surdum immugire cavernas:</l>
+               <l n="11">Quo sonitu nemora alta tremunt, tremit excita tuto</l>
+               <l n="12">Parthenopaea sinu, flammantisque ora Vesevi.</l>
+               <l n="13">At subito se aperire solum, vastosque recessus</l>
+               <l n="14">Pandere sub pedibus, nigraque voragine fauces:</l>
+               <l n="15">Tum piceas cinerum glomerare sub aethere nubes</l>
+               <l n="16">Vorticibus rapidis, ardentique imbre procellam.</l>
+               <l n="17">Praecipites fugere ferae, perque avia longe</l>
+               <l n="18">Silvarum fugit pastor, juga per deserta,</l>
+               <l n="19">Ah, miser! increpitans saepe alta voce per umbram</l>
+               <l n="20">Nequicquam natos, creditque audire sequentes:</l>
+               <l n="21">Atque ille excelso rupis de vertice solus</l>
+               <l n="22">Respectans notasque domos, et dulcia regna,</l>
+               <l n="23">Nil usquam videt infelix praeter mare tristi</l>
+               <l n="24">Lumine percussum, et pallentes sulphure campos,</l>
+               <l n="25">Fumumque, flammasque, rotataque turbine saxa.</l>
+            </lg>
+            <lg>
+               <l n="26">    Quin ubi detonuit fragor, et lux reddita coelo:</l>
+               <l n="27">Maestos confluere agricolas, passuque videres</l>
+               <l n="28">Tandem iterum timido deserta requirere tecta;</l>
+               <l n="29">Sperantes, si forte oculis, si forte darentur</l>
+               <l n="30">Uxorum cineres, miserorumve ossa parentum</l>
+               <l n="31">(Tenuia, sed tanti saltem solatia luctus)</l>
+               <l n="32">Una colligere, et justa componere in urna.</l>
+               <l n="33">Uxorum nusquam cineres, nusquam ossa parentum</l>
+               <l n="34">(Spem miseram) assuetosve Lares, aut rura videbunt;</l>
+               <l n="35">Quippe ubi planities campi diffusa jacebat,</l>
+               <l n="36">Mons novus: ille supercilium, frontemque favilla</l>
+               <l n="37">Incanum ostentans, ambustis cautibus, aequor</l>
+               <l n="38">Subjectum, stragemque suam, maesta arva, minaci</l>
+               <l n="39">Despicit imperio, soloque in littore regnat.</l>
+            </lg>
+            <lg>
+               <l n="40">    Hinc infame loci nomen, multosque per annos</l>
+               <l n="41">Immemor antiquae laudis nescire labores</l>
+               <l n="42">Vomeris, et nullo tellus revirescere cultu:</l>
+               <l n="43">Non avium colles, non carmine matutino</l>
+               <l n="44">Pastorum resonare; adeo undique dirus habebat</l>
+               <l n="45">Informes late horror agros, saltusque vacantes.</l>
+               <l n="46">Saepius et longe detorquens navita proram</l>
+               <l n="47">Monstrabat digito littus, saevaeque revolvens</l>
+               <l n="48">Funera narrabat noctis, veteremque ruinam.</l>
+            </lg>
+            <lg>
+               <l n="49">    Montis adhuc facies manet hirta atque aspera saxis</l>
+               <l n="50">Sed furor extinctus jamdudum, et flamma quievit,</l>
+               <l n="51">Quae nascenti aderat; seu forte bituminis atri</l>
+               <l n="52">Defluxere olim rivi, atque effoeta lacuna</l>
+               <l n="53">Pabula sufficere ardori, viresque recusat:</l>
+               <l n="54">Sive in visceribus meditans incendia jam nunc,</l>
+               <l n="55">Horrendum! arcanis glomerat genti esse futurae</l>
+               <l n="56">Exitio, sparsos tacitusque recolligit ignes.</l>
+            </lg>
+            <lg>
+               <l n="57">    Raro per clivos haud secius ordine vidi</l>
+               <l n="58">Canescentem oleam. Longum post tempus amicti</l>
+               <l n="59">Vite virent tumuli, patriamque revisere gaudens</l>
+               <l n="60">Bacchus in assuetis tenerum caput exerit arvis</l>
+               <l n="61">Vix tandem, infidoque audet se credere coelo.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

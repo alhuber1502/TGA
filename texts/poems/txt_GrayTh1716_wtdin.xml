@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title corresp="#txt_GrayTh1716_wtdin">[ Translation from Dante , Inferno Canto xxxiii 1-78 ]</title>
+            <author corresp="authors.xml#aut_GrayTh1716">Gray, Thomas, 1716-1771</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="SUB">Göttingen State and University Library, University of Göttingen</name>
+               <address>
+                  <addrLine>Historic Building</addrLine>
+                  <addrLine>Papendiek 14</addrLine>
+                  <addrLine>D-37073 Göttingen</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@thomasgray.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Mitford's <emph>Note-book</emph></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the Primary Texts section of the Thomas Gray Archive.</p>
+            <p>XML created for the Thomas Gray Archive.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>
+								Spelling has been modernized throughout, except in case of conscious archaisms. 
+								Contractions, italics and initial capitalization have been largely eliminated, 
+								except where of real import. Obvious errors have been silently corrected, 
+								punctuation has been supplied. 
+							
+						The editor would like to express his gratitude to the library staff of the
+						<ref target="http://www.sub.uni-goettingen.de/" rend="newWindow">Göttingen State and 
+							University Library (SUB Göttingen)</ref> for their invaluable assistance.
+						</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xmlns:ecep="http://www.eighteenthcenturypoetry.org/ns"
+              ana="#iamb #pentameter #blankverse #translation"
+              corresp="#txt_GrayTh1716_wtdin"
+              ecep:syllab="10"
+              met="-+|-+|-+|-+|-+/"
+              rendition="#lgindent"
+              rhyme=""
+              subtype="eceptext"
+              type="poem"
+              xml:id="tgaen-wtdin"
+              decls="#semi-normalized">
+            <link target="authors.xml#aut_GrayTh1716" type="author"/>
+            <head subtype="supplied" type="main">
+               <pc xml:id="tgaen-019680" n="a-0010">[</pc>
+               <w xml:id="tgaen-019690" n="a-0020">Translation</w>
+               <c/>
+               <w xml:id="tgaen-019700" n="a-0030">from</w>
+               <c/>
+               <w xml:id="tgaen-019710" n="a-0040">Dante</w>
+               <pc xml:id="tgaen-019720" n="a-0050">,</pc>
+               <emph>
+                  <c/>
+                  <w xml:id="tgaen-019730" n="a-0060">Inferno</w>
+               </emph>
+               <c/>
+               <w xml:id="tgaen-019740" n="a-0070">Canto</w>
+               <c/>
+               <w xml:id="tgaen-019750" n="a-0080">xxxiii</w>
+               <c/>
+               <w xml:id="tgaen-019760" n="a-0090">1-78</w>
+               <pc xml:id="tgaen-019770" n="a-0100" unit="sentence">]</pc>
+            </head>
+            <lg xml:id="tgaen-s00075">
+               <l n="1" xml:id="tgaen-l01060">
+                  <w xml:id="tgaen-019800" n="a-0110">From</w>
+                  <c/>
+                  <w xml:id="tgaen-019810" n="a-0120">his</w>
+                  <c/>
+                  <w xml:id="tgaen-019820" n="a-0130">dire</w>
+                  <c/>
+                  <w xml:id="tgaen-019830" n="a-0140">food</w>
+                  <c/>
+                  <w xml:id="tgaen-019840" n="a-0150">the</w>
+                  <c/>
+                  <w xml:id="tgaen-019850" n="a-0160">grisly</w>
+                  <c/>
+                  <w xml:id="tgaen-019860" n="a-0170">felon</w>
+                  <c/>
+                  <w xml:id="tgaen-019870" n="a-0180">raised</w>
+               </l>
+               <l n="2" xml:id="tgaen-l01065">
+                  <w xml:id="tgaen-019880" n="a-0190">His</w>
+                  <c/>
+                  <w xml:id="tgaen-019890" n="a-0200">gore-dyed</w>
+                  <c/>
+                  <w xml:id="tgaen-019900" n="a-0210">lips</w>
+                  <pc xml:id="tgaen-019910" n="a-0220">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-019920" n="a-0230">which</w>
+                  <c/>
+                  <w xml:id="tgaen-019930" n="a-0240">on</w>
+                  <c/>
+                  <w xml:id="tgaen-019940" n="a-0250">the</w>
+                  <c/>
+                  <w xml:id="tgaen-019950" n="a-0260">clottered</w>
+                  <c/>
+                  <w xml:id="tgaen-019960" n="a-0270">locks</w>
+               </l>
+               <l n="3" xml:id="tgaen-l01070">
+                  <w xml:id="tgaen-019970" n="a-0280">Of</w>
+                  <c/>
+                  <w xml:id="tgaen-019980" n="a-0290">the</w>
+                  <c/>
+                  <w xml:id="tgaen-019990" n="a-0300">half-devoured</w>
+                  <c/>
+                  <w xml:id="tgaen-020000" n="a-0310">head</w>
+                  <c/>
+                  <w xml:id="tgaen-020010" n="a-0320">he</w>
+                  <c/>
+                  <w xml:id="tgaen-020020" n="a-0330">wiped</w>
+                  <pc xml:id="tgaen-020030" n="a-0340">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-020040" n="a-0350">and</w>
+                  <c/>
+                  <w xml:id="tgaen-020050" n="a-0360">thus</w>
+               </l>
+               <l n="4" xml:id="tgaen-l01075">
+                  <w xml:id="tgaen-020060" n="a-0370">Began</w>
+                  <pc xml:id="tgaen-020070" n="a-0380">:</pc>
+                  <c/>
+                  <pc xml:id="tgaen-020080" n="a-0390">'</pc>
+                  <w xml:id="tgaen-020090" n="a-0400">Would'st</w>
+                  <c/>
+                  <w xml:id="tgaen-020100" n="a-0410">thou</w>
+                  <c/>
+                  <w xml:id="tgaen-020110" n="a-0420">revive</w>
+                  <c/>
+                  <w xml:id="tgaen-020120" n="a-0430">the</w>
+                  <c/>
+                  <w xml:id="tgaen-020130" n="a-0440">deep</w>
+                  <c/>
+                  <w xml:id="tgaen-020140" n="a-0450">despair</w>
+                  <pc xml:id="tgaen-020150" n="a-0460">,</pc>
+               </l>
+               <l n="5" xml:id="tgaen-l01080">
+                  <w xml:id="tgaen-020160" n="a-0470">The</w>
+                  <c/>
+                  <w xml:id="tgaen-020170" n="a-0480">anguish</w>
+                  <pc xml:id="tgaen-020180" n="a-0490">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-020190" n="a-0500">that</w>
+                  <pc xml:id="tgaen-020200" n="a-0510">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-020210" n="a-0520">unuttered</w>
+                  <pc xml:id="tgaen-020220" n="a-0530">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-020230" n="a-0540">natheless</w>
+                  <c/>
+                  <w xml:id="tgaen-020240" n="a-0550">wrings</w>
+               </l>
+               <l n="6" xml:id="tgaen-l01085">
+                  <w xml:id="tgaen-020250" n="a-0560">My</w>
+                  <c/>
+                  <w xml:id="tgaen-020260" n="a-0570">inmost</w>
+                  <c/>
+                  <w xml:id="tgaen-020270" n="a-0580">heart</w>
+                  <pc xml:id="tgaen-020280" n="a-0590" unit="sentence">?</pc>
+                  <c/>
+                  <w xml:id="tgaen-020290" n="a-0600">Yet</w>
+                  <c/>
+                  <w xml:id="tgaen-020300" n="a-0610">if</w>
+                  <c/>
+                  <w xml:id="tgaen-020310" n="a-0620">the</w>
+                  <c/>
+                  <w xml:id="tgaen-020320" n="a-0630">telling</w>
+                  <c/>
+                  <w xml:id="tgaen-020330" n="a-0640">may</w>
+               </l>
+               <l n="7" xml:id="tgaen-l01090">
+                  <w xml:id="tgaen-020340" n="a-0650">Beget</w>
+                  <c/>
+                  <w xml:id="tgaen-020350" n="a-0660">the</w>
+                  <c/>
+                  <w xml:id="tgaen-020360" n="a-0670">traitor's</w>
+                  <c/>
+                  <w xml:id="tgaen-020370" n="a-0680">infamy</w>
+                  <pc xml:id="tgaen-020380" n="a-0690">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-020390" n="a-0700">whom</w>
+                  <c/>
+                  <w xml:id="tgaen-020400" n="a-0710">thus</w>
+               </l>
+               <l n="8" xml:id="tgaen-l01095">
+                  <w xml:id="tgaen-020410" n="a-0720">I</w>
+                  <c/>
+                  <w xml:id="tgaen-020420" n="a-0730">ceaseless</w>
+                  <c/>
+                  <w xml:id="tgaen-020430" n="a-0740">gnaw</w>
+                  <c/>
+                  <w xml:id="tgaen-020440" n="a-0750">insatiate</w>
+                  <pc xml:id="tgaen-020450" n="a-0760">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-020460" n="a-0770">thou</w>
+                  <c/>
+                  <w xml:id="tgaen-020470" n="a-0780">shalt</w>
+                  <c/>
+                  <w xml:id="tgaen-020480" n="a-0790">see</w>
+                  <c/>
+                  <w xml:id="tgaen-020490" n="a-0800">me</w>
+               </l>
+               <l n="9" xml:id="tgaen-l01100">
+                  <w xml:id="tgaen-020500" n="a-0810">At</w>
+                  <c/>
+                  <w xml:id="tgaen-020510" n="a-0820">once</w>
+                  <c/>
+                  <w xml:id="tgaen-020520" n="a-0830">give</w>
+                  <c/>
+                  <w xml:id="tgaen-020530" n="a-0840">loose</w>
+                  <c/>
+                  <w xml:id="tgaen-020540" n="a-0850">to</w>
+                  <c/>
+                  <w xml:id="tgaen-020550" n="a-0860">utterance</w>
+                  <c/>
+                  <w xml:id="tgaen-020560" n="a-0870">and</w>
+                  <c/>
+                  <w xml:id="tgaen-020570" n="a-0880">to</w>
+                  <c/>
+                  <w xml:id="tgaen-020580" n="a-0890">tears</w>
+                  <pc xml:id="tgaen-020590" n="a-0900" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg xml:id="tgaen-s00080">
+               <l n="10" xml:id="tgaen-l01105">
+                  <pc xml:id="tgaen-020620" n="a-0910">'</pc>
+                  <w xml:id="tgaen-020630" n="a-0920">I</w>
+                  <c/>
+                  <w xml:id="tgaen-020640" n="a-0930">know</w>
+                  <c/>
+                  <w xml:id="tgaen-020650" n="a-0940">not</w>
+                  <c/>
+                  <w xml:id="tgaen-020660" n="a-0950">who</w>
+                  <c/>
+                  <w xml:id="tgaen-020670" n="a-0960">thou</w>
+                  <c/>
+                  <w xml:id="tgaen-020680" n="a-0970">art</w>
+                  <c/>
+                  <w xml:id="tgaen-020690" n="a-0980">nor</w>
+                  <c/>
+                  <w xml:id="tgaen-020700" n="a-0990">on</w>
+                  <c/>
+                  <w xml:id="tgaen-020710" n="a-1000">what</w>
+                  <c/>
+                  <w xml:id="tgaen-020720" n="a-1010">errand</w>
+               </l>
+               <l n="11" xml:id="tgaen-l01110">
+                  <w xml:id="tgaen-020730" n="a-1020">Sent</w>
+                  <c/>
+                  <w xml:id="tgaen-020740" n="a-1030">hither</w>
+                  <pc xml:id="tgaen-020750" n="a-1040">;</pc>
+                  <c/>
+                  <w xml:id="tgaen-020760" n="a-1050">but</w>
+                  <c/>
+                  <w xml:id="tgaen-020770" n="a-1060">a</w>
+                  <c/>
+                  <w xml:id="tgaen-020780" n="a-1070">Florentine</w>
+                  <c/>
+                  <w xml:id="tgaen-020790" n="a-1080">my</w>
+                  <c/>
+                  <w xml:id="tgaen-020800" n="a-1090">ear</w>
+                  <pc xml:id="tgaen-020810" n="a-1100">,</pc>
+               </l>
+               <l n="12" xml:id="tgaen-l01115">
+                  <w xml:id="tgaen-020820" n="a-1110">Won</w>
+                  <c/>
+                  <w xml:id="tgaen-020830" n="a-1120">by</w>
+                  <c/>
+                  <w xml:id="tgaen-020840" n="a-1130">thy</w>
+                  <c/>
+                  <w xml:id="tgaen-020850" n="a-1140">tongue</w>
+                  <pc xml:id="tgaen-020860" n="a-1150">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-020870" n="a-1160">declares</w>
+                  <c/>
+                  <w xml:id="tgaen-020880" n="a-1170">thee</w>
+                  <pc xml:id="tgaen-020890" n="a-1180" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-020900" n="a-1190">Know</w>
+                  <pc xml:id="tgaen-020910" n="a-1200">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-020920" n="a-1210">thou</w>
+                  <c/>
+                  <w xml:id="tgaen-020930" n="a-1220">see'st</w>
+               </l>
+               <l n="13" xml:id="tgaen-l01120">
+                  <w xml:id="tgaen-020940" n="a-1230">In</w>
+                  <c/>
+                  <w xml:id="tgaen-020950" n="a-1240">me</w>
+                  <c/>
+                  <w xml:id="tgaen-020960" n="a-1250">Count</w>
+                  <c/>
+                  <w xml:id="tgaen-020970" n="a-1260">Ugolino</w>
+                  <pc xml:id="tgaen-020980" n="a-1270">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-020990" n="a-1280">and</w>
+                  <c/>
+                  <w xml:id="tgaen-021000" n="a-1290">Ruggieri</w>
+                  <pc xml:id="tgaen-021010" n="a-1300">,</pc>
+               </l>
+               <l n="14" xml:id="tgaen-l01125">
+                  <w xml:id="tgaen-021020" n="a-1310">Pisa's</w>
+                  <c/>
+                  <w xml:id="tgaen-021030" n="a-1320">perfidious</w>
+                  <c/>
+                  <w xml:id="tgaen-021040" n="a-1330">prelate</w>
+                  <pc xml:id="tgaen-021050" n="a-1340">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-021060" n="a-1350">this</w>
+                  <pc xml:id="tgaen-021070" n="a-1360">:</pc>
+                  <c/>
+                  <w xml:id="tgaen-021080" n="a-1370">now</w>
+                  <c/>
+                  <w xml:id="tgaen-021090" n="a-1380">hear</w>
+               </l>
+               <l n="15" xml:id="tgaen-l01130">
+                  <w xml:id="tgaen-021100" n="a-1390">My</w>
+                  <c/>
+                  <w xml:id="tgaen-021110" n="a-1400">wrongs</w>
+                  <c/>
+                  <w xml:id="tgaen-021120" n="a-1410">and</w>
+                  <c/>
+                  <w xml:id="tgaen-021130" n="a-1420">from</w>
+                  <c/>
+                  <w xml:id="tgaen-021140" n="a-1430">them</w>
+                  <c/>
+                  <w xml:id="tgaen-021150" n="a-1440">judge</w>
+                  <c/>
+                  <w xml:id="tgaen-021160" n="a-1450">of</w>
+                  <c/>
+                  <w xml:id="tgaen-021170" n="a-1460">my</w>
+                  <c/>
+                  <w xml:id="tgaen-021180" n="a-1470">revenge</w>
+                  <pc xml:id="tgaen-021190" n="a-1480" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg xml:id="tgaen-s00085">
+               <l n="16" xml:id="tgaen-l01135">
+                  <pc xml:id="tgaen-021220" n="a-1490">'</pc>
+                  <w xml:id="tgaen-021230" n="a-1500">That</w>
+                  <c/>
+                  <w xml:id="tgaen-021240" n="a-1510">I</w>
+                  <c/>
+                  <w xml:id="tgaen-021250" n="a-1520">did</w>
+                  <c/>
+                  <w xml:id="tgaen-021260" n="a-1530">trust</w>
+                  <c/>
+                  <w xml:id="tgaen-021270" n="a-1540">him</w>
+                  <pc xml:id="tgaen-021280" n="a-1550">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-021290" n="a-1560">that</w>
+                  <c/>
+                  <w xml:id="tgaen-021300" n="a-1570">I</w>
+                  <c/>
+                  <w xml:id="tgaen-021310" n="a-1580">was</w>
+                  <c/>
+                  <w xml:id="tgaen-021320" n="a-1590">betrayed</w>
+               </l>
+               <l n="17" xml:id="tgaen-l01140">
+                  <w xml:id="tgaen-021330" n="a-1600">By</w>
+                  <c/>
+                  <w xml:id="tgaen-021340" n="a-1610">trusting</w>
+                  <pc xml:id="tgaen-021350" n="a-1620">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-021360" n="a-1630">and</w>
+                  <c/>
+                  <w xml:id="tgaen-021370" n="a-1640">by</w>
+                  <c/>
+                  <w xml:id="tgaen-021380" n="a-1650">treachery</w>
+                  <c/>
+                  <w xml:id="tgaen-021390" n="a-1660">slain</w>
+                  <pc xml:id="tgaen-021400" n="a-1670">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-021410" n="a-1680">it</w>
+                  <c/>
+                  <w xml:id="tgaen-021420" n="a-1690">recks</w>
+                  <c/>
+                  <w xml:id="tgaen-021430" n="a-1700">not</w>
+               </l>
+               <l n="18" xml:id="tgaen-l01145">
+                  <w xml:id="tgaen-021440" n="a-1710">That</w>
+                  <c/>
+                  <w xml:id="tgaen-021450" n="a-1720">I</w>
+                  <c/>
+                  <w xml:id="tgaen-021460" n="a-1730">advise</w>
+                  <c/>
+                  <w xml:id="tgaen-021470" n="a-1740">thee</w>
+                  <pc xml:id="tgaen-021480" n="a-1750">;</pc>
+                  <c/>
+                  <w xml:id="tgaen-021490" n="a-1760">that</w>
+                  <c/>
+                  <w xml:id="tgaen-021500" n="a-1770">which</w>
+                  <c/>
+                  <w xml:id="tgaen-021510" n="a-1780">yet</w>
+                  <c/>
+                  <w xml:id="tgaen-021520" n="a-1790">remains</w>
+               </l>
+               <l n="19" xml:id="tgaen-l01150">
+                  <w xml:id="tgaen-021530" n="a-1800">To</w>
+                  <c/>
+                  <w xml:id="tgaen-021540" n="a-1810">thee</w>
+                  <c/>
+                  <w xml:id="tgaen-021550" n="a-1820">and</w>
+                  <c/>
+                  <w xml:id="tgaen-021560" n="a-1830">all</w>
+                  <c/>
+                  <w xml:id="tgaen-021570" n="a-1840">unknown</w>
+                  <c/>
+                  <pc xml:id="tgaen-021580" n="a-1850">(</pc>
+                  <w xml:id="tgaen-021590" n="a-1860">a</w>
+                  <c/>
+                  <w xml:id="tgaen-021600" n="a-1870">horrid</w>
+                  <c/>
+                  <w xml:id="tgaen-021610" n="a-1880">tale</w>
+                  <pc xml:id="tgaen-021620" n="a-1890">)</pc>
+                  <pc xml:id="tgaen-021630" n="a-1900">,</pc>
+               </l>
+               <l n="20" xml:id="tgaen-l01155">
+                  <w xml:id="tgaen-021640" n="a-1910">The</w>
+                  <c/>
+                  <w xml:id="tgaen-021650" n="a-1920">bitterness</w>
+                  <c/>
+                  <w xml:id="tgaen-021660" n="a-1930">of</w>
+                  <c/>
+                  <w xml:id="tgaen-021670" n="a-1940">death</w>
+                  <pc xml:id="tgaen-021680" n="a-1950">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-021690" n="a-1960">I</w>
+                  <c/>
+                  <w xml:id="tgaen-021700" n="a-1970">shall</w>
+                  <c/>
+                  <w xml:id="tgaen-021710" n="a-1980">unfold</w>
+                  <pc xml:id="tgaen-021720" n="a-1990" unit="sentence">.</pc>
+               </l>
+               <l n="21" xml:id="tgaen-l01160">
+                  <w xml:id="tgaen-021730" n="a-2000">Attend</w>
+                  <pc xml:id="tgaen-021740" n="a-2010">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-021750" n="a-2020">and</w>
+                  <c/>
+                  <w xml:id="tgaen-021760" n="a-2030">say</w>
+                  <c/>
+                  <w xml:id="tgaen-021770" n="a-2040">if</w>
+                  <c/>
+                  <w xml:id="tgaen-021780" n="a-2050">he</w>
+                  <c/>
+                  <w xml:id="tgaen-021790" n="a-2060">have</w>
+                  <c/>
+                  <w xml:id="tgaen-021800" n="a-2070">injured</w>
+                  <c/>
+                  <w xml:id="tgaen-021810" n="a-2080">me</w>
+                  <pc xml:id="tgaen-021820" n="a-2090" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg xml:id="tgaen-s00090">
+               <l n="22" xml:id="tgaen-l01165">
+                  <pc xml:id="tgaen-021850" n="a-2100">'</pc>
+                  <w xml:id="tgaen-021860" n="a-2110">Through</w>
+                  <c/>
+                  <w xml:id="tgaen-021870" n="a-2120">a</w>
+                  <c/>
+                  <w xml:id="tgaen-021880" n="a-2130">small</w>
+                  <c/>
+                  <w xml:id="tgaen-021890" n="a-2140">crevice</w>
+                  <c/>
+                  <w xml:id="tgaen-021900" n="a-2150">opening</w>
+                  <pc xml:id="tgaen-021910" n="a-2160">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-021920" n="a-2170">what</w>
+                  <c/>
+                  <w xml:id="tgaen-021930" n="a-2180">scant</w>
+                  <c/>
+                  <w xml:id="tgaen-021940" n="a-2190">light</w>
+               </l>
+               <l n="23" xml:id="tgaen-l01170">
+                  <w xml:id="tgaen-021950" n="a-2200">That</w>
+                  <c/>
+                  <w xml:id="tgaen-021960" n="a-2210">grim</w>
+                  <c/>
+                  <w xml:id="tgaen-021970" n="a-2220">and</w>
+                  <c/>
+                  <w xml:id="tgaen-021980" n="a-2230">antique</w>
+                  <c/>
+                  <w xml:id="tgaen-021990" n="a-2240">tower</w>
+                  <c/>
+                  <w xml:id="tgaen-022000" n="a-2250">admitted</w>
+                  <c/>
+                  <pc xml:id="tgaen-022010" n="a-2260">(</pc>
+                  <w xml:id="tgaen-022020" n="a-2270">since</w>
+               </l>
+               <l n="24" xml:id="tgaen-l01175">
+                  <w xml:id="tgaen-022030" n="a-2280">Of</w>
+                  <c/>
+                  <w xml:id="tgaen-022040" n="a-2290">me</w>
+                  <c/>
+                  <w xml:id="tgaen-022050" n="a-2300">the</w>
+                  <c/>
+                  <w xml:id="tgaen-022060" n="a-2310">Tower</w>
+                  <c/>
+                  <w xml:id="tgaen-022070" n="a-2320">of</w>
+                  <c/>
+                  <w xml:id="tgaen-022080" n="a-2330">Famine</w>
+                  <c/>
+                  <w xml:id="tgaen-022090" n="a-2340">hight</w>
+                  <pc xml:id="tgaen-022100" n="a-2350">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-022110" n="a-2360">and</w>
+                  <c/>
+                  <w xml:id="tgaen-022120" n="a-2370">known</w>
+               </l>
+               <l n="25" xml:id="tgaen-l01180">
+                  <w xml:id="tgaen-022130" n="a-2380">To</w>
+                  <c/>
+                  <w xml:id="tgaen-022140" n="a-2390">many</w>
+                  <c/>
+                  <w xml:id="tgaen-022150" n="a-2400">a</w>
+                  <c/>
+                  <w xml:id="tgaen-022160" n="a-2410">wretch</w>
+                  <pc xml:id="tgaen-022170" n="a-2420">)</pc>
+                  <c/>
+                  <w xml:id="tgaen-022180" n="a-2430">already</w>
+                  <c/>
+                  <w xml:id="tgaen-022190" n="a-2440">'gan</w>
+                  <c/>
+                  <w xml:id="tgaen-022200" n="a-2450">the</w>
+                  <c/>
+                  <w xml:id="tgaen-022210" n="a-2460">dawn</w>
+               </l>
+               <l n="26" xml:id="tgaen-l01185">
+                  <w xml:id="tgaen-022220" n="a-2470">To</w>
+                  <c/>
+                  <w xml:id="tgaen-022230" n="a-2480">send</w>
+                  <pc xml:id="tgaen-022240" n="a-2490" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-022250" n="a-2500">The</w>
+                  <c/>
+                  <w xml:id="tgaen-022260" n="a-2510">whilst</w>
+                  <c/>
+                  <w xml:id="tgaen-022270" n="a-2520">I</w>
+                  <c/>
+                  <w xml:id="tgaen-022280" n="a-2530">slumbering</w>
+                  <c/>
+                  <w xml:id="tgaen-022290" n="a-2540">lay</w>
+                  <pc xml:id="tgaen-022300" n="a-2550">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-022310" n="a-2560">a</w>
+                  <c/>
+                  <w xml:id="tgaen-022320" n="a-2570">sleep</w>
+               </l>
+               <l n="27" xml:id="tgaen-l01190">
+                  <w xml:id="tgaen-022330" n="a-2580">Prophetic</w>
+                  <c/>
+                  <w xml:id="tgaen-022340" n="a-2590">of</w>
+                  <c/>
+                  <w xml:id="tgaen-022350" n="a-2600">my</w>
+                  <c/>
+                  <w xml:id="tgaen-022360" n="a-2610">woes</w>
+                  <c/>
+                  <w xml:id="tgaen-022370" n="a-2620">with</w>
+                  <c/>
+                  <w xml:id="tgaen-022380" n="a-2630">direful</w>
+                  <c/>
+                  <w xml:id="tgaen-022390" n="a-2640">hand</w>
+               </l>
+               <l n="28" xml:id="tgaen-l01195">
+                  <w xml:id="tgaen-022400" n="a-2650">Oped</w>
+                  <c/>
+                  <w xml:id="tgaen-022410" n="a-2660">the</w>
+                  <c/>
+                  <w xml:id="tgaen-022420" n="a-2670">dark</w>
+                  <c/>
+                  <w xml:id="tgaen-022430" n="a-2680">veil</w>
+                  <c/>
+                  <w xml:id="tgaen-022440" n="a-2690">of</w>
+                  <c/>
+                  <w xml:id="tgaen-022450" n="a-2700">fate</w>
+                  <pc xml:id="tgaen-022460" n="a-2710" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-022470" n="a-2720">I</w>
+                  <c/>
+                  <w xml:id="tgaen-022480" n="a-2730">saw</w>
+                  <c/>
+                  <w xml:id="tgaen-022490" n="a-2740">methought</w>
+               </l>
+               <l n="29" xml:id="tgaen-l01200">
+                  <w xml:id="tgaen-022500" n="a-2750">Toward</w>
+                  <c/>
+                  <w xml:id="tgaen-022510" n="a-2760">Pisa's</w>
+                  <c/>
+                  <w xml:id="tgaen-022520" n="a-2770">mount</w>
+                  <pc xml:id="tgaen-022530" n="a-2780">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-022540" n="a-2790">that</w>
+                  <c/>
+                  <w xml:id="tgaen-022550" n="a-2800">intercepts</w>
+                  <c/>
+                  <w xml:id="tgaen-022560" n="a-2810">the</w>
+                  <c/>
+                  <w xml:id="tgaen-022570" n="a-2820">view</w>
+               </l>
+               <l n="30" xml:id="tgaen-l01205">
+                  <w xml:id="tgaen-022580" n="a-2830">Of</w>
+                  <c/>
+                  <w xml:id="tgaen-022590" n="a-2840">Lucca</w>
+                  <pc xml:id="tgaen-022600" n="a-2850">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-022610" n="a-2860">chased</w>
+                  <c/>
+                  <w xml:id="tgaen-022620" n="a-2870">by</w>
+                  <c/>
+                  <w xml:id="tgaen-022630" n="a-2880">hell-hounds</w>
+                  <c/>
+                  <w xml:id="tgaen-022640" n="a-2890">gaunt</w>
+                  <c/>
+                  <w xml:id="tgaen-022650" n="a-2900">and</w>
+                  <c/>
+                  <w xml:id="tgaen-022660" n="a-2910">bloody</w>
+               </l>
+               <l n="31" xml:id="tgaen-l01210">
+                  <w xml:id="tgaen-022670" n="a-2920">A</w>
+                  <c/>
+                  <w xml:id="tgaen-022680" n="a-2930">wolf</w>
+                  <c/>
+                  <w xml:id="tgaen-022690" n="a-2940">full-grown</w>
+                  <pc xml:id="tgaen-022700" n="a-2950">;</pc>
+                  <c/>
+                  <w xml:id="tgaen-022710" n="a-2960">with</w>
+                  <c/>
+                  <w xml:id="tgaen-022720" n="a-2970">fleet</w>
+                  <c/>
+                  <w xml:id="tgaen-022730" n="a-2980">and</w>
+                  <c/>
+                  <w xml:id="tgaen-022740" n="a-2990">equal</w>
+                  <c/>
+                  <w xml:id="tgaen-022750" n="a-3000">speed</w>
+               </l>
+               <l n="32" xml:id="tgaen-l01215">
+                  <w xml:id="tgaen-022760" n="a-3010">His</w>
+                  <c/>
+                  <w xml:id="tgaen-022770" n="a-3020">young</w>
+                  <c/>
+                  <w xml:id="tgaen-022780" n="a-3030">ones</w>
+                  <c/>
+                  <w xml:id="tgaen-022790" n="a-3040">ran</w>
+                  <c/>
+                  <w xml:id="tgaen-022800" n="a-3050">beside</w>
+                  <c/>
+                  <w xml:id="tgaen-022810" n="a-3060">him</w>
+                  <pc xml:id="tgaen-022820" n="a-3070" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-022830" n="a-3080">Lanfranc</w>
+                  <c/>
+                  <w xml:id="tgaen-022840" n="a-3090">there</w>
+               </l>
+               <l n="33" xml:id="tgaen-l01220">
+                  <w xml:id="tgaen-022850" n="a-3100">And</w>
+                  <c/>
+                  <w xml:id="tgaen-022860" n="a-3110">Sigismundo</w>
+                  <c/>
+                  <w xml:id="tgaen-022870" n="a-3120">and</w>
+                  <c/>
+                  <w xml:id="tgaen-022880" n="a-3130">Gualandi</w>
+                  <c/>
+                  <w xml:id="tgaen-022890" n="a-3140">rode</w>
+               </l>
+               <l n="34" xml:id="tgaen-l01225">
+                  <w xml:id="tgaen-022900" n="a-3150">Amain</w>
+                  <pc xml:id="tgaen-022910" n="a-3160">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-022920" n="a-3170">my</w>
+                  <c/>
+                  <w xml:id="tgaen-022930" n="a-3180">deadly</w>
+                  <c/>
+                  <w xml:id="tgaen-022940" n="a-3190">foes</w>
+                  <pc xml:id="tgaen-022950" n="a-3200">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-022960" n="a-3210">headed</w>
+                  <c/>
+                  <w xml:id="tgaen-022970" n="a-3220">by</w>
+                  <c/>
+                  <w xml:id="tgaen-022980" n="a-3230">this</w>
+               </l>
+               <l n="35" xml:id="tgaen-l01230">
+                  <w xml:id="tgaen-022990" n="a-3240">The</w>
+                  <c/>
+                  <w xml:id="tgaen-023000" n="a-3250">deadliest</w>
+                  <pc xml:id="tgaen-023010" n="a-3260">:</pc>
+                  <c/>
+                  <w xml:id="tgaen-023020" n="a-3270">he</w>
+                  <c/>
+                  <w xml:id="tgaen-023030" n="a-3280">their</w>
+                  <c/>
+                  <w xml:id="tgaen-023040" n="a-3290">chief</w>
+                  <pc xml:id="tgaen-023050" n="a-3300">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-023060" n="a-3310">the</w>
+                  <c/>
+                  <w xml:id="tgaen-023070" n="a-3320">foremost</w>
+                  <c/>
+                  <w xml:id="tgaen-023080" n="a-3330">he</w>
+               </l>
+               <l n="36" xml:id="tgaen-l01235">
+                  <w xml:id="tgaen-023090" n="a-3340">Flashed</w>
+                  <c/>
+                  <w xml:id="tgaen-023100" n="a-3350">to</w>
+                  <c/>
+                  <w xml:id="tgaen-023110" n="a-3360">pursue</w>
+                  <c/>
+                  <w xml:id="tgaen-023120" n="a-3370">and</w>
+                  <c/>
+                  <w xml:id="tgaen-023130" n="a-3380">cheer</w>
+                  <c/>
+                  <w xml:id="tgaen-023140" n="a-3390">the</w>
+                  <c/>
+                  <w xml:id="tgaen-023150" n="a-3400">eager</w>
+                  <c/>
+                  <w xml:id="tgaen-023160" n="a-3410">cry</w>
+                  <pc xml:id="tgaen-023170" n="a-3420" unit="sentence">.</pc>
+               </l>
+               <l n="37" xml:id="tgaen-l01240">
+                  <w xml:id="tgaen-023180" n="a-3430">Nor</w>
+                  <c/>
+                  <w xml:id="tgaen-023190" n="a-3440">long</w>
+                  <c/>
+                  <w xml:id="tgaen-023200" n="a-3450">endured</w>
+                  <c/>
+                  <w xml:id="tgaen-023210" n="a-3460">the</w>
+                  <c/>
+                  <w xml:id="tgaen-023220" n="a-3470">chase</w>
+                  <pc xml:id="tgaen-023230" n="a-3480">:</pc>
+                  <c/>
+                  <w xml:id="tgaen-023240" n="a-3490">the</w>
+                  <c/>
+                  <w xml:id="tgaen-023250" n="a-3500">panting</w>
+                  <c/>
+                  <w xml:id="tgaen-023260" n="a-3510">sire</w>
+                  <pc xml:id="tgaen-023270" n="a-3520">,</pc>
+               </l>
+               <l n="38" xml:id="tgaen-l01245">
+                  <w xml:id="tgaen-023280" n="a-3530">Of</w>
+                  <c/>
+                  <w xml:id="tgaen-023290" n="a-3540">strength</w>
+                  <c/>
+                  <w xml:id="tgaen-023300" n="a-3550">bereft</w>
+                  <pc xml:id="tgaen-023310" n="a-3560">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-023320" n="a-3570">his</w>
+                  <c/>
+                  <w xml:id="tgaen-023330" n="a-3580">helpless</w>
+                  <c/>
+                  <w xml:id="tgaen-023340" n="a-3590">offspring</w>
+                  <c/>
+                  <w xml:id="tgaen-023350" n="a-3600">soon</w>
+               </l>
+               <l n="39" xml:id="tgaen-l01250">
+                  <w xml:id="tgaen-023360" n="a-3610">O'erta'en</w>
+                  <c/>
+                  <w xml:id="tgaen-023370" n="a-3620">beheld</w>
+                  <pc xml:id="tgaen-023380" n="a-3630">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-023390" n="a-3640">and</w>
+                  <c/>
+                  <w xml:id="tgaen-023400" n="a-3650">in</w>
+                  <c/>
+                  <w xml:id="tgaen-023410" n="a-3660">their</w>
+                  <c/>
+                  <w xml:id="tgaen-023420" n="a-3670">trembling</w>
+                  <c/>
+                  <w xml:id="tgaen-023430" n="a-3680">flanks</w>
+               </l>
+               <l n="40" xml:id="tgaen-l01255">
+                  <w xml:id="tgaen-023440" n="a-3690">The</w>
+                  <c/>
+                  <w xml:id="tgaen-023450" n="a-3700">hungry</w>
+                  <c/>
+                  <w xml:id="tgaen-023460" n="a-3710">pack</w>
+                  <c/>
+                  <w xml:id="tgaen-023470" n="a-3720">their</w>
+                  <c/>
+                  <w xml:id="tgaen-023480" n="a-3730">sharp-set</w>
+                  <c/>
+                  <w xml:id="tgaen-023490" n="a-3740">fangs</w>
+                  <c/>
+                  <w xml:id="tgaen-023500" n="a-3750">embrued</w>
+                  <pc xml:id="tgaen-023510" n="a-3760" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg xml:id="tgaen-s00095">
+               <l n="41" xml:id="tgaen-l01260">
+                  <pc xml:id="tgaen-023540" n="a-3770">'</pc>
+                  <w xml:id="tgaen-023550" n="a-3780">The</w>
+                  <c/>
+                  <w xml:id="tgaen-023560" n="a-3790">morn</w>
+                  <c/>
+                  <w xml:id="tgaen-023570" n="a-3800">had</w>
+                  <c/>
+                  <w xml:id="tgaen-023580" n="a-3810">scarce</w>
+                  <c/>
+                  <w xml:id="tgaen-023590" n="a-3820">commenced</w>
+                  <c/>
+                  <w xml:id="tgaen-023600" n="a-3830">when</w>
+                  <c/>
+                  <w xml:id="tgaen-023610" n="a-3840">I</w>
+                  <c/>
+                  <w xml:id="tgaen-023620" n="a-3850">awoke</w>
+                  <pc xml:id="tgaen-023630" n="a-3860">:</pc>
+               </l>
+               <l n="42" xml:id="tgaen-l01265">
+                  <w xml:id="tgaen-023640" n="a-3870">My</w>
+                  <c/>
+                  <w xml:id="tgaen-023650" n="a-3880">children</w>
+                  <c/>
+                  <pc xml:id="tgaen-023660" n="a-3890">(</pc>
+                  <w xml:id="tgaen-023670" n="a-3900">they</w>
+                  <c/>
+                  <w xml:id="tgaen-023680" n="a-3910">were</w>
+                  <c/>
+                  <w xml:id="tgaen-023690" n="a-3920">with</w>
+                  <c/>
+                  <w xml:id="tgaen-023700" n="a-3930">me</w>
+                  <pc xml:id="tgaen-023710" n="a-3940">)</pc>
+                  <c/>
+                  <w xml:id="tgaen-023720" n="a-3950">sleep</w>
+                  <c/>
+                  <w xml:id="tgaen-023730" n="a-3960">as</w>
+                  <c/>
+                  <w xml:id="tgaen-023740" n="a-3970">yet</w>
+               </l>
+               <l n="43" xml:id="tgaen-l01270">
+                  <w xml:id="tgaen-023750" n="a-3980">Gave</w>
+                  <c/>
+                  <w xml:id="tgaen-023760" n="a-3990">not</w>
+                  <c/>
+                  <w xml:id="tgaen-023770" n="a-4000">to</w>
+                  <c/>
+                  <w xml:id="tgaen-023780" n="a-4010">know</w>
+                  <c/>
+                  <w xml:id="tgaen-023790" n="a-4020">their</w>
+                  <c/>
+                  <w xml:id="tgaen-023800" n="a-4030">sum</w>
+                  <c/>
+                  <w xml:id="tgaen-023810" n="a-4040">of</w>
+                  <c/>
+                  <w xml:id="tgaen-023820" n="a-4050">misery</w>
+                  <pc xml:id="tgaen-023830" n="a-4060">,</pc>
+               </l>
+               <l n="44" xml:id="tgaen-l01275">
+                  <w xml:id="tgaen-023840" n="a-4070">But</w>
+                  <c/>
+                  <w xml:id="tgaen-023850" n="a-4080">yet</w>
+                  <c/>
+                  <w xml:id="tgaen-023860" n="a-4090">in</w>
+                  <c/>
+                  <w xml:id="tgaen-023870" n="a-4100">low</w>
+                  <c/>
+                  <w xml:id="tgaen-023880" n="a-4110">and</w>
+                  <c/>
+                  <w xml:id="tgaen-023890" n="a-4120">uncompleted</w>
+                  <c/>
+                  <w xml:id="tgaen-023900" n="a-4130">sounds</w>
+               </l>
+               <l n="45" xml:id="tgaen-l01280">
+                  <w xml:id="tgaen-023910" n="a-4140">I</w>
+                  <c/>
+                  <w xml:id="tgaen-023920" n="a-4150">heard</w>
+                  <c/>
+                  <w xml:id="tgaen-023930" n="a-4160">'em</w>
+                  <c/>
+                  <w xml:id="tgaen-023940" n="a-4170">wail</w>
+                  <c/>
+                  <w xml:id="tgaen-023950" n="a-4180">for</w>
+                  <c/>
+                  <w xml:id="tgaen-023960" n="a-4190">bread</w>
+                  <pc xml:id="tgaen-023970" n="a-4200" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-023980" n="a-4210">Oh</w>
+                  <pc xml:id="tgaen-023981" n="a-4210">!</pc>
+                  <c/>
+                  <w xml:id="tgaen-023990" n="a-4220">thou</w>
+                  <c/>
+                  <w xml:id="tgaen-024000" n="a-4230">art</w>
+                  <c/>
+                  <w xml:id="tgaen-024010" n="a-4240">cruel</w>
+                  <pc xml:id="tgaen-024020" n="a-4250">,</pc>
+               </l>
+               <l n="46" xml:id="tgaen-l01285">
+                  <w xml:id="tgaen-024030" n="a-4260">Or</w>
+                  <c/>
+                  <w xml:id="tgaen-024040" n="a-4270">thou</w>
+                  <c/>
+                  <w xml:id="tgaen-024050" n="a-4280">dost</w>
+                  <c/>
+                  <w xml:id="tgaen-024060" n="a-4290">mourn</w>
+                  <c/>
+                  <w xml:id="tgaen-024070" n="a-4300">to</w>
+                  <c/>
+                  <w xml:id="tgaen-024080" n="a-4310">think</w>
+                  <c/>
+                  <w xml:id="tgaen-024090" n="a-4320">what</w>
+                  <c/>
+                  <w xml:id="tgaen-024100" n="a-4330">my</w>
+                  <c/>
+                  <w xml:id="tgaen-024110" n="a-4340">poor</w>
+                  <c/>
+                  <w xml:id="tgaen-024120" n="a-4350">heart</w>
+               </l>
+               <l n="47" xml:id="tgaen-l01290">
+                  <w xml:id="tgaen-024130" n="a-0010">Foresaw</w>
+                  <pc xml:id="tgaen-024140" n="a-0020">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-024150" n="a-0030">foreknew</w>
+                  <pc xml:id="tgaen-024160" n="a-0040">;</pc>
+                  <c/>
+                  <w xml:id="tgaen-024170" n="a-0050">oh</w>
+                  <pc xml:id="tgaen-024180" n="a-0060">!</pc>
+                  <c/>
+                  <w xml:id="tgaen-024190" n="a-0070">if</w>
+                  <c/>
+                  <w xml:id="tgaen-024200" n="a-0080">thou</w>
+                  <c/>
+                  <w xml:id="tgaen-024210" n="a-0090">weep</w>
+                  <c/>
+                  <w xml:id="tgaen-024220" n="a-0100">not</w>
+                  <c/>
+                  <w xml:id="tgaen-024230" n="a-0110">now</w>
+                  <pc xml:id="tgaen-024240" n="a-0120">,</pc>
+               </l>
+               <l n="48" xml:id="tgaen-l01295">
+                  <w xml:id="tgaen-024250" n="a-0130">Where</w>
+                  <c/>
+                  <w xml:id="tgaen-024260" n="a-0140">are</w>
+                  <c/>
+                  <w xml:id="tgaen-024270" n="a-0150">thy</w>
+                  <c/>
+                  <w xml:id="tgaen-024280" n="a-0160">tears</w>
+                  <pc xml:id="tgaen-024290" n="a-0170" unit="sentence">?</pc>
+                  <c/>
+                  <w xml:id="tgaen-024300" n="a-0180">Too</w>
+                  <c/>
+                  <w xml:id="tgaen-024310" n="a-0190">soon</w>
+                  <c/>
+                  <w xml:id="tgaen-024320" n="a-0200">they</w>
+                  <c/>
+                  <w xml:id="tgaen-024330" n="a-0210">had</w>
+                  <c/>
+                  <w xml:id="tgaen-024340" n="a-0220">aroused</w>
+                  <c/>
+                  <w xml:id="tgaen-024350" n="a-0230">them</w>
+                  <pc xml:id="tgaen-024360" n="a-0240">,</pc>
+               </l>
+               <l n="49" xml:id="tgaen-l01300">
+                  <w xml:id="tgaen-024370" n="a-0250">Sad</w>
+                  <c/>
+                  <w xml:id="tgaen-024380" n="a-0260">with</w>
+                  <c/>
+                  <w xml:id="tgaen-024390" n="a-0270">the</w>
+                  <c/>
+                  <w xml:id="tgaen-024400" n="a-0280">fears</w>
+                  <c/>
+                  <w xml:id="tgaen-024410" n="a-0290">of</w>
+                  <c/>
+                  <w xml:id="tgaen-024420" n="a-0300">sleep</w>
+                  <pc xml:id="tgaen-024430" n="a-0310">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-024440" n="a-0320">and</w>
+                  <c/>
+                  <w xml:id="tgaen-024450" n="a-0330">now</w>
+                  <c/>
+                  <w xml:id="tgaen-024460" n="a-0340">the</w>
+                  <c/>
+                  <w xml:id="tgaen-024470" n="a-0350">hour</w>
+               </l>
+               <l n="50" xml:id="tgaen-l01305">
+                  <w xml:id="tgaen-024480" n="a-0360">Of</w>
+                  <c/>
+                  <w xml:id="tgaen-024490" n="a-0370">timely</w>
+                  <c/>
+                  <w xml:id="tgaen-024500" n="a-0380">food</w>
+                  <c/>
+                  <w xml:id="tgaen-024510" n="a-0390">approached</w>
+                  <pc xml:id="tgaen-024520" n="a-0400">;</pc>
+                  <c/>
+                  <w xml:id="tgaen-024530" n="a-0410">when</w>
+                  <pc xml:id="tgaen-024540" n="a-0420">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-024550" n="a-0430">at</w>
+                  <c/>
+                  <w xml:id="tgaen-024560" n="a-0440">the</w>
+                  <c/>
+                  <w xml:id="tgaen-024570" n="a-0450">gate</w>
+               </l>
+               <l n="51" xml:id="tgaen-l01310">
+                  <w xml:id="tgaen-024580" n="a-0460">Below</w>
+                  <pc xml:id="tgaen-024590" n="a-0470">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-024600" n="a-0480">I</w>
+                  <c/>
+                  <w xml:id="tgaen-024610" n="a-0490">heard</w>
+                  <c/>
+                  <w xml:id="tgaen-024620" n="a-0500">the</w>
+                  <c/>
+                  <w xml:id="tgaen-024630" n="a-0510">dreadful</w>
+                  <c/>
+                  <w xml:id="tgaen-024640" n="a-0520">clank</w>
+                  <c/>
+                  <w xml:id="tgaen-024650" n="a-0530">of</w>
+                  <c/>
+                  <w xml:id="tgaen-024660" n="a-0540">bars</w>
+               </l>
+               <l n="52" xml:id="tgaen-l01315">
+                  <w xml:id="tgaen-024670" n="a-0550">And</w>
+                  <c/>
+                  <w xml:id="tgaen-024680" n="a-0560">fastening</w>
+                  <c/>
+                  <w xml:id="tgaen-024690" n="a-0570">bolts</w>
+                  <pc xml:id="tgaen-024700" n="a-0580" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-024710" n="a-0590">Then</w>
+                  <c/>
+                  <w xml:id="tgaen-024720" n="a-0600">on</w>
+                  <c/>
+                  <w xml:id="tgaen-024730" n="a-0610">my</w>
+                  <c/>
+                  <w xml:id="tgaen-024740" n="a-0620">children's</w>
+                  <c/>
+                  <w xml:id="tgaen-024750" n="a-0630">eyes</w>
+               </l>
+               <l n="53" xml:id="tgaen-l01320">
+                  <w xml:id="tgaen-024760" n="a-0640">Speechless</w>
+                  <c/>
+                  <w xml:id="tgaen-024770" n="a-0650">my</w>
+                  <c/>
+                  <w xml:id="tgaen-024780" n="a-0660">sight</w>
+                  <c/>
+                  <w xml:id="tgaen-024790" n="a-0670">I</w>
+                  <c/>
+                  <w xml:id="tgaen-024800" n="a-0680">fixed</w>
+                  <pc xml:id="tgaen-024810" n="a-0690">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-024820" n="a-0700">nor</w>
+                  <c/>
+                  <w xml:id="tgaen-024830" n="a-0710">wept</w>
+                  <pc xml:id="tgaen-024840" n="a-0720">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-024850" n="a-0730">for</w>
+                  <c/>
+                  <w xml:id="tgaen-024860" n="a-0740">all</w>
+               </l>
+               <l n="54" xml:id="tgaen-l01325">
+                  <w xml:id="tgaen-024870" n="a-0750">Within</w>
+                  <c/>
+                  <w xml:id="tgaen-024880" n="a-0760">was</w>
+                  <c/>
+                  <w xml:id="tgaen-024890" n="a-0770">stone</w>
+                  <pc xml:id="tgaen-024900" n="a-0780" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-024910" n="a-0790">They</w>
+                  <c/>
+                  <w xml:id="tgaen-024920" n="a-0800">wept</w>
+                  <pc xml:id="tgaen-024930" n="a-0810">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-024940" n="a-0820">unhappy</w>
+                  <c/>
+                  <w xml:id="tgaen-024950" n="a-0830">boys</w>
+                  <pc xml:id="tgaen-024960" n="a-0840">,</pc>
+               </l>
+               <l n="55" xml:id="tgaen-l01330">
+                  <w xml:id="tgaen-024970" n="a-0850">They</w>
+                  <c/>
+                  <w xml:id="tgaen-024980" n="a-0860">wept</w>
+                  <pc xml:id="tgaen-024990" n="a-0870">;</pc>
+                  <c/>
+                  <w xml:id="tgaen-025000" n="a-0880">and</w>
+                  <c/>
+                  <w xml:id="tgaen-025010" n="a-0890">first</w>
+                  <c/>
+                  <w xml:id="tgaen-025020" n="a-0900">my</w>
+                  <c/>
+                  <w xml:id="tgaen-025030" n="a-0910">little</w>
+                  <c/>
+                  <w xml:id="tgaen-025040" n="a-0920">dear</w>
+                  <c/>
+                  <w xml:id="tgaen-025050" n="a-0930">Anselmo</w>
+               </l>
+               <l n="56" xml:id="tgaen-l01335">
+                  <w xml:id="tgaen-025060" n="a-0940">Cried</w>
+                  <pc xml:id="tgaen-025070" n="a-0950">,</pc>
+                  <c/>
+                  <pc xml:id="tgaen-025080" n="a-0960">'</pc>
+                  <w xml:id="tgaen-025090" n="a-0970">Father</w>
+                  <pc xml:id="tgaen-025100" n="a-0980">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-025110" n="a-0990">why</w>
+                  <c/>
+                  <w xml:id="tgaen-025120" n="a-1000">do</w>
+                  <c/>
+                  <w xml:id="tgaen-025130" n="a-1010">you</w>
+                  <c/>
+                  <w xml:id="tgaen-025140" n="a-1020">gaze</w>
+                  <c/>
+                  <w xml:id="tgaen-025150" n="a-1030">so</w>
+                  <c/>
+                  <w xml:id="tgaen-025160" n="a-1040">sternly</w>
+                  <pc xml:id="tgaen-025170" n="a-1050" unit="sentence">?</pc>
+               </l>
+               <l n="57" xml:id="tgaen-l01340">
+                  <w xml:id="tgaen-025180" n="a-1060">What</w>
+                  <c/>
+                  <w xml:id="tgaen-025190" n="a-1070">would</w>
+                  <c/>
+                  <w xml:id="tgaen-025200" n="a-1080">you</w>
+                  <c/>
+                  <w xml:id="tgaen-025210" n="a-1090">have</w>
+                  <pc xml:id="tgaen-025220" n="a-1100">?</pc>
+                  <pc xml:id="tgaen-025230" n="a-1110" unit="sentence">'</pc>
+                  <c/>
+                  <w xml:id="tgaen-025240" n="a-1120">Yet</w>
+                  <c/>
+                  <w xml:id="tgaen-025250" n="a-1130">wept</w>
+                  <c/>
+                  <w xml:id="tgaen-025260" n="a-1140">I</w>
+                  <c/>
+                  <w xml:id="tgaen-025270" n="a-1150">not</w>
+                  <c/>
+                  <w xml:id="tgaen-025280" n="a-1160">or</w>
+                  <c/>
+                  <w xml:id="tgaen-025290" n="a-1170">answered</w>
+               </l>
+               <l n="58" xml:id="tgaen-l01345">
+                  <w xml:id="tgaen-025300" n="a-1180">All</w>
+                  <c/>
+                  <w xml:id="tgaen-025310" n="a-1190">that</w>
+                  <c/>
+                  <w xml:id="tgaen-025320" n="a-1200">whole</w>
+                  <c/>
+                  <w xml:id="tgaen-025330" n="a-1210">day</w>
+                  <c/>
+                  <w xml:id="tgaen-025340" n="a-1220">or</w>
+                  <c/>
+                  <w xml:id="tgaen-025350" n="a-1230">the</w>
+                  <c/>
+                  <w xml:id="tgaen-025360" n="a-1240">succeeding</w>
+                  <c/>
+                  <w xml:id="tgaen-025370" n="a-1250">night</w>
+                  <pc xml:id="tgaen-025380" n="a-1260">,</pc>
+               </l>
+               <l n="59" xml:id="tgaen-l01350">
+                  <w xml:id="tgaen-025390" n="a-1270">Till</w>
+                  <c/>
+                  <w xml:id="tgaen-025400" n="a-1280">a</w>
+                  <c/>
+                  <w xml:id="tgaen-025410" n="a-1290">new</w>
+                  <c/>
+                  <w xml:id="tgaen-025420" n="a-1300">sun</w>
+                  <c/>
+                  <w xml:id="tgaen-025430" n="a-1310">arose</w>
+                  <c/>
+                  <w xml:id="tgaen-025440" n="a-1320">with</w>
+                  <c/>
+                  <w xml:id="tgaen-025450" n="a-1330">weakly</w>
+                  <c/>
+                  <w xml:id="tgaen-025460" n="a-1340">gleam</w>
+               </l>
+               <l n="60" xml:id="tgaen-l01355">
+                  <w xml:id="tgaen-025470" n="a-1350">And</w>
+                  <c/>
+                  <w xml:id="tgaen-025480" n="a-1360">wan</w>
+                  <pc xml:id="tgaen-025490" n="a-1370">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-025500" n="a-1380">such</w>
+                  <c/>
+                  <w xml:id="tgaen-025510" n="a-1390">as</w>
+                  <c/>
+                  <w xml:id="tgaen-025520" n="a-1400">mought</w>
+                  <c/>
+                  <w xml:id="tgaen-025530" n="a-1410">entrance</w>
+                  <c/>
+                  <w xml:id="tgaen-025540" n="a-1420">find</w>
+                  <c/>
+                  <w xml:id="tgaen-025550" n="a-1430">within</w>
+               </l>
+               <l n="61" xml:id="tgaen-l01360">
+                  <w xml:id="tgaen-025560" n="a-1440">That</w>
+                  <c/>
+                  <w xml:id="tgaen-025570" n="a-1450">house</w>
+                  <c/>
+                  <w xml:id="tgaen-025580" n="a-1460">of</w>
+                  <c/>
+                  <w xml:id="tgaen-025590" n="a-1470">woe</w>
+                  <pc xml:id="tgaen-025600" n="a-1480" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-025610" n="a-1490">But</w>
+                  <c/>
+                  <w xml:id="tgaen-025620" n="a-1500">oh</w>
+                  <pc xml:id="tgaen-025630" n="a-1510">!</pc>
+                  <c/>
+                  <w xml:id="tgaen-025640" n="a-1520">when</w>
+                  <c/>
+                  <w xml:id="tgaen-025650" n="a-1530">I</w>
+                  <c/>
+                  <w xml:id="tgaen-025660" n="a-1540">beheld</w>
+               </l>
+               <l n="62" xml:id="tgaen-l01365">
+                  <w xml:id="tgaen-025670" n="a-1550">My</w>
+                  <c/>
+                  <w xml:id="tgaen-025680" n="a-1560">sons</w>
+                  <pc xml:id="tgaen-025690" n="a-1570">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-025700" n="a-1580">and</w>
+                  <c/>
+                  <w xml:id="tgaen-025710" n="a-1590">in</w>
+                  <c/>
+                  <w xml:id="tgaen-025720" n="a-1600">four</w>
+                  <c/>
+                  <w xml:id="tgaen-025730" n="a-1610">faces</w>
+                  <c/>
+                  <w xml:id="tgaen-025740" n="a-1620">saw</w>
+                  <c/>
+                  <w xml:id="tgaen-025750" n="a-1630">my</w>
+                  <c/>
+                  <w xml:id="tgaen-025760" n="a-1640">own</w>
+               </l>
+               <l n="63" xml:id="tgaen-l01370">
+                  <w xml:id="tgaen-025770" n="a-1650">Despair</w>
+                  <c/>
+                  <w xml:id="tgaen-025780" n="a-1660">reflected</w>
+                  <pc xml:id="tgaen-025790" n="a-1670">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-025800" n="a-1680">either</w>
+                  <c/>
+                  <w xml:id="tgaen-025810" n="a-1690">hand</w>
+                  <c/>
+                  <w xml:id="tgaen-025820" n="a-1700">I</w>
+                  <c/>
+                  <w xml:id="tgaen-025830" n="a-1710">gnawed</w>
+               </l>
+               <l n="64" xml:id="tgaen-l01375">
+                  <w xml:id="tgaen-025840" n="a-1720">For</w>
+                  <c/>
+                  <w xml:id="tgaen-025850" n="a-1730">anguish</w>
+                  <pc xml:id="tgaen-025860" n="a-1740">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-025870" n="a-1750">which</w>
+                  <c/>
+                  <w xml:id="tgaen-025880" n="a-1760">they</w>
+                  <c/>
+                  <w xml:id="tgaen-025890" n="a-1770">construed</w>
+                  <c/>
+                  <w xml:id="tgaen-025900" n="a-1780">hunger</w>
+                  <pc xml:id="tgaen-025910" n="a-1790" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-025920" n="a-1800">Straight</w>
+               </l>
+               <l n="65" xml:id="tgaen-l01380">
+                  <w xml:id="tgaen-025930" n="a-1810">Arising</w>
+                  <c/>
+                  <w xml:id="tgaen-025940" n="a-1820">all</w>
+                  <c/>
+                  <w xml:id="tgaen-025950" n="a-1830">they</w>
+                  <c/>
+                  <w xml:id="tgaen-025960" n="a-1840">cried</w>
+                  <pc xml:id="tgaen-025970" n="a-1850">,</pc>
+                  <c/>
+                  <pc xml:id="tgaen-025980" n="a-1860">'</pc>
+                  <w xml:id="tgaen-025990" n="a-1870">Far</w>
+                  <c/>
+                  <w xml:id="tgaen-026000" n="a-1880">less</w>
+                  <c/>
+                  <w xml:id="tgaen-026010" n="a-1890">shall</w>
+                  <c/>
+                  <w xml:id="tgaen-026020" n="a-1900">be</w>
+               </l>
+               <l n="66" xml:id="tgaen-l01385">
+                  <w xml:id="tgaen-026030" n="a-1910">Our</w>
+                  <c/>
+                  <w xml:id="tgaen-026040" n="a-1920">sufferings</w>
+                  <pc xml:id="tgaen-026050" n="a-1930">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-026060" n="a-1940">sir</w>
+                  <pc xml:id="tgaen-026070" n="a-1950">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-026080" n="a-1960">if</w>
+                  <c/>
+                  <w xml:id="tgaen-026090" n="a-1970">you</w>
+                  <c/>
+                  <w xml:id="tgaen-026100" n="a-1980">resume</w>
+                  <c/>
+                  <w xml:id="tgaen-026110" n="a-1990">your</w>
+                  <c/>
+                  <w xml:id="tgaen-026120" n="a-2000">gift</w>
+                  <pc xml:id="tgaen-026130" n="a-2010">;</pc>
+               </l>
+               <l n="67" xml:id="tgaen-l01390">
+                  <w xml:id="tgaen-026140" n="a-2020">These</w>
+                  <c/>
+                  <w xml:id="tgaen-026150" n="a-2030">miserable</w>
+                  <c/>
+                  <w xml:id="tgaen-026160" n="a-2040">limbs</w>
+                  <c/>
+                  <w xml:id="tgaen-026170" n="a-2050">with</w>
+                  <c/>
+                  <w xml:id="tgaen-026180" n="a-2060">flesh</w>
+                  <c/>
+                  <w xml:id="tgaen-026190" n="a-2070">you</w>
+                  <c/>
+                  <w xml:id="tgaen-026200" n="a-2080">clothed</w>
+                  <pc xml:id="tgaen-026210" n="a-2090">;</pc>
+               </l>
+               <l n="68" xml:id="tgaen-l01395">
+                  <w xml:id="tgaen-026220" n="a-2100">Take</w>
+                  <c/>
+                  <w xml:id="tgaen-026230" n="a-2110">back</w>
+                  <c/>
+                  <w xml:id="tgaen-026240" n="a-2120">what</w>
+                  <c/>
+                  <w xml:id="tgaen-026250" n="a-2130">once</w>
+                  <c/>
+                  <w xml:id="tgaen-026260" n="a-2140">was</w>
+                  <c/>
+                  <w xml:id="tgaen-026270" n="a-2150">yours</w>
+                  <pc xml:id="tgaen-026280" n="a-2160">.</pc>
+                  <pc xml:id="tgaen-026290" n="a-2170" unit="sentence">'</pc>
+                  <c/>
+                  <w xml:id="tgaen-026300" n="a-2180">I</w>
+                  <c/>
+                  <w xml:id="tgaen-026310" n="a-2190">swallowed</w>
+                  <c/>
+                  <w xml:id="tgaen-026320" n="a-2200">down</w>
+               </l>
+               <l n="69" xml:id="tgaen-l01400">
+                  <w xml:id="tgaen-026330" n="a-2210">My</w>
+                  <c/>
+                  <w xml:id="tgaen-026340" n="a-2220">struggling</w>
+                  <c/>
+                  <w xml:id="tgaen-026350" n="a-2230">sorrow</w>
+                  <pc xml:id="tgaen-026360" n="a-2240">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-026370" n="a-2250">nor</w>
+                  <c/>
+                  <w xml:id="tgaen-026380" n="a-2260">to</w>
+                  <c/>
+                  <w xml:id="tgaen-026390" n="a-2270">heighten</w>
+                  <c/>
+                  <w xml:id="tgaen-026400" n="a-2280">theirs</w>
+                  <pc xml:id="tgaen-026410" n="a-2290" unit="sentence">.</pc>
+               </l>
+               <l n="70" xml:id="tgaen-l01405">
+                  <w xml:id="tgaen-026420" n="a-2300">That</w>
+                  <c/>
+                  <w xml:id="tgaen-026430" n="a-2310">day</w>
+                  <c/>
+                  <w xml:id="tgaen-026440" n="a-2320">and</w>
+                  <c/>
+                  <w xml:id="tgaen-026450" n="a-2330">yet</w>
+                  <c/>
+                  <w xml:id="tgaen-026460" n="a-2340">another</w>
+                  <pc xml:id="tgaen-026470" n="a-2350">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-026480" n="a-2360">mute</w>
+                  <c/>
+                  <w xml:id="tgaen-026490" n="a-2370">we</w>
+                  <c/>
+                  <w xml:id="tgaen-026500" n="a-2380">sat</w>
+               </l>
+               <l n="71" xml:id="tgaen-l01410">
+                  <w xml:id="tgaen-026510" n="a-2390">And</w>
+                  <c/>
+                  <w xml:id="tgaen-026520" n="a-2400">motionless</w>
+                  <pc xml:id="tgaen-026530" n="a-2410" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-026540" n="a-2420">O</w>
+                  <c/>
+                  <w xml:id="tgaen-026550" n="a-2430">earth</w>
+                  <pc xml:id="tgaen-026560" n="a-2440">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-026570" n="a-2450">could'st</w>
+                  <c/>
+                  <w xml:id="tgaen-026580" n="a-2460">thou</w>
+                  <c/>
+                  <w xml:id="tgaen-026590" n="a-2470">not</w>
+                  <c/>
+                  <w xml:id="tgaen-026600" n="a-2480">gape</w>
+               </l>
+               <l n="72" xml:id="tgaen-l01415">
+                  <w xml:id="tgaen-026610" n="a-2490">Quick</w>
+                  <c/>
+                  <w xml:id="tgaen-026620" n="a-2500">to</w>
+                  <c/>
+                  <w xml:id="tgaen-026630" n="a-2510">devour</w>
+                  <c/>
+                  <w xml:id="tgaen-026640" n="a-2520">me</w>
+                  <pc xml:id="tgaen-026650" n="a-2530" unit="sentence">?</pc>
+                  <c/>
+                  <w xml:id="tgaen-026660" n="a-2540">Yet</w>
+                  <c/>
+                  <w xml:id="tgaen-026670" n="a-2550">a</w>
+                  <c/>
+                  <w xml:id="tgaen-026680" n="a-2560">fourth</w>
+                  <c/>
+                  <w xml:id="tgaen-026690" n="a-2570">day</w>
+                  <c/>
+                  <w xml:id="tgaen-026700" n="a-2580">came</w>
+                  <pc xml:id="tgaen-026710" n="a-2590">,</pc>
+               </l>
+               <l n="73" xml:id="tgaen-l01420">
+                  <w xml:id="tgaen-026720" n="a-2600">When</w>
+                  <c/>
+                  <w xml:id="tgaen-026730" n="a-2610">Gaddo</w>
+                  <pc xml:id="tgaen-026740" n="a-2620">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-026750" n="a-2630">at</w>
+                  <c/>
+                  <w xml:id="tgaen-026760" n="a-2640">my</w>
+                  <c/>
+                  <w xml:id="tgaen-026770" n="a-2650">feet</w>
+                  <c/>
+                  <w xml:id="tgaen-026780" n="a-2660">outstretched</w>
+                  <pc xml:id="tgaen-026790" n="a-2670">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-026800" n="a-2680">imploring</w>
+               </l>
+               <l n="74" xml:id="tgaen-l01425">
+                  <w xml:id="tgaen-026810" n="a-2690">In</w>
+                  <c/>
+                  <w xml:id="tgaen-026820" n="a-2700">vain</w>
+                  <c/>
+                  <w xml:id="tgaen-026830" n="a-2710">my</w>
+                  <c/>
+                  <w xml:id="tgaen-026840" n="a-2720">help</w>
+                  <pc xml:id="tgaen-026850" n="a-2730">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-026860" n="a-2740">expired</w>
+                  <pc xml:id="tgaen-026870" n="a-2750">;</pc>
+                  <c/>
+                  <w xml:id="tgaen-026880" n="a-2760">ere</w>
+                  <c/>
+                  <w xml:id="tgaen-026890" n="a-2770">the</w>
+                  <c/>
+                  <w xml:id="tgaen-026900" n="a-2780">sixth</w>
+                  <c/>
+                  <w xml:id="tgaen-026910" n="a-2790">morn</w>
+               </l>
+               <l n="75" xml:id="tgaen-l01430">
+                  <w xml:id="tgaen-026920" n="a-2800">Had</w>
+                  <c/>
+                  <w xml:id="tgaen-026930" n="a-2810">dawned</w>
+                  <pc xml:id="tgaen-026940" n="a-2820">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-026950" n="a-2830">my</w>
+                  <c/>
+                  <w xml:id="tgaen-026960" n="a-2840">other</w>
+                  <c/>
+                  <w xml:id="tgaen-026970" n="a-2850">three</w>
+                  <c/>
+                  <w xml:id="tgaen-026980" n="a-2860">before</w>
+                  <c/>
+                  <w xml:id="tgaen-026990" n="a-2870">my</w>
+                  <c/>
+                  <w xml:id="tgaen-027000" n="a-2880">eyes</w>
+               </l>
+               <l n="76" xml:id="tgaen-l01435">
+                  <w xml:id="tgaen-027010" n="a-2890">Died</w>
+                  <c/>
+                  <w xml:id="tgaen-027020" n="a-2900">one</w>
+                  <c/>
+                  <w xml:id="tgaen-027030" n="a-2910">by</w>
+                  <c/>
+                  <w xml:id="tgaen-027040" n="a-2920">one</w>
+                  <pc xml:id="tgaen-027050" n="a-2930" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-027060" n="a-2940">I</w>
+                  <c/>
+                  <w xml:id="tgaen-027070" n="a-2950">saw</w>
+                  <c/>
+                  <w xml:id="tgaen-027080" n="a-2960">'em</w>
+                  <c/>
+                  <w xml:id="tgaen-027090" n="a-2970">fall</w>
+                  <pc xml:id="tgaen-027100" n="a-2980">;</pc>
+                  <c/>
+                  <w xml:id="tgaen-027110" n="a-2990">I</w>
+                  <c/>
+                  <w xml:id="tgaen-027120" n="a-3000">heard</w>
+               </l>
+               <l n="77" xml:id="tgaen-l01440">
+                  <w xml:id="tgaen-027130" n="a-3010">Their</w>
+                  <c/>
+                  <w xml:id="tgaen-027140" n="a-3020">doleful</w>
+                  <c/>
+                  <w xml:id="tgaen-027150" n="a-3030">cries</w>
+                  <pc xml:id="tgaen-027160" n="a-3040" unit="sentence">.</pc>
+                  <c/>
+                  <w xml:id="tgaen-027170" n="a-3050">For</w>
+                  <c/>
+                  <w xml:id="tgaen-027180" n="a-3060">three</w>
+                  <c/>
+                  <w xml:id="tgaen-027190" n="a-3070">days</w>
+                  <c/>
+                  <w xml:id="tgaen-027200" n="a-3080">more</w>
+                  <c/>
+                  <w xml:id="tgaen-027210" n="a-3090">I</w>
+                  <c/>
+                  <w xml:id="tgaen-027220" n="a-3100">groped</w>
+               </l>
+               <l n="78" xml:id="tgaen-l01445">
+                  <w xml:id="tgaen-027230" n="a-3110">About</w>
+                  <c/>
+                  <w xml:id="tgaen-027240" n="a-3120">among</w>
+                  <c/>
+                  <w xml:id="tgaen-027250" n="a-3130">their</w>
+                  <c/>
+                  <w xml:id="tgaen-027260" n="a-3140">cold</w>
+                  <c/>
+                  <w xml:id="tgaen-027270" n="a-3150">remains</w>
+                  <c/>
+                  <pc xml:id="tgaen-027280" n="a-3160">(</pc>
+                  <w xml:id="tgaen-027290" n="a-3170">for</w>
+                  <c/>
+                  <w xml:id="tgaen-027300" n="a-3180">then</w>
+               </l>
+               <l n="79" xml:id="tgaen-l01450">
+                  <w xml:id="tgaen-027310" n="a-3190">Hunger</w>
+                  <c/>
+                  <w xml:id="tgaen-027320" n="a-3200">had</w>
+                  <c/>
+                  <w xml:id="tgaen-027330" n="a-3210">reft</w>
+                  <c/>
+                  <w xml:id="tgaen-027340" n="a-3220">my</w>
+                  <c/>
+                  <w xml:id="tgaen-027350" n="a-3230">eyesight</w>
+                  <pc xml:id="tgaen-027360" n="a-3240">)</pc>
+                  <pc xml:id="tgaen-027370" n="a-3250">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-027380" n="a-3260">often</w>
+                  <c/>
+                  <w xml:id="tgaen-027390" n="a-3270">calling</w>
+               </l>
+               <l n="80" xml:id="tgaen-l01455">
+                  <w xml:id="tgaen-027400" n="a-3280">On</w>
+                  <c/>
+                  <w xml:id="tgaen-027410" n="a-3290">their</w>
+                  <c/>
+                  <w xml:id="tgaen-027420" n="a-3300">dear</w>
+                  <c/>
+                  <w xml:id="tgaen-027430" n="a-3310">names</w>
+                  <pc xml:id="tgaen-027440" n="a-3320">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-027450" n="a-3330">that</w>
+                  <c/>
+                  <w xml:id="tgaen-027460" n="a-3340">heard</w>
+                  <c/>
+                  <w xml:id="tgaen-027470" n="a-3350">me</w>
+                  <c/>
+                  <w xml:id="tgaen-027480" n="a-3360">now</w>
+                  <c/>
+                  <w xml:id="tgaen-027490" n="a-3370">no</w>
+                  <c/>
+                  <w xml:id="tgaen-027500" n="a-3380">more</w>
+                  <pc xml:id="tgaen-027510" n="a-3390">;</pc>
+               </l>
+               <l n="81" xml:id="tgaen-l01460">
+                  <w xml:id="tgaen-027520" n="a-3400">The</w>
+                  <c/>
+                  <w xml:id="tgaen-027530" n="a-3410">fourth</w>
+                  <pc xml:id="tgaen-027540" n="a-3420">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-027550" n="a-3430">what</w>
+                  <c/>
+                  <w xml:id="tgaen-027560" n="a-3440">sorrow</w>
+                  <c/>
+                  <w xml:id="tgaen-027570" n="a-3450">could</w>
+                  <c/>
+                  <w xml:id="tgaen-027580" n="a-3460">not</w>
+                  <pc xml:id="tgaen-027590" n="a-3470">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-027600" n="a-3480">famine</w>
+                  <c/>
+                  <w xml:id="tgaen-027610" n="a-3490">did</w>
+                  <pc xml:id="tgaen-027620" n="a-3500">.</pc>
+                  <pc xml:id="tgaen-027630" n="a-3510" unit="sentence">'</pc>
+               </l>
+            </lg>
+            <lg xml:id="tgaen-s00100">
+               <l n="82" xml:id="tgaen-l01465">
+                  <w xml:id="tgaen-027660" n="a-3520">He</w>
+                  <c/>
+                  <w xml:id="tgaen-027670" n="a-3530">finished</w>
+                  <pc xml:id="tgaen-027680" n="a-3540">;</pc>
+                  <c/>
+                  <w xml:id="tgaen-027690" n="a-3550">then</w>
+                  <c/>
+                  <w xml:id="tgaen-027700" n="a-3560">with</w>
+                  <c/>
+                  <w xml:id="tgaen-027710" n="a-3570">unrelenting</w>
+                  <c/>
+                  <w xml:id="tgaen-027720" n="a-3580">eye</w>
+               </l>
+               <l n="83" xml:id="tgaen-l01470">
+                  <w xml:id="tgaen-027730" n="a-3590">Askance</w>
+                  <c/>
+                  <w xml:id="tgaen-027740" n="a-3600">he</w>
+                  <c/>
+                  <w xml:id="tgaen-027750" n="a-3610">turned</w>
+                  <c/>
+                  <w xml:id="tgaen-027760" n="a-3620">him</w>
+                  <pc xml:id="tgaen-027770" n="a-3630">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-027780" n="a-3640">hasty</w>
+                  <c/>
+                  <w xml:id="tgaen-027790" n="a-3650">to</w>
+                  <c/>
+                  <w xml:id="tgaen-027800" n="a-3660">renew</w>
+               </l>
+               <l n="84" xml:id="tgaen-l01475">
+                  <w xml:id="tgaen-027810" n="a-3670">The</w>
+                  <c/>
+                  <w xml:id="tgaen-027820" n="a-3680">hellish</w>
+                  <c/>
+                  <w xml:id="tgaen-027830" n="a-3690">feast</w>
+                  <pc xml:id="tgaen-027840" n="a-3700">,</pc>
+                  <c/>
+                  <w xml:id="tgaen-027850" n="a-3710">and</w>
+                  <c/>
+                  <w xml:id="tgaen-027860" n="a-3720">rent</w>
+                  <c/>
+                  <w xml:id="tgaen-027870" n="a-3730">his</w>
+                  <c/>
+                  <w xml:id="tgaen-027880" n="a-3740">trembling</w>
+                  <c/>
+                  <w xml:id="tgaen-027890" n="a-3750">prey</w>
+                  <pc xml:id="tgaen-027900" n="a-3760" unit="sentence">.</pc>
+               </l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
