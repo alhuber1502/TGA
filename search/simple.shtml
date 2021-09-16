@@ -1,0 +1,24 @@
+
+          <form id="simsearch" class="simple_search" accept-charset="UTF-8" method="GET" style="margin:20px 0 25px 0;">
+            <div class="input-group" style="margin: auto; border-spacing:0;background-color: #f3f3f3; border:1px solid #999;border-radius: .25rem;">
+              <input type="hidden" name="op" value="AND">
+              <span class="input-group-addon" style="padding:0 12px; border-radius: 5px 0 0 5px;align-self: center;">
+                <label for="search_field" style="font-weight:bold;">Search &nbsp;</label>
+                <select name="search_field" id="search_field" title="targeted search options" class="custom-select custom-select-sm">
+                  <!-- TODO <option value="default">default fields</option>-->
+                  <option value="genre:poem">poems</option>
+                  <option value="genre:prose">prose works</option>
+                  <option value="genre:letter">letters</option>
+                </select>
+              </span>
+              <label class="sr-only">search for</label>
+              <input type="text" name="q" placeholder="Search" class="form-control" autofocus="autofocus" style="display: table-cell; height:42px; border-right:0">
+              <span class="input-group-addon" style="padding:0 12px 0 0; border-radius: 0 5px 5px 0">
+                <button class="btn" type="submit" style="border-right: 1px solid #ccc; background-color:#88291a; color:#fff !important;"><i class="glyphicon glyphicon-search" style="font-size:21px;"></i></button>
+                <span class="input-group-addon" style="padding:0 12px 0 0; border-radius: 0 5px 5px 0; font-size:14px; min-width: 140px; display:inline-block; border:0;">
+                  <input style="margin-left:22px;" name="fuzzy" type="checkbox" aria-label="Fuzzy?"> <label style="font-weight:normal;margin-bottom:unset;font-size:14px;margin-top:2px;">Fuzzy search</label>
+                  <!-- TODO <label style="font-weight:normal;margin-bottom:unset;font-size:14px;margin-top:0;margin-left:10px;">&nbsp; &nbsp; <a href="/texts/search.shtml">Advanced search</a></label>-->
+                </span>
+              </span>
+            </div>
+          </form>

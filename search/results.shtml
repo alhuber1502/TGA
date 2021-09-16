@@ -1,0 +1,105 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Search" -->
+<!--#set var="youarehere" value="<li><a href=\"/\" class=\"breadcrumb\">Home</a></li><li>Search</li>" -->
+<!--#set var="bodyid" value="search"  -->
+<!--#set var="search" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 left">
+        <h1 style="margin-bottom:0;">Search <span id="search_genre"></span></h1>
+
+        <div class="row">
+          <div class="col-xs-9 left">
+              <!--#include virtual="/search/simple.shtml"-->
+              <div id="results">
+                <div id="query"></div>
+                <header id="results_header">
+                  <div class="row">
+                    <div class="col-md-2"><h2 style="margin-top:0;"> results</h2></div>
+                    <div class="col-md-3" id="per_page" style="text-align:center;"></div>
+                    <div class="col-md-4" style="text-align:center;"><ul class="sync-pagination pagination"></ul></div>
+                    <div class="col-md-3" id="sorting"></div>
+                  </div>
+                </header>
+                <div id="results_main"></div>
+                <ul class="sync-pagination pagination"></ul>
+              </div>
+          </div>
+          <div class="col-xs-3 left" style="background-color: #f6f6f6; padding-top:10px;">
+              <div id="filters">
+                <header id="filters_header">
+                  <h2 style="margin-top:15px;">Filters</h2>
+                </header>
+                <div id="filters_main"></div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<script>
+
+  // #AH — 29/09/2020
+  // parse querystring and search || browse all
+  jq(function() {
+
+    var url = new URL( window.location.href );
+    var searchParams = new URLSearchParams( url.search );
+    // search
+    if (window.location.href.search(/genre:letter/g) != -1) {
+      $( "#search_genre" ).html( "Letters" );
+      $( "#search_field option[value=genre:letter]" ).attr("selected","selected");
+    } else if (window.location.href.search(/genre:poem/g) != -1) {
+      $( "#search_genre" ).html( "Poems" );
+      $( "#search_field option[value=genre:poem]" ).attr("selected","selected");
+    } else if (window.location.href.search(/genre:prose/g) != -1) {
+      $( "#search_genre" ).html( "Prose Works" );
+      $( "#search_field option[value=genre:prose]" ).attr("selected","selected");
+    }
+
+    if ( searchParams.has('q') && searchParams.get('q') != '' ) {
+      var sort = '', rows = '';
+      if ( !searchParams.has('sort') ) {
+        if (window.location.href.search(/genre:letter/g) != -1) {
+          sort = '&sort=date_dts asc';
+        } else if (window.location.href.search(/genre:poem/g) != -1) {
+          sort = '&sort=type_str asc,document_title_str asc';
+        } else if (window.location.href.search(/genre:prose/g) != -1) {
+          sort = '&sort=document_title_str asc';
+        }
+      }
+      if ( !searchParams.has('rows') ) {
+        rows = '&rows=25';
+      }
+      // BROWSE
+      if (window.location.href.search(/genre:letter/g) != -1) {
+        makeQuery( `facet.field=languages&facet.field=author_str&facet.field=addressee_str&facet.field=origin_str&facet.field=destination_str&facet.field=mentioned_str&facet.field=holding_str&facet.missing=false&facet=on&`+searchParams.toString()+sort+rows+`&hl=on&hl.fl=text&hl.snippets=5&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true` );
+      } else if (window.location.href.search(/genre:poem/g) != -1) {
+        makeQuery( `facet.field=type&facet.field=languages&facet.field=contributor_str&facet.field=rhyme_str&facet.field=syllab_str&facet.field=subject_str&facet.field=form_str&facet.missing=false&facet=on&`+searchParams.toString()+sort+rows+`&hl=on&hl.fl=text&hl.snippets=5&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true` );
+      } else if (window.location.href.search(/genre:prose/g) != -1) {
+        makeQuery( `facet.field=languages&facet.field=topic_str&facet.missing=false&facet=on&`+searchParams.toString()+sort+rows+`&hl=on&hl.fl=text&hl.snippets=5&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true` );
+      }  
+    }
+    // browse (NOT USED!)
+    /*
+    else {
+      makeQuery( `facet.field=languages&facet.field=author_str&facet.field=addressee_str&facet.field=origin_str&facet.field=destination_str&facet.field=hand_str&facet.field=kw_str&facet.field=mentioned_people_str&facet.field=mentioned_places_str&facet.field=mentioned_events_str&facet.field=mentioned_orgs_str&facet.field=mentioned_works_str&facet.missing=false&facet=on&q=*:*&rows=25&sort=date_dts asc` );
+    }
+    */
+  var citation = "";
+  citation += "Huber, Alexander. ";
+  var citlink = 'https:\/\/<!--#echo var="HTTP_HOST" --><!--#echo var="DOCUMENT_URI" -->';
+  citation += '\"Search\". ';
+  citation +='<em>Thomas Gray Archive</em>, '+
+  '<!--#flastmod virtual="/about/history.shtml" -->'+
+  '. Web. <!--#echo var="DATE_LOCAL"-->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+
+  });
+  
+</script>
+
+<!--#include virtual="/bottom.shtml"-->

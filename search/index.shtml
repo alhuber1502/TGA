@@ -17,9 +17,25 @@
 
 		<h1>Search</h1>
 
-<!--#set var="QUERY_STRING" value="part=search" -->
-<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=search" -->
+<!--#include virtual="simple.shtml" -->
 
+		<h2>What am I searching?</h2>
+
+		<h3>Poems</h3>
+		<p>
+		  The TEI/XML–encoded digital edition of the complete poems of Thomas Gray, in English, Latin, and Greek, as available on the <em>Archive's</em> <a href="/texts/poems.shtml">Poems</a> page.  This also includes translations of Gray's poems, such as the translations produced as part of the <a href="/texts/poems/elegy/#translations">"Gray's <em>Elegy</em> in translation"</a>–project.
+		</p>
+
+		<h3>Prose Works</h3>
+		<p>
+		  A selection of Gray's prose from the <em>Archive's</em> digital library, partly transcribed and partly OCR'd/HTR'd, as available on the <em>Archive's</em> <a href="/texts/prose.shtml">Prose Works</a> page, primarily intended to highlight Gray's scholarly efforts alongside his poetry and letter writing.  Over time we will be adding more prose from manuscripts, notebooks, diaries, and annotated print volumes.
+		</p>
+
+		<h3>Letters</h3>
+		<p>
+		  The TEI/XML–encoded digital edition of the complete correspondence of Thomas Gray, including letters written to Gray, as available on the <em>Archive's</em> <a href="/texts/letters.shtml">Letters</a> page. There are 651 known letters from and to the poet, of which 592 have survived in autograph MS, as a copy, or in print.
+		</p>
+		    
 		</section> <!-- end main section -->
 		
 	</div>
@@ -31,16 +47,15 @@
               <h3 class="panel-title">Search tips</h3>
             </div>
             <div class="panel-body">
-	      <ul>
-		<li><EM>All words</EM>
-		  entered in the text field are <EM>search terms</EM></li>
-		<li><em>"Wildcard" searches:</em> the "?"
-		  (one character) and "*" (any number of characters) wildcards are
-		  supported</li>
-		<li><em>Boolean operators:</em> "all the words" (AND), "any word" (OR) or "exact phrase" can be selected in the query options</li>
-		<li><em>Result options:</em> selecting "off" hides the keywords in context, while still showing a list of retrieved texts</li>
+	      <ul class="advanced-help">
+		<li>Leave the search field empty to retrieve all records </li>
+		<li>Use quotation marks to search as "a phrase" </li>
+		<li>Use "+" before a word or phrase to make it required (otherwise results matching only some of your terms may be included) </li>
+		<li>Use "-" before a word or phrase to exclude it </li>
+		<li>Use "OR", "AND", and "NOT" to create advanced boolean logic (use parentheses to disambiguate your expressions) </li>
+		<li>Truncations and wildcards ("*", "?") are supported, except in phrase searches </li>
+		<li>Add "~n" (where n is 1, 2, 3 etc.) to any search term to enable fuzzy searching (i.e. allowing for n insertions, deletions, or substitutions) </li>
 	      </ul>
-	      
             </div>
           </div>
 
