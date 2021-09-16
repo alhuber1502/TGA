@@ -1216,7 +1216,11 @@ position: relative;
 
 #search .col-xs-9, #search .col-xs-3 {
   float: unset;
-  display: table-cell;
+  display: inline-table;
+  table-layout: fixed;
+}
+#search .col-xs-9 {
+  width:74%;
 }
 
 #main #ana .poemtitle .anassummary,
@@ -2243,17 +2247,17 @@ body:not(#home) #carousel {
 
 h1,.h1 {
   font-size: 2em;
-  font-family:"Open Sans","Playfair Display","Times New Roman",Times,serif;
+  font-family:"Playfair Display","Times New Roman",Times,serif;
   line-height:normal;
 }
 body:not(#home) h1, body:not(#home) .h1 {
   font-size: 1.8em;
-  font-family:"Open Sans","Playfair Display","Times New Roman",Times,serif;
+  font-family:"Playfair Display","Times New Roman",Times,serif;
   line-height:normal;
 }
 h2,.h2 {
   font-size: 1.6em;
-  font-family:"Open Sans","Playfair Display","Times New Roman",Times,serif;
+  font-family:"Playfair Display","Times New Roman",Times,serif;
   line-height:normal;
 }
 h3,.h3 {

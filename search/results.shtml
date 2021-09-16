@@ -17,7 +17,7 @@
                 <div id="query"></div>
                 <header id="results_header">
                   <div class="row">
-                    <div class="col-md-2"><h2 style="margin-top:0;"> results</h2></div>
+                    <div class="col-md-2"><h2 style="margin-top:0;font-size:1.5em;"> results</h2></div>
                     <div class="col-md-3" id="per_page" style="text-align:center;"></div>
                     <div class="col-md-4" style="text-align:center;"><ul class="sync-pagination pagination"></ul></div>
                     <div class="col-md-3" id="sorting"></div>
@@ -79,7 +79,7 @@
       if (window.location.href.search(/genre:letter/g) != -1) {
         makeQuery( `facet.field=languages&facet.field=author_str&facet.field=addressee_str&facet.field=origin_str&facet.field=destination_str&facet.field=mentioned_str&facet.field=holding_str&facet.missing=false&facet=on&`+searchParams.toString()+sort+rows+`&hl=on&hl.fl=text&hl.snippets=5&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true` );
       } else if (window.location.href.search(/genre:poem/g) != -1) {
-        makeQuery( `facet.field=type&facet.field=languages&facet.field=contributor_str&facet.field=rhyme_str&facet.field=syllab_str&facet.field=subject_str&facet.field=form_str&facet.missing=false&facet=on&`+searchParams.toString()+sort+rows+`&hl=on&hl.fl=text&hl.snippets=5&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true` );
+        makeQuery( `facet.field=type&facet.field=languages&facet.field=contributor_str&facet.field=rhyme_str&facet.field=syllab_str&facet.field=met_str&facet.field=subject_str&facet.field=form_str&facet.missing=false&facet=on&`+searchParams.toString()+sort+rows+`&hl=on&hl.fl=text&hl.snippets=5&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true` );
       } else if (window.location.href.search(/genre:prose/g) != -1) {
         makeQuery( `facet.field=languages&facet.field=topic_str&facet.missing=false&facet=on&`+searchParams.toString()+sort+rows+`&hl=on&hl.fl=text&hl.snippets=5&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true` );
       }  

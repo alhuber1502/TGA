@@ -23,6 +23,7 @@ repl[ "topic_str" ] = "Topics";
 repl[ "type" ] = "Types";
 repl[ "contributor_str" ] = "Contributors";
 repl[ "rhyme_str" ] = "Rhyme Patterns";
+repl[ "met_str" ] = "Metrical Patterns";
 repl[ "syllab_str" ] = "Syllable Patterns";
 repl[ "subject_str" ] = "Subjects";
 repl[ "form_str" ] = "Poetic Forms";
@@ -64,12 +65,12 @@ function format_filters( filters, base ) {
     for ( var i=0; i<filters.facet_fields[ key ].length-1; i+=2 ) {
       if ( filters.facet_fields[key][i+1] > 0 ) {
         var thisfq = `fq=`+key+`:"`+filters.facet_fields[key][i]+`"`;
-        var re = new RegExp( thisfq.replace(/\[/g, "\\[").replace(/\]/g, "\\]").replace( /\?/g, "\\?").replace( /\(/g, "\\(").replace( /\)/g, "\\)").replace( /\*/g, "\\*"),"g" );
+        var re = new RegExp( thisfq.replace(/\[/g, "\\[").replace(/\]/g, "\\]").replace( /\?/g, "\\?").replace( /\(/g, "\\(").replace( /\)/g, "\\)").replace( /\*/g, "\\*").replace( /\+/g, "\\+"),"g" );
         var reout = '';
         if ( base.search( re ) != -1 ) {
-          reout = `<span class="facet_delete"><a class="del_facet" href='`+thisfq.replace(/'/g, '%27')+`' data-base='`+base.replace(/'/g, '%27')+`&rows=`+per_page+`'>&times;</a> </span>`;
+          reout = `<span class="facet_delete"><a class="del_facet" href='`+thisfq.replace(/'/g, '%27').replace( /\+/g, "%2B")+`' data-base='`+base.replace(/'/g, '%27').replace( /\+/g, "%2B")+`&rows=`+per_page+`'>&times;</a> </span>`;
         }
-        output += `<li>`+reout+`<span class="facet_label">`+((reout == '')?`<a class="add_facet" href='`+base.replace(/'/g, "%27")+`&rows=`+per_page+`&start=0&fq=`+key+`:&quot;`+filters.facet_fields[key][i].replace(/'/g, "%27")+`&quot;'>`:``)+(repl[ filters.facet_fields[key][i] ]?repl[ filters.facet_fields[key][i] ]:filters.facet_fields[key][i])+((reout == '')?`</a>`:``)+`</span> <span class="facet_count">`+filters.facet_fields[key][i+1].toLocaleString()+`</span></li>`;
+        output += `<li>`+reout+`<span class="facet_label">`+((reout == '')?`<a class="add_facet" href='`+base.replace(/'/g, "%27").replace( /\+/g, "%2B")+`&rows=`+per_page+`&start=0&fq=`+key+`:&quot;`+filters.facet_fields[key][i].replace(/'/g, "%27").replace( /\+/g, "%2B")+`&quot;'>`:``)+(repl[ filters.facet_fields[key][i] ]?repl[ filters.facet_fields[key][i] ]:filters.facet_fields[key][i])+((reout == '')?`</a>`:``)+`</span> <span class="facet_count">`+filters.facet_fields[key][i+1].toLocaleString()+`</span></li>`;
       }
     }
     output += `</ul></div></div>`;
@@ -101,7 +102,7 @@ async function format_results( docs, base, highlights ) {
       var v = docs.docs[ j ];
       output += `<li>`;
       // Letters
-      if (window.location.href.search(/genre:letter/g) != -1) { 
+      if ( v.genre == "letter") { 
         output += `<div style="font-size:1.3rem;">[`+String(v.date_daterange).split( " TO " )[0].split('T')[0].substr(1)+(String(v.date_daterange).split( " TO " )[1] && String(v.date_daterange).split( " TO " )[1].split('T')[0] != String(v.date_daterange).split( " TO " )[0].split('T')[0].substr(1) ?' / '+String(v.date_daterange).split( " TO " )[1].split('T')[0]:'')+`]</div>`;
       }
       output += `<div style="display:table-cell;" class="item-desc">`;
@@ -455,7 +456,7 @@ jq( document ).on( 'submit', '#advsearch,#simsearch,#newSearch .simple_search', 
           makeQuery( `facet.field=languages&facet.field=author_str&facet.field=addressee_str&facet.field=origin_str&facet.field=destination_str&facet.field=mentioned_str&facet.field=holding_str&facet.missing=false&facet=on&q.op=`+op+`&q=`+qvalues.join( " " )+`&sort=score desc&hl=on&hl.fl=text&hl.snippets=10&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true&rows=`+per_page
         + "&fq="+data.search_field); 
         } else if ( data.search_field == 'genre:poem' ) {
-          makeQuery( `facet.field=type&facet.field=languages&facet.field=contributor_str&facet.field=rhyme_str&facet.field=syllab_str&facet.field=subject_str&facet.field=form_str&facet.missing=false&facet=on&q.op=`+op+`&q=`+qvalues.join( " " )+`&sort=score desc&hl=on&hl.fl=text&hl.snippets=10&hl.fragsize=50&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true&rows=`+per_page
+          makeQuery( `facet.field=type&facet.field=languages&facet.field=contributor_str&facet.field=rhyme_str&facet.field=syllab_str&facet.field=met_str&facet.field=subject_str&facet.field=form_str&facet.missing=false&facet=on&q.op=`+op+`&q=`+qvalues.join( " " )+`&sort=score desc&hl=on&hl.fl=text&hl.snippets=10&hl.fragsize=50&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true&rows=`+per_page
           + "&fq="+data.search_field); 
         } else if ( data.search_field == 'genre:prose' ) {
           makeQuery( `facet.field=languages&facet.field=topic_str&facet.missing=false&facet=on&q.op=`+op+`&q=`+qvalues.join( " " )+`&sort=score desc&hl=on&hl.fl=text&hl.snippets=10&hl.encoder=html&hl.simple.pre=<span>&hl.simple.post=</span>&hl.requireFieldMatch=true&rows=`+per_page
