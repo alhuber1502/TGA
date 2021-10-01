@@ -2102,7 +2102,10 @@ body {
   background-clip: padding-box;
 }
 
-#footer { position: fixed; }
+#footer { 
+  position: fixed; 
+  z-index:100;
+}
 .footer {
   position: absolute;
   bottom: 0;
