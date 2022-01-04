@@ -109,15 +109,15 @@ async function format_results( docs, base, highlights ) {
       //var unique_document_title = v.author+" to "+v.addressee+", "+v.date_human;
       var unique_document_title = v.document_title;
       var link_url = '';
-      if (window.location.href.search(/genre:letter/g) != -1) { 
+      if (base.search(/genre:letter/g) != -1) { 
         link_url = `/cgi-bin/display.cgi?text=`+v.document_id;
-      } else if (window.location.href.search(/genre:poem/g) != -1) { 
+      } else if (base.search(/genre:poem/g) != -1) { 
         if ( v.type == 'original' ) {
           link_url = `/cgi-bin/display.cgi?text=`+v.id.slice(v.id.length - 4);
         } else {
           link_url = `/texts/poems/elegy/translations.shtml?texts=tgaen-welcc:`+v.id+`:`;
         }
-      } else if (window.location.href.search(/genre:prose/g) != -1) { 
+      } else if (base.search(/genre:prose/g) != -1) { 
         link_url = v.document_url;
       }
       output += `<a href="`+link_url+`"><h3>`+truncateString(unique_document_title,400)+`</h3></a>`;
