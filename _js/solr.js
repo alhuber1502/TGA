@@ -358,6 +358,13 @@ function makeQuery( query ) {
         query += '&sort=document_title_str asc';
       }
     }
+    if (query.search(/genre:letter/g) != -1) {
+      $( "#search_genre" ).html( "Letters" );
+    } else if (query.search(/genre:poem/g) != -1) {
+      $( "#search_genre" ).html( "Poems" );
+    } else if (query.search(/genre:prose/g) != -1) {
+      $( "#search_genre" ).html( "Prose Works" );
+    }
     backup_query = query;
     jq( "#main,#tabCorpusSearch" ).append( "<div id='spinner'><img style='width:48px; height:48px;' src='/images/loader.gif'/></div>" );
     jq.ajax(
