@@ -1,8 +1,12 @@
 // TGA
 // SOLR
 
-//var SOLR_TGA = "http://192.168.1.2:8983/solr/tga/select";
-var SOLR_TGA = "https://guineapig.hubers.org.uk/solr/solr/tga/select";
+var SOLR_TGA;
+if ( /thomasgray\.org/.test(window.location.href) ) {
+  SOLR_TGA = "https://guineapig.hubers.org.uk/solr/solr/tga/select";
+} else {
+  SOLR_TGA = "http://192.168.1.2:8983/solr/tga/select";  
+}
 
 // clear-text replacements
 var repl = {};
