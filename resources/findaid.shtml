@@ -37,7 +37,7 @@
 
 	<h2>Manuscripts</h2>
 
-	<form name="bylang" method="GET" action="/cgi-bin/findaid.cgi" class="findingaidsearch">
+	<form name="bylang" method="GET" action="/resources/findaid/" class="findingaidsearch">
 
 	<label for="lang" class="label">Language:</label>
 									<INPUT type="hidden" name="ead" value="grayt.ead.0001">
@@ -52,7 +52,7 @@
 									</form>
 
 
-									<FORM name="byhand" method="GET" action="/cgi-bin/findaid.cgi" class="findingaidsearch">
+									<FORM name="byhand" method="GET" action="/resources/findaid/" class="findingaidsearch">
 
 
 									<label for="hand" class="label">Hand:</label>
@@ -68,7 +68,7 @@
 									</FORM>
 
 
-									<FORM name="byholding" method="GET" action="/cgi-bin/findaid.cgi" class="findingaidsearch">
+									<FORM name="byholding" method="GET" action="/resources/findaid/" class="findingaidsearch">
 
 									<label for="holding" class="label">Holding Institution:</label>
 									<INPUT type="hidden" name="ead" value="grayt.ead.0001">
@@ -113,7 +113,7 @@
             <div role="tabpanel" class="tab-pane" id="overview">
 <!--
 <a class="image"
-href="/cgi-bin/view.cgi?collection=primary&amp;edition=mss0202&amp;page=u1"><img src="/images/diglib/primary/mss/mss0202/thumbs/0001.jpeg"
+href="/texts/diglib/primary/mss0202/1/u1"><img src="/images/diglib/primary/mss/mss0202/thumbs/0001.jpeg"
 alt="[[MS ID 202/T.M.: Sonnet, On the Death of Richard West, between 1771 and 1820], page ---]" class="floatright border1"></a>
 //-->
 <h2>About</h2>
@@ -129,10 +129,10 @@ MSS). </p>
 known MS copy. Gray's MSS were originally left to <a
 href="/materials/glnames.shtml#Mason,%20William,%201724-1797">William Mason</a>
 who was authorized by Gray in his <a
-href="/cgi-bin/view.cgi?collection=primary&amp;edition=BrJ_1891&amp;page=285">will</a>
+href="/texts/diglib/primary/BrJ_1891/1/285">will</a>
 to &quot;preserve or destroy at his own discretion.&quot; Mason edited
 many of Gray's letters and poems for his edition of <a
-href="/cgi-bin/view.cgi?collection=primary&amp;edition=1775">1775</a>, which
+href="/texts/diglib/primary/1775">1775</a>, which
 for a small number of letters and poems is now the only authority. When Mason
 died in 1797, Gray's MSS passed on to a mutual friend, <a
 href="/materials/glnames.shtml#Stonhewer,%20Richard,%201728-1809">Richard
@@ -149,7 +149,7 @@ href="http://www.loc.gov/ead/">standards</a>-based and up-to-date record of
 Gray's MSS and is intended as a research tool for Gray scholars. It is
 work-in-progress: when completed, it will contain all known
 Thomas Gray manuscripts, including his prose works, personal papers, and
-marginalia. Please see the <a href="/cgi-bin/findaid.cgi?ead=grayt.ead.0001&amp;intro=true">overview</a> and this <a href="../help/#findaid">help</a> section
+marginalia. Please see the <a href="/resources/findaid/intro">overview</a> and this <a href="../help/#findaid">help</a> section
 for more information.</p>
 	    </div>
 	  </div>
@@ -166,8 +166,8 @@ for more information.</p>
             <ul class="nav nav-stacked" data-offset-top="41"
 		data-offset-bottom="41">
 	      <li><a href="/resources/findaid.shtml">Finding Aid</a></li>
-	      <li><a href="/cgi-bin/findaid.cgi?ead=grayt.ead.0001&amp;intro=true">Overview</a></li>
-	      <li><a id="poems" title="may take a long time to download!" href="/cgi-bin/findaid.cgi?ead=grayt.ead.0001&amp;collection=poems">Show all MSS</a></li>
+	      <li><a href="/resources/findaid/intro">Overview</a></li>
+	      <li><a id="poems" title="may take a long time to download!" href="/resources/findaid/collection=poems">Show all MSS</a></li>
 	    </ul>
 	    
 	  </nav>
@@ -181,13 +181,11 @@ for more information.</p>
 <script>
   var citation = "";
   citation += "Huber, Alexander. ";
-  var citlink = 'https:\/\/<!--#echo var="HTTP_HOST" --><!--#echo
-  var="DOCUMENT_URI" -->';
+  var citlink = 'https:\/\/<!--#echo var="HTTP_HOST" --><!--#echo var="DOCUMENT_URI" -->';
   citation += '\"Finding Aid\". ';
   citation +='<em>Thomas Gray Archive</em>, '+
   '<!--#flastmod virtual="/about/history.shtml" -->'+
-  '. Web. <!--#echo var="DATE_LOCAL"
-  -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+  '. Web. <!--#echo var="DATE_LOCAL" -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
 
 </script>
 <!--#include virtual="/bottom.shtml" -->

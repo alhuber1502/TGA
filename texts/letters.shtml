@@ -20,7 +20,7 @@
 
 				<h3>Correspondents</h3>
 
-				<form name="correspondents" method="GET" action="/cgi-bin/display.cgi" id="mainsearch">
+				<form name="correspondents" method="GET" action="/texts/letters/" id="mainsearch">
 				<input type="hidden" name="collection" value="letters">
 					<div id="authors">
 														<label for="author" class="label">Letters from:</label>
@@ -1316,7 +1316,7 @@
           <nav class="affix">
             <ul class="nav nav-stacked">
 
-<!--#include virtual="letters/lettersnav.shtml" -->
+<!--#include virtual="/texts/letters/lettersnav.shtml" -->
 	    </ul>
 	  </nav>
 
@@ -1329,13 +1329,11 @@
 <script>
   var citation = "";
   citation += "Huber, Alexander. ";
-  var citlink = 'https:\/\/<!--#echo var="HTTP_HOST" --><!--#echo
-  var="DOCUMENT_URI" -->';
+  var citlink = 'https:\/\/<!--#echo var="HTTP_HOST" --><!--#echo var="DOCUMENT_URI" -->';
   citation += '\"Letters\". ';
   citation +='<em>Thomas Gray Archive</em>, '+
     '<!--#flastmod virtual="/about/history.shtml" -->'+
-    '. Web. <!--#echo var="DATE_LOCAL"
-  -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+    '. Web. <!--#echo var="DATE_LOCAL" -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
 </script>
 
 <!--#include virtual="/bottom.shtml" -->

@@ -1,0 +1,36 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Texts" -->
+<!--#set var="youarehere" value="<li><a href=\"/\" class=\"breadcrumb\">Home</a></li><li>Texts</li>" -->
+<!--#set var="bodyid" value="texts"  -->
+<!--#set var="texts" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+    <!-- Begin page content -->
+    
+    <div class="container" style="width:100%;">
+
+      <div class="row">
+
+        <div class="col-xs-12">
+
+	  <iframe src="alhuber1502@gh_grays-english-poems.html" id="ep_nb"
+		  style="width:100%;height:calc(100vh - 85px);border:0;"></iframe>
+	  
+	</div>
+
+      </div>
+
+    </div> <!-- end main wrapper -->
+
+
+<script>
+  var citation = "";
+  citation += "Huber, Alexander. ";
+  var citlink = 'https:\/\/<!--#echo var="HTTP_HOST" --><!--#echo var="DOCUMENT_URI" -->';
+  citation += '\"An Exploratory Tour of Thomas Gray\'s English poems\". ';
+  citation +='<em>Thomas Gray Archive</em>, '+
+    '<!--#flastmod virtual="/about/history.shtml" -->'+
+    '. Web. <!--#echo var="DATE_LOCAL" -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+</script>
+
+<!--#include virtual="/bottom.shtml" -->

@@ -114,10 +114,10 @@ async function format_results( docs, base, highlights ) {
       var unique_document_title = v.document_title;
       var link_url = '';
       if (base.search(/genre:letter/g) != -1) { 
-        link_url = `/cgi-bin/display.cgi?text=`+v.document_id;
+        link_url = `/texts/letters/`+v.document_id;
       } else if (base.search(/genre:poem/g) != -1) { 
         if ( v.type == 'original' ) {
-          link_url = `/cgi-bin/display.cgi?text=`+v.id.slice(v.id.length - 4);
+          link_url = `/texts/poems/`+v.id.slice(v.id.length - 4);
         } else {
           link_url = `/texts/poems/elegy/translations.shtml?texts=tgaen-welcc:`+v.id+`:`;
         }
