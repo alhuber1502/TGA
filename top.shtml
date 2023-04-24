@@ -121,6 +121,12 @@
     <link rel="author" type="text/plain" href="/humans.txt"/>
     <!-- styles -->
 
+    <!-- BEGIN SHAREAHOLIC CODE -->
+      <link rel="preload" href="https://cdn.shareaholic.net/assets/pub/shareaholic.js" as="script" />
+      <meta name="shareaholic:site_id" content="1268259ecb2f284fe689b8b6395c33fa" />
+      <script data-cfasync="false" async src="https://cdn.shareaholic.net/assets/pub/shareaholic.js"></script>
+    <!-- END SHAREAHOLIC CODE -->
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9VLKVXTV25"></script>
     <script>
@@ -155,9 +161,10 @@
     <!-- Header -->
     <header id="top">
       <a class="sr-only" href="#skip">Skip main navigation</a>
+      <!--
       <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=alhuber1502"
               async="async"></script>
-
+      -->
       <!-- Fixed navbar -->
       <nav class="navbar navbar-inverse navbar-fixed-top">
 
