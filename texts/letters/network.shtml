@@ -475,9 +475,14 @@ function updateFilters() {
     ) })
     var min = _.minBy(new_edges, 'date');
     var max = _.maxBy(new_edges, 'date');
-    if (min && max) {
+    if (min && max && absoluteendyr == undefined && absolutestartyr == undefined) {
       jq( "#slider-range" ).slider("values", [min.date, max.date]);
       jq( "#year-range" ).val( min.date + "–" + max.date );
+      absolutestartyr = min.date;
+      absoluteendyr = max.date;
+    } else if (min && max) {
+      absolutestartyr = min.date;
+      absoluteendyr = max.date;
     }
   }
   // filter by date
@@ -494,6 +499,7 @@ function updateFilters() {
 
 jq( "#reset" ).on( "click", function() {
   startyr = 1734, endyr = 1771;
+  absolutestartyr = undefined, absoluteendyr = undefined;
   jq( "#slider-range" ).slider("values", [startyr, endyr]);
   jq( "#year-range" ).val( startyr + "–" + endyr );
   document.getElementById("correspondents_list").selectedIndex = 0;
@@ -502,12 +508,16 @@ jq( "#reset" ).on( "click", function() {
 
 var startyr = 1734;
 var endyr = 1771;
+var absolutestartyr = undefined, absoluteendyr = undefined;
 jq( "#slider-range" ).slider({
   range: true,
   min: parseInt(startyr),
   max: parseInt(endyr),
   values: [ parseInt(startyr),parseInt(endyr) ],
   slide: function( event, ui ) {
+    if ( absolutestartyr != undefined && ui.values[ 0 ] < parseInt(absolutestartyr) || absoluteendyr != undefined && ui.values[ 1 ] > parseInt(absoluteendyr)) {
+      return false;
+    }
     jq( "#year-range" ).val( ui.values[ 0 ] + "–" + ui.values[ 1 ] );
     startyr = ui.values[ 0 ], endyr = ui.values[ 1 ];
     updateFilters();
@@ -529,6 +539,7 @@ function setupFilters() {
 
 jq(document.body).on('change', 'select#correspondents_list' , function() {
   startyr = 1734, endyr = 1771;
+  absolutestartyr = undefined, absoluteendyr = undefined;
   if ( document.getElementById("correspondents_list").selectedIndex == 0 ) {
     jq( "#slider-range" ).slider("values", [startyr, endyr]);
     jq( "#year-range" ).val( startyr + "–" + endyr );
