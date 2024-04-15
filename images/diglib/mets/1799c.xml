@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mets:mets [
+  <!ENTITY AElig  '&#xC6;'>
+  <!ENTITY Eacute '&#xC9;'>
+  <!ENTITY eacute '&#xE9;'>
+  <!ENTITY egrave '&#xE8;'>
+  <!ENTITY ccedil '&#xE7;'>
+  <!ENTITY ecirc  '&#xEA;'>
+  <!ENTITY aelig  '&#xE6;'>
+  <!ENTITY copy   '&#169;'>
+  <!ENTITY deg    '&#176;'>
+  <!ENTITY nbsp   '&#160;'>
+  <!ENTITY ouml   '&#246;'>
+]>
+<mets:mets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:mets="http://www.loc.gov/METS/"
+  xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/mets/mets.xsd">
+<!-- See e.g. <http://dfg-viewer.de/show/?tx_dlf%5Bid%5D=https%3A%2F%2Fwww.thomasgray.org%2Fimages%2Fdiglib%2Fmets%2F1799c.xml&no_cache=1> -->
+
+  <mets:dmdSec ID="diglib-1799c-dmd-0000">
+    <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" version="3.3"
+          xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+          <mods:identifier type="urn">urn:x-thomasgrayarchive:grayt.1799c</mods:identifier>
+          <mods:titleInfo>
+            <mods:title> [Grave] The grave, a poem, by Robert Blair With a life of the author &amp;             prefatory notes on the poem; to which is added Gray's Elegy written             in a country church yard.  
+            </mods:title>
+          </mods:titleInfo>
+          <mods:typeOfResource>still image</mods:typeOfResource>
+          <mods:name type="personal" authority="lcnaf">
+            <mods:displayForm>Blair, Robert, 1699-1746</mods:displayForm>
+            <mods:role>
+              <mods:roleTerm type="text">author</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" authority="lcnaf">
+            <mods:displayForm>Gray, Thomas,  1716-1771</mods:displayForm>
+            <mods:role>
+              <mods:roleTerm type="text">author</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" authority="lcnaf">
+            <mods:displayForm>Morison, William, 1780-1806</mods:displayForm>
+            <mods:role>
+              <mods:roleTerm type="text">editor</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="code">edt</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:originInfo>
+            <mods:publisher>
+               Perth: published by James Morison and sold by Will. Morison. 1799. 
+            </mods:publisher>                        
+            <mods:dateCaptured>
+              03/03/2020
+            </mods:dateCaptured>
+            <mods:dateIssued encoding="iso8601" keyDate="yes">1799</mods:dateIssued>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:extent>
+               [2],xii,34p.,plate; 12â°.
+            </mods:extent>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:location>
+            <mods:physicalLocation>
+              Bodleian Library, University of Oxford
+            </mods:physicalLocation>              
+            <mods:shelfLocator>
+              Vet. A5 f.3253
+            </mods:shelfLocator>
+          </mods:location>
+          <mods:relatedItem type="isReferencedBy">
+            <mods:note type="citation/reference">
+              ESTC N18308
+            </mods:note>
+          </mods:relatedItem>
+          <mods:recordInfo>
+            <mods:recordIdentifier source="TGA">1799c</mods:recordIdentifier>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+
+  <mets:amdSec ID="diglib-1799c-amd-0000">
+    <mets:rightsMD ID="diglib1799c-amd-rights-0000">
+      <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+        <mets:xmlData>
+          <dv:rights xmlns:dv="http://dfg-viewer.de/">
+            <dv:owner>Thomas Gray Archive</dv:owner>
+            <dv:ownerContact>mailto:info@thomasgray.org</dv:ownerContact>
+            <dv:ownerLogo>https://www.thomasgray.org/images/GrayTh1716_NPG.jpg</dv:ownerLogo>
+            <dv:ownerSiteURL>https://www.thomasgray.org/</dv:ownerSiteURL>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="diglib-1799c-amd-digiprov-0000">
+      <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <dv:links xmlns:dv="http://dfg-viewer.de/">
+            <dv:reference>https://www.thomasgray.org/texts/diglib/primary/1799c#record</dv:reference>
+            <dv:presentation>https://www.thomasgray.org/texts/diglib/primary/1799c</dv:presentation>
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+
+  <mets:fileSec>
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file ID="diglib-1799c-img-000001">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000001.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000002">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000002.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000003">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000003.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000004">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000004.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000005">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000005.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000006">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000006.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000007">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000007.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000008">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000008.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000009">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000009.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000010">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000010.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000011">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000011.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000012">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000012.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000013">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000013.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000014">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000014.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000015">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000015.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000016">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000016.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000017">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000017.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000018">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000018.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000019">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000019.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000020">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000020.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000021">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000021.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000022">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000022.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000023">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000023.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000024">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000024.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000025">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000025.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000026">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000026.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000027">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000027.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000028">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000028.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000029">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000029.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000030">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000030.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000031">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000031.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000032">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000032.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000033">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000033.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000034">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000034.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000035">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000035.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000036">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000036.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000037">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000037.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000038">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000038.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000039">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000039.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000040">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000040.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000041">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000041.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000042">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000042.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000043">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000043.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000044">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000044.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000045">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000045.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000046">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000046.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000047">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000047.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000048">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000048.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000049">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000049.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000050">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000050.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000051">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000051.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000052">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000052.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000053">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000053.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000054">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000054.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000055">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000055.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000056">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000056.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000057">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000057.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000058">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000058.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000059">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000059.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000060">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000060.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000061">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000061.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000062">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000062.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000063">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000063.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000064">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000064.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000065">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000065.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000066">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000066.JPG"/>
+      </mets:file>
+      <mets:file ID="diglib-1799c-img-000067">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://www.thomasgray.org/images/diglib/primary/1799c/000067.JPG"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ID="diglib-1799c-log-0000" DMDID="diglib-1799c-dmd-0000" ADMID="diglib-1799c-amd-0000" TYPE=" ">
+      <mets:div ID="diglib-1799c-log-0001" LABEL="The Grave" TYPE="Illustration"/>
+      <mets:div ID="diglib-1799c-log-0002" LABEL="The Grave. A poem. By Robert Blair..." TYPE="TitlePage"/>
+      <mets:div ID="diglib-1799c-log-0003" LABEL="The Grave&colon; A poem. ..." TYPE="TitlePage"/>
+      <mets:div ID="diglib-1799c-log-0004" LABEL="Preface by the Editor" TYPE="DedicationForewordIntro"/>
+      <mets:div ID="diglib-1799c-log-0005" LABEL="The Grave." TYPE="TextSection"/>
+      <mets:div ID="diglib-1799c-log-0006" LABEL="Gray's Elegy." TYPE="TextSection"/>
+    </mets:div>
+  </mets:structMap>
+
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div ID="diglib-1799c-phys-0000" TYPE="physSequence">
+      <mets:div ID="diglib-1799c-phys-000001" ORDER="1" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000001"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000002" ORDER="2" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000002"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000003" ORDER="3" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000003"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000004" ORDER="4" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000004"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000005" ORDER="5" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000005"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000006" ORDER="6" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000006"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000007" ORDER="7" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000007"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000008" ORDER="8" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000008"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000009" ORDER="9" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000009"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000010" ORDER="10" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000010"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000011" ORDER="11" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000011"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000012" ORDER="12" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000012"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000013" ORDER="13" TYPE="page" ORDERLABEL="[i]">
+        <mets:fptr FILEID="diglib-1799c-img-000013"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000014" ORDER="14" TYPE="page" ORDERLABEL="[ii]">
+        <mets:fptr FILEID="diglib-1799c-img-000014"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000015" ORDER="15" TYPE="page" ORDERLABEL="[iii]">
+        <mets:fptr FILEID="diglib-1799c-img-000015"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000016" ORDER="16" TYPE="page" ORDERLABEL="iv">
+        <mets:fptr FILEID="diglib-1799c-img-000016"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000017" ORDER="17" TYPE="page" ORDERLABEL="v">
+        <mets:fptr FILEID="diglib-1799c-img-000017"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000018" ORDER="18" TYPE="page" ORDERLABEL="vi">
+        <mets:fptr FILEID="diglib-1799c-img-000018"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000019" ORDER="19" TYPE="page" ORDERLABEL="vii">
+        <mets:fptr FILEID="diglib-1799c-img-000019"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000020" ORDER="20" TYPE="page" ORDERLABEL="viii">
+        <mets:fptr FILEID="diglib-1799c-img-000020"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000021" ORDER="21" TYPE="page" ORDERLABEL="ix">
+        <mets:fptr FILEID="diglib-1799c-img-000021"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000022" ORDER="22" TYPE="page" ORDERLABEL="x">
+        <mets:fptr FILEID="diglib-1799c-img-000022"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000023" ORDER="23" TYPE="page" ORDERLABEL="xi">
+        <mets:fptr FILEID="diglib-1799c-img-000023"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000024" ORDER="24" TYPE="page" ORDERLABEL="xii">
+        <mets:fptr FILEID="diglib-1799c-img-000024"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000025" ORDER="25" TYPE="page" ORDERLABEL="[1]">
+        <mets:fptr FILEID="diglib-1799c-img-000025"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000026" ORDER="26" TYPE="page" ORDERLABEL="2">
+        <mets:fptr FILEID="diglib-1799c-img-000026"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000027" ORDER="27" TYPE="page" ORDERLABEL="3">
+        <mets:fptr FILEID="diglib-1799c-img-000027"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000028" ORDER="28" TYPE="page" ORDERLABEL="4">
+        <mets:fptr FILEID="diglib-1799c-img-000028"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000029" ORDER="29" TYPE="page" ORDERLABEL="5">
+        <mets:fptr FILEID="diglib-1799c-img-000029"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000030" ORDER="30" TYPE="page" ORDERLABEL="6">
+        <mets:fptr FILEID="diglib-1799c-img-000030"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000031" ORDER="31" TYPE="page" ORDERLABEL="7">
+        <mets:fptr FILEID="diglib-1799c-img-000031"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000032" ORDER="32" TYPE="page" ORDERLABEL="8">
+        <mets:fptr FILEID="diglib-1799c-img-000032"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000033" ORDER="33" TYPE="page" ORDERLABEL="9">
+        <mets:fptr FILEID="diglib-1799c-img-000033"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000034" ORDER="34" TYPE="page" ORDERLABEL="10">
+        <mets:fptr FILEID="diglib-1799c-img-000034"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000035" ORDER="35" TYPE="page" ORDERLABEL="11">
+        <mets:fptr FILEID="diglib-1799c-img-000035"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000036" ORDER="36" TYPE="page" ORDERLABEL="12">
+        <mets:fptr FILEID="diglib-1799c-img-000036"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000037" ORDER="37" TYPE="page" ORDERLABEL="13">
+        <mets:fptr FILEID="diglib-1799c-img-000037"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000038" ORDER="38" TYPE="page" ORDERLABEL="14">
+        <mets:fptr FILEID="diglib-1799c-img-000038"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000039" ORDER="39" TYPE="page" ORDERLABEL="15">
+        <mets:fptr FILEID="diglib-1799c-img-000039"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000040" ORDER="40" TYPE="page" ORDERLABEL="16">
+        <mets:fptr FILEID="diglib-1799c-img-000040"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000041" ORDER="41" TYPE="page" ORDERLABEL="17">
+        <mets:fptr FILEID="diglib-1799c-img-000041"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000042" ORDER="42" TYPE="page" ORDERLABEL="18">
+        <mets:fptr FILEID="diglib-1799c-img-000042"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000043" ORDER="43" TYPE="page" ORDERLABEL="19">
+        <mets:fptr FILEID="diglib-1799c-img-000043"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000044" ORDER="44" TYPE="page" ORDERLABEL="20">
+        <mets:fptr FILEID="diglib-1799c-img-000044"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000045" ORDER="45" TYPE="page" ORDERLABEL="21">
+        <mets:fptr FILEID="diglib-1799c-img-000045"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000046" ORDER="46" TYPE="page" ORDERLABEL="22">
+        <mets:fptr FILEID="diglib-1799c-img-000046"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000047" ORDER="47" TYPE="page" ORDERLABEL="23">
+        <mets:fptr FILEID="diglib-1799c-img-000047"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000048" ORDER="48" TYPE="page" ORDERLABEL="24">
+        <mets:fptr FILEID="diglib-1799c-img-000048"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000049" ORDER="49" TYPE="page" ORDERLABEL="25">
+        <mets:fptr FILEID="diglib-1799c-img-000049"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000050" ORDER="50" TYPE="page" ORDERLABEL="26">
+        <mets:fptr FILEID="diglib-1799c-img-000050"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000051" ORDER="51" TYPE="page" ORDERLABEL="27">
+        <mets:fptr FILEID="diglib-1799c-img-000051"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000052" ORDER="52" TYPE="page" ORDERLABEL="[28]">
+        <mets:fptr FILEID="diglib-1799c-img-000052"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000053" ORDER="53" TYPE="page" ORDERLABEL="[29]">
+        <mets:fptr FILEID="diglib-1799c-img-000053"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000054" ORDER="54" TYPE="page" ORDERLABEL="30">
+        <mets:fptr FILEID="diglib-1799c-img-000054"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000055" ORDER="55" TYPE="page" ORDERLABEL="31">
+        <mets:fptr FILEID="diglib-1799c-img-000055"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000056" ORDER="56" TYPE="page" ORDERLABEL="32">
+        <mets:fptr FILEID="diglib-1799c-img-000056"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000057" ORDER="57" TYPE="page" ORDERLABEL="33">
+        <mets:fptr FILEID="diglib-1799c-img-000057"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000058" ORDER="58" TYPE="page" ORDERLABEL="34">
+        <mets:fptr FILEID="diglib-1799c-img-000058"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000059" ORDER="59" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000059"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000060" ORDER="60" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000060"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000061" ORDER="61" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000061"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000062" ORDER="62" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000062"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000063" ORDER="63" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000063"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000064" ORDER="64" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000064"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000065" ORDER="65" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000065"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000066" ORDER="66" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000066"/>
+      </mets:div>
+      <mets:div ID="diglib-1799c-phys-000067" ORDER="67" TYPE="page" ORDERLABEL="---">
+        <mets:fptr FILEID="diglib-1799c-img-000067"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+
+  <mets:structLink>
+    <mets:smLink xlink:from="diglib-1799c-log-0000" xlink:to="diglib-1799c-phys-0000"/>
+    <mets:smLink xlink:from="diglib-1799c-log-0001" xlink:to="diglib-1799c-phys-0010"/>
+    <mets:smLink xlink:from="diglib-1799c-log-0002" xlink:to="diglib-1799c-phys-0011"/>
+    <mets:smLink xlink:from="diglib-1799c-log-0003" xlink:to="diglib-1799c-phys-0013"/>
+    <mets:smLink xlink:from="diglib-1799c-log-0004" xlink:to="diglib-1799c-phys-0015"/>
+    <mets:smLink xlink:from="diglib-1799c-log-0005" xlink:to="diglib-1799c-phys-0025"/>
+    <mets:smLink xlink:from="diglib-1799c-log-0006" xlink:to="diglib-1799c-phys-0053"/>
+  </mets:structLink>
+
+</mets:mets>
