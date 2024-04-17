@@ -411,6 +411,9 @@ margin: 0;
 text-indent: -15px;
 
 }
+#main  .bibliography li audio {
+text-indent:initial;
+}
 
 #main .update .bibliography li,
 #main .update .bibliography ul li {
@@ -1443,7 +1446,19 @@ color: #FFF;
 
 }
 
-
+#link-to-top {
+  display: inline;
+  border-bottom: none;
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+  z-order: 50;
+  text-shadow: 3px 3px 3px #bbb;
+  font-size: 2em;
+  color: #a6001a;
+  opacity: .75;
+  z-index: 100;
+  padding-left:4px;
+}
 
 #main .textualcolor {
 
@@ -2211,7 +2226,7 @@ body {
 }
 
 #footer > .container p, #footer > .container nav {
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   display: inline;
 }
 .addthis_inline_share_toolbox {

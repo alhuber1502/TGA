@@ -36,13 +36,13 @@ jq(document).ready(function () {
   jq("a img").closest("a").addClass("noborder");
 
   //    jq('#main h2').append('<a href="#top" class="backtotop"><img src="/images/backtotop.png" alt="back to top" title="Back to Top"/></a>');
-
+  /*
   jq(
     '#main h2,#ft div.page,ul.ead_work h3,h3[id="earlyYears"],h3[id="middleYears"],h3[id="laterYears"],dl.glossary dt'
   ).prepend(
     '<a href="#top" class="backtotop noborder" style="float:right;"><img src="/images/backtotop.png" alt="back to top" title="Back to Top"/></a>'
   );
-
+  */
   // jq('.panel').hide();
   jq(".tabs a.active").removeClass("active");
   jq(".tabs li:first a").addClass("active").blur();
