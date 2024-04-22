@@ -265,6 +265,9 @@ forceGraph = (data) => {
           simulationUpdate();
     });
 
+  var clickDate = new Date();
+	var difference_ms;
+
   simulation.nodes(nodes)
     .on("tick",simulationUpdate);
   simulation.force("link")
@@ -290,10 +293,33 @@ forceGraph = (data) => {
 
   function dragStarted() {
     if (!d3.event.active) {
-      simulation.alphaTarget(0.3).restart();
+      simulation.alphaTarget(0.1).restart();
     }
     d3.event.subject.fx = transform.invertX(d3.event.x);
     d3.event.subject.fy = transform.invertY(d3.event.y);
+    difference_ms = (new Date()).getTime() - clickDate.getTime();
+		clickDate = new Date();
+    //if clicks less than 400ms apart (double click)
+    if( d3.event.subject && difference_ms < 400) {
+      switch ( d3.event.subject.group ) {
+        case 1: // author
+          window.location.href = "/texts/letters/?collection=letters&response=on&author="+d3.event.subject.label;
+        break;
+        case 2: // addressee
+          window.location.href = "/texts/letters/?collection=letters&response=on&author=Gray%2C+Thomas%2C+1716-1771&addressee="+d3.event.subject.label;
+        break;
+        case 3: // mentions
+          window.location.href = "/texts/letters/?collection=letters&response=on&mentions3="+d3.event.subject.label;
+        break;
+        case 5: // mentions
+          window.location.href = "/texts/letters/?collection=letters&response=on&mentions4="+d3.event.subject.label;
+        break;
+        case 6: // mentions
+        case 7: // mentions
+          window.location.href = "/texts/letters/?collection=letters&response=on&mentions2="+d3.event.subject.label;
+        break;
+      }
+    }
   }
 
   function dragged() {
@@ -337,7 +363,7 @@ forceGraph = (data) => {
       ctx.fill();
       if (d.group == 1 ) { ctx.font = "14px Arial"; ctx.fillText( d.label, d.x+5, d.y-2 ) } // Gray
       else if (d.group == 2 ) { ctx.font = "12px Arial"; ctx.fillText( d.label, d.x+5, d.y-2 ) } // correspondents
-      else if (transform.k >= 3 && d.group > 2) { // topics
+      else if (transform.k >= 2.5 && d.group > 2) { // topics
         var text = d.label;
         if ( d.group == 6 ) { // poems
           text = poems[ d.label ][ "label" ]
@@ -358,6 +384,7 @@ forceGraph = (data) => {
       ctx.stroke();
     });
     if (closeNode) { // highlight node and
+      var connectedNodes = [];
       edges.forEach(function(d) { // highlight connections
         if (closeNode.id === d.source.id || closeNode.id === d.target.id ) {
           ctx.beginPath();
@@ -370,8 +397,41 @@ forceGraph = (data) => {
             ctx.strokeStyle = '#f33'; // correspondents
           }
           ctx.lineWidth = 1;
-          ctx.stroke();          
+          ctx.stroke();
+          if ( d.target.id == closeNode.id ) {
+            connectedNodes.push( nodes.find(node => node.id == d.source.id));
+          } else {
+            connectedNodes.push( nodes.find(node => node.id == d.target.id));
+          }
         }
+      });
+      _.uniq( connectedNodes ).forEach(function(d) { // highlight connections
+        ctx.fillStyle = color[d.group];
+        ctx.fill();
+        if (d.group > 2) { // topics
+          var text = d.label;
+          if ( d.group == 6 ) { // poems
+            text = poems[ d.label ][ "label" ]
+          } else if ( d.group == 7 ) { // editions
+            text = editions[ d.label ][ "label" ]
+          }
+          if (transform.k < 2.5) { 
+            if (text.includes( '<i>' )) {
+              ctx.font = "italic 10px Arial";
+            } else {
+              ctx.font = "10px Arial";
+            }
+          } else {
+            if (text.includes( '<i>' )) {
+              ctx.font = "italic 6px Arial";
+            } else {
+              ctx.font = "6px Arial";
+            }
+          }
+          ctx.fillText( text.replace(/<\/?[^>]+(>|$)/g, ""), d.x+5, d.y-2 ) 
+        }
+        ctx.lineWidth = 1;
+        ctx.stroke();
       });
       ctx.beginPath();
       ctx.moveTo(closeNode.x + nodeRadius, closeNode.y);
@@ -388,7 +448,7 @@ forceGraph = (data) => {
         else if ( closeNode.group == 7 ) { // editions
           text = editions[ closeNode.label ][ "label" ]
         }
-        if (transform.k < 3) { 
+        if (transform.k < 2.5) { 
           if (text.includes( '<i>' )) {
             ctx.font = "italic 10px Arial";
           } else {
