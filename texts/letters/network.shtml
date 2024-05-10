@@ -569,18 +569,22 @@ jq( "#reset" ).on( "click", function() {
 var startyr = 1734;
 var endyr = 1771;
 var absolutestartyr = undefined, absoluteendyr = undefined;
+var timeout;
 jq( "#slider-range" ).slider({
   range: true,
   min: parseInt(startyr),
   max: parseInt(endyr),
   values: [ parseInt(startyr),parseInt(endyr) ],
   slide: function( event, ui ) {
+    timeout = clearTimeout(timeout);
     if ( absolutestartyr != undefined && ui.values[ 0 ] < parseInt(absolutestartyr) || absoluteendyr != undefined && ui.values[ 1 ] > parseInt(absoluteendyr)) {
       return false;
     }
     jq( "#year-range" ).val( ui.values[ 0 ] + "–" + ui.values[ 1 ] );
     startyr = ui.values[ 0 ], endyr = ui.values[ 1 ];
-    updateFilters();
+    timeout = setTimeout(function(){
+			updateFilters();
+		}, 300);
   }
 });
 jq( "#year-range" ).val( jq( "#slider-range" ).slider( "values", 0 ) +
