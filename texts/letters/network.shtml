@@ -576,10 +576,10 @@ jq( "#slider-range" ).slider({
   max: parseInt(endyr),
   values: [ parseInt(startyr),parseInt(endyr) ],
   slide: function( event, ui ) {
-    timeout = clearTimeout(timeout);
     if ( absolutestartyr != undefined && ui.values[ 0 ] < parseInt(absolutestartyr) || absoluteendyr != undefined && ui.values[ 1 ] > parseInt(absoluteendyr)) {
       return false;
     }
+    timeout = clearTimeout(timeout);
     jq( "#year-range" ).val( ui.values[ 0 ] + "–" + ui.values[ 1 ] );
     startyr = ui.values[ 0 ], endyr = ui.values[ 1 ];
     timeout = setTimeout(function(){
