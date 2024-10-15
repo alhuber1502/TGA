@@ -1018,7 +1018,25 @@ jq(document).ready(function () {
     </span></div>
 </div>
 `;
+  // Eton/Pembroke MSS stanza 3 of 4 omitted ones
+  stn[2] = `
+<div style="display:none;" id="tgaen-stn35" class="lg lgvspace" data-id="stn35" data-corresp="#stn35">
+    <div class="line"><span class="ln"></span><span class="l">
+        Hark how the sacred Calm, that broods around
+    </span></div>
+    <div class="line"><span class="ln"></span><span class="l">
+        Bids ev\'ry fierce tumultuous Passion cease
+    </span></div>
+    <div class="line"><span class="ln"></span><span class="l">
+        In still small Accents whisp\'ring from the Ground
+    </span></div>
+    <div class="line"><span class="ln"></span><span class="l">
+        A grateful Earnest of eternal Peace
+    </span></div>
+</div>
+`;
 
+    
   // load text
   jq(function () {
     jq(".trans_sel").on("change", function () {
