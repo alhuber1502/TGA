@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegie, geschrieben auf einem Dorfkirchhofe. Von Gray</title>
+            <author>Krais, Julius</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="deu1839_bib">
+               <author>Krais, Julius</author>
+               <date>1839</date>
+               <title level="a">Elegie, geschrieben auf einem Dorfkirchhofe. Von Gray</title>
+               <title level="m">Blätter zur Kunde der Literatur des Auslands</title>
+               <biblScope>no. 30, 117-118</biblScope>
+               <idno type="TuT_2016">Turk (2016), 5.</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Krais, Julius, 1807-1878"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="deu.Krais.1839">
+            <head type="main">Elegie, geschrieben auf einem Dorfkirchhofe. Von Gray.</head>
+            <lg n="1" corresp="#stn1">
+               <l>Die Abendglocke wiegt den Tag zur Ruh</l>
+               <l>Schwer zieht die Heerde brüllend heim vom Feld;</l>
+               <l>Der Müde Landmann schleicht der Hütte zu</l>
+               <l>Und lässt der Dunkelheit und mit die Welt.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>Stets blässer nun der Landschaft Schimmer wird,</l>
+               <l>Die Luft muss feirlich und stille sehn</l>
+               <l>Nur noch den Trägen Flug der Käfer schwirrt</l>
+               <l>Und schläfrig Klingeln lullt die Hürden ein.</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Aus jenem Thurm im –pheuraukenkleib</l>
+               <l>Berklagt die Eule träumend bei dem Mond</l>
+               <l>Ihn, der noch ihres Nestes Heimlichkeit</l>
+               <l>Nacht, nicht ihr alt einfames Reich verschont,</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>Wo Ulme Schatten wirst und Eibenbaum,</l>
+               <l>Aus Moderhügeln sich der Rafen hebt,</l>
+               <l>Zür immer schafen in dem eugen Raum</l>
+               <l>Des Dörfleins Ahnen, die hier einst gelebt.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>Des weibrauchbuft’gen Morgens Säufelhall,</l>
+               <l>Die Schwalbe, zwitschernd vom Strohhüttendach,</l>
+               <l>Des Hahns Drommetenton, des Hornes Schall</l>
+               <l>Ruft aus dem tiefen Bett sie nimmer wach.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Für sie entdrennt des Herdes Gluth nicht wehr, </l>
+               <l>Sorgt keiner Hausfrau abendliche Müh,</l>
+               <l>Kein Kind grüst eifend ihre Wiederkehr,</l>
+               <l>Klimmit um den Russ mit Neid empor am Knie.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>Den Wiezen ihr Sichel oft gewann</l>
+               <l>Und oft die harte Scholle brach ihr Pflug;</l>
+               <l>Wie froh ins Geld sie trieben ihr Gespann,</l>
+               <l>Wie ihre starke Faust die Wälder schlug!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Ehrgeiz verspotte ja so dunkles Loos,</l>
+               <l>Nüsliche arbeit, niedre Freuben nicht;</l>
+               <l>Bornehm  belächte nie, wer reich un gros,</l>
+               <l>Den Lebenslauf des Armen, kurz und schlicht.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>Der Wappen Glanz, der eitle Prunk der Mach,</l>
+               <l>Was Schönheit und was Reichthum immer gab,</l>
+               <l>Sinkt unvermeidlich einmal in die Nacht,</l>
+               <l>Des Ruhmes Pfade leiten uns zum Grab.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Werft nich auf sie die Schulb im kozen Sinn,</l>
+               <l>Wenn man kein Denkmal auf die Hügel stellt,</l>
+               <l>Wo durch die langen Kirchgewölbe hin</l>
+               <l>Der Chor des Preises Laute tönen- schwellt.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>Bildreicher Aschenkrug, beseelter Stein,</l>
+               <l>Baunt er den flich’nden Hauch in die Gestalt?</l>
+               <l>Kann Ruhm herauf den stummen Moder schrei’n?</l>
+               <l>Rührt Schmeichelei den Lod, so taub und kait?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Hier ruht vielleicht in unbekanntem Grab</l>
+               <l>Manch herz, erfüllt einst von des Himmel Fen’r</l>
+               <l>Hände die hätten wohl den Herrscherstab</l>
+               <l>Geschwungen und mit Gluth durchströmt die Lei’r.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Doch hielt Erkenntniss nie entrollt ihr Buch,</l>
+               <l>Reich von dem Raub der Zeiten, ihnen vor;</l>
+               <l>Den edeln Drang hemmte der Armuth Fluch,</l>
+               <l>Des Greistes schöpferischer Etrom gefror.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>Gar manchen Gebelstein im reinsten  ---</l>
+               <l>Birgt unergründlich Schwarz des Reeres Gruft;</l>
+               <l>Gar manche Blume mus verborgen blühn</l>
+               <l>Und haucht die Güsigkeit in öde Luft.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>Manch Dorf-Hampden, der auf seiner Flur</l>
+               <l>Furchtlos den fleinen Zwingerberrn widerstand,</l>
+               <l>Ein Milton ruht hier, stamm und ruhmlos nur</l>
+               <l>Giu Cromwell, unbestedt mit Blut vom Land.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>Beherrschen folgsamen Senates Schlus,</l>
+               <l>Berachten drohend Weh und Misgeschick,</l>
+               <l>Streu’n auf ein lacheinb Land aus Uebers</l>
+               <l>Ihr Wirken lesen in beds Bölkes Blick.</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Berbot ihr Loos: doch schrieb es nicht ein Ziel</l>
+               <l>Der Jugend nlur, auch dem Berbrechen vor,</l>
+               <l>Berbot den Meg zum Ihron durch Blutgewühl,</l>
+               <l>Wo sich der Menschheit schliest des Mitleids Thor.</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>Nicht hehlen dursten sie Gewiffenspein,</l>
+               <l>Zertraten ebler Echam die Blüthe nicht,</l>
+               <l>Noch füllten stolzer Ueppigkeit den Schrein</l>
+               <l>Mit Weihrauch sie, eutzünbet im Gedicht.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Fern von des tollen Haufens rohem Streit,</l>
+               <l>Nüchtern ihr Wunsch den Irrweg nie betrat;</l>
+               <l>Dahin durchs Thal in kühler Einsamkeit</l>
+               <l>Berfolgten sie geräuschlos ihren Glad.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>Doch felber dies Gebein vor Kräukung schüst</l>
+               <l>Noch ein zerbrechlich Denkmal, hier erhöht,</l>
+               <l>Das mit den Reimen, Bildern, rohgeschnistg,</l>
+               <l>Um eines Blickes kurzen Zoll dich fleht.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Durch Namen, Jahrzahl hat einfach statt Ruhm</l>
+               <l>Und Frauerlieb die Muse sie geehrt,</l>
+               <l>Und manchen Bibelspruch streut sie herum,</l>
+               <l>Der fromm und froh den Landmann sterben lehrt.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>Wer trenut als Beute  der Bergessenheit,</l>
+               <l>Sich gern von dieses Dafeyns holder Dual,</l>
+               <l>Berläst besonnter Fluren Heiterkeit</l>
+               <l>Und schaut nicht fehuend rückwärts noch einmal?</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>Noch scheibend sucht der Geist ein theures Herz,</l>
+               <l>Um eine Thräne fleht der lezte Blick;</l>
+               <l>Bom Hügel selbst ruft die Ratur im Schmerz,</l>
+               <l>Im Staub noch ist gewohnte Tod gekräukt,</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>Du, welchen ihr ruhmloser Tod gekränkt,</l>
+               <l>Der ihr Geischick in diese Zeiten schloss,</l>
+               <l>Forscht, einsam in Bertrachtung tief versenkt</l>
+               <l>Ginst ein verwandter Geist nach deinem Loos:</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>So spricht vielleicht ein Hirt, von Locken grau;</l>
+               <l>Ofst haben wir früh Morgens ihn gesehn,</l>
+               <l>Abwischend haftig schuellen Schritte den Thau,</l>
+               <l>Der Sonne zu begegnen auf den Höhn.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>Hier an dem Fuss der who’nden Buche lag,</l>
+               <l>Die hoch die Wurzeln krümmt und wunderlich,</l>
+               <l>Langhingestreckt er forglos um Mittag,</l>
+               <l>Aufs Bächlein starrend, das vorüberschlich.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>Er schweist’ am Bald, nun lächelub, Spöttern gleich,</l>
+               <l>Und murmelte feltfame Bahantafei’n,</l>
+               <l>Nun, wie Berzweifelnde Liebe Pein.</l>
+               <l>Der Gram, vor bofrangelefer Liebe Brin</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>Doch eines Morgens sah ich ihr nicht mehe</l>
+               <l>Um Hügel, auf der Heib’, am Lieblingsbaum;</l>
+               <l>Am andern Tag nicht bei dem Bach war er,</l>
+               <l>Rict auf dem Anger, nach am Walbesraum.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>Dit Crabgefang in renerage fel</l>
+               <l>Dan belt ifa tragen fin hen Rialable:</l>
+               <l>Tritt ber ant liet bie Earift, (in Errat er 10)</l>
+               <l>Die unterm alten Dorn ber Grabbeiz bet:</l>
+            </lg>
+            <lg>
+               <head>Grabschrift.</head>
+               <lg n="30" corresp="#stn30">
+                  <l>Da rubt im Green|goof fele Serpt fa zin</l>
+                  <l>Ein 3ngling, unbelanat bem Glid an Saim;</l>
+                  <l>Die Diufe war nigt abbal felerm Zin,</l>
+                  <l>Edmermuth extez ign Ra pum Gigertfen</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>Redlich, fein Sety, son Hebersle: Blare:</l>
+                  <l>Sold batt ber Simmel end, mit ifm gemeist;</l>
+                  <l>Er gab bem Glens atriner, all feis Ext,</l>
+                  <l>36 m marb som Simmel all fein Eurió, ein Emeri</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>Entfillt midt reiter felze Zagert zen,</l>
+                  <l>Unb feine Gardden grifle miét ses Egot;</l>
+                  <l>Caft beibe gleid in Gefrang beber mis</l>
+                  <l>3m Ecooße feinem Bater,- feizem @stt!</l>
+               </lg>
+            </lg>
+            <signed>Julius Krais.</signed>
+         </div>
+      </body>
+   </text>
+</TEI>

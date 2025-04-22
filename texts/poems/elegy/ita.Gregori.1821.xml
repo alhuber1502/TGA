@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegia di Gray, sopra il cimitero di campagna</title>
+            <author>Gregori, Domenico</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="ita1821_bib">
+               <date>1821</date>
+               <author>Gregori, Domenico</author>
+               <title level="a">Elegia di Gray, sopra il cimitero di campagna</title>
+               <title level="m">Scelta di poesie di più celebri autori inglesi, recati in versi italiani</title>
+               <pubPlace>Roma</pubPlace>
+               <biblScope>14-33</biblScope>
+               <idno type="NoC_1917">808</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation #terzarima"
+              n="Trant, Domenico"
+              rendition="#lgindent"
+              type="verse"
+              xml:id="ita.Gregori.1821">
+            <head type="main">Elegia di Gray, sopra il cimitero di campagna</head>
+            <lg n="1" corresp="#stn1">
+               <l>Al cupo rintoccar’ odi il segnale</l>
+               <l>Del cavo bronzo, copritor del foco,</l>
+               <l>Che al dì, che muore, dà l’estremo vale</l>
+            </lg>
+            <lg n="2" corresp="#stn1">
+               <l>Abbandonati i paschi, a poco a poco</l>
+               <l>Lento movendo il mugolante branco.</l>
+               <l>Ricovra al chiuso desiato loco;</l>
+            </lg>
+            <lg n="3" corresp="#stn1">
+               <l>E l’arator sul travagliato fianco</l>
+               <l>Tragge al rustico albergo, e al tenebrore</l>
+               <l>Il Mondo lascia, e a me; di già vien manco</l>
+            </lg>
+            <lg n="4" corresp="#stn2">
+               <l>L’aspetto della terra, viemaggiore</l>
+               <l>L’ombra si spande, e il raggio decrescente</l>
+               <l>Togliendo ad ogni oggetto va il colore:</l>
+            </lg>
+            <lg n="5" corresp="#stn2">
+               <l>Alto silenzio fra l’orror crescente</l>
+               <l>Regna per l’aer, se non che sull’alle</l>
+               <l>Basso ronzìo di scarabèo si sente,</l>
+            </lg>
+            <lg n="6" corresp="#stn2">
+               <l>E un lontan tintinnio, ch’ogni animale,</l>
+               <l>Che il chiuso ovil, ovver la mandra aduno,</l>
+               <l>Al sonno alletta, requie d’ogni male:</l>
+            </lg>
+            <lg n="7" corresp="#stn3">
+               <l>E là pur da quell’erma torre, e bruna,</l>
+               <l>Cui l’edra ammanta, il gufo tenegroso</l>
+               <l>Si lagna al raggio della cheta luna</l>
+            </lg>
+            <lg n="8" corresp="#stn3">
+               <l>Di tal, che presso a quel secreto annoso</l>
+               <l>Recesso porta vagabondo il piede,</l>
+               <l>E del suo regno turba a lui il riposo.</l>
+            </lg>
+            <lg n="9" corresp="#stn4">
+               <l>Sotto quegli olmi, e ove più l’ombra eccede</l>
+               <l>Del tasso, e in varj mucchj sgretolati</l>
+               <l>Sorger la zolla quà, e là si vede;</l>
+            </lg>
+            <lg n="10" corresp="#stn4">
+               <l>Ciascun in propria cella segregati</l>
+               <l>Dormono i padri del villaggio agresti</l>
+               <l>Al lor destin per sempre abbandonati.</l>
+            </lg>
+            <lg n="11" corresp="#stn5">
+               <l>Nè il susurrar, che mollemente desti</l>
+               <l>L’auretta del mattin spirante odori,</l>
+               <l>Nè di rondine i lai garruli, e mesti;</l>
+            </lg>
+            <lg n="12" corresp="#stn5">
+               <l>Nè augello, che alto canti a’primi albori,</l>
+               <l>Nè della caecia il rintronar di corno</l>
+               <l>Gli chiamerà del letticello fuori;</l>
+            </lg>
+            <lg n="13" corresp="#stn6">
+               <l>Non piu per essi in sul cader del giorno</l>
+               <l>Raccenderassi il focolar’, o intenta</l>
+               <l>Acure serlleotine il ritorno</l>
+            </lg>
+            <lg n="14" corresp="#stn6">
+               <l>Del suo marito aspetterà contenta</l>
+               <l>
+                  <l part="I">La fida moglie,</l>
+               </l>
+               <l>
+                  <l part="F">e la tenera prole</l>
+               </l>
+               <l>All’ usato tornar del padre attenta</l>
+            </lg>
+            <lg n="15" corresp="#stn6">
+               <l>Visto da lunge, a passi di carole</l>
+               <l>Non piu incontro ne andrà, di gioja, e amore</l>
+               <l>Indirizzando a lui balbe parole;</l>
+            </lg>
+            <lg n="16" corresp="#stn6">
+               <l>Questi al ginocchio, e quei del genitore</l>
+               <l>Non piu, al braccio aggrappandosi, corranno</l>
+               <l>Del fra lor bacio ambito il primo onore.</l>
+            </lg>
+            <lg n="17" corresp="#stn7">
+               <l>Oh! quante volte allor, che bionde è l’anno,</l>
+               <l>Alle lor falci le dorate messi,</l>
+               <l>Quante ai vomeri lor ceduto anco hanno</l>
+            </lg>
+            <lg n="18" corresp="#stn7">
+               <l>Le dure glebe! E i bovi al giogo annessi</l>
+               <l>Come lieti traen’al campo oh! come</l>
+               <l>Ai forti colpi lor sonanti, e spessi</l>
+            </lg>
+            <lg n="19" corresp="#stn7">
+               <l>Gemean sotto la scure i boschi, e domenica </l>
+               <l>Cadendo con fragor le querce antiche</l>
+               <l>Al suol curvaro le frondose chiome.</l>
+            </lg>
+            <lg n="20" corresp="#stn8">
+               <l>Di rozze genti non l’util fatiche,</l>
+               <l>O il fato oscuro ambizion motteggi,</l>
+               <l>Nè le lor gioje ad innocenza amiche;</l>
+            </lg>
+            <lg n="21" corresp="#stn8">
+               <l>Nè il fasto altero i semplici dileggi</l>
+               <l>E oscuri lor, ma non macchiati, annali</l>
+               <l>Con ghigno schernitor dagli aurei seggi:</l>
+            </lg>
+            <lg n="22" corresp="#stn9">
+               <l>Chè pompa di poter, alti natali,</l>
+               <l>E quanto avvien, che lusinghiera apporte</l>
+               <l>Beltà, o ricchezza ai voti de’ mortali,</l>
+            </lg>
+            <lg n="23" corresp="#stn9">
+               <l>Tutto attende quaggiù la stessa sorte;</l>
+               <l>Nel sentier dell’onor l’estremo passo</l>
+               <l>Sol d’una tomba alfin schiude le porte.</l>
+            </lg>
+            <lg n="24" corresp="#stn9">
+               <l>Che se tratto dal sen di frigio masso</l>
+               <l>Ricca memoria niun trofeo [?] ha scolto.</l>
+               <l>De’ lor sepoleri sovra il muto sasso;</l>
+            </lg>
+            <lg n="25" corresp="#stn10">
+               <l>Nè, a celebrarli, alcun cautico sciolto</l>
+               <l>Fa risuonar d’ampie navate; ad onta</l>
+               <l>Lor nol recar, o mortal vano, e stolto.</l>
+            </lg>
+            <lg n="26" corresp="#stn11">
+               <l>E che? il fugace spirito rimonta</l>
+               <l>Da Lete al giorno, se animato busto</l>
+               <l>O effigiata urna i fasti altrui racconta?</l>
+            </lg>
+            <lg n="27" corresp="#stn11">
+               <l>Può ridestar il cenere combusto</l>
+               <l>Voce di laude? o il freddo orecchio a Cloto</l>
+               <l>Blandir potrebbe adulator ingiusto?</l>
+            </lg>
+            <lg n="28" corresp="#stn12">
+               <l>Forse sottera agli altrui sguardi ignoto</l>
+               <l>Un cor di celestial foco già pregno</l>
+               <l>Giace in questo negletto angol rimoto; </l>
+            </lg>
+            <lg n="29" corresp="#stn12">
+               <l>Ed una man, che reggere d’un regno</l>
+               <l>Potea lo scettro, o cn soave incanto</l>
+               <l>Svegliar il cavo armonioso legno.</l>
+            </lg>
+            <lg n="30" corresp="#stn13">
+               <l>Ma agli occhj lor Dottrina l’ampio, il santo</l>
+               <l>Non apri suo volume, che arricchito</l>
+               <l>Delle spoglie del tempo ognor va spanto:</l>
+            </lg>
+            <lg n="31" corresp="#stn13">
+               <l>La fredda povertà spense, e smarrito</l>
+               <l>Rese quel sacro foco, e la corrente</l>
+               <l>Genial oppresse dello spirto ardito.</l>
+            </lg>
+            <lg n="32" corresp="#stn14">
+               <l>Del raggio il più sereno, e il più lucente</l>
+               <l>Oh quante gemme in seno all’Oceàno </l>
+               <l>Alta ricopre oscurità latente!</l>
+            </lg>
+            <lg n="33" corresp="#stn14">
+               <l>Oh quanti vaghi fior nacquero invano</l>
+               <l>A colorarsi, ed olezzar negletto</l>
+               <l>Il lor profumo su diserto piano!</l>
+            </lg>
+            <lg n="34" corresp="#stn15">
+               <l>Qui sotto qualche Ampden forse ha riceto,</l>
+               <l>Che un di animoso del comun villaggio</l>
+               <l>Al picciolo tiranno oppose il petto:</l>
+            </lg>
+            <lg n="35" corresp="#stn15">
+               <l>E qui forse riposa un qualche saggio</l>
+               <l>Milton, ma senza gloria, o alcun Cromuelle,</l>
+               <l>Ma che alla Patria sua non fece oltraggio.</l>
+            </lg>
+            <lg n="36" corresp="#stn16">
+               <l>Con aringar in forme ornate e belle</l>
+               <l>Attrarsi in plausi d’Assemblee sospese</l>
+               <l>Spregiar i sdegni, e le minacce felle;</l>
+            </lg>
+            <lg n="37" corresp="#stn16">
+               <l>Render felice il lor natio Paese</l>
+               <l>Con l’ubertate, e alla Nazion innanti</l>
+               <l>Legger la storia d’onorato imprese</l>
+            </lg>
+            <lg n="38" corresp="#stn17">
+               <l>La sorte lor niegò; ma si bei vanti</l>
+               <l>[?] colle lor vitù fè circoscritti,</l>
+               <l>Gli limitò pur nelle colpe erranti;</l>
+            </lg>
+            <lg n="39" corresp="#stn17">
+               <l>E lor vietò pel calle de’delitti</l>
+               <l>Attraverso le stragi alzarsi al trono,</l>
+               <l>Niegar mercede ai lor fratelli afflitti;</l>
+            </lg>
+            <lg n="40" corresp="#stn18">
+               <l>E di coscienza, allor, che inquiete sono</l>
+               <l>Le grida, soffocarle, o in seu represso</l>
+               <l>Far che taccia il pudor, celeste dono.</l>
+            </lg>
+            <lg n="41" corresp="#stn18">
+               <l>Nè alle Muse per lor fu mai concesso</l>
+               <l>Arder sull’ara prodigati incensi</l>
+               <l>Al lusso, e al fasto con profano ecceso.</l>
+            </lg>
+            <lg n="42" corresp="#stn19">
+               <l>Lunge da gare stotle, e ignobil sensi</l>
+               <l>D’anime basse, il lor desio frenato</l>
+               <l>Non spinsero piu in là, che non conviensi:</l>
+            </lg>
+            <lg n="43" corresp="#stn19">
+               <l>Lungo un sentier tranquillo, e separato</l>
+               <l>La cheta valle della vita in pace</l>
+               <l>Scorsero ad incontrar l’estremo fato.</l>
+            </lg>
+            <lg n="44" corresp="#stn20">
+               <l>Dagli insulti a campar del tempo edace</l>
+               <l>Le fredde ossa, alcun fragil monumento</l>
+               <l>Sorge d’appresso, e il titolo loquace.</l>
+            </lg>
+            <lg n="45" corresp="#stn20">
+               <l>Ma inculte rime son, senza ornamento</l>
+               <l>Scolte, che al passegier chieggon tributo</l>
+               <l>D’un sol sospir, d’un sol pietoso accento:</l>
+            </lg>
+            <lg n="46" corresp="#stn21">
+               <l>I lor nomi, i lor anni, ov’han vissuto</l>
+               <l>Dice l’agreste Musa, e lor ciò basta</l>
+               <l>D’eleghi invece, o d’altro carme arguto;</l>
+            </lg>
+            <lg n="47" corresp="#stn21">
+               <l>Nè di spargervi intorno si è rimasta</l>
+               <l>Sacri motti, a struir le rozze genti</l>
+               <l>Di morte nel dover, ch’a ognun sovrasta.</l>
+            </lg>
+            <lg n="48" corresp="#stn22">
+               <l>Poichè chi fra, che a muto oblio diventi</l>
+               <l>Preda, e questo Esser caro, e in un penoso</l>
+               <l>Ceda tutto tranquillo, e non paventi?</l>
+            </lg>
+            <lg n="49" corresp="#stn22">
+               <l>Chi abbandonò giammai, se non ritrosoi</l>
+               <l>L’alma luce del dì, nè in dietro torse</l>
+               <l>Un suo languido sguardo, e sospiroso?</l>
+            </lg>
+            <lg n="50" corresp="#stn23">
+               <l>Su qualche petto amato, allor ch’ è inforse</l>
+               <l>L’alma fuggente, ama posar’, e il ciglio</l>
+               <l>Egro al sonno mortal pria di comporse,</l>
+            </lg>
+            <lg n="51" corresp="#stn23">
+               <l>Al triste addio, presso al fatal periglio,</l>
+               <l>Di piantro altrui qualche pietosa stilla</l>
+               <l>Chiede compagna dell’eterno esiglio.</l>
+            </lg>
+            <lg n="52" corresp="#stn23">
+               <l>Sorge dal sen dell’urna ancor tranquilla</l>
+               <l>Il grido di natura, e dal sepulto</l>
+               <l>Cener l’usata fiamma ancor sfavilla.</l>
+            </lg>
+            <lg n="53" corresp="#stn24">
+               <l>E quanto a te, che in questo carme inculto</l>
+               <l>Dell’ombre inonorate fai menzione,</l>
+               <l>Nè vuoi che dall’oblio soffran insulto;</l>
+            </lg>
+            <lg n="54" corresp="#stn24">
+               <l>Se mai in questa d’orror muta regione,</l>
+               <l>Fari a te ne’pensier spirto gentile</l>
+               <l>Tragga, e del fato tuo muova questione;</l>
+            </lg>
+            <lg n="55" corresp="#stn25">
+               <l>Forse avverrà,l che in suo semplice stile</l>
+               <l>Qualche canuto Mandrian risponda:</l>
+               <l>Spesso il vedemino al schiuder dell’ovile,</l>
+            </lg>
+            <lg n="56" corresp="#stn25">
+               <l>E al far dell’alba andar solingo in ronda,</l>
+               <l>E, ratto il piè scuotendo la rugiada,</l>
+               <l>Sul colle incontro al Sol, ch’uscia dall’onda:</l>
+            </lg>
+            <lg n="57" corresp="#stn26">
+               <l>Sotto quel faggio, onor della contrada,</l>
+               <l>Che di sue barbe con bizzara massa</l>
+               <l>Serpeggia, quando il sol è a mezza strada</l>
+            </lg>
+            <lg n="58" corresp="#stn26">
+               <l>Ei transeuratamente all’ombra bassa</l>
+               <l>Sdrajar soleasi, e taciturno, e fiso</l>
+               <l>Star su quell’onda, che mormora e passa;</l>
+            </lg>
+            <lg n="59" corresp="#stn27">
+               <l>Or presso al bosco ivi da ognun diviso</l>
+               <l>Seco stesso fantastici concetti</l>
+               <l>Gia borbottando amaro in suo sorriso;</l>
+            </lg>
+            <lg n="60" corresp="#stn27">
+               <l>Or pinto il volto degli interni afretti</l>
+               <l>Pallido, e mesto s’aggirava, e smunto</l>
+               <l>Ove il silenzio par che più lo alletti;</l>
+            </lg>
+            <lg n="61" corresp="#stn27">
+               <l>Talchè da duol profondo il cor compunto</l>
+               <l>Detto l’avresti, o divenuto folle</l>
+               <l>Per cruda sorte, o per amor consunto.</l>
+            </lg>
+            <lg n="62" corresp="#stn28">
+               <l>Sorse un mattin, e sull’usato colle</l>
+               <l>Più non si scorse, od alla verde riva,</l>
+               <l>O dove il faggio amato alto si estolle;</l>
+            </lg>
+            <lg n="63" corresp="#stn28">
+               <l>Ne sorse un altro, ed ei non compariva</l>
+               <l>Nè al rio, nè sulla piaggia, o presso al bosco:</l>
+               <l>Al fine il terzo di da noi partiva,</l>
+            </lg>
+            <lg n="64" corresp="#stn29">
+               <l>Quando in funèbre canto, e arredo fosco</l>
+               <l>Portar al Tempio, a lento piè fu scorto.</l>
+               <l>T’appressa, e leggi (e il puoi, s’io ben conosco)</l>
+            </lg>
+            <lg n="65" corresp="#stn29" part="I">
+               <l>Leggi sul sasso inciso, a cui di sporto</l>
+               <l>Pruno fa ingombro antica pianta odiosa:</l>
+            </lg>
+            <lg>
+               <head>EPITAFFIO</head>
+               <lg n="66" corresp="#stn30" part="F">
+                  <l>“Il capo stanco in sonno eterno absorto</l>
+               </lg>
+               <lg n="67" corresp="#stn30">
+                  <l>Qui della terra in grembo un Mortal posa,</l>
+                  <l>Che mal noto alla fama, e alla fortuna</l>
+                  <l>Cadde, quale al suo april carpita rosa:</l>
+               </lg>
+               <lg n="68" corresp="#stn30">
+                  <l>Bella Scienza l’umile sua cuna</l>
+                  <l>Non isdegnò: melanconia gl’impresse</l>
+                  <l>Sue gentil forme, e il fece suo quest’una;</l>
+               </lg>
+               <lg n="69" corresp="#stn31">
+                  <l>Ebbe sincero il cor, cui sempre resse</l>
+                  <l>Sua larga caritate, e largo frutto</l>
+                  <l>Il Cielo in guiderdon’ a lei concesse:</l>
+               </lg>
+               <lg n="70" corresp="#stn31">
+                  <l>Ei diede alla miseria altrui nel lutto</l>
+                  <l>(Quanto aveva) una lagrima, e dal Cielo</l>
+                  <l>Ebbe un Amico (e pel suo cor fu tutto)</l>
+               </lg>
+               <lg n="71" corresp="#stn32">
+                  <l>Più oltre non cercar: l’arcano velo</l>
+                  <l>Che sue fralezze, e merti ascosi preme,</l>
+                  <l>Nò, di squarciarlo non ti prenda zelo:</l>
+                  <l>Che questi, e quelle in palpitante spemo</l>
+                  <l>E in dubitoso, trepido desio</l>
+                  <l>Fino all’estremo di posano insieme</l>
+                  <l>Nel seno del suo Padre, e del suo Dio.”</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

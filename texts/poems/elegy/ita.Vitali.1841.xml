@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegia scritta in un cimiterio campestre</title>
+            <author>Vitali, Giovanni</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="ita1841_bib">
+               <date>1841</date>
+               <author>Vitali, Giovanni</author>
+               <title level="a">Elegia scritta in un cimiterio campestre</title>
+               <title level="m">Varie poesie inglesi in prosa italiana voltate da Giovanni Vitali milanese</title>
+               <pubPlace>Milano</pubPlace>
+               <publisher>Luigi di Giacomo Pirola</publisher>
+               <biblScope>125-133</biblScope>
+               <idno type="StH_1953">183c</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Vitali, Giovanni"
+              rendition="#lgvspace"
+              type="prose"
+              xml:id="ita.Vitali.1841">
+            <head type="main">Elegia scritta in un cimiterio campestre</head>
+            <div>
+               <p n="1" corresp="#stn1">
+							La campana della sera suona il tramonto
+							del giorno; il muggente gregge erra lentamente 
+							pei campi; lo stanco bifolco move
+							per la nojosa strada alla sua abitazione, e
+							abbandona il mondo alle tenebre ed a me.
+</p>
+               <p n="2" corresp="#stn2">
+							Ora dallo sguardo sparisce la mancante
+							campagna, e nell’ aero tutto regna un solenne 
+							profondo silenzio, salvo dove lo scarafaggio 
+							alieggia lentamente, e dove dormigliosi
+							tintinni cullano le distanti greggie;
+</p>
+               <p n="3" corresp="#stn3">
+							E dove, da quella torre vestita d’ edera,
+							il mesto gufo si lamenta colla luna di quei;
+							che errando vicini all’ombrosa sua dimora,
+							molestano l’ antico solitario suo regno.
+</p>
+               <p n="4" corresp="#stn4">
+							Sotto quegli olmi scabri; sotto quell’ ombra 
+							dei tassi, dove di zolle s’ innalzano
+							polverosi fumuli, colà, ciascuno per sempre
+							nella sua angusta cella riposto, dormono i
+							rustici antenati del casale.
+</p>
+               <p n="5" corresp="#stn5">
+							Il susurrare dei mattutini zeffiri olezzanti
+							incenso; il garrito della rondine dalla sua
+							casupola di paglia; la strillante chiarina
+							del gallo, o l’ecchiggiante corno non li
+							risveglieranno più dal loro umilo letto.
+</p>
+               <p n="6" corresp="#stn6">
+							Per essi non avvamperà più la fiamma
+							del focolare, nè sollecita massaja attenderà
+							alle sue vespertine faccende: nessun pargolo 
+							correrà più a balbettare il ritorno del
+							suo padre, o s’arrampicherà alle sue ginocchia 
+							per partecipare dell’invidiato bacio.
+</p>
+               <p n="7" corresp="#stn7">
+							Oh! come spesso l’ aurea messe cadde
+							sotto i colpi della loro falce, e il loro
+							vomere ruppe l’ indurata terra! Quanto
+							giocondi condussero essi i loro plaustri alla
+							campagna! Come piegarono i boschi sotto 
+							I loro gagliardi colpi!
+</p>
+               <p n="8" corresp="#stn8">
+							Ambizione! non deridere i loro utili
+							lavori, le loro rustiche gioje, e il loro
+							oscuro destino: tu, Grandezza, non ascoltare 
+							con uno sprezzante sorriso i semplici
+							e corti annali del povero.
+</p>
+               <p n="9" corresp="#stn9">
+							I vanti dell’ araldica, la pompa del potere, 
+							e tutto quello che la bellezza e le
+							ricchezze possono dare, aspettano equalmente 
+							l’inveitabil’ ora: il sentiero della
+							gloria non conduce che al sepolcro.
+</p>
+               <p n="10" corresp="#stn10">
+							E voi, orgogliosi, non incolpateli, se
+							la memoria de’ lor fatti non erige trofei
+							sulle loro tombe là dove traverso le lunghe 
+							ale della chiesa, e sotto la incrostata 
+							volta eccheggiano di lodi le sonore antifone.
+</p>
+               <p n="11" corresp="#stn11">
+							Può essa l’ urna di sculture storiche ornata, 
+							o l’ animato busto richiamare la fuggente 
+							anima alla sua dimora? può essa la
+							voce dell’ onore provocare la taciturna polvere; 
+							o l’ adulazione lusingare il sordo e
+							freddo orecchio della morte?
+</p>
+               <p n="12" corresp="#stn12">
+							Forse in questo negletto recinto giace
+							qualche cuore, che gia covò alcuna scintilla 
+							di fuoco celeste; forse mani, che avrebbero 
+							potuto impugnare la verga dell’ impero,
+							o svegliare all’ estasi la vivente lira.
+</p>
+               <p n="13" corresp="#stn13">
+							La scienza non ha mai aperto ai loro
+							occhi la sua ampia pagina, ricca delle spoglie 
+							del tempo; la fredda inopia represse
+							il loro nobile ardore, ed agghiacciò la
+							calda foga dell’ anima.
+</p>
+               <p n="14" corresp="#stn14">
+							Le oscure profonde caverne dell’ oceano
+							contengono molte gemme del più puro e
+							sereno raggio: molti fiori nascono per rosseggiare 
+							ssenza esser veduti, e per ispandere
+							i loro profumi nel vuoto aere.
+</p>
+               <p n="15" corresp="#stn15">
+							Forse qui riposa qualche rustic Hampden, 
+							che con cuore intrepid resistette
+							al piccolo tiranno de’ suoi campi; qualche
+							muto e sconosciuto Milton; qualche Cromwell 
+							innocente del sangue della sua patria.
+</p>
+               <p n="16" corresp="#stn16">
+							La loro sorte vieto ad essi di comandare
+							agli applause de un senato; di sprezzare
+							le minacce del tormento e della morte; di
+							versare il corno dell’ abbondanza sopra un
+							paese ridente, e di leggere la loro storia
+							dinanza agli occhi di una nacione.
+</p>
+               <p n="17" corresp="#stn17">
+							Nè solo le loro crescent virtù, ma anache 
+							I delitti essendo a brevi confine ristretti,
+							proibiron loro di nuotare fra il sangue
+							alla via del trono, e di chiudere le porte
+							della miscericordia al genere umano;
+</p>
+               <p n="18" corresp="#stn18">
+							Di nascondere le strazianti cure della
+							consapevole verità; di attutire I rossori dell’ 
+							ingénue vergogna, o gl’ incense arsi dinanzi 
+							alla fiamma della musa bruciare in
+							sui focolari del lusso e dell’ orgoglio.
+</p>
+               <p n="19" corresp="#stn19">
+							Lontani dall’ ignobil contesa della pazza
+							folla, men alti salirono I loro sobrj desiri: 
+							lungo la fresco appartata valle della
+							vita essi guardarono il tranquillo corso del
+							loro cammino.
+</p>
+               <p n="20" corresp="#stn20">
+							A proteggere per altro dall’ insult anche
+							quest’ ossa, qualche fragile memoria che vi
+							è da vicino eretta, ornate di rozze rune,
+							e di grette sculture implora il passaggiero
+							tribute di un sospiro.
+</p>
+               <p n="21" corresp="#stn21">
+							Il loro nome, i loro anni computati
+							dalla rozza musa, suppliscono alla lode ed
+							all’ elegia. Essa vi sparge intorno qualche
+							sacro detto, che al rozzo moralista ricorda
+							il suo fine.
+</p>
+               <p n="22" corresp="#stn22">
+							Poichè chi è mai che, essendo preda
+							del muto obblío, e abbandonando questa
+							vita piacevole, sebbeu piena di cure, ha
+							lasciato le calde regioni dell’ allegro giorno, 
+							senza gettare addietro un languid e sospiroso sguardo?
+</p>
+               <p n="23" corresp="#stn23">
+							L’ anima, che sta per ispiegar l’ ali
+							si confida a qualche amoroso petto; l’ occhio, 
+							che sta per chiudersi abbisogna di
+							qualche pietosa lagrima; anche dalla tomba 
+							grida la voce della natura; anche nelle
+							fredde ceneri vivono i nostril consueti desiderj.
+</p>
+               <p n="24" corresp="#stn24">
+							E tu, che memore degl’ inonorati morti,
+							racconti in queste line la loro semplice
+							sstoria, se a caso, condotto dalla solitaria
+							contemplazione, qualche spirit dello stesso
+							genio chercherà il tuo destino.
+</p>
+               <p n="25" corresp="#stn25">
+							Forse qualche canuto contadino dirà:
+							“Spesso l’ abbiamo veduto, allo spuntar dell’
+							aurora, calcare cuotendo con rapidi
+							passi la rugiada per salutare il sole, che
+							dall’ alta vetta compariva.
+</p>
+               <p n="26" corresp="#stn26">
+							Là ai piedi di quell faggio che tentenna,
+							e che sì alte le vecchie e sformate sue radici
+							attortiglia, a mezzo giorno torpido e
+							lungo sì sdrajava al suolo e contemplava il
+							ruscello, che da presso gli mormorava.
+</p>
+               <p n="27" corresp="#stn27">
+							Ora sorrideva a mo’ di beffa, borbottando 
+							non so quail strane sue fantasie;
+							ora vagava vicino a quell bosco; ora languente, 
+							mesto, pallid, simile ad uom derelitto,
+							o a frenetico, cui prema grave affanno,
+							o ad uno che sia da disperato amore contrariato.
+</p>
+               <p n="28" corresp="#stn28">
+							Una mattina non lo vidi sul consueto
+							colle lunghesso la boscaglia, e vicino al
+							suo favorite albero. Sorse un altro mattino, 
+							ed egli non vi era, nè presso al
+							rio, nè nel bosco.
+</p>
+               <p n="29" corresp="#stn29">
+							Il susseguente giorno lo vedemmo portato
+							co’ debiti canti funerei in lento e
+							mesto ordine pel sentiero della chiesa.
+							Avvicinati e leggi (poichè tu sai leggere)
+							i versi, che furono scolpiti sulla pietra
+							sotto quell vecchio spino.”
+</p>
+            </div>
+            <div>
+               <head>EPITAFFIO</head>
+               <p n="30" corresp="#stn30">
+							Qui nel grembo della terra riposa il
+							suo capo un giovane sconosciuto alla fortuna
+							ed alla fama. La bella scienza non
+							corrugò la fronte sulla umile sua culla, e
+							la melanconia si fè albergo del suo petto.
+</p>
+               <p n="31" corresp="#stn31">
+							Grande era la sua bontà, e sincere il
+							suo cuore; il cielo gli mandò una ricompensa 
+							di simile larghezza; egli diede alla
+							misceria quanto aveva, vo’ dire una lagrima:
+							egli ottenne dal cielo quanto desiderò, cioè
+							un amico.
+</p>
+               <p n="32" corresp="#stn32">
+							Non cercare di scoprir più oltre I suoi
+							meriti, o di cavar fuori dalla loro terribile
+							dimora le sue fralezze. Là, in dubbia speranza, 
+							gli uni e le alter giaciono nel seno
+							di colui, che gli è padre e Dio.
+								
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

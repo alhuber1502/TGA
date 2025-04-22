@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Epitaphium</title>
+            <author>Shelley, P. B.</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="lat1808_bib">
+               <date>1808</date>
+               <author>Shelley, P. B.</author>
+               <title level="a">Epitaphium</title>
+               <title level="m">The Complete Works of Percy Bysshe Shelley</title>
+               <editor>Donald H. Reiman and Neil Fraistat</editor>
+               <pubPlace>Baltimore and London</pubPlace>
+               <publisher>Johns Hopkins UP</publisher>
+               <date type="publ">2000</date>
+               <biblScope>vol. 1, 436</biblScope>
+               <idno type="NoC_1917">830</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Shelley, P. B."
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="lat.Shelley.1808">
+            <head type="main">Epitaphium</head>
+            <lg n="1" corresp="#stn30">
+               <l>Hic, sinu fessum caput, hospitali,</l>
+               <l>Cespitis, dormit juvenis, nec illi</l>
+               <l>Fata ridebant, popularis ille</l>
+               <l>Nescius aurae.</l>
+            </lg>
+            <lg n="2" corresp="#stn30">
+               <l>Musa non vultu, genus, arroganti,</l>
+               <l>Rustica natum grege despicata,</l>
+               <l>Et suum, tristis, puerum, notavit</l>
+               <l>Sollicitudo.</l>
+            </lg>
+            <lg n="3" corresp="#stn31">
+               <l>Indoles illi bene larga, pectus</l>
+               <l>Veritas sedem sibi vindicavit,</l>
+               <l>Et pari, tantis meritis, beavit</l>
+               <l>Munere, coelum.</l>
+            </lg>
+            <lg n="4" corresp="#stn31">
+               <l>Omne, quod maestis habuit, miserto</l>
+               <l>Corde, largivit lacrymam, recepit,</l>
+               <l>Omne, quod Caelo voluit, fidelis</l>
+               <l>Pectus amici.</l>
+            </lg>
+            <lg n="5" corresp="#stn32">
+               <l>Longius, sed tu, fuge, curiosus,</l>
+               <l>Caeteras laudes, fuge, suspicari,</l>
+               <l>Caeteras culpas, fuge, velle tractas</l>
+               <l>Sede tremenda.</l>
+            </lg>
+            <lg n="6" corresp="#stn32">
+               <l>Spe tremescentes, recubant, in illa</l>
+               <l>Sede, virtutes, pariter que culpae,</l>
+               <l>In suit, Patris gremio, tremenda</l>
+               <l>Sede, Deique.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

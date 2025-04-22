@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Castellazzi, Michel Angelo</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="ita1817_bib">
+               <date>1817</date>
+               <author>Castellazzi, Michel Angelo</author>
+               <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
+               <editor>Torri, Alessandro</editor>
+               <pubPlace>Verona</pubPlace>
+               <publisher>Dalla Tipografia Mainardi</publisher>
+               <biblScope>103-107</biblScope>
+               <date type="publ">1817</date>
+               <idno type="NoC_1917">806</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Castellazzi, Michel Angelo"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="ita.Castellazzi.1817">
+            <head type="main"/>
+            <lg n="1" corresp="#stn1">
+               <head>1. </head>
+               <l>Segna la squilla il venir men del giorno;</l>
+               <l>Mugghia, e pigro in sul parco erra l'armento;</l>
+               <l>Stanco il bifolco a casa or fa ritorno,</l>
+               <l>Ed a me lascia e a l'ombre il mondo spento.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <head>2. </head>
+               <l>Fugge ogni cosa al guardo e si ritira,</l>
+               <l>Nè voce d'uomo o d'animale è udita,</l>
+               <l>Fuor ve' lo scarabeo ronzando gira,</l>
+               <l>E il grillo al sonno i sparsi ovili invita;</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <head>3. </head>
+               <l>Fuor ve' il gufo a la luna ogn' or pensoso</l>
+               <l>Da quella tor, che ammanta ellera e fico,</l>
+               <l>Duolsi che alcun gl'invidj il suo riposo,</l>
+               <l>E turbi il regno solitario antico.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <head>4. </head>
+               <l>Sotto a quel ruvidolmo e ombroso tasso,</l>
+               <l>Là dove in mucchi polverosi ed adri</l>
+               <l>Tumido è il suol, chiusi in angusto passo</l>
+               <l>Dormono d'esta villa i primi padri.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <head>5. </head>
+               <l>L'aura che grato-oliza in sul mattino,</l>
+               <l>La rondin che da la capanna plora,</l>
+               <l>Il gallo e il corno del pastor vicino</l>
+               <l>Non più dal letto umìl trarralli fuora.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <head>6. </head>
+               <l>Più non arde per essi il foco, o prende</l>
+               <l>La moglie al fin del dì l'usata cura,</l>
+               <l>Nè al padre esulta, e s'avviticchia, e pende</l>
+               <l>Il bambolin dal collo, e i baci fura.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <head>7. </head>
+               <l>Essi a l'iberna e a la stagione estiva</l>
+               <l>Vinte han le dure zolle e l'auree messi,</l>
+               <l>Tratti al solco lor buoi fra lieti evviva,</l>
+               <l>E steso i cerri a' gravi colpi e spessi.</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <head>8. </head>
+               <l>Vano orgoglio però non prenda a vile</l>
+               <l>L'opre e i loro trastulli e oscura sorte;</l>
+               <l>Nè il fasto uman di povertade umile</l>
+               <l>Rida in udir semplici storie e corte.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <head>9. </head>
+               <l>Ciò che l'uom chiaro o più temuto il rende,</l>
+               <l>Quel che ricchezza o che beltà promette</l>
+               <l>Tutto del par la fatal ora attende,</l>
+               <l>E la via della gloria a morte mette.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <head>10. </head>
+               <l>Nè imputar loro, o altier, se le sepolte</l>
+               <l>Lor ossa insculto marmo or non asconde,</l>
+               <l>U' per gran logge e industriose volte</l>
+               <l>Al risonar degl' inni eco risponde.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <head>11.</head>
+               <l>Ponno giammai l' effigiate pietre</l>
+               <l>Richiamar l'alma al corpo onde si solve?</l>
+               <l>V'è chi morte lusinghi, o la dispetre?,</l>
+               <l>O svegliò mai l'onor tacita polve?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <head>12. </head>
+               <l>Forse qui giace ignoto al mondo intero</l>
+               <l>Cuor pieno un tempo di celeste ardore,</l>
+               <l>Man che regger potuto avria l'impero,</l>
+               <l>O destar colla cetra alto stupore.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <head>13. </head>
+               <l>Ma il gran volume, in cui la storia espresse</l>
+               <l>Gli scorsi eventi, lor mai non isvolse;</l>
+               <l>Fredda miseria il bell'ardir ne oppresse,</l>
+               <l>E in saldo ghiaccio il natio spirto accolse.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <head>14. </head>
+               <l>Quante gemme nel sen ristringe e serra</l>
+               <l>Il profondo oceàn vaghe e lucenti?</l>
+               <l>Quanti non visti fior' pingon la terra 2</l>
+               <l>La cui fragranza è sol preda dei venti?</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <head>15. </head>
+               <l>Qualche Hambden forse, il quale oppose il petto</l>
+               <l>Al vil tiranno de' suoi campi ingordo,</l>
+               <l>O un Milton senza gloria è qui negletto,</l>
+               <l>O un Cromwel di civil sangue non lordo.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <head>16. </head>
+               <l>Fra l'intento senato ergere il volo,</l>
+               <l>Sprezzare di fortuna i colpi e l'onte,</l>
+               <l>Spargere l'abbondanza in fertil suolo,</l>
+               <l>E le sue geste altrui leggere in fronte,</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <head>17. </head>
+               <l>Vietò loro il destino: al fiero orgoglio</l>
+               <l>Non men però , che al lor valore il freno</l>
+               <l>Strinse, e vietò farsi la strada al soglio</l>
+               <l>Pel sangue, a umanità chiudendo il seno:</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <head>18. </head>
+               <l>Vietò celar gl'interni moti, e in volto</l>
+               <l>De la bella onestà spegner la face,</l>
+               <l>E al sacro foco, sovra l'are accolto</l>
+               <l>De la superbia, alzar fumo mendace.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <head>19. </head>
+               <l>Lunge dal vil garrir del volgo insano</l>
+               <l>Non sepper traviar dal dritto calle;</l>
+               <l>Tennero il corso loro umile e piano</l>
+               <l>Nella bassa del mondo oscura valle.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <head>20. </head>
+               <l>Or per tôrre quest'ossa ad ogn'insulto,</l>
+               <l>Qualche fral monumento eretto a canto,</l>
+               <l>Di basse rime e informi effigie sculto,</l>
+               <l>Chiede dal passeggiero un brieve pianto.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <head>21.</head>
+               <l>I nomi e gli anni lor da indotta musa</l>
+               <l>Scritti, servon d'encomio e d'elegia;</l>
+               <l>Ella coi sacri versi insegnar usa</l>
+               <l>Al buon colono il fin de la sua via,</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <head>22. </head>
+               <l>E chi mai cesse al muto oblio la cura</l>
+               <l>D'esta vita di gioia e di periglio?</l>
+               <l>Chi mai lasciò l'aura soave e pura,</l>
+               <l>Nè addietro volse lagrimando il ciglio?</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <head>23. </head>
+               <l>Chi muore, in grembo amico s'abbandona,</l>
+               <l>E il languid'occhio chiede alcuna stilla;</l>
+               <l>Fin da l'avello umana voce suona;</l>
+               <l>Fin tra il cenere il foco arde e sfavilla.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <head>24. </head>
+               <l>Per te non men, che di chi oscura morte</l>
+               <l>Spense, la storia umìl pietoso or tessi,</l>
+               <l>Se mai spirto gentil qui tratto a sorte</l>
+               <l>Fia che a cercar del tuo destin s'appressi,</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <head>25. </head>
+               <l>Forse risponderà vecchio pastore:</l>
+               <l>„Spesso il vedem su l'alba a lui diletta</l>
+               <l>„Scuoter da l'erbe il rugiadoso umore</l>
+               <l>„Per riscontrare il sol su l'alta vetta.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <head>26. </head>
+               <l>„Sotto quell'ondeggiante annoso faggio,</l>
+               <l>„Che le bizzarre sue radici ha messo</l>
+               <l>„Tant' alte, udia prosteso al fitto raggio</l>
+               <l>„Andargli il rivo mormorando appresso.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <head>27. </head>
+               <l>„Lungo quel boscą or con sogghigno andava</l>
+               <l>„Borbottando tra sè sue strane fole;</l>
+               <l>„Languido e mesto or l'infelice stava,</l>
+               <l>„Qual chi d'affanni o chi d'amor si duole.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <head>28. </head>
+               <l>„Più non lo vidi un dì sul colle usato</l>
+               <l>„Presso la pianta amica in su la piaggia;</l>
+               <l>„Tornai col nuovo albor, nè al rivo o al prato</l>
+               <l>„Era egli o al bosco, u' il sol mai non irraggia.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <head>29. </head>
+               <l>„Indi con mesta pompa e usati uffici</l>
+               <l>„Portar lo vidi al tempio a lenti passi:</l>
+               <l>„Legger tu sai; t'accosta a le radici</l>
+               <l>„Di quel cespuglio, e fisa un di quei sassi.</l>
+            </lg>
+            <lg>
+               <head>EPITAFIO.</head>
+               <lg n="30" corresp="#stn30">
+                  <head>30. </head>
+                  <l>Qui de la terra in sen le membra frali</l>
+                  <l>Giovin posa a fortuna e a fama ignoto;</l>
+                  <l>Non isdegnò Scienza i suoi natali,</l>
+                  <l>Malinconia lo rese a sè devoto.</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <head>31. </head>
+                  <l>Pietoso core aveva, alma sincera,</l>
+                  <l>E un egual premio il cielo a lui ne rese;</l>
+                  <l>Coi pover' pianse, chè più a dar non gli era;</l>
+                  <l>E un amico impetrò, chè altro ei non chiese.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <head>32. </head>
+                  <l>Cercar de' merti suoi più non conviene,</l>
+                  <l>O di là trar le colpe ov' or n'ha il danno;</l>
+                  <l>Queste e quello non men fra dubbio e spene</l>
+                  <l>In seno al suo Signore e Padre stanno.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

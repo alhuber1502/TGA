@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Le cimetière de village, Élégie</title>
+            <author>Soulié, J. B. Augustin</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="fra1813b_bib">
+               <author>Soulié, J. B. Augustin</author>
+               <title level="a">Le cimetière de village, Élégie</title>
+               <date>1813</date>
+               <date type="publ">1821</date>
+               <title level="m">Annales de la Littérature et des Arts</title>
+               <biblScope>83-87</biblScope>
+               <idno type="NoC_1917">763</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+               <note type="comment">Transcribed version differs from archival version, which begins, De la cloche du soir les sons lents et plaintifs,...</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Soulié, J.-B.-Augustin, 1780-1845"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="fra.Soulie.1813">
+            <head type="main">Le cimetière de village</head>
+            <head type="sub">Élégie</head>
+            <lg n="1" corresp="#stn1">
+               <l>Le son du couvre-feu retentit dans les airs:</l>
+               <l>La nuit vient. Les troupeaux quittent au loin la plain,</l>
+               <l>Le laboureur pensif lentement les ramène:</l>
+               <l>Bientôt les champs, les prés, les bois; seront déserts.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>Je suis seul, contemplant cette nuit calme et sombre,</l>
+               <l>Ce voile de vapeurs par degrés s’élevant;</l>
+               <l>Pour tout bruit, l’escarbot qui bourdonne dans l’ombre,</l>
+               <l>Et quelques sons lointains que m’apporte le vent.</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Cependant au sommet de ce donjon gothique,</l>
+               <l>Le hibou fait entendre un long gémissement;</l>
+               <l>Il seùble m’accuser de moment en moment,</l>
+               <l>D’avoir troublé la paix de sa demeure antique.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>C’est là, près de ces murs par le lierre vieillis,</l>
+               <l>Sous ces ormes, ces ifs au lugubre feuillage,</l>
+               <l>Dans ces sillions étroits, que les morts du village</l>
+               <l>D’un éternel repos dorment ensevelis.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>Hélas! jamais les chants de l’hirondelle agile,</l>
+               <l>Le souffle du matin, le son des chalumeaux,</l>
+               <l>Ni le coq vigilant, trompette des hameaux,</l>
+               <l>Ne les réveilleront dans leur couche d’argile.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Une épouse attentive, au foyer pétillant,</l>
+               <l>Ne leur prépare plus un repas salutaire;</l>
+               <l>Jamais sur leurs genoux leurs enfants, sautillant,</l>
+               <l>Ne se disputeront les caresses d’un père.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>Que de fois leur cognée ébranla les forêts!</l>
+               <l>Que de fois leur charue ouvrit un sol rebelle!</l>
+               <l>Heureux quand ils guidaient à travers les guérets</l>
+               <l>Leur esaleur gémissant sous la moisson nouvelle!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Laissons l’ambitieux n’attacher aucun prix</l>
+               <l>A ces rudes travaux, à ces mœurs pastorales;</l>
+               <l>Gardons-nous d’écouter avec un froid mépris</l>
+               <l>De ces bons villageois les modestes annales!</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>La pompe des blasons, l’opulence, l’orgueil,</l>
+               <l>La beauté même, hélas! tout passe, tout succombe,</l>
+               <l>Tout franchit sans retour l’inévitable seuil!</l>
+               <l>Le sentier des grandeurs mène qu’à la tombe!</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Pardonnez, grands du monde! un culte adulateur</l>
+               <l>Ne leur éleva point de riche mausolée</l>
+               <l>Pour eux, aux chants des morts, dans la nef ébranlée,</l>
+               <l>Ne se; mêla jamais en langage imposteur!</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>Mais un deuil fastueux, un marbre qui respire,</l>
+               <l>Peuvent-ils animer d’arides ossements </l>
+               <l>Cet encens, ces honneurs que le vulgaire admire</l>
+               <l>Réveillent-ils les moris au sela des monuments,</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Quelque mortel peut-être ici vivait naguère,</l>
+               <l>Qui se fût de la gloire aplani les chemins;</l>
+               <l>Le monde eût vu peut-ête, en ses habiles mais</l>
+               <l>Le sceptre d’Alexandre ou la lyre d’Homère!</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Mais un destin jaloux, à son œil pénétant,</l>
+               <l>Déroba de Clio les sublimes annales;</l>
+               <l>La pauvreté, la faim, pour lui non moins fatales,</l>
+               <l>De son naissant génie ont glacé le torrent.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>Ainsi, loin des mortels et toujours ignorée,</l>
+               <l>Brille plus d’une perle au sein des vastes mers;</l>
+               <l>Ainsi plus d’une fleur à l’orage librée,</l>
+               <l>Passe, et sans être vue embaume les déserts.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>Là peut-être repose un Hampden, dont l’audace,</l>
+               <l>Eût sauvé son hameau d’une odieuse loi;</l>
+               <l>Un Milton ignoré des vierges du Parnasse,</l>
+               <l>Un Cromwell innocent du meurtre de son roi.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>Contre les factieux tonner à la tribune,</l>
+               <l>Affronter leur fureur, dévoller leurs forfaits;</l>
+               <l>D’un peouple gémissant soulager l’infortune,</l>
+               <l>Et lire son ouvrage en des yeux satisfaits:</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Tel ne fut point leur sort. Pour eux, dès leur nasance,</l>
+               <l>Des crimes, des vertus le cous fut limité;</l>
+               <l>Leus mains n’ont pas brisé l’autel de la cléner:</l>
+               <l>Et ravi par la force un aceptre ensanglanté.</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>Leur âme toujours pure ignora l’artifice,</l>
+               <l>La candeur respirait sur leurs fronts innocents</l>
+               <l>Aux vanites du monde, aux idoles du vice,</l>
+               <l>Ils n’ont point des neuf sœurs prostitué l’encore</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Etrangers à la foule, aux clameurs de l’envie,</l>
+               <l>Ils ne formèrent point de vœux immodérés;</l>
+               <l>Sans éclat, sans remords, du vallon de la vie</l>
+               <l>Ils suivient en paix les sentier ignorés.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>Un simple monument élevé sur leurs restes,</l>
+               <l>De l’unjure du temps a su les protéger;</l>
+               <l>Des emblèmes sans art, quelques rimes agestes,</l>
+               <l>Implorent d’un soupir le tribut passager.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Une muse des champs, sur la pierre insensible,</l>
+               <l>De leurs ans, de leurs noms, grava le souvenir,</l>
+               <l>A l’entour quelque texte, emrunté de la Bible,</l>
+               <l>Nous commande l’espoir d’une vie à venir.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>Hé ! qui peut à l’oubli livrer avec courage</l>
+               <l>Des jours que le malheur n’a pu rendre odieux!</l>
+               <l>Quel mortel à l’aspect du terrible passage,</l>
+               <l>Ne jette vers la vie un long regard d’adieux!</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>L’homme le plus à plaindre, à son beure dernière</l>
+               <l>Aux yeux de son ami demande encor des pleurs</l>
+               <l>Son âme a pris l’essor, et sa froide poussiere</l>
+               <l>Semble se rauimer au cri de nos douleurs.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>Pour moi ; qui, dans ces vers, ai dit la simple la loire,</l>
+               <l>De ces hommes obscus moissonnés par la mort</l>
+               <l>Si, visitant ces lieux qu’habiteleur mémoire,</l>
+               <l>Le jour le voyageur s’informe de mon sort;</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Peut-être un vieux pasteur, d’une voix oppressée,</l>
+               <l>Lui dira: Je l’ai vu souvent, au point du jour,</l>
+               <l>Son allant à grands pas à travers la rosée,</l>
+               <l>Du soleil sur ces monis attendre le retour.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>Tantôt, sous ce vieux chêne, aux cimes fantastiques,</l>
+               <l>Vers le milieux du jour il cherchait le repos;</l>
+               <l>Tantôt, suivant du lac les bords mélancoliques,</l>
+               <l>Resif il écoutait le murmure des flots.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>Quelquefois, parcourant la forêt ténébreuse,</l>
+               <l>L’infortuné pleurait, souriait tour à tour;</l>
+               <l>Le confiant au veut sa plainte douloureuse,</l>
+               <l>°°°tourmenté d’un douloureux amour.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>Le jour sur la colline, à l’heure accoutumée</l>
+               <l>Il ne vint oint goûtier la fraieheur du matin;</l>
+               <l>Au retour du soleil dans la plaine embaumée,</l>
+               <l>Sous l’arbre qu’il almait je l’attendis eu vain.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>Le jour suivant, je vis, le long du cimetière,</l>
+               <l>Sarabcer un envoi chantant l’hymne des morts;</l>
+               <l>Le pied de ce mélèwe on déposa son corps.</l>
+               <l>Lisez….son épitaphe est là….sur cette pierre.</l>
+            </lg>
+            <lg>
+               <head>EPITAPHE</head>
+               <lg n="30" corresp="#stn30">
+                  <l>Li dont, affranchi des terrestres liens,</l>
+                  <l>Celui qui des grandeurs dédaigna la follie;</l>
+                  <l>B arma la science ; et la mélancolie</l>
+                  <l>Le prenant au berceau, lui dit: Tu m’appartiens.</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>Son cœur du malheureux partageait les alarmes,</l>
+                  <l>Jamais de ses refus le pauvre n’a gémi;</l>
+                  <l>Tout ce qu’il possédait il le donna: des larmes!</l>
+                  <l>Tout ce qu’il désirait il l’obtini: un ami!</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>Laisse en paix ses vertus dans leur dernier refuge,</l>
+                  <l>L’assai ! vois ses erreurs sans haine, sans courroux:</l>
+                  <l>Pris d’un timide espoir, loin d’un monde jaloux,</l>
+                  <l>L’attend son arrêt, et Dieu seul est son juge.</l>
+               </lg>
+            </lg>
+            <signed>J.B.A. Soulié</signed>
+         </div>
+      </body>
+   </text>
+</TEI>

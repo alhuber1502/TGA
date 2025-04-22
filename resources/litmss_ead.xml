@@ -3,7 +3,7 @@
 <!DOCTYPE ead PUBLIC '+//ISBN 1-931666-00-8//DTD ead.dtd 
    (Encoded Archival Description (EAD) Version 2002)//EN' "ead.dtd" [
 
-	   <!ENTITY flastmod '05 Sep 2013'>
+	   <!ENTITY flastmod '31 Mar 2025'>
 
    ]>
 <ead audience="external" relatedencoding="MARC21">
@@ -37,6 +37,11 @@
 			</langusage>
 		</profiledesc>
 		<revisiondesc>
+			<change>
+				<date normal="20250331">31 March 2025</date>
+				<item>New MS entry 0291 from the John Work Garrett Library, Johns Hopkins University.</item>
+				<item>Updates for MS entry 0097.</item>
+			</change>
 			<change>
 				<date normal="20130905">5 September 2013</date>
 				<item>Updates for MS entries 0002, 0006, 0107, 0153, 0242, 0243, 0244, 0245.</item>
@@ -131,7 +136,7 @@
 				</addressline>
 				<addressline>E: <emph><extref href="mailto:huber@thomasgray.org" show="embed">huber@thomasgray.org</extref></emph>
 				</addressline>				
-				<addressline>WWW: <extptr href="http://www.thomasgray.org/"/></addressline>
+				<addressline>WWW: <extptr href="https://www.thomasgray.org/"/></addressline>
 			</address>
 		</titlepage>
 	</frontmatter>
@@ -200,7 +205,7 @@
 					Integrated Finding Aid&quot;. <emph render="italic">Thomas
 						Gray Archive</emph>. Ed. Alexander Huber. Thomas Gray Archive, $flastmod.
 					Web. $dateofaccess.
-					&lt;http://www.thomasgray.org/resources/findaid.shtml&gt;.</p>
+					&lt;https://www.thomasgray.org/resources/findaid.shtml&gt;.</p>
 			</prefercite>
 			<altformavail>
 				<head>About the Originals</head>
@@ -6505,6 +6510,75 @@
 						</dao>
 					</c03>
 				</c02>
+
+				<c02 level="class">
+					<did>
+						<unitid type="work">poems.lt26</unitid>
+						<unittitle type="uniform" label="Uniform Title:">
+							<title render="doublequote">[Gaeta]</title>
+						</unittitle>
+						<unittitle label="First Line:">
+							<title>Pulchra Caietae speculantis altum</title>
+						</unittitle>
+						<unitdate normal="2024">2024</unitdate>
+						<langmaterial>
+							<language encodinganalog="546" langcode="lat">Latin</language>
+						</langmaterial>
+					</did>
+					<bibliography>
+						<bibref title="$biblm#AbB_2024">Abbott/Levinson (eds.), <title
+							render="italic">Thomas Gray among the Disciplines</title> (2024), 57-58 (with English
+							translation)</bibref>
+						<bibref title="$biblp#HaE_2024">Haan (ed.), <title
+							render="italic">The Latin Poetry of Thomas Gray</title> (2024), 84-85 (with English
+							translation)</bibref>
+					</bibliography>
+					<scopecontent>
+						<p>Written probably in <extref
+							href="$mats/table.shtml#1740"
+							show="replace"><date normal="1740">June 1740</date></extref>, inspired by an excursion to Naples from Rome, while on the Grand Tour.
+							First published in <bibref title="$biblm#AbB_2024">Abbott/Levinson (eds.), <title
+								render="italic">Thomas Gray among the Disciplines</title> (2024), 57-58 (with English
+								translation)</bibref>.
+						</p>
+					</scopecontent>
+					<c03 level="item">
+						<did>
+							<unitid type="TGA">mss.0291</unitid>
+							<unitid type="work">poems.lt26</unitid>
+							<unittitle label="Title:">
+								<title render="doublequote">[untitled]</title>
+							</unittitle>
+							<unitdate normal="1740">1740</unitdate>
+							<physdesc>
+								<extent unit="page">1</extent>
+								<physfacet>autograph, corrected</physfacet>
+							</physdesc>
+							<langmaterial>
+								<language encodinganalog="546" langcode="lat">Latin</language>
+							</langmaterial>
+							<physloc label="Identifier:">
+								Thomas Gray Manuscripts: <extref
+									href="https://aspace.library.jhu.edu/repositories/5/archival_objects/229720"
+									show="new">MS-GAR-0046, Vol. 2093623, item: 1</extref>, f. 2r</physloc>
+							<physloc label="Building:"> John Work Garrett Library (Evergreen Museum and Library) </physloc>
+							<repository>JHGL</repository>
+						</did>
+						<scopecontent>
+							<p>Autograph, untitled with corrections, among 
+								<persname normal="Gray, Thomas, 1716-1771" source="lcnaf"
+									>Gray</persname>'s pencil notes on Siena and <extref
+										href="$mats/glplaces.shtml#Naples (Napoli province, Campania, Italy), inhabited place [7004474]" show="replace"><geogname
+											normal="Naples (Napoli province, Campania, Italy), inhabited place [7004474]">Naples</geogname></extref> 
+									while on the Grand Tour with <extref
+										href="$mats/glnames.shtml#Walpole, Horace, 1717-1797"
+										show="replace"><persname normal="Walpole, Horace,
+											1717-1797">Horace Walpole</persname></extref>, June 1740.
+							</p>
+						</scopecontent>
+					</c03>
+				</c02>
+
 				<c02 level="class">
 					<did>
 						<unitid type="work">poems.lt10</unitid>
@@ -8407,9 +8481,13 @@
 							</unittitle>
 							<unitdate normal="1750">1750</unitdate>
 							<physdesc>
-								<extent unit="pages">[?]</extent>
+								<extent unit="pages">3</extent>
 								<physfacet>autograph fair copy, corrected</physfacet>
 							</physdesc>
+							<physloc label="Identifier:">
+								Thomas Gray Manuscripts: <extref
+									href="https://aspace.library.jhu.edu/repositories/5/archival_objects/229722"
+									show="new">MS-GAR-0046, Vol. 2093623, item: 3</extref></physloc>
 							<physloc label="Collection:"> Rare Books, Special Collections and
 								Archives
 							</physloc>

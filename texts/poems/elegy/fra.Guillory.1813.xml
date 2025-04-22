@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Élégie sur un cimetière de campagne</title>
+            <author>Guillory, M. P.</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="fra1813a_bib">
+               <date>1813</date>
+               <author>Guillory, M. P.</author>
+               <title level="a">Élégie sur un cimetière de campagne</title>
+               <title level="j">Le Moniteur Universel</title>
+               <date type="publ">Dec. 31, 1813</date>
+               <idno type="NoC_1917">762</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Guillory, M. P."
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="fra.Guillory.1813">
+            <head type="main">Élégie sur un cimetière de campagne</head>
+            <lg n="1" corresp="#stn1 #stn2">
+               <l>Déjà  l’airain funèbre annonce le repos;</l>
+               <l>Les rayons amortis du dieu de la lumiere</l>
+               <l>D’un éclat pálissant colorent les côteaux.</l>
+               <l>Le villageois courbé sous le poids des travaux,</l>
+               <l>Regagné, à pas tardifs sa paisible chaumiere</l>
+               <l>Et laisse à mes pensers et l’ombre et l’Universe.</l>
+               <l>Le faible moucheron, et l’onde fugitive</l>
+               <l>Apelant le sommeil sur sa tranquille rive,</l>
+               <l>Troublent seuls le repos qui regne dans les airs. </l>
+            </lg>
+            <lg n="2" corresp="#stn3 #stn4 #stn5">
+               <l>Du creux de ce rochar qu’un yieux lierre ombrage,</l>
+               <l>Le nocturne hibou se plaint au voyageur</l>
+               <l>Qui trouble son asyle et ce lieu plein d’horreur,</l>
+               <l>Sous l’ombre que répand un triste et noir feuillage</l>
+               <l>Est le tombeau sacré du simple laboureur,</l>
+               <l>Que couvre un peu d’argile et quelque herbe sauvage</l>
+               <l>Là reposent en paix les anciens du village;</l>
+               <l>Ils doment, et jamais ne viendra le réveil! . . .</l>
+               <l>Ni le souffle odorant du tende époux de Flore,</l>
+               <l>Ni le coq, de ses chants précurseurs de l’aurore,</l>
+               <l>N’interrompra le cours de leur profond sommeil.</l>
+            </lg>
+            <lg n="3" corresp="#stn6">
+               <l>Les fils, en embrassant les genoux de leurs peres,</l>
+               <l>N’iront plus désormais, sur le déclin du jour,</l>
+               <l>Leur donner à l’envi le baiser du retour;</l>
+               <l>Ils ne reverront plus leurs vigilantes mères</l>
+               <l>De leurs doigts humectés mauier le fuseau.</l>
+            </lg>
+            <lg n="4" corresp="#stn7 #stn8">
+               <l>Ils ont conduit gaiment, leurs brebis au côteau,</l>
+               <l>Cérès a disparu sous leurs faux recourbées,</l>
+               <l>Leurs mais ont arrosé la terre de sueurs</l>
+               <l>Et sous leur fer tranchant les foreis sont tombées.</l>
+               <l>Grands, ne dédaignez point leurs rustiques labeurs!</l>
+               <l>Que votre orgueil s’abaisse et respecte leur tombe;</l>
+               <l>Du chantre des bergers écoutez les concerts</l>
+               <l>Le trait fatal atteint la timide colombe</l>
+               <l>Et l’aigle audacieux qui plane dans les airs.</l>
+            </lg>
+            <lg n="5" corresp="#stn9">
+               <l>Quand la mort insensible à vous fraper s’app[  ]e   </l>
+               <l>Lorsque l’instant dernier menace votre tête,</l>
+               <l>Vous prétendez en vain opposer la fierté</l>
+               <l>Le chemin des grandeurs mène à l’éternité.</l>
+            </lg>
+            <lg n="6" corresp="#stn10 #stn11">
+               <l>Quand le pauvre a fermé ses yeux à lumiere</l>
+               <l>Une troupe sacrée, autour de son cercueil,</l>
+               <l>Ne conduit point ses os pourrir avec orgueil</l>
+               <l>Le burin mensonger ne charge point la biere</l>
+               <l>Qui renferme sa cendre et ses restes muets</l>
+               <l>De ces fausses vertus qu’il ne connut jamais</l>
+               <l>Par l’adultation la mort n’est point fléchie</l>
+               <l>Et l’ensens du flatteur ne rend point à la vie</l>
+            </lg>
+            <lg n="7" corresp="#stn12 #stn13">
+               <l>Cet asyle oublié ce triste et sombre bord,</l>
+               <l>Cache peut-être un cœur généreux et superbe,</l>
+               <l>Des mains dignes du sceptre et de la lyre d’or,</l>
+               <l>Que l’aveugle destin ensevelit sous l’herbe</l>
+               <l>La froide pauvreté, les soins impérieux</l>
+               <l>Ont glacé dans leurs cœurs le torrent du génie</l>
+               <l>Et des trésors du tems, la science enrichie,</l>
+               <l>De son divin flambeau n’éclaira oint leurs yeux.</l>
+            </lg>
+            <lg n="8" corresp="#stn14 stn15">
+               <l>L’Océan ténébreux cache au fond de son onde</l>
+               <l>Les plus riches trésors et les plus belles fleurs,</l>
+               <l>Triste et muet désert aux regards de ce monde.</l>
+               <l>Là peut être un Hamden dort parmi les pasteurs</l>
+               <l>Près d’un Cromwell peut être en cette nuit profonde,</l>
+               <l>Un Milton ignoré repose sans honneurs.</l>
+            </lg>
+            <lg n="9" corresp="#stn16 #stn17 #stn18 #stn19">
+               <l>Le ciel ne les fis fit point pour verser l’abondance,</l>
+               <l>Pour soulager le faible et défendre ses droits,</l>
+               <l>Pour dompter l’Univers et lui donner des lois,</l>
+               <l>Pour entendre chanter leur gloire et leur puissance;</l>
+               <l>Mais ils n’ont point connu l’avarice des grands.</l>
+               <l>Ils aimaient la justice et lui restaient fideles,</l>
+               <l>D’un cœur bon et sensible ils furent les modeles,</l>
+               <l>Ils n’étoufferent point les remords déchirans;</l>
+               <l>A la triste infortune ils donnerent des larmes</l>
+               <l>Au milieu des écueils des brigues des alarmes,</l>
+               <l>Ils ne s’ouvrirent point un dangereux accès;</l>
+               <l>Mais de leurs actions la vertu fut le guide,</l>
+               <l>Et dans leur indigence, exempts de noirs chagrins,</l>
+               <l>Ils passerent des jours tranquillés et sereins:</l>
+               <l>Tel au pied d’un vallon coule un ruisseau limpide.</l>
+            </lg>
+            <lg n="10" corresp="#stn20 #stn21 #stn22">
+               <l>Un monument grossier; peu chargé d’ornemens,</l>
+               <l>Les défend de l’outrage et de l’ougbli des tems.</l>
+               <l>On n’y grava quelques rustiques rimes,</l>
+               <l>Où l’on posa leurs noms et l’instant où le sort</l>
+               <l>Leur prêta l’exitence et leur donna la mort.</l>
+               <l>Et ces témoins du faible et du néant des hommes</l>
+               <l>Invitent le passant, qu’ils viennent d’attendrir,</l>
+               <l>A leur donner encore un regard, un soupir.</l>
+            </lg>
+            <lg n="11" corresp="#stn23 #stn24">
+               <l>Eh ! qui, prêt à quitter le séjour où nous sommes,</l>
+               <l>A l’horreur de l’oubli peut songer sans frémir ?</l>
+               <l>Qui peut mettre le pied sur la fatale rive,</l>
+               <l>Sans jetter en atriere un regard envieux ?</l>
+               <l>L’œil que baignent les pleurs de l’amitié plaintive,</l>
+               <l>D’un ami qui succombe anime encor les yeux;</l>
+               <l>L’amour du souvenir vient agiter son ombre,</l>
+               <l>Et ses mânes glacés de leur dem,eure sombre,</l>
+               <l>Réclament les regrets de la postérité.</l>
+            </lg>
+            <lg n="12" corresp="#stn25 #stn26 #stn27 #stn28 #stn29">
+               <l>Toi pour qui du malheur j’écris la triste histoire,</l>
+               <l>Rustique ami des champs et de la vérité,</l>
+               <l>Ma Muse aime en ce jour à célébrer ta gloire.</l>
+               <l>En prononçant mon nom, si quelqu’un de tes fils</l>
+               <l>S’informe de ma vie, un pâtre aux blancs sourcils</l>
+               <l>Répondra: “Son lever accompagnait l’aurore</l>
+               <l>Avant que le soleil nous éclairât encore,</l>
+               <l>A pas précipites il montait le côteau,</l>
+               <l>A midi, fatigué, sous un antiaue ormeau</l>
+               <l>Il goûtait le repos, couché sur le feuillage</l>
+               <l>Un soir il s’enfonça dans ce bosquet sauvage</l>
+               <l>Murmurant comme un homme accablé de regrets :</l>
+               <l>Le matin sur ses pas je courus au bocage:</l>
+               <l>Je ne le trouvai point. En vain le jour d’après</l>
+               <l>Sous son arbre chéri je l’attends à l’ombrage</l>
+               <l>Un funèbre cercueil, entouré de cyprès,</l>
+               <l>Est conduit à pas lents au temple du village:</l>
+               <l>J’y cours plein de douleur je demande ... Grands dieux</l>
+               <l>Mon ami pour toujours avait fermé les yeux.”</l>
+            </lg>
+            <signed>M. P. Guillory</signed>
+         </div>
+      </body>
+   </text>
+</TEI>

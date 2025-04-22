@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Trant, Domenico</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="ita1817a_bib">
+               <date>1817</date>
+               <author>Trant, Domenico</author>
+               <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
+               <editor>Torri, Alessandro</editor>
+               <pubPlace>Verona</pubPlace>
+               <publisher>Dalla Tipografia Mainardi</publisher>
+               <biblScope>28-45</biblScope>
+               <date type="publ">1817</date>
+               <idno type="NoC_1917">807</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Trant, Domenico"
+              rendition="#lgvspace"
+              type="prose"
+              xml:id="ita.Trant.1817">
+            <head type="main"/>
+            <lg n="1" corresp="#stn1">
+               <head>1</head>
+               <l>Il rintocco della campana segna il partente girono;</l>
+               <l>Il mugghiante armento erra lentamente sulla piaggia;</l>
+               <l>L’arator verso casa prende la sua strada faticosa,</l>
+               <l>E lascia il mondo alle tenebre ed a me.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <head>2</head>
+               <l>Ora svanisce l’indistinto paese dalla vista,</l>
+               <l>E un orrido e maestoso silenzio occupa tutta l’aria,</l>
+               <l>Eccetto che dove lo scarafaggio move il suoa ronzante volo,</l>
+               <l>E tintinni sonnolenti addormentano I lontani ovili;</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <head>3</head>
+               <l>E dove da quella d’ellera ammantata torre</l>
+               <l>Il pensieroso gufo si duole alla luna</l>
+               <l>Di quelli, ch’errando presso alla sua segreta pergola</l>
+               <l>Sturbano il suo antico solitario regno.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <head>4</head>
+               <l>Scotto quelli scabri olmi, sotto l’ombra di quel tasso</l>
+               <l>Ove si alza la zolla in polverosi mucchi,</l>
+               <l>Ciaschedun nella sua cella angusta per sempre riposto</l>
+               <l>I rozzi antenati del villaggio dormono.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <head>5</head>
+               <l>La mormorante voce dell’incenso-spirante mattino,</l>
+               <l>La rondinella piagente dalla capanna coperta di paglia,</l>
+               <l>Lo squillante canto del gallo, o l’eccheggiante corno</l>
+               <l>No piú gli alzerà dal loro letto umile.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <head>6</head>
+               <l>Per loro non piú arderfà el vampeggiante focolare,</l>
+               <l>O diligente madre di famiglia si applicherà alla sua vespertina cura,</l>
+               <l>Non correranno i fanciulli balbettando il ritorno del padre,</l>
+               <l>Non s’arrampicheran sopra i di lui ginocchi a divider l’invidiato bacio.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <head>7</head>
+               <l>Spesse volte la messe ha ceduto alla loro falce,</l>
+               <l>Spesse volte il loro vomero ha infranto la zolla ostinata:</l>
+               <l>Come allegri conducevano il lo tiro al campo!</l>
+               <l>Come piegavansi i oschi sotto il lor colpo robusto!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <head>8</head>
+               <l>Chi l’ambizione non isprezzi la loro utile fatica,</l>
+               <l>I loro piaceri domestici, el il loro fato oscuro;</l>
+               <l>Che non ascolti il fasto con un sorriso sdegnoso</l>
+               <l>I corti e semplici annali dei poveri.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <head>9</head>
+               <l>El vanto dell’arte araldica, la pompa della possanza,</l>
+               <l>E tutto ciò che la bellezza, e tutto ciò che ànno mai dato le ricchezze</l>
+               <l>Aspetta equalmente l’ora inevitabile,</l>
+               <l>Le strade della gloria non conducono che alla tomba.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <head>10</head>
+               <l>Nè voi, orgogliosi, imutate a questi a difetto</l>
+               <l>Se la memoria sopra il lor sepolcro non erge trofei,</l>
+               <l>Ove per vato fabbricate, e sotto volta lavorata</l>
+               <l>La risonante antifona alza la nota di lode.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <head>11</head>
+               <l>Può mai l’urnoa istoriate, o l’animato usto</l>
+               <l>Rachiamar alla sua sede lo spirito fugace?</l>
+               <l>Può mai la voce dell’onore eccitar la tacita polvere,</l>
+               <l>O l’adulazione lusingar l’insensibile e freddo orecchio di morte?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <head>12</head>
+               <l>Forse in questo angolo negletto è riposto</l>
+               <l>Qualche cuore una volta pregno di fuoco celeste;</l>
+               <l>Mani, che avrian potuto reggere lo scettro dell’impero,</l>
+               <l>O svegliare all’armonia la vivente lira.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <head>13</head>
+               <l>Ma la scienza ai loro occhi la sua ampia pagina</l>
+               <l>Ricca delle spoglie del tempo mai non ispiegò;</l>
+               <l>La fredda povertà represse il loro nobile entisiasmo,</l>
+               <l>E agghiacciò la geniale corrente dell’anima.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <head>14</head>
+               <l>Ben molte gemme di purissimo raggio sereno</l>
+               <l>Le cupe profonde caverne dell’oceano racchiudono;</l>
+               <l>Ben molti fiori mascono a rosseggiar non veduti,</l>
+               <l>Ed a spander la loro fragranza all’aria deserta.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <head>15</head>
+               <l>Qualche rustico Hampden ce con intrepido petto</l>
+               <l>Al piccolo tiranno d’suoi campi si oppose,</l>
+               <l>Qualche muto ed oscuro Milton qui forse riposa,</l>
+               <l>Qualche Cromwel innocente del sangue della sua patria.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <head>16</head>
+               <l>Ad attirar gli applausi d’ascoltanti senati,</l>
+               <l>A sprezzar le minacce del dolor e della sventura,</l>
+               <l>A sparger l’abbondanza sopra un paese ridente,</l>
+               <l>Ed a legger la loro istoria in faccia della nazione</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <head>17</head>
+               <l>Probì loro la sorte: non ristrinse però solamente</l>
+               <l>Le loro crescenti virtù; represse anche i loro viaj;</l>
+               <l>Probì di andar nuotando fra el sangue al trono,</l>
+               <l>E di chiuder le porte di misericordia al genere umano;</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <head>18</head>
+               <l>Di reprimere le forti agitazioni della coscienza,</l>
+               <l>Di spegnere i rossori dell’ingenua pudore,</l>
+               <l>O di sagrificar sull’altare del lusso e della superbia</l>
+               <l>Con incense acceso alla fiamma della musa.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <head>19</head>
+               <l>Lontani dal vano tumulto del pazzo volgo,</l>
+               <l>Le loro brame moderate non impararono mai a traviare;</l>
+               <l>Lungo la fresca e dolitaria valle della vita</l>
+               <l>Tennero il tacito corso della loro via.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <head>20</head>
+               <l>Per proteggere anche queste oss dall’insulto</l>
+               <l>Qualche fragile monumento eretto vicino</l>
+               <l>Con rozze rime, e deformi sculture ornato</l>
+               <l>Implora dal passeggiero il tributo d’un sospiro.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <head>21</head>
+               <l>Il lor nome, i loro anni scritti da musa illetterata</l>
+               <l>Sanno in luogo di fama e di elegia:</l>
+               <l>Sparge anch’essa molti sacri testi intorno,</l>
+               <l>Che insegnano al rustico dabbene a morire.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <head>22</head>
+               <l>Poichè chi in preda alla muta obblivione</l>
+               <l>Ha mai ceduta questa piacevole ed ansiosa esistenza,</l>
+               <l>Ha lasciate le calde regioni dell’allegro giorno</l>
+               <l>Senza gettar indietro un appassionato e sospiroso sguardo?</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <head>23</head>
+               <l>Sopra ualche petto amato si riposa l’anima spirante,</l>
+               <l>Alcune pietose stille il socchiuso occhio dimanda;</l>
+               <l>Anche dalla tomba grida la voce della natura,</l>
+               <l>Anche nelle nostre ceneri vivono le solite fiamme.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <head>24</head>
+               <l>Per te, che ricordevole degl’inonorati morti</l>
+               <l>In questi versi la loro semplice istoria racconti,</l>
+               <l>Se per sorte condotto dalla solitaria meditazione</l>
+               <l>Qualche spirito al tuo conforme dimanderà del tuo fato,</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <head>25</head>
+               <l>Forse gli risponderà qualche canuto pastore:</l>
+               <l>“Spesse volte l’abbiamo visto allo spuntar dell’alba</l>
+               <l>“Conpassi frettolosi scotendo la rugiada</l>
+               <l>“A rincontrar il sole sull’altra vetta.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <head>26</head>
+               <l>“Là al piè di quel pieghevole faggio</l>
+               <l>“Che atortiglia tanto alto le sue antiche e bizzarre radici,</l>
+               <l>“Sbadato e ozioso sdrajavasi all’ora del meriggio,</l>
+               <l>“E guardava il rascello che mormora appresso.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <head>27</head>
+               <l>“Vicino a quel bosco, ora sorridente come per ischerno,</l>
+               <l>“Borbottando le sue capricciose fantasie egli errava,</l>
+               <l>“Ora languido, mesto e smorto come un infelice,</l>
+               <l>“O impazzito dalle cure, o conrariato da amore disperato.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <head>28</head>
+               <l>“Una mattina non lo vidi più sul consueto colle,</l>
+               <l>“Alla boscaglia, e vicino al suo albero prediletto;</l>
+               <l>“Venne an’altra, nè ancora appresso il ruscello,</l>
+               <l>“Nè sovra il possio, nè al bosco egli era.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <head>29</head>
+               <l>“La seguente con uffizj debiti in mesta pompa</l>
+               <l>“Lento per lo sentiero alla chiesa lo vendemmo portato;</l>
+               <l>“Avvicinati e leggi (poichè legger tu sai) il verso</l>
+               <l>“Inciso sulla pietra sotto quella spina antica.</l>
+            </lg>
+            <lg>
+               <head>L’Epitafio.</head>
+               <lg n="30" corresp="#stn30">
+                  <head>30</head>
+                  <l>Qui posa il suo capo sul grembo della terra</l>
+                  <l>Un garzone alla fortuna ed alla fama ignoto,</l>
+                  <l>La bella scienza non spezzò la sua nascita umile,</l>
+                  <l>E la malinconia lo segnò della sua impronta!</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <head>31</head>
+                  <l>Larga era la sua carità, e la sua anima sincera,</l>
+                  <l>Il cielo gli mandò un premio egualmente largo:</l>
+                  <l>Egli diede alla lmiseria (tutto ciò che aveva) una lagrima,</l>
+                  <l>Egli guadagnò dal cielo (tutto ciò cui sospirava) un amico.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <head>32</head>
+                  <l>La tutti essi agualmente in timorosa speranza riposano</l>
+                  <l>In seno del suo Padre e del suo Dio.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

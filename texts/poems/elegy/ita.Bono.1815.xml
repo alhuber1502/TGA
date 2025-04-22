@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Bonò, Elisabetta Sesler</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="ita1815_bib">
+               <date>1815</date>
+               <author>Bonò, Elisabetta Sesler</author>
+               <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
+               <editor>Torri, Alessandro</editor>
+               <pubPlace>Verona</pubPlace>
+               <publisher>Dalla Tipografia Mainardi</publisher>
+               <biblScope>97-100</biblScope>
+               <edition>2nd edition</edition>
+               <date type="publ">1843</date>
+               <idno type="NoC_1917">804</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Bonò, Elisabetta Sesler"
+              rendition="#lgvspace"
+              type="prose"
+              xml:id="ita.Bono.1815">
+            <head type="main"/>
+            <div>
+               <p>
+                  <seg n="1" corresp="#stn1">							Suona il sacro bronzo. È qusto il segno del dì spirante. Il bue
+							muggendo lentamente abbandona il formato solco: l’agricoltore affaticato
+							parte dal campo asperso d’ suoi sudori, e lascia il mondo
+							alle tenebre, ed a me.</seg>
+                  <seg n="2" corresp="#stn2">							L’aspetto del villaggio incominica ad illanguidire
+							al crespluscolo vespertino: regna nella natura una calma ed un
+							silenzio profondo; odesi appena ancora l’aspro strillare di fqualche
+							grillo che addormenta il coricato gregge;</seg>
+                  <seg n="3" corresp="#stn3">							talvolta pure dall’alto di
+							qust’antica torre di edera amorosa, che l’attornia, coperta, lo
+							stupido barbaggiano innalza i suoi lamenti alla luna, perchè un’importuno
+							viaggiatore dirigendo gli smarriti suoi passi verse questo romitoro 
+							turba il riposa di sua solitudine, dove da lungo tempo ha
+							stabilito il suo regno.</seg>
+                  <seg n="4" corresp="#stn4">							Sotto questi vecchj olmi, all’ombra di questi
+							cipressi s’innalzano qua e là dei monticelli di terra sotto cui in angusti
+							spazj riposano per sempre i vecchj abitatori di qusto villaggio.</seg>
+                  <seg n="5" corresp="#stn5">							Il zeffiro mattutino, che col dolce suo soffio, reca un delizioso profumo;
+							la rondinella col suo acuto gorgheggio; il gallo con suo grido
+							penetrante;</seg>
+                  <seg n="6" corresp="#stn6">							ed il pastore collo strepito del suo corno, che rimbombar
+							fa l’eco, più loro la mensa della sera, i teneri fanciulletti non correranno
+							più ad annunicare il ritorno del padre loro, nè si vedranno
+							arrampicarsi sulle loro ginocchia per disputarsi la plreminenza di un
+							bacio sì al loro cuore soave.</seg>
+                  <seg n="7" corresp="#stn7">							Sovente la dorata messe cedette alla
+							loro acuta falce; la terra inaridita fu spezzata dal vomero del loro
+							aratro. Con quale esultanza conducevano il loro attiraglio ovitivo ai
+							campi! Come le più alte e robuste quercie di questo bosco piegarono
+							le superbe cime sotto ai vigorosi loro colpi!</seg>
+                  <seg n="8" corresp="#stn8">							L’ambizione non
+							insulti gli utili loro ravagli, i loro sem;lici piaceri domestici, e l’oscura
+							loro vita. La oplulenza cessi di udire con insultante sorriso la
+							semplice storia del misero.</seg>
+                  <seg n="9" corresp="#stn9">							L’orogoglio della nascita, il fasto del potere,
+							i vantaggi della bellezza, e la ricchezza finiscon tutti in un
+							punto. La stada della gloria ha limite al sepolcro.</seg>
+                  <seg n="10" corresp="#stn10">							Uomini superbi,
+							non li rimproverate se la loro memoria non fu innalzata con trofei
+							sugli avelli in questo vasto recinto, ove gli accenti sublimi del cuore
+							risuonar faceano lo lodi dell’Altissimo.</seg>
+                  <seg n="11" corresp="#stn11">							Un’urna magnificamente lavorata,
+							un busto bene effigiato dallo scalpello ponno mai rendere ad
+							un cadavere il soffio leggero di vita? Tutti gli onori funebri rianimerebbero
+							giammai una polvere muta? La lode sarebb’ella capace
+							di lusingare il freddo orecchio della morte?</seg>
+                  <seg n="12" corresp="#stn12">							In questo semplice e rustico
+							asilo esiste forse una di quei Genj che un giorno accesi de celeste
+							fiamma avrebber saputo dirigere un impero, e trarre dalla loro
+							cetra melodiosí concenti:</seg>
+                  <seg n="13" corresp="#stn13">							ma la Scienza per essi avara non apri loro i
+							suoi copiosi volumi arricchiti dalle spoglie del tekmpo; la fredda povertà
+							agghiacciò il loro nobile entusiasmo, e spense il fuoco divino
+							nelle anime loro.</seg>
+                  <seg n="14" corresp="#stn14">							Quanti diamnti, oimè! quante perle preziose sono
+							sepolte negli abissi dell’oceano?quanti fiori si sono appassiti, senza
+							che s’abbia potuto goder la loro bellezza, nè la soavità dei loro pro
+							fumi, dissipati per l’aria.</seg>
+                  <seg n="15" corresp="#stn15">							Senza dubbio fra aqusti estinti vi è qualche
+							Hampdem che pieno di coraggio avrebbe resistito al piccolo tiranno
+							del villaggio; avvi un Milton ingednamente dimenticato; qualche
+							Cromvello non lordo del sangue d’suoi concittadini;</seg>
+                  <seg n="16" corresp="#stn16">							Un’avversa
+							fortuna impedì loro di attirar l’ammirazione d’un attento senato,
+							ed ottenerne gli applausi; essa ha loro negate le occasioni di affrontare
+							i pericoli e di mostrarsi superiori alle sventure;</seg>
+                  <seg n="17" corresp="#stn17">							si oppose alla
+							loro brama di profonder benefizj e l’abbondanza su di un popolo
+							fortunate e contento; essa finalmente fu gelosa di quella felicità della
+							quale avrebbero gioito leggendo la loro storia al cospetto dei loro concittadini.</seg>
+                  <seg n="18" corresp="#stn18">							Ma questa sorte invidiosa non solamente ha così ristretto la
+							sfera della loro virtù, ma limitò per loro altresi  la carriera del delitto. 
+							Non fu loro permesso di aspirare ad un trono, sul quale sarebbero 
+							saliti fra la strage ed il sangue; non avevano la fatale possanza 
+							di sbandire la pace e la pietà dalla terra;</seg>
+                  <seg n="19" corresp="#stn19">							fu ad essi ignota
+							sempre l’arte di dissimulare i laceranti rimorsi di una coscienza importuna,
+							di nascondere l’ingenua rubescenza del pudore, ed il vano
+							desio di sagrificare alla superbia ed al lusso coll’incenso acceso alla
+							fiamma di una musa venale.</seg>
+                  <seg n="20" corresp="#stn20">							Lungi dal dispregevole corteggio di una
+							turba insensata e sospeita, e sobrj nei loro voti, non ebbero la pazza
+							ambizione de lasciare la strada ordinaria, e sulla scena tranquilla e
+							ritirata di questa vila, seguirono dolcemente il sentiere, che la natura
+							avera loro additato.</seg>
+                  <seg n="21" corresp="#stn21">							Veggo fraltanto qualche modesto e fragile
+							monumento erello per servire di ricovero alle ossa che contiene: la
+							rozza scultura e le di lei rolgari iscrizioni chiedono al passeggero il
+							tributo di un sospiro;</seg>
+                  <seg n="22" corresp="#stn22">							il nome e l'età del sepollo servono di epitafio
+							di elegia ; i sacri testi dintorno scolpili insegnano la necessilà. di
+							morire. Frattanto quanto pochi vi si preparano qui come altrove!
+							Chi è mai colui, che sensibile al piacere dell' esistenza abbandoni la
+							splendida luce che lo. illumina senza rivolgere più volle dietro a.se
+							uno sguardo, che si prolunga da on doloroso sentimento?</seg>
+                  <seg n="23" corresp="#stn23">							Qual è
+							quell' uomo che lasciando il mondo non si lusinghi ancora di sopravvivere
+							a sè medesimo nel seno di un amico, a cui sarà sempre caro?
+							L'occhio che si chide per non riaprirsi più, non aspella egli almeno
+							una lagrima dalla sensibilità?</seg>
+                  <seg n="24" corresp="#stn24">							Anche nel fondo della lomba la roce
+							della natura si fa sentire, e le. ceneri, che vi si rinchiudono, sono
+							ancor riscaldate dal (noco di amore, che non saprebbe estinguersi.
+							In quanlo a te, che vendicando la memoria di quelli che farono privi
+							degli onori funerei, qui segni in poche linee la storia semplice della
+							loro vita; se un di fosse per caso qui guidato dalla meditazione un
+							core sensibile quale il tuo, e bramasse saper la tua sorte,</seg>
+                  <seg n="25" corresp="#stn25">							qualche
+							buon incanutito pastore potrà rispondergli. « Noi l' abbiamo redulo
+							quasi sempre al sorgere dell' aurora affrettare i suoi passi sull' erba
+							bagnata dalla rugiada, salire sulla collina, e dare il primo salulo al
+							sole nascente;</seg>
+                  <seg n="26" corresp="#stn26">							indi nelle ore del meriggio poggiare lentamente le affaticale
+							sue membra solto quegli alberi fluttuanti, fisando gli sguardi
+							verso il ruscello, la di cui acqua score colà mormorando dolcemente.</seg>
+                  <seg n="27" corresp="#stn27">							Talvolta rivolgeva gli erranti suoi passi al bosco; ora sorrideva amaramente
+							di rabbia, ora ripeleva fra sè le sue pene e gli affanni suoi;
+							talvolta questo sventurato piangeva come un essere stanco che soccombe
+							al peso del cordoglio, o ch' è tormentato da un disperato
+							amore.</seg>
+                  <seg n="28" corresp="#stn28">							Una mattina io non lo ritrovai, come al solito, sulla collina;
+							lo cercai inutilmente nel campo e presso le favorite sue piante. Nel
+							di seguente non fui più soddisfatto, egli non era nè al ruscello nè
+							alla montagna nè al bosco;</seg>
+                  <seg n="29" corresp="#stn29">							ma l'indomani noi vedemmo un convoglio
+							avvicinarsi lentamente in un viale del cimitero; la bara era coperta
+							di nero, ed era ei stesso che veniva portato sotterra. « Arvicinati
+							(mi disse uno del seguito), leggi, ed osserva ciò ch' è scolpilo
+							su quella pietra posta dietro questo antico e spinoso cespuglio ».</seg>
+               </p>
+            </div>
+            <div>
+               <head>EPITAFIO.</head>
+               <p>
+                  <seg n="30" corresp="#stn30">							Qui giace un giovane villico ignoto egualmente alla Fortuna che
+							alla Fama. I Poeti non hanno celebrato la oscura nascita di lui. L'umile
+							modestia era il suo retaggio.</seg>
+                  <seg n="31" corresp="#stn31">							La sua beneficenza non avea limiti. La
+							sincerità risiedeva sulle sue labbra. Egli died allo sfortunato tutto ciò
+							che aveva, una lagrima. Ottenne dal Cielo il solo bene che domandava,
+							un amico.</seg>
+                  <seg n="32" corresp="#stn32">							Non vi curate di scoprire altri meriti in lui, nè di
+							svelare i falli, che la fragilità umana ha potuto fargli commettere,
+							e che la morte ha sepolti. Ei non è adesso responsabile che alla
+							Giustizia di quegli ch' è suo Dio, e Padre suo.</seg>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

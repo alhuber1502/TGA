@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Élégie, composée dans un cimetière de village</title>
+            <author>Cottreau, [Jean-Baptiste-] Hugues Nelson</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="fra1811_bib">
+               <author>Cottreau, [Jean-Baptiste-] Hugues Nelson</author>
+               <date>1811</date>
+               <title level="a">Élégie, composée dans un cimetière de village</title>
+               <title level="m">Le bal du bois de Brévannes, poëme, suivi de l'Épître à mon berceau, et d'une traduction du Cimetière de village, de Thomas Gray, 
+						par Hugues Nelson Cottreau</title>
+               <pubPlace>Paris</pubPlace>
+               <publisher>Cretté</publisher>
+               <idno type="NoC_1917">760a</idno>
+               <biblScope>65-87</biblScope>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation #quatrain"
+              n="Nelson-Cottreau, Jean Baptiste Hugues"
+              rendition="#lgvspace"
+              rhyme="abab"
+              type="verse"
+              xml:id="fra.Cottreau.1811">
+            <head type="main">Élégie, composée dans un cimetière de village</head>
+            <epigraph>
+               <l>La tombe est ma maison, la tombe est mon empire,</l>
+               <l>La maison destiné à tout ce qui respire.</l>
+               <bibl>—Job.</bibl>
+            </epigraph>
+            <lg n="1" corresp="#stn1">
+               <head>I.</head>
+               <l>L’airain nocturne exhale un sombre tintement;</l>
+               <l>Vers son toit le vieillard péniblement se traîne;</l>
+               <l>Les troupeaux à l’étable arrivent lentement....</l>
+               <l>Le jour fuit, l’ombre croît, je suis seul dans la plaine.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <head>II.</head>
+               <l>Les objets confondus s’effacent par degrés;</l>
+               <l>Un calme assoupissant pèse sur chaque plante;</l>
+               <l>Et le lourd hanneton, s’élevant sur les prés,</l>
+               <l>Me frappe étourdîment de son aile bruyante.</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <head>III.</head>
+               <l>Tout repose. L’orfraie, amante de la nuit,</l>
+               <l>S’agite pesamment au milieu des décombres;</l>
+               <l>Du donjon écroulé, par le lierre détruit,</l>
+               <l>Ses cris poursuivent l’homme, errant au sein des ombres.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <head>IV.</head>
+               <l>Sous ces monceaux poudreux, couverts de gazons frais,</l>
+               <l>Vers l’ombrage sacré de ces cyprès antiques,</l>
+               <l>Dans leur étroit réduit, resserrés à jamais,</l>
+               <l>Sommeillent du hameau les ancêtres rustiques.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <head>V.</head>
+               <l>Les moissons de parfums du zéphyr matinal;</l>
+               <l>L’hirondelle effleurant le toit de leur chaumière,</l>
+               <l>Les échos des forêts, le coq et son signal,</l>
+               <l>Ne les réveillent plus de leurs lits de poussière.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <head>VI.</head>
+               <l>Ils ne reverront plus, près du foyer chéri,</l>
+               <l>L’épouse alimenter la flamme pétillante;</l>
+               <l>Ni leurs enfans, le soir, d’un regard attendri,</l>
+               <l>Disputer d’un baiser la caresse touchante.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <head>VII.</head>
+               <l>Que de fois les épis du fertile vallon</l>
+               <l>Ont exercé leurs mains au travail obstinées;</l>
+               <l>Ils chantaient en traçant un pénible sillon,</l>
+               <l>Ils chantaient quand les bois tombaient sous leurs cognées.</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <head>VIII.</head>
+               <l>Pourquoi sourire ainsi, mortels ambitieux,</l>
+               <l>De ces plaisirs naïfs, d’une utile carrière?</l>
+               <l>Grands du monde, écoutez, d’un air moins dédaigneux,</l>
+               <l>Les annales du pauvre en son humble chaumière.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <head>IX.</head>
+               <l>L’orgueil du sang royal; la pompe qui le suit,</l>
+               <l>Puissance, rang, beauté, tout s’efface et succombe.</l>
+               <l>Rien ne peut vous soustraire à l’éternelle nuit:</l>
+               <l>Chaque pas vers la gloire est un pas vers la tombe.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <head>X.</head>
+               <l>S’il est vrai que pour eux, privés de monumens,</l>
+               <l>La nef n’a point redit le funèbre cantique;</l>
+               <l>Si l’antienne n’a pas, en longs gémissemens,</l>
+               <l>Ebranlé les vitraux de l’ogive gothique;</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <head>XI.</head>
+               <l>Le buste; vaine effort des beaux-arts créateurs,</l>
+               <l>Peut-il ramener l’âme au corps qu’elle abandonne?</l>
+               <l>La cendre s’émeut-elle à la voix des honneurs?</l>
+               <l>O mort! es-tu sensible à l’encens qu’on te donne?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <head>XII.</head>
+               <l>Peut-être ai-je foulé, sous mes pas incertains,</l>
+               <l>Un coeur tout dévoré d’une céleste flamme!</l>
+               <l>Celui qui d’un empire eût fixé les destins;</l>
+               <l>Celui qui sur la lyre eût exhalé son âme.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <head>XIII.</head>
+               <l>S’ils n’ont point agrandi, dans leur sublime ardeur,</l>
+               <l>Des dépouilles du tems la science enrichie;</l>
+               <l>De leur â de feu, comprimant la hauteur,</l>
+               <l>La froide pauvreté subjugua leur génie.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <head>XIV.</head>
+               <l>Telle une perle, enfouie au vaste sein des mers,</l>
+               <l>Des humains a trompé l’avare inquiétude;</l>
+               <l>Telle une rose vierge, au milieu des déserts,</l>
+               <l>Embaume vainement l’immense solitude.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <head>XV.</head>
+               <l>Là repose peut-être un Hampden ignoré,</l>
+               <l>Qui sut, dans son hameau, domter la tyrannie;</l>
+               <l>Un Cromwell, qui de sang ne fut pas altéré;</l>
+               <l>Un Milton, qui des vers ignora l’harmonie.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <head>XVI.</head>
+               <l>Oui, leur mâle éloquence au milieu de sénat,</l>
+               <l>Du choc des factins eût bravé la tempête;</l>
+               <l>L’abondance, régnant au sein de leur état,</l>
+               <l>Le bonheur d’un grand peuple eût été leur conquête.</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <head>XVII.</head>
+               <l>La même obscurité restreignit à la fois</l>
+               <l>Le germe des vertus, la semence des crimes;</l>
+               <l>Par le fer et la flamme ils n’ont point été rois,</l>
+               <l>Et proscrit sans pitié d’innocentes victimes.</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <head>XVIII.</head>
+               <l>Insensibles aux cris de l’inflexible honneur,</l>
+               <l>Du remords dévorant étouffant la torture,</l>
+               <l>Ils n’ont point violé les lois de la pudeur,</l>
+               <l>Ou consacré leur muse à la basse imposture.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <head>XIX.</head>
+               <l>De désirs insensés ils surent s’affranchir;</l>
+               <l>Eloignés des débats, de ces grands qu’on révère,</l>
+               <l>Ils suivirent en paix, sans craindre l’avenir,</l>
+               <l>Le sentier de la vie étroit et solitaire.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <head>XX.</head>
+               <l>Protecteur de leur cendre, un enclos écarté</l>
+               <l>Annonce au voyageur l’asile funéraire;</l>
+               <l>Un distique grossier, dans le grès incrusté,</l>
+               <l>Implore du passant le soupir tributaire.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <head>XXI.</head>
+               <l>Pour tout éloge, on voit, en un vers consacré,</l>
+               <l>Leur nom, leur âge, écrits par la Muse champêtre.</l>
+               <l>De l’Ecriture Sainte un passage tiré,</l>
+               <l>Des frayeurs du trépas affranchissent leur être.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <head>XXII.</head>
+               <l>Qui pourrait, parmi nous, s’éteindre doucement,</l>
+               <l>Sans qu’un tendre regret se mêle à sa pensée?</l>
+               <l>Sans qu’un regard d’amour, prolongé lentement,</l>
+               <l>Soit le dernier adieu de son âme élancée?</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <head>XXIII.</head>
+               <l>Sur le sein d’un ami retenu fortement,</l>
+               <l>Dans la nuit du tombeau quand l’homme va descendre,</l>
+               <l>L’espoir d’être pleuré le ranime un moment,</l>
+               <l>Une étincelle encor vient soulever sa cendre.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <head>XXIV.</head>
+               <l>Mais toi qui de ces morts, dans des rimes sans art,</l>
+               <l>Chante le sort obscur: si quelaue âme attendrie,</l>
+               <l>pensive dans ces lieux, arrivant par hasard,</l>
+               <l>S’informait du destin qui pesa sur ta vie?</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <head>XXV.</head>
+               <l>Peut-être un vieux berger, couvert de cheveux blancs;</l>
+               <l>Dira: « Nous l’avous vu; dès l’aube pâlissante,</l>
+               <l>Abattre la rosée, éparse dans nos champs,</l>
+               <l>Pour revoir du soleil la splendeur renaissante.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <head>XXVI.</head>
+               <l>Et puis il s’asseyait près de l’antique ormeau,</l>
+               <l>Qui sur l’émqil des fleurs ét etend son vaste ombrage;</l>
+               <l>Couché languissamment sur le bord du ruisseau,</l>
+               <l>Son oeil du flot plaintif épiait le passage.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <head>XXVII.</head>
+               <l>Il côtoyait ce bois, tout distrait et rêveur,</l>
+               <l>Se parlait à lui-même, en proie à son délire;</l>
+               <l>Maudissant les amours, accablé de douleur,</l>
+               <l>Sur ses lèvres errait un pénible sourire.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <head>XXVIII.</head>
+               <l>Un matin, pour le voir, je gravis le coteau;</l>
+               <l>Je parcourus en vain le bocage et la plaine,</l>
+               <l>Le sentier, la prairie et les hords du ruisseau;</l>
+               <l>Le lendemain encor ma recherche fut vaine.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <head>XXIX.</head>
+               <l>Le jour d’après , je vis son modeste cercueil</l>
+               <l>S’avancer lentement è travers la bruyère;</l>
+               <l>Six hommes le portaient en longs habits de deuil.</l>
+               <l>Approche, et lis ces vers incrustés dans la pierre.</l>
+            </lg>
+            <lg>
+               <head>EPITAPHE</head>
+               <lg n="30" corresp="#stn30">
+                  <head>XXX.</head>
+                  <l>De la mélancolie obscur et triste amant,</l>
+                  <l>Un jeune homme repose en ce lieu solitaire:</l>
+                  <l>Des Muses il sentit le suprême ascendant;</l>
+                  <l>Mais il fut étranger aux pompes de la terre.</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <head>XXXI.</head>
+                  <l>Jamais son noble coeur n’obligeait à demi.</l>
+                  <l>Il donnait au malheur son seul bien....une larme....</l>
+                  <l>Son unique trésor...., un véritable ami,</l>
+                  <l>Fut le prix dont le ciel lui fit goûter le charme.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <head>XXXII.</head>
+                  <l>Si dans le vrai chemin tu l’as vu chancelant,</l>
+                  <l>Respecte des mortels le dernier sanctuaire.</l>
+                  <l>Soutenu par l’espoir, il repose tremblant,</l>
+                  <l>Dans le sein de son Dieu; dans le sein de son père.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

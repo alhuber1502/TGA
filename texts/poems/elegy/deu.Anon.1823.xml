@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegie, auf einem Landkirchhofe geschrieben. Nach Gray</title>
+            <author>Anon.</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="deu1823_bib">
+               <author>Anon.</author>
+               <date>1823</date>
+               <title level="a">Elegie, auf einem Landkirchhofe geschrieben. Nach Gray</title>
+               <title level="j">The Kaleidoscope</title>
+               <pubPlace>Liverpool</pubPlace>
+               <date type="publ">May 20, 1823</date>
+               <biblScope>372-373</biblScope>
+               <idno type="NoC_1917">781</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Anon."
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="deu.Anon.1823">
+            <head type="main">Elegie, auf einem Landkirchhofe geschrieben. Nach Gray.</head>
+            <lg n="1" corresp="#stn1">
+               <l>Des Dorfes glocke schallt den Moor entlang,</l>
+               <l>Im Laube spielt der Abendluft Geflüster,</l>
+               <l>Der Pflüger heimwärts pflügt den letzten Gang</l>
+               <l>Und überlässt die Welt mir und dem Düster –</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>Nun stürb’ im Thale auch der letzte Laut</l>
+               <l>Ein festlich Schweigen weilte in den Lüften,</l>
+               <l>Wenn nicht am Wall die Todten-Uhr noch baut’</l>
+               <l>Und Grillensang noch tönte von den Triften;</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Wenn nicht auf jenem grauen Gothenthurm,</l>
+               <l>Ein wilder Uhu nach dem Monde klagte,</l>
+               <l>Dass jüngst ein Wandler in der Nächte-Sturm</l>
+               <l>Ihn von dem scheuen Siedlersitz verjagte.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>Nach diesen greisen Ulmen sanft bewegt,</l>
+               <l>Da wo die Hügel mannigformig schauen,</l>
+               <l>Da schlafen eng’ in kammern hingelegt</l>
+               <l>Die guten frommen Väter dieser Auen.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>Des raschen Morgens früh erwachter Hall,</l>
+               <l>Des Storches Klappern auf dem Halmendache,</l>
+               <l>Des Hahnes Krähen und des Hüfthorns Schall</l>
+               <l>Sie rufen keinen dieser Schläfer wache.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Für sie wird nimmer am entflammten Heerd’</l>
+               <l>Ein harrend Weib die Abendsorge spenden,</l>
+               <l>Kein Knabe, wenn der Vater wiederkehrt,</l>
+               <l>Dem Lieblichen den ersten Kuss enwenden.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>Oft fiel des Saamenkorn aus ihrer Hand</l>
+               <l>Die Schar grub oft die hartbezwung’re Erde,</l>
+               <l>Wie herrlich dann die reife Erndte stand,</l>
+               <l>Wie winkte nicht der Klee der fetten Heerde!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Lass Hochmuth nicht der Fluren stillen Sohn</l>
+               <l>Mit kaltem mitleidsvollem Lächeln richten,</l>
+               <l>Und lese hier mit wohlverhalt’nem Hohn</l>
+               <l>Der Armuth einfach kurze Denkgeschichten.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>Es geben Glanz und Pracht und ehrenvoll</l>
+               <l>Gepräng’ des Wappens, macht und reiche Haabe</l>
+               <l>Dem Unvermeidlichen denselben Zoll:</l>
+               <l>Des Ruhmes Wege leiten nur zum Grabe.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Und ihr, ihr Stolzen, nicht klagt diese an,</l>
+               <l>Wenn nicht Trophäen ihre Särge decken,</l>
+               <l>Und für den harmlos unbekannten Mann</l>
+               <l>Des Rufes hundert eitle Zungen wecken.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>Kann prangend Epitaph und Heucheley</l>
+               <l>Zur starren Brust entfloh’ nen Odem kehren?</l>
+               <l>Und kann die süsse Stimme Schmeicheley</l>
+               <l>Des Todes kaltes taubes Ohr beschwören?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Vielleicht, dass dieser enge schmale Schacht</l>
+               <l>Ein Herz verschliesst mit beil’gem Dichterfeure</l>
+               <l>Und Hände für den Zügal hoher Macht</l>
+               <l>Und Finger für die Saiten einer Leyer.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Nur Wissenschaft reich mit dem Raub der Zeit</l>
+               <l>Entrollte nicht den Dürftigen die Blätter,</l>
+               <l>Die Arbeit bog des Geistes Herrlichkeit,</l>
+               <l>Der Mangel tödtete des Herzens Götter.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>Wohl manche Perle glänzend rein und schön</l>
+               <l>Verbirgt die See in ihren dunklen Klüften,</l>
+               <l>Wohl manches Blümlein blühet ungesehn</l>
+               <l>Und theilt den aüssen Hauch einsamen Lüften.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>So mag ein Brutus – unermüdlich, hart</l>
+               <l>Die Sense schwingend zu nicht blut’gen Siegen,</l>
+               <l>Es mag hier schon ein früher Bonapart,</l>
+               <l>Ein stummer unberühmter Schiller liegen.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>Wohllaut zu schütten über eine Welt,</l>
+               <l>Und diamanten Vesten zu bezwingen,</l>
+               <l>Rückkehrend aus entfernsein Thatenfeld</l>
+               <l>Des Vaterlands Triumphe zu erringen.</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Gab nicht das Schicksal; doch gerecht und gut</l>
+               <l>Beschränkt es auch die Laster wie die Gaben,</l>
+               <l>Und keiner wadete zum Thron durch Blut,</l>
+               <l>Und keiner mochte sich am Greuel laben;</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>Des flammend krachenden Gebälkes Fall</l>
+               <l>Aufs Haupt des schwachen Säuglings neugebohren,</l>
+               <l>Verzweiflungs Schrei und Weltenfluchesschall</l>
+               <l>Betaübten nie der guten Dörfner Ohren.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Und auf des Pöbels irre schmutz’ge Spur</l>
+               <l>Verirrte nie die Achse ihres Strebens,</l>
+               <l>Sie hielten stets die Pfade der Natur</l>
+               <l>Durchs kalte Mühenthal des Erdenlebens.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>Sieh’ dorten von der Gräber grünem Haupt,</l>
+               <l>(Das ihr Begein as von Beleid’gung wehre),</l>
+               <l>Neigt doch manch’ Denkumal Kunst und Sahmuck beraubt</l>
+               <l>Und fleht den Wanderer, um sine Zähre.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Mit Reimgeklirr’ und dichterischem Trug</l>
+               <l>Mocht nicht um Ruhm des Dorfes Muse warben</l>
+               <l>Und nur ein halberlosch’ner Bibelspruch</l>
+               <l>Lehrt hier den Bauer Philosophen sterben.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>Denn war, erlegend eisernem Geschick,</l>
+               <l>Geht aus des muntern Lichts gesell’gen Hallen</l>
+               <l>Und Lässt nicht gerne einen Sehnsuchtsblick</l>
+               <l>Noch mühsam zitternd auf das Leben fallen?</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>Nach einem ird’schen Strahl verlangt die Gruft,</l>
+               <l>Und still Bedauern ist den Todten theuer,</l>
+               <l>Horch’der Natur verborg’ne Stimme ruft:</l>
+               <l>In ihrer Asche noch glimmt Lebensfeuer!</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>Was dich betrift, der ihr Gedächtniss hier,</l>
+               <l>Auf diesem Grabstein schreibend, kanstlos ehrte,</l>
+               <l>Trägt ein verwandter Geist einst auch nach dir</l>
+               <l>Was dein Geschick, wie lang dein dassyn währte;</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Dann spricht vielleicht ein greiser Ackersmann,</l>
+               <l>„Wir sahn ihn oft, wenn’s kaum in Osten tagte,</l>
+               <l>Wie er mit hast’gem Schritt dan Hügel an</l>
+               <l>Und über frisch-bethau’te Felder jagte.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>„Dann streckt er gerne unter jenem Baum</l>
+               <l>Der so phantastisch seine Zweige breitet,</l>
+               <l>Und warf die wilden Bicke in den Raum,</l>
+               <l>Durch den dip Königinn des Himmels schreitet.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>„Auch dort im dichtbelaubten Eichenwald</l>
+               <l>Pflegt er in Schwermuth eingewiegt zu schleichen</l>
+               <l>Bald stumm und starr und wild aufbrausend, bald</l>
+               <l>Wie einer den die schwarzen Sorgen scheuchen.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>„An einem Morgen misst’ ich ihn im Hain,</l>
+               <l>Auf seinem Lieblings-Sitz und auf den Auen,</l>
+               <l>Auch bey de andern Morgens frühem Schein,</l>
+               <l>War nirgend sein gewohnter Schritt zu schauen.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>„Am dritten sah ich ihn auf schwarzer Bahr</l>
+               <l>Durch unser kleines Kirchof-Thor getragen</l>
+               <l>Tritt her (den du kannst lesen) wer er war</l>
+               <l>Muss dies umrankte niedre Grabmal sagen:“</l>
+            </lg>
+            <lg>
+               <head>Die Grabschrift.</head>
+               <lg n="30" corresp="#stn30">
+                  <l>Hier liegt das Haupt auf eine Schaufel Sand,</l>
+                  <l>Ein Mensch, von dem des Ruhms Annalen schweigen,</l>
+                  <l>Dem Glücke und Neide war er unbekannt,</l>
+                  <l>Ein still fortlebend Trauer war ihm eigen.</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>Sein Herz warein und seine Seele treu,</l>
+                  <l>So reich vergilt das Schicksal ird’sche Güter</l>
+                  <l>Und gab ihm Liebe in des Lebens Mai,</l>
+                  <l>Und einem Freund zu seines Grabes Hüter.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>Nicht weiter forsch, o Wand’rer, wen der Tod</l>
+                  <l>Hier in sein schaurig kühles Grab verscharret,</l>
+                  <l>Nur wisse, dass der Schlummernde auf Gott</l>
+                  <l>Und Auferstehn in bangem Glauben harret!</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

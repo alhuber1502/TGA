@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Cavazzocca, Francesco</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="ita1835_bib">
+               <date>1835</date>
+               <author>Cavazzocca, Francesco</author>
+               <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
+               <editor>Torri, Alessandro</editor>
+               <pubPlace>Verona</pubPlace>
+               <publisher>Dalla Tipografia Mainardi</publisher>
+               <biblScope>113-116</biblScope>
+               <edition>2nd edition</edition>
+               <date type="publ">1843</date>
+               <idno type="NoC_1917">810</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Cavazzocca, Francesco"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="ita.Cavazzocca.1835">
+            <head type="main"/>
+            <lg n="1">
+               <lg corresp="#stn1">
+                  <l>Lo squillo annunzia il venir men del giorno;</l>
+                  <l>Erra mugghiando in sulla piaggia il gregge</l>
+                  <l>A passo a passo; l’arator ritorna,</l>
+                  <l>Sua faticosa via fisando, a casa:</l>
+                  <l>Ed a me lascia il Mondo, e a le tenébre.</l>
+               </lg>
+               <lg corresp="#stn2">
+                  <l>Orribile silenzio e mäestoso</l>
+                  <l>Ovunque regna; ronzar sol d’intorno</l>
+                  <l>S’ode lo scarafaggio, e il connolento</l>
+                  <l>Tintinnir, che addormenta il chiuso ovile.</l>
+               </lg>
+               <lg corresp="#stn3">
+                  <l>Della Luna al chiaror dall’erma torre,</l>
+                  <l>Che attorta edera ammanta, il pensieroso</l>
+                  <l>Gufo si duole di colui, che il regno</l>
+                  <l part="I">Antico gli sturbò.</l>
+               </lg>
+               <lg corresp="#stn4">
+                  <l part="F">D’un tasso all’ombra,</l>
+                  <l>E sotto a ruvid’olmi il suol s’innalza</l>
+                  <l>In polverose biche, ove in angusta</l>
+                  <l>Cella riposan nell’eterno sonno</l>
+                  <l>D’esto villaggio i rozzi antichi padri.</l>
+               </lg>
+               <lg corresp="#stn5">
+                  <l>Il mormorar dell’aura al di che sorge</l>
+                  <l>Spirante incenso, rondine che manda</l>
+                  <l>Garruli lai dal pagliaresco tetto,</l>
+                  <l>Del gallo il rauco canto, o il suon del corno,</l>
+                  <l>Non più il desterà dal letto umíle.</l>
+               </lg>
+               <lg corresp="#stn6">
+                  <l>Il vampeggiante focolar per essi</l>
+                  <l>Non arderàl, nè a vespertini uffici</l>
+                  <l>Industre madre attenderà, nè i figli</l>
+                  <l>Balbettanti anderanno incontro al padre,</l>
+                  <l>E arrampicati sulle sue ginocchia</l>
+                  <l>Non più corrân gl’invidïati baci.</l>
+               </lg>
+               <lg corresp="#stn7">
+                  <l>Spesso alle falci lor cadder le messi,</l>
+                  <l>E’l vomer spesso i duri solchi infranse;</l>
+                  <l>Oh! quanto lieti gli accoppiati buoi</l>
+                  <l>Traevano sul campo, e ai forti colpi</l>
+                  <l>Come cadeano disfrondati i boschi!</l>
+               </lg>
+               <lg corresp="#stn8">
+                  <l>Non dispregiare, Ambizïon superba,</l>
+                  <l>Lor sorte oscura, e i semplici diletti,</l>
+                  <l>E l’util lor fatica; e non ascolti</l>
+                  <l>De’poverelli con sogghighno il Fasto</l>
+                  <l>I corti sì, ma non macchiati annali.</l>
+               </lg>
+               <lg corresp="#stn9">
+                  <l>Van to di araldic’arte, del Potere</l>
+                  <l>La pompa, e quanto la Beltà dar puote,</l>
+                  <l>O le Ricchezze, inevitabil fine</l>
+                  <l>Attendono del pari; anche d’onore</l>
+                  <l>Il sentiero, alla fossa alfine adduce.</l>
+               </lg>
+               <lg corresp="#stn10">
+                  <l>Nè tu apporre, o superbo, a biasmo e ad onta</l>
+                  <l>Se la memoria su lor tombe umili</l>
+                  <l>Trofeo non erse, nè di preci e laudi</l>
+                  <l>S’odan del tempio risuonar le volte.</l>
+               </lg>
+               <lg corresp="#stn11">
+                  <l>Varría forse un avello, o l’effigiato</l>
+                  <l>Busto a chiamare il fuggitivo spirto</l>
+                  <l>A sua sede primiera? dell’onore</l>
+                  <l>Potrà la voce di novella lvita</l>
+                  <l>La muta polve riscalder? Gelato</l>
+                  <l>È l’orecchio di Morte; a lei non giunge</l>
+                  <l>Di moral laude il lusinghevol suono.</l>
+               </lg>
+               <lg corresp="#stn12">
+                  <l>Forse anco in questo angol negletto posa</l>
+                  <l>Un cor ripien di sacro ardor celeste,</l>
+                  <l>O man’che d’un impero avrían saputo</l>
+                  <l>Tener lo scettro, e ridestar pur anco</l>
+                  <l>A nuova vita armonïosa lira.</l>
+               </lg>
+               <lg corresp="#stn13">
+                  <l>Ma Sofia non speigò loro il volume</l>
+                  <l>Ampio del tempo e di sue spoglie, e fredda</l>
+                  <l>Povertade tarpò del nobil estro</l>
+                  <l>Le ali, e dell’alma il dolce moto avvinse.</l>
+               </lg>
+               <lg corresp="#stn14">
+                  <l>Quante gemme, che han uro e risplendente</l>
+                  <l>Raggio, ne’cupi abissi il mar ricopre!</l>
+                  <l>E quanti fior rosseggiano negletti,</l>
+                  <l>E i lor grati profumi all’aer solingo</l>
+                  <l part="I">Splandono inutilmente!</l>
+               </lg>
+               <lg corresp="#stn15">
+                  <l part="F">Ampden si trova</l>
+                  <l>Villico forse qui, che il petto oppose</l>
+                  <l>Ardimentoso al piccolo tiranno</l>
+                  <l>Del suo podere; od un Milton ignoto,</l>
+                  <l>Od un Cromvell, non reo di patrio sangue.</l>
+               </lg>
+               <lg corresp="#stn16">
+                  <l>D’attonito Consesso udire i plausi,</l>
+                  <l>Spregiar de’danni le minacce e ‘l duolo,</l>
+                  <l>Sparger la copia su ridenti ville,</l>
+                  <l>E ai popoli contar opre famose,</l>
+               </lg>
+               <lg corresp="#stn17">
+                  <l>Lor non concesse il fato; e pur se il varco</l>
+                  <l>Chiuse a tante virtudi, almen represse</l>
+                  <l>I vizj in loro, e fra le stragi un trono</l>
+                  <l>Non permise salir, nè a umana schiatta</l>
+                  <l>Chiuder le porte di pietado in faccia;</l>
+               </lg>
+               <lg corresp="#stn18">
+                  <l>Nè dei rimorsi soffocâr la voce,</l>
+                  <l>O d’ingenuo pudor spenser la fiamma.</l>
+                  <l>Sull’altare del lusso e’non offriro</l>
+                  <l>Gli incensi tolti all’Apollineo foco;</l>
+               </lg>
+               <lg corresp="#stn19">
+                  <l>Ma lunge ognor dal popolar tumulto</l>
+                  <l>Puri serbaro i lor desiri, e lungo</l>
+                  <l>Il solitario e tacito sentiere</l>
+                  <l>Tennero il corse di tranquilla vita.</l>
+               </lg>
+            </lg>
+            <lg n="2">
+               <lg corresp="#stn20">
+                  <l>Perchè villano piede non insulti</l>
+                  <l>Lor ossa, surge vicin sasso, e frale</l>
+                  <l>Di rozze rime in forma inculta inciso;</l>
+                  <l>Che d’un qualche sospiro al passeggere</l>
+                  <l part="I">Chiede il santo tributo;</l>
+               </lg>
+               <lg corresp="#stn21">
+                  <l part="F">i loro nomi,</l>
+                  <l>Ed i giorni, supplendo ai mesti carmi</l>
+                  <l>Ed alla Fama, illetterata Musa</l>
+                  <l>Descrive: anch’essa sulla tomba sculte</l>
+                  <l>Mostra sacre sentenze; e come al fato</l>
+                  <l>Ceda di morte il pio villano insegna.</l>
+               </lg>
+               <lg corresp="#stn22">
+                  <l>E qual sarà, che nel morir non volga</l>
+                  <l>Di doglia carco un sospiroso guardo</l>
+                  <l>A queste pliagge, ov’è si lieto il giorno?</l>
+               </lg>
+               <lg corresp="#stn23">
+                  <l>E chi vorrebbe questa di diletti</l>
+                  <l>Vita, e d’affanni insiem, cangiar coll’ombre</l>
+                  <l>Di morte, in preda a muto obblio? Di dolce</l>
+                  <l>Amico in seno si riposa l’alma</l>
+                  <l>Splirando, e ‘l semichiuso occhio dimanda</l>
+                  <l>Alcune stille di pietoso pianto.</l>
+                  <l>Dalla tomba Natura alza suo grido,</l>
+                  <l>E ‘l cener sente il consueto ardore.</l>
+               </lg>
+            </lg>
+            <lg n="3">
+               <lg corresp="#stn24">
+                  <l>Per Te, che in qusti umìl carmi rammenti</l>
+                  <l>D’ oscuri estinti non famose gesta,</l>
+                  <l>Se dal solingo meditar addutto</l>
+                  <l>Alcun spirto a Te pari avvien che  brami</l>
+                  <l part="I">Del tuo fato saper;</l>
+               </lg>
+               <lg corresp="#stn25">
+                  <l part="F">qualche canuto</l>
+                  <l>Pastor risponderà: “Spesso il vedemmo</l>
+                  <l>D;incontro al Sole frettoloso il passo</l>
+                  <l>Mover, scotendo i rugiadosi umori,</l>
+                  <l>Sotto quel faggio là, le cui radici</l>
+                  <l>S;avviticchiano in alto a nodi mille</l>
+                  <l part="I">Bizzaramente;</l>
+               </lg>
+               <lg corresp="#stn26">
+                  <l part="F">nel meriggio ei sciolto</l>
+                  <l>D;ogni cura, e sdrajato, il rio vicino</l>
+                  <l part="I">Mormorante guardava;</l>
+               </lg>
+               <lg corresp="#stn27">
+                  <l part="F">ora alla selva,</l>
+                  <l>Quasi a scherno ridendo, il passo errante</l>
+                  <l>Volgeva incerto, e capricciose fole</l>
+                  <l>Pallido e mesto borbottava, a guisa</l>
+                  <l>Di un infelice, o da plensieri carco,</l>
+                  <l>O per negato amor misero amante.</l>
+               </lg>
+               <lg corresp="#stn28">
+                  <l>Presso alla selva, o al colle, o all’arbor caro</l>
+                  <l>Nol vidi un giorno, nè lo vidi l’altro</l>
+                  <l>Al rio d’appresso, o sovra al poggio, o al bosco.</l>
+               </lg>
+               <lg corresp="#stn29">
+                  <l>Venne poi il terzo, e in mesto ordine al tempio</l>
+                  <l>Tratto il vedemmo per l’usato calle.</l>
+                  <l>Legger tu sai, t’accosta; e leggi il carme</l>
+                  <l>Sotto l’antico spino in marmo impresso”.</l>
+               </lg>
+            </lg>
+            <lg>
+               <head>EPITAFIO</head>
+               <lg n="4" corresp="#stn30">
+                  <l>Posa aque il capo dlela terra in grembo</l>
+                  <l>Garzone a FAma, ed a Fortuna ignoto.</l>
+                  <l>Il bel Saper sua bassa culla a vile]</l>
+                  <l>Non ebbe, e lui segnò della sua impronta</l>
+                  <l part="I">Melanconia.</l>
+               </lg>
+               <lg corresp="#stn31">
+                  <l part="F">Sincero era il suo cuore,</l>
+                  <l>E large la pietà; perciò fu il Cielo</l>
+                  <l>Largo di sua mercè. Solo un sospiro</l>
+                  <l>Diè a povertade, chè più dar non valse;</l>
+                  <l>E un amico dal Ciel n’ebbe, qual chiese.</l>
+               </lg>
+               <lg corresp="#stn32">
+                  <l>Più non cercar; nè i falli suoi, nè i merti</l>
+                  <l>Osa scoprire. Ne’ tremendi abissi,</l>
+                  <l>Tra la speme e il timor, posano in seno</l>
+                  <l>Del celeste suo Padre, e del suo Dio.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

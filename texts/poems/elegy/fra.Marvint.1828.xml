@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Le Champ de Repos de Village</title>
+            <author>Marvint, Hippolyte</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="fra1828_bib">
+               <author>Marvint, Hippolyte</author>
+               <date>1828</date>
+               <title level="a">Le Champ de Repos de Village</title>
+               <title level="m">Les bucoliques et l'églogue élégiaque de Gray, traduites en vers libres, texte en regard, par Hippolyte M.</title>
+               <pubPlace>Paris</pubPlace>
+               <publisher>Imprimerie de E. Duverger, Rue de Verneuil, No 4</publisher>
+               <date type="publ">MDCCCXXVIII.</date>
+               <biblScope>200-217</biblScope>
+               <idno type="NoC_1917">766</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Marvint, Hippolyte"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="fra.Marvint.1828">
+            <head type="main">Le Champ de Repos de Village</head>
+            <lg n="1" corresp="#stn1">
+               <l>Le couvre-feu murmure et la journée expire.</l>
+               <l>Le sommeil aux troupeaux prescrit sa douce loi;</l>
+               <l>L’homme des champs revient de son rustique empire.</l>
+               <l>Et laisse la nature aux ténèbres, à moi.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>Le crépuscule a fui, l’ombre couvre la terre;</l>
+               <l>Le silence s’étend sur le vallon désert.</l>
+               <l>Je n’entends que le flot du ruisseau solitaire,</l>
+               <l>Ou de l’insecte ailé l’assoupissant concert;</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Ou la plaintive voix de l’aiseau des ténèbres,</l>
+               <l>Qui semble demander à l’astre de la nuit</l>
+               <l>Pourquoi, quand tout sommeille en ses états funèbres,</l>
+               <l>De mes pas vaga bonds j’y viens porter le bruit.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>Sous ces ormes rugueux où le lierre s’enlace,</l>
+               <l>Les rustiques aïeux des enfants du hameau,</l>
+               <l>Chacun et pour toujours en son étroite place,</l>
+               <l>Dorment profondément du sommeil du tombeau.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>La piquante fraîcheur de la bise automnale,</l>
+               <l>Les sons bruyants du cor doublés par les échos,</l>
+               <l>Les fanfares du coq á la voix matinale,</l>
+               <l>Ne viendront plus troubler désormais leur repos.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>La flamme du foyer pour eux ne doit plus luire;</l>
+               <l>Plus de chastes moitiés les entourant d’amour;</l>
+               <l>Plus d’enfants implorant la douceur d’un sourire</l>
+               <l>Ou d’un tendre baiser à l’heure du retour.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>Que de glèbes leurs socs ont jadis sillonnées!</l>
+               <l>Que de fois la la moisson s’abattit sous leurs faux!</l>
+               <l>Sous le fer acéré de leurs lourdes cognées</l>
+               <l>Combien ont expiré de chénes et d’ormeaux!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Grands du monde, écartez un sourire caustique;</l>
+               <l>Et vous, ambitieux, respectez les travaux,</l>
+               <l>Les champêtres plaisirs, le bonheur domestique</l>
+               <l>Et les destins obscurs du pauvre des hameaux.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>La richesse, le rang, l’éclat de la naissance</l>
+               <l>Ne peuvent de nos jours protéger le flambeau.</l>
+               <l>La mort sur les plus grand exerce sa puissance;</l>
+               <l>Le sentier de la gloire est celui du tombeau.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Et vous âmes au luxe, aux vanités livrées,</l>
+               <l>Imputez-en la faute à leurs conditions,</l>
+               <l>Si vous ne voyez pas leurs tombes décorées</l>
+               <l>De marbres fastueux, d’armes, d’inscriptions.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>Une effigie où l’art souffla presque la vie,</l>
+               <l>A des restes glacés rendra-t-elle l’essor?</l>
+               <l>Et d’un vers ampoulé la vaine flatterie</l>
+               <l>A-t-elle des douceurs pour l’insensible mort?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Peut-être ces gazons, ces poudreuses arènes</l>
+               <l>Couvrent des cœurs jadis nobles et généreux,</l>
+               <l>Des mains qui d’un empire eussent tenu les renes,</l>
+               <l>Ou du luth gémissant tiré des sons heureux.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Le savoir n’ouvrit pas à leur intelligence</l>
+               <l>Ses registres du temps et de l’oubli vainqueurs,</l>
+               <l>Et les tristes calculs de la dure indigence</l>
+               <l>Étouffèrent en eux les élans de leurs cœurs.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>Que de perles de prix gisent inaparçues</l>
+               <l>DAns les gouffres profonds de l’empire des mers!</l>
+               <l>Que de suaves fleurs dans le désert conçues</l>
+               <l>Exhalent leurs parfums ignorés dans les airs!</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>Ici peut-être dort quelque Hampden rustique,</l>
+               <l>Défenseur courageux de ses droit envahis;</l>
+               <l>Quelquel Milton sans gloire, un Cromwell pacifique</l>
+               <l>Qui n’a pas fait couler le sang de son pays.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>Du peuple et des sénats mériter les suffrages;</l>
+               <l>Donner aux nations la paix et le bonheur,</l>
+               <l>Ou de l’adversité mépriser les orages,</l>
+               <l>Tel n’est pas le destin de l’humble laboureur.</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Le ciel lui refusa ce sublime courage;</l>
+               <l>Mais des crimes des grands il détourna sa main:</l>
+               <l>Il ne saît, entraîné par une aveugle rage,</l>
+               <l>Se frayer jusqu’au trône un coupable chemin.</l>
+            </lg>
+            <lg n="18" corresp="#stn181">
+               <l>Son cœur est sans détours, sa conscience est pure.</l>
+               <l>Il ne sait de son front gouverner la rougeur,</l>
+               <l>Ni, prodiguant au vice une louange impure,</l>
+               <l>Des vierges du Permesse avilir la faveur.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Éloigné du tumulte et du luxe des villes,</l>
+               <l>Ses désirs n’ont jamais appris à s’égarer.</l>
+               <l>Exempt d’ambigtions et de brigues serviles,</l>
+               <l>Dans sa route tracée il a su demeurer.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>Le saule, le cyprès, sur ces tombes rustiques</l>
+               <l>Étendent tristement leur feuillage léger.</l>
+               <l>Une pierre, une croix et d’imparfaits distiques.</l>
+               <l>Implorent d’un soupir le tribut passager.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Le nom, l’àge, tracés d’lune main illétrée,</l>
+               <l>Seuls pour toute élégie á l’œil viennent s’offrir, </l>
+               <l>Et les fragments tronqués d’lune stance sacrée</l>
+               <l>Aux sages des hameaux apprennent à mourir.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>Quel mortel à l’oubli résignant sa pensée,</l>
+               <l>Lorsque sonne pour lui le lmoment du départ,</l>
+               <l>Sur ses plus heureux jours, félicité passée,</l>
+               <l>Ne jette en soupirant un triste et long regard!</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>De sincères regrets ont encor quelques charmes</l>
+               <l>Pour l’âme abandonnant son terrestre séjour;</l>
+               <l>L’œil prêt à se fermer demande quelques larmes,</l>
+               <l>Et même le tombeau veut un pieux amour.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>Mais toi qui nous redis d’une voix attendrie</l>
+               <l>De l’homme des hameaux et la vie et la mort,</l>
+               <l>Si, par la sympathie ou par la réverie,</l>
+               <l>Lei conduit, quelqu’un s’informe de ton sort,</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Peut-être un laboureur appesanti par l’áge</l>
+               <l>Lui dira: “Maintes fois, avant l’aube du jour,</l>
+               <l>Gravissant ce coteau qui borde le village,</l>
+               <l>Il venait du soleil contempler le retour.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>Lorsque déjà ses feux embrasaient la prairie,</l>
+               <l>Mollement étendu sous un vaste arbrisseau</l>
+               <l>Dont l’ombrage défend la verdure fleurie,</l>
+               <l>Pensif, il écoutait le babil du ruisseau.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>Souvent dans les détours de ce bois solitarie,</l>
+               <l>Quand le jour affaibli luttait avec le soir,</l>
+               <l>Je le voyais errer le front chagrin, austère,</l>
+               <l>Tel au’un amant en proie à des feux sans espoir.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>Un jour, je le cherchai vainement dans le plaine,</l>
+               <l>Sur le coteau désert, dans le bois favori;</l>
+               <l>Il ne vin pas réver au bord de la fontaine;</l>
+               <l>Un autre reposait sous son arbre chéri.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>Le lendemain, que vois-je? un funèbre cortége.</l>
+               <l>Qu’entends-je sourdement gronder? l’hymne de mort.</l>
+               <l>C’était lui. Depuis lors la tombe le protége.</l>
+               <l>Écarte cette branche et lis; c’est là qu’il dort.</l>
+            </lg>
+            <lg>
+               <head>ÉPITAPHE</head>
+               <lg n="30" corresp="#stn30">
+                  <l>Un jeune homme étranger à Plutus, à la Gloire,</l>
+                  <l>Repose pour toujour sous cet ombrage frais.</l>
+                  <l>Il ne dédaigna pas le fille de Mémoire;</l>
+                  <l>Mais le Mélancolie eut pour lui plus d’attraits.</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>S’il eut quelques vertus, le ciel avec largesse</l>
+                  <l>Lui rendit cent bienfaits pour un simple bienfait.</l>
+                  <l>L’infortune eut ses pleurs, son unique richesse;</l>
+                  <l>Il obtint un ami, son unique souhait.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>Sur les fragilités, les erreurs de sa vie,</l>
+                  <l>Craignes d’interroger ce redoutable lieu,</l>
+                  <l>Où dans un humble espoir il repose, et se fie</l>
+                  <l>A la sainte merce de son Père et son Dieu.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

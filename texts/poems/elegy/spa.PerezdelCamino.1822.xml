@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegía escrita sobre el cementerio de una aldea (Imitación del inglés)</title>
+            <author>Perez del Camino, Manuel Norberto</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="spa1822_bib">
+               <date>1822</date>
+               <author>Perez del Camino, Manuel Norberto</author>
+               <title level="a">Elegía escrita sobre el cementerio de una aldea (Imitación del inglés)</title>
+               <title level="m">El mérito de las mugeres, los recuerdos, la sepultura, la melancolía; poemas de Gabriel Legouvé. Traducidos en verso castellano, por Don M. N. Pérez de Camino.</title>
+               <editor>Gabriel Legouvé</editor>
+               <pubPlace>Burdeos</pubPlace>
+               <publisher>Lawalle jóven</publisher>
+               <biblScope>282-292</biblScope>
+               <idno type="StH_1953">195</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Perez del Camino, Manuel Norberto"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="spa.PerezdelCamino.1822">
+            <head type="main">Elegía escrita sobre el cementerio de una aldea</head>
+            <head type="sub"> (Imitación del inglés)</head>
+            <lg n="1" corresp="#stn1">
+               <l>Ya la campana en lúgubre lamento</l>
+               <l>Anuncia el fin del dia moribundo.</l>
+               <l>Las yuntas al establo con pie lento.</l>
+            </lg>
+            <lg n="2" corresp="#stn1">
+               <l>Marchando van, y en pos cogitabundo</l>
+               <l>Gana el gañan cansado su morada,</l>
+               <l>Y envuelto en duelo me abandona el mundo.</l>
+            </lg>
+            <lg n="3" corresp="#stn2">
+               <l>Reina la obscuridad en la llanada,</l>
+               <l>Y en el aire silencio magestuoso:</l>
+               <l>Solo, agitando el ala acelerada,</l>
+            </lg>
+            <lg n="4" corresp="#stn2">
+               <l>Vaga in las sombras tábano luctuoso,</l>
+               <l>Al lejano rebaño adormeciendo</l>
+               <l>Al son de su zumbido soporoso.</l>
+            </lg>
+            <lg n="5" corresp="#stn3">
+               <l>En tanto, su retiro entristeciendo,</l>
+               <l>Chillar al torpe buho, allá en la altura</l>
+               <l>De la cercana hermita estoy oyendo.</l>
+            </lg>
+            <lg n="6" corresp="#stn3">
+               <l>A la luna se queja en su amargura,</l>
+               <l>De que yo á perturbarle haya venido</l>
+               <l>De su antigua mansion en la dulzura.</l>
+            </lg>
+            <lg n="7" corresp="#stn4">
+               <l>No léjos de su asilo derruido,</l>
+               <l>Per la tortuosa yedra entapizado,</l>
+               <l>A la sombre fatal del tejo erguido,</l>
+            </lg>
+            <lg n="8" corresp="#stn4">
+               <l>Bajo ligera tierra, sosegado,</l>
+               <l>De la comarca el rústico inocente</l>
+               <l>Duerme en humilde féretro encerrado.</l>
+            </lg>
+            <lg n="9" corresp="#stn5">
+               <l>¡Ay! Ya la golondrina diligente,</l>
+               <l>Ni del blando rabel la melodía,</l>
+               <l>Ya de fragante aurora el suave ambiente,</l>
+            </lg>
+            <lg n="10" corresp="#stn5">
+               <l>Ni del gallo, clarin de la alquería,</l>
+               <l>La sonorosa voz, por desventura</l>
+               <l>No le despertarán como algun dia!</l>
+            </lg>
+            <lg n="11" corresp="#stn6">
+               <l>¡Ya, cuando se avecina noche oscura</l>
+               <l>Mas no le servirá mesa abundante,</l>
+               <l>De solicita esposa la ternura,</l>
+            </lg>
+            <lg n="12" corresp="#stn6">
+               <l>Ni sobre sus rodillas, anelante</l>
+               <l>De sus hijos la turba, en dulce guerra,</l>
+               <l>Se disputará ya su beso amante!</l>
+            </lg>
+            <lg n="13" corresp="#stn7">
+               <l>¡Cuantas y cuantas veces la alta sierra</l>
+               <l>Hizo su hacha temblar! ¡Cuantas su arado</l>
+               <l>El seno abrió de la rebelde tierra!</l>
+            </lg>
+            <lg n="14" corresp="#stn7">
+               <l>¡Feliz, cuando guiaba su ciudado</l>
+               <l>Por los campos el carro querelloso,</l>
+               <l>Con la nueva cosecha fatigado!</l>
+            </lg>
+            <lg n="15" corresp="#stn8">
+               <l>De la altiva ambicion hijo orgulloso,</l>
+               <l>¿Osarás insultar destos mortales</l>
+               <l>Los útiles afanes desdeñoso?</l>
+            </lg>
+            <lg n="16" corresp="#stn8">
+               <l>¿Sus costumbres manchar patriarcales,</l>
+               <l>Y escuchar con sonrisa mofadora</l>
+               <l>De su modesta vida los anales?</l>
+            </lg>
+            <lg n="17" corresp="#stn9">
+               <l>El pomposo esplendor, que el mundo adora,</l>
+               <l>La belleza, el orgullo, el poderío,</l>
+               <l>Todo, el avido tiempo lo devora,</l>
+            </lg>
+            <lg n="18" corresp="#stn9">
+               <l>Todo por siempre en el imperio umbrío</l>
+               <l>Se hunde, y aun de la gloria los senderos</l>
+               <l>Llevan tambien hacia el sepulcro frio.</l>
+            </lg>
+            <lg n="19" corresp="#stn10">
+               <l>Ni contemples con ojos lastimeros,</l>
+               <l>Hombre vano, su tumba, aunque adornada</l>
+               <l>No la ves con trofeos lisongeros,</l>
+            </lg>
+            <lg n="20" corresp="#stn10">
+               <l>Y aunque en la vasta nave bamboneada</l>
+               <l>La adulacion para ellos no haya unido</l>
+               <l>Sus ecos á la lúgubre tonada.</l>
+            </lg>
+            <lg n="21" corresp="#stn11">
+               <l>¡Fastuosos duelos, marmol esculpida</l>
+               <l>Pueden acaso hacer que se desierte</l>
+               <l>El que en el sueño eterno está sumido!</l>
+            </lg>
+            <lg n="22" corresp="#stn11">
+               <l>¿Qué le hace la lisonja á un polvo inerte?</l>
+               <l>¿Ablandan per ventura sus acentos</l>
+               <l>Los crueles oídos de la muerte?</l>
+            </lg>
+            <lg n="23" corresp="#stn12">
+               <l>¿Quien sabe si estos simples monumentos</l>
+               <l>Un corazon encierran, que profundo</l>
+               <l>Fermentó con sublimes pensamientos?</l>
+            </lg>
+            <lg n="24" corresp="#stn12">
+               <l>¿O si manos encierran, en que el mundo</l>
+               <l>El cetro con honor mirado hubiera,</l>
+               <l>O con honor de Homero el laud rotundo?</l>
+            </lg>
+            <lg n="25" corresp="#stn13">
+               <l>Mas ¡ay! Con su humildad siempre severa,</l>
+               <l>Dellos guardó su página sagrada</l>
+               <l>La ciencia de los siglos heredera.</l>
+            </lg>
+            <lg n="26" corresp="#stn13">
+               <l>Contra ellos la probreza conjurada</l>
+               <l>Comprimió su magnánimo ardimiento,</l>
+               <l>Y heló el fuego, en que ardió su alma elevada.</l>
+            </lg>
+            <lg n="27" corresp="#stn14">
+               <l>Asi, desconocida al avariento,</l>
+               <l>La nacarada perla brilla hermosa</l>
+               <l>De Tetis en el seno turbulento.</l>
+            </lg>
+            <lg n="28" corresp="#stn14">
+               <l>Así se orna de púrpura la rosa,</l>
+               <l>Con su aroma el favonio embalsamando,</l>
+               <l>Oculta en la apartada selva umbrosa.</l>
+            </lg>
+            <lg n="29" corresp="#stn15">
+               <l>Tal vez aquí sosiego está gozando</l>
+               <l>Un denodado Cid, cuya cuchilla</l>
+               <l>Habria derrocado impio bando,</l>
+            </lg>
+            <lg n="30" corresp="#stn15">
+               <l>O, del Pindo ignorado, un nuevo Ercilla</l>
+               <l>O un Cisneros tal vez, por quien alzada</l>
+               <l>La gloria habria sido de Castilla.</l>
+            </lg>
+            <lg n="31" corresp="#stn16">
+               <l>La plebe reprimir desenfrenada,</l>
+               <l>Sostener de los pueblos los derechos,</l>
+               <l>Vestir la santa toga inmaculada,</l>
+            </lg>
+            <lg n="32" corresp="#stn16">
+               <l>Al crímen aterrar, templar los pechos,</l>
+               <l>Y so obra leere de una nacion entera</l>
+               <l>Escrita en los semblantes satisfechos;</l>
+            </lg>
+            <lg n="33" corresp="#stn17">
+               <l>Suerte no les rió tan placentera.</l>
+               <l>Fué en su cuna para ellos limitada</l>
+               <l>De vicios y virtudes la carrera.</l>
+            </lg>
+            <lg n="34" corresp="#stn17">
+               <l>Ni sañuda abatió su diestra osada</l>
+               <l>El benefico altar de la clemencia,</l>
+               <l>Ni arrancó una diadema ensangrentada.</l>
+            </lg>
+            <lg n="35" corresp="#stn18">
+               <l>Simple su vida, casta su conciencia,</l>
+               <l>Desconociéron siempre al artificio,</l>
+               <l>Y en su faz respiraba la inocencia.</l>
+            </lg>
+            <lg n="36" corresp="#stn18">
+               <l>Nunca á los torpes idolos del vicio,</l>
+               <l>Nunca al poder tiránico incensáron,</l>
+               <l>Si Apolo alguna vez les fué propicio.</l>
+            </lg>
+            <lg n="37" corresp="#stn19">
+               <l>Ni sus serenos dias amargáron</l>
+               <l>Desvelos de la envidia emponzoñados,</l>
+               <l>Ni á imprudentes deseos se entregáron.</l>
+            </lg>
+            <lg n="38" corresp="#stn19">
+               <l>Sin brillo, mas en cambio sin cuidados,</l>
+               <l>Del valle de la vida, en paz hermosa,</l>
+               <l>Siguiéron los senderos ignorados.</l>
+            </lg>
+            <lg n="39" corresp="#stn20">
+               <l>Su polvo, sobre el suelo, en que reposa,</l>
+               <l>De sacrilego pie, de un clima fiero</l>
+               <l>Defienda mal labrada tosca losa,</l>
+            </lg>
+            <lg n="40" corresp="#stn20">
+               <l>Y, en ella escrito, fúnebre letrero</l>
+               <l>Al corazon demanda condolido,</l>
+               <l>De un suspiro el tributo pasagero.</l>
+            </lg>
+            <lg n="41" corresp="#stn21">
+               <l>¡Ah! ¡quien abandonar puede al olvido</l>
+               <l>Dias, que ni una suerte desgraciada</l>
+               <l>Ni el crímen, ni el oprobio han corrompido!</l>
+            </lg>
+            <lg n="42" corresp="#stn22">
+               <l>¡Quien, al ver acercar la parca odiada,</l>
+               <l>No echa sobre la vida, suspirando,</l>
+               <l>De amargo eterno adios una mirada!</l>
+            </lg>
+            <lg n="43" corresp="#stn23">
+               <l>Con su hora el moribundo batallando</l>
+               <l>De su amigo en los ojos, todavía,</l>
+               <l>Una lágrima tierna anda buscando.</l>
+            </lg>
+            <lg n="44" corresp="#stn23">
+               <l>Su alma ha volado, y de la tumba impia,</l>
+               <l>“Guardame el dulce amor, le dice ansioso,</l>
+               <l>Que mi delicia fué miéntras vivia.”</l>
+            </lg>
+            <lg n="45" corresp="#stn24">
+               <l>En cuanto á mí, que canto doloroso</l>
+               <l>Destas sombras la humilde para gloria,</l>
+               <l>Del sosiego que gozan codicioso,</l>
+            </lg>
+            <lg>
+               <head>EPITAFIO</head>
+               <lg n="46" corresp="#stn30">
+                  <l>El triste, que aquí yace, en su indígencia,</l>
+                  <l>Vivió desconocido de fortuna,</l>
+                  <l>Mas la melancolía y la alma ciencia</l>
+                  <l>Le acogiéron amables en la cuna.</l>
+               </lg>
+               <lg n="47" corresp="#stn31">
+                  <l>Fué de la sociedad su alma el encanto,</l>
+                  <l>Y su pecho del mísero el abrigo.</l>
+                  <l>Dióle su solo bien: sensible llanto.</l>
+                  <l>Fué para el, cuanto ansiaba: tierno amigo.</l>
+               </lg>
+               <lg n="48" corresp="#stn32">
+                  <l>Deja en paz su ceniza, o pasagero,</l>
+                  <l>Sus vicios, su virtud ve indiferente,</l>
+                  <l>Confiado, su juicio postrimero</l>
+                  <l>Aguarda de sus dios tan solamente.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

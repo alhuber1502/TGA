@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Marwnad a Sgrifennwyd Mewn Mynwent Wledig</title>
+            <author>Jones, John Morris</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="cym1832_bib">
+               <date>1832</date>
+               <author>Jones, John Morris</author>
+               <title level="a">Marwnad a Sgrifennwyd Mewn Mynwent Wledig</title>
+               <title level="m">Salm I Famon, a Marwnad Mewn Mynwent</title>
+               <pubPlace>Wrecsam</pubPlace>
+               <biblScope>25–30</biblScope>
+               <idno type="TuT_2013">Turk (2013), 73.</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Jones, John Morris"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="cym.JonesJM.1832">
+            <head type="main">Marwnad a Sgrifennwyd Mewn Mynwent Wledig</head>
+            <head type="sub"> Cyfieithiad o gerdd Thomas Gray.</head>
+            <lg n="1" corresp="#stn1">
+               <l>Cân y ddyhuddgloch gnul i dranc y dydd, </l>
+               <l>Try'r araf yrr dan frefu dros y ddôl; </l>
+               <l>Yr arddwr adre'n blin ymlusgo sydd, </l>
+               <l>A'r byd i'r gwyll a minnau ad o'i ôl.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>Diflannu'n awr mae gwedd lwydolau'r fro, </l>
+               <l>A dwys dawelwch drwy'r holl awyr sy,</l>
+               <l>Oddieithr am rŵn y chwilen chwyrn ei thro, </l>
+               <l>A'r tincian swrth a sua'r gorlan fry;</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Oddieithr fod yn y tŵr eiddiorwg draw </l>
+               <l>Dylluan hurt i'r lloer yn udo'i chri</l>
+               <l>Am nebun tua'i lloches gel a ddaw </l>
+               <l>I flino'i hen frenhiniaeth unig hi.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>Draw dan y geirw lwyf a'r ywen ddu,</l>
+               <l>Lle tonna'r twyni braen mewn llawer man,	</l>
+               <l>Fob un am byth o fewn ei gyfyng dŷ,	</l>
+               <l>&#x2028;Ynghwsgy gorwedd disyml deidiau'r llan.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>Awelog alwad peraroglau'r wawr,</l>
+               <l>Na dyar gwennol dan eu bargod hwy,</l>
+               <l>Na cheiliog croch, na chorn yn darstain gawr,</l>
+               <l>Nis deffry hwynt o'u hisel wely mwy.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Ni thywyn aelwyd iddynt mwy fwynhad, </l>
+               <l>Ni 'morol gwraig am hwyrol swyddi'r tŷ,</l>
+               <l>Ni red ei blant i brablu am ddychwel tad, </l>
+               <l>Neu ddringo'i lin am ran o'r cusan cu.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>Mynych y plygai'r yd i'w gwanaf laes, </l>
+               <l>Y troes eu cwys y durol dir erioed;</l>
+               <l>Mor llon y gyrrent gynt eu gwedd i'r maes, </l>
+               <l>Mor swrth o dan eu hwrdd y crymai'r coed!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Uchelfryd na sarhaed eu buddiol waith, </l>
+               <l>Na'u  mwyniant gwladaidd hwy, na'u dinod  ffawd;</l>
+               <l>Na wened  Mawredd yn ddirmygus chwaith </l>
+               <l>Pan glywo gofion byr a syml y Tlawd.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>Holl ffrost herodraeth, rhwysg a gallu'r llawr, </l>
+               <l>Holl roddion golud a phrydferthwch gwedd,</l>
+               <l>Arhosant yr anocheladwy awr:</l>
+               <l>Nid arwain llwybrau Balchder ond i'r bedd.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Na fwriwch, Feilch, mai'r rhairi ar fai a fu</l>
+               <l>Os Cof ni chyfyd arnynt feddfaen cain, </l>
+               <l>Mewn asgell hir a nenfwd rwyllog fry,</l>
+               <l>Lle chwydda mawl yr anthem gref ei sain.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>All wrn lliwiedig neu fyw eilun fflwch </l>
+               <l>Adfer i'w thrigfa'r anadl wan a ffodd ?</l>
+               <l>All llais Anrhydedd gyffro'r distaw lwch, </l>
+               <l>Neu Weniaith ryngu i'r clustrwm Angau fodd?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Yn y fan unig hon gall fod yn awr </l>
+               <l>Ryw galon gynt fu lawn o nefol dân,</l>
+               <l>Llaw allai lywio ymerodraeth fawr,</l>
+               <l>Neu ddeffro'r delyn i lesmeiriol gan.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Ond nid agorodd Dysg erioed i'r un </l>
+               <l>Mo'i dalen ferth o ysbail oesau fu;</l>
+               <l>Oer angen lethodd eu hardderchog wŷn,</l>
+               <l>A rhewodd dirion lif yr enaid cu.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>Mae llawer gem o buraf belydr prid</l>
+               <l>Yn nhywyll ddwfn ogofau'r mor ynghêl;</l>
+               <l>Ac ami flodeuyn, na wêl neb ei wrid, </l>
+               <l>Ar anial wynt yn gwario'i anadl fêl.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>Gall fod rhyw ddinod Hampden glew ei fron</l>
+               <l>Wrthsafodd dreisiwr bach ei feysydd o,</l>
+               <l>Rhyw fud anenwog Filtwn, y fan hon, </l>
+               <l>Rhyw Gromwell a fu lan o waed ei fro.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>Ond ennyn mawl seneddau astud brwd, </l>
+               <l>Di'styru bygythiadau gwae a gloes,</l>
+               <l>Tywallt helaethrwydd dros y tir yn ffrwd, </l>
+               <l>Darllen yn llygaid cenedl stori eu hoes,</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Nis cawsant hwy.  Eithr os bu brin eu rhad, </l>
+               <l>Cylch eu camweddau hefyd cyfyng yw;</l>
+               <l>Ni chawsant rydio lladdfa i orsedd gwlad, </l>
+               <l>Na bolltio pyrth tosturi ar ddynol ryw,</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>Na chelu'r gwir yn ing ei ymdrech ddrud, </l>
+               <l>Na diffbdd gwrid cywilydd diwair dwys,</l>
+               <l>Na llwytho allor Moeth a Balchder byd </l>
+               <l>Â safwyr dan o fflam yr Awen Iwys.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Pell o amryson gwael y dyrfa ffôl,</l>
+               <l>Ni chrwydrodd eu deisyfiad sobr erioed;</l>
+               <l>Yn encil bywyd a'i gysgodol ddôl,</l>
+               <l>Cadwasant ar eu tawel hynt eu troed.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>Eto fel na thremyger yma'u llwch, </l>
+               <l>Rhyw fregus goffadwriaeth a arhodd;</l>
+               <l>A'i hodlau trwsgl a'i cherfwaith trwstan trwch </l>
+               <l>Erfyn ochenaid wrth fynd heibio'n rhodd.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Eu henw a'u hoed a ddyd anhyfedr Lên </l>
+               <l>Yma'n lle Clod a Marwnad yn goffad;</l>
+               <l>A gwesgyr ogylch lawer testun hen </l>
+               <l>A ddysgo farw i ddifinydd gwlad.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>Cans pwy 'n ysglyfaeth i fud angof prudd </l>
+               <l>Roes foddus ofnus fywyd heibio'n llwyr,</l>
+               <l>Adawodd gynnes ffiniau'r siriol ddydd</l>
+               <l>Heb daflu'n ôl un drem hiraethus hwyr?</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>Ar ryw gu fron wrth fynd rhy'r enaid bwys, </l>
+               <l>A'r llygad fyn ryw ddafnau serch wrth gau;</l>
+               <l>Yn wir, rhy Natur lef o'r beddrod dwys, </l>
+               <l>A'r tanau gynt o'n lludw sy'n bywhau.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>A thi, sy'n coffa'r distadl yn eu hun,</l>
+               <l>A thraethu'n hyn o gerdd eu hanes gynt,</l>
+               <l>Os Myfyr unig rywbryd a ddwg un </l>
+               <l>Cyffelyb  it  i  holi  am  dy  hynt,</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Odid na ddywed rhyw hen wladwr brith, </l>
+               <l>"Mynych y'i gwelsom gyda'r gwawriad gwan</l>
+               <l>Â chamau prysur nyn gwasgaru'r gwlith </l>
+               <l>I gyfwrdd haul ar ben y rhostir ban.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>“Dan y ffawydden bendrom acw sydd</l>
+               <l>Yn gwau'i hen eres wraidd mor uchel draw </l>
+               <l>Yr  ymestynnai'n ddiofal ganol dydd</l>
+               <l>I wylio'r ffrwd yn trydar ger ei law.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>“Draw ger y coed, sy'n gwenu fel mewn gwawd,</l>
+               <l>Dan  sibrwd ei wyllt dybiau yr ymdroes, </l>
+               <l>Yn awr yn llesg a gwan, fel truan tlawd, </l>
+               <l>Neu'n syn gan gur, neu seithug serch a'i groes.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>“Ryw ddydd mi a'i collais o'i gynefin fryn, </l>
+               <l>A cher y llwyn, a than ei ddewis bren; </l>
+               <l>Dydd arall ddaeth; ond ger y ffrwd, er hyn, </l>
+               <l>Nid oedd, na thua'r coed na'r fron uwchben</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>“Drannoeth, â galar gan a thristwch gwedd,</l>
+               <l>Gwelsom ei araf ddwyn drwy'r llwybr gerllaw.</l>
+               <l>Tyrd, darllen (ti a fedri) ar ei fedd</l>
+               <l>Y gerdd a gerfiwyd, dan y ddraenen draw."</l>
+            </lg>
+            <lg>
+               <head>MARWNAD   MEWN   MYNWENT<lb/>
+							Y   BEDD   ARGRAFF</head>
+               <lg n="30" corresp="#stn30">
+                  <l>Ar hn y ddaear y rhoes yma’i ben</l>
+                  <l>Lanc oedd I Ffawd a Chlod yn ddieithr ddyn ; </l>
+                  <l>Ar eni hwn ni wgodd Addysg wen,</l>
+                  <l>A’r Pruddglwyf a'i meddiannodd iddo'i hun.</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>Mawr ei haeltom, pur ei enaid fu,</l>
+                  <l>A’r Nef oedd fu cyn haeled wrtho ef :</l>
+                  <l>A feddai oil, sef deigr, a roes i’r tru; </l>
+                  <l>A fynnai oil, sef ffrind, a gadd o'r Nef.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>Na chats ddatguddw mo'i rinweddau mwy, </l>
+                  <l>Na thynnu o'u huthr aneddle felau’i fyw,</l>
+                  <l>(Lle mevm crynedig obaith y maent hwy </l>
+                  <l>Yn gorffwys oll,) dan fron ei Dad a'i Dduw.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

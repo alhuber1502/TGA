@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Venturi, Abbot Giuseppe</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="heb1817_bib">
+               <date>1817</date>
+               <author>Venturi, Abbot Giuseppe</author>
+               <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
+               <editor>Torri, Alessandro</editor>
+               <pubPlace>Verona</pubPlace>
+               <publisher>Dalla Tipografia Mainardi</publisher>
+               <biblScope>153-165</biblScope>
+               <idno type="NoC_1917">794</idno>
+               <note type="edst">Transcription (uncorrected OCR) from page images provided by <hi>eScriptorium/Kraken</hi> and <hi>Surya OCR</hi> 
+							(thanks to Daniel Stoekl, PSL University, Paris and William J.B. Mattingly, Smithsonian Data Science Lab, respectively!).</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription (uncorrected OCR) from page images provided by eScriptorium/Kraken and Surya OCR 
+							(thanks to Daniel Stoekl, PSL University, Paris and William J.B. Mattingly, Smithsonian Data Science Lab, respectively!).</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Venturi, Giuseppe, 1765-1841"
+              style="direction:rtl;"
+              xml:lang="heb"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="heb.Venturi.1817">
+            <head type="main" style="direction:rtl;">שי ר<lb/>
+							על בית החיים שהעתקתי אני<lb/>
+							יוסף בז לא"א גר וינטורי ז"ל<lb/>
+							בלשון הקדש
+							</head>
+            <lg n="1" corresp="#stn1">
+               <head>א</head>
+               <l>רפה היום לערוב: הן קול שופר:</l>
+               <l>ואבר עף מוליך לצבאתם</l>
+               <l>אל מבלאות צנה כלם ופר:</l>
+               <l>ולי ולאופל יתז עולם נעתם:</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <head>ב</head>
+               <l>ישב צלמות ארץ ומלאה:</l>
+               <l>מפני לילה בל בשר שתק:</l>
+               <l>אך צרעה הומה כי אין נוח בה יצאה:</l>
+               <l>ולרעים ועדריהם שנה תמתק:</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <head>נ</head>
+               <l>וענה א'ים במדבר שממה</l>
+               <l>אל הירח וכוכבי השמים</l>
+               <l>על גרי במגוריו מלכות רומה:</l>
+               <l>עוברי צל הליל כצהרים:</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <head>ד</head>
+               <l>אצל תדהר ותאשור רענן</l>
+               <l>תחת גלים שעל עפר שדה</l>
+               <l>ישנה שנת עולם ושאנן</l>
+               <l>בל אב כפיר מפחד רע מופדה:</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <head>ה'</head>
+               <l>לא יעירם ויקרא הלל בן שחר: מלוע</l>
+               <l>לא כל העות שרים למיניהם:</l>
+               <l>לא קרן היובל במשך מחר:</l>
+               <l>מחשך יצועם אל בתיהם:</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <head>ו</head>
+               <l>לא עוד יגה להם שביב אשם:</l>
+               <l>ויגיע כף נשיהם ביתה יאכלו:</l>
+               <l>ולא כשתילי זית בניהם שם</l>
+               <l>עוד סביב לאב נשיקות פיהו ישאלו:</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <head>ז'</head>
+               <l>במה נתנו חרמס בקמה:</l>
+               <l>כמה יחרשו את אדמתם:</l>
+               <l>מה ששים נהגים עגלה: ומה</l>
+               <l>בסבך עץ שמו קרדמותם:</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <head>ה</head>
+               <l>יושב רומות לא ישחק בעמלם</l>
+               <l>מועיל: שהם עמלים תחת השמש:</l>
+               <l>דברי הימים ושמחה וגילם</l>
+               <l>בני אביון ובלי שם כי באו אמש:</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <head>ט</head>
+               <l>אשה יפת תאר ויפת מראה</l>
+               <l>והבוטח על חילו וברב עשרו</l>
+               <l>לא יקח הבל כי את שחת יראה:</l>
+               <l>לא ירד אחריו בבוד אדרו:</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <head>ל</head>
+               <l>איש גא את קברי בני עם אל תבזה:</l>
+               <l>בי בלי אבן משבית ומצבה</l>
+               <l>אל קיר סביב להיכל: פא זה וזה</l>
+               <l>לשור בתוף מחול עגב איש בא:</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <head>י"א</head>
+               <l>היחשך מתים מני השחת</l>
+               <l>ציון על קבר פסיל מצבות:</l>
+               <l>היקרא כבוד נפשם משאל תחת:</l>
+               <l>הלקול שיר אזני מות קשובות:</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <head>יב</head>
+               <l>בהפנה אולי ישן אדמת עפר</l>
+               <l>לב מלא אש יורדה משחקים:</l>
+               <l>יד אל שבט בעיר מגדל כפר</l>
+               <l>מטיב נגן כנור באפיקים:</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <head>י"ך</head>
+               <l>אבל לא ידעו ספר הדעת:</l>
+               <l>בו שלל רב לעת הקדומים:</l>
+               <l>ר'ש שהפ'ל תרדמה ברוח נברעת</l>
+               <l>השאירם יגב'ם וכרמים:</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <head>לד</head>
+               <l>כן אבן אודם ופטרה וברקת</l>
+               <l>במצולות ים יבסימו תהמות:</l>
+               <l>בז ציץ שרון שושן עמק יונקת</l>
+               <l>להקטיר סמים בגזרת אדמות:</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <head>טו</head>
+               <l>בי זשכב שם מת"תיה אחר עם אבותיו:</l>
+               <l>עז למפגע מושל ברם ביתו:</l>
+               <l>דו" יד אחר נעים זמירותיו:</l>
+               <l>ויפ"תח אחר נקי מדם בתו:</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <head>יו</head>
+               <l>דבר חכמה ותבונות לזקנים:</l>
+               <l>קום עם רע והתיצב על אף רעם:</l>
+               <l>שום שלוה : השביע חלב חטה את רנים:</l>
+               <l>וקרא דברי חייו בעיני העם-</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <head>יץ</head>
+               <l>לא נפל פור להם: גורל מנע</l>
+               <l>את חיל: פן ירבו פשע ברבות כוח:</l>
+               <l>שבת בדם על כסה: ולקול הנע</l>
+               <l>ודל: אזן לאטם ופניהם לברוח:</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <head>וה</head>
+               <l>להשבית נהמת לב סחרחר מרע:</l>
+               <l>לדעך בשת פנים בי כסתם:</l>
+               <l>ולבעל -גאות וגאון ברך לברע:</l>
+               <l>ושור שיר ציון בארץ נכר לא תם:</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <head>וט</head>
+               <l>רחוק מרגשת עם שריק יהגה</l>
+               <l>רע בל נמצא בכל חפשי נפשם:</l>
+               <l>ובגיא שלוה חיים שקטת גיא</l>
+               <l>פעמיהם בשלום הכ'נו שם:</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <head>כ</head>
+               <l>ולשמור עצמות אלה היבשות</l>
+               <l>אבן תבלית וגלאעד עליהם:</l>
+               <l>בוני גבא עשו: ובשיר קשות</l>
+               <l>נאמר: תאנח בץ איש כמעט מהם:</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <head>כא</head>
+               <l>שם ושנים ב'ד סופר עצור</l>
+               <l>הם לשמעה קינים הי ושירים:</l>
+               <l>בעט ברזל דברי אלוה סביב צור</l>
+               <l>יורו אבר טוב למות מות ישר'ם:</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <head>ב ב</head>
+               <l>מי הוא בז חושך בארץ נשיה ואמש</l>
+               <l>עזב את טוב ואת רע חיי הבליו</l>
+               <l>ואת אור מתוק וטוב וחמת שמש</l>
+               <l>נאנח לא שב וישא עיך אחריו:</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <head>כד</head>
+               <l>ישאל לשפוך נפשו אל חיק רורים:</l>
+               <l>בגוע: חפץ אל תדום בת עינם:</l>
+               <l>וקול תולדה יקרא בעמקי אירים:</l>
+               <l>אפר מות יכבה אש אהבה חנם:</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <head>כד</head>
+               <l>ואתה זוכר מתי שם לא יקר:</l>
+               <l>כי את נוד חייהם ספרת בשפלך:</l>
+               <l>&#x2028;אם בחגות לב נקרא יקרא בה יבקר&#x2028;</l>
+               <l>חנון: מה היה דבר עשוי עליך:&#x2028;</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <head>כ'ה</head>
+               <l>ואמר זקז ושב בין רועי הכשב: פפכ</l>
+               <l>רבת ראינוהו בבקוע שחר אורים</l>
+               <l>ר'ץ חבט את הטל נפול על עשב:</l>
+               <l>נכח אור שמש פרוש על הרים:</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <head>כו</head>
+               <l>שם תחת האלה בי טוב צלה</l>
+               <l>שרשיה פתוחים על אדמה</l>
+               <l>עצל ישכב בי חום היום עלה:</l>
+               <l>על פלגי מים שישמחוהו עד מה:</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <head>כ'ז</head>
+               <l>איפו הגה אל האשרה ילעג בשחוק:</l>
+               <l>קול לא ישמע רק נעות שפתיו:</l>
+               <l>נעוה מאד ונחוץ בבלי חוק:</l>
+               <l>וחולה האהבה כי אנושה מכותיו:</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <head>בה</head>
+               <l>יום בא ואין הוא כפעם פעמים:</l>
+               <l>אל הר יאל צל אהוב תחת האלה:</l>
+               <l>יים אחר בא ואין הוא על פלגי מים:</l>
+               <l>באחת גאיות גבל או אל אשלה:</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <head>כט</head>
+               <l>והן עם סופר מספר יום שלישי:</l>
+               <l>וישאו אותי בית יי"י הולבים:</l>
+               <l>פא אתה חכם מבין: קרא חפשי</l>
+               <l>כל שיר על שיש תחת קוץ ערובים: ססס</l>
+            </lg>
+            <lg>
+               <head>מצבה</head>
+               <lg n="30" corresp="#stn30">
+                  <head>△</head>
+                  <l>פה נער בלי חק שם חיק ארץ נח:</l>
+                  <l>שבטו צעיר ומשפחתו נדח:</l>
+                  <l>בא דעת בלבו: אבל נאנח</l>
+                  <l>לא נמלא שחוק פיהו ותהות רוח:</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <head>↨</head>
+                  <l>חסר ואמת נפשו בלבו:</l>
+                  <l>וגם עמו עשה רב חסד יה:</l>
+                  <l>נח לאביו נרמז: כל שהיה בו:</l>
+                  <l>כאות לב את אוהב נחן לו יה:</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <head>↨</head>
+                  <l>סור צדקתו אל תבכה כי איש לא נגלה:</l>
+                  <l>ואשר חטא בשגגה את תאותו:</l>
+                  <l>יחד בהן בטח וחללה:</l>
+                  <l>בחיק י״י אביו ואלהיו:</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

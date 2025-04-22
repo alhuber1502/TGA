@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Le Cimetière de campagne</title>
+            <author>Henrion, Eugene</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="fra1830_bib">
+               <author>Henrion, Eugene</author>
+               <title level="a">Le Cimetière de campagne</title>
+               <date>1830</date>
+               <editor>Soulié and Henrion</editor>
+               <title level="m">Poésies anglaises</title>
+               <pubPlace>Paris</pubPlace>
+               <publisher>Béthune</publisher>
+               <biblScope>179-87</biblScope>
+               <idno type="TuT_2016">Turk (2016), 4.</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Henrion, Eugene"
+              rendition="#lgvspace"
+              type="prose"
+              xml:id="fra.Henrion.1830">
+            <head type="main">Le Cimetière de campagne</head>
+            <div>
+               <p n="1" corresp="#stn1">
+							Le couvrefeu bruyant annonce la chute
+							du jour, les troupeaux mugissants foulent 
+							lentement les pâturages, et le laboureur 
+							fatigué, quittant ses travaux, retourne
+							à sa chaumière: je suis seul dans le monde
+							et dans les ténèbres.
+</p>
+               <p n="2" corresp="#stn2">
+							Le paysage, tout à l'heure si vivant,
+							s'obscurcit et s'efface: il se fait dans toute
+							la nature un calme solennel, qui n'est interrompu
+							que par le bourdonnement monotone 
+							de l'escarbot qui prend son vol,
+							et le tintement affaibli des clochettes qui
+							berce au loin les troupeaux.
+</p>
+               <p n="3" corresp="#stn3">
+							On entend aussi partir de cette vieille
+							tour, cachée sous des touffes de lierre, la
+							lugubre plainte du hibou contre le profane 
+							qui, osant porter ses pas si près de
+							son asile, vient troubler la paix de son
+							antique solitude.
+</p>
+               <p n="4" corresp="#stn4">
+							Sous les rameaux de ces ormes, à l'ombre 
+							de ces ifs, voyez les petits tertres que
+							forme le gazon: c'est là que reposent à
+							jamais, chacun dans sa tombe, les rustiques 
+							ancêtres du hameau.
+</p>
+               <p n="5" corresp="#stn5">
+							Ni le souffle de la brise, ni l'air embaumé
+							du matin, ni les chants de l'hirondelle
+							impatiente de s'élancer de son nid
+							construit avec une paille légère, ni les cris
+							perçans du coq, ni le cor retentissant, ne
+							les réveilleront plus de leur profond sommeil!
+</p>
+               <p n="6" corresp="#stn6">
+							Pour eux ne pétillera plus la flamme du
+							foyer, et la ménagère empressée ne fera
+							plus ses apprêts du soir: leurs enfants ne
+							courront plus au-devant d'eux fêter par
+							leurs caresses le retour d'un père, ou, sautant
+							à l'envi sur leurs genoux, se disputer
+							leurs baisers.
+</p>
+               <p n="7" corresp="#stn7">
+							Souvent la glèbe obstinée s'ouvrit devant 
+							eux en sillons; la moisson se courba
+							souvent sous leurs faucilles. Avec quelle
+							franche gaîté ils promenaient leur charrue
+							dans la plaine, ou, d'un bras puissant, abattaient
+							les bois sous leurs coups répétés!
+</p>
+               <p n="8" corresp="#stn8">
+							Quel'ambitionne serie pas de leurs utiles
+							travaux, de leurs joies domestiques et de
+							leur obscure destinée, et que la grandeur
+							n'écoute pas, avec un dédaigneux sourire,
+							les courtes et simples annales du pauvre!
+</p>
+               <p n="9" corresp="#stn9">
+							Le blason et ses vanités, la puissance et
+							ses pompes, tout ce que la beauté, tout
+							ce que l'opulence purent jamais donner,
+							tout cela doit aussi atteindre l'heure inévitable:
+							les sentiers de la gloire n'aboutissent
+							..... qu'à la tombe!
+</p>
+               <p n="10" corresp="#stn10">
+							Et n'allez pas, hommes vains, faire aux
+							pauvres un crime de ce que la mémoire
+							n'élève pas de trophées sur leurs tombeaux,
+							de ce que, dans une nefimposante et sous
+							des arceaux surchargés d'ornements, des
+							hymnes bruyants ne célèbrent pas leur
+							louange!
+</p>
+               <p n="11" corresp="#stn11">
+							Une urne historiée, un buste qui semble
+							respirer encore, peuvent-ils ramener
+							àcelui qui n'est plus un souffle passager?
+							La voix de l'honneur peut-elle réveiller
+							une muette poussière, ou la flatterie vaincre
+							la surdité glacée de la mort?
+</p>
+               <p n="12" corresp="#stn12">
+							Peut-être cette tombe négligée renferme
+							quelque cœur qu'embrasa jadis un feu
+							céleste; peut-être une main qui eût pu
+							manier le sceptre de l'empire, ou prêter
+							à la lyre des accords pleins d'âme et d'une
+							ravissante harmonie!
+</p>
+               <p n="13" corresp="#stn13">
+							Mais la science ne déroulajamais à leurs
+							yeux ses vastes pages enrichies des dépouilles
+							du temps: la froide misère retint
+							leur noble élan, et glaça le génie dans sa
+							source.
+</p>
+               <p n="14" corresp="#stn14">
+							L'océan, dans ses ténébreux et profonds
+							abîmes, recèle enfoule despierreries du plus
+							bel éclat, plus d'une fleur s'épanouit pour
+							rougir loin des yeux, et abandonner ses
+							parfums à la brise du désert.
+</p>
+               <p n="15" corresp="#stn15">
+							Ici repose peut-être quelque Hampden
+							villageois qui sut, avec une mâle énergie,
+							lutter contre l'oppression d'un petit tyran,
+							son voisin, ou quelque Milton, muet et
+							sans gloire, ou quelque Cromwell innocent
+							du sang de sa patrie.
+</p>
+               <p n="16" corresp="#stn16 #stn17">
+							Captiver les suffrages d'un sénat attentif, 
+							voir d'un œil dédaigneux planer sur
+							sa tête les maux et les ruines, répandre
+							l'abondance sur un sol riant, et lire leur
+							histoire aux yeux des nations étonnées,
+							tel ne fut pas leur sort: bornés dans leurs
+							vertus comme dans leurs vices, il ne leur
+							fut pas donné de monter au trône par le
+							meurtre, et de fermer sur le monde les
+							portes de la miséricorde.
+</p>
+               <p n="17" corresp="#stn18">
+							On ne les vit pas dissimuler l'atteinte
+							cruelle de l'aiguillon du remords et de la
+							vérité, ou la rougeur ingénue qui trahit
+							la honte, et prostituer à la luxure et a
+							l'orgueil un encens allumé à l'autel des
+							muses.
+</p>
+               <p n="18" corresp="#stn19">
+							Loin du tourbillon honteux de la foule
+							insensée , jamais leurs vœux ne s'écartèrent
+							d'une sage modération! ils poursuivirent,
+							sans bruit, leur sentier solitaire dans le
+							pèlerinage de la vie.
+</p>
+               <p n="19" corresp="#stn20">
+							Dépositaire de ces ossements sacrés
+							qu'il protége, le frêle monument qui
+							s'élève sur leurs cendres ne laisse lire, au
+							sein d'une humble sculpture, qu'une humble
+							inscription, qui appelle le tribut passager
+							d'un soupir.
+</p>
+               <p n="20" corresp="#stn21">
+							Leur nom, leur âge, simplement retracés
+							par une muse agreste, tiennent lieu
+							d'éloges pompeux et d'élégies: le texte
+							sacré, la légende qui se voient à l'entour,
+							sont là pour apprendre au moraliste rus
+							tique à mourir.
+</p>
+               <p n="21" corresp="#stn22">
+							Quel est en effet celui qui, avant d'être
+							la proie de l'oubli, a pu, renonçant à la
+							lumière brillante du jour, se séparer de
+							la vie, cette existence à la fois si douce et
+							si amère, sans jeter derrière lui un dernier
+							regard, un regard d'adieu!
+</p>
+               <p n="22" corresp="#stn23">
+							L'âme, prête à s'envoler, a besoin de
+							compter sur le souvenir de l'amitié; l'œil
+							qui va se fermer appelle de pieuses larmes;
+							le cri de la nature s'élance même de
+							la tombe, etles feux qui nous consumèrent
+							vivent encore dans nos cendres!
+</p>
+               <p n="23" corresp="#stn24">
+							Pour toi qui, plein d'un souvenir respectueux 
+							pour les morts laissés sans honneur, 
+							célèbres leur histoire si simple dans
+							ces vers; si jamais une âme sensible,
+							s'abandonnant à sa rêverie solitaire, s'informait
+							de ton sort,
+</p>
+               <p n="24" corresp="#stn25">
+							Quelque pâtre aux cheveux blancs lui
+							répondra peut-être: « Nous le voyions souvent,
+							à l'aube matinale, fouler d'un pas
+							hâté le gazon couvert de rosée, pour aller
+							voir sur la colline le lever du soleil;
+</p>
+               <p n="25" corresp="#stn26">
+							» Puis , au pied de ce hêtre incliné, dont
+							les vieilles racines s'enlacent et forment
+							mille figures fantastiques, il demeurait,
+							pendant la chaleur du jour, mollement
+							étendu, penché sur le ruisseau murmurant;
+</p>
+               <p n="26" corresp="#stn27">
+							» Tantôt il errait dans les bois, un
+							sourire sardonique sur les lèvres, et disant
+							à voix basse ses plaintes entrecoupées,
+							languissant , pâle , abattu comme un homme 
+							abandonné, en proie à des soucis déchirants, 
+							ou victime d'un amour sans
+							espoir.
+</p>
+               <p n="27" corresp="#stn28">
+							» Un jour je le vis sur la colline qu'il
+							aimait à visiter, le long de la bruyère et
+							près de son arbre favori : plus tard je le
+							cherchai vainement près du ruisseau, sur
+							la colline, ou dans les bois.
+</p>
+               <p n="28" corresp="#stn29">
+							» Le lendemain, nous entendîmes des
+							chants funèbres, c'était lui qu'on transportait, 
+							à pas lents, en pompe sépulcrale,
+							dans le cimetière; approchez et lisez (car
+							vous savez lire) le lai gravé sur la pierre
+							qu'ombrage ce vieux saule: » 
+</p>
+            </div>
+            <div>
+               <head>ÉPITAPHE.</head>
+               <p n="29" corresp="#stn30">
+							Ici repose, dans le sein de la terre, un
+							jeune homme inconnu à la fortune et à la
+							renommée: la science ne dédaigna pas de
+							sourire à son humble naissance, et la mélancolie
+							le marqua du sceau de ses élus.
+</p>
+               <p n="30" corresp="#stn31">
+							Il fut bon et plein de sincérité; aussi le
+							ciel le récompensa largement: il donna
+							aux pauvres tout ce qu'il possédait... une
+							larme; il obtint du ciel (tout ce qu'il desirait)
+							.... un ami!
+</p>
+               <p n="31" corresp="#stn32">
+							Ne cherchezpas à lui découvrir d'autres
+							mérites ; ne recherchez pas ses faiblesses
+							dans leur asile révéré (où ses vertus
+							comme ses vices se confondent dans un
+							espoir mêlé de crainte)..... le sein de son
+							père et de son Dieu!
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">El Cementerio de la Aldea</title>
+            <author>Mitre, Bartolomé</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="spa1839_bib">
+               <date>1839</date>
+               <author>Mitre, Bartolomé</author>
+               <title level="a">El Cementerio de la Aldea</title>
+               <pubPlace>Buenos Aires</pubPlace>
+               <date type="publ">1916</date>
+               <biblScope>299–305</biblScope>
+               <idno type="NoC_1917">863</idno>
+               <idno type="TuT_2013">Turk (2013), 70.</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Mitre, Bartolomé"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="spa.Mitre.1839">
+            <head type="main">El Cementerio de la Aldea</head>
+            <lg n="1" corresp="#stn1">
+               <l>La campana lamenta el fin del día,</l>
+               <l>Muge el rebaño en torno del vallado;</l>
+               <l>El labrador retorna a su alquería</l>
+               <l>Y me deja de sombras circundado.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>Ya se borra el paisaje entre las nieblas:</l>
+               <l>Callada está la atmósfera tranquila:</l>
+               <l>El insecto susurra en las tinieblas,</l>
+               <l>Y se oye el eco de lejana esquila.</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>En la torre de yedra tapizada</l>
+               <l>Su luz esparce la apacible luna,</l>
+               <l>Y su secreta oscuridad callada</l>
+               <l>El buho con sus quejas importuna.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>Aquí, a la sombra de olmos y de abetos</l>
+               <l>En tumbas que la grama festonea,</l>
+               <l>Duermen en tierra, ya por siempre quietos,</l>
+               <l>Los rústicos abuelos de la aldea.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>Ya no irá a despertarlos en su lecho</l>
+               <l>La brisa matinal embalsamada,</l>
+               <l>Ni oirán cantar en su pajizo techo</l>
+               <l>Al gallo anunciador de la alborada.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Ya no recibirán junto a su hoguera</l>
+               <l>De la esposa solicitos cuidados,</l>
+               <l>Ni sus hijos el beso de la espera</l>
+               <l>En sus rodillas les darán sentados.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>Ellos la mies ante su hoz rindieron,</l>
+               <l>Y el surco abrieron en la dura gleba;</l>
+               <l>Ellos al bosque secular vencieron</l>
+               <l>Y a par del buey se ataron a la esteva.</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>De la ambición insana preservados</l>
+               <l>Su vida oscura fué, sus penas leves . . .</l>
+               <l>¡Mas no sean por esto despreciados</l>
+               <l>Del pobre los anales simples, breves!</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>Del orgullo la pompa deleznable,</l>
+               <l>La opulencia, el poder y la belleza,</l>
+               <l>A todo llega su hora inevitable:</l>
+               <l>De la gloria el camino va a la huesa.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>¡Soberbios de la tierra! nada importa</l>
+               <l>Que estas tumbas no ostenten un trofeo,</l>
+               <l>Ni que en templo que mármoles soporta</l>
+               <l>No se eleve en su honor un clamoreo.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>¿La urna historiada, el busto cincelado</l>
+               <l>Reanimar puede acaso el polvo inerte?</l>
+               <l>¿Suena de la lisonja el canto osado</l>
+               <l>En los oídos sordos de la muerte?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Cabezas que animó fuego sagrado,</l>
+               <l>Manos dignas del cetro y de la lira,</l>
+               <l>Yacen tal vez en túmulo ignorado</l>
+               <l>En este campo que ninguno admira.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>No leyeron el libro portentoso</l>
+               <l>Que enriquece del tiempo la corriente:</l>
+               <l>La pobreza con soplo silencioso</l>
+               <l>Congeló de sus genios el torrente.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>Así la mar en su insondable seno</l>
+               <l>Guarda la perla, honor de una corona;</l>
+               <l>Así la flor lejos del prado ameno</l>
+               <l>Da su fragancia en solitaria zona.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>Tal vez aquí hay un Hampden sin historia</l>
+               <l>Que afrontó de su campo a los tiranos,</l>
+               <l>O algún Milton sin cantos y sin gloria,</l>
+               <l>O un Cromwell puro, con incruentas manos.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>No dominó su voz en el senado,</l>
+               <l>Ni fué su lote ruinas y despojos,</l>
+               <l>Ni leyeron su fin predestinado</l>
+               <l>De una nación en los inquietos ojos.</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Pero si el crimen no marcó sus pasos,</l>
+               <l>Si al solio entre matanzas no se alzaron,</l>
+               <l>Ellos al mundo con impíos brazos</l>
+               <l>De la piedad las puertas no cerraron.</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>No negaron su oído a la conciencia,</l>
+               <l>Ni el pudor sofocaron torpemente,</l>
+               <l>Ni tributaron culto a la opulencia</l>
+               <l>Con inciensos quemados en la mente.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Lejos de la contienda fraticida</l>
+               <l>Sus deseos jamás se descarriaron,</l>
+               <l>Y a lo largo del valle de la vida</l>
+               <l>Una quieta existencia atravesaron.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>Sus huesos protegidos del insulto</l>
+               <l>Descansan bajo toscos monumentos,</l>
+               <l>Y un epitafia pide en verso inculto</l>
+               <l>Un suspiro al viajero, unos momentos.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>En su edad y su nombre aquí esculpido</l>
+               <l>Una elegía para el pobre aldeano,</l>
+               <l>Y un texto por el tiempo carcomido</l>
+               <l>Conforta al moralista comarcano.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>¿Por qué no se resigna al mudo olvido</l>
+               <l>Nuestro ser al dejar el mundo inquieto,</l>
+               <l>Y mira atrás con ojo entristecido</l>
+               <l>La luz buscando con ansiar secreto?</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>Es porque el alma en nuestro ser revive</l>
+               <l>Guardando el ojo una piadosa gota,</l>
+               <l>Que hasta en la tumba la natura vive</l>
+               <l>Y el fuego extinto de cenizas brota.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>¡Oh tú, que cantas la honradez sin gloria</l>
+               <l>En estas líneas que inspiró la muerte,</l>
+               <l>Tal vez alguno guarde tu memoria,</l>
+               <l>Y quiera un día averiguar tu suerte!</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Feliz entonces si un pastor anciano</l>
+               <l>Puede decir: - “La estrella matutina</l>
+               <l>“Le vió ágilmente recorrer el llano,</l>
+               <l>“Sorprendiéndole el sol en la colina.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>“Allí, a la sombra de la encina añosa,</l>
+               <l>“Pasaba el abrasado mediodía,</l>
+               <l>“Y recostado en su raíz nudosa</l>
+               <l>“El rumor del arroyo le embebía.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>“Al cruzar por el bosque silencioso</l>
+               <l>“En sus ojos las lágrimas brillaban,</l>
+               <l>“Murmuraba en un tomo lastimoso</l>
+               <l>“Voces que amor o pena revelaban.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>“Un día no le ví sobre el collado,</l>
+               <l>“Ni sentado de su árbol a la sombra,</l>
+               <l>“Ni en el bosque, ni arroyo sosegado,</l>
+               <l>“Ni entre el brezal que la pradera alfombra.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>“En un negro ataúd al otro día</l>
+               <l>“Le ví llevar al campo de los muertos:</l>
+               <l>“Llega, y leerás en esa losa fría</l>
+               <l>“El epitafio de sus huesos yertos.”</l>
+            </lg>
+            <lg>
+               <head>EPITAFIO</head>
+               <lg n="30" corresp="#stn30">
+                  <l>Yace envelta en el polvo la cabeza</l>
+                  <l>De un joven que vivió desconocido:</l>
+                  <l>Puso en su frente el sello la tristeza</l>
+                  <l>Y el estudio su tinte indefinido.</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>En su alma la bondad tuvo un abrigo:</l>
+                  <l>Dió a la miseria simpatía y lloro,</l>
+                  <l>Colmó Dios su ambición con un amigo,</l>
+                  <l>Y así partió su amor y su tesoro.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>Sus virtudes no pongas en balanza</l>
+                  <l>En la mansión solemne del pavor;</l>
+                  <l>¡Yace en brrazos de trémula esperanza,</l>
+                  <l>A los pies du su Padre y su Señor!</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

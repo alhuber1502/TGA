@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">O cemiterio da aldea, canto elegiaco de Thomas Gray</title>
+            <author>Almeida Coutinho, Henrique Ernesto de</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="por1836_bib">
+               <idno type="NoC_1917">859</idno>
+               <author>Almeida Coutinho, Henrique Ernesto de</author>
+               <title level="a">O cemiterio da aldea, canto elegiaco de Thomas Gray</title>
+               <title level="m">O cemiterio da aldea, canto elegiaco de Thomas Gray, traduzido em verso Portuguez por H. E. A. C.</title>
+               <pubPlace>Porto</pubPlace>
+               <publisher>Typographia Commercial Portuense</publisher>
+               <edition>Segunda edição</edition>
+               <date>1836</date>
+               <date type="publ">1837</date>
+               <biblScope>3-11</biblScope>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Almeida Coutinho, Henrique Ernesto de"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="por.AlmeidaCoutinho.1836">
+            <head type="main">O cemiterio da aldea, canto elegiaco de Thomas Gray</head>
+            <lg n="1" corresp="#stn1">
+               <l>Do fenecido dia entôa o sino</l>
+               <l>Jáo lugubre signal: tortuosa e lenta,</l>
+               <l>A mugidora grei demanda o aprisco;</l>
+               <l>Aos lares vovle o lavrador cançado, </l>
+               <l>E deixa entregue o Mundo</l>
+               <l>As trevas e a meus tristes pensamentos.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>Todo esvaio-se o brilho d’estas margens</l>
+               <l>E os ares sem reserva senhorea</l>
+               <l>Mudez solemne, perturbada apenas</l>
+               <l>D’adejantes noctlvagos insectos, </l>
+               <l>Que, ao sussurrar conmifero,</l>
+               <l>Os redís acalentão lá distantes.</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Sómente escuto, sobre o tope excelso </l>
+               <l>D’aquelle torreão vestido d’heras,</l>
+               <l>O mésto môcho lamentar-se á Lua</l>
+               <l>E agora em tôrno de seu berço obscuro </l>
+               <l>Vagueio, distrubando</l>
+               <l>A antiga solidão de seus dominios.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>De baixo d’estes alamos bravios,</l>
+               <l>D’estes teixos decrépitos á sombre,</l>
+               <l>N’este chão, onde a relva cm pó desfeita</l>
+               <l>Crebros montões altea, eis para sempre </l>
+               <l>Dormem no estreito alvergue</l>
+               <l>Os d’aldea buçaes antepassados.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>De matutinas auras meigo arôma,</l>
+               <l>Sons festivaes de rusticas avënas,</l>
+               <l>Do gallo o canto agudo, as alvoradas</l>
+               <l>Té da cornea trombeta resonante, </l>
+               <l>Não mais trm de arrancá-los</l>
+               <l>D’esse apoucado leito onde repousão.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Para elles nunca niais ha de accender-se</l>
+               <l>O crepitante lar, nem mais a espôsa</l>
+               <l>Atarefar serães, nem os filhinhos,</l>
+               <l>Correndo alegres, balbuciar a vinda</l>
+               <l>Do pai, que no joelho </l>
+               <l>Os senta, dá-lhes o osculo invejado.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>Não poucas vezes lourejante messe</l>
+               <l>Cedeo ao ferro em suas mãos compresso,</l>
+               <l>Não poucas vezes renitente gléba</l>
+               <l>Foi nos sulcos desfeita. Oh quão alegres</l>
+               <l>Cereal trem rodavão!</l>
+               <l>Oh como aos golpes seus cahião troncos!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Tu, sedenta Ambição, mofar não ouses</l>
+               <l>Daquellas suas usuaes fadigas,</l>
+               <l>E rasteira alegria, e sorte obscura;</l>
+               <l>Nem tu escutar deves, ó Grandeza, </l>
+               <l>C’um sorrir desdenhoso</l>
+               <l>Os do pobre annaes breves e singelos.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>Arrogantes brazões, poder faustoso,</l>
+               <l>Todas essas vantagens tão gabadas</l>
+               <l>Que a Formosura, que a Opulencia cercão,</l>
+               <l>Nenhuma exceptuada, esperão todas </l>
+               <l>A inevitavel hora:</l>
+               <l>r	Lá vão da Gloria as sendas ter á campa.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Orgulhoso mortal! não os lamentes</l>
+               <l>Por que sobre o seu tuniulo a Memoria</l>
+               <l>Mo erigio troféos; por que, dos templos</l>
+               <l>Té ás summas	abobadas erguido </l>
+               <l>Em retunibangtes écos,</l>
+               <l>Seu repicado encomio nao deo brado.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>Podem acaso bistoriadas urnas,</l>
+               <l>Ou respirantes bustos vital sôpro</l>
+               <l>Restituir a corpos já finados?</l>
+               <l>Instiga a voz da honra mudas cinzas? </l>
+               <l>Sabre a Lisonja insana</l>
+               <l>Frios ouvidos penetrar da Morte?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Ah! que esta ignobil terra talvez cobre</l>
+               <l>Um coração senhoreado outr’ora</l>
+               <l>D’ardor celestial, talvez mãos dignas</l>
+               <l>Dc sustentar abalisado sceptro, </l>
+               <l>Ou de pôr tudo em extase,</l>
+               <l>Ferindo as cordas da Apollinea lyra.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Porém nunca a Sciencia aos olhos delles</l>
+               <l>A ampla desenrolou pagina sua, </l>
+               <l>Dos despójos do Tempo enriquecida:</l>
+               <l>Foi-Ihes n’alma embargado o nobre arrójo </l>
+               <l>Pela Penuria estéril,</l>
+               <l>Que em gêlo converteo torrentes d’déstro.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>Tal, nas cavernas do insondavel seio,</l>
+               <l>Luzentes perlas o Oceano encerra;</l>
+               <l>Taes desabrochão pudibundas flores,</l>
+               <l>Que, escondendo-se aos olhos, desperdição </l>
+               <l>Pelos ares desertos</l>
+               <l>Sua fragrante natural riqueza.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>Talvez repousa aqui algum outro Hampden,</l>
+               <l>Que ao mesquinho tyranno de seus campos</l>
+               <l>Oppôz audacia intrepida; algum Milton</l>
+               <l>Que em silencio viveo, e jaz scm gloria; </l>
+               <l>Algum Cromwell que nunca</l>
+               <l>As mãos enxovalhou no patrio sangue.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>Forçar applausos do Senado attento,</l>
+               <l>Revéz ameaçador, proximo estrago</l>
+               <l>Encarar firme, ou da Abundancia os mimos</l>
+               <l>Disseminar sobre exultante margens, </l>
+               <l>E a propria historia sua</l>
+               <l>Ler nos olhos da Patria, não lhes coube.</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Mas só no breve circulo estreitadas</l>
+               <l>Suas virtudes forão sempre,</l>
+               <l>Mas coarctarão-se alli tambem seus crimes.</l>
+               <l>Não lhes coube, sulcando urn mar de sangue, </l>
+               <l>Surgir ao Throno, e as portas</l>
+               <l>Da Clemencia fechar á  Humanidade;</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>Disfarçar não lhes coube as tormentosas</l>
+               <l>Angustias da Consciencia eapavorida,</l>
+               <l>Dar de mão ao rubor do ingenuo Pejo,</l>
+               <l>Ir da Lubricidade, ou da Soberba </l>
+               <l>Profanar sobre as aras</l>
+               <l>Sacro incenso que as Musas accenderão.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Cegas contestações do vulgo abjecto</l>
+               <l>Longe aqui d’escutar, nunca aprenderão</l>
+               <l>Sobrios desejos seus a extraviar-se;</l>
+               <l>E foi, por isoladoo valle ameno, </l>
+               <l>Sua existencia pura</l>
+               <l>Seguindo em paz o costumado trilho.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>Frageis mernorias em grosseiros versos,</l>
+               <l>Em esculpturas desprovidas d’arte,</l>
+               <l>Contra qualquer insulto inda protegem</l>
+               <l>Estes mirrados	ossos, e a bem delles </l>
+               <l>Inda sequer implorão</l>
+               <l>O efémero tributo d’um suspiro.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Exprinindo-lhes mal o nome e os annos,</l>
+               <l>Illiterata Musa supre as vozes</l>
+               <l>Da Fama ou da Elegia, e em tôrno esparge</l>
+               <l>Com larga mão sagrados textos, onde</l>
+               <l>D’aldea o moralista</l>
+               <l>Pode a fundo aprender como se morre.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>E ha de o mortal que jaz victima triste</l>
+               <l>Do mudo esquecimento, comprazer-se</l>
+               <l>Em ancias taes? ou deixará tão franco</l>
+               <l>Gratos confins onde flammeja a vida,</l>
+               <l>Que para traz não volva</l>
+               <l>Um derradeiro olhar penoso e longo?</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>De ternos corações busca saudades</l>
+               <l>‘Spirito que se ausenta, e extinctos olhos</l>
+               <l>Querem piedoso pranto: a Natureza </l>
+               <l>Lá do fundo das campas inda clama,</l>
+               <l>Inda mesmo entre cinzas</l>
+               <l>Sua chamma usual vive inexhausta.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>E quanto a ti, que hoje em teus versos lermbras</l>
+               <l>Estes mortos obscuros, e referes</l>
+               <l>A historia sua d’artificio isenta,</l>
+               <l>Se outro, qual	tu, da solidão amante </l>
+               <l>Vier nestes lugares</l>
+               <l>Dar pasto á rnente, ha de inquirir teus fados.</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Talvez encanecido pegureiro</l>
+               <l>Responda: “vezes cento, ao romper d’alva,</l>
+               <l>“Com pe ligeiro desponjando as relvas</l>
+               <l>“Do liquidado aljofar, nós o vimos</l>
+               <l>Que sobre esses outeiros</l>
+               <l>“Acudia a saudar o Sol nascente.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>“Naquelle chão, onde a raiz tortuosa</l>
+               <l>Estcnde antiga faia, balouçando</l>
+               <l>Lá junto ás nuvens a sombria copa, </l>
+               <l>Elle, á hora da sésta, reclinava</l>
+               <l>O longo seu descuido, </l>
+               <l>Fitando a veia do sonoro arroio.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>Ora pela floresta divagava,</l>
+               <l>C’um sorrir de desprêzo ruminando</l>
+               <l>Fantasticas vixões, ora genia</l>
+               <l>Como se perecesse ao desamparo, </l>
+               <l>Ou sumido em cuidados,</l>
+               <l>Ou victima d’amor sem esperança.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>Um manhã, ao despontar d’aurora,</l>
+               <l>Não foi visto assomar sobre a collina,</l>
+               <l>Nem ao longo das urzes, nem á sombra</l>
+               <l>Da arvore predilecta, nem á orla </l>
+               <l>Do placido ribeiro,</l>
+               <l>Nem girar na campina, nem no bosque.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>Em fim lugubre canto fere os ares;</l>
+               <l>E eis que vemos funerea comitiva,</l>
+               <l>Que, a passos vagarosos desfilando,</l>
+               <l>O levava n’um féretro ao juzigo. </l>
+               <l>Vem cá, vem 1er-lhe o lemma;</l>
+               <l>Que o abrôlho afastarei que cobre a lagem.</l>
+            </lg>
+            <lg>
+               <head>EPITAFIO</head>
+               <lg n="30" corresp="#stn30">
+                  <l>Esta terra em seu seio abriga um joven</l>
+                  <l>Malquisto da Fortuna, ignoto á Fama;</l>
+                  <l>Porém não recusou nobre Sciencia</l>
+                  <l>Esclarecer-lhe o nascimento humilde, </l>
+                  <l>E da Melancolia</l>
+                  <l>Seu peito foi acquisicão completa.</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>Inexhausta bondade, aurea candura,</l>
+                  <l>Celestes dons se accumulárão nelle:</l>
+                  <l>Suas lagrimas deo (nada mais tinha</l>
+                  <l>Que dar podesse) é Desventura todas:</l>
+                  <l>Um amigo era quanto</l>
+                  <l>Elle anhelava, e o Ceo deo-lhe um amigo.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>Do centro d’esta estancia pavorosa</l>
+                  <l>Revocar d’hoje avante é luz não ouses</l>
+                  <l>Nem os meritos seus, nem seus defeitos;</l>
+                  <l>Seus defeitos, seus meritos repousão,</l>
+                  <l>Entre susto esperança,</l>
+                  <l>No gremio ao Pai commum, ao Deos de todos.</l>
+               </lg>
+            </lg>
+            <closer>FIM</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

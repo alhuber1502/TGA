@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegia scritta in un cimitero campestre d'Inghilterra da Tommaso Gray</title>
+            <author>Mancini, Lorenzo</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="ita1825_bib">
+               <date>1825</date>
+               <author>Mancini, Lorenzo</author>
+               <title level="a">Elegia scritta in un cimitero campestre d'Inghilterra da Tommaso Gray</title>
+               <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
+               <editor>Torri, Alessandro</editor>
+               <pubPlace>Verona</pubPlace>
+               <publisher>Dalla Tipografia Mainardi</publisher>
+               <biblScope>107-111</biblScope>
+               <edition>2nd edition</edition>
+               <date type="publ">1843</date>
+               <idno type="NoC_1917">809</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation #quartarima"
+              n="Mancini, Lorenzo, 1776-1848"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="ita.Mancini.1825">
+            <head type="main">Elegia scritta in un cimitero campestre d'Inghilterra da Tommaso Gray</head>
+            <lg n="1" corresp="#stn1">
+               <head>1.</head>
+               <l>Cadde il sole: fumar le sparse ville</l>
+               <l>Vedi in fosco orizzonte; odi che suona</l>
+               <l>Un tal rimbombo di lontane squille</l>
+               <l>Che par piangere il di che n’abbandona.</l>
+            </lg>
+            <lg n="2" corresp="#stn1">
+               <head>2.</head>
+               <l>Torna al chiuso l’armento, e passo passo.</l>
+               <l>Sgombra i paschi muggendo; alle fumose</l>
+               <l>Case l’agricoltor drizza il piè lasso,</l>
+               <l>E alle tene bre e a me lascia le cose.</l>
+            </lg>
+            <lg n="3" corresp="#stn2">
+               <head>3.</head>
+               <l>Si dileguano tutte a poco a poco,</l>
+               <l>E dell’aria silenzio alto s’indonna:</l>
+               <l>Solo d’insetti roteanti un roco</l>
+               <l>Romzio va intorno, e gli animali assonna;</l>
+            </lg>
+            <lg n="4" corresp="#stn3">
+               <head>4.</head>
+               <l>E tristo gufo di talun che porta</l>
+               <l>Nel suo dominio antico orma importuna,</l>
+               <l>Da aquella ltorre là d’edere attorta,</l>
+               <l>Par che si lagni con l’amica luna.</l>
+            </lg>
+            <lg n="5" corresp="#stn4">
+               <head>5.</head>
+               <l>Sotto a que’mucchi di terren, che il verno</l>
+               <l>Disfà, d’ombre funeste umidi ed adri,</l>
+               <l>Ciascun d’angusta cella ospite eterno,</l>
+               <l>Dormon sepolti del villaggio i padri.</l>
+            </lg>
+            <lg n="6" corresp="#stn5">
+               <head>6.</head>
+               <l>Più non gli sniderà l’alba novella</l>
+               <l>Dal rozzo letto, nè l’uccel del giorno</l>
+               <l>Annunziator, nè vispa rondinella,</l>
+               <l>Nè, rintronando, della caccia il corno.</l>
+            </lg>
+            <lg n="7" corresp="#stn6">
+               <head>7.</head>
+               <l>Non più, tornanti dal lavoro agreste,</l>
+               <l>Gl’inviterà il cammin dentro l’oscure</l>
+               <l>Pareti, e la lmoglier fida rideste</l>
+               <l>N’avrà le lvampe per l’usate cure:</l>
+            </lg>
+            <lg n="8" corresp="#stn6">
+               <head>8.</head>
+               <l>Nè correranno incontro al genitore</l>
+               <l>I figliuoletti garruli e vivaci,</l>
+               <l>E sul collo saltandogli, all’amore</l>
+               <l>Paterno chiederan pegno di baci.</l>
+            </lg>
+            <lg n="9" corresp="#stn7">
+               <head>9.</head>
+               <l>Come lor falce dispogliava i solchi,</l>
+               <l>Come il coltro fendea le dure glebe,</l>
+               <l>Come i tronchi la scure! oggi bifolchi,</l>
+               <l>Diman silvestre faticosa plebe.</l>
+            </lg>
+            <lg n="10" corresp="#stn8">
+               <head>10.</head>
+               <l>Non rida il grande nelle sale aurate</l>
+               <l>Lorl util’opre, e i rudi ingegni e gli usi;</l>
+               <l>Nè Ambizione udir di Povertate</l>
+               <l>I brevi annali e semplici ricusi.</l>
+            </lg>
+            <lg n="11" corresp="#stn9">
+               <head>11.</head>
+               <l>Tesor’, dominj, e fregio a fregio aggiunto,</l>
+               <l>E l’onor che ne’secoli rimbomba,</l>
+               <l>Del pari attende inevitabil punto;</l>
+               <l>Della gloria il sentier guida alla tomba.</l>
+            </lg>
+            <lg n="12" corresp="#stn10">
+               <head>12.</head>
+               <l>Nè deploriam costor, che monumenti</l>
+               <l>Non li fan chiari con inciso pianto,</l>
+               <l>Là dove lungo i sacri atrij a’potenti</l>
+               <l>Suona di laude menzognero canto.</l>
+            </lg>
+            <lg n="13" corresp="#stn11">
+               <head>13.</head>
+               <l>Puot’urna effigiata, o viva imago,</l>
+               <l>L’alme indietro chiamar che Morte solve?</l>
+               <l>Suo freddo petto di lusinghe è pago?</l>
+               <l>Le voci dell’onor sente la polve?</l>
+            </lg>
+            <lg n="14" corresp="#stn12">
+               <head>14.</head>
+               <l>Sotto a quel cespo umil forse è nascoso</l>
+               <l>Un cor già pregno di celesti ardori,</l>
+               <l>Un capo che potean del valoroso</l>
+               <l>O del poeta coronar gli allori.</l>
+            </lg>
+            <lg n="15" corresp="#stn13">
+               <head>15.</head>
+               <l>Ma nè Dottrina a lui l’ampio volume</l>
+               <l>Svolgea del senno della età ripieno,</l>
+               <l>Nè il genio innato suo sciolse le piume,</l>
+               <l>Addormentato di Penuria in seno.</l>
+            </lg>
+            <lg n="16" corresp="#stn14">
+               <head>16.</head>
+               <l>Molte gemme terrà sempre sepulte</l>
+               <l>N’suoi recessi il liquido elemento;</l>
+               <l>Le rose del deserto aprono occulte</l>
+               <l>Gli ostri nativi, e le si odora il vento.</l>
+            </lg>
+            <lg n="17" corresp="#stn15">
+               <head>17.</head>
+               <l>Un Hamden forse quel negletto avello</l>
+               <l>Chiude, che al Carlo del casal s’oppose,</l>
+               <l>Qualche muto Milton, qualche Cromwello</l>
+               <l>Che al giogo un regno e a morte un re non pose.</l>
+            </lg>
+            <lg n="18" corresp="#stn16">
+               <head>18.</head>
+               <l>Forza al plauso comun far nel consiglio,</l>
+               <l>O nell’armi, o nell’arti; un grande stato</l>
+               <l>Compor, bveare, e leggere sul ciglio</l>
+               <l>D’ogni soggetto ch’egli è pago e grato.</l>
+            </lg>
+            <lg n="19" corresp="#stn17">
+               <head>19.</head>
+               <l>Negò Fortuna a lor, pur le malnate</l>
+               <l>In un con le famose opre impedia;</l>
+               <l>Altrui serrar le porte di pietate,</l>
+               <l>El al trono gir per sanguinosa via;</l>
+            </lg>
+            <lg n="20" corresp="#stn18">
+               <head>20.</head>
+               <l>Mentir la calma dell’interno senseo,</l>
+               <l>O in cor sopirne l’importune accuse,</l>
+               <l>Di rio Poter sull’are ardere incenso</l>
+               <l>Acceso al fuoco delle sante Muse.</l>
+            </lg>
+            <lg n="21" corresp="#stn19">
+               <head>21.</head>
+               <l>Tracciò lunge Natura il corso loro</l>
+               <l>Dagl’insensati passi de’mortali,</l>
+               <l>Insegnando le vie che al secol d’oro</l>
+               <l>Tenne il mondo pacifiche ed eguali.</l>
+            </lg>
+            <lg n="22" corresp="#stn20">
+               <head>22.</head>
+               <l>Monumento comune ad ogni fossa,</l>
+               <l>Li presso eretto, ne consacra il giro,</l>
+               <l>Mostra a pietoso peregrin quell’ossa,</l>
+               <l>E lo gtrattiene il tempo d’un sospiro.</l>
+            </lg>
+            <lg n="23" corresp="#stn21">
+               <head>23.</head>
+               <l>Là rozza mano nella creta imprime</l>
+               <l>Lor nomi ed anni, ed Erato silvestre</l>
+               <l>Sotto vi chiude in disadorne rime</l>
+               <l>Sacre sentenze, del morir maestre.</l>
+            </lg>
+            <lg n="24" corresp="#stn22">
+               <head>24.</head>
+               <l>Perchè chi giunto all’ultima partita,</l>
+               <l>A morte in braccio un gemito non sciolse,</l>
+               <l>Nè, abbandonando i bei regni di vita,</l>
+               <l>Indietro un guardo desioso volse?</l>
+            </lg>
+            <lg n="25" corresp="#stn23">
+               <head>25.</head>
+               <l>Questa a quell’alma nel parti s’affida,</l>
+               <l>Chiede pianto alle altrui chiusa pupilla,</l>
+               <l>Sempre natura dalla tomba grida,</l>
+               <l>Serba il cenere uman qualche favilla.</l>
+            </lg>
+            <lg n="26" corresp="#stn24">
+               <head>26.</head>
+               <l>Ma tu che a rammentar prendi un sepolto</l>
+               <l>Misero vulgo, ti fia reso il dato?</l>
+               <l>Se, da romito contemplar que volto,</l>
+               <l>Spirto conforme al tuo chieda il tuo fato.</l>
+            </lg>
+            <lg n="27" corresp="#stn25">
+               <head>27.</head>
+               <l>Vecchio pastor dirà: “spesso, ben prima</l>
+               <l>Che l’Alba avesse al crin rose e viole,</l>
+               <l>Rugiadoso, affannoso a quella cima</l>
+               <l>Volar lo vidi ad incontrare il sole.</l>
+            </lg>
+            <lg n="28" corresp="#stn26">
+               <head>28.</head>
+               <l>Là, di quel faggio al piè, che sulla sponda</l>
+               <l>Del rio vicino tanti rami abbassa,</l>
+               <l>Sdraiar soleasi a nona, e guatar l’onda</l>
+               <l>Querula e chiara che lì batte, e passia:</l>
+            </lg>
+            <lg n="29" corresp="#stn27">
+               <head>29.</head>
+               <l>O preda a’suoi fantastici concetti,</l>
+               <l>Di quel bosco cercando iva l’interno,</l>
+               <l>E mormorava non intesi detti,</l>
+               <l>Rotti da risa che parean di scherno.</l>
+            </lg>
+            <lg n="30" corresp="#stn27">
+               <head>30.</head>
+               <l>Ed in un tratto poi di disdegnoso</l>
+               <l>Si facea mesto; e a gran pena le piante</l>
+               <l>Movea, pallido, muto, il petto roso</l>
+               <l>Di cure forse, o disperato amante.</l>
+            </lg>
+            <lg n="31" corresp="#stn28">
+               <head>31.</head>
+               <l>Un mattin lo perdei; nè il plrimo raggio</l>
+               <l>Fu a salutar, nè il vidi a nona o a sera:</l>
+               <l>Nuovo successe; non comparve al faggio,</l>
+               <l>Ned’oltra il rivo, nè sul poggio egli era.</l>
+            </lg>
+            <lg n="32" corresp="#stn29">
+               <head>32.</head>
+               <l>Il terzo in mesta pompa, a lento passo</l>
+               <l>Alla chiesa portar vidi il meschino.</l>
+               <l>Va, tu che legger sai, leggi in aquel sasso,</l>
+               <l>Cui mezzo copre quell’antico spino.”</l>
+            </lg>
+            <lg>
+               <head>EPITAFIO</head>
+               <lg n="33" corresp="#stn30">
+                  <head>33.</head>
+                  <l>In questa fossa i suoi destini adempie</l>
+                  <l>Un infelice, ed immature in seno</l>
+                  <l>Della lmadre comun posa le tempie:</l>
+                  <l>Fortuna a Fama l’ignoraro appieno.</l>
+               </lg>
+               <lg n="34" corresp="#stn30">
+                  <head>34.</head>
+                  <l>PLovero nacque, ma l’umil sua cuna</l>
+                  <l>Scienza non guardò con biechi rai;</l>
+                  <l>Tosto Melanconia della sua bruna</l>
+                  <l>Stampa segnollo, e mio, idsse, sarai.</l>
+               </lg>
+               <lg n="35" corresp="#stn31">
+                  <head>35.</head>
+                  <l>Fu schietto, umano fu; d’alto gli venne</l>
+                  <l>Adeguata mercè: diede al mendico</l>
+                  <l>Quanto aveva, una lacrima; ed ottenne</l>
+                  <l>Dal Ciel quanto bramava, un fido amico.</l>
+               </lg>
+               <lg n="36" corresp="#stn32">
+                  <head>36.</head>
+                  <l>Tanto sol d’suoi pregi, o nulla detto</l>
+                  <l>Sia delle colpe: fra speranza e tema,</l>
+                  <l>Al suo padre, al suo Dio siedono in petto.</l>
+                  <l>Così le scordi la sentenza estrema!</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

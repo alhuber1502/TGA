@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Villebois-Mareul, Felix Comte de</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="fra1813_bib">
+               <date>1813</date>
+               <author>Villebois-Mareul, Felix Comte de</author>
+               <title level="m">Le cimetière de campagne, imitation libre en vers français de l'Élégie anglaise de Gray</title>
+               <pubPlace>Paris</pubPlace>
+               <publisher>De l'imprimerie d' A. Egron, Rue de Noyers, No 49</publisher>
+               <biblScope>2-6</biblScope>
+               <idno type="NoC_1917">764</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Villebois-Mareul, Felix Comte de"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="fra.Villebois-Mareul.1813">
+            <head type="main">Le cimetière de campagne, imitation libre en vers français de l'Élégie anglaise de Gray</head>
+            <lg n="1" corresp="#stn1">
+               <l>La cloche du soir sonne …. Aussitôt la bergère</l>
+               <l>Regagne à pas pressés sa tranquille chaumière.</l>
+               <l>Son vieux père, courbé sous des fardeaux pesans,</l>
+               <l>A la même cabane arrive à pas plus lents;</l>
+               <l>Ils me laissent enfin, dans d’épaisses ténèbres,</l>
+               <l>Seul, avec la nature et mes pensers funèbres.</l>
+            </lg>
+            <lg n="2">
+               <lg corresp="#stn2">
+                  <l>Le sol, au loin caché sous un maneau de deuil,</l>
+                  <l>N’offre plus à mes yeux qu’un vaste et long cercueil:</l>
+                  <l>La mort semble régner dans ce désert immense,</l>
+                  <l>Habité par la nuit, la crainte et le silence.</l>
+               </lg>
+               <lg corresp="#stn3">
+                  <l>Mais quels gémissemens ont frappé mes esprits? …</l>
+                  <l>De l’oiseau de la nuit je reconnais les cris;</l>
+                  <l>Il se laint aux échos de sa sombre demeure</l>
+                  <l>Qu’un des enfans du jour veille encore à cette heure.</l>
+                  <l>Pardon! si j’ai troublé la paix de ces bosquets.</l>
+               </lg>
+            </lg>
+            <lg n="3">
+               <lg corresp="#stn4">
+                  <l>Dans ce vallon stérile, où le triste cyprès</l>
+                  <l>Epand sur des tombeaux son pacifique ombrage,</l>
+                  <l>Dorment, depuis long-temps, des mortels d’un autre âge;</l>
+                  <l>Ils vécurent, obscurs, dans un pauvre hameau;</l>
+                  <l>L’oubli les a suivis dans la nuit du tombeau.</l>
+               </lg>
+               <lg corresp="#stn5">
+                  <l>L’aurore renaîtra plus brillante et plus belle,</l>
+                  <l>Sans dissiper pour eux cette nuit éternelle;</l>
+                  <l>Et leur muse vénale, aux gages des méchans,</l>
+                  <l>De noms déshonorés eût avili ses chants.</l>
+               </lg>
+            </lg>
+            <lg n="4">
+               <lg corresp="#stn19 #stn20">
+                  <l>Jamais dans les erreurs d’une foule insensée</l>
+                  <l>La fureur des désirs n’entraina leur pensée ;</l>
+                  <l>Disciples d’un instinct par la raison conduit,</l>
+                  <l>Dans les champs de la vie ils ont passé sans bruit.</l>
+                  <l>Une muse rustique, autour de leur image,</l>
+                  <l>Traça d’une main pure, et leur nom et leur âge;</l>
+                  <l>Et le texte sacré venant la secourir,</l>
+                  <l>Ce Socrate des champs nous apprend à mourir.</l>
+               </lg>
+               <lg corresp="#stn21 #stn22">
+                  <l>Ainsi la piété consacre à leur mémoire</l>
+                  <l>Ce frêle monument qui s’élève sans gloire;</l>
+                  <l>Interprète muet de leur dernier désir,</l>
+                  <l>Il demande aux passans le tribut d’un soupir.</l>
+                  <l>Eh ! quel cœur approchant du terme de la vie</l>
+                  <l>Ne souffre de l’oubli dont sa perte est suivie!</l>
+                  <l>Quel stoïque mortel, au moment du départ,</l>
+                  <l>Sur ce jour qui le fuit ne prolonge un regard?</l>
+               </lg>
+               <lg corresp="#stn23">
+                  <l>Ses yeux, en se fermant, cherchent une ame tendre,</l>
+                  <l>Qui d’une larme au moins daigne mouiller sa cendre;</l>
+                  <l>Et du sein de la tombe où l’homme est enfermé,</l>
+                  <l>S’élève encor ce feu dont il fut animé.</l>
+               </lg>
+            </lg>
+            <lg n="5">
+               <lg corresp="#stn24">
+                  <l>Pour moi qui d’une voix de douleur affaiblie,</l>
+                  <l>Ai célébré sans art, ces morts que l’on oublie,</l>
+                  <l>Si jamais un ami s’informait de mes jours,</l>
+                  <l>Quelque homme du hameau lui tiendrait ce discours:</l>
+               </lg>
+               <lg corresp="#stn25">
+                  <l>“Souvent nos yeux l’ont vu, dès la première aurore,</l>
+                  <l>Tandis que la rosée aux champs brillait encore,</l>
+                  <l>Sur les sommets voisins, chercher, en gravissant,</l>
+                  <l>Du lever du soleil le spectacle innocent.</l>
+               </lg>
+               <lg corresp="#stn26">
+                  <l>Vers midi, ce ruisseau dont les eaux paresseuses,</l>
+                  <l>Baignent de ce vieux tronc les racines noueuses,</l>
+                  <l>Le voyait, languissant, sur sa rive couché,</l>
+                  <l>Le front pâle, l’œil fixe, à ses flots attaché.</l>
+               </lg>
+               <lg corresp="#stn27">
+                  <l>Tantôt, aux bords d’un bois, de chagrins poursuivie</l>
+                  <l>Son ame, avec dédain, souriait à la vie.</l>
+                  <l>L’infortuné pleurait sur les peines du jour,</l>
+                  <l>Ou sur l’espoir trompé d’un malheureux amour.</l>
+               </lg>
+               <lg corresp="#stn28">
+                  <l>Un matin, retournant aux soins de ma charrue,</l>
+                  <l>L’arbre ni le ruisseau ne l’offrît à ma vue;</l>
+                  <l>Le lendemain, je passe, et mes yeux alarmés</l>
+                  <l>Le cherchent, mais en vain, aux lieux accoutumés;”</l>
+               </lg>
+               <lg corresp="#stn6">
+                  <l>La brise du matin, les rayons du soleil</l>
+                  <l>Ne pourront les tirer de leur profond sommeil:</l>
+                  <l>Ils ne reverront plus cette douce patrie,</l>
+                  <l>Ces champs, cette maison, cette épouse chérie;</l>
+                  <l>Ils ne reverront plus les fruits de leur amour</l>
+                  <l>Se disputer, le soir, le baiser du retour.</l>
+               </lg>
+            </lg>
+            <lg n="6" corresp="#stn7">
+               <l>Combien de fois leur soc féconda la nature!</l>
+               <l>Combien de fois on vit leur main pesante et sûre</l>
+               <l>Frapper et renverser un chêne audacieux,</l>
+               <l>L’orgueil de la forêt et le rival des cieux!</l>
+            </lg>
+            <lg n="7">
+               <lg corresp="#stn8">
+                  <l>Superbe Ambition, idole de la terre,</l>
+                  <l>Pourquoi méprises – tu leurs travaux, leur misère?</l>
+                  <l>Ah! s’ils ont fait servir leurs bras à ta splendeur,</l>
+                  <l>Daigne au moins d’une larme honorer leur malheur.</l>
+               </lg>
+               <lg corresp="#stn9">
+                  <l>Ou, grands! si les trésors, l’éclat de la victoire;</l>
+                  <l>Si vingt siècle d’ayeux et quarante ans de gloire,</l>
+                  <l>Ne peuvent garantir de la faux de la mort,</l>
+                  <l>Pourquoi rougiriez-vous de pleurer sur leur sort?</l>
+               </lg>
+               <lg corresp="#stn10 #stn11">
+                  <l>Il est vrai que leurs nombs, perdus dans les ténèbres,</l>
+                  <l>N’ont jamais retenti sous nos voûtes funèbres;</l>
+                  <l>tout est mort avec eux …. Jamais d’un monument</l>
+                  <l>Le luxe hospitalier n’a logé leur néant;</l>
+                  <l>Mais pourquoi d’un vain poids fatiguer leur poussière?</l>
+                  <l>Qu’importe un peu de faste à la froide matière!....</l>
+               </lg>
+            </lg>
+            <lg n="8">
+               <lg corresp="#stn15 #stn16">
+                  <l>Là repose peut-être un sauvage Milton,</l>
+                  <l>Qui vécut sans écrire et qui mourut sans nom:</l>
+                  <l>La science, à ses yeux, ferma son livre immense,</l>
+                  <l>Et, sous un bras glacé, la stérile indigence</l>
+                  <l>Etouffa ce génie ardent, audacieux,</l>
+                  <l>Qui révèle aux mortels des chants dignes des dieux.</l>
+               </lg>
+               <lg corresp="#stn14">
+                  <l>Tel brille vainement l’or caché sous la terre,</l>
+                  <l>Telle, sans être vue, et loin de la bergère,</l>
+                  <l>Rougit dans son exil la rose des déserts,</l>
+                  <l>Qui de ses doux parfums embaume en vain les airs.</l>
+               </lg>
+            </lg>
+            <lg n="9" corresp="#stn15">
+               <l>Ah! peut-être un Howard sous ces pierres repose!....</l>
+               <l>mais sa voix du malheur n’a point plaidé la cause;</l>
+               <l>Ici, peut-être, un Monk, un Montrose nouveau,</l>
+               <l>Qui s’opposa toujours au tyran du hameau,</l>
+               <l>Dort auprès d’un Cromwel, dont la vaine furie</l>
+               <l>N’a jamais fait couler le sang de sa patrie.</l>
+            </lg>
+            <lg n="10" corresp="#stn18 #stn19">
+               <l>La nature, il est vrai, fut marâtre envers eux….</l>
+               <l>Mais si le sort jaloux rejetta tous leurs voeux,</l>
+               <l>S’il borna leurs vertus, il sut borner leurs vices;</l>
+               <l>Ils ne sont point fameux par de noirs sacrifices,</l>
+               <l>Et n’ont point, (dans leur âme étouffant le remord)</l>
+               <l>Ouvert au genre humain le temple de la Mort:</l>
+               <l>Modestes habitans des toits héréditaires,</l>
+               <l>Ils ont passé sans bruit comme ont passé leurs pères.</l>
+            </lg>
+            <lg n="11">
+               <lg corresp="#stn20">
+                  <l>Ici, des vers gravés sur un vil monument,</l>
+                  <l>Semblent défendre un mort des horreurs du néant;</l>
+                  <l>Ils demandent au coeur mélancolique et tendre</l>
+                  <l>De verser quelquefois des larmes sur sa cendre.</l>
+               </lg>
+               <lg corresp="#stn21">
+                  <l>Eh! quel homme, en partant pour des pays lointains,</l>
+                  <l>Ne rejette après lui ses regards incertains!</l>
+                  <l>Quel homme, en s’éloignant des sentiers de la vie,</l>
+                  <l>Ne dit de longs adieux à sa douce patrie!</l>
+               </lg>
+               <lg corresp="#stn22">
+                  <l>La douleur d’une femme et les cris d’un enfant</l>
+                  <l>Versent un baume heureux sur les maux d’un mourant,</l>
+                  <l>Et les pleurs qu’à sa mort on répand sur sa bière,</l>
+                  <l>Semblent encor toucher l’insensible poussière.</l>
+               </lg>
+            </lg>
+            <lg n="12" corresp="#stn">
+               <lg corresp="#stn24">
+                  <l>Un jour viendra peut-être où plus d’un voyageur,</l>
+                  <l>Comme moi, dans ces lieux, attiré par son coeur,</l>
+                  <l>Voudra savoir le sort du fils de la nature</l>
+                  <l>Qui jeta quelques fleurs sur une cendre obscure.</l>
+               </lg>
+               <lg corresp="#stn25">
+                  <l>Alors, un villageois, tout courbé par les ans,</l>
+                  <l>Lui répondra ces mots: “Nous l’avons vu long-temps</l>
+                  <l>Attendre, sous cet if, le lever de l’aurore;</l>
+                  <l>Le jour, à son déclin, l’y retrouvait encore;</l>
+               </lg>
+               <lg corresp="#stn26 #stn27">
+                  <l>quelquefois il errait le long de ce ruisseau,</l>
+                  <l>Et suivant en pleurant la fuite de son eau,</l>
+                  <l>Il murmurait sans ordre un chant mélancolique,</l>
+                  <l>Que le pâtre imitait sur la flûte rustique;</l>
+                  <l>Sa bouche quelquefois souriait tristement,</l>
+                  <l>Ainsi l’on voit sourire un malheureux amant.</l>
+               </lg>
+            </lg>
+            <lg n="13" corresp="#stn28 #stn29">
+               <l>Un jour je le cherchai le long de la prairie,</l>
+               <l>Sous l’arbre accoutumé, sur la rive chérie;</l>
+               <l>Je fatiguai l’écho des mes cris superflus;</l>
+               <l>Je le cherchais en vain …. il n’était déjà plus.</l>
+               <l>Bientôt on le plaça dans sa couche dernière,</l>
+               <l>Lisez, lisez les vers gravés sur cette pierre:”</l>
+            </lg>
+            <lg>
+               <head>ÉPITAPHE</head>
+               <lg n="14" corresp="#stn30 #stn31">
+                  <l>Ici dort loin du bruit un mortel oublié,</l>
+                  <l>Qui vécut pour aimer, pour sentir la pitié;</l>
+                  <l>Il ne put au malheur accorder qu’une larme,</l>
+                  <l>Mais l’amitié sur lui répandit tout son charme.</l>
+               </lg>
+               <lg n="15" corresp="#stn32">
+                  <l>Mortels! ne tirez point de la nuit des tombeaux</l>
+                  <l>Ses naïvex vertus ni ses obscurs défauts;</l>
+                  <l>Laissez, laissez dormir son ombre solitaire</l>
+                  <l>Dans l’attente d’un juge et dans l’espoir d’un père.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

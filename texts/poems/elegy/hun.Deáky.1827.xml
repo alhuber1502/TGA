@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegia, egy falusi temetöre. Gray tamás Után</title>
+            <author>Deáky, Zsigmund</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="hun1827_bib">
+               <date>1827</date>
+               <author>Deáky, Zsigmund</author>
+               <title level="a">Elegia, egy falusi temetöre. Gray tamás Után</title>
+               <pubPlace>Romában [Rome]</pubPlace>
+               <publisher>De Romanis Fülöp és Miklósnál</publisher>
+               <biblScope>3-7</biblScope>
+               <idno type="NoC_1917">795</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Deáky, Zsigmund"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="hun.Deáky.1827">
+            <head type="main">Elegia, egy falusi temetöre. Gray tamás Után.</head>
+            <lg n="1" corresp="#stn1">
+               <l>Hirdeti a’ lemenő napot a szomor esti harangszo;</l>
+               <l>A’ bőgő tanya már lialkal az útra kerül;</l>
+               <l>Ballag bonja fele a’ fáradt parragi ember,</l>
+               <l>Es az ege'sz nagy kört haggya homályra’s ream.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>Már tűnik a’ szem elöl a’ táj burkolva homályba,</l>
+               <l>Es az egész levegő ünnepi csendbe lebeg.</l>
+               <l>Még csak az éjji bogár rendez szétszedte dqnögve</l>
+               <l>’S álmot az akloknak tompa harangja ereszt.</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Még csak az éjji madár repkény környezte toronyból</l>
+               <l>Vijjong, ’s a’ holdnál durva panaszra fakad,</l>
+               <l>Hogyha ki véltelenül bolyongván rejteke mellett,</l>
+               <l>Háborgatja, setét ős uradalmaiban.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>Ott, hol az aggott Szil-’s Tisza-fák árnyokra terülnek,</l>
+               <l>’S a’ pázsit keskeny halmozatokra dagad,</l>
+               <l>Csendesen alszanak ott a’ helység jámbor előji,</l>
+               <l>Egyszerit és kisded sírba temetve kiki.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>Kedvesen illatozó reggelnek gyenge morajjá ,</l>
+               <l>Es a’ szalma tetőn fecske szelíd panasza,</l>
+               <l>Hangos pásztorkürt, ’s harsány szóllása kakasnak</l>
+               <l>Őket nem fogják költeni sirjok alól;</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Eritek nem lángol többé a’ tűzhely, az édes</l>
+               <l>Hölgy többé haza nem várja megosztod szive't;</l>
+               <l>A’ dadogó piczinyek Őrsön nem futnak elejbek.</l>
+               <l>Karjaikon fíigvén esdeni csókjaikért.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>A’ saru jók gyakran küzdött a’ sárga kalásszal,</l>
+               <l>És a’ morcz agyagot törte gyakorta vasok;</l>
+               <l>Tulkaikat mi vígan hajtották rétre’s mezőre!</l>
+               <l>Erdők mint dűltek férfiú karjok alatt!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Büszke ki vagy! ne kaczagd e’ hasznos míveket, és c’</l>
+               <l>Házi vidám éltet, ’s nemtelen állapotot;</l>
+               <l>És ki magasra kapál, szád csufnevetésre ne vonjad</l>
+               <l>Hallván köznépről eggyügyü kurta regét.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>A’ fényes czimmer’s hatalomnak fő ragyogása,</l>
+               <l>’S a’ mit erő , szépség képesek adni nekünk,</l>
+               <l>Mind ezek egy perczbeu feledékenységbe merülnek.</l>
+               <l>Tisztelet ösvény is csak temetőbe vezet.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>És te hiú se gúnyold e’ boldogodat, ha az Emlék</l>
+               <l>Pompás trófeumot sírjaikon nem emel,</l>
+               <l>’S versent nem zeneg a’ kar tiszteletekre solosmát</l>
+               <l>A’ roppant hajlok czimteü boltjai közt.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>Drága veder, ’s lelkes melyszobrok előbbi lakába</l>
+               <l>A’ suhanó lelket vissza idézhetik e?</l>
+               <l>Váljon az elnémult hamv dics hiimnekre feleszmél?</l>
+               <l>Szép szó kérleli a’ durva halál füleit?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Meglehet e’ nyomorult szegletben roskadoz olly szív,</l>
+               <l>A’ mellyben hajdan mennyei tűz lobogott;</l>
+               <l>Olly kéz, melly ország kormányt hordozni Ügyes volt,</l>
+               <l>’S a’ lantról édes hangokat adni tudott.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Ám Könyvét a’ nagy Tudomány nem tárta elejbek,</l>
+               <l>Titkait és miveit nem mutogatta nekik;</l>
+               <l>À’ sziiklét Lennek megfojtá a’ nemes ösztönt,</l>
+               <l>És lefagyalta az ész tei’meti indulatit.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>A’ nap tiszta sugárjánál töhbszörte világosb</l>
+               <l>Drága kövek búvnak tengerek éjjelben;</l>
+               <l>Sok szép réti virág láttatlan tárja ki keblét 5</l>
+               <l>És a’ puszta síkon szórja el illatait.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>E’ sírban nyugszik tán némelly parragi Hampden,</l>
+               <l>A’ ki kikelt bátran nemzeti telkeiért;</l>
+               <l>Milton név nélkül, tán Cromuell szpndcreg itten 5</l>
+               <l>Kit nem fertőzött a’ Haza vére soha.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>A’ nagy gyülekezet figyelmét vonni magára,</l>
+               <l>A’ zordon sorsnak merve tiporni dühét,</l>
+               <l>Boldog hőséget kedvelte Hazára tenyésztni,</l>
+               <l>’S a’ nemzet képén sejteni érdemeit,</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Nem sorsok·’ hol szűk korlátba szorítva az erkölcs,</l>
+               <l>Tartva van ott zabolán a’ gonosz indulat is;</l>
+               <l>Sorsok nem kíszté trónhoz vért gMokva nyomulni,</l>
+               <l>’S a’ nyomorultak iránt zárni szivekhez utat,</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>Sem nem hagyta igaz lelkeknek rejtni szorultjat,</l>
+               <l>’S tiszta szemérmeknek gondosan oltni tüzet,</l>
+               <l>Vagy pedig a’ Gőg’s Fény oltárán hinteni tömjeny</l>
+               <l>A’ kegyes Istennek égi szövétnekivel.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Távul az őrült nép ál hiyság szülte zajatol.</l>
+               <l>Mérsékleti vágyok vissza nem élni szokott 5</l>
+               <l>Csendesen és nyugton folyt éltek tiszta patakként,</l>
+               <l>Melly csörög a’ liüs völgy játszi virányi között.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>E’ csontok még is meg vannak mentve gunyortól,</l>
+               <l>lm töredékeny* kő rajtok emelve vagyon,</l>
+               <l>Verseik éktelenek, ’s nem metszé mesteri vésel,.</l>
+               <l>Könnyüket óhaj ínak. Kedves az illyen adó.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Nézd évek’s neveket mint jegyzte az egyszerű Musa,</l>
+               <l>’S eggyütt mint állnak hir’s elegia helyett·,</l>
+               <l>Rajtok sok szép szent mondást látsz, itt is amott is;</l>
+               <l>Itt a’ jámbor nép halni az Úrba tamil.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>Mert ki adá örömest e’ kedves bár sanyar éltet</l>
+               <l>Alt az örök feledés néma homályainak?</l>
+               <l>’S a’ melegítő nap szép fényét úgy ki hagyá el,</l>
+               <l>Hogy ne sóhajtana fel’s vissza ne nézne reá?</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>A’ búcsúzó lélek bű ölben elömleni kivan,</l>
+               <l>’S a’ haldokló szem könnyük után epedez;</l>
+               <l>Sírunkból is még a’ természet szava hangzik,</l>
+               <l>’S szívünk hamvaiban láugodoz a’ szerelem.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>Es Te! ki e’ Népnek tisztelt emléket emelve</l>
+               <l>Érzékeny versben tetteit énekeled?</l>
+               <l>Egyki ba andalgván e’ bús tájékra vetődik,</l>
+               <l>’S részvévö szívvel sorsod után tudakoz:</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Tán eggy agg pásztor majd így fog szóllani: » ütet</l>
+               <l>» Itt láttuk gyakran hajnali bíbor alatt,</l>
+               <l>» Hogy gyors lépteivel sepré a’ reggeli gyöngyöt</l>
+               <l>» ’S a’ hegyek ormáról a’ napot üdvözölő.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>» Ott a’ hullámzó bük alatt, melly régi tekercses</l>
+               <l>» Tövéből büszkén ágait égbe löki,</l>
+               <l>» Ott örömest forró délben kénye're terűit el,</l>
+               <l>» És mereven ne'zé a’ csevegő patakot;</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>» Ott amaz erdőben járt, majcl mosolyogva gunyólag,</l>
+               <l>» És titkon rpndcs rémzeteit rebegé;</l>
+               <l>» Majd búsan bolygölt, mint az, kit sok fene gondok</l>
+               <l>» Öldösnek, vagy kit bánt’s gyötör a’ szerelem.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>» Egy reggel nem jött a’ regi szerette halomra,</l>
+               <l>» 'S nem láttam kedvelt büknek az árnyai közt·,</l>
+               <l>» Más nap megvirradt, de nem ült a’ csermelye partján,</l>
+               <l>» Nem volt a’ bérczen, sem liget alkonyában.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>» Legközelebbi napon láttuk Szentházba halotti</l>
+               <l>» Pompa között komolyan vinni hideg tetemét.</l>
+               <l>» Jer közelebb’s olvasd magad, ott a’ csipke bokornál</l>
+               <l>» Egy sziklába vagyon gondosan Írva ki volt « .</l>
+            </lg>
+            <lg>
+               <head>SIRIRÁS.</head>
+               <lg n="30" corresp="#stn30">
+                  <l>Itt e’ föld csendes keblében nyugszik egy Ifjú</l>
+                  <l>Rejtve: nem isméré öt se szerencse se bir:</l>
+                  <l>Bar nem dús, a’ Szép Tudomány ápolta kegyével,</l>
+                  <l>Billegzé lelkét a’ komoly andalodás;</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>Érző szív dobogott keblében’s lelke igaz volt;</l>
+                  <l>Néki az Eg ezekért drága jutalmat adott.</l>
+                  <l>Könnyűt adott ö a’ sí ülőnek ( nem bira mással )</l>
+                  <l>Tiszta baráti szivet kért, ’s ada néki az Eg.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>Érdemeit ne nyomozd, vándor, szűnj gyenge hibájit</l>
+                  <l>A’ sir mélyeiből ujra terelni elő .</l>
+                  <l>Mindnyájan rém’s bízodalom közt nyugszanak itten,</l>
+                  <l>'S isteni irgalmas kéz fedi hamvaikat.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

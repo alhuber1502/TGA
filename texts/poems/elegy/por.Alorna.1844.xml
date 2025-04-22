@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">O Cemiterio d'Aldea, Elegia</title>
+            <author>Alorna, Marquesa de</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="por1844_bib">
+               <date>1844</date>
+               <author>Alorna, Marquesa de</author>
+               <title level="a">O Cemiterio d'Aldea, Elegia</title>
+               <title level="m">Obras Poéticas</title>
+               <editor>Leonor de Almeida Portugal de Lorena e Lencastre</editor>
+               <pubPlace>Lisboa</pubPlace>
+               <biblScope>181–191</biblScope>
+               <note type="edst">Transcription by Tom Turk.</note>
+               <idno type="TuT_2013">Turk (2013), 67.</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Alorna, Marquesa de"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="por.Alorna.1844">
+            <head type="main">O Cemiterio d'Aldea, Elegia</head>
+            <lg n="1" corresp="#stn1">
+               <l>Avisa o sine que esmorece o dia; </l>
+               <l>A tarda grei mugindo o aprisco busca; </l>
+               <l>Lasso cultor á choça vai, tardia, </l>
+               <l>Deixando o mundo a mim e á sombra fusca.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>Ante os ethos s'esfuma o paiz vasto, </l>
+               <l>C'um silencio solemne os ares calam;</l>
+               <l>Salvo onde zune de um bezouro o rasto, </l>
+               <l>Ou tinem chocas, que o redil embalam;</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Salvo na tone antiga, que hera veste,</l>
+               <l>Onde á lua se queixa ermo francelho, </l>
+               <l>Se alguem, vagando, temerario investe </l>
+               <l>O seu dominio solitario e velho.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>A sombra d'olmos, teixos, n' essa arêa </l>
+               <l>Onde tornêa o chão outeiros varies, </l>
+               <l>Para sempre os avós toscos da aldêa </l>
+               <l>Em cella estreita dormem solitarios.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>Aromas que respira a madrugada, </l>
+               <l>Gorgeios que do ninho as aves soltam, </l>
+               <l>Do gallo o grito agudo, ou trompa ousada, </l>
+               <l>Em vão por elles chama; elles não voltam.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Para sempre o fogão calor lhes nega, </l>
+               <l>Nem terão da consorte á tarde o mimo; </l>
+               <l>Nenhum pequeno irá ver se o pae chega, </l>
+               <l>Nem, saltando, colher o affago primo.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>A seara cedeo-lhe á fouce as messes,</l>
+               <l>Co' a charrua quebrou da terra os combros;</l>
+               <l>Alegre os bois jungio; e quantas vezes</l>
+               <l>Cortou troncos, e trouxe a lenha aos hombros!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Não despreze a Ambição tão util lida,</l>
+               <l>Sorte escura, caseira, mas contente;</l>
+               <l>Nem olhe com desdern Prole subida</l>
+               <l>Os simplices annaes da pobre gente.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>Vangloria d'alta stirpe protectora, </l>
+               <l>Tudo quanto a belleza e bens nos deva, </l>
+               <l>Da morte espera a inevitavel hora:</l>
+               <l>Da gloria a estrada á sepultura leva.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Suberbos! não cuideis que estes errassem:</l>
+               <l>Se a Mermoria tropheos na campa escusa, </l>
+               <l>Templo vasto, que os bronzes atroassem, </l>
+               <l>Engrossando o epicedio, aqui não se usa.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>Não restauram no peito o fôlgo extincto </l>
+               <l>Urna historica, bustos expressivos; </l>
+               <l>Nem morto pó, que encerra este precinto, </l>
+               <l>Movem hymnos, lisonja, grata aos vivos.</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Talvez n'este lugar jaz desprezado </l>
+               <l>Urn peito que celeste fogo enchia; </l>
+               <l>Mão que o sceptro do imperio houvera honrado,</l>
+               <l>E na lyra prodigios crearia.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Mas a seus olhos a Sciencia, rica</l>
+               <l>Dos despojos do tempo, occultou tudo;</l>
+               <l>Reprimio nobre ardor Penuria; e fica</l>
+               <l>Gelado o genio que aquecera o estudo.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>Nas grutas insondaveis do Oceano </l>
+               <l>Quantas perolas puras assim moram! </l>
+               <l>Quantas boninas nascem, murcham, no anno,</l>
+               <l>Florecem no deserto, e alli descoram!</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>Talvez urn Palafox<note place="bottom" n="(*)">D. José Palafox, General de Aragão, que
+ 								se immortalizou na defeza de Saragoça, em
+								1809.</note> de peito forte, </l>
+               <l>Que os tyrannos da aldêa reprimia,</l>
+               <l>Colhido antes de tempo pela morte, </l>
+               <l>Dorme aqui, convertido em cinza fria.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>Talvez mudo, e sem gloria, aqui descança </l>
+               <l>Um Camões, dos mais Vates ignorado;</l>
+               <l>Sem provocar os raios da vingança, </l>
+               <l>Um Buonaparte ignoto e sem peccado.</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Colher applausos de urn Senado attento, </l>
+               <l>Affrontar dores, alcançando gloria, </l>
+               <l>Grato Povo fazer Povo opulento, </l>
+               <l>E ler nos olhos d'elle a propria historia;</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>Vedou-lhe o fado; e não vedou sómente </l>
+               <l>Virtudes grandes; restringio-lhe o crime:</l>
+               <l>Não os deixa invadir um throno ingente, </l>
+               <l>Fecha a porta á piedade, o amor comprime.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Constranger do remorso a interna lutta, </l>
+               <l>Apagar do rubor a interna chamma;</l>
+               <l>Accrescentar do luxo a sede bruta, </l>
+               <l>C'os encornios que augmenta a voz da fama,</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>Nunca os sobrios desejos seus souberam,</l>
+               <l>Nunca no vil ruido desvairaram;</l>
+               <l>No ignoto e fresco valle onde nasceram</l>
+               <l>Durante a mansa vida prosperaram.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Estes ossos, comtudo, campa escura </l>
+               <l>Protege contra insultos, onde moram; </l>
+               <l>Com versos toscos, rustica esculptura, </l>
+               <l>A quem passa, um suspiro é quanto imploram.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>Solettra rude Musa o nome e a idade; </l>
+               <l>Em lugar d'elegia, alli dominam </l>
+               <l>Textos santos, sentenças da Verdade, </l>
+               <l>Que ao rustico a morrer constante ensinam.</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>Quem se verá sem susto em precipicio</l>
+               <l>De entrar no Esquecimento tenebroso?</l>
+               <l>Quem fixará da luz calida o quicio</l>
+               <l>Sem olhar para traz terno e saudoso?</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>O que morre confia-se em quem ama, </l>
+               <l>Pranto espera no instante em que fallece; </l>
+               <l>Da cova mesma a Natureza clama, </l>
+               <l>Seu indomito fogo a cinza aquece.</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Tu, que cuidas nos mortos medianos, </l>
+               <l>Que os seus feitos sem arte assim descreves, </l>
+               <l>Se um triste aqui trouxerem desenganos, </l>
+               <l>E perguntar teu fado e dias breves:</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>“Ao romper da manhã vi mil vezes,</l>
+               <l>(Talvez diga um pastor encanecido) </l>
+               <l>Veloz pisando o orvalho, em quaesquer mezes,</l>
+               <l>Indo encontrar o sol no outeiro erguido.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>Junto da faia, que d'alem acena,</l>
+               <l>E a raiz caprichosa estende e enlêa,</l>
+               <l>Lasso, deitado ao sol, e absorto em pena,</l>
+               <l>A fonte olhava, e o borbulhar da arêa.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>Junto d'aquelle bosque o vi queixoso, </l>
+               <l>Lamentando o enfadonho seu cuidado;</l>
+               <l>Já pallido, já triste e duvidoso,</l>
+               <l>Louco de dor, de amer desesperado.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>Certo dia faltou no usado outeiro, </l>
+               <l>Perto da matta, e da arvore valida; </l>
+               <l>No outro não se vio junto ao ribeiro, </l>
+               <l>Nem na planicie, na estação florida:</l>
+            </lg>
+            <lg n="30" corresp="#stn29">
+               <l>Com responses, mortalha, e triste arreio,</l>
+               <l>Ao adro, no seguinte, foi levado:</l>
+               <l>Chega-te e lê o verse, pois eu creio</l>
+               <l>Podes ler o que a pedra tem gravado.”</l>
+            </lg>
+            <lg>
+               <head>O EPITAPHIO.</head>
+               <lg n="31" corresp="#stn30">
+                  <l>Aqui jaz descançado no regaço </l>
+                  <l>Da fria terra um moço ignoto á Fama;</l>
+                  <l>Victima da tristeza e fado escasso, </l>
+                  <l>Mas genio qual o Ceo deo a quem ama.</l>
+               </lg>
+               <lg n="32" corresp="#stn31">
+                  <l>De alma sincera, e de bondade extensa, </l>
+                  <l>Deo á Miseria quanto tinha - pranto:</l>
+                  <l>Merecia do Ceo tal recompensa, </l>
+                  <l>Teve um amigo, e só desejou tanto.</l>
+               </lg>
+               <lg n="33" corresp="#stn32">
+                  <l>Nem mais virtudes nem fraquezas queiras </l>
+                  <l>Arrancar deste sitio tenebroso; </l>
+                  <l>Umas e outras foram passageiras, </l>
+                  <l>E cahiram nas mãos de um Deos piedoso.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

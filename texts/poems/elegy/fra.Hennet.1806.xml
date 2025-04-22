@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Le Cimetière de Village</title>
+            <author>Hennet, Albert Joseph Ulpien</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="fra1806_bib">
+               <idno type="NoC_1917">758</idno>
+               <author>Hennet, Albert Joseph Ulpien</author>
+               <title level="a">Le Cimetière de Village</title>
+               <title level="m">Poétique anglaise</title>
+               <pubPlace>Paris</pubPlace>
+               <publisher>Valade</publisher>
+               <date>1806</date>
+               <biblScope>368-79</biblScope>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation #quatrain"
+              n="Hennet, Albert Joseph-Ulpien, 1758-1828"
+              rendition="#lgvspace"
+              rhyme="abab"
+              type="verse"
+              xml:id="fra.Hennet.1806">
+            <head type="main">Le Cimetière de Village</head>
+            <head type="sub">Élégie</head>
+            <lg n="1" corresp="#stn1">
+               <l>Le jour tombe, la cloche annonce qu’il expire;</l>
+               <l>Du repos, du sommeil, tout va suivre la loi;</l>
+               <l>Tour le peuple des champs au hameau se retire,</l>
+               <l>Et livre l’universe aux ténèbres, à moi.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>L’horizon disparaît, il s’efface; la terre,</l>
+               <l>Dans son calme profond, semble un vaste tombeau;</l>
+               <l>Tout se tait, excepté l’insecte solitaire,</l>
+               <l>Dont le bourdonnement assoupit le hameau.</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Tout se tait, excepté souls les mornes décombres,</l>
+               <l>Sous les murs délabrés de cette antique tour,</l>
+               <l>Où le triste hibou semble se plaindre aux ombres</l>
+               <l>Qu’un mortel ait troublé son lugubre séjour.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>Sous l’ombrage flétri des saules et des hêtres,</l>
+               <l>J’arrive dans un champ noirci par un long deuil;</l>
+               <l>C’est là fque du hameau sont couchés les ancêtres,</l>
+               <l>Là, chacun dort serré dans son étroit cercueil.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>Le souffle parfumé de l’aurore naissante,</l>
+               <l>Les cris de mille oixseaux dans les airs répandus,</l>
+               <l>Et du coq vigilant la trompette bruyante</l>
+               <l>De ce dernier sommeil ne les réveillent plus.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Non, ils lne verront plus l’active ménagère</l>
+               <l>Préparer, au matin, leur modeste repas;</l>
+               <l>Et, le soir, leurs enfans, troupe aimable et légère,</l>
+               <l>Disputer leurs baisers en volant dans leurs bras.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>Souvent, souvent leurs bras, dans ces fertiles plaines,</l>
+               <l>Ont, tracé lentement de pénibles sillons;</l>
+               <l>Souvent aussi leurs mains, de ces riches domaines</l>
+               <l>Ont gaîment, dans un char, emmené les moissons.</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>N’allez pas, grands du monde et vous riches de villes,</l>
+               <l>Dédaigner leur bonheur et leur obscurité:</l>
+               <l>Leurs plaisirs étaient vrais, et leurs travaux utiles;</l>
+               <l>Les annales du pauvre ont aussi leur beauté.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>La pompe du pouvoir, l’oregueil de la noblesse,</l>
+               <l>Frappés du même trait, ont tous le même sort;</l>
+               <l>Il atteint la beauté, la grandeur, la richesse.</l>
+               <l>Chaque pas vers la gloire est un pas vers la mort.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Là vous ne verrez point des tombeaux magnifiques</l>
+               <l>Attester de leurs noms de néant et l’orgueil.</l>
+               <l>Le temple n’a point vu ses modestes portiques</l>
+               <l>Ornés de leurs blazons et vêtus de leur deuil.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>Pourquoi ces monumens? peuvent-ils de la vie,</l>
+               <l>Dans un corps qui n’est plus, ranimer les ressorts?</l>
+               <l>Pourquoi ces vains honneurs? la douce flatterie</l>
+               <l>Ne se fait plus entendre à l’oreille des morts.</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Sous cet humble tombeau mes pieds foulent peut-être</l>
+               <l>Un grand homme qui, fait pour de brilloans destins,</l>
+               <l>Aurait pu d’un empire, un jour, se voir le maître,</l>
+               <l>Ou d’un luth immortel tirer des sons divins.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Mais l’étude, à leurs yeux n’a point montré les pages</l>
+               <l>De son livre enrichi des dépouilles du tems;</l>
+               <l>La froide plauvreté comprima leurs courages,</l>
+               <l>Enchaîna leurs vertus et glaça leurs talens.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>O combien l’océan, dans sa cave profonde,</l>
+               <l>Cache de diamans perdus pour l’univers!</l>
+               <l>Combien de belles fleurs, sans profit pour le monde,</l>
+               <l>De leurs vaines odeurs parfument les déserts!</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>Là, peut-être, là git un Hampden de village,</l>
+               <l>Qui d’un petit tyran affranchit son hameau;</l>
+               <l>Un Milton qui de Dieu n’an point chanté l’ouvrage,</l>
+               <l>Un Cromwell, qui des siens ne fut pas le bourreau.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>Faire, dans un sénat, tonner leur éloquence,</l>
+               <l>Du malheur, de la mort oser braver les traits,</l>
+               <l>Sur de rians climats répandre l’abondance,</l>
+               <l>Dans les yeux des humains contempler leurs succès.</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Ce ne fut point leur lot: plus heureux, des grands crimes</l>
+               <l>Ils étaient loin, ainsi que des grandes vertus.</l>
+               <l>Ils ne régnèrent point à force de victimes,</l>
+               <l>Et du pardon du monde ils ne sont point exclus.</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>Ils n’ont point du remords étouffé le murmure;</l>
+               <l>Ils n’ont point comprimé de nobles sentimens;</l>
+               <l>Ils ln’ont point, pour flatter l’orgueil et la luxure,</l>
+               <l>Au flambeau d’Apollon allumé leur encens.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Dans leurs sobres desirs, étrangers à l’envie,</l>
+               <l>Ils ne disputaient point un fragile laurier;</l>
+               <l>Sans bruit et sans éclat, du vallon de la vie</l>
+               <l>Ils suivaient doucement le lmodeste sentier.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>D’un monument grossier la simple architecture</l>
+               <l>Conserve cependant encor leur souvenir;</l>
+               <l>Là, quelques méchans vers, de gothique écriture,</l>
+               <l>Demandent aux passans le tribut d’un soupir.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Là, leurs âges, leurs noms, simples panégyriques,</l>
+               <l>Sur la pierre gravés, aux yeux viennent s’offrir;</l>
+               <l>Là, des textes tirés des pseaumes, des cantiques,</l>
+               <l>Aux sages des hameaux apprennent à mourir.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>Car dans l’affreux moment où tout fuit, où tout cesse,</l>
+               <l>Quel mortel peut quitter tout ce qui le charmait,</l>
+               <l>Sans jeter en arrière un regard de tristesse,</l>
+               <l>Sans donner à la vie un soupir, un regret.</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>Oui, prête à s’exhaler, l’âme devient plus tendre;</l>
+               <l>L’œil demande en mourant des pleurs à l’amitié;</l>
+               <l>Le sentiment encore échauffe notre cendre,</l>
+               <l>Et la tombe est encor sensible à la pitié.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>Pour moi qui trace ici, d’une main attendrie,</l>
+               <l>De ces mortels obscurs et la vie et la mort,</l>
+               <l>Amené dans ces lieux par le mélancolie,</l>
+               <l>Si quelque voyageur s’informe de mon sort,</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Un vieillard du canton lui répondra peut-être:</l>
+               <l>“Souvent nous l’avons vu dès la pointe du jour,</l>
+               <l>Seul, errant au hazard, dans ce séjour champêtre;</l>
+               <l>Du soleil, sur ce roc, attendre le retour.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>Sous ce saule pleureur, dont le pâle feuillage</l>
+               <l>Vers la terre incliné s’arrondit en berceau,</l>
+               <l>Couché nonchalamment sur le bord du rivage,</l>
+               <l>Il semblait, goutte à goutte, épier le ruisseau.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>Tantôt fier, dédaigneux, il paraissait sourire;</l>
+               <l>On eût dit qu’il parlait aux rochers d’alentour;</l>
+               <l>Tantôt, comme fraggé d’un étrange délire,</l>
+               <l>Il semblait oppressé de douleur ou d’amour.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>Un jour, je l’attendais; mon attente fut vaine;</l>
+               <l>Il ne vint point s’asseoir sous son arbre chéri.</l>
+               <l>Le lendemain encore il manqua dans la plaine,</l>
+               <l>Le ruisseau ni vit point ariver son ami.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>Enfin, le jour d’aprés, devers le cimetière,</l>
+               <l>Nous vîmes lentement cheminer son cercueil.</l>
+               <l>O vous qui savez lire, approches de la pierre;</l>
+               <l>Lisez ces mots gravés aus bas de ce tilleul:”</l>
+            </lg>
+            <lg>
+               <head>ÉPITAPHE</head>
+               <lg n="30" corresp="#stn30">
+                  <l>Ici repose en paix, dans le sein de la terre,</l>
+                  <l>Un jeune homme étranger à la gloire, au bonheur;</l>
+                  <l>La science n’a point dédaigné sa misère,</l>
+                  <l>Et la lmélancolie a consolé son cœur.</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>:Pauvre, la bienfaisance avit pour lui des charmes;</l>
+                  <l>Triste, à ses vœux le ciel une fois a souri:</l>
+                  <l>Tout ce qu’il put donner, il le donna .... des larmes;</l>
+                  <l>Tont ce qu’il desirait, il l’obtint ... un ami.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>Étranger, respectez son obscure existence,</l>
+                  <l>Ses fautes, ses vertus, dans ce terrible lieu,</l>
+                  <l>Tout est enseveli; sa tremblante espérance</l>
+                  <l>Repose dans le sein de son père, son Dieu.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

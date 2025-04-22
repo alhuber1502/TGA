@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Venturi, Abbate Giuseppe</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="lat1817b_bib">
+               <date>1817</date>
+               <author>Venturi, Abbate Giuseppe</author>
+               <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
+               <editor>Torri, Alessandro</editor>
+               <pubPlace>Verona</pubPlace>
+               <publisher>Dalla Tipografia Mainardi</publisher>
+               <biblScope>154-164</biblScope>
+               <date type="publ">1817</date>
+               <idno type="NoC_1917">834</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Venturi, Abbate Giuseppe"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="lat.Venturi.1817">
+            <head type="main"/>
+            <lg n="1" corresp="#stn1">
+               <l>Dies ad occasum vergit: en sonitus tubae,</l>
+               <l>Et agriclae lassi agentes per turmas suas</l>
+               <l>Oves et boves omnes ad praesepia sua;</l>
+               <l>Mundo mihi et tenebrosae caligini relicto.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>In umbra mortis sedet terra et plenitudo ejus:</l>
+               <l>Silet omnis caro a facie noctis.</l>
+               <l>Solum volitant crabrones perstrepentes, quia non est requies in eis;</l>
+               <l>Et dulcior fit somnus pastoribus et gregibus eorum.</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Et conqueritus bubo in deserto solitudinis,</l>
+               <l>Ad lunam et stellas caeli,</l>
+               <l>De iis qui venerunt in terram regionis ejus, regnum silentii;</l>
+               <l>Turbantes noctem et umbram ejus tanquam in meridie.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>Prope ulmum et buxum semper virentem,</l>
+               <l>Sub acervis qui apparent super pulverem agri</l>
+               <l>Rusticani patres, timore malorum sublato.</l>
+               <l>Dormiunt somnum sempiternum quiescentes</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>Non suscitabit neque vocabit eos lucifer flius aurorae,</l>
+               <l>Non omne volatile canens secundum genus suum;</l>
+               <l>Neque cum insonuerit mane vox tubae</l>
+               <l>Vocabit eos de lectulo quem straverunt in tenebris.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Non amplius flamma ignis splendebit eis:</l>
+               <l>Non amplius labores uxorum suarum domi manducabunt:</l>
+               <l>Nec ibi filii eorum sicut novellae olivarum</l>
+               <l>In circuitu patris petent amplius oscula oris sui.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>Quoties falcem in segetem miserunt!</l>
+               <l>Quoties prosciderunt humum suam!</l>
+               <l>Quam laeti agebant plaustrum! et quantum</l>
+               <l>In sylva lignorum securibus suis exciderunt!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Qui habitat in superbis non irrideat eos propter laborem</l>
+               <l>Afferentem utilitaem, qui illos exercebat sub sole;</l>
+               <l>Neque subsannent Verba-dierum, laetitiam, et exultationem eorum,</l>
+               <l>Quia filii erant pauperum et ignobilium in terra penitus non parentes.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>Seu mulier decora facie et venusto aspectu;</l>
+               <l>Seu qui confidit in virtute sua, et in multitudine divitiarum suarum,</l>
+               <l>Cum interierit non sumet omnia;</l>
+               <l>Neque descendet cum eo gloria magnificentiae ejus.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Vir superbe, sepulcra vulgi ignobilis ne despicias,</l>
+               <l>Quia nec titulos habent neque insignem lapidem</l>
+               <l>In parietibus per circuitum Templi, quo</l>
+               <l>Ad canendum in tympano et choro et organo conveniunt.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>Nunquid mortuous cruent a corruptione</l>
+               <l>Titulus supra sepulcrum, sculptilia, et statuae?</l>
+               <l>Nunquid honos evocabit animas eorum ex inferno inferiori?</l>
+               <l>Aut mortis aures fient intendentes in vocem cantici?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Illic in angulo dormit in terrae pulvere, forsan, </l>
+               <l>Cor quod impleverat ignis descendens de caelo;</l>
+               <l>Manus apta ad regnandum in urbibus, vicis, et turribus,</l>
+               <l>Et sciens bene psallere citharâ in convallibus</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Sed non cognoverunt librum scientiae ,</l>
+               <l>Refertum spoliis praedarum multarum temporis lapsi:</l>
+               <l>Pauperies quae immittit soporem in spiritum humiliatum</l>
+               <l>Dimisit eos vinitores et agricolas.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>Sic lapis sardius, et topazius, et smaragdus,</l>
+               <l>Sunt in profundo maris: abyssi operiunt eos.</l>
+               <l>Sic flos campi, lilium convallium, et plantae</l>
+               <l>Ad thymiama odoris suavissimi componendum, sunt in terrâ desertâ.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>Hic forsan Mathathias alter dormit cum patribus suis,</l>
+               <l>Qui intrepidus posuit se contrarium tyranno vineae domus suae;</l>
+               <l>Et alter David egregius psaltes;</l>
+               <l>Et Jephte alter, sed mundus a sanguine filiae suae.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>Loqui sapientiam et prudentiam in concilio,</l>
+               <l>Surgere adversùs malignantes et stare contra vultum minitantem,</l>
+               <l>Ponere pacem et adipe frumenti satiare domos laetantes,</l>
+               <l>Et pro benefactis videre faventem oculis populum,</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Non cecidit super eos sors.Sors vetuit</l>
+               <l>Extolli; nè in multiplicatione potentiae multiplicarentur scelera:</l>
+               <l>Vetuit per sanguinem sedere in solio regni; et ad clamorem advenae</l>
+               <l>Et pauperis obturare aurem, et fugere a facie eorum:</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>Vetuit compescere gemitum cordis conturbati a crimine:</l>
+               <l>Extginguere confusinem faciei quae cooperuisset eos:</l>
+               <l>Genua incurvare ante Baal luxus et fastus,</l>
+               <l>Cantando de canticis Zyon in terra aliena immunda.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Cum longe facti essent a gemitu populi qui meditatur inania,</l>
+               <l>In desideriis cordis eorum non est inventa iniquitas;</l>
+               <l>Et in vitae valle quieta et fertili</l>
+               <l>Posuerunt in via pacis gressus suos.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>Attamen ad tuenda ossa ista arida</l>
+               <l>Lapis consumptionis et acervus testimonii desuper,</l>
+               <l>Quem dolaverunt caementarii sepulcrales versibus impolitis,</l>
+               <l>Dicunt: Et tu, fili hominis, paululum suspira.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Nomina et aetas manu scribae imperite scribentis</l>
+               <l>Sunt pro fama, lamentatione, carmine, et vae:</l>
+               <l>Verba DE stylo ferreo circum-sculpta in silice</l>
+               <l>Docent pium agricolam mori more justorum.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>Quis enim futurus praeda tenebrarum in terra oblivionis,</l>
+               <l>Deposuit bonum et malum vitae instabilitatis suae,</l>
+               <l>Et reliquit dulce lumen et delectabile, et calorem solis?</l>
+               <l>Qui suspiranbundus et conversus non levaverit retro oculos suos?</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>Requirit exhalare animam suam in sinu amicorum </l>
+               <l>Expirans et orat ut non taceat pupilla oculi eorum: </l>
+               <l>Etiam de profundis sepulcri clamat vox naturae:</l>
+               <l>Cineres mortis non possunt extinguere ignem charitatis.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>Tu autem qui mortuos memoras quorum celebre non factum est nomen</l>
+               <l>Et qui humili carmine vita meorum es prosecutus.</l>
+               <l>Si huc aliquis fortè ductus in meditatione cordis sui roget</l>
+               <l>Benignus: Quid sit verbum quod factum est de te?</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Dicet forsan aliquis qui senuit et incanuit inter pastores:</l>
+               <l>» Saepe vidimus eum cùm erumperet mane lumen suum,</l>
+               <l>» Excutientem celeri pede rorem qui ceciderat super herbam,</l>
+               <l>» Obviam factum radiis solis expansi super montem.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>» Subtus illam terebinthum quia bona erat umbra ejus, </l>
+               <l>» Cujus radices apertae sunt super terram,</l>
+               <l>» Projectus et lentus jacebat in ipso fervore diei,</l>
+               <l>» Secus decursus aquarum,quarum impetus laetificabat eum.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>» Nunc meditans juxta illum lucum risum contemptu miscebat;</l>
+               <l>» Et tantùm labia illius movebantur, et vox penitus non audiebatur:</l>
+               <l>» Nunc miser factus et curvatus usquè in finem, aut sollicitus curis ut amens,</l>
+               <l>» Aut amore languens quia desperata est plaga ejus.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>» Una dies venit; et ille non erat sicut ante fuerat</l>
+               <l>» In monte, nec subtus terebinthum ad umbram dilectam.</l>
+               <l>» Successit dies altera, nec vidimus cum secus decursus aquarum</l>
+               <l>» Nec juxta lucum in uno collium aut in unâ vallium.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>» Et ecce tertiâ die turbam celebrantem exequias planctu,</l>
+               <l>» Portantes eum et in domum DOMINI euntes.</l>
+               <l>» Vir sapiens et qui intelligis accede; et lege, qui potes, </l>
+               <l>» Omnia verba Cantici quae scripta sunt in saxo sub spino veteri«.</l>
+            </lg>
+            <lg>
+               <head>ΕΠΙΤΑΦΙΟΝ</head>
+               <lg n="30" corresp="#stn30">
+                  <l>HEIC TERRAE IN GREMIO POSITA CERVICE RECVMBIT</l>
+                  <l>FORTVNAE IGNOTVS IVVENIS FAMAEQVE SED ORTVM</l>
+                  <l>QVOIVS PVLCRA HVMILEM HAVD CONTRACTA FRONTE SOPHIA</l>
+                  <l>INTVITA EST MOEROR TENVIT PROPRIVMQVE NOTAVIT</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>COR ILLI INGENVVM LARGA ILLVM ORNAVIT HONESTAS </l>
+                  <l>LARGA ITIDEM A SVPERIS ACCEPIT PRAEMIA. FLETVM </l>
+                  <l>IMPENDENS. VNVM HOC HABVIT. MORTALIBVS AEGRIS </l>
+                  <l>RETTVLIT A SVPERIS. VNVM HOC OPTARAT. AMICVM</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>ILLIVS HAVD VLTRA INQVIRENS BENEFACTA REVOLVAS </l>
+                  <l>NEV NOXAS E TERRIFICIS ARCESSE LATEBRIS </l>
+                  <l>OMNIA QVAE PARITER SPE CIRCVMFVSA METVQVE</l>
+                  <l>NVMINIS IN GREMIO SVMMI PATRISQVE QVIESCVNT</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

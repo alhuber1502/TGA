@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Del Bene, Benedetto</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="lat1817a_bib">
+               <date>1817</date>
+               <author>Del Bene, Benedetto</author>
+               <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
+               <editor>Torri, Alessandro</editor>
+               <pubPlace>Verona</pubPlace>
+               <publisher>Dalla Tipografia Mainardi</publisher>
+               <biblScope>137-140</biblScope>
+               <edition>2nd edition</edition>
+               <date type="publ">1843</date>
+               <idno type="NoC_1917">833</idno>
+               <idno type="GiD_2008">17</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Del Bene, Benedetto"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="lat.Bene.1817">
+            <head type="main"/>
+            <lg n="1">
+               <lg corresp="#stn1">
+                  <l>Deficit ecce dies: iternato cocava pulsu</l>
+                  <l>Aera monent; lente armentum clivosa pererrans</l>
+                  <l>Mugit; tecta petens remeat defessus arator</l>
+                  <l>Durum iter, atque mihi orbem et noctis deserit umbris.</l>
+               </lg>
+               <lg corresp="#stn2">
+                  <l>Nunc oculis regio dilabitur indistincta;</l>
+                  <l>Cuncta silent; horror totum sacer aera complet,</l>
+                  <l>Ni si qua motis scarabaeus perstrepit alis,</l>
+                  <l>Tinnitusque vocat longinqua ad ovilia somnos;</l>
+               </lg>
+               <lg corresp="#stn3">
+                  <l>Seu celsa e turri, quam hederae circumdat amictus,</l>
+                  <l>Illos si queritur ferali carmine bubo</l>
+                  <l>Ad Lunam meditans, scretam qui prope sedem</l>
+                  <l>Antiqua errantes violant atque invia regna.</l>
+               </lg>
+               <lg corresp="#stn4">
+                  <l>Umbrosa sub taxo illic scabrisque sub ulmis,</l>
+                  <l>Surgit ubi in tumulos aggesto pulvere tellus,</l>
+                  <l>Angusto quisque in loculo stant ruris agrestes</l>
+                  <l>Perpetuo patres, devincti corpora somno.</l>
+               </lg>
+               <lg corresp="#stn5">
+                  <l>Murmure non aura illos thurea matutino,</l>
+                  <l>Non inopis tecti plorans e stramine hirundo,</l>
+                  <l>Non cornu reboans, aut cantu gallus acuto</l>
+                  <l>Posthac ex humili quibunt excire cubili.</l>
+               </lg>
+               <lg corresp="#stn6">
+                  <l>Haud illis foculo ardebit dehinc flammeus ignis,</l>
+                  <l>Vespere non operam praebebit sedula conux,</l>
+                  <l>Nec patri occurrent reduci balbo ore puelli,</l>
+                  <l>Scandentque in genua, ut certatim basia captent.</l>
+               </lg>
+               <lg corresp="#stn7">
+                  <l>Horum falx densas crebro prostravit aristas;</l>
+                  <l>Fractae horum crebro cunctantes vomere glebae;</l>
+                  <l>Ut laeti junctis tendebant bobus ad arva!</l>
+                  <l>Ut valido nemora horum procubuere sub ictu!</l>
+               </lg>
+               <lg corresp="#stn8">
+                  <l>Utilis hic labor. Ambitio, ne temne laborem</l>
+                  <l>Fata obscura domi, sincera et gaudia gentis:</l>
+                  <l>Contractos inopus annales, focoque carentes</l>
+                  <l>Accipiat Fastus, non dedignante cachinno.</l>
+               </lg>
+               <lg corresp="#stn9">
+                  <l>Stemmate praeclarum genus, imperioque refulgens,</l>
+                  <l>Quidquid forma dedit, rerum quod copia dives,</l>
+                  <l>Una eademque manet non evitabilis hora;</l>
+                  <l>Uno ipsa ad tumulum deducit gloria calle.</l>
+               </lg>
+               <lg corresp="#stn10">
+                  <l>Ne culpae argueris, tumida gens mente, quod ullis</l>
+                  <l>Ipsorum busta haud surgant memoranda tropaeis,</l>
+                  <l>Vasta ubi per spatia et celsi fastigia templi</l>
+                  <l>Ingeminant melos, et divinae carmina laudis.</l>
+               </lg>
+               <lg corresp="#stn11">
+                  <l>Distinctae historiis urnae, spirantia signa</l>
+                  <l>Anne queant animos revocare in membra fugaces?</l>
+                  <l>An cineres muos Honor alta voce ciere,</l>
+                  <l>Blandaque verba aures percellere molliter orci?</l>
+               </lg>
+               <lg corresp="#stn12">
+                  <l>Neglecta forsan jacet heic in parte repostum</l>
+                  <l>Igne olim aetherio correptum pectus et ardens,</l>
+                  <l>Quaeque habilis gerere imperii esset dextera sceptrum,</l>
+                  <l>Aut fidium numeris modulari nobile carmen.</l>
+               </lg>
+               <lg corresp="#stn13">
+                  <l>Haud unquam explicuit spoliis grave temporis acti</l>
+                  <l>Illorum ante oculos, ingensque Sophia volumen:</l>
+                  <l>Frigida praestantes animos compressit egestas,</l>
+                  <l>Adstrinxitque gelu nativos pectgoris aestus.</l>
+               </lg>
+               <lg corresp="#stn14">
+                  <l>Plures qui nitido radiant fulgore lapilli</l>
+                  <l>Ima tenent pelagi, caecis latitantque cavernis;</l>
+                  <l>Non visi flores ostro plerique rubescunt,</l>
+                  <l>Et desertum suaveolentes aera mulcent.</l>
+               </lg>
+               <lg corresp="#stn15">
+                  <l>Rusticus heic forsan parvi contra ausa tiranni</l>
+                  <l>Hampdenus corde impavido tutatus agellum,</l>
+                  <l>Miltonusve aunt Cromwelus sine honore quiescit,</l>
+                  <l>Nec tamen is patrio respersus sanguine dextram.</l>
+               </lg>
+               <lg corresp="#stn16">
+                  <l>Voce tenere aures plausumque jubere Senatus,</l>
+                  <l>Temnere damnorumque minas et saeva dolorum,</l>
+                  <l>Didere laetitiam in populos, quos copoia ditet,</l>
+                  <l>Praemiaque ex oculis vulgi decerpere laudum</l>
+               </lg>
+               <lg corresp="#stn17">
+                  <l>Fors vetuit; sed enim quae germina pubescentis</l>
+                  <l>Virtutis, vitiorum eadem incrementa repressit:</l>
+                  <l>Ad olium vetuit profuso adnare cruore,</l>
+                  <l>Imiaque advorsum miseros praecludere corda;</l>
+               </lg>
+               <lg corresp="#stn18">
+                  <l>Vi scelerum permoti animi compescere turbas,</l>
+                  <l>Et vultu ingenuum vetuit cohibere pudorem,</l>
+                  <l>Sive aram ad Luxus, Fasgtusque litare, cremato</l>
+                  <l>Thure super, quod Pieridum sacer usserit ignis.</l>
+               </lg>
+               <lg corresp="#stn19">
+                  <l>Hos, procul insani quod vitam egere tumultu</l>
+                  <l>Vulgi, non flexit prave immoderata cupido;</l>
+                  <l>Per gelidam saecli vallem, qua sola recedit,</l>
+                  <l>Securi tacito presserunt tramite gressus.</l>
+               </lg>
+               <lg corresp="#stn20">
+                  <l>Ossibus his, infirma licet, monumenta tuendis</l>
+                  <l>Sunt posita haec propem, fiat neque injuria; versu</l>
+                  <l>Haec incomposito, rudibusque insculpta figuris</l>
+                  <l>Suspiri poscunt, tribuat quae dona viator.</l>
+               </lg>
+               <lg corresp="#stn21">
+                  <l>Pro fama atque elegis stant anni et nomina patrum</l>
+                  <l>Scripta, notas inconcinna dictante Camoena;</l>
+                  <l>Plura etiam e Sacris stant circum oracula Chartis,</l>
+                  <l>Edoctura pios lethi in discrimine agrestes.</l>
+               </lg>
+               <lg corresp="#stn22">
+                  <l>Nam quis, sollicit cui jam instet terminus aevi,</l>
+                  <l>Jucundi tamen, et stent longa oblivia contra,</l>
+                  <l>Laetum Sole diem, teidum quisnam aera linquat,</l>
+                  <l>Quin flectat moestos, unde est abiturus ocellos?</l>
+               </lg>
+               <lg corresp="#stn23">
+                  <l>Decedens animus gremio requiescit gamio,</l>
+                  <l>Semiocclusa pios exposcunt lumina rores;</l>
+                  <l>Tollit et ex ipso vocem Natura sepulcro,</l>
+                  <l>Servatque ardentes nostro cinis igne favillas.</l>
+               </lg>
+               <lg corresp="#stn24">
+                  <l>Ad te, qui vita functos et honore carentes</l>
+                  <l>Commemoras, pura enarras his versibus acta,</l>
+                  <l>Quodspectat: meditans si forte, animo tibi compar,</l>
+                  <l>Solusque adveniens aliquis tua fata requirat;</l>
+               </lg>
+               <lg corresp="#stn25">
+                  <l>Haec olli canus pastor fortasse reponet:</l>
+                  <l>“Aurorae hic prima est nobis sub lumina visus</l>
+                  <l>saepe cito rforem exutiens per gramina gressu,</l>
+                  <l>obvius ut fieret super alta cacumina Soli,</l>
+               </lg>
+               <lg corresp="#stn26">
+                  <l>isque sub annosa, nutanti vertice, fago,</l>
+                  <l>quae per humum tortis alte radicibus errat,</l>
+                  <l>saepe die vacuus medio desesque jacebat,</l>
+                  <l>rivo haerens oculis, rauca qui praeterit unda.</l>
+               </lg>
+               <lg corresp="#stn27">
+                  <l>Silvam illam prope, nun veutilludente cachinno</l>
+                  <l>Errabat,ua nun deliramenta susurrans,</l>
+                  <l>Nunc misero similis, languens, pallensque, dolensque,</l>
+                  <l>Aut curis amens, dirave cupidine vicgtus.</l>
+               </lg>
+               <lg corresp="#stn28">
+                  <l>Una dies venit: sueta non vidimus illum</l>
+                  <l>Ire via ad collem et silvam, et charae arboris umbram.</l>
+                  <l>Altera lux venit: necdum ipse in colle, fluentem</l>
+                  <l>Nec rivum prope, nec silva vestigia signat.</l>
+               </lg>
+               <lg corresp="#stn29">
+                  <l>Terita successit, ua funeris ordine moesto</l>
+                  <l>D templus lente delatum est calle cadaver.</l>
+                  <l>Siste gradum, lege (scis etenim) quod lmarmore sculptum,</l>
+                  <l>Sentibus antiquis obductum est undique carmen.</l>
+               </lg>
+            </lg>
+            <lg n="2">
+               <head>Epitaphium</head>
+               <lg corresp="#stn30">
+                  <l>Heic terrae in gremio posita cervice recumbit</l>
+                  <l>Fortunae ignotus juvenis famaeque, sed ortum</l>
+                  <l>Quojus pulcra humilem haud crispata fronte Sophia</l>
+                  <l>Intuita est; Moeror tenuit, propriumque notavit.</l>
+               </lg>
+               <lg corresp="#stn31">
+                  <l>Cor illi ingenuum, larga illum ornavit honestas;</l>
+                  <l>Larga itidem a Superis accepit praemia: fletum</l>
+                  <l>Impendens (unum hoc habuit) mortalibus aegris,</l>
+                  <l>Rettulit a Superis (unum hoc optarat) amicum.</l>
+               </lg>
+               <lg corresp="#stn32">
+                  <l>Illius haud ultra inquirens benefacta revolvas,</l>
+                  <l>Neu noxas e terrificis arcesse latebris:</l>
+                  <l>Omnia quae pariter spe circumfusa mutuque</l>
+                  <l>Numinis in gremio Summi, Patrisque quiescunt.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

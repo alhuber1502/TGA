@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Anzu y Garro, Faustino</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="spa1809_bib">
+               <date>1809</date>
+               <author>Anzu y Garro, Faustino</author>
+               <title level="m">El Cementerio de la Aldea</title>
+               <pubPlace>Tarragona</pubPlace>
+               <biblScope>2-11</biblScope>
+               <note type="edst">Transcription by Tom Turk.</note>
+               <idno type="TuT_2013">Turk (2013), 70.</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Anzu y Garro, Faustino"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="spa.Anzu.1809">
+            <head type="main">El Cementerio de la Aldea</head>
+            <lg n="1" corresp="#stn1 #stn2">
+               <l>Huye el dia: la lugubre campana</l>
+               <l>Anunica las tieneblas ... Los rebaños</l>
+               <l>Acia el redil, con lentitud, caminan:</l>
+               <l>El labrador a la cabaña torna</l>
+               <l>A dó reposa el fatigado cuerpo.</l>
+               <l>Del Sol la debil luz por grados dexa</l>
+               <l>En sombras densas, sepultado el boque;</l>
+               <l>y el firmamento placido y tranquilo</l>
+               <l>Calma y silencio infunde á los mortales.</l>
+            </lg>
+            <lg n="2" corresp="#stn3">
+               <l>Solo el funesto Buho turbar suele</l>
+               <l>Con lamentosos y uniformes ecos</l>
+               <l>La quietud general: sobresaltado</l>
+               <l>Por el menor rumor, desde la torre</l>
+               <l>Medio caida, que la tierna yedra</l>
+               <l>Parece sostener, del viajante</l>
+               <l>Descaminado, la osadia increpa,</l>
+               <l>Que sin honor á perturbar se atreve</l>
+               <l>el tenebroso iimperio de la noche.</l>
+            </lg>
+            <lg n="3" corresp="#stn4">
+               <l>So los nudosos tejos cuyas ramas</l>
+               <l>Con obscuro verdor, tristura y duelo</l>
+               <l>Sobre el cesped, arrojan, de este campo;</l>
+               <l>Baxo la yerba adorno del sepulcro</l>
+               <l>reposan los ancianos de la Aldea.</l>
+            </lg>
+            <lg n="4" corresp="#stn5">
+               <l>Nada puede inquietar su postrer sueño.</l>
+               <l>Ni el vigilante gallo, quando anuncia</l>
+               <l>Con su clarin la venidera aurora:</l>
+               <l>Ni el Pastor cons us rusticas cansiones:</l>
+               <l>Ni el eco dulce de la fiel Zagala.</l>
+               <l>Todo acabó con ellos: ... para siempre.</l>
+            </lg>
+            <lg n="5" corresp="#stn6">
+               <l>De la nieve y del agua las injurias</l>
+               <l>Ya no repararán al manso fuego</l>
+               <l>Del ancho hogár; ni á la querida esposa</l>
+               <l>Solícita verán el caro dia</l>
+               <l>De la fiesta natal, cubrir la mesa</l>
+               <l>De sus viejos abuelos heredada;</l>
+               <l>Ni á los tiernos hijuelos pronunciando</l>
+               <l>A porfia con lengua balbuciente</l>
+               <l>De Padre, padre el regalado nombre.</l>
+            </lg>
+            <lg n="6" corresp="#stn7">
+               <l>Su arado en otro tiempo removía</l>
+               <l>El terreno mas duro: su hoz cortante</l>
+               <l>La nuez dorada de este fertil suelo</l>
+               <l>Segó cincuenta estíos. ¡Quantas veces</l>
+               <l>El eco repetia las canciones</l>
+               <l>Que al paso tardo de los mansos bueyes</l>
+               <l>Abriendo recgtos sulcos, entonaban!</l>
+               <l>¡O bien quando en el monte manejando</l>
+               <l>El hacha con valor la dura encina</l>
+               <l>Hendian, y cargaban sobre el hombro!</l>
+            </lg>
+            <lg n="7" corresp="#stn8">
+               <l>Ambiciosa sober bia; no, no insultes</l>
+               <l>Sus pacificos juegos, sus tareas</l>
+               <l>Con tu sonrisa falsa, iy despreciable.</l>
+               <l>Su cuna humilde fué; su sepultura</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Apenas se conoce; mas deudores</l>
+               <l>De Ceres bella, y de natura hijos</l>
+               <l>Con los presentes de su amada madre</l>
+               <l>Venturosos vivieron y contentos.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>La belleza, el valor, la tiranía</l>
+               <l>No pueden evitar la fatal suerte.</l>
+               <l>Confunde el polvo la virtud y el vicio;</l>
+               <l>Y à la Parca cruel nos encamina</l>
+               <l>De los honores la escabrosa senda.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Y tu rico orgulloso, que pretendes</l>
+               <l>Tu nombre eternizar con mausoleos</l>
+               <l>Que al tiempo desafien; no presumas</l>
+               <l>Que envidien esos marmoles fastosos</l>
+               <l>Con que ocultó la vanidad tu nada:</l>
+               <l>Su sombre hubiera siempre desdeñado</l>
+               <l>Tan vergonzoso asilo, y los loores</l>
+               <l>Que la venal adulacionprodiga</l>
+               <l>Sin rubor, á la estúpida opulencia.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>¿Por ventura el obsequio mentiroso,</l>
+               <l>La gloria vana, ó el fingido incienso</l>
+               <l>Que la lisonja vil tributar suele</l>
+               <l>Tornarán á animar el polvo frio,</l>
+               <l>¿O de la gtriste y espangosa muerte</l>
+               <l>Embotarán el hierro inexôrable?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Baxo estsa yerba acaso sepultado</l>
+               <l>Se hallara un corazon, que en otro tiempo</l>
+               <l>El fuego celestial vivificaba:</l>
+               <l>Un mortal, que pudiera dignamente</l>
+               <l>El imperio regír mas poderoso,</l>
+               <l>Ó encantar á las Dryada del bosuqe</l>
+               <l>Con los dulces acentos de su lira.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Mas, á su vista, Clio jamás quiso</l>
+               <l>Sus gracias obstentar; y la indigencia</l>
+               <l>Tan preciosas semillas sufocando</l>
+               <l>De un genio creador extinguió el numen,</l>
+               <l>Aun ántes que la luz á ver llegara.</l>
+            </lg>
+            <lg n="14" corresp="#stn14 #stn15">
+               <l>Así como el Oceano avariento</l>
+               <l>Cubre tesoros mil baxo las ondas;</l>
+               <l>Ó como la fragante violeta</l>
+               <l>En el desiertro bosque yacde oculta:</l>
+               <l>Del mismo modo un Hamdem valeroso</l>
+               <l>Aquí resposará, que del tirano</l>
+               <l>Un dia su cabaña libertara:</l>
+               <l>Ó algun Milton callado, mas felice</l>
+               <l>Aunque no tan glorioso, y aplaudido:</l>
+               <l>Ó un Cromwel, cuya voz ménos tirana</l>
+               <l>La prision no ha dictado, ni la muerte</l>
+               <l>De su Monarca bueno y generoso.</l>
+            </lg>
+            <lg n="15" corresp="#stn16">
+               <l>La suerte le impidió comprar los votos</l>
+               <l>De un senado abatido; sojusgado</l>
+               <l>Por servidumbre villarga y penosa:</l>
+               <l>De arrostrar á la muerte en los combates:</l>
+               <l>De sufrir los reveses de las Cortes:</l>
+               <l>De pulir las costumbres de los pueblos;</l>
+               <l>Y de emplear las plumas de la historia.</l>
+            </lg>
+            <lg n="16" corresp="#stn17 #stn18">
+               <l>Si de su vida, si de sus acciones</l>
+               <l>El cerco limitó, ningun delito </l>
+               <l>Mancilló sus virtudes; ningun daño</l>
+               <l>Causó á la humanidad su vanagloria.</l>
+               <l>¡Ah! sin duda su brazo contenido</l>
+               <l>Por el remordimiento, perdonara</l>
+               <l>Victimas mil con alma generosa;</l>
+               <l>É imitando de Augusto la clemencia</l>
+               <l>De cada reo nuevo Cinna hiciera.</l>
+            </lg>
+            <lg n="17" corresp="#stn18">
+               <l>“Conservad (les dixéra) con la vida</l>
+               <l>El pudor vergonzosos, que en la frente</l>
+               <l>Del mas feroz la gratitud imprime.</l>
+               <l>Sedútiles, y fieles al estado;</l>
+               <l>De la amicion huyendo, y del orgullo</l>
+               <l>Las seductoras, y engañosas voces.”</l>
+            </lg>
+            <lg n="18" corresp="#stn19 #stn20">
+               <l>Mas no: léjos del mundo, en encerrados</l>
+               <l>En la estrecha carrera aque fortuna </l>
+               <l>Señaló á sus deseos, estos hombres</l>
+               <l>Humildes y sencillos el camino</l>
+               <l>Solitario, pacificos siguieron</l>
+               <l>Que destinó la suerte á sus fatigas.</l>
+               <l>Sobre sus huesos, fragil monumento</l>
+               <l>Eleva la piedad, que aquel despojo</l>
+               <l>No ennoblecer, sino cubrir procura:</l>
+               <l>Y si el amor en la corteza blanda</l>
+               <l>Del Aliso que anuncia sus cenizas</l>
+               <l>Rimas sin arte escribe, solo quiere</l>
+               <l>Alivíar su dolor, y de un suspiro</l>
+               <l>Implorar el tributo pasagero.</l>
+            </lg>
+            <lg n="19" corresp="#stn21">
+               <l>Allí la musa rustica señala</l>
+               <l>Su edad y nombre de los caros hijos</l>
+               <l>Por siempre respetado: El venerable</l>
+               <l>Religoso Pastor lcuyas lecciones</l>
+               <l>Nuevo socrates el hacen de la Aldea</l>
+               <l>Una augusta verdad de los sagrados</l>
+               <l>Libros grava tal vez, aque de la muerte</l>
+               <l>Endulze la amargura: He aquí todo</l>
+               <l>Su fúnebre loor, y su elegia.</l>
+            </lg>
+            <lg n="20" corresp="#stn22 #stn23">
+               <l>¿Quales oh vida! ¡son us atractivos?</l>
+               <l>El hombre aunque oprimido baxo el peso</l>
+               <l>De la humana misería, jamás rompe</l>
+               <l>Sin dolor la cadena con que se une</l>
+               <l>Á tus penas, fatigas, y quebrantos.</l>
+               <l>De la fosa asustado, y del olvido</l>
+               <l>Que allí le está esperando, se detiene....</l>
+               <l>Buelve la vista atrás desde la orilla</l>
+               <l>De la espantosa tumba, pesaroso</l>
+               <l>De abandonar el infeliz destierro.</l>
+               <l>El alma casi ha roto sus prisiones,</l>
+               <l>Y todavía reposar procura.</l>
+               <l>Un momento en el seno del amigo.</l>
+               <l>Sus moribundos ejos aun reclaman</l>
+               <l>Las lágrimas del hijo y de la Esposa:</l>
+               <l>Sus propios Manes en el fondo escuro</l>
+               <l>Del seplulcro conservan los deseos</l>
+               <l>Que en timepos mas felices abrigaron;</l>
+               <l>Y la religion pura, y sacrosanta</l>
+               <l>Á unirlos vuelve con los miserables</l>
+               <l>Objetos, de quien fuéron, tan queridos.</l>
+            </lg>
+            <lg n="21" corresp="#stn24">
+               <l>Y tu jóven sensible, que la historia</l>
+               <l>De unos seres obscufros y olvidados,</l>
+               <l>Para vengar la probidad sencilla</l>
+               <l>Cantaste en estos versos; si algun dia</l>
+               <l>Otro corazon tierno de tu suerte</l>
+               <l>Quiere saber, el cielo piadoso</l>
+               <l>Sin duda hara aque anciano respetable</l>
+               <l>Cuyo cabello qual la nieve blanco</l>
+               <l>Respeto infunda, placido le diga:</l>
+            </lg>
+            <lg n="22" corresp="#stn25">
+               <l>“A ese por quien preguntas, muchas veces</l>
+               <l>Le vi sentado sobre la colina</l>
+               <l>AQue aquesta triste soledad rodea</l>
+               <l>Aquí venia; y ántes que los rayos</l>
+               <l>Del sol bañasen le mojada yerba:</l>
+               <l>Ó quando al medio dia sus ardores</l>
+               <l>La tierra devoraban, recostado</l>
+               <l>Á sombra, de aquel cipres antiguo,</l>
+               <l>Fixa la vista en el arroyo manso</l>
+               <l>Al son del agua meditaba absorto.</l>
+            </lg>
+            <lg n="23" corresp="#stn26">
+               <l>“Le vi paseando aqueste sitio</l>
+               <l>De horror y de silencio, con sonrisa</l>
+               <l>Despreciar el furor del ambicioso.</l>
+               <l>Yo le ví, sus deseos, sus tristezas</l>
+               <l>Lamentar con sencillas expresiones;</l>
+               <l>Y calmar de un amor sin esperanza</l>
+               <l>El dolor fiero, la cruel memoria,</l>
+               <l>Con lagrimas, sollozos, y suspiros.</l>
+            </lg>
+            <lg n="24" corresp="#stn27">
+               <l>“El trato huyendo de los falsos hombres,</l>
+               <l>En este solitario cementerio</l>
+               <l>Sus triste plensamiento alimentaba.</l>
+               <l>Y quando le forzaban las tinieblas</l>
+               <l>Á abandonar el religioso bosque,</l>
+               <l>Á su cabaña rústica volvia,</l>
+               <l>Humedecidos los llorosos ojos</l>
+            </lg>
+            <lg n="25" corresp="#stn28">
+               <l>“No vino un dia al sitio acostumbrado:</l>
+               <l>Ni al siguiente le hallé baxo la sombra</l>
+               <l>Del árbol favorito, ni á la márgen</l>
+               <l>Del timido arroyuelo, ni en el monte.</l>
+               <l>En vano de sus huellas las señales</l>
+               <l>Solicito busque, y aun mas en vano</l>
+               <l>Mi voz su nombre al viento repetía.</l>
+            </lg>
+            <lg n="26" corresp="#stn29">
+               <l>“¡Oh dia de dolor y de amargura!</l>
+               <l>Pagado habia ya el comun tirbuto;</l>
+               <l>Al torna á la Aldea los acentos</l>
+               <l>Del lugubre metal, los gemidos</l>
+               <l>De las almas sensibles, aumentando</l>
+               <l>Del hymno funerario la tristura</l>
+               <l>Me anunciaron su muerte, su sepulcro</l>
+               <l>Con lagrimas regó la Aldea toda;</l>
+               <l>Y si de su carácter el retrato</l>
+               <l>Pretendes conservar, los versos mira</l>
+               <l>Dó, sin orgullo, perpetuarle qauiso,</l>
+               <l>Aparta, pues, las zarzas de ese seto</l>
+               <l>Y lée sobre la piedra este Soneto:</l>
+            </lg>
+            <lg>
+               <head>EPITAFIO</head>
+               <lg n="27" corresp="#stn30">
+                  <l>De un jóven sin fortuna é ignorado</l>
+                  <l>Duerme aquí para siempre el pólvo frio,</l>
+                  <l>Que despreciando el fausto y poderío</l>
+                  <l>Vivió conento en el humilde estado.</l>
+               </lg>
+               <lg n="28" corresp="#stn31">
+                  <l>Su coazon de la verdad prendado</l>
+                  <l>Por todas pares la ensalzó con bio:</l>
+                  <l>Benefico, cortés, humano y pio</l>
+                  <l>De propios y de extraños fué adorado.</l>
+               </lg>
+               <lg n="29" corresp="#stn32">
+                  <l>Respeta este santuario, Pasagero,k</l>
+                  <l>Dó en paz descansan las debilidades</l>
+                  <l>De un mancebo sensible y amoroso;</l>
+               </lg>
+               <lg n="30" corresp="#stn32">
+                  <l>Que si bien teme él juicio venidero,</l>
+                  <l>Hellar cree en el Dios de las verdades</l>
+                  <l>Ménos un Juez, que un Padre piadoso.</l>
+               </lg>
+            </lg>
+            <signed>F.M.F. de R.</signed>
+         </div>
+      </body>
+   </text>
+</TEI>

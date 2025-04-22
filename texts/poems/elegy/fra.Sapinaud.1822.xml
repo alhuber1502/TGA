@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Le cimetière</title>
+            <author>Sapinaud, M. de</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="fra1822_bib">
+               <author>Sapinaud, M. de</author>
+               <date>1822</date>
+               <title level="a">Le cimetière</title>
+               <title level="m">Le cimetière et le Printemps de Gray, traduits par M. de Sapinaud, auteur de la Traduction en vers français des Psaumes, 
+							des élégies et notices vendéennes</title>
+               <pubPlace>Paris</pubPlace>
+               <publisher>Imprimerie Anthelme Boucher, Rue des Bons-Enfants, No 34</publisher>
+               <date type="publ">M.DCCC.XXII.</date>
+               <biblScope>6-17</biblScope>
+               <idno type="NoC_1917">765</idno>
+               <note type="edst">Includes redbreast-stanza. Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Includes redbreast-stanza. Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Sapinaud, M. de"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="fra.Sapinaud.1822">
+            <head type="main">Le cimetière</head>
+            <lg n="1" corresp="#stn1">
+               <l>Du jour à son déclin sonne la dernière heure;</l>
+               <l>Sur la plaine à pas lents le boeuf tourne et mugit;</l>
+               <l>Le laboureur lassé regagnant sa demeure,</l>
+               <l>Abandonne la terre aux terreurs de la nuit.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <l>Dans les ombres s’éteint l’éclat du paysage;</l>
+               <l>Un calme solennel sous les cieux se répand;</l>
+               <l>Le vol du hanneton le long du pâturage </l>
+               <l>Assoupit les troupeaux de son bourdonnement.</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Cependant sur ces tours que couronne le lierre,</l>
+               <l>L’obscur hibou se plaint à l’astre de la nuit,</l>
+               <l>Du rêveur dont la marche errante et solitaire</l>
+               <l>Trouble son règne antique et son triste réduit.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>Là, près de ces ormeaux, de l’if au noir feuillage</l>
+               <l>Où le gazon s’élève en monument de deuil,</l>
+               <l>Dorment sous leur abri les aïeux du village,</l>
+               <l>Couverts d’un sol léger dans un étroit cercueil.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <l>L’aurore matinale à l’haleine odorante,</l>
+               <l>Le coq dont le clairon provoquait leur réveil,</l>
+               <l>Sur son lit maconné l’hirondelle bryuante,</l>
+               <l>Ne verront point finir ce morne et long sommeil.</l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <l>Ils ne reverront plus leur tendre ménagère</l>
+               <l>Aux flammes du foyer préparer leur repas;</l>
+               <l>Ni des enfans jaloux des baisers d’un bon père,</l>
+               <l>En bégayant son nom, accourir dans ses bras.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <l>Que de fois par leurs soins le blé dora leurs plaines!</l>
+               <l>Que des fois la faucille abattit leurs moissons!</l>
+               <l>Comme sous leur cognée ils ébranlaient les chênes!</l>
+               <l>Comme leur char roulait au bruit de leurs chansons!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <l>Loin d’ici l’homme vain dont le mépris outrage</l>
+               <l>Leurs plaisirs innocens, leurs utiles travaux;</l>
+               <l>Loin d’ici le coeur dur insensible à la page</l>
+               <l>Qui retrace le sort du pauvre des hameaux.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <l>La pompe des blasons, l’éclat du diadême,</l>
+               <l>Le savoir, les talens, et tous les dons du sort,</l>
+               <l>Rien ne dérobe l’homme à son heure suprême;</l>
+               <l>La route des honneurs ne mène qu’à la mort.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <l>Que la grandeur pardonne à leur tombeau rustique!</l>
+               <l>L’art ne l’a point chargé d’un trophée éclatant,</l>
+               <l>Et l’adulation en ce temple gothique,</l>
+               <l>N’a point fait retentir un éloge éloquent.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <l>Un marbre qui gémit, une urne qu’on révère,</l>
+               <l>Rendront-ils au limon l’esprit qui l’anima?</l>
+               <l>Gloire, que peut ta voix sur la froide poussière?</l>
+               <l>Quel son flatteur, ô mort; jamais te désarma?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <l>Peut-être sous le sol de ces funèbres plaines</l>
+               <l>D’un génie élevé on déposa le coeur;</l>
+               <l>Des mains qui de l’État eussent guidé les rênes,</l>
+               <l>Ou créé sur la lyre un langage enchanteur.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <l>Mais étrangers aux arts dont s’embellit la vie,</l>
+               <l>Au savoir enrichi des dépouilles du temps,</l>
+               <l>Le froid de l’indigence arrêta leur génie</l>
+               <l>Et glaça dans leur coeur la source des talens.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <l>Que de brillans rubis; de perles éclatantes</l>
+               <l>Demeurent ignorés au gouffre obscur des mers!</l>
+               <l>Sans charmer nos regards, que de fleurs attrayantes</l>
+               <l>Avec leurs doux parfums meurent dans les déserts!</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <l>Peut-être ce tombeau renferme ici l’histoire</l>
+               <l>D’un Hampden redoutable au tyran du hameau:</l>
+               <l>Peut-être en ce cercueil dort un Milton sans gloire,</l>
+               <l>Un Cromwel qui des rois respecta le bandeau.</l>
+            </lg>
+            <lg n="16" corresp="#stn16">
+               <l>D’un sénat révéré mériter les suffrages,</l>
+               <l>Affronter les hasards, illustrer son pays,</l>
+               <l>Dispenser aux mortels les dons chéris des sages,</l>
+               <l>Et lire son histoire en leurs yeux attendris;</l>
+            </lg>
+            <lg n="17" corresp="#stn17">
+               <l>Tel ne fut point leur sort; ce que la grandeur donne,</l>
+               <l>Des enfans du hameau ne fut point envié:</l>
+               <l>Ils n’ont point de l’État renversé la colonne:</l>
+               <l>Ils n’ont point renversé l’autel de la Pitié.</l>
+            </lg>
+            <lg n="18" corresp="#stn18">
+               <l>Leur langage naïf peignait leur conscience,</l>
+               <l>Sur leur front ingénu respirait la candeur,</l>
+               <l>Et leur main à l’orgueil que soutient l’opulence</l>
+               <l>Du Parnasse jamais n’offrit l’encens flatteur.</l>
+            </lg>
+            <lg n="19" corresp="#stn19">
+               <l>Loin des cercles brillans où s’agite l’envie,</l>
+               <l>De leur paisible coeur rien n’égarait les voeux,</l>
+               <l>Dans les sentiers battus du vallon de la vie</l>
+               <l>Ils vécurent sans bruit ignorés, mais heureux.</l>
+            </lg>
+            <lg n="20" corresp="#stn20">
+               <l>Près des ces ossemens un monument modeste</l>
+               <l>Rappelle de leurs jours le pieux souvenir,</l>
+               <l>Et quelques vers sans art sur une pierre agreste,</l>
+               <l>Implorent du passant le tribut d’un soupir.</l>
+            </lg>
+            <lg n="21" corresp="#stn21">
+               <l>Au lieu des attributs que la richesse étale,</l>
+               <l>Une muse rustique y mit leurs noms, leurs ans,</l>
+               <l>Et plus d’un texte saint dont l sage morale</l>
+               <l>Instruit à bien mourir l’humble habitant des champs.</l>
+            </lg>
+            <lg n="22" corresp="#stn22">
+               <l>Eh! quel être en sortant d’une vie inquiète,</l>
+               <l>Mais si chère aux mortels, se résigne à l’oubli,</l>
+               <l>Quel être vers ce jour, ce monde qu’il regrette</l>
+               <l>Ne jette avec douleur son regard affaibli!</l>
+            </lg>
+            <lg n="23" corresp="#stn23">
+               <l>D’y laisser des amis il se flatte; il succombe</l>
+               <l>Avec le doux espoir de revivre en leurs coeurs;</l>
+               <l>Un sentiment si tendre émeut jusqu’à sa tombe;</l>
+               <l>Sa cendre à l’amitié demande encor des pleurs.</l>
+            </lg>
+            <lg n="24" corresp="#stn24">
+               <l>Et moi qui dans ces vers peins la modeste vie</l>
+               <l>De ceux que n’accompagne aucun lustre au tombeau,</l>
+               <l>Si d’un coeur que j’aimai la tendre rêverie</l>
+               <l>Pour savoir mon destin l’amène en ce hameau;</l>
+            </lg>
+            <lg n="25" corresp="#stn25">
+               <l>Quelque bon villageois à la tête chenue,</l>
+               <l>Lui répondra peut-être: il venait dès le jour,</l>
+               <l>Seconant sous ses pas la rosée épandue,</l>
+               <l>Du soleil sur ces monts contempler le retour.</l>
+            </lg>
+            <lg n="26" corresp="#stn26">
+               <l>A midi s’asseyant à ces rives fleuries,</l>
+               <l>Près du hêtre incliné qui sur le bord des eaux</l>
+               <l>Lève bizarrement ses racines vieillies,</l>
+               <l>Du ruisseau murmurant son oeil suivait les flots.</l>
+            </lg>
+            <lg n="27" corresp="#stn27">
+               <l>Tantôt il promenait sa sombre rêverie,</l>
+               <l>Et le rire incertain sur ses lèvres errait;</l>
+               <l>Tantôt comme accablé des peines de la vie,</l>
+               <l>En cotoyant le bois le malheureux pleurait.</l>
+            </lg>
+            <lg n="28" corresp="#stn28">
+               <l>Un jour sans qu’il parût, je vis briller l’aurore;</l>
+               <l>Un autre jour s’écoule, et sur le bord des eaux,</l>
+               <l>Sur la colline même il n’était point encore,</l>
+               <l>Ni sous l’arbre chéri confident de ses maux.</l>
+            </lg>
+            <lg n="29" corresp="#stn29">
+               <l>Le lendemain le deuil, la cloche du village,</l>
+               <l>Apprirent au hameau la fin de sa douleur:</l>
+               <l>Approche et lis les vers que sous ce vieil ombrage</l>
+               <l>On grava sur la pierre où repose son coeur.</l>
+            </lg>
+            <lg n="30" corresp="#stn34" prev="#stn29">
+               <l>Là l’oiseau printanier attiré par les ombres,</l>
+               <l>Près de son tendre nid vient soupirer ses chants;</l>
+               <l>Là l’humble violette amante des lieux sombres,</l>
+               <l>Exhale ses parfums sous les gazons naissants.</l>
+            </lg>
+            <lg>
+               <head>ÉPITAPHE</head>
+               <lg n="31" corresp="#stn30">
+                  <l>Ici repose en paix dans le sein de la terre</l>
+                  <l>Un jeune homme sans nom, sans bien et sans secours,</l>
+                  <l>La science sourit à son humble carrière,</l>
+                  <l>Mais la mélancolie en attrista les jours.</l>
+               </lg>
+               <lg n="32" corresp="#stn31">
+                  <l>D’une bonté céleste il possédait le charme;</l>
+                  <l>Il versa sur les maux un bienfaisant oubli;</l>
+                  <l>Au malheur il donnait ce au’il eut, une larme;</l>
+                  <l>Ce qu’il voulait de ciel il l’obtint, un ami.</l>
+               </lg>
+               <lg n="33" corresp="#stn32">
+                  <l>Garde sur ses vertus de porter la lumière,</l>
+                  <l>D’exhumer ses erreurs de l’ombre des tombeaux;</l>
+                  <l>Dans un tremblant espoir; au sein d’un dieu; d’un père,</l>
+                  <l>Il passa de la vie au séjour du repos.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

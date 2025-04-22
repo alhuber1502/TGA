@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegia in coemeterio rustico conscripta</title>
+            <author>Hickie, Daniel Bamfield</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="lat1823_bib">
+               <date>1823</date>
+               <author>Hickie, Daniel Bamfield</author>
+               <title level="a">Elegia in coemeterio rustico conscripta</title>
+               <title level="m">Gray's Elegy translated into Latin verse, including the author's rejected stanzas, together with Dr. Edwards's additional lines</title>
+               <pubPlace>London</pubPlace>
+               <publisher>A. J. Valpy</publisher>
+               <biblScope>3-23</biblScope>
+               <idno type="NoC_1917">836</idno>
+               <idno type="GiD_2008">19</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Hickie, Daniel Bamfield"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="lat.Hickie.1823">
+            <head type="main">Elegia in coemeterio rustico conscripta</head>
+            <head type="sub"> [Gray’s Elegy translated into Latin verse, including the author’s rejected stanzas, 
+								together with Dr. Edwards’s additional lines.]</head>
+            <lg n="1" corresp="#stn1">
+               <head>I.</head>
+               <l>INDICIUM occiduae resonat campana diei,</l>
+               <l>Segnipedes reboant in sua septa boves,</l>
+               <l>Fessa domum lente vestigia torquet arator,</l>
+               <l>Omniaque et tenebris deserit atque mihi.</l>
+            </lg>
+            <lg n="2" corresp="#stn2">
+               <head>II.</head>
+               <l>Naturae facies crepera evanescit ocellis</l>
+               <l>Sensim, et solennis regnat ubique quies;</l>
+               <l>Quod nisi se pigros volvat scarabaeus in orbes,</l>
+               <l>Tinnitusque procul sopiat omne pecus;</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <head>III.</head>
+               <l>Quod nisi, sola sedens hederoso in culmine turris,</l>
+               <l>Effundat moestos noctua foeda sonos;</l>
+               <l>Ad Lunam effundat, si quis per inhospita claustra </l>
+               <l>Infestet sero regna paterna gradu.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <head>IV.</head>
+               <l>Has subter rigidas ulmos, taxique sub umbra, </l>
+               <l>Aggere qua multo gleba regesta tumet,</l>
+               <l>Ruricolae ducunt aeterna nocte soporem, </l>
+               <l>Clausus in angusto carcere quisque, patres.</l>
+            </lg>
+            <lg n="5" corresp="#stn5">
+               <head>V.</head>
+               <l>Hos neque mane rubens Syrios dum spirat odores, </l>
+               <l>Nec de straminea quae flet hirundo casa,</l>
+               <l>Nec vigilis galli clangor, cornuve sonorum </l>
+               <l>Eniget ex humili postea voce toro. </l>
+            </lg>
+            <lg n="6" corresp="#stn6">
+               <head>VI.</head>
+               <l>Non his ulterius rutili focus igne flagrabit, </l>
+               <l>Sedula nec serum sponsa movebit opus;</l>
+               <l>Aemula nec reduci ridebunt turba parenti, </l>
+               <l>Genua nec ascendent oscula ferre labris.</l>
+            </lg>
+            <lg n="7" corresp="#stn7">
+               <head>VII.</head>
+               <l>Illis saepe seges cecidit sub falce repanda, </l>
+               <l>Saepe gravem fregit vomer aduncus humum;</l>
+               <l>Quam 1aeti per agros bijuges egere juvencos! </l>
+               <l>Vulnere quam crebro corruit omne nemus!</l>
+            </lg>
+            <lg n="8" corresp="#stn8">
+               <head>VIII.</head>
+               <l>Nec tamen Ambitio spernat rigidosve labores, </l>
+               <l>Sortemve ignotam, laetitiasve rudes;</l>
+               <l>Nec pravo excipiat ventosa Superbia risu </l>
+               <l>Gesta ignobilium qualiacumque virum.</l>
+            </lg>
+            <lg n="9" corresp="#stn9">
+               <head>IX.</head>
+               <l>Stemmatis eximii decus, et diademata regum, </l>
+               <l>Quicquid opes tulerint, quicquid et ipsa Venus,</l>
+               <l>Dissipat haec pariter non evitabilis hora:</l>
+               <l>Ad tumulum tantum ducit honoris iter.</l>
+            </lg>
+            <lg n="10" corresp="#stn10">
+               <head>X.</head>
+               <l>Nec vertat vitio locuples, quod nulla tropaea </l>
+               <l>Mnemosyne in tumulis scalpere fida velit,</l>
+               <l>Qua, perque oblongos adytus, laqueataque tecta,</l>
+               <l>Ingeminant sacros organa laeta modos.</l>
+            </lg>
+            <lg n="11" corresp="#stn11">
+               <head>XI.</head>
+               <l>Effigiesne loquens animam revocare relictas </l>
+               <l>Corporis in sedes, urnave sculpta queat?</l>
+               <l>Lausne queat cineres, vel Honor, mulcere silentes?</l>
+               <l>Blanditiesne placens corda sepulta juvet?</l>
+            </lg>
+            <lg n="12" corresp="#stn12">
+               <head>XII.</head>
+               <l>Fors hoc neglecto jaceant sub cespite corda </l>
+               <l>Ignibus aetheriis quae caluere prius;</l>
+               <l>Quaeque manus poterint sceptrum tenuisse superbum, </l>
+               <l>OEstroque Aoniam solicitasse lyram.</l>
+            </lg>
+            <lg n="13" corresp="#stn13">
+               <head>XIII.</head>
+               <l>Ast nunquam his chartas Musa est dignata repletas </l>
+               <l>Temporis exuviis evoluisse suas:</l>
+               <l>Quin fera Pauperies animi compescuit ignes. </l>
+               <l>Strinxit et ingenii semina clara gelu.</l>
+            </lg>
+            <lg n="14" corresp="#stn14">
+               <head>XIV.</head>
+               <l>Plurima gemma latet nitido fulgore coruscans, </l>
+               <l>Hen frustra! in pelagi, non revocanda, vadis;</l>
+               <l>Plurima deciduas fragrans rosa fundit ad auram, </l>
+               <l>Heu frustra! et nulli percipienda, comas.</l>
+            </lg>
+            <lg n="15" corresp="#stn15">
+               <head>XV.</head>
+               <l>Hac fors, a parvo qui toxerat arva tyranno </l>
+               <l>Vilicus Hamdeni par, requiescat humo;</l>
+               <l>Miltonusve silens sine nomine; vel Cromueles</l>
+               <l>Cui vetitum patrii sanguinis esse reum.</l>
+            </lg>
+            <lg n="16">
+               <head>XVI.</head>
+               <l>Forte, decora sui non conscia sponsa decoris, </l>
+               <l>Munditiis simplex, simplicitate Venus;</l>
+               <l>Forma—satis pollens domino placuisse potenti</l>
+               <l>Mens—ex qua tulerint regia sceptra decus.</l>
+            </lg>
+            <lg n="17">
+               <head>XVII.</head>
+               <l>Forma sed illa, sibi non conscia, sola marito </l>
+               <l>Gaudiaque inter opus, deliciasque dedit;</l>
+               <l>Mensque pudica facem virtutis praetulit, ex qua </l>
+               <l>Formarunt mores rustica turba casae.</l>
+            </lg>
+            <lg n="18" corresp="#stn16">
+               <head>XVIII.</head>
+               <l>Eloquio attonitos blando tenuisse Senatus, </l>
+               <l>Sprevisse exitii suppliciique minas</l>
+               <l>Fertilitatis opes regno infudisse beatas, </l>
+               <l>Et legisse actus gentis in ore suos;</l>
+            </lg>
+            <lg n="19" corresp="#stn17">
+               <head>XIX.</head>
+               <l>Talia Sors vetuit :—quin ussit germen in illis </l>
+               <l>Floriferumque boni, floriferumque mali;</l>
+               <l>Per caedes vetuit sceptrum rapuisse cruentas, </l>
+               <l>Supplicis et saevo corde negasse preces;</l>
+            </lg>
+            <lg n="20">
+               <head>XX.</head>
+               <l>Occuluisse, loqui quod mens sibi conscia mandet;</l>
+               <l>Conari ingenuus quin stet in ore pudor;</l>
+               <l>Luxuriae et Fastus fanis cumulasse superbis</l>
+               <l>Castalidum ad sacros thura cremata focos.</l>
+            </lg>
+            <lg n="21" corresp="#stn18">
+               <head>XXI.</head>
+               <l>At procul a studiis turbae, stolidoque tumultu, </l>
+               <l>Praeposuere suos sobria vota lares.</l>
+               <l>Per gelidas vitae valles tacitosque recessus</l>
+               <l>Otia carpebant deliciasque viae.</l>
+            </lg>
+            <lg n="22" corresp="#stn19">
+               <head>XXII.</head>
+               <l>Attamen his etiam circum monumenta tuendis </l>
+               <l>Ossibus assurgunt, deperitura brevi,</l>
+               <l>Sed peritura licet, gemitus pia munera poscunt </l>
+               <l>Et rudis effigies, versiculique rudes.</l>
+            </lg>
+            <lg n="23" corresp="#stn20">
+               <head>XXIII.</head>
+               <l>Nomina et aetates incultis scripta Camoenis,</l>
+               <l>Et Fame supplent his Elegique locum;</l>
+               <l>Multaque divini praecepta voluminis addunt,</l>
+               <l>Agricolae ut discant, spe meliore, mori.</l>
+            </lg>
+            <lg n="24" corresp="#stn21">
+               <head>XXIV.</head>
+               <l>Heu! teneat sedenim tam pigra oblivia mentem, </l>
+               <l>Ut dulcem hanc animam linquere caeca queat;</l>
+               <l>Linquere caeca queat confinia grata diei,</l>
+               <l>Nec moriente semel necteret ore moras?</l>
+            </lg>
+            <lg n="25" corresp="#stn22">
+               <head>XXV.</head>
+               <l>Spiritus in gremium se dat moriturus amici,</l>
+               <l>Lumina lacrymulas jam peritura petunt;</l>
+               <l>Quinetiam e tumulo fundit Natura loquelas,</l>
+               <l>Quinetiam retinet pristina vota cinis.</l>
+            </lg>
+            <lg n="26" corresp="#stn23">
+               <head>XXVI.</head>
+               <l>Ast o! neglecti recolis qui fata sepulti,</l>
+               <l>Qui fundis nuda simplicitate modos,</l>
+               <l>Indole te referens si quis, meditamine ductus</l>
+               <l>Secreto, fuerint quae tua forte roget;</l>
+            </lg>
+            <lg n="27" corresp="#stn24">
+               <head>XXVII.</head>
+               <l>Huic pastor, canis albent cui tempora, dicat </l>
+               <l>Saepius, Aurora jam referente diem,</l>
+               <l>Saepius hunc vidi celeri pede spargere rorem </l>
+               <l>Per juga, ut Eois obvius iret equis.</l>
+            </lg>
+            <lg n="28" corresp="#stn25">
+               <head>XXVIII.</head>
+               <l>Illic qua fagus veteri cacumine nutat, </l>
+               <l>Radicesque suas undique torquet humi,</l>
+               <l>Porrectus medio, lentusque, jaceret in aestu,</l>
+               <l>Despiceretque caput dulce strepentis aquae.</l>
+            </lg>
+            <lg n="29" corresp="#stn26">
+               <head>XXIX.</head>
+               <l>Vidimus hunc etiam saepe ad confinia sylvae, </l>
+               <l>Duceret ut fessos semita trita domum,</l>
+               <l>Dum vespertinas iteraret alauda querelas,</l>
+               <l>Occidui radios lampadis ore sequi.</l>
+            </lg>
+            <lg n="30" corresp="#stn27">
+               <head>XXX.</head>
+               <l>Hac modo per sylvam, sibi ridens, sive superbum </l>
+               <l>Quid secum mussans, segne teneret iter,</l>
+               <l>Pallidus et languens misere modo, qualis et amens </l>
+               <l>Quem curae premerent aut malesanus amor.</l>
+            </lg>
+            <lg n="31" corresp="#stn28">
+               <head>XXXI.</head>
+               <l>Mane orto nuper, solito haud in colle videbam; </l>
+               <l>Nec tamen hunc saltus, nec sua fagus habet:</l>
+               <l>Crastina successit; nec adhuc ad prata reversus, </l>
+               <l>Nec tamen ad fontes, umbriferumve nemus.</l>
+            </lg>
+            <lg n="32" corresp="#stn29">
+               <head>XXXII.</head>
+               <l>Tertia Iux affert nigrae solennia pompae,</l>
+               <l>Ad tumulum lento funera ducta gradu.</l>
+               <l>Huc ades, atque legas (potes et) lacrymabile carmen</l>
+               <l>Spino sub veteri quod tenet iste lapis.</l>
+            </lg>
+            <lg n="33" corresp="#stn34">
+               <head>XXXIII.</head>
+               <l>Illic vere novo violarum sedula nimbis </l>
+               <l>Sternit humum, nulli conspicienda, manus:</l>
+               <l>Illic suave canit, ponitque Rubecula nidum,</l>
+               <l>Imprimit et leviter plantula crebra solum.</l>
+            </lg>
+            <lg>
+               <head>EPITAPHIUM.</head>
+               <lg n="34" corresp="#stn30">
+                  <head>XXXIV.</head>
+                  <l>Hic terrae in gremio juvenis, quem Fama superstes, </l>
+                  <l>Et Fortuna favens deseruere, jacet.</l>
+                  <l>Huic humili proavis tamen arrisere Camoenae,</l>
+                  <l>Moestaque Melpomene sauciit esse suum.</l>
+               </lg>
+               <lg n="35" corresp="#stn31">
+                  <head>XXXV.</head>
+                  <l>Indole largus opum fuit, et devinctus amicis;</l>
+                  <l>Praemia de coelis, huic satis ampla, tulit:</l>
+                  <l>Moestitiae (id potuit) lacrymas indulsit :—amici </l>
+                  <l>Consilium (id petiit) Numen habere dedit.</l>
+               </lg>
+               <lg n="36" corresp="#stn32">
+                  <head>XXXVI.</head>
+                  <l>Si bona, quae fuerint sua gesta, exquirere noli; </l>
+                  <l>Si mala, ne sacra e sede ciere petas:</l>
+                  <l>Spe pariter tremula, et dubia formidine, cuncta</l>
+                  <l>Et Patris atque Dei mente reposta latent.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

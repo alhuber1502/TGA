@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Baraldi, Paolo-Giuseppe</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="ita1810_bib">
+               <date>1810</date>
+               <author>Baraldi, Paolo-Giuseppe</author>
+               <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
+               <editor>Torri, Alessandro</editor>
+               <pubPlace>Verona</pubPlace>
+               <publisher>Dalla Tipografia Mainardi</publisher>
+               <biblScope>97-102</biblScope>
+               <date type="publ">1817</date>
+               <idno type="NoC_1917">803</idno>
+               <note type="edst">Transcription by Tom Turk.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Baraldi, Paolo-Giuseppe"
+              rendition="#lgvspace"
+              type="prose"
+              xml:id="ita.Baraldi.1810">
+            <head type="main"/>
+            <div>
+               <p n="1" corresp="#stn1">1.  Io sento il suono dlela campana dolente, che annunzia la fine del giorno; e già gli armenti muggendo no se vanno a passi vaghi e lenti alla stalla. L’affaticato bifolco se ne rientra stentatamente alla sua capanna; lascia l’universo, e l’abbandona allo spavento delle tenebre, e all’orrore delle mie riflessioni.</p>
+               <p n="2" corresp="#stn2">2.  Hanno le praterie perduta la pompa loro, e a m d’intorno regna un cupo esteso silenzio, il quale è interrotto soltanto dal ronzio di alcuni alati insetti, che pigri se ne volano per i campi dell’aria, e il cui mormorio soporifero si fa sentire da lungi per la campagna.</p>
+               <p n="3" corresp="#stn3">3.  Ma quai tristi gemiti mi giungono all’orecchio? Ah! egli è questo il gufo melanconico, che dall’alto di quella torre coperta  d’edera innalza i suoi lamenti al cielo, e di cui ho io turbata l’antica solitudine, e profanati i taciturni boschetti!</p>
+               <p n="4" corresp="#stn4">4.  Il muschio, cui il tempo ha ridotto in polve, si solleva in picciole stipe sotto questi alberi folti; ed è quivi che all’ombra di quegli olmi salvatici e di questi cipressi riposano i rozzi antenati degli abitatori del borgo racchiusi per sempre nell’angusta loro dimora; </p>
+               <p n="5" corresp="#stn5">5.  Senza che mai nè la voc e penetrante del gallo, nè il garrito degli nocelli, nè i concerti de’campestri strumenti possano farli uscire da quel letto spaventevole. Ed essi non si alzeranno mai per respirare i profumi del mattino, che i zeffiretti sulle ali leggiere vi avranno indarno portati.</p>
+               <p n="6" corresp="#stn6">6.  Alcun fuoco per essi non arde più e non crepita ne’focolari; una tenera sposa non v’imbandisce più la mensa campestre, e i pargoletti non alzano più verso loro le mani innocenti, quasi chiedendo ansiosi un di que’baci che invidiano alla madre.</p>
+               <p n="7" corresp="#stn7">7.  Recisadalla falce loro si è verduta spesse volte cadere la bionda messe, e or cedere l’indocile terreno e corrispondere alle loro fatche, ed ora condur essi come in trionfo una madra superba. E le quante volte le quercie altere della foresta non si sono udite gemere sotto i colpi della pesante loro bipenne!</p>
+               <p n="8" corresp="#stn8">8.  Uomini alteri, ambiziosi, e perchè dispregiate voi i loro travagli, la semplicità de’loro piaceri, l’oscurità della sorte loro? E perchè i grandi ascolteranno sempre con sorriso sprezzante l’istoria succinta e candida del miserabile? . . .</p>
+               <p n="9" corresp="#stn9">9.  L’orgoglio de’natali, il fasto del potere, tutti i vantaggi della beltà e della ricchezza sono serbati del pari all’ora inevitabile; e i sentieri tutti della gloria conducono al sepolcro.</p>
+               <p n="10" corresp="#stn10">10.  Un superbo malusoleo potrebbe per avventura trattenere in questo cadavere l’ultimo sospiro, che se no fugge? El il fumo degli incensi riscaldar potrebbe questa fredda polvere? E le voci dell’adulazione dilettar potrebbero l’orecchio insensibilie della morte?</p>
+               <p n="11" corresp="#stn11">11.  Le volte de’nostri templi non risoneranno mai de’loro elogi, ed i posteri non hanno punto eretti de’trofei sopra le tombe loro. E perchè dunque li piangete, o grandi della terra?</p>
+               <p n="12" corresp="#stn12">12.  Sotto questa terra dispregiata è stato forse sepolto un cuore altre volte animato da fuoco celesteò e vi giacciono mani degne di portare lo scettro, o di toccare la cetra d’Apollo.</p>
+               <p n="13" corresp="#stn13">13.  La sapienza però arricchitasi colle spoglie del tempo, non ha mai aperto loro il suo libro immenso; e la torpida ineigenza ha soffocato nelle anime loro ogni nobile inclinazione, e diacciato nella sorgente quel genio creatore che fa nascere i grandi pensierei.</p>
+               <p n="14" corresp="#stn14">14.  Di simil maniera mille pietre preziose sono racchiuse nelle recondite cavità delle montagne, a mille fiori germogliano per le selve, e la spargono di balsamica fraganza.</p>
+               <p n="15" corresp="#stn15">15.  Qui giace forse un ardente cittadino, che avrebbe opposta la sua inrepidezza agli ingiusti sforzi della tirannide; un poeta, che visse senza servivere, e morì senza gloria; un conquistatore, le cui mani non si lordarono mai nel sangue della patria.</p>
+               <p n="16" corresp="#stn16">16.  Coll’eloquenza e col genio non dominaron lmai essi sul cuore umano; l’oscurità della condizion loro privolli de’trionfi della virtù, e degli encomj della fama, non che del modo soave di spargere i benefizj, e far nascere un sorriso sulle labbra del povero e degl’infelici.</p>
+               <p n="17" corresp="#stn17">17.  Ma se furono inceppate le loro virtù, furono frenati del pari i vizj loro: essi non salirono mai ad un trono per gradi lordi di sangue e di strage; e non chiusero al genere umano le porte della clemenza.</p>
+               <p n="18" corresp="#stn18">18.  Non dovettero mai nascondere il rossore della faccia loro; e non ebbero essi a combattere i rimorse d’una intimorita coscienza; nè mai la musa loro profanò gli incensi destinati agli Dei, facendoli ardere sull’altare dell’orgoglio e della licenza.</p>
+               <p n="20" corresp="#stn20">20.  Ma qual rozzo monumento vegg’io, il quale sembra voglia difendere questo sepolcro dalle ingiurie del tempo? Alcuni versi scolpiti appena sulla pietra chieggono al passeggero il tributo delle sue lagrime!</p>
+               <p n="22" corresp="#stn22">22.  Ohimè! Chi lasciò mai senza rammarico la sua inquieta e lusinghira esistenza? Chi se espose volontario ad esser preda del silenzio e della dimenticanza? E chi abbandonar potrebbe la luce del giono ed il calor della vita, senza volgere adietro uno sguardo de lungo dolore?</p>
+               <p n="23" corresp="#stn23">23.  L’anima che se ne vola, si compiace ancora de’sospiri di un cuore desolato: gli occhi nel chiudersi affrettano le lagrime di compassione: dall’imo della tomba la natura manda un grido; e dal mezzo stesso delle lnostre ceneri si vedono uscire alcune scintille.</p>
+               <p n="24" corresp="#stn24">24.  Quanto a me, che coeste ceneri trascurate onoro e riaccendo ne’versi miei, se qualche anima sensibile, se qualche amico della solitudine si sentirà un giorno chiamato esso pure in questi luoghi campestri, e vorrà per avventura essere informato della mia sorte;</p>
+               <p n="25" corresp="#stn25">25.  In allora forse un pastore, che per anni molti abbia incanutita la chioma, sarà premuroso di così dirgli:<lb/>
+	„Sullo spuntar dell’alba ei qua sovente<lb/>
+	„Complariva solingo, e lo vedemmo<lb/>
+	„Con frettoloso piè scoter, l’intatta<lb/>
+	„Dalle cime de’fior’ molle rugiada,<lb/>
+	„E precedere il sol su questi ameni<lb/>
+	„Floridi colli a più color’ dipinti.
+</p>
+               <p n="26" corresp="#stn26">
+								26. „Sull’estremo confin di questa estesa<lb/>
+								„Vale vedete voi la quercia antica,<lb/>
+								„Che spande altera dalle curve braccia<lb/>
+								„Sull’erbe intorno maestevol ombra?<lb/>
+								„È qui dov’esso il mormorio dell’onde<lb/>
+								„Del ruscello ascoltava, e ne seguia<lb/>
+								„Con paghi rai  lo scorrere tranquillo.
+							</p>
+               <p n="27" corresp="#stn27">
+									27. „Or egli a caso per la cupa selva<lb/>
+									„Vagando se ne giva, or un amaro<lb/>
+									„Sorriso avea sui labbri, ed or parole<lb/>
+									„Interrotte sciogliea de’suoi bizzarri<lb/>
+									„Vaneggiamenti immagini funeste;<lb/>
+									„E in lungo sfinimento ora cadea<lb/>
+									„Qual da natura intera un infelice<lb/>
+									„Lasciato in abbandono, o senza speme<lb/>
+							„Qual chi spietato amor nutra e tormenti.
+								</p>
+               <p n="28" corresp="#stn28">
+										28. „Ma un giorno, oh Dio! spuntò, giorno fatale<lb/>
+										„Che al sorgere dell’alba ei non apparve.<lb/>
+										„In van sull’orizzonte il sol chiamollo;<lb/>
+										„Più non si vide delle selve al rezzo.<lb/>
+							„Nè più sul margo del ruscel si assise.
+									</p>
+               <p n="29" corresp="#stn29">
+											29. „Ahi! troppo presto un lamentevol canto,<lb/>
+											„Un apparato lugubre mi disse,<lb/>
+											„Ch’egli già più non era, e a passi lenti<lb/>
+											„Portar lo vidi all’ultimo soggiorno.<lb/>
+											„Leggiamne i versi sulla pietra incisi:<lb/>
+											„Il museo umil che li copria disgombro.
+										</p>
+            </div>
+            <div>
+               <head>Epitafio</head>
+               <p n="30" corresp="#stn30">
+									30. Abbilo nel tuo seno, e a lui sii lieve<lb/>
+									O benefica terra! Esso non mai<lb/>
+									Della sorte il favor, nè della fama<lb/>
+									Ambì gli encomj, o li mercò vilmente.<lb/>
+									Fu pago in sua tristezza; al dolce ei spetta<lb/>
+									Melanconico regno, e agli uomin saggi<lb/>
+							D’illustrarne l’oscura origin piacque.
+									</p>
+               <p n="31" corresp="#stn31">
+										31. Colmollo il cielde’doni suoi, che un’alma<lb/>
+										Spirogli in seno tenera e sincera;<lb/>
+										Le lagrime eran solo il sua retaggio,<lb/>
+										E spora gli infelici egli versolle;<lb/>
+							Ei non bramava che un amico, e l’ebbe.
+										</p>
+               <p n="32" corresp="#stn32">
+											32. D’esaltar sue virtuti a voi non caglia,<lb/>
+											Nè trar da quest’orrido asil di morte<lb/>
+											Le colpe sue; chè qui virtudi e colpe<lb/>
+											Fra la speme e il timor riposan sempre<lb/>
+							In seno del suo Padre, e del suo Di.
+										</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

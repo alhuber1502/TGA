@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegie scrisă pe ținterimul unui sat</title>
+            <author>Asachi, Gheorghe</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="ron1812_bib">
+               <date>1812</date>
+               <author>Asachi, Gheorghe</author>
+               <title level="a">Elegie scrisă pe ținterimul unui sat</title>
+               <note type="edst">Written between 1812 and 1827. Transcription by Tom Turk.</note>
+               <idno type="TuT_2013">Turk (2013), 67/68.</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Written between 1812 and 1827. Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Asachi, George"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="ron.Asachi.1812">
+            <head type="main">Elegie scrisă pe ținterimul unui sat</head>
+            <lg n="1" corresp="#stn1">
+               <l>Al aramei sunetoare aud tristul semn şi sânt</l>
+               <l>Menind soarelui repaos în a lui zilnic mormânt;</l>
+               <l>Obosit acum săteanul lucrul câmpului său curmă.</l>
+               <l>Fluierând păstorul vine la cotun cu a sa turmă.</l>
+            </lg>
+            <lg n="2" corresp="#stn1 #stn2">
+               <l>A pierdut a lor frumˇseţe înfloritele câmpii,</l>
+               <l>În negură misterioasă ascunzând a ei mândrii;</l>
+               <l>Firea-n inimă-mi insuflă o adâncă întristare,</l>
+               <l>Lumea-o părăseşte-n umbră şi-ntru a mea cugetare,</l>
+            </lg>
+            <lg n="3" corresp="#stn3">
+               <l>Ca-n paragină câmpie un greu gemăt amorţit</l>
+               <l>La auzul meu răsună de pe turnul învechit;</l>
+               <l>Bufa cea posomorâtă, când natura să-ntristează,</l>
+               <l>Pe a nopţei înturnare prin un bocet crud serbează.</l>
+            </lg>
+            <lg n="4" corresp="#stn4">
+               <l>Câtu-i dulce a ta soartă, în sat, o, locuitor,</l>
+               <l>Lângă soaţa credincioasă, în îngustul foişor!</l>
+               <l>Nimic lin cursul turbură de-o viaţă fericită,</l>
+               <l>Ziua este ostenelei, noapte-amoriului menită.</l>
+            </lg>
+            <lg n="5" corresp="#stn4">
+               <l>Muşchiul, care anii repezi în ţărână-a prefăcut,</l>
+               <l>Pe părinţii voştri-ascunde în mormântul cel tăcut;</l>
+               <l>Acolo, pe cea movilă, unde sălcile umbrează,</l>
+               <l>Ale inimei duioase lacrimile rourează;</l>
+            </lg>
+            <lg n="6" corresp="#stn5">
+               <l>Dulcea boare-a dimineţei, buciumarea de păstor,</l>
+               <l>A cocoşului cântare, nici plăcerea de amor,</l>
+               <l>Pe-adormiţi n-or să-i trezască din tunericul mormânt;</l>
+               <l>A lor seceri în tot anul adunând de pe pământ</l>
+            </lg>
+            <lg n="7" corresp="#stn6 #stn7">
+               <l>Aurite spici în jerbii, prin sudori şi osteneală.</l>
+               <l>Aduceau nutreţul casei şi a ei chivernisală,</l>
+               <l>Sara de-acum n-or să vie la duioasele soţii,</l>
+               <l>Nici lua-vor sărutare de la tinerii copii;</l>
+            </lg>
+            <lg n="8" corresp="#stn6 #stn7">
+               <l>N-or să guste împreună simplă cină sănătoasă,</l>
+               <l>Ce se face mai dereasă de zicerea cea duioasă.</l>
+               <l>O, voi carii n-aveţi stimă pentru omul umelit,</l>
+               <l>Nobili plini de fantazie mândri-n titlul ruginit,</l>
+            </lg>
+            <lg n="9" corresp="#stn8">
+               <l>De ce-n ură-aveţi săteanul, când a fruntei lui sudoare</l>
+               <l>A produs mărirea voastră ş-avuţiilor odoare?</l>
+               <l>Cruţă timpul vreodată dritul unei evghenis,</l>
+               <l>Ori frumˇseţa, avuţia, nu trec ca al nopţei vis?</l>
+            </lg>
+            <lg n="10" corresp="#stn9">
+               <l>A săteanului vro faptă încă nu s-a lăudat</l>
+               <l>Şi al său mormânt de pompă nicicum s-a-ncungiurat;</l>
+               <l>Dar în locul unei pompe, din a lui soţi fiecare,</l>
+               <l>Nu de-afară, ci în cuget poartă semn de întristare.</l>
+            </lg>
+            <lg n="11" corresp="#stn10">
+               <l>Oare mirosul de smirnă, oare cântecul cel sânt,</l>
+               <l>Pulberea ce este stânsă pot să-nvie din mormânt,</l>
+               <l>Dacă fapte de virtute, care legea ni învaţă,</l>
+               <l>N-or meni şi după moarte celui drept o altă viaţă?</l>
+            </lg>
+            <lg n="12" corresp="#stn11">
+               <l>Lacrimile ipocrite, mincinosu-acel suspin,</l>
+               <l>Decretările nu schimbă care de la Pronie vin.</l>
+               <l>Preţ nu are nici o pompă ce prin aur se adună,</l>
+               <l>Tânguirea-adevărată pe mormânt de nu răsună;</l>
+            </lg>
+            <lg n="13" corresp="#stn12">
+               <l>Precum când un unchi răpune, clironomul însătat</l>
+               <l>Binecuvintează ziua întru care-a răposat.</l>
+               <l>Poate că sub astă ţărnă este-o inimă-ngropată</l>
+               <l>Care-avea în cursul vieţei fantazie înfocată,</l>
+            </lg>
+            <lg n="14" corresp="#stn13">
+               <l>Suflet bun, cu direptate, ce prin sfatul înţelept</l>
+               <l>Patriei ar fi fost razim prin cuvinte şi cu piept.</l>
+               <l>Îns, aleu, lui nu-i lucise a ştiinţelor făclie</l>
+               <l>Şi talantul de preţ mare i s-a stâns din sărăcie!</l>
+            </lg>
+            <lg n="15" corresp="#stn14">
+               <l>Chiar asemene-adamantul, ce din stâncă este scos,</l>
+               <l>Păn-a nu avea lumină mai întăi de fier s-a ros;</l>
+               <l>Şi asemene în tufă se ascunde-o mândră floare,</l>
+               <l>Ce, de nime mirosită, vegetează, creşte, moare.</l>
+            </lg>
+            <lg n="16" corresp="#stn15">
+               <l>Poate-aice dormitează a cotunului Franclin,</l>
+               <l>Ce a patriei ş-a ştiinţei purta-amorul sânt în sin.</l>
+               <l>Cufundat în astă groapă poate zace vrun Milton,</l>
+               <l>Cu asemene ambiţie poate vreun Napoleon!			</l>
+            </lg>
+            <lg n="17" corresp="#stn16 #stn17">
+               <l>Dacă fulgerul şi schiptrul prin ei nu sunt înfrânate,</l>
+               <l>De n-a cântat a lui Adam fericirea şi pacate,</l>
+               <l>Dac-al morţei fioros înger, de la nord păn la apus,</l>
+               <l>Domnitorii şi popoare la un crunt giug n-a supus,</l>
+            </lg>
+            <lg n="18" corresp="#stn17">
+               <l>Înduratul ceri nu vrut-au ca a lor modestul nume</l>
+               <l>După moartea lor să fie spaimă au mirare-n lume.</l>
+               <l>Căci virtutea, ca şi răul, cumpenite-s la sătean;</l>
+               <l>El nu surpă, nici rădică, tronul crunt a lui tiran,</l>
+            </lg>
+            <lg n="19" corresp="#stn18 #stn19">
+               <l>Niciodată Poeziei armonia cea vândută.</l>
+               <l>La ambiţios nevrednic n-a da laudă necăzută.</l>
+               <l>Sub aceste mici movile ţărna lor s-a mormântat;</l>
+               <l>Pe o piatră, fără lustru, un vers simplu însemnat</l>
+            </lg>
+            <lg n="20" corresp="#stn20 #stn21">
+               <l>De la duios trecătoriul un suspin, lacrimă cere;</l>
+               <l>Muza n-a avut prin versuri să deştepte-a sa durere.</l>
+               <l>A lor nume, anii vieţei, poate piatra a vădi</l>
+               <l>Ş-oarecare vers ce-nvaţă pe săteni de a muri.</l>
+            </lg>
+            <lg n="21" corresp="#stn21 #stn22">
+               <l>Oare cine dintre oameni căutătura sa duioasă,</l>
+               <l>Păn să plece, nu aruncă peste lumea cea frumoasă?</l>
+               <l>Sfărâmând a sale-obeze, sufletul, la loc menit,</l>
+               <l>Pasă mângâiet de plânsul duioşiei însoţit.</l>
+            </lg>
+            <lg n="22" corresp="#stn23">
+               <l>Firea a sa limbă are, ce-n mormânt nu este mută,</l>
+               <l>A ei foc tot arde încă, deşi viaţa ne-i trecută;</l>
+               <l>Şi la vadul cel eternic, în o inimă dorim,</l>
+               <l>Care-n viaţă ni-a fost dulce, după moarte să trăim.</l>
+            </lg>
+            <lg n="23" corresp="#stn24">
+               <l>Dar când prin a mele versuri voi să trag din tunecime</l>
+               <l>Pre morţi ce zac făr de laudă în această ţânterime,</l>
+               <l>Un nepot al meu vrodată, întru duiosul său rost,</l>
+               <l>Văzând un mormânt mai proaspăt va să-ntrebe: cine-am fost?</l>
+            </lg>
+            <lg n="24" corresp="#stn25">
+               <l>Va răspunde-atuncea poate un păstor cu veche frunte:</l>
+               <l>L-am văzut în multe rânduri, când se lumina, la munte,</l>
+               <l>Cum pe iarba-nrourată mergea-n pas înaripat,</l>
+               <l>Ca Fiinţei rugi s-aducă care lumea a creat.</l>
+            </lg>
+            <lg n="25" corresp="#stn26">
+               <l>Alteori sub acel frasin cu întinsa rădăcină,</l>
+               <l>Care-umbrează cu mii ramuri ce de zefir se închină,</l>
+               <l>A căzut pe la amiază, întristat şi singurel,</l>
+               <l>Ţintind ochii plini de lacrimi în plăcutul râurel,</l>
+            </lg>
+            <lg n="26" corresp="#stn27">
+               <l>Şi trezit apoi din visuri murmura nişte cuvinte.</l>
+               <l>Uneori fugea la codru, sămănând smintit de minte;</l>
+               <l>Plecând capul câteodată, ca un om făr-agiutori,</l>
+               <l>Se părea cuprins de patimi sau de un fatal amor.</l>
+            </lg>
+            <lg n="27" corresp="#stn28">
+               <l>Într-o zi, pe culmea ceea, und-era a lui venire,</l>
+               <l>Aşteptatu-l-am, căutându-l, dar nu-l găsii nicăire.</l>
+               <l>A trecut şi ziua a doua, din nou iar l-am cercetat,</l>
+               <l>Dar pe munte, nici în codru, nici la râu nu l-am aflat.</l>
+            </lg>
+            <lg n="28" corresp="#stn29">
+               <l>Amar mie,-n ziua a treia, în adâncă duioşime</l>
+               <l>Cufundat, poporul nostru îl ducea la ţinterime.</l>
+               <l>Vezi în piatră epitaful, coperit d-umbrosul spin,</l>
+               <l>Vezi... că modul a scripturei ţie nu este străin!</l>
+            </lg>
+            <lg>
+               <head>Epitaf</head>
+               <lg n="29" corresp="#stn29">
+                  <l>Călătorule a vieţei, care dintre văi-nflorite</l>
+                  <l>Aici între-a morţei colnici întâmplarea te-a condus,</l>
+                  <l>Al tău pas un pic frânează, vezi fiinţe înmiite,</l>
+                  <l>Ce cu steaua dimineţei răsărit-au ş-au apus.</l>
+               </lg>
+               <lg n="30" corresp="#stn30">
+                  <l>Sub această piatră zace om dorit de-nvăţătură,</l>
+                  <l>Ce norocului şi vântei a fost purure străin.</l>
+                  <l>Din familie-umelită, nobil muzele-l făcură,</l>
+                  <l>Însă firea-i hultuisă melancolie în sân.</l>
+               </lg>
+               <lg n="31" corresp="#stn31">
+                  <l>Curat cuget, cu simţire, bunătatea-i era mare,</l>
+                  <l>Încât, pentru mângâiere, ceriul cel îndurător</l>
+                  <l>I-au trimis prin un alt suflet o duioasă vindecare,</l>
+                  <l>Dăruindu-i în grea cale un soţ bun şi simţitor.</l>
+               </lg>
+               <lg n="32" corresp="#stn32">
+                  <l>Nu-ntreba să afli mai multe de-a virtutei sale faptă,</l>
+                  <l>Dar nici cerca mai departe care-a fost şi răul său!</l>
+                  <l>Cu speranţa acum ambe tremurând de faţ-aşteaptă</l>
+                  <l>Lângă Cela ce ni este Părinte şi Dumnezeu.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
