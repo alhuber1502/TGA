@@ -170,10 +170,23 @@
 	    <div class="panel-heading">
 	      <h3 class="panel-title">News/Updates</h3>
 	    </div>
+
+        <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+        <bsky-embed
+            search="#ThomasGrayArchive"
+            mode="light"
+            limit="10"
+            load-more="true"
+        custom-styles="section.light { max-height:585px; overflow: scroll;}
+        section.light a {color: #8C001A;}"
+        >
+        </bsky-embed>
+<!--
 	    <div id="twitter-updates" class="panel-body" style="height:580px; overflow:auto; padding-top: 10px;">
-	      <!--#include virtual="/updates.shtml" -->
+	      <!- #include virtual="/updates.shtml" ->
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
+-->
 	  </div>
 
 	</div>
