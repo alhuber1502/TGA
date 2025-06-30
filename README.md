@@ -26,4 +26,6 @@ and support the study, research, and teaching of Gray's life and works.
 ## Contact
 * ORCID: [Alexander Huber](http://orcid.org/0000-0002-2151-6415)
 * E-mail: [huber@thomasgray.org](mailto:huber@thomasgray.org)
-* Twitter: [@C18AH](https://twitter.com/C18AH)
+* Bluesky: [@C18AH](https://bsky.app/profile/c18ah.bsky.social)
+* Mastodon: [@C18AH](https://hcommons.social/@c18ah)
+* X: [@C18AH](https://twitter.com/C18AH)
