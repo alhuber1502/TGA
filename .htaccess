@@ -63,6 +63,7 @@ RewriteRule   ^texts/diglib/primary/([a-zA-Z0-9_]+)/(\d+)/(lt22)$	/cgi-bin/view.
 RewriteRule   ^texts/diglib/primary/([a-zA-Z0-9_]+)/(\d+)/(lt23)$	/cgi-bin/view.cgi?collection=primary&edition=$1&part=$2&text=$3	[NE,L,PT]
 RewriteRule   ^texts/diglib/primary/([a-zA-Z0-9_]+)/(\d+)/(lt24)$	/cgi-bin/view.cgi?collection=primary&edition=$1&part=$2&text=$3	[NE,L,PT]
 RewriteRule   ^texts/diglib/primary/([a-zA-Z0-9_]+)/(\d+)/(lt25)$	/cgi-bin/view.cgi?collection=primary&edition=$1&part=$2&text=$3	[NE,L,PT]
+RewriteRule   ^texts/diglib/primary/([a-zA-Z0-9_]+)/(\d+)/(lt26)$	/cgi-bin/view.cgi?collection=primary&edition=$1&part=$2&text=$3	[NE,L,PT]
 RewriteRule   ^texts/diglib/primary/([a-zA-Z0-9_]+)/(\d+)/(inaw)$	/cgi-bin/view.cgi?collection=primary&edition=$1&part=$2&text=$3	[NE,L,PT]
 RewriteRule   ^texts/diglib/primary/([a-zA-Z0-9_]+)/(\d+)/(agtr)$	/cgi-bin/view.cgi?collection=primary&edition=$1&part=$2&text=$3	[NE,L,PT]
 RewriteRule   ^texts/diglib/primary/([a-zA-Z0-9_]+)/(\d+)/(aleg)$	/cgi-bin/view.cgi?collection=primary&edition=$1&part=$2&text=$3	[NE,L,PT]
@@ -136,7 +137,7 @@ RewriteRule   ^resources/concordance/lat/list/(\d+)$	/cgi-bin/search.cgi?occurli
 
 RewriteRule   ^resources/findaid/collection=(.*?)$	/cgi-bin/findaid.cgi?ead=grayt.ead.0001&amp;collection=$1	 [NE,L,PT]
 RewriteRule   ^resources/findaid/([a-zA-Z0-9_]*)$    /cgi-bin/findaid.cgi	[NE,L,PT]
-RewriteRule   ^texts/letters/collection=(.*)$    /cgi-bin/display.cgi?collection=$1	[NE,L,PT]
+RewriteRule   ^texts/letters/collection=(.*)$    /cgi-bin/display.cgi?collection=$1	"[NE,L,PT,B= ?,BNP]"
 RewriteRule   ^texts/letters/$    /cgi-bin/display.cgi	[NE,L,PT]
 RewriteRule   ^resources/search/$    /cgi-bin/search.cgi	[NE,L,PT]
 RewriteRule   ^texts/diglib/$    /cgi-bin/view.cgi	[NE,L,PT]
