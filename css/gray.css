@@ -358,6 +358,10 @@ display: none;
   font-family:"Open Sans","Times New Roman",Times,serif !important;
   line-height:normal !important;
 }
+.lacunae h2 {
+  font-size: 1.35em !important;
+  font-family:"Open Sans","Times New Roman",Times,serif !important;
+}
 .lacunae div.argument p {
     font-style:italic;
 }
@@ -1486,6 +1490,21 @@ display: none;
 
 }
 
+
+[data-lang="heb"] .text .l,
+[data-lang="heb"] .lg .l
+{
+    text-align: right;
+    padding-right: 25px;
+}
+[data-lang="heb"] .text,
+[data-lang="heb"] .lg
+{
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+
 #main .hide, .hide {
 display: none;
 }
@@ -1521,6 +1540,9 @@ position: relative;
 	 font-size:inherit;
 }
 
+input {
+  accent-color:#88291a;
+}
 
 #contributePoems select, #contributePoems input {
 

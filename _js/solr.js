@@ -46,6 +46,11 @@ repl[ "pol" ] = "Polish";
 repl[ "spa" ] = "Spanish";
 repl[ "swe" ] = "Swedish";
 repl[ "rus" ] = "Russian";
+repl[ "ron" ] = "Romanian";
+repl[ "hun" ] = "Hungarian";
+repl[ "heb" ] = "Hebrew";
+repl[ "hyl" ] = "Armenian";
+repl[ "slv" ] = "Slovene";
 
 // format facet fields and ranges
 function format_filters( filters, base ) {
