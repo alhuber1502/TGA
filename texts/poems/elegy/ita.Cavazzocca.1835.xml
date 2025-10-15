@@ -4,6 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title level="a">[Elegia]</title>
             <author>Cavazzocca, Francesco</author>
             <respStmt>
                <name xml:id="AH">Alexander Huber</name>
@@ -41,6 +42,7 @@
             <bibl xml:id="ita1835_bib">
                <date>1835</date>
                <author>Cavazzocca, Francesco</author>
+               <title level="a">[Elegia]</title>
                <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
                <editor>Torri, Alessandro</editor>
                <pubPlace>Verona</pubPlace>
@@ -49,7 +51,7 @@
                <edition>2nd edition</edition>
                <date type="publ">1843</date>
                <idno type="NoC_1917">810</idno>
-               <note type="edst">Transcription by Tom Turk.</note>
+               <note type="edst" xml:id="elcct_II-n00145">Transcription by Tom Turk.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -85,233 +87,2343 @@
               rendition="#lgvspace"
               type="verse"
               xml:id="ita.Cavazzocca.1835">
-            <head type="main"/>
-            <lg n="1">
-               <lg corresp="#stn1">
-                  <l>Lo squillo annunzia il venir men del giorno;</l>
-                  <l>Erra mugghiando in sulla piaggia il gregge</l>
-                  <l>A passo a passo; l’arator ritorna,</l>
-                  <l>Sua faticosa via fisando, a casa:</l>
-                  <l>Ed a me lascia il Mondo, e a le tenébre.</l>
+            <head type="main">
+               <pc xml:id="elcct_II-370450" n="a-347660">[</pc>
+               <w xml:id="elcct_II-370460" n="a-347670">Elegia</w>
+               <pc xml:id="elcct_II-370470" n="a-347680" unit="sentence">]</pc>
+            </head>
+            <lg n="1" xml:id="elcct_II-s04800">
+               <lg corresp="#stn1" xml:id="elcct_II-s04805">
+                  <l xml:id="elcct_II-l17200">
+                     <w xml:id="elcct_II-370510" n="a-347690">Lo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370520" n="a-347700">squillo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370530" n="a-347710">annunzia</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370540" n="a-347720">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370550" n="a-347730">venir</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370560" n="a-347740">men</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370570" n="a-347750">del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370580" n="a-347760">giorno</w>
+                     <pc xml:id="elcct_II-370590" n="a-347770">;</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17205">
+                     <w xml:id="elcct_II-370600" n="a-347780">Erra</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370610" n="a-347790">mugghiando</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370620" n="a-347800">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370630" n="a-347810">sulla</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370640" n="a-347820">piaggia</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370650" n="a-347830">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370660" n="a-347840">gregge</w>
+                  </l>
+                  <l xml:id="elcct_II-l17210">
+                     <w xml:id="elcct_II-370670" n="a-347850">A</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370680" n="a-347860">passo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370690" n="a-347870">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370700" n="a-347880">passo</w>
+                     <pc xml:id="elcct_II-370710" n="a-347890">;</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-370720" n="a-347900">l’arator</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370730" n="a-347910">ritorna</w>
+                     <pc xml:id="elcct_II-370740" n="a-347920">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17215">
+                     <w xml:id="elcct_II-370750" n="a-347930">Sua</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370760" n="a-347940">faticosa</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370770" n="a-347950">via</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370780" n="a-347960">fisando</w>
+                     <pc xml:id="elcct_II-370790" n="a-347970">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-370800" n="a-347980">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370810" n="a-347990">casa</w>
+                     <pc xml:id="elcct_II-370820" n="a-348000">:</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17220">
+                     <w xml:id="elcct_II-370830" n="a-348010">Ed</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370840" n="a-348020">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370850" n="a-348030">me</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370860" n="a-348040">lascia</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370870" n="a-348050">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370880" n="a-348060">Mondo</w>
+                     <pc xml:id="elcct_II-370890" n="a-348070">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-370900" n="a-348080">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370910" n="a-348090">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370920" n="a-348100">le</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370930" n="a-348110">tenébre</w>
+                     <pc xml:id="elcct_II-370940" n="a-348120" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn2">
-                  <l>Orribile silenzio e mäestoso</l>
-                  <l>Ovunque regna; ronzar sol d’intorno</l>
-                  <l>S’ode lo scarafaggio, e il connolento</l>
-                  <l>Tintinnir, che addormenta il chiuso ovile.</l>
+               <lg corresp="#stn2" xml:id="elcct_II-s04810">
+                  <l xml:id="elcct_II-l17225">
+                     <w xml:id="elcct_II-370960" n="a-348130">Orribile</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370970" n="a-348140">silenzio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370980" n="a-348150">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-370990" n="a-348160">mäestoso</w>
+                  </l>
+                  <l xml:id="elcct_II-l17230">
+                     <w xml:id="elcct_II-371000" n="a-348170">Ovunque</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371010" n="a-348180">regna</w>
+                     <pc xml:id="elcct_II-371020" n="a-348190">;</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-371030" n="a-348200">ronzar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371040" n="a-348210">sol</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371050" n="a-348220">d’intorno</w>
+                  </l>
+                  <l xml:id="elcct_II-l17235">
+                     <w xml:id="elcct_II-371060" n="a-348230">S’ode</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371070" n="a-348240">lo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371080" n="a-348250">scarafaggio</w>
+                     <pc xml:id="elcct_II-371090" n="a-348260">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-371100" n="a-348270">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371110" n="a-348280">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371120" n="a-348290">sonnolento</w>
+                  </l>
+                  <l xml:id="elcct_II-l17240">
+                     <w xml:id="elcct_II-371130" n="a-348300">Tintinnir</w>
+                     <pc xml:id="elcct_II-371140" n="a-348310">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-371150" n="a-348320">che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371160" n="a-348330">addormenta</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371170" n="a-348340">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371180" n="a-348350">chiuso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371190" n="a-348360">ovile</w>
+                     <pc xml:id="elcct_II-371200" n="a-348370" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn3">
-                  <l>Della Luna al chiaror dall’erma torre,</l>
-                  <l>Che attorta edera ammanta, il pensieroso</l>
-                  <l>Gufo si duole di colui, che il regno</l>
-                  <l part="I">Antico gli sturbò.</l>
+               <lg corresp="#stn3" xml:id="elcct_II-s04815">
+                  <l xml:id="elcct_II-l17245">
+                     <w xml:id="elcct_II-371220" n="a-348380">Della</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371230" n="a-348390">Luna</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371240" n="a-348400">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371250" n="a-348410">chiaror</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371260" n="a-348420">dall’erma</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371270" n="a-348430">torre</w>
+                     <pc xml:id="elcct_II-371280" n="a-348440">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17250">
+                     <w xml:id="elcct_II-371290" n="a-348450">Che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371300" n="a-348460">attorta</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371310" n="a-348470">edera</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371320" n="a-348480">ammanta</w>
+                     <pc xml:id="elcct_II-371330" n="a-348490">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-371340" n="a-348500">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371350" n="a-348510">pensieroso</w>
+                  </l>
+                  <l xml:id="elcct_II-l17255">
+                     <w xml:id="elcct_II-371360" n="a-348520">Gufo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371370" n="a-348530">si</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371380" n="a-348540">duole</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371390" n="a-348550">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371400" n="a-348560">colui</w>
+                     <pc xml:id="elcct_II-371410" n="a-348570">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-371420" n="a-348580">che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371430" n="a-348590">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371440" n="a-348600">regno</w>
+                  </l>
+                  <l part="I" xml:id="elcct_II-l17260.1">
+                     <w xml:id="elcct_II-371450" n="a-348610">Antico</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371460" n="a-348620">gli</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371470" n="a-348630">sturbò</w>
+                     <pc xml:id="elcct_II-371480" n="a-348640" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn4">
-                  <l part="F">D’un tasso all’ombra,</l>
-                  <l>E sotto a ruvid’olmi il suol s’innalza</l>
-                  <l>In polverose biche, ove in angusta</l>
-                  <l>Cella riposan nell’eterno sonno</l>
-                  <l>D’esto villaggio i rozzi antichi padri.</l>
+               <lg corresp="#stn4" xml:id="elcct_II-s04820">
+                  <l part="F" xml:id="elcct_II-l17260.2">
+                     <w xml:id="elcct_II-371500" n="a-348650">D’un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371510" n="a-348660">tasso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371520" n="a-348670">all’ombra</w>
+                     <pc xml:id="elcct_II-371530" n="a-348680">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17265">
+                     <w xml:id="elcct_II-371540" n="a-348690">E</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371550" n="a-348700">sotto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371560" n="a-348710">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371570" n="a-348720">ruvid’olmi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371580" n="a-348730">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371590" n="a-348740">suol</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371600" n="a-348750">s’innalza</w>
+                  </l>
+                  <l xml:id="elcct_II-l17270">
+                     <w xml:id="elcct_II-371610" n="a-348760">In</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371620" n="a-348770">polverose</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371630" n="a-348780">biche</w>
+                     <pc xml:id="elcct_II-371640" n="a-348790">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-371650" n="a-348800">ove</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371660" n="a-348810">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371670" n="a-348820">angusta</w>
+                  </l>
+                  <l xml:id="elcct_II-l17275">
+                     <w xml:id="elcct_II-371680" n="a-348830">Cella</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371690" n="a-348840">riposan</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371700" n="a-348850">nell’eterno</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371710" n="a-348860">sonno</w>
+                  </l>
+                  <l xml:id="elcct_II-l17280">
+                     <w xml:id="elcct_II-371720" n="a-348870">D’esto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371730" n="a-348880">villaggio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371740" n="a-348890">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371750" n="a-348900">rozzi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371760" n="a-348910">antichi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371770" n="a-348920">padri</w>
+                     <pc xml:id="elcct_II-371780" n="a-348930" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn5">
-                  <l>Il mormorar dell’aura al di che sorge</l>
-                  <l>Spirante incenso, rondine che manda</l>
-                  <l>Garruli lai dal pagliaresco tetto,</l>
-                  <l>Del gallo il rauco canto, o il suon del corno,</l>
-                  <l>Non più il desterà dal letto umíle.</l>
+               <lg corresp="#stn5" xml:id="elcct_II-s04825">
+                  <l xml:id="elcct_II-l17285">
+                     <w xml:id="elcct_II-371800" n="a-348940">Il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371810" n="a-348950">mormorar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371820" n="a-348960">dell’aura</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371830" n="a-348970">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371840" n="a-348980">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371850" n="a-348990">che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371860" n="a-349000">sorge</w>
+                  </l>
+                  <l xml:id="elcct_II-l17290">
+                     <w xml:id="elcct_II-371870" n="a-349010">Spirante</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371880" n="a-349020">incenso</w>
+                     <pc xml:id="elcct_II-371890" n="a-349030">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-371900" n="a-349040">rondine</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371910" n="a-349050">che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371920" n="a-349060">manda</w>
+                  </l>
+                  <l xml:id="elcct_II-l17295">
+                     <w xml:id="elcct_II-371930" n="a-349070">Garruli</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371940" n="a-349080">lai</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371950" n="a-349090">dal</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371960" n="a-349100">pagliaresco</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-371970" n="a-349110">tetto</w>
+                     <pc xml:id="elcct_II-371980" n="a-349120">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17300">
+                     <w xml:id="elcct_II-371990" n="a-349130">Del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372000" n="a-349140">gallo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372010" n="a-349150">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372020" n="a-349160">rauco</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372030" n="a-349170">canto</w>
+                     <pc xml:id="elcct_II-372040" n="a-349180">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-372050" n="a-349190">o</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372060" n="a-349200">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372070" n="a-349210">suon</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372080" n="a-349220">del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372090" n="a-349230">corno</w>
+                     <pc xml:id="elcct_II-372100" n="a-349240">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17305">
+                     <w xml:id="elcct_II-372110" n="a-349250">Non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372120" n="a-349260">più</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372130" n="a-349270">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372140" n="a-349280">desterà</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372150" n="a-349290">dal</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372160" n="a-349300">letto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372170" n="a-349310">umíle</w>
+                     <pc xml:id="elcct_II-372180" n="a-349320" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn6">
-                  <l>Il vampeggiante focolar per essi</l>
-                  <l>Non arderàl, nè a vespertini uffici</l>
-                  <l>Industre madre attenderà, nè i figli</l>
-                  <l>Balbettanti anderanno incontro al padre,</l>
-                  <l>E arrampicati sulle sue ginocchia</l>
-                  <l>Non più corrân gl’invidïati baci.</l>
+               <lg corresp="#stn6" xml:id="elcct_II-s04830">
+                  <l xml:id="elcct_II-l17310">
+                     <w xml:id="elcct_II-372200" n="a-349330">Il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372210" n="a-349340">vampeggiante</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372220" n="a-349350">focolar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372230" n="a-349360">per</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372240" n="a-349370">essi</w>
+                  </l>
+                  <l xml:id="elcct_II-l17315">
+                     <w xml:id="elcct_II-372250" n="a-349380">Non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372260" n="a-349390">arderà</w>
+                     <pc xml:id="elcct_II-372270" n="a-349400">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-372280" n="a-349410">nè</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372290" n="a-349420">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372300" n="a-349430">vespertini</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372310" n="a-349440">uffici</w>
+                  </l>
+                  <l xml:id="elcct_II-l17320">
+                     <w xml:id="elcct_II-372320" n="a-349450">Industre</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372330" n="a-349460">madre</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372340" n="a-349470">attenderà</w>
+                     <pc xml:id="elcct_II-372350" n="a-349480">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-372360" n="a-349490">nè</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372370" n="a-349500">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372380" n="a-349510">figli</w>
+                  </l>
+                  <l xml:id="elcct_II-l17325">
+                     <w xml:id="elcct_II-372390" n="a-349520">Balbettanti</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372400" n="a-349530">anderanno</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372410" n="a-349540">incontro</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372420" n="a-349550">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372430" n="a-349560">padre</w>
+                     <pc xml:id="elcct_II-372440" n="a-349570">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17330">
+                     <w xml:id="elcct_II-372450" n="a-349580">E</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372460" n="a-349590">arrampicati</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372470" n="a-349600">sulle</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372480" n="a-349610">sue</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372490" n="a-349620">ginocchia</w>
+                  </l>
+                  <l xml:id="elcct_II-l17335">
+                     <w xml:id="elcct_II-372500" n="a-349630">Non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372510" n="a-349640">più</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372520" n="a-349650">corrân</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372530" n="a-349660">gl’invidïati</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372540" n="a-349670">baci</w>
+                     <pc xml:id="elcct_II-372550" n="a-349680" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn7">
-                  <l>Spesso alle falci lor cadder le messi,</l>
-                  <l>E’l vomer spesso i duri solchi infranse;</l>
-                  <l>Oh! quanto lieti gli accoppiati buoi</l>
-                  <l>Traevano sul campo, e ai forti colpi</l>
-                  <l>Come cadeano disfrondati i boschi!</l>
+               <lg corresp="#stn7" xml:id="elcct_II-s04835">
+                  <l xml:id="elcct_II-l17340">
+                     <w xml:id="elcct_II-372570" n="a-349690">Spesso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372580" n="a-349700">alle</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372590" n="a-349710">falci</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372600" n="a-349720">lor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372610" n="a-349730">cadder</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372620" n="a-349740">le</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372630" n="a-349750">messi</w>
+                     <pc xml:id="elcct_II-372640" n="a-349760">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17345">
+                     <w xml:id="elcct_II-372650" n="a-349770">E</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372660" n="a-349780">’l</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372670" n="a-349790">vomer</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372680" n="a-349800">spesso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372690" n="a-349810">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372700" n="a-349820">duri</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372710" n="a-349830">solchi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372720" n="a-349840">infranse</w>
+                     <pc xml:id="elcct_II-372730" n="a-349850">;</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17350">
+                     <w xml:id="elcct_II-372740" n="a-349860">Oh</w>
+                     <pc xml:id="elcct_II-372745" n="a-349860">!</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-372750" n="a-349870">quanto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372760" n="a-349880">lieti</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372770" n="a-349890">gli</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372780" n="a-349900">accoppiati</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372790" n="a-349910">buoi</w>
+                  </l>
+                  <l xml:id="elcct_II-l17355">
+                     <w xml:id="elcct_II-372800" n="a-349920">Traevano</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372810" n="a-349930">sul</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372820" n="a-349940">campo</w>
+                     <pc xml:id="elcct_II-372830" n="a-349950">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-372840" n="a-349960">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372850" n="a-349970">ai</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372860" n="a-349980">forti</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372870" n="a-349990">colpi</w>
+                  </l>
+                  <l xml:id="elcct_II-l17360">
+                     <w xml:id="elcct_II-372880" n="a-350000">Come</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372890" n="a-350010">cadeano</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372900" n="a-350020">disfrondati</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372910" n="a-350030">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372920" n="a-350040">boschi</w>
+                     <pc xml:id="elcct_II-372930" n="a-350050" unit="sentence">!</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn8">
-                  <l>Non dispregiare, Ambizïon superba,</l>
-                  <l>Lor sorte oscura, e i semplici diletti,</l>
-                  <l>E l’util lor fatica; e non ascolti</l>
-                  <l>De’poverelli con sogghighno il Fasto</l>
-                  <l>I corti sì, ma non macchiati annali.</l>
+               <lg corresp="#stn8" xml:id="elcct_II-s04840">
+                  <l xml:id="elcct_II-l17365">
+                     <w xml:id="elcct_II-372950" n="a-350060">Non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372960" n="a-350070">dispregiare</w>
+                     <pc xml:id="elcct_II-372970" n="a-350080">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-372980" n="a-350090">Ambizïon</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-372990" n="a-350100">superba</w>
+                     <pc xml:id="elcct_II-373000" n="a-350110">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17370">
+                     <w xml:id="elcct_II-373010" n="a-350120">Lor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373020" n="a-350130">sorte</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373030" n="a-350140">oscura</w>
+                     <pc xml:id="elcct_II-373040" n="a-350150">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373050" n="a-350160">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373060" n="a-350170">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373070" n="a-350180">semplici</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373080" n="a-350190">diletti</w>
+                     <pc xml:id="elcct_II-373090" n="a-350200">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17375">
+                     <w xml:id="elcct_II-373100" n="a-350210">E</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373110" n="a-350220">l</w>
+                     <pc xml:id="elcct_II-373120" n="a-350230">’</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373130" n="a-350240">util</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373140" n="a-350250">lor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373150" n="a-350260">fatica</w>
+                     <pc xml:id="elcct_II-373160" n="a-350270">;</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373170" n="a-350280">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373180" n="a-350290">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373190" n="a-350300">ascolti</w>
+                  </l>
+                  <l xml:id="elcct_II-l17380">
+                     <w xml:id="elcct_II-373200" n="a-350310">De’poverelli</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373210" n="a-350320">con</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373220" n="a-350330">sogghigno</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373230" n="a-350340">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373240" n="a-350350">Fasto</w>
+                  </l>
+                  <l xml:id="elcct_II-l17385">
+                     <w xml:id="elcct_II-373250" n="a-350360">I</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373260" n="a-350370">corti</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373270" n="a-350380">sì</w>
+                     <pc xml:id="elcct_II-373280" n="a-350390">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373290" n="a-350400">ma</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373300" n="a-350410">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373310" n="a-350420">macchiati</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373320" n="a-350430">annali</w>
+                     <pc xml:id="elcct_II-373330" n="a-350440" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn9">
-                  <l>Van to di araldic’arte, del Potere</l>
-                  <l>La pompa, e quanto la Beltà dar puote,</l>
-                  <l>O le Ricchezze, inevitabil fine</l>
-                  <l>Attendono del pari; anche d’onore</l>
-                  <l>Il sentiero, alla fossa alfine adduce.</l>
+               <lg corresp="#stn9" xml:id="elcct_II-s04845">
+                  <l xml:id="elcct_II-l17390">
+                     <w xml:id="elcct_II-373350" n="a-350450">Vanto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373360" n="a-350460">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373370" n="a-350470">araldic’arte</w>
+                     <pc xml:id="elcct_II-373380" n="a-350480">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373390" n="a-350490">del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373400" n="a-350500">Potere</w>
+                  </l>
+                  <l xml:id="elcct_II-l17395">
+                     <w xml:id="elcct_II-373410" n="a-350510">La</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373420" n="a-350520">pompa</w>
+                     <pc xml:id="elcct_II-373430" n="a-350530">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373440" n="a-350540">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373450" n="a-350550">quanto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373460" n="a-350560">la</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373470" n="a-350570">Beltà</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373480" n="a-350580">dar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373490" n="a-350590">puote</w>
+                     <pc xml:id="elcct_II-373500" n="a-350600">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17400">
+                     <w xml:id="elcct_II-373510" n="a-350610">O</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373520" n="a-350620">le</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373530" n="a-350630">Ricchezze</w>
+                     <pc xml:id="elcct_II-373540" n="a-350640">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373550" n="a-350650">inevitabil</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373560" n="a-350660">fine</w>
+                  </l>
+                  <l xml:id="elcct_II-l17405">
+                     <w xml:id="elcct_II-373570" n="a-350670">Attendono</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373580" n="a-350680">del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373590" n="a-350690">pari</w>
+                     <pc xml:id="elcct_II-373600" n="a-350700">;</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373610" n="a-350710">anche</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373620" n="a-350720">d’onore</w>
+                  </l>
+                  <l xml:id="elcct_II-l17410">
+                     <w xml:id="elcct_II-373630" n="a-350730">Il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373640" n="a-350740">sentiero</w>
+                     <pc xml:id="elcct_II-373650" n="a-350750">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373660" n="a-350760">alla</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373670" n="a-350770">fossa</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373680" n="a-350780">alfine</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373690" n="a-350790">adduce</w>
+                     <pc xml:id="elcct_II-373700" n="a-350800" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn10">
-                  <l>Nè tu apporre, o superbo, a biasmo e ad onta</l>
-                  <l>Se la memoria su lor tombe umili</l>
-                  <l>Trofeo non erse, nè di preci e laudi</l>
-                  <l>S’odan del tempio risuonar le volte.</l>
+               <lg corresp="#stn10" xml:id="elcct_II-s04850">
+                  <l xml:id="elcct_II-l17415">
+                     <w xml:id="elcct_II-373720" n="a-350810">Nè</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373730" n="a-350820">tu</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373740" n="a-350830">apporre</w>
+                     <pc xml:id="elcct_II-373750" n="a-350840">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373760" n="a-350850">o</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373770" n="a-350860">superbo</w>
+                     <pc xml:id="elcct_II-373780" n="a-350870">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373790" n="a-350880">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373800" n="a-350890">biasmo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373810" n="a-350900">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373820" n="a-350910">ad</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373830" n="a-350920">onta</w>
+                  </l>
+                  <l xml:id="elcct_II-l17420">
+                     <w xml:id="elcct_II-373840" n="a-350930">Se</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373850" n="a-350940">la</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373860" n="a-350950">memoria</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373870" n="a-350960">su</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373880" n="a-350970">lor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373890" n="a-350980">tombe</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373900" n="a-350990">umili</w>
+                  </l>
+                  <l xml:id="elcct_II-l17425">
+                     <w xml:id="elcct_II-373910" n="a-351000">Trofeo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373920" n="a-351010">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373930" n="a-351020">erse</w>
+                     <pc xml:id="elcct_II-373940" n="a-351030">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-373950" n="a-351040">nè</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373960" n="a-351050">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373970" n="a-351060">preci</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373980" n="a-351070">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-373990" n="a-351080">laudi</w>
+                  </l>
+                  <l xml:id="elcct_II-l17430">
+                     <w xml:id="elcct_II-374000" n="a-351090">S’odan</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374010" n="a-351100">del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374020" n="a-351110">tempio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374030" n="a-351120">risuonar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374040" n="a-351130">le</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374050" n="a-351140">volte</w>
+                     <pc xml:id="elcct_II-374060" n="a-351150" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn11">
-                  <l>Varría forse un avello, o l’effigiato</l>
-                  <l>Busto a chiamare il fuggitivo spirto</l>
-                  <l>A sua sede primiera? dell’onore</l>
-                  <l>Potrà la voce di novella lvita</l>
-                  <l>La muta polve riscalder? Gelato</l>
-                  <l>È l’orecchio di Morte; a lei non giunge</l>
-                  <l>Di moral laude il lusinghevol suono.</l>
+               <lg corresp="#stn11" xml:id="elcct_II-s04855">
+                  <l xml:id="elcct_II-l17435">
+                     <w xml:id="elcct_II-374080" n="a-351160">Varría</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374090" n="a-351170">forse</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374100" n="a-351180">un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374110" n="a-351190">avello</w>
+                     <pc xml:id="elcct_II-374120" n="a-351200">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-374130" n="a-351210">o</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374140" n="a-351220">l’effigiato</w>
+                  </l>
+                  <l xml:id="elcct_II-l17440">
+                     <w xml:id="elcct_II-374150" n="a-351230">Busto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374160" n="a-351240">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374170" n="a-351250">chiamare</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374180" n="a-351260">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374190" n="a-351270">fuggitivo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374200" n="a-351280">spirto</w>
+                  </l>
+                  <l xml:id="elcct_II-l17445">
+                     <w xml:id="elcct_II-374210" n="a-351290">A</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374220" n="a-351300">sua</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374230" n="a-351310">sede</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374240" n="a-351320">primiera</w>
+                     <pc xml:id="elcct_II-374250" n="a-351330">?</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-374260" n="a-351340">dell’onore</w>
+                  </l>
+                  <l xml:id="elcct_II-l17450">
+                     <w xml:id="elcct_II-374270" n="a-351350">Potrà</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374280" n="a-351360">la</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374290" n="a-351370">voce</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374300" n="a-351380">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374310" n="a-351390">novella</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374320" n="a-351400">vita</w>
+                  </l>
+                  <l xml:id="elcct_II-l17455">
+                     <w xml:id="elcct_II-374330" n="a-351410">La</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374340" n="a-351420">muta</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374350" n="a-351430">polve</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374360" n="a-351440">riscaldar</w>
+                     <pc xml:id="elcct_II-374370" n="a-351450" unit="sentence">?</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-374380" n="a-351460">Gelato</w>
+                  </l>
+                  <l xml:id="elcct_II-l17460">
+                     <w xml:id="elcct_II-374390" n="a-351470">È</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374400" n="a-351480">l’orecchio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374410" n="a-351490">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374420" n="a-351500">Morte</w>
+                     <pc xml:id="elcct_II-374430" n="a-351510">;</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-374440" n="a-351520">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374450" n="a-351530">lei</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374460" n="a-351540">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374470" n="a-351550">giunge</w>
+                  </l>
+                  <l xml:id="elcct_II-l17465">
+                     <w xml:id="elcct_II-374480" n="a-351560">Di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374490" n="a-351570">mortal</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374500" n="a-351580">laude</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374510" n="a-351590">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374520" n="a-351600">lusinghevol</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374530" n="a-351610">suono</w>
+                     <pc xml:id="elcct_II-374540" n="a-351620" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn12">
-                  <l>Forse anco in questo angol negletto posa</l>
-                  <l>Un cor ripien di sacro ardor celeste,</l>
-                  <l>O man’che d’un impero avrían saputo</l>
-                  <l>Tener lo scettro, e ridestar pur anco</l>
-                  <l>A nuova vita armonïosa lira.</l>
+               <lg corresp="#stn12" xml:id="elcct_II-s04860">
+                  <l xml:id="elcct_II-l17470">
+                     <w xml:id="elcct_II-374560" n="a-351630">Forse</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374570" n="a-351640">anco</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374580" n="a-351650">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374590" n="a-351660">questo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374600" n="a-351670">angol</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374610" n="a-351680">negletto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374620" n="a-351690">posa</w>
+                  </l>
+                  <l xml:id="elcct_II-l17475">
+                     <w xml:id="elcct_II-374630" n="a-351700">Un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374640" n="a-351710">cor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374650" n="a-351720">ripien</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374660" n="a-351730">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374670" n="a-351740">sacro</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374680" n="a-351750">ardor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374690" n="a-351760">celeste</w>
+                     <pc xml:id="elcct_II-374700" n="a-351770">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17480">
+                     <w xml:id="elcct_II-374710" n="a-351780">O</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374720" n="a-351790">man’che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374730" n="a-351800">d’un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374740" n="a-351810">impero</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374750" n="a-351820">avrían</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374760" n="a-351830">saputo</w>
+                  </l>
+                  <l xml:id="elcct_II-l17485">
+                     <w xml:id="elcct_II-374770" n="a-351840">Tener</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374780" n="a-351850">lo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374790" n="a-351860">scettro</w>
+                     <pc xml:id="elcct_II-374800" n="a-351870">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-374810" n="a-351880">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374820" n="a-351890">ridestar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374830" n="a-351900">pur</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374840" n="a-351910">anco</w>
+                  </l>
+                  <l xml:id="elcct_II-l17490">
+                     <w xml:id="elcct_II-374850" n="a-351920">A</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374860" n="a-351930">nuova</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374870" n="a-351940">vita</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374880" n="a-351950">armonïosa</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374890" n="a-351960">lira</w>
+                     <pc xml:id="elcct_II-374900" n="a-351970" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn13">
-                  <l>Ma Sofia non speigò loro il volume</l>
-                  <l>Ampio del tempo e di sue spoglie, e fredda</l>
-                  <l>Povertade tarpò del nobil estro</l>
-                  <l>Le ali, e dell’alma il dolce moto avvinse.</l>
+               <lg corresp="#stn13" xml:id="elcct_II-s04865">
+                  <l xml:id="elcct_II-l17495">
+                     <w xml:id="elcct_II-374920" n="a-351980">Ma</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374930" n="a-351990">Sofia</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374940" n="a-352000">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374950" n="a-352010">spiegò</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374960" n="a-352020">loro</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374970" n="a-352030">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-374980" n="a-352040">volume</w>
+                  </l>
+                  <l xml:id="elcct_II-l17500">
+                     <w xml:id="elcct_II-374990" n="a-352050">Ampio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375000" n="a-352060">del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375010" n="a-352070">tempo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375020" n="a-352080">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375030" n="a-352090">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375040" n="a-352100">sue</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375050" n="a-352110">spoglie</w>
+                     <pc xml:id="elcct_II-375060" n="a-352120">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-375070" n="a-352130">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375080" n="a-352140">fredda</w>
+                  </l>
+                  <l xml:id="elcct_II-l17505">
+                     <w xml:id="elcct_II-375090" n="a-352150">Povertade</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375100" n="a-352160">tarpò</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375110" n="a-352170">del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375120" n="a-352180">nobil</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375130" n="a-352190">estro</w>
+                  </l>
+                  <l xml:id="elcct_II-l17510">
+                     <w xml:id="elcct_II-375140" n="a-352200">Le</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375150" n="a-352210">ali</w>
+                     <pc xml:id="elcct_II-375160" n="a-352220">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-375170" n="a-352230">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375180" n="a-352240">dell’alma</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375190" n="a-352250">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375200" n="a-352260">dolce</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375210" n="a-352270">moto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375220" n="a-352280">avvinse</w>
+                     <pc xml:id="elcct_II-375230" n="a-352290" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn14">
-                  <l>Quante gemme, che han uro e risplendente</l>
-                  <l>Raggio, ne’cupi abissi il mar ricopre!</l>
-                  <l>E quanti fior rosseggiano negletti,</l>
-                  <l>E i lor grati profumi all’aer solingo</l>
-                  <l part="I">Splandono inutilmente!</l>
+               <lg corresp="#stn14" xml:id="elcct_II-s04870">
+                  <l xml:id="elcct_II-l17515">
+                     <w xml:id="elcct_II-375250" n="a-352300">Quante</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375260" n="a-352310">gemme</w>
+                     <pc xml:id="elcct_II-375270" n="a-352320">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-375280" n="a-352330">che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375290" n="a-352340">han</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375300" n="a-352350">puro</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375310" n="a-352360">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375320" n="a-352370">risplendente</w>
+                  </l>
+                  <l xml:id="elcct_II-l17520">
+                     <w xml:id="elcct_II-375330" n="a-352380">Raggio</w>
+                     <pc xml:id="elcct_II-375340" n="a-352390">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-375350" n="a-352400">ne’cupi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375360" n="a-352410">abissi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375370" n="a-352420">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375380" n="a-352430">mar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375390" n="a-352440">ricopre</w>
+                     <pc xml:id="elcct_II-375400" n="a-352450" unit="sentence">!</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17525">
+                     <w xml:id="elcct_II-375410" n="a-352460">E</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375420" n="a-352470">quanti</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375430" n="a-352480">fior</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375440" n="a-352490">rosseggiano</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375450" n="a-352500">negletti</w>
+                     <pc xml:id="elcct_II-375460" n="a-352510">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17530">
+                     <w xml:id="elcct_II-375470" n="a-352520">E</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375480" n="a-352530">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375490" n="a-352540">lor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375500" n="a-352550">grati</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375510" n="a-352560">profumi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375520" n="a-352570">all’aer</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375530" n="a-352580">solingo</w>
+                  </l>
+                  <l part="I" xml:id="elcct_II-l17535.1">
+                     <w xml:id="elcct_II-375540" n="a-352590">Splandono</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375550" n="a-352600">inutilmente</w>
+                     <pc xml:id="elcct_II-375560" n="a-352610" unit="sentence">!</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn15">
-                  <l part="F">Ampden si trova</l>
-                  <l>Villico forse qui, che il petto oppose</l>
-                  <l>Ardimentoso al piccolo tiranno</l>
-                  <l>Del suo podere; od un Milton ignoto,</l>
-                  <l>Od un Cromvell, non reo di patrio sangue.</l>
+               <lg corresp="#stn15" xml:id="elcct_II-s04875">
+                  <l part="F" xml:id="elcct_II-l17535.2">
+                     <w xml:id="elcct_II-375580" n="a-352620">Ampden</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375590" n="a-352630">si</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375600" n="a-352640">trova</w>
+                  </l>
+                  <l xml:id="elcct_II-l17540">
+                     <w xml:id="elcct_II-375610" n="a-352650">Villico</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375620" n="a-352660">forse</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375630" n="a-352670">qui</w>
+                     <pc xml:id="elcct_II-375640" n="a-352680">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-375650" n="a-352690">che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375660" n="a-352700">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375670" n="a-352710">petto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375680" n="a-352720">oppose</w>
+                  </l>
+                  <l xml:id="elcct_II-l17545">
+                     <w xml:id="elcct_II-375690" n="a-352730">Ardimentoso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375700" n="a-352740">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375710" n="a-352750">piccolo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375720" n="a-352760">tiranno</w>
+                  </l>
+                  <l xml:id="elcct_II-l17550">
+                     <w xml:id="elcct_II-375730" n="a-352770">Del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375740" n="a-352780">suo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375750" n="a-352790">podere</w>
+                     <pc xml:id="elcct_II-375760" n="a-352800">;</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-375770" n="a-352810">od</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375780" n="a-352820">un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375790" n="a-352830">Milton</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375800" n="a-352840">ignoto</w>
+                     <pc xml:id="elcct_II-375810" n="a-352850">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17555">
+                     <w xml:id="elcct_II-375820" n="a-352860">Od</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375830" n="a-352870">un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375840" n="a-352880">Cromvell</w>
+                     <pc xml:id="elcct_II-375850" n="a-352890">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-375860" n="a-352900">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375870" n="a-352910">reo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375880" n="a-352920">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375890" n="a-352930">patrio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375900" n="a-352940">sangue</w>
+                     <pc xml:id="elcct_II-375910" n="a-352950" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn16">
-                  <l>D’attonito Consesso udire i plausi,</l>
-                  <l>Spregiar de’danni le minacce e ‘l duolo,</l>
-                  <l>Sparger la copia su ridenti ville,</l>
-                  <l>E ai popoli contar opre famose,</l>
+               <lg corresp="#stn16" xml:id="elcct_II-s04880">
+                  <l xml:id="elcct_II-l17560">
+                     <w xml:id="elcct_II-375930" n="a-352960">D’attonito</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375940" n="a-352970">Consesso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375950" n="a-352980">udire</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375960" n="a-352990">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-375970" n="a-353000">plausi</w>
+                     <pc xml:id="elcct_II-375980" n="a-353010">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17565">
+                     <w xml:id="elcct_II-375990" n="a-353020">Spregiar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376000" n="a-353030">de’danni</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376010" n="a-353040">le</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376020" n="a-353050">minacce</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376030" n="a-353060">e</w>
+                     <c> </c>
+                     <pc xml:id="elcct_II-376040" n="a-353070">‘</pc>
+                     <w xml:id="elcct_II-376050" n="a-353080">l</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376060" n="a-353090">duolo</w>
+                     <pc xml:id="elcct_II-376070" n="a-353100">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17570">
+                     <w xml:id="elcct_II-376080" n="a-353110">Sparger</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376090" n="a-353120">la</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376100" n="a-353130">copia</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376110" n="a-353140">su</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376120" n="a-353150">ridenti</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376130" n="a-353160">ville</w>
+                     <pc xml:id="elcct_II-376140" n="a-353170">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17575">
+                     <w xml:id="elcct_II-376150" n="a-353180">E</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376160" n="a-353190">ai</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376170" n="a-353200">popoli</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376180" n="a-353210">contar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376190" n="a-353220">opre</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376200" n="a-353230">famose</w>
+                     <pc xml:id="elcct_II-376210" n="a-353240">,</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn17">
-                  <l>Lor non concesse il fato; e pur se il varco</l>
-                  <l>Chiuse a tante virtudi, almen represse</l>
-                  <l>I vizj in loro, e fra le stragi un trono</l>
-                  <l>Non permise salir, nè a umana schiatta</l>
-                  <l>Chiuder le porte di pietado in faccia;</l>
+               <lg corresp="#stn17" xml:id="elcct_II-s04885">
+                  <l xml:id="elcct_II-l17580">
+                     <w xml:id="elcct_II-376230" n="a-353250">Lor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376240" n="a-353260">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376250" n="a-353270">concesse</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376260" n="a-353280">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376270" n="a-353290">fato</w>
+                     <pc xml:id="elcct_II-376280" n="a-353300">;</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-376290" n="a-353310">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376300" n="a-353320">pur</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376310" n="a-353330">se</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376320" n="a-353340">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376330" n="a-353350">varco</w>
+                  </l>
+                  <l xml:id="elcct_II-l17585">
+                     <w xml:id="elcct_II-376340" n="a-353360">Chiuse</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376350" n="a-353370">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376360" n="a-353380">tante</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376370" n="a-353390">virtudi</w>
+                     <pc xml:id="elcct_II-376380" n="a-353400">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-376390" n="a-353410">almen</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376400" n="a-353420">represse</w>
+                  </l>
+                  <l xml:id="elcct_II-l17590">
+                     <w xml:id="elcct_II-376410" n="a-353430">I</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376420" n="a-353440">vizj</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376430" n="a-353450">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376440" n="a-353460">loro</w>
+                     <pc xml:id="elcct_II-376450" n="a-353470">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-376460" n="a-353480">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376470" n="a-353490">fra</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376480" n="a-353500">le</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376490" n="a-353510">stragi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376500" n="a-353520">un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376510" n="a-353530">trono</w>
+                  </l>
+                  <l xml:id="elcct_II-l17595">
+                     <w xml:id="elcct_II-376520" n="a-353540">Non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376530" n="a-353550">permise</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376540" n="a-353560">salir</w>
+                     <pc xml:id="elcct_II-376550" n="a-353570">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-376560" n="a-353580">nè</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376570" n="a-353590">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376580" n="a-353600">umana</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376590" n="a-353610">schiatta</w>
+                  </l>
+                  <l xml:id="elcct_II-l17600">
+                     <w xml:id="elcct_II-376600" n="a-353620">Chiuder</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376610" n="a-353630">le</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376620" n="a-353640">porte</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376630" n="a-353650">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376640" n="a-353660">pietade</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376650" n="a-353670">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376660" n="a-353680">faccia</w>
+                     <pc xml:id="elcct_II-376670" n="a-353690">;</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn18">
-                  <l>Nè dei rimorsi soffocâr la voce,</l>
-                  <l>O d’ingenuo pudor spenser la fiamma.</l>
-                  <l>Sull’altare del lusso e’non offriro</l>
-                  <l>Gli incensi tolti all’Apollineo foco;</l>
+               <lg corresp="#stn18" xml:id="elcct_II-s04890">
+                  <l xml:id="elcct_II-l17605">
+                     <w xml:id="elcct_II-376690" n="a-353700">Nè</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376700" n="a-353710">dei</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376710" n="a-353720">rimorsi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376720" n="a-353730">soffocâr</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376730" n="a-353740">la</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376740" n="a-353750">voce</w>
+                     <pc xml:id="elcct_II-376750" n="a-353760">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17610">
+                     <w xml:id="elcct_II-376760" n="a-353770">O</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376770" n="a-353780">d’ingenuo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376780" n="a-353790">pudor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376790" n="a-353800">spenser</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376800" n="a-353810">la</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376810" n="a-353820">fiamma</w>
+                     <pc xml:id="elcct_II-376820" n="a-353830" unit="sentence">.</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17615">
+                     <w xml:id="elcct_II-376830" n="a-353840">Sull’altare</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376840" n="a-353850">del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376850" n="a-353860">lusso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376860" n="a-353870">e</w>
+                     <pc xml:id="elcct_II-376870" n="a-353880">’</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-376880" n="a-353890">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376890" n="a-353900">offriro</w>
+                  </l>
+                  <l xml:id="elcct_II-l17620">
+                     <w xml:id="elcct_II-376900" n="a-353910">Gli</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376910" n="a-353920">incensi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376920" n="a-353930">tolti</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376930" n="a-353940">all’Apollineo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376940" n="a-353950">foco</w>
+                     <pc xml:id="elcct_II-376950" n="a-353960">;</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn19">
-                  <l>Ma lunge ognor dal popolar tumulto</l>
-                  <l>Puri serbaro i lor desiri, e lungo</l>
-                  <l>Il solitario e tacito sentiere</l>
-                  <l>Tennero il corse di tranquilla vita.</l>
+               <lg corresp="#stn19" xml:id="elcct_II-s04895">
+                  <l xml:id="elcct_II-l17625">
+                     <w xml:id="elcct_II-376970" n="a-353970">Ma</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376980" n="a-353980">lunge</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-376990" n="a-353990">ognor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377000" n="a-354000">dal</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377010" n="a-354010">popolar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377020" n="a-354020">tumulto</w>
+                  </l>
+                  <l xml:id="elcct_II-l17630">
+                     <w xml:id="elcct_II-377030" n="a-354030">Puri</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377040" n="a-354040">serbaro</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377050" n="a-354050">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377060" n="a-354060">lor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377070" n="a-354070">desiri</w>
+                     <pc xml:id="elcct_II-377080" n="a-354080">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-377090" n="a-354090">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377100" n="a-354100">lungo</w>
+                  </l>
+                  <l xml:id="elcct_II-l17635">
+                     <w xml:id="elcct_II-377110" n="a-354110">Il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377120" n="a-354120">solitario</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377130" n="a-354130">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377140" n="a-354140">tacito</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377150" n="a-354150">sentiere</w>
+                  </l>
+                  <l xml:id="elcct_II-l17640">
+                     <w xml:id="elcct_II-377160" n="a-354160">Tennero</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377170" n="a-354170">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377180" n="a-354180">corso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377190" n="a-354190">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377200" n="a-354200">tranquilla</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377210" n="a-354210">vita</w>
+                     <pc xml:id="elcct_II-377220" n="a-354220" unit="sentence">.</pc>
+                  </l>
                </lg>
             </lg>
-            <lg n="2">
-               <lg corresp="#stn20">
-                  <l>Perchè villano piede non insulti</l>
-                  <l>Lor ossa, surge vicin sasso, e frale</l>
-                  <l>Di rozze rime in forma inculta inciso;</l>
-                  <l>Che d’un qualche sospiro al passeggere</l>
-                  <l part="I">Chiede il santo tributo;</l>
+            <lg n="2" xml:id="elcct_II-s04900">
+               <lg corresp="#stn20" xml:id="elcct_II-s04905">
+                  <l xml:id="elcct_II-l17645">
+                     <w xml:id="elcct_II-377260" n="a-354230">Perchè</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377270" n="a-354240">villano</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377280" n="a-354250">piede</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377290" n="a-354260">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377300" n="a-354270">insulti</w>
+                  </l>
+                  <l xml:id="elcct_II-l17650">
+                     <w xml:id="elcct_II-377310" n="a-354280">Lor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377320" n="a-354290">ossa</w>
+                     <pc xml:id="elcct_II-377330" n="a-354300">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-377340" n="a-354310">surge</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377350" n="a-354320">vicin</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377360" n="a-354330">sasso</w>
+                     <pc xml:id="elcct_II-377370" n="a-354340">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-377380" n="a-354350">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377390" n="a-354360">frale</w>
+                  </l>
+                  <l xml:id="elcct_II-l17655">
+                     <w xml:id="elcct_II-377400" n="a-354370">Di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377410" n="a-354380">rozze</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377420" n="a-354390">rime</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377430" n="a-354400">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377440" n="a-354410">forma</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377450" n="a-354420">inculta</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377460" n="a-354430">inciso</w>
+                     <pc xml:id="elcct_II-377470" n="a-354440">;</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17660">
+                     <w xml:id="elcct_II-377480" n="a-354450">Che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377490" n="a-354460">d’un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377500" n="a-354470">qualche</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377510" n="a-354480">sospiro</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377520" n="a-354490">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377530" n="a-354500">passeggere</w>
+                  </l>
+                  <l part="I" xml:id="elcct_II-l17665.1">
+                     <w xml:id="elcct_II-377540" n="a-354510">Chiede</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377550" n="a-354520">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377560" n="a-354530">santo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377570" n="a-354540">tributo</w>
+                     <pc xml:id="elcct_II-377580" n="a-354550">;</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn21">
-                  <l part="F">i loro nomi,</l>
-                  <l>Ed i giorni, supplendo ai mesti carmi</l>
-                  <l>Ed alla Fama, illetterata Musa</l>
-                  <l>Descrive: anch’essa sulla tomba sculte</l>
-                  <l>Mostra sacre sentenze; e come al fato</l>
-                  <l>Ceda di morte il pio villano insegna.</l>
+               <lg corresp="#stn21" xml:id="elcct_II-s04910">
+                  <l part="F" xml:id="elcct_II-l17665.2">
+                     <w xml:id="elcct_II-377600" n="a-354560">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377610" n="a-354570">loro</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377620" n="a-354580">nomi</w>
+                     <pc xml:id="elcct_II-377630" n="a-354590">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17670">
+                     <w xml:id="elcct_II-377640" n="a-354600">Ed</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377650" n="a-354610">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377660" n="a-354620">giorni</w>
+                     <pc xml:id="elcct_II-377670" n="a-354630">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-377680" n="a-354640">supplendo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377690" n="a-354650">ai</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377700" n="a-354660">mesti</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377710" n="a-354670">carmi</w>
+                  </l>
+                  <l xml:id="elcct_II-l17675">
+                     <w xml:id="elcct_II-377720" n="a-354680">Ed</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377730" n="a-354690">alla</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377740" n="a-354700">Fama</w>
+                     <pc xml:id="elcct_II-377750" n="a-354710">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-377760" n="a-354720">illetterata</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377770" n="a-354730">Musa</w>
+                  </l>
+                  <l xml:id="elcct_II-l17680">
+                     <w xml:id="elcct_II-377780" n="a-354740">Descrive</w>
+                     <pc xml:id="elcct_II-377790" n="a-354750">:</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-377800" n="a-354760">anch’essa</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377810" n="a-354770">sulla</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377820" n="a-354780">tomba</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377830" n="a-354790">sculte</w>
+                  </l>
+                  <l xml:id="elcct_II-l17685">
+                     <w xml:id="elcct_II-377840" n="a-354800">Mostra</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377850" n="a-354810">sacre</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377860" n="a-354820">sentenze</w>
+                     <pc xml:id="elcct_II-377870" n="a-354830">;</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-377880" n="a-354840">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377890" n="a-354850">come</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377900" n="a-354860">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377910" n="a-354870">fato</w>
+                  </l>
+                  <l xml:id="elcct_II-l17690">
+                     <w xml:id="elcct_II-377920" n="a-354880">Ceda</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377930" n="a-354890">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377940" n="a-354900">morte</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377950" n="a-354910">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377960" n="a-354920">pio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377970" n="a-354930">villano</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-377980" n="a-354940">insegna</w>
+                     <pc xml:id="elcct_II-377990" n="a-354950" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn22">
-                  <l>E qual sarà, che nel morir non volga</l>
-                  <l>Di doglia carco un sospiroso guardo</l>
-                  <l>A queste pliagge, ov’è si lieto il giorno?</l>
+               <lg corresp="#stn22" xml:id="elcct_II-s04915">
+                  <l xml:id="elcct_II-l17695">
+                     <w xml:id="elcct_II-378010" n="a-354960">E</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378020" n="a-354970">qual</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378030" n="a-354980">sarà</w>
+                     <pc xml:id="elcct_II-378040" n="a-354990">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-378050" n="a-355000">che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378060" n="a-355010">nel</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378070" n="a-355020">morir</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378080" n="a-355030">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378090" n="a-355040">volga</w>
+                  </l>
+                  <l xml:id="elcct_II-l17700">
+                     <w xml:id="elcct_II-378100" n="a-355050">Di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378110" n="a-355060">doglia</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378120" n="a-355070">carco</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378130" n="a-355080">un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378140" n="a-355090">sospiroso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378150" n="a-355100">guardo</w>
+                  </l>
+                  <l xml:id="elcct_II-l17705">
+                     <w xml:id="elcct_II-378160" n="a-355110">A</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378170" n="a-355120">queste</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378180" n="a-355130">piagge</w>
+                     <pc xml:id="elcct_II-378190" n="a-355140">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-378200" n="a-355150">ov’è</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378210" n="a-355160">si</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378220" n="a-355170">lieto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378230" n="a-355180">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378240" n="a-355190">giorno</w>
+                     <pc xml:id="elcct_II-378250" n="a-355200" unit="sentence">?</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn23">
-                  <l>E chi vorrebbe questa di diletti</l>
-                  <l>Vita, e d’affanni insiem, cangiar coll’ombre</l>
-                  <l>Di morte, in preda a muto obblio? Di dolce</l>
-                  <l>Amico in seno si riposa l’alma</l>
-                  <l>Splirando, e ‘l semichiuso occhio dimanda</l>
-                  <l>Alcune stille di pietoso pianto.</l>
-                  <l>Dalla tomba Natura alza suo grido,</l>
-                  <l>E ‘l cener sente il consueto ardore.</l>
+               <lg corresp="#stn23" xml:id="elcct_II-s04920">
+                  <l xml:id="elcct_II-l17710">
+                     <w xml:id="elcct_II-378270" n="a-355210">E</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378280" n="a-355220">chi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378290" n="a-355230">vorrebbe</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378300" n="a-355240">questa</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378310" n="a-355250">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378320" n="a-355260">diletti</w>
+                  </l>
+                  <l xml:id="elcct_II-l17715">
+                     <w xml:id="elcct_II-378330" n="a-355270">Vita</w>
+                     <pc xml:id="elcct_II-378340" n="a-355280">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-378350" n="a-355290">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378360" n="a-355300">d’affanni</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378370" n="a-355310">insiem</w>
+                     <pc xml:id="elcct_II-378380" n="a-355320">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-378390" n="a-355330">cangiar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378400" n="a-355340">coll’ombre</w>
+                  </l>
+                  <l xml:id="elcct_II-l17720">
+                     <w xml:id="elcct_II-378410" n="a-355350">Di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378420" n="a-355360">morte</w>
+                     <pc xml:id="elcct_II-378430" n="a-355370">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-378440" n="a-355380">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378450" n="a-355390">preda</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378460" n="a-355400">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378470" n="a-355410">muto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378480" n="a-355420">obblio</w>
+                     <pc xml:id="elcct_II-378490" n="a-355430" unit="sentence">?</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-378500" n="a-355440">Di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378510" n="a-355450">dolce</w>
+                  </l>
+                  <l xml:id="elcct_II-l17725">
+                     <w xml:id="elcct_II-378520" n="a-355460">Amico</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378530" n="a-355470">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378540" n="a-355480">seno</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378550" n="a-355490">si</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378560" n="a-355500">riposa</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378570" n="a-355510">l’alma</w>
+                  </l>
+                  <l xml:id="elcct_II-l17730">
+                     <w xml:id="elcct_II-378580" n="a-355520">Spirando</w>
+                     <pc xml:id="elcct_II-378590" n="a-355530">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-378600" n="a-355540">e</w>
+                     <c> </c>
+                     <pc xml:id="elcct_II-378610" n="a-355550">‘</pc>
+                     <w xml:id="elcct_II-378620" n="a-355560">l</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378630" n="a-355570">semichiuso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378640" n="a-355580">occhio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378650" n="a-355590">dimanda</w>
+                  </l>
+                  <l xml:id="elcct_II-l17735">
+                     <w xml:id="elcct_II-378660" n="a-355600">Alcune</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378670" n="a-355610">stille</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378680" n="a-355620">di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378690" n="a-355630">pietoso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378700" n="a-355640">pianto</w>
+                     <pc xml:id="elcct_II-378710" n="a-355650" unit="sentence">.</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17740">
+                     <w xml:id="elcct_II-378720" n="a-355660">Dalla</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378730" n="a-355670">tomba</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378740" n="a-355680">Natura</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378750" n="a-355690">alza</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378760" n="a-355700">suo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378770" n="a-355710">grido</w>
+                     <pc xml:id="elcct_II-378780" n="a-355720">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17745">
+                     <w xml:id="elcct_II-378790" n="a-355730">E</w>
+                     <c> </c>
+                     <pc xml:id="elcct_II-378800" n="a-355740">‘</pc>
+                     <w xml:id="elcct_II-378810" n="a-355750">l</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378820" n="a-355760">cener</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378830" n="a-355770">sente</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378840" n="a-355780">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378850" n="a-355790">consueto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378860" n="a-355800">ardore</w>
+                     <pc xml:id="elcct_II-378870" n="a-355810" unit="sentence">.</pc>
+                  </l>
                </lg>
             </lg>
-            <lg n="3">
-               <lg corresp="#stn24">
-                  <l>Per Te, che in qusti umìl carmi rammenti</l>
-                  <l>D’ oscuri estinti non famose gesta,</l>
-                  <l>Se dal solingo meditar addutto</l>
-                  <l>Alcun spirto a Te pari avvien che  brami</l>
-                  <l part="I">Del tuo fato saper;</l>
+            <lg n="3" xml:id="elcct_II-s04925">
+               <lg corresp="#stn24" xml:id="elcct_II-s04930">
+                  <l xml:id="elcct_II-l17750">
+                     <w xml:id="elcct_II-378910" n="a-355820">Per</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378920" n="a-355830">Te</w>
+                     <pc xml:id="elcct_II-378930" n="a-355840">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-378940" n="a-355850">che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378950" n="a-355860">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378960" n="a-355870">questi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378970" n="a-355880">umìl</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378980" n="a-355890">carmi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-378990" n="a-355900">rammenti</w>
+                  </l>
+                  <l xml:id="elcct_II-l17755">
+                     <w xml:id="elcct_II-379000" n="a-355910">D</w>
+                     <pc xml:id="elcct_II-379010" n="a-355920">’</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-379020" n="a-355930">oscuri</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379030" n="a-355940">estinti</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379040" n="a-355950">non</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379050" n="a-355960">famose</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379060" n="a-355970">gesta</w>
+                     <pc xml:id="elcct_II-379070" n="a-355980">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17760">
+                     <w xml:id="elcct_II-379080" n="a-355990">Se</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379090" n="a-356000">dal</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379100" n="a-356010">solingo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379110" n="a-356020">meditare</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379120" n="a-356030">addutto</w>
+                  </l>
+                  <l xml:id="elcct_II-l17765">
+                     <w xml:id="elcct_II-379130" n="a-356040">Alcun</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379140" n="a-356050">spirto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379150" n="a-356060">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379160" n="a-356070">Te</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379170" n="a-356080">pari</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379180" n="a-356090">avvien</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379190" n="a-356100">che</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379200" n="a-356110">brami</w>
+                  </l>
+                  <l part="I" xml:id="elcct_II-l17770.1">
+                     <w xml:id="elcct_II-379210" n="a-356120">Del</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379220" n="a-356130">tuo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379230" n="a-356140">fato</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379240" n="a-356150">saper</w>
+                     <pc xml:id="elcct_II-379250" n="a-356160">;</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn25">
-                  <l part="F">qualche canuto</l>
-                  <l>Pastor risponderà: “Spesso il vedemmo</l>
-                  <l>D;incontro al Sole frettoloso il passo</l>
-                  <l>Mover, scotendo i rugiadosi umori,</l>
-                  <l>Sotto quel faggio là, le cui radici</l>
-                  <l>S;avviticchiano in alto a nodi mille</l>
-                  <l part="I">Bizzaramente;</l>
+               <lg corresp="#stn25" xml:id="elcct_II-s04935">
+                  <l part="F" xml:id="elcct_II-l17770.2">
+                     <w xml:id="elcct_II-379270" n="a-356170">qualche</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379280" n="a-356180">canuto</w>
+                  </l>
+                  <l xml:id="elcct_II-l17775">
+                     <w xml:id="elcct_II-379290" n="a-356190">Pastor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379300" n="a-356200">risponderà</w>
+                     <pc xml:id="elcct_II-379310" n="a-356210">:</pc>
+                     <c> </c>
+                     <pc xml:id="elcct_II-379320" n="a-356220">“</pc>
+                     <w xml:id="elcct_II-379330" n="a-356230">Spesso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379340" n="a-356240">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379350" n="a-356250">vedemmo</w>
+                  </l>
+                  <l xml:id="elcct_II-l17780">
+                     <w xml:id="elcct_II-379360" n="a-356260">D'incontro</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379370" n="a-356270">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379380" n="a-356280">Sole</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379390" n="a-356290">frettoloso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379400" n="a-356300">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379410" n="a-356310">passo</w>
+                  </l>
+                  <l xml:id="elcct_II-l17785">
+                     <w xml:id="elcct_II-379420" n="a-356320">Mover</w>
+                     <pc xml:id="elcct_II-379430" n="a-356330">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-379440" n="a-356340">scotendo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379450" n="a-356350">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379460" n="a-356360">rugiadosi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379470" n="a-356370">umori</w>
+                     <pc xml:id="elcct_II-379480" n="a-356380">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17790">
+                     <w xml:id="elcct_II-379490" n="a-356390">Sotto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379500" n="a-356400">quel</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379510" n="a-356410">faggio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379520" n="a-356420">là</w>
+                     <pc xml:id="elcct_II-379530" n="a-356430">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-379540" n="a-356440">le</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379550" n="a-356450">cui</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379560" n="a-356460">radici</w>
+                  </l>
+                  <l xml:id="elcct_II-l17795">
+                     <w xml:id="elcct_II-379570" n="a-356470">S'avviticchiano</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379580" n="a-356480">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379590" n="a-356490">alto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379600" n="a-356500">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379610" n="a-356510">nodi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379620" n="a-356520">mille</w>
+                  </l>
+                  <l part="I" xml:id="elcct_II-l17800.1">
+                     <w xml:id="elcct_II-379630" n="a-356530">Bizzaramente</w>
+                     <pc xml:id="elcct_II-379640" n="a-356540">;</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn26">
-                  <l part="F">nel meriggio ei sciolto</l>
-                  <l>D;ogni cura, e sdrajato, il rio vicino</l>
-                  <l part="I">Mormorante guardava;</l>
+               <lg corresp="#stn26" xml:id="elcct_II-s04940">
+                  <l part="F" xml:id="elcct_II-l17800.2">
+                     <w xml:id="elcct_II-379660" n="a-356550">nel</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379670" n="a-356560">meriggio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379680" n="a-356570">ei</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379690" n="a-356580">sciolto</w>
+                  </l>
+                  <l xml:id="elcct_II-l17805">
+                     <w xml:id="elcct_II-379700" n="a-356590">D'ogni</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379710" n="a-356600">cura</w>
+                     <pc xml:id="elcct_II-379720" n="a-356610">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-379730" n="a-356620">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379740" n="a-356630">sdrajato</w>
+                     <pc xml:id="elcct_II-379750" n="a-356640">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-379760" n="a-356650">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379770" n="a-356660">rio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379780" n="a-356670">vicino</w>
+                  </l>
+                  <l part="I" xml:id="elcct_II-l17810.1">
+                     <w xml:id="elcct_II-379790" n="a-356680">Mormorante</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379800" n="a-356690">guardava</w>
+                     <pc xml:id="elcct_II-379810" n="a-356700">;</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn27">
-                  <l part="F">ora alla selva,</l>
-                  <l>Quasi a scherno ridendo, il passo errante</l>
-                  <l>Volgeva incerto, e capricciose fole</l>
-                  <l>Pallido e mesto borbottava, a guisa</l>
-                  <l>Di un infelice, o da plensieri carco,</l>
-                  <l>O per negato amor misero amante.</l>
+               <lg corresp="#stn27" xml:id="elcct_II-s04945">
+                  <l part="F" xml:id="elcct_II-l17810.2">
+                     <w xml:id="elcct_II-379830" n="a-356710">ora</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379840" n="a-356720">alla</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379850" n="a-356730">selva</w>
+                     <pc xml:id="elcct_II-379860" n="a-356740">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17815">
+                     <w xml:id="elcct_II-379870" n="a-356750">Quasi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379880" n="a-356760">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379890" n="a-356770">scherno</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379900" n="a-356780">ridendo</w>
+                     <pc xml:id="elcct_II-379910" n="a-356790">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-379920" n="a-356800">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379930" n="a-356810">passo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379940" n="a-356820">errante</w>
+                  </l>
+                  <l xml:id="elcct_II-l17820">
+                     <w xml:id="elcct_II-379950" n="a-356830">Volgeva</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379960" n="a-356840">incerto</w>
+                     <pc xml:id="elcct_II-379970" n="a-356850">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-379980" n="a-356860">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-379990" n="a-356870">capricciose</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380000" n="a-356880">fole</w>
+                  </l>
+                  <l xml:id="elcct_II-l17825">
+                     <w xml:id="elcct_II-380010" n="a-356890">Pallido</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380020" n="a-356900">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380030" n="a-356910">mesto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380040" n="a-356920">borbottava</w>
+                     <pc xml:id="elcct_II-380050" n="a-356930">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-380060" n="a-356940">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380070" n="a-356950">guisa</w>
+                  </l>
+                  <l xml:id="elcct_II-l17830">
+                     <w xml:id="elcct_II-380080" n="a-356960">Di</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380090" n="a-356970">un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380100" n="a-356980">infelice</w>
+                     <pc xml:id="elcct_II-380110" n="a-356990">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-380120" n="a-357000">o</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380130" n="a-357010">da</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380140" n="a-357020">plensieri</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380150" n="a-357030">carco</w>
+                     <pc xml:id="elcct_II-380160" n="a-357040">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17835">
+                     <w xml:id="elcct_II-380170" n="a-357050">O</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380180" n="a-357060">per</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380190" n="a-357070">negato</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380200" n="a-357080">amor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380210" n="a-357090">misero</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380220" n="a-357100">amante</w>
+                     <pc xml:id="elcct_II-380230" n="a-357110" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn28">
-                  <l>Presso alla selva, o al colle, o all’arbor caro</l>
-                  <l>Nol vidi un giorno, nè lo vidi l’altro</l>
-                  <l>Al rio d’appresso, o sovra al poggio, o al bosco.</l>
+               <lg corresp="#stn28" xml:id="elcct_II-s04950">
+                  <l xml:id="elcct_II-l17840">
+                     <w xml:id="elcct_II-380250" n="a-357120">Presso</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380260" n="a-357130">alla</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380270" n="a-357140">selva</w>
+                     <pc xml:id="elcct_II-380280" n="a-357150">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-380290" n="a-357160">o</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380300" n="a-357170">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380310" n="a-357180">colle</w>
+                     <pc xml:id="elcct_II-380320" n="a-357190">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-380330" n="a-357200">o</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380340" n="a-357210">all’arbor</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380350" n="a-357220">caro</w>
+                  </l>
+                  <l xml:id="elcct_II-l17845">
+                     <w xml:id="elcct_II-380360" n="a-357230">Nol</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380370" n="a-357240">vidi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380380" n="a-357250">un</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380390" n="a-357260">giorno</w>
+                     <pc xml:id="elcct_II-380400" n="a-357270">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-380410" n="a-357280">nè</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380420" n="a-357290">lo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380430" n="a-357300">vidi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380440" n="a-357310">l’altro</w>
+                  </l>
+                  <l xml:id="elcct_II-l17850">
+                     <w xml:id="elcct_II-380450" n="a-357320">Al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380460" n="a-357330">rio</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380470" n="a-357340">d’appresso</w>
+                     <pc xml:id="elcct_II-380480" n="a-357350">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-380490" n="a-357360">o</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380500" n="a-357370">sovra</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380510" n="a-357380">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380520" n="a-357390">poggio</w>
+                     <pc xml:id="elcct_II-380530" n="a-357400">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-380540" n="a-357410">o</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380550" n="a-357420">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380560" n="a-357430">bosco</w>
+                     <pc xml:id="elcct_II-380570" n="a-357440" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg corresp="#stn29">
-                  <l>Venne poi il terzo, e in mesto ordine al tempio</l>
-                  <l>Tratto il vedemmo per l’usato calle.</l>
-                  <l>Legger tu sai, t’accosta; e leggi il carme</l>
-                  <l>Sotto l’antico spino in marmo impresso”.</l>
+               <lg corresp="#stn29" xml:id="elcct_II-s04955">
+                  <l xml:id="elcct_II-l17855">
+                     <w xml:id="elcct_II-380590" n="a-357450">Venne</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380600" n="a-357460">poi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380610" n="a-357470">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380620" n="a-357480">terzo</w>
+                     <pc xml:id="elcct_II-380630" n="a-357490">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-380640" n="a-357500">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380650" n="a-357510">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380660" n="a-357520">mesto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380670" n="a-357530">ordine</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380680" n="a-357540">al</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380690" n="a-357550">tempio</w>
+                  </l>
+                  <l xml:id="elcct_II-l17860">
+                     <w xml:id="elcct_II-380700" n="a-357560">Tratto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380710" n="a-357570">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380720" n="a-357580">vedemmo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380730" n="a-357590">per</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380740" n="a-357600">l’usato</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380750" n="a-357610">calle</w>
+                     <pc xml:id="elcct_II-380760" n="a-357620" unit="sentence">.</pc>
+                  </l>
+                  <l xml:id="elcct_II-l17865">
+                     <w xml:id="elcct_II-380770" n="a-357630">Legger</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380780" n="a-357640">tu</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380790" n="a-357650">sai</w>
+                     <pc xml:id="elcct_II-380800" n="a-357660">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-380810" n="a-357670">t’accosta</w>
+                     <pc xml:id="elcct_II-380820" n="a-357680">;</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-380830" n="a-357690">e</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380840" n="a-357700">leggi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380850" n="a-357710">il</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380860" n="a-357720">carme</w>
+                  </l>
+                  <l xml:id="elcct_II-l17870">
+                     <w xml:id="elcct_II-380870" n="a-357730">Sotto</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380880" n="a-357740">l’antico</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380890" n="a-357750">spino</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380900" n="a-357760">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380910" n="a-357770">marmo</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-380920" n="a-357780">impresso</w>
+                     <pc xml:id="elcct_II-380930" n="a-357790">”</pc>
+                     <pc xml:id="elcct_II-380940" n="a-357800" unit="sentence">.</pc>
+                  </l>
                </lg>
             </lg>
-            <lg>
-               <head>EPITAFIO</head>
-               <lg n="4" corresp="#stn30">
-                  <l>Posa aque il capo dlela terra in grembo</l>
-                  <l>Garzone a FAma, ed a Fortuna ignoto.</l>
-                  <l>Il bel Saper sua bassa culla a vile]</l>
-                  <l>Non ebbe, e lui segnò della sua impronta</l>
-                  <l part="I">Melanconia.</l>
-               </lg>
-               <lg corresp="#stn31">
-                  <l part="F">Sincero era il suo cuore,</l>
-                  <l>E large la pietà; perciò fu il Cielo</l>
-                  <l>Largo di sua mercè. Solo un sospiro</l>
-                  <l>Diè a povertade, chè più dar non valse;</l>
-                  <l>E un amico dal Ciel n’ebbe, qual chiese.</l>
-               </lg>
-               <lg corresp="#stn32">
-                  <l>Più non cercar; nè i falli suoi, nè i merti</l>
-                  <l>Osa scoprire. Ne’ tremendi abissi,</l>
-                  <l>Tra la speme e il timor, posano in seno</l>
-                  <l>Del celeste suo Padre, e del suo Dio.</l>
+            <lg xml:id="elcct_II-s04960">
+               <head>
+                  <w xml:id="elcct_II-380980" n="a-357810">EPITAFIO</w>
+               </head>
+               <lg n="4" xml:id="elcct_II-s04965">
+                  <lg corresp="#stn30" xml:id="elcct_II-s04970">
+                     <l xml:id="elcct_II-l17875">
+                        <w xml:id="elcct_II-381020" n="a-357820">Posa</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381030" n="a-357830">qui</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381040" n="a-357840">il</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381050" n="a-357850">capo</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381060" n="a-357860">della</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381070" n="a-357870">terra</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381080" n="a-357880">in</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381090" n="a-357890">grembo</w>
+                     </l>
+                     <l xml:id="elcct_II-l17880">
+                        <w xml:id="elcct_II-381100" n="a-357900">Garzone</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381110" n="a-357910">a</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381120" n="a-357920">Fama</w>
+                        <pc xml:id="elcct_II-381130" n="a-357930">,</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-381140" n="a-357940">ed</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381150" n="a-357950">a</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381160" n="a-357960">Fortuna</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381170" n="a-357970">ignoto</w>
+                        <pc xml:id="elcct_II-381180" n="a-357980" unit="sentence">.</pc>
+                     </l>
+                     <l xml:id="elcct_II-l17885">
+                        <w xml:id="elcct_II-381190" n="a-357990">Il</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381200" n="a-358000">bel</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381210" n="a-358010">Saper</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381220" n="a-358020">sua</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381230" n="a-358030">bassa</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381240" n="a-358040">culla</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381250" n="a-358050">a</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381260" n="a-358060">vile</w>
+                     </l>
+                     <l xml:id="elcct_II-l17890">
+                        <w xml:id="elcct_II-381270" n="a-358070">Non</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381280" n="a-358080">ebbe</w>
+                        <pc xml:id="elcct_II-381290" n="a-358090">,</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-381300" n="a-358100">e</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381310" n="a-358110">lui</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381320" n="a-358120">segnò</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381330" n="a-358130">della</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381340" n="a-358140">sua</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381350" n="a-358150">impronta</w>
+                     </l>
+                     <l part="I" xml:id="elcct_II-l17895.1">
+                        <w xml:id="elcct_II-381360" n="a-358160">Melanconia</w>
+                        <pc xml:id="elcct_II-381370" n="a-358170" unit="sentence">.</pc>
+                     </l>
+                  </lg>
+                  <lg corresp="#stn31" xml:id="elcct_II-s04975">
+                     <l part="F" xml:id="elcct_II-l17895.2">
+                        <w xml:id="elcct_II-381390" n="a-358180">Sincero</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381400" n="a-358190">era</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381410" n="a-358200">il</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381420" n="a-358210">suo</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381430" n="a-358220">cuore</w>
+                        <pc xml:id="elcct_II-381440" n="a-358230">,</pc>
+                     </l>
+                     <l xml:id="elcct_II-l17900">
+                        <w xml:id="elcct_II-381450" n="a-358240">E</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381460" n="a-358250">large</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381470" n="a-358260">la</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381480" n="a-358270">pietà</w>
+                        <pc xml:id="elcct_II-381490" n="a-358280">;</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-381500" n="a-358290">perciò</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381510" n="a-358300">fu</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381520" n="a-358310">il</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381530" n="a-358320">Cielo</w>
+                     </l>
+                     <l xml:id="elcct_II-l17905">
+                        <w xml:id="elcct_II-381540" n="a-358330">Largo</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381550" n="a-358340">di</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381560" n="a-358350">sua</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381570" n="a-358360">mercè</w>
+                        <pc xml:id="elcct_II-381580" n="a-358370" unit="sentence">.</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-381590" n="a-358380">Solo</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381600" n="a-358390">un</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381610" n="a-358400">sospiro</w>
+                     </l>
+                     <l xml:id="elcct_II-l17910">
+                        <w xml:id="elcct_II-381620" n="a-358410">Diè</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381630" n="a-358420">a</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381640" n="a-358430">povertade</w>
+                        <pc xml:id="elcct_II-381650" n="a-358440">,</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-381660" n="a-358450">chè</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381670" n="a-358460">più</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381680" n="a-358470">dar</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381690" n="a-358480">non</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381700" n="a-358490">valse</w>
+                        <pc xml:id="elcct_II-381710" n="a-358500">;</pc>
+                     </l>
+                     <l xml:id="elcct_II-l17915">
+                        <w xml:id="elcct_II-381720" n="a-358510">E</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381730" n="a-358520">un</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381740" n="a-358530">amico</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381750" n="a-358540">dal</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381760" n="a-358550">Ciel</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381770" n="a-358560">n’ebbe</w>
+                        <pc xml:id="elcct_II-381780" n="a-358570">,</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-381790" n="a-358580">qual</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381800" n="a-358590">chiese</w>
+                        <pc xml:id="elcct_II-381810" n="a-358600" unit="sentence">.</pc>
+                     </l>
+                  </lg>
+                  <lg corresp="#stn32" xml:id="elcct_II-s04980">
+                     <l xml:id="elcct_II-l17920">
+                        <w xml:id="elcct_II-381830" n="a-358610">Più</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381840" n="a-358620">non</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381850" n="a-358630">cercar</w>
+                        <pc xml:id="elcct_II-381860" n="a-358640">;</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-381870" n="a-358650">nè</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381880" n="a-358660">i</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381890" n="a-358670">falli</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381900" n="a-358680">suoi</w>
+                        <pc xml:id="elcct_II-381910" n="a-358690">,</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-381920" n="a-358700">nè</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381930" n="a-358710">i</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381940" n="a-358720">merti</w>
+                     </l>
+                     <l xml:id="elcct_II-l17925">
+                        <w xml:id="elcct_II-381950" n="a-358730">Osa</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-381960" n="a-358740">scoprire</w>
+                        <pc xml:id="elcct_II-381970" n="a-358750" unit="sentence">.</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-381980" n="a-358760">Ne</w>
+                        <pc xml:id="elcct_II-381990" n="a-358770">’</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-382000" n="a-358780">tremendi</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382010" n="a-358790">abissi</w>
+                        <pc xml:id="elcct_II-382020" n="a-358800">,</pc>
+                     </l>
+                     <l xml:id="elcct_II-l17930">
+                        <w xml:id="elcct_II-382030" n="a-358810">Tra</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382040" n="a-358820">la</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382050" n="a-358830">speme</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382060" n="a-358840">e</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382070" n="a-358850">il</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382080" n="a-358860">timor</w>
+                        <pc xml:id="elcct_II-382090" n="a-358870">,</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-382100" n="a-358880">posano</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382110" n="a-358890">in</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382120" n="a-358900">seno</w>
+                     </l>
+                     <l xml:id="elcct_II-l17935">
+                        <w xml:id="elcct_II-382130" n="a-358910">Del</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382140" n="a-358920">celeste</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382150" n="a-358930">suo</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382160" n="a-358940">Padre</w>
+                        <pc xml:id="elcct_II-382170" n="a-358950">,</pc>
+                        <c> </c>
+                        <w xml:id="elcct_II-382180" n="a-358960">e</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382190" n="a-358970">del</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382200" n="a-358980">suo</w>
+                        <c> </c>
+                        <w xml:id="elcct_II-382210" n="a-358990">Dio</w>
+                        <pc xml:id="elcct_II-382220" n="a-359000" unit="sentence">.</pc>
+                     </l>
+                  </lg>
                </lg>
             </lg>
          </div>

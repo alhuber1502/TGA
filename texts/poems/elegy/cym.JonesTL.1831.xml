@@ -47,7 +47,7 @@
                <pubPlace>Denbigh</pubPlace>
                <biblScope>178-183</biblScope>
                <idno type="NoC_1917">866</idno>
-               <note type="edst">Transcription by Tom Turk.</note>
+               <note type="edst" xml:id="elcct_II-n00265">Transcription by Tom Turk.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -78,205 +78,2171 @@
    </teiHeader>
    <text>
       <body>
-         <div ana="#translation"
+         <div ana="#translation #quatrain #cross"
               n="Jones, Thomas Lloyd"
               rendition="#lgvspace"
+              rhyme="abab"
               type="verse"
               xml:id="cym.JonesTL.1831">
-            <head type="main">Myfyrdawd</head>
-            <lg n="1" corresp="#stn1">
-               <l>Dolefa cloch y llàn  hwyrâad  y  dydd, </l>
-               <l>Dychwela y Heth ychain dros y rhos,</l>
-               <l>Tuagat ei fwth yr el y gweithiwr lludd, </l>
-               <l>A mi wyf nnig yn nhawel wch nos.</l>
+            <head type="main">
+               <w xml:id="elcct_II-637420" n="a-595870">Myfyrdawd</w>
+            </head>
+            <lg corresp="#stn1" n="1" xml:id="elcct_II-s08880">
+               <l xml:id="elcct_II-l32775">
+                  <w xml:id="elcct_II-637450" n="a-595880">Dolefa</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637460" n="a-595890">cloch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637470" n="a-595900">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637480" n="a-595910">llàn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637490" n="a-595920">hwyrâad</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637500" n="a-595930">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637510" n="a-595940">dydd</w>
+                  <pc xml:id="elcct_II-637520" n="a-595950">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32780">
+                  <w xml:id="elcct_II-637530" n="a-595960">Dychwela</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637540" n="a-595970">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637550" n="a-595980">lleth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637560" n="a-595990">ychain</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637570" n="a-596000">dros</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637580" n="a-596010">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637590" n="a-596020">rhos</w>
+                  <pc xml:id="elcct_II-637600" n="a-596030">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32785">
+                  <w xml:id="elcct_II-637610" n="a-596040">Tuagat</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637620" n="a-596050">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637630" n="a-596060">fwth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637640" n="a-596070">yr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637650" n="a-596080">el</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637660" n="a-596090">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637670" n="a-596100">gweithiwr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637680" n="a-596110">lludd</w>
+                  <pc xml:id="elcct_II-637690" n="a-596120">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32790">
+                  <w xml:id="elcct_II-637700" n="a-596130">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637710" n="a-596140">mi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637720" n="a-596150">wyf</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637730" n="a-596160">nnig</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637740" n="a-596170">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637750" n="a-596180">nhawelwch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637760" n="a-596190">nos</w>
+                  <pc xml:id="elcct_II-637770" n="a-596200" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="2" corresp="#stn2">
-               <l>Biflánna weithion yr olygfa gu, </l>
-               <l>A thrwy y nen dystawrwydd syn a daen,</l>
-               <l>Ond rhemial llyth lle llusg y chwilen ddu, </l>
-               <l>Neu syrthlyd fref o gorlan bell y waen;</l>
+            <lg corresp="#stn2" n="2" xml:id="elcct_II-s08885">
+               <l xml:id="elcct_II-l32795">
+                  <w xml:id="elcct_II-637800" n="a-596210">Diflánna</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637810" n="a-596220">weithion</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637820" n="a-596230">yr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637830" n="a-596240">olygfa</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637840" n="a-596250">gu</w>
+                  <pc xml:id="elcct_II-637850" n="a-596260">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32800">
+                  <w xml:id="elcct_II-637860" n="a-596270">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637870" n="a-596280">thrwy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637880" n="a-596290">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637890" n="a-596300">nen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637900" n="a-596310">dystawrwydd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637910" n="a-596320">syn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637920" n="a-596330">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637930" n="a-596340">daen</w>
+                  <pc xml:id="elcct_II-637940" n="a-596350">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32805">
+                  <w xml:id="elcct_II-637950" n="a-596360">Ond</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637960" n="a-596370">rhemial</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637970" n="a-596380">llyth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637980" n="a-596390">lle</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-637990" n="a-596400">llusg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638000" n="a-596410">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638010" n="a-596420">chwilen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638020" n="a-596430">ddu</w>
+                  <pc xml:id="elcct_II-638030" n="a-596440">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32810">
+                  <w xml:id="elcct_II-638040" n="a-596450">Neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638050" n="a-596460">ayrthlyd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638060" n="a-596470">fref</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638070" n="a-596480">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638080" n="a-596490">gorlan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638090" n="a-596500">bell</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638100" n="a-596510">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638110" n="a-596520">waen</w>
+                  <pc xml:id="elcct_II-638120" n="a-596530">;</pc>
+               </l>
             </lg>
-            <lg n="3" corresp="#stn3">
-               <l>Nen oernad eiddîg y ddàlluan bnrdd </l>
-               <l>Odd y twr eîddew, — idd y lloer gẃrirgwyn,</l>
-               <l>Am gael ei haflonyddu yn ei hudd      [mwyn. </l>
-               <l>Gan chwedlan serchlon rhyw gariadan</l>
+            <lg corresp="#stn3" n="3" xml:id="elcct_II-s08890">
+               <l xml:id="elcct_II-l32815">
+                  <w xml:id="elcct_II-638150" n="a-596540">Nen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638160" n="a-596550">oernad</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638170" n="a-596560">eiddîg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638180" n="a-596570">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638190" n="a-596580">ddàlluan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638200" n="a-596590">brudd</w>
+               </l>
+               <l xml:id="elcct_II-l32820">
+                  <w xml:id="elcct_II-638210" n="a-596600">Odd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638220" n="a-596610">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638230" n="a-596620">twr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638240" n="a-596630">eîddew</w>
+                  <pc xml:id="elcct_II-638250" n="a-596640">,</pc>
+                  <c> </c>
+                  <pc xml:id="elcct_II-638260" n="a-596650">—</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-638270" n="a-596660">idd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638280" n="a-596670">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638290" n="a-596680">lloer</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638300" n="a-596690">gwna</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638310" n="a-596700">gwyn</w>
+                  <pc xml:id="elcct_II-638320" n="a-596710">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-638330" n="a-596720">mwyn</w>
+                  <pc xml:id="elcct_II-638340" n="a-596730" unit="sentence">.</pc>
+               </l>
+               <l xml:id="elcct_II-l32825">
+                  <w xml:id="elcct_II-638350" n="a-596740">Am</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638360" n="a-596750">gael</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638370" n="a-596760">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638380" n="a-596770">haflonyddu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638390" n="a-596780">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638400" n="a-596790">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638410" n="a-596800">hudd</w>
+               </l>
+               <l xml:id="elcct_II-l32830">
+                  <w xml:id="elcct_II-638420" n="a-596810">Gan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638430" n="a-596820">chwedlan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638440" n="a-596830">serchlon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638450" n="a-596840">rhyw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638460" n="a-596850">gariadan</w>
+               </l>
             </lg>
-            <lg n="4" corresp="#stn4">
-               <l>Yn nghysgod erch yr ywen drom ei gwedd, </l>
-               <l>Lle chwydda ty weirch o amryfal lun,</l>
-               <l>Gorweddant yno, yn eu cyfyng fedd, </l>
-               <l>Hendadau'r plwyf di-ddysg mewn olaf  hun.</l>
+            <lg corresp="#stn4" n="4" xml:id="elcct_II-s08895">
+               <l xml:id="elcct_II-l32835">
+                  <w xml:id="elcct_II-638490" n="a-596860">Yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638500" n="a-596870">nghysgod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638510" n="a-596880">erch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638520" n="a-596890">yr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638530" n="a-596900">ywen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638540" n="a-596910">drom</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638550" n="a-596920">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638560" n="a-596930">gwedd</w>
+                  <pc xml:id="elcct_II-638570" n="a-596940">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32840">
+                  <w xml:id="elcct_II-638580" n="a-596950">Lle</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638590" n="a-596960">chwydda</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638600" n="a-596970">tyweirch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638610" n="a-596980">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638620" n="a-596990">amryfal</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638630" n="a-597000">lun</w>
+                  <pc xml:id="elcct_II-638640" n="a-597010">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32845">
+                  <w xml:id="elcct_II-638650" n="a-597020">Gorweddant</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638660" n="a-597030">yno</w>
+                  <pc xml:id="elcct_II-638670" n="a-597040">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-638680" n="a-597050">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638690" n="a-597060">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638700" n="a-597070">cyfyng</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638710" n="a-597080">fedd</w>
+                  <pc xml:id="elcct_II-638720" n="a-597090">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32850">
+                  <w xml:id="elcct_II-638730" n="a-597100">Hendadau'r</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638740" n="a-597110">plwyf</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638750" n="a-597120">di-ddysg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638760" n="a-597130">mewn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638770" n="a-597140">olaf</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638780" n="a-597150">hun</w>
+                  <pc xml:id="elcct_II-638790" n="a-597160" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="5" corresp="#stn5">
-               <l>Ac ni wna awel ber y bore cain,</l>
-               <l>Na chan y ceiliawg yn croesawu dydd,</l>
-               <l>Na seinafawr gorn yr heliwr hyd y llain </l>
-               <l>Ea deffraw nrwyach o'n hanneddau prudd.</l>
+            <lg corresp="#stn5" n="5" xml:id="elcct_II-s08900">
+               <l xml:id="elcct_II-l32855">
+                  <w xml:id="elcct_II-638820" n="a-597170">Ac</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638830" n="a-597180">ni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638840" n="a-597190">wna</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638850" n="a-597200">awel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638860" n="a-597210">ber</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638870" n="a-597220">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638880" n="a-597230">bore</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638890" n="a-597240">cain</w>
+                  <pc xml:id="elcct_II-638900" n="a-597250">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32860">
+                  <w xml:id="elcct_II-638910" n="a-597260">Na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638920" n="a-597270">chan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638930" n="a-597280">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638940" n="a-597290">ceiliawg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638950" n="a-597300">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638960" n="a-597310">croesawu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-638970" n="a-597320">dydd</w>
+                  <pc xml:id="elcct_II-638980" n="a-597330">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32865">
+                  <w xml:id="elcct_II-638990" n="a-597340">Na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639000" n="a-597350">seinfawr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639010" n="a-597360">gorn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639020" n="a-597370">yr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639030" n="a-597380">heliwr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639040" n="a-597390">hyd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639050" n="a-597400">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639060" n="a-597410">llain</w>
+               </l>
+               <l xml:id="elcct_II-l32870">
+                  <w xml:id="elcct_II-639070" n="a-597420">Ea</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639080" n="a-597430">deffraw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639090" n="a-597440">nrwyach</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639100" n="a-597450">o'n</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639110" n="a-597460">hanneddau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639120" n="a-597470">prudd</w>
+                  <pc xml:id="elcct_II-639130" n="a-597480" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="6" corresp="#stn6">
-               <l>Ni threfnir er eu mwyn fyth aelwyd lan, </l>
-               <l>Gan ddyfal wraig ni hulir iddynt wledd;</l>
-               <l>I gyfhwrdd tad ni red ei deulu man, </l>
-               <l>Ni ddringant i gusanu ei dyner wedd.      </l>
+            <lg corresp="#stn6" n="6" xml:id="elcct_II-s08905">
+               <l xml:id="elcct_II-l32875">
+                  <w xml:id="elcct_II-639160" n="a-597490">Ni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639170" n="a-597500">threfnir</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639180" n="a-597510">er</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639190" n="a-597520">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639200" n="a-597530">mwyn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639210" n="a-597540">fyth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639220" n="a-597550">aelwyd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639230" n="a-597560">lan</w>
+                  <pc xml:id="elcct_II-639240" n="a-597570">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32880">
+                  <w xml:id="elcct_II-639250" n="a-597580">Gan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639260" n="a-597590">ddyfal</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639270" n="a-597600">wraig</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639280" n="a-597610">ni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639290" n="a-597620">hulir</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639300" n="a-597630">iddynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639310" n="a-597640">wledd</w>
+                  <pc xml:id="elcct_II-639320" n="a-597650">;</pc>
+               </l>
+               <l xml:id="elcct_II-l32885">
+                  <w xml:id="elcct_II-639330" n="a-597660">I</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639340" n="a-597670">gyfhwrdd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639350" n="a-597680">tad</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639360" n="a-597690">ni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639370" n="a-597700">red</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639380" n="a-597710">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639390" n="a-597720">deulu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639400" n="a-597730">man</w>
+                  <pc xml:id="elcct_II-639410" n="a-597740">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32890">
+                  <w xml:id="elcct_II-639420" n="a-597750">Ni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639430" n="a-597760">ddringant</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639440" n="a-597770">i</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639450" n="a-597780">gusanu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639460" n="a-597790">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639470" n="a-597800">dyner</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639480" n="a-597810">wedd</w>
+                  <pc xml:id="elcct_II-639490" n="a-597820" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="7" corresp="#stn7">
-               <l>Medasynt y cynhauaf lawer tro,</l>
-               <l>A dewr yr aradasynt faes a dòi; </l>
-               <l>Mor hoenus gyrynt wedd—neu seiniynt fro</l>
-               <l>Tra y gofrwenynt ar ryw chwedlau ffol.</l>
+            <lg corresp="#stn7" n="7" xml:id="elcct_II-s08910">
+               <l xml:id="elcct_II-l32895">
+                  <w xml:id="elcct_II-639520" n="a-597830">Medasynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639530" n="a-597840">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639540" n="a-597850">cynhauaf</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639550" n="a-597860">lawer</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639560" n="a-597870">tro</w>
+                  <pc xml:id="elcct_II-639570" n="a-597880">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32900">
+                  <w xml:id="elcct_II-639580" n="a-597890">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639590" n="a-597900">dewr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639600" n="a-597910">yr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639610" n="a-597920">aradasynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639620" n="a-597930">faes</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639630" n="a-597940">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639640" n="a-597950">dòi</w>
+                  <pc xml:id="elcct_II-639650" n="a-597960">;</pc>
+               </l>
+               <l xml:id="elcct_II-l32905">
+                  <w xml:id="elcct_II-639660" n="a-597970">Mor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639670" n="a-597980">hoenus</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639680" n="a-597990">gyrynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639690" n="a-598000">wedd</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-639700" n="a-598010">—</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-639710" n="a-598020">neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639720" n="a-598030">seiniynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639730" n="a-598040">fro</w>
+               </l>
+               <l xml:id="elcct_II-l32910">
+                  <w xml:id="elcct_II-639740" n="a-598050">Tra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639750" n="a-598060">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639760" n="a-598070">gorwenynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639770" n="a-598080">ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639780" n="a-598090">ryw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639790" n="a-598100">chwedlau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639800" n="a-598110">ffol</w>
+                  <pc xml:id="elcct_II-639810" n="a-598120" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="8" corresp="#stn8">
-               <l>Na sylled Balchder ar eu hisel waith </l>
-               <l>A gwladol lafur gyda threm o wawd:</l>
-               <l>Yn wawdas na wrandawed Gwychder chwaith, </l>
-               <l>Hanesion byr anenwog y rhai tlawd.</l>
+            <lg corresp="#stn8" n="8" xml:id="elcct_II-s08915">
+               <l xml:id="elcct_II-l32915">
+                  <w xml:id="elcct_II-639840" n="a-598130">Na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639850" n="a-598140">sylled</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639860" n="a-598150">Balchder</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639870" n="a-598160">ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639880" n="a-598170">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639890" n="a-598180">hisel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639900" n="a-598190">waith</w>
+               </l>
+               <l xml:id="elcct_II-l32920">
+                  <w xml:id="elcct_II-639910" n="a-598200">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639920" n="a-598210">gwladol</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639930" n="a-598220">lafur</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639940" n="a-598230">gyda</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639950" n="a-598240">threm</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639960" n="a-598250">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-639970" n="a-598260">wawd</w>
+                  <pc xml:id="elcct_II-639980" n="a-598270">:</pc>
+               </l>
+               <l xml:id="elcct_II-l32925">
+                  <w xml:id="elcct_II-639990" n="a-598280">Yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640000" n="a-598290">wawdus</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640010" n="a-598300">na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640020" n="a-598310">wrandawed</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640030" n="a-598320">Gwychder</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640040" n="a-598330">chwaith</w>
+                  <pc xml:id="elcct_II-640050" n="a-598340">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32930">
+                  <w xml:id="elcct_II-640060" n="a-598350">Hanesion</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640070" n="a-598360">byr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640080" n="a-598370">anenwog</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640090" n="a-598380">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640100" n="a-598390">rhai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640110" n="a-598400">tlawd</w>
+                  <pc xml:id="elcct_II-640120" n="a-598410" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="9" corresp="#stn9">
-               <l>Hen achtau ffrostgar, rhwysg a golud mawr, </l>
-               <l>Pob bri ynglyn a bonedd balch ei wedd,</l>
-               <l>Nid allant estyn einioes ernyd awr; </l>
-               <l>Arweiniant holl ffyrdd Mawrfri ond i' r bedd.</l>
+            <lg corresp="#stn9" n="9" xml:id="elcct_II-s08920">
+               <l xml:id="elcct_II-l32935">
+                  <w xml:id="elcct_II-640150" n="a-598420">Hen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640160" n="a-598430">achau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640170" n="a-598440">ffrostgar</w>
+                  <pc xml:id="elcct_II-640180" n="a-598450">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-640190" n="a-598460">rhwysg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640200" n="a-598470">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640210" n="a-598480">golud</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640220" n="a-598490">mawr</w>
+                  <pc xml:id="elcct_II-640230" n="a-598500">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32940">
+                  <w xml:id="elcct_II-640240" n="a-598510">Pob</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640250" n="a-598520">bri</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640260" n="a-598530">ynglyn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640270" n="a-598540">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640280" n="a-598550">bonedd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640290" n="a-598560">balch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640300" n="a-598570">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640310" n="a-598580">wedd</w>
+                  <pc xml:id="elcct_II-640320" n="a-598590">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32945">
+                  <w xml:id="elcct_II-640330" n="a-598600">Nid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640340" n="a-598610">allant</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640350" n="a-598620">estyn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640360" n="a-598630">einioes</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640370" n="a-598640">ennyd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640380" n="a-598650">awr</w>
+                  <pc xml:id="elcct_II-640390" n="a-598660">;</pc>
+               </l>
+               <l xml:id="elcct_II-l32950">
+                  <w xml:id="elcct_II-640400" n="a-598670">Arweiniant</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640410" n="a-598680">holl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640420" n="a-598690">ffyrdd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640430" n="a-598700">Mawrfri</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640440" n="a-598710">ond</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640450" n="a-598720">i'r</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640460" n="a-598730">bedd</w>
+                  <pc xml:id="elcct_II-640470" n="a-598740" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="10" corresp="#stn10">
-               <l>Chychwi, y betleh, na fwriwch unrhyw fai,</l>
-               <l>Gan na roed arnynt fefni tlwss eu gwedd,</l>
-               <l>Mewn egiwys lwysgor lle mae clodfawr rai! </l>
-               <l>Yn prudd faluraw mewn addurnwych fedd.</l>
+            <lg corresp="#stn10" n="10" xml:id="elcct_II-s08925">
+               <l xml:id="elcct_II-l32955">
+                  <w xml:id="elcct_II-640500" n="a-598750">Chychwi</w>
+                  <pc xml:id="elcct_II-640510" n="a-598760">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-640520" n="a-598770">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640530" n="a-598780">betleh</w>
+                  <pc xml:id="elcct_II-640540" n="a-598790">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-640550" n="a-598800">na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640560" n="a-598810">fwriwch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640570" n="a-598820">unrhyw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640580" n="a-598830">fai</w>
+                  <pc xml:id="elcct_II-640590" n="a-598840">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32960">
+                  <w xml:id="elcct_II-640600" n="a-598850">Gan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640610" n="a-598860">na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640620" n="a-598870">roed</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640630" n="a-598880">arnynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640640" n="a-598890">fefni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640650" n="a-598900">flws</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640660" n="a-598910">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640670" n="a-598920">gwedd</w>
+                  <pc xml:id="elcct_II-640680" n="a-598930">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32965">
+                  <w xml:id="elcct_II-640690" n="a-598940">Mewn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640700" n="a-598950">egiwys</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640710" n="a-598960">lwysgor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640720" n="a-598970">lle</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640730" n="a-598980">mae</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640740" n="a-598990">clodfawr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640750" n="a-599000">rai</w>
+               </l>
+               <l xml:id="elcct_II-l32970">
+                  <w xml:id="elcct_II-640760" n="a-599010">Yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640770" n="a-599020">prudd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640780" n="a-599030">faluriaw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640790" n="a-599040">mewn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640800" n="a-599050">addurnwych</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640810" n="a-599060">fedd</w>
+                  <pc xml:id="elcct_II-640820" n="a-599070" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="11" corresp="#stn11">
-               <l>A eill y ddelw gain a geirau gwiw,</l>
-               <l>I gorffyn alw anadl neu rym? </l>
-               <l>Neu lais Anrhydedd wneyd y llwch yn fyw,</l>
-               <l>Neu Weniaith foddiaw oerglust  Angau llym ?</l>
+            <lg corresp="#stn11" n="11" xml:id="elcct_II-s08930">
+               <l xml:id="elcct_II-l32975">
+                  <w xml:id="elcct_II-640850" n="a-599080">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640860" n="a-599090">eill</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640870" n="a-599100">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640880" n="a-599110">ddelw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640890" n="a-599120">gain</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640900" n="a-599130">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640910" n="a-599140">geiriau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640920" n="a-599150">gwiw</w>
+                  <pc xml:id="elcct_II-640930" n="a-599160">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32980">
+                  <w xml:id="elcct_II-640940" n="a-599170">I</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640950" n="a-599180">gorffyn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640960" n="a-599190">alw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640970" n="a-599200">anadl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640980" n="a-599210">neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-640990" n="a-599220">rym</w>
+                  <pc xml:id="elcct_II-641000" n="a-599230" unit="sentence">?</pc>
+               </l>
+               <l xml:id="elcct_II-l32985">
+                  <w xml:id="elcct_II-641010" n="a-599240">Neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641020" n="a-599250">lais</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641030" n="a-599260">Anrhydedd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641040" n="a-599270">wneyd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641050" n="a-599280">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641060" n="a-599290">llwch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641070" n="a-599300">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641080" n="a-599310">fyw</w>
+                  <pc xml:id="elcct_II-641090" n="a-599320">,</pc>
+               </l>
+               <l xml:id="elcct_II-l32990">
+                  <w xml:id="elcct_II-641100" n="a-599330">Neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641110" n="a-599340">Weniaith</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641120" n="a-599350">foddiaw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641130" n="a-599360">oerglust</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641140" n="a-599370">Angau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641150" n="a-599380">llym</w>
+                  <pc xml:id="elcct_II-641160" n="a-599390" unit="sentence">?</pc>
+               </l>
             </lg>
-            <lg n="12" corresp="#stn12">
-               <l>Fe all y dodid is hon argel werdd</l>
-               <l>Ryw wefus gynt fu ffraeth o ddoniawl fryd; </l>
-               <l>Neu nn a eiliai ber awenawl gerdd,</l>
-               <l>Neu a lywiasai deyrnedd mwyaf byd.</l>
+            <lg corresp="#stn12" n="12" xml:id="elcct_II-s08935">
+               <l xml:id="elcct_II-l32995">
+                  <w xml:id="elcct_II-641190" n="a-599400">Fe</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641200" n="a-599410">all</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641210" n="a-599420">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641220" n="a-599430">dodid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641230" n="a-599440">is</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641240" n="a-599450">hon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641250" n="a-599460">argel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641260" n="a-599470">werdd</w>
+               </l>
+               <l xml:id="elcct_II-l33000">
+                  <w xml:id="elcct_II-641270" n="a-599480">Ryw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641280" n="a-599490">wefus</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641290" n="a-599500">gynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641300" n="a-599510">fu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641310" n="a-599520">ffraeth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641320" n="a-599530">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641330" n="a-599540">ddoniawl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641340" n="a-599550">fryd</w>
+                  <pc xml:id="elcct_II-641350" n="a-599560">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33005">
+                  <w xml:id="elcct_II-641360" n="a-599570">Neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641370" n="a-599580">un</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641380" n="a-599590">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641390" n="a-599600">eiliai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641400" n="a-599610">ber</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641410" n="a-599620">awenawl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641420" n="a-599630">gerdd</w>
+                  <pc xml:id="elcct_II-641430" n="a-599640">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33010">
+                  <w xml:id="elcct_II-641440" n="a-599650">Neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641450" n="a-599660">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641460" n="a-599670">lywiasai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641470" n="a-599680">deyrnedd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641480" n="a-599690">mwyaf</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641490" n="a-599700">byd</w>
+                  <pc xml:id="elcct_II-641500" n="a-599710" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="13" corresp="#stn13">
-               <l>Ond nis amlygai Dysg ei leni cu,</l>
-               <l>Na Doethder ei drysorau gwerthfawr iawn; </l>
-               <l>Ond llethai Tlodi en haeddiannawl fri,</l>
-               <l>A rhewai ffrwd yr enaid mawr ei ddawn.</l>
+            <lg corresp="#stn13" n="13" xml:id="elcct_II-s08940">
+               <l xml:id="elcct_II-l33015">
+                  <w xml:id="elcct_II-641530" n="a-599720">Ond</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641540" n="a-599730">nis</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641550" n="a-599740">amlygai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641560" n="a-599750">Dysg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641570" n="a-599760">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641580" n="a-599770">leni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641590" n="a-599780">cu</w>
+                  <pc xml:id="elcct_II-641600" n="a-599790">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33020">
+                  <w xml:id="elcct_II-641610" n="a-599800">Na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641620" n="a-599810">Doethder</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641630" n="a-599820">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641640" n="a-599830">drysorau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641650" n="a-599840">gwerthfawr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641660" n="a-599850">iawn</w>
+                  <pc xml:id="elcct_II-641670" n="a-599860">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33025">
+                  <w xml:id="elcct_II-641680" n="a-599870">Ond</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641690" n="a-599880">llethai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641700" n="a-599890">Tlodi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641710" n="a-599900">en</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641720" n="a-599910">haeddiannawl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641730" n="a-599920">fri</w>
+                  <pc xml:id="elcct_II-641740" n="a-599930">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33030">
+                  <w xml:id="elcct_II-641750" n="a-599940">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641760" n="a-599950">rhewai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641770" n="a-599960">ffrwd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641780" n="a-599970">yr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641790" n="a-599980">enaid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641800" n="a-599990">mawr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641810" n="a-600000">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641820" n="a-600010">ddawn</w>
+                  <pc xml:id="elcct_II-641830" n="a-600020" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="14" corresp="#stn14">
-               <l>Gorwedda llawer gem gwawr eirian gwiw, </l>
-               <l>Yn ngwyll ogofau cudd y dyfnmor mawr;</l>
-               <l>Ac aml flodeuyn o nefolaidd liw</l>
-               <l>Ar awel anial pell afrada ei sawr.</l>
+            <lg corresp="#stn14" n="14" xml:id="elcct_II-s08945">
+               <l xml:id="elcct_II-l33035">
+                  <w xml:id="elcct_II-641860" n="a-600030">Gorwedda</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641870" n="a-600040">llawer</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641880" n="a-600050">gem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641890" n="a-600060">gwawr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641900" n="a-600070">eirian</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641910" n="a-600080">gwiw</w>
+                  <pc xml:id="elcct_II-641920" n="a-600090">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33040">
+                  <w xml:id="elcct_II-641930" n="a-600100">Yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641940" n="a-600110">ngwyll</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641950" n="a-600120">ogofau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641960" n="a-600130">cudd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641970" n="a-600140">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641980" n="a-600150">dyfnmor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-641990" n="a-600160">mawr</w>
+                  <pc xml:id="elcct_II-642000" n="a-600170">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33045">
+                  <w xml:id="elcct_II-642010" n="a-600180">Ac</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642020" n="a-600190">aml</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642030" n="a-600200">flodeuyn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642040" n="a-600210">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642050" n="a-600220">nefolaidd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642060" n="a-600230">liw</w>
+               </l>
+               <l xml:id="elcct_II-l33050">
+                  <w xml:id="elcct_II-642070" n="a-600240">Ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642080" n="a-600250">awel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642090" n="a-600260">anial</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642100" n="a-600270">pell</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642110" n="a-600280">afrada</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642120" n="a-600290">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642130" n="a-600300">sawr</w>
+                  <pc xml:id="elcct_II-642140" n="a-600310" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="15" corresp="#stn15">
-               <l>Rhyw ail i Wrtheyrn gynt o enau gau</l>
-               <l>A geisiai idd ei wladwyr droion brad;</l>
-               <l>Neu fud Oronwy heb nod i'w goflfâu; </l>
-               <l>Neu wron megis Glyndwr gynt mewn cad.</l>
+            <lg corresp="#stn15" n="15" xml:id="elcct_II-s08950">
+               <l xml:id="elcct_II-l33055">
+                  <w xml:id="elcct_II-642170" n="a-600320">Rhyw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642180" n="a-600330">ail</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642190" n="a-600340">i</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642200" n="a-600350">Wrtheyrn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642210" n="a-600360">gynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642220" n="a-600370">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642230" n="a-600380">enau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642240" n="a-600390">gau</w>
+               </l>
+               <l xml:id="elcct_II-l33060">
+                  <w xml:id="elcct_II-642250" n="a-600400">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642260" n="a-600410">geisiai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642270" n="a-600420">idd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642280" n="a-600430">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642290" n="a-600440">wladwyr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642300" n="a-600450">droion</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642310" n="a-600460">brad</w>
+                  <pc xml:id="elcct_II-642320" n="a-600470">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33065">
+                  <w xml:id="elcct_II-642330" n="a-600480">Neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642340" n="a-600490">fud</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642350" n="a-600500">Oronwy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642360" n="a-600510">heb</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642370" n="a-600520">nod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642380" n="a-600530">i'w</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642390" n="a-600540">goffâu</w>
+                  <pc xml:id="elcct_II-642400" n="a-600550">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33070">
+                  <w xml:id="elcct_II-642410" n="a-600560">Neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642420" n="a-600570">wron</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642430" n="a-600580">megis</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642440" n="a-600590">Glyndwr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642450" n="a-600600">gynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642460" n="a-600610">mewn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642470" n="a-600620">cad</w>
+                  <pc xml:id="elcct_II-642480" n="a-600630" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="16" corresp="#stn16">
-               <l>Mawr glod Senedd-dai am areithian ffraeth,</l>
-               <l>Tra teimlid grym eu dadl ar bob pryd, </l>
-               <l>O blaid rhyddâu, o ormes, wledydd caeth.</l>
-               <l>Ac iddeu henwau seiniaw dros y byd.</l>
+            <lg corresp="#stn16" n="16" xml:id="elcct_II-s08955">
+               <l xml:id="elcct_II-l33075">
+                  <w xml:id="elcct_II-642510" n="a-600640">Mawr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642520" n="a-600650">glod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642530" n="a-600660">Senedd-dai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642540" n="a-600670">am</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642550" n="a-600680">areithian</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642560" n="a-600690">ffraeth</w>
+                  <pc xml:id="elcct_II-642570" n="a-600700">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33080">
+                  <w xml:id="elcct_II-642580" n="a-600710">Tra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642590" n="a-600720">teimlid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642600" n="a-600730">grym</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642610" n="a-600740">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642620" n="a-600750">dadl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642630" n="a-600760">ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642640" n="a-600770">bob</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642650" n="a-600780">pryd</w>
+                  <pc xml:id="elcct_II-642660" n="a-600790">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33085">
+                  <w xml:id="elcct_II-642670" n="a-600800">O</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642680" n="a-600810">blaid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642690" n="a-600820">rhyddâu</w>
+                  <pc xml:id="elcct_II-642700" n="a-600830">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-642710" n="a-600840">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642720" n="a-600850">ormes</w>
+                  <pc xml:id="elcct_II-642730" n="a-600860">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-642740" n="a-600870">wledydd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642750" n="a-600880">caeth</w>
+                  <pc xml:id="elcct_II-642760" n="a-600890" unit="sentence">.</pc>
+               </l>
+               <l xml:id="elcct_II-l33090">
+                  <w xml:id="elcct_II-642770" n="a-600900">Ac</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642780" n="a-600910">iddeu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642790" n="a-600920">henwan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642800" n="a-600930">seiniaw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642810" n="a-600940">dros</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642820" n="a-600950">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642830" n="a-600960">byd</w>
+                  <pc xml:id="elcct_II-642840" n="a-600970" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="17" corresp="#stn17">
-               <l>Ni chawsynt hwy; ond tlodi, er ei bwy, </l>
-               <l>Nid allai lethu eu rhinweddau gwiw;</l>
-               <l>Ond rhwystrai iddynt wneŷd camweddan dwys, </l>
-               <l>Neu gau dor Cardawd ar wael ddynolryw.</l>
+            <lg corresp="#stn17" n="17" xml:id="elcct_II-s08960">
+               <l xml:id="elcct_II-l33095">
+                  <w xml:id="elcct_II-642870" n="a-600980">Ni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642880" n="a-600990">chawsynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642890" n="a-601000">hwy</w>
+                  <pc xml:id="elcct_II-642900" n="a-601010">;</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-642910" n="a-601020">ond</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642920" n="a-601030">tlodi</w>
+                  <pc xml:id="elcct_II-642930" n="a-601040">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-642940" n="a-601050">er</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642950" n="a-601060">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642960" n="a-601070">bwys</w>
+                  <pc xml:id="elcct_II-642970" n="a-601080">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33100">
+                  <w xml:id="elcct_II-642980" n="a-601090">Nid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-642990" n="a-601100">allai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643000" n="a-601110">lethu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643010" n="a-601120">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643020" n="a-601130">rhinweddau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643030" n="a-601140">gwiw</w>
+                  <pc xml:id="elcct_II-643040" n="a-601150">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33105">
+                  <w xml:id="elcct_II-643050" n="a-601160">Ond</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643060" n="a-601170">rhwystrai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643070" n="a-601180">iddynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643080" n="a-601190">wneŷd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643090" n="a-601200">camweddan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643100" n="a-601210">dwys</w>
+                  <pc xml:id="elcct_II-643110" n="a-601220">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33110">
+                  <w xml:id="elcct_II-643120" n="a-601230">Neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643130" n="a-601240">gau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643140" n="a-601250">dor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643150" n="a-601260">Cardawd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643160" n="a-601270">ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643170" n="a-601280">wael</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643180" n="a-601290">ddynolryw</w>
+                  <pc xml:id="elcct_II-643190" n="a-601300" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="18" corresp="#stn18">
-               <l>Heb flin gydwybod cais am gelu gwir, </l>
-               <l>Nen luddias gwrid dros wallau buchedd au,</l>
-               <l>Nac ennyn allor trawsion beilch y tir </l>
-               <l>A mygdarth llid wrth fflam yr Awen glau.</l>
+            <lg corresp="#stn18" n="18" xml:id="elcct_II-s08965">
+               <l xml:id="elcct_II-l33115">
+                  <w xml:id="elcct_II-643220" n="a-601310">Heb</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643230" n="a-601320">flin</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643240" n="a-601330">gydwybod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643250" n="a-601340">cais</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643260" n="a-601350">am</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643270" n="a-601360">gelu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643280" n="a-601370">gwir</w>
+                  <pc xml:id="elcct_II-643290" n="a-601380">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33120">
+                  <w xml:id="elcct_II-643300" n="a-601390">Nen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643310" n="a-601400">luddias</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643320" n="a-601410">gwrid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643330" n="a-601420">dros</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643340" n="a-601430">wallau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643350" n="a-601440">buchedd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643360" n="a-601450">au</w>
+                  <pc xml:id="elcct_II-643370" n="a-601460">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33125">
+                  <w xml:id="elcct_II-643380" n="a-601470">Nac</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643390" n="a-601480">ennyn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643400" n="a-601490">allor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643410" n="a-601500">trawsion</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643420" n="a-601510">beilch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643430" n="a-601520">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643440" n="a-601530">tir</w>
+               </l>
+               <l xml:id="elcct_II-l33130">
+                  <w xml:id="elcct_II-643450" n="a-601540">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643460" n="a-601550">mygdarth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643470" n="a-601560">llid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643480" n="a-601570">wrth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643490" n="a-601580">fflam</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643500" n="a-601590">yr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643510" n="a-601600">Awen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643520" n="a-601610">glau</w>
+                  <pc xml:id="elcct_II-643530" n="a-601620" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="19" corresp="#stn19">
-               <l>I ymdrin ffwdan gwag ffugddoethion byd,</l>
-               <l>Nid aynt erioed, chwaith ni chwennychynt</l>
-               <l>Ond ar Foddlonrwydd bu eu tawel fryd,  [drais; </l>
-               <l>A chysur oedd eu nod ac unig gais.</l>
+            <lg corresp="#stn19" n="19" xml:id="elcct_II-s08970">
+               <l xml:id="elcct_II-l33135">
+                  <w xml:id="elcct_II-643560" n="a-601630">I</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643570" n="a-601640">ymdrin</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643580" n="a-601650">ffwdan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643590" n="a-601660">gwag</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643600" n="a-601670">ffugddoethion</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643610" n="a-601680">byd</w>
+                  <pc xml:id="elcct_II-643620" n="a-601690">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33140">
+                  <w xml:id="elcct_II-643630" n="a-601700">Nid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643640" n="a-601710">aynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643650" n="a-601720">erioed</w>
+                  <pc xml:id="elcct_II-643660" n="a-601730">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-643670" n="a-601740">chwaith</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643680" n="a-601750">ni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643690" n="a-601760">chwennychynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643700" n="a-601770">drais</w>
+                  <pc xml:id="elcct_II-643710" n="a-601780">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33145">
+                  <w xml:id="elcct_II-643720" n="a-601790">Ond</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643730" n="a-601800">ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643740" n="a-601810">Foddlonrwydd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643750" n="a-601820">bu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643760" n="a-601830">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643770" n="a-601840">tawel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643780" n="a-601850">fryd</w>
+                  <pc xml:id="elcct_II-643790" n="a-601860">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33150">
+                  <w xml:id="elcct_II-643800" n="a-601870">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643810" n="a-601880">chysur</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643820" n="a-601890">oedd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643830" n="a-601900">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643840" n="a-601910">nod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643850" n="a-601920">ac</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643860" n="a-601930">unig</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643870" n="a-601940">gais</w>
+                  <pc xml:id="elcct_II-643880" n="a-601950" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="20" corresp="#stn20">
-               <l>Ac megys nawdd eu llwch rhag unrhyw ham, </l>
-               <l>Annghelfydd gofnod arnynt yma sydd,</l>
-               <l>A cherfwaith gwladaidd a llinellau cam, </l>
-               <l>Yn eiddun gan y teithydd ddeigryn prudd.</l>
+            <lg corresp="#stn20" n="20" xml:id="elcct_II-s08975">
+               <l xml:id="elcct_II-l33155">
+                  <w xml:id="elcct_II-643910" n="a-601960">Ac</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643920" n="a-601970">megys</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643930" n="a-601980">nawdd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643940" n="a-601990">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643950" n="a-602000">llwch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643960" n="a-602010">rhag</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643970" n="a-602020">unrhyw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-643980" n="a-602030">ham</w>
+                  <pc xml:id="elcct_II-643990" n="a-602040">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33160">
+                  <w xml:id="elcct_II-644000" n="a-602050">Annghelfydd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644010" n="a-602060">gofnod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644020" n="a-602070">arnynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644030" n="a-602080">yma</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644040" n="a-602090">sydd</w>
+                  <pc xml:id="elcct_II-644050" n="a-602100">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33165">
+                  <w xml:id="elcct_II-644060" n="a-602110">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644070" n="a-602120">cherfwaith</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644080" n="a-602130">gwladaidd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644090" n="a-602140">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644100" n="a-602150">llinellau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644110" n="a-602160">cam</w>
+                  <pc xml:id="elcct_II-644120" n="a-602170">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33170">
+                  <w xml:id="elcct_II-644130" n="a-602180">Yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644140" n="a-602190">eiddun</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644150" n="a-602200">gan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644160" n="a-602210">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644170" n="a-602220">teithydd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644180" n="a-602230">ddeigryn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644190" n="a-602240">prudd</w>
+                  <pc xml:id="elcct_II-644200" n="a-602250" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="21" corresp="#stn21">
-               <l>Eu hoed ac enwau torid yn ddi-draul, </l>
-               <l>Heb farddwaith hybletb o ganmoliaeth dawn;</l>
-               <l>A llawer dwyfawl wers er dysg dilfael, </l>
-               <l>Y modd i wladwr moesol farw yn iawn.</l>
+            <lg corresp="#stn21" n="21" xml:id="elcct_II-s08980">
+               <l xml:id="elcct_II-l33175">
+                  <w xml:id="elcct_II-644230" n="a-602260">Eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644240" n="a-602270">hoed</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644250" n="a-602280">ac</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644260" n="a-602290">enwau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644270" n="a-602300">torid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644280" n="a-602310">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644290" n="a-602320">ddi-draul</w>
+                  <pc xml:id="elcct_II-644300" n="a-602330">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33180">
+                  <w xml:id="elcct_II-644310" n="a-602340">Heb</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644320" n="a-602350">farddwaith</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644330" n="a-602360">hybleth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644340" n="a-602370">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644350" n="a-602380">ganmoliaeth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644360" n="a-602390">dawn</w>
+                  <pc xml:id="elcct_II-644370" n="a-602400">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33185">
+                  <w xml:id="elcct_II-644380" n="a-602410">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644390" n="a-602420">llawer</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644400" n="a-602430">dwyfawl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644410" n="a-602440">wers</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644420" n="a-602450">er</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644430" n="a-602460">dysg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644440" n="a-602470">diffael</w>
+                  <pc xml:id="elcct_II-644450" n="a-602480">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33190">
+                  <w xml:id="elcct_II-644460" n="a-602490">Y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644470" n="a-602500">modd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644480" n="a-602510">i</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644490" n="a-602520">wladwr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644500" n="a-602530">moesol</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644510" n="a-602540">farw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644520" n="a-602550">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644530" n="a-602560">iawn</w>
+                  <pc xml:id="elcct_II-644540" n="a-602570" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="22" corresp="#stn22">
-               <l>A phwy dan Annghof mud a'i ddwylaw prudd, </l>
-               <l>A ai o flinder hoff hon einioes ffol,</l>
-               <l>Gan adael ffiniau clyd a llon y dydd, </l>
-               <l>Na fwriai drem hiraethawl ar ei ol?</l>
+            <lg corresp="#stn22" n="22" xml:id="elcct_II-s08985">
+               <l xml:id="elcct_II-l33195">
+                  <w xml:id="elcct_II-644570" n="a-602580">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644580" n="a-602590">phwy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644590" n="a-602600">dan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644600" n="a-602610">Annghof</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644610" n="a-602620">mud</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644620" n="a-602630">a'i</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644630" n="a-602640">ddwylaw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644640" n="a-602650">prudd</w>
+                  <pc xml:id="elcct_II-644650" n="a-602660">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33200">
+                  <w xml:id="elcct_II-644660" n="a-602670">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644670" n="a-602680">ai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644680" n="a-602690">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644690" n="a-602700">flinder</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644700" n="a-602710">hoff</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644710" n="a-602720">hon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644720" n="a-602730">einioes</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644730" n="a-602740">ffol</w>
+                  <pc xml:id="elcct_II-644740" n="a-602750">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33205">
+                  <w xml:id="elcct_II-644750" n="a-602760">Gan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644760" n="a-602770">adael</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644770" n="a-602780">ffiniau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644780" n="a-602790">clyd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644790" n="a-602800">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644800" n="a-602810">llon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644810" n="a-602820">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644820" n="a-602830">dydd</w>
+                  <pc xml:id="elcct_II-644830" n="a-602840">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33210">
+                  <w xml:id="elcct_II-644840" n="a-602850">Na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644850" n="a-602860">fwriai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644860" n="a-602870">drem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644870" n="a-602880">hiraethawl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644880" n="a-602890">ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644890" n="a-602900">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644900" n="a-602910">ol</w>
+                  <pc xml:id="elcct_II-644910" n="a-602920" unit="sentence">?</pc>
+               </l>
             </lg>
-            <lg n="23" corresp="#stn23">
-               <l>Hydera'r enaid llesg ar gyfaill cu,</l>
-               <l>Wrth gau eidduna'r drem ddagreuawl loes;</l>
-               <l>Ac erfyn Anian hyn o'r beddrawd du, </l>
-               <l>Tra yn llwch coffieïr eu hynt a moes.</l>
+            <lg corresp="#stn23" n="23" xml:id="elcct_II-s08990">
+               <l xml:id="elcct_II-l33215">
+                  <w xml:id="elcct_II-644940" n="a-602930">Hydera'r</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644950" n="a-602940">enaid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644960" n="a-602950">llesg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644970" n="a-602960">ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644980" n="a-602970">gyfaill</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-644990" n="a-602980">cu</w>
+                  <pc xml:id="elcct_II-645000" n="a-602990">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33220">
+                  <w xml:id="elcct_II-645010" n="a-603000">Wrth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645020" n="a-603010">gau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645030" n="a-603020">eidduna'r</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645040" n="a-603030">drem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645050" n="a-603040">ddagreuawl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645060" n="a-603050">loes</w>
+                  <pc xml:id="elcct_II-645070" n="a-603060">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33225">
+                  <w xml:id="elcct_II-645080" n="a-603070">Ac</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645090" n="a-603080">erfyn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645100" n="a-603090">Anian</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645110" n="a-603100">hyn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645120" n="a-603110">o'r</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645130" n="a-603120">beddrawd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645140" n="a-603130">du</w>
+                  <pc xml:id="elcct_II-645150" n="a-603140">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33230">
+                  <w xml:id="elcct_II-645160" n="a-603150">Tra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645170" n="a-603160">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645180" n="a-603170">llwch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645190" n="a-603180">coffeïr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645200" n="a-603190">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645210" n="a-603200">hynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645220" n="a-603210">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645230" n="a-603220">moes</w>
+                  <pc xml:id="elcct_II-645240" n="a-603230" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="24" corresp="#stn24">
-               <l>Tydi, a gofi feirw'r fynwent fud, </l>
-               <l>A draethi haues byr eu hynt di-fri,</l>
-               <l>Os hola rhywun o fyfyriawl fryd, </l>
-               <l>A chyfryw dymher fwyn, dy dynghed di.</l>
+            <lg corresp="#stn24" n="24" xml:id="elcct_II-s08995">
+               <l xml:id="elcct_II-l33235">
+                  <w xml:id="elcct_II-645270" n="a-603240">Tydi</w>
+                  <pc xml:id="elcct_II-645280" n="a-603250">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-645290" n="a-603260">a</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645300" n="a-603270">gofi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645310" n="a-603280">feirw'r</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645320" n="a-603290">fynwent</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645330" n="a-603300">fud</w>
+                  <pc xml:id="elcct_II-645340" n="a-603310">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33240">
+                  <w xml:id="elcct_II-645350" n="a-603320">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645360" n="a-603330">draethi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645370" n="a-603340">haues</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645380" n="a-603350">byr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645390" n="a-603360">eu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645400" n="a-603370">hynt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645410" n="a-603380">di-fri</w>
+                  <pc xml:id="elcct_II-645420" n="a-603390">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33245">
+                  <w xml:id="elcct_II-645430" n="a-603400">Os</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645440" n="a-603410">hola</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645450" n="a-603420">rhywun</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645460" n="a-603430">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645470" n="a-603440">fyfyriawl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645480" n="a-603450">fryd</w>
+                  <pc xml:id="elcct_II-645490" n="a-603460">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33250">
+                  <w xml:id="elcct_II-645500" n="a-603470">A</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645510" n="a-603480">chyfryw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645520" n="a-603490">dymher</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645530" n="a-603500">fwyn</w>
+                  <pc xml:id="elcct_II-645540" n="a-603510">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-645550" n="a-603520">dy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645560" n="a-603530">dynghed</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645570" n="a-603540">di</w>
+                  <pc xml:id="elcct_II-645580" n="a-603550" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="25" corresp="#stn25">
-               <l>Fe eill rhyw wladwr penllwyd ddywedyd hyn,— </l>
-               <l>"Yn aml gwelasom ef yn mlaen y wawr,</l>
-               <l>"Yn prysur fyned dros y gwlithlas fryn, </l>
-               <l>"I gyhwrdd haul yn dwyre uwch y llawr.</l>
+            <lg corresp="#stn25" n="25" xml:id="elcct_II-s09000">
+               <l xml:id="elcct_II-l33255">
+                  <w xml:id="elcct_II-645610" n="a-603560">Fe</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645620" n="a-603570">eill</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645630" n="a-603580">rhyw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645640" n="a-603590">wladwr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645650" n="a-603600">penllwyd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645660" n="a-603610">ddywedyd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645670" n="a-603620">hyn</w>
+                  <pc xml:id="elcct_II-645680" n="a-603630">,</pc>
+                  <c> </c>
+                  <pc xml:id="elcct_II-645690" n="a-603640">—</pc>
+               </l>
+               <l xml:id="elcct_II-l33260">
+                  <pc xml:id="elcct_II-645700" n="a-603650">"</pc>
+                  <w xml:id="elcct_II-645710" n="a-603660">Yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645720" n="a-603670">aml</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645730" n="a-603680">gwelasom</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645740" n="a-603690">ef</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645750" n="a-603700">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645760" n="a-603710">mlaen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645770" n="a-603720">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645780" n="a-603730">wawr</w>
+                  <pc xml:id="elcct_II-645790" n="a-603740">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33265">
+                  <w xml:id="elcct_II-645800" n="a-603750">Yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645810" n="a-603760">prysur</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645820" n="a-603770">fyned</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645830" n="a-603780">dros</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645840" n="a-603790">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645850" n="a-603800">gwlithlas</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645860" n="a-603810">fryn</w>
+                  <pc xml:id="elcct_II-645870" n="a-603820">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33270">
+                  <w xml:id="elcct_II-645880" n="a-603830">I</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645890" n="a-603840">gyhwrdd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645900" n="a-603850">haul</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645910" n="a-603860">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645920" n="a-603870">dwyre</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645930" n="a-603880">uwch</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645940" n="a-603890">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-645950" n="a-603900">llawr</w>
+                  <pc xml:id="elcct_II-645960" n="a-603910" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="26" corresp="#stn26">
-               <l>"Acw yn nghudd y ddar dewfrigog lun, </l>
-               <l>"Tra haul yn eirias ar gannolddydd brwd,</l>
-               <l>"Gorweddai'n aml i dawel orphwys hun, </l>
-               <l>"Neu ddifyr wrandaw llafar per y ffrwd.</l>
+            <lg corresp="#stn26" n="26" xml:id="elcct_II-s09005">
+               <l xml:id="elcct_II-l33275">
+                  <w xml:id="elcct_II-645990" n="a-603920">Acw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646000" n="a-603930">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646010" n="a-603940">nghudd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646020" n="a-603950">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646030" n="a-603960">ddar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646040" n="a-603970">dewfrigog</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646050" n="a-603980">lun</w>
+                  <pc xml:id="elcct_II-646060" n="a-603990">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33280">
+                  <w xml:id="elcct_II-646070" n="a-604000">Tra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646080" n="a-604010">haul</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646090" n="a-604020">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646100" n="a-604030">eirias</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646110" n="a-604040">ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646120" n="a-604050">gannolddydd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646130" n="a-604060">brwd</w>
+                  <pc xml:id="elcct_II-646140" n="a-604070">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33285">
+                  <w xml:id="elcct_II-646150" n="a-604080">Gorweddai'n</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646160" n="a-604090">aml</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646170" n="a-604100">i</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646180" n="a-604110">dawel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646190" n="a-604120">orphwys</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646200" n="a-604130">hun</w>
+                  <pc xml:id="elcct_II-646210" n="a-604140">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33290">
+                  <w xml:id="elcct_II-646220" n="a-604150">Neu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646230" n="a-604160">ddifyr</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646240" n="a-604170">wrandaw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646250" n="a-604180">llafar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646260" n="a-604190">per</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646270" n="a-604200">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646280" n="a-604210">ffrwd</w>
+                  <pc xml:id="elcct_II-646290" n="a-604220" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="27" corresp="#stn27">
-               <l>"Dro arall ar hyd lwybrau glas y llwyn,</l>
-               <l>"Y rhodiai 'n syn dau ddwys ddoluriau serch,</l>
-               <l>"Mewn trallod prudd y gwnelai ochus gwyn, </l>
-               <l>"Gan anobeithiaw am ryw fwyndeg ferch.</l>
+            <lg corresp="#stn27" n="27" xml:id="elcct_II-s09010">
+               <l xml:id="elcct_II-l33295">
+                  <w xml:id="elcct_II-646320" n="a-604230">Dro</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646330" n="a-604240">arall</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646340" n="a-604250">ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646350" n="a-604260">hyd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646360" n="a-604270">lwybrau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646370" n="a-604280">glas</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646380" n="a-604290">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646390" n="a-604300">llwyn</w>
+                  <pc xml:id="elcct_II-646400" n="a-604310">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33300">
+                  <w xml:id="elcct_II-646410" n="a-604320">Y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646420" n="a-604330">rhodiai</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-646430" n="a-604340">'</pc>
+                  <w xml:id="elcct_II-646440" n="a-604350">n</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646450" n="a-604360">syn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646460" n="a-604370">dan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646470" n="a-604380">ddwys</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646480" n="a-604390">ddoluriau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646490" n="a-604400">serch</w>
+                  <pc xml:id="elcct_II-646500" n="a-604410">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33305">
+                  <w xml:id="elcct_II-646510" n="a-604420">Mewn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646520" n="a-604430">trallod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646530" n="a-604440">prudd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646540" n="a-604450">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646550" n="a-604460">gwnelai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646560" n="a-604470">ochus</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646570" n="a-604480">gwyn</w>
+                  <pc xml:id="elcct_II-646580" n="a-604490">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33310">
+                  <w xml:id="elcct_II-646590" n="a-604500">Gan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646600" n="a-604510">anobeithiaw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646610" n="a-604520">am</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646620" n="a-604530">ryw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646630" n="a-604540">fwyndeg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646640" n="a-604550">ferch</w>
+                  <pc xml:id="elcct_II-646650" n="a-604560" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="28" corresp="#stn28">
-               <l>"Un bore collais e,—fy nghof sy brudd, </l>
-               <l>"Ar ael y bryn, ac is y dderwen daen;</l>
-               <l>"Daeth bore arall, nid oedd yn y gwydd,</l>
-               <l>"Gerllaw y ffrwd, nallwybrau gwyrdd y waen.</l>
+            <lg corresp="#stn28" n="28" xml:id="elcct_II-s09015">
+               <l xml:id="elcct_II-l33315">
+                  <w xml:id="elcct_II-646680" n="a-604570">Un</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646690" n="a-604580">bore</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646700" n="a-604590">collais</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646710" n="a-604600">e</w>
+                  <pc xml:id="elcct_II-646720" n="a-604610">,</pc>
+                  <c> </c>
+                  <pc xml:id="elcct_II-646730" n="a-604620">—</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-646740" n="a-604630">fy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646750" n="a-604640">nghof</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646760" n="a-604650">sy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646770" n="a-604660">brudd</w>
+                  <pc xml:id="elcct_II-646780" n="a-604670">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33320">
+                  <w xml:id="elcct_II-646790" n="a-604680">Ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646800" n="a-604690">ael</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646810" n="a-604700">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646820" n="a-604710">bryn</w>
+                  <pc xml:id="elcct_II-646830" n="a-604720">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-646840" n="a-604730">ac</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646850" n="a-604740">is</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646860" n="a-604750">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646870" n="a-604760">dderwen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646880" n="a-604770">daen</w>
+                  <pc xml:id="elcct_II-646890" n="a-604780">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33325">
+                  <w xml:id="elcct_II-646900" n="a-604790">Daeth</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646910" n="a-604800">bore</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646920" n="a-604810">arall</w>
+                  <pc xml:id="elcct_II-646930" n="a-604820">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-646940" n="a-604830">nid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646950" n="a-604840">oedd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646960" n="a-604850">yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646970" n="a-604860">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-646980" n="a-604870">gwydd</w>
+                  <pc xml:id="elcct_II-646990" n="a-604880">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33330">
+                  <w xml:id="elcct_II-647000" n="a-604890">Gerllaw</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647010" n="a-604900">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647020" n="a-604910">ffrwd</w>
+                  <pc xml:id="elcct_II-647030" n="a-604920">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-647040" n="a-604930">na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647050" n="a-604940">llwybrau</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647060" n="a-604950">gwyrdd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647070" n="a-604960">y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647080" n="a-604970">waen</w>
+                  <pc xml:id="elcct_II-647090" n="a-604980" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="29" corresp="#stn29">
-               <l>"Ond, dranoeth, ar ei elor gwelsom e, </l>
-               <l>"Yn cael ei hebrwng, mewn galarus wedd,</l>
-               <l>"Hyd lwybrau'r fynwent werdd i hyn o le; </l>
-               <l>"Nesáa, O deithydd, darllen faen ei fedd."</l>
+            <lg corresp="#stn29" n="29" xml:id="elcct_II-s09020">
+               <l xml:id="elcct_II-l33335">
+                  <w xml:id="elcct_II-647120" n="a-604990">Ond</w>
+                  <pc xml:id="elcct_II-647130" n="a-605000">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-647140" n="a-605010">dranoeth</w>
+                  <pc xml:id="elcct_II-647150" n="a-605020">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-647160" n="a-605030">ar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647170" n="a-605040">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647180" n="a-605050">elor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647190" n="a-605060">gwelsom</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647200" n="a-605070">e</w>
+                  <pc xml:id="elcct_II-647210" n="a-605080">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33340">
+                  <w xml:id="elcct_II-647220" n="a-605090">Yn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647230" n="a-605100">cael</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647240" n="a-605110">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647250" n="a-605120">hebrwng</w>
+                  <pc xml:id="elcct_II-647260" n="a-605130">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-647270" n="a-605140">mewn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647280" n="a-605150">galarus</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647290" n="a-605160">wedd</w>
+                  <pc xml:id="elcct_II-647300" n="a-605170">,</pc>
+               </l>
+               <l xml:id="elcct_II-l33345">
+                  <w xml:id="elcct_II-647310" n="a-605180">Hyd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647320" n="a-605190">lwybrau'r</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647330" n="a-605200">fynwent</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647340" n="a-605210">werdd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647350" n="a-605220">i</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647360" n="a-605230">hyn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647370" n="a-605240">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647380" n="a-605250">le</w>
+                  <pc xml:id="elcct_II-647390" n="a-605260">;</pc>
+               </l>
+               <l xml:id="elcct_II-l33350">
+                  <w xml:id="elcct_II-647400" n="a-605270">Nesáa</w>
+                  <pc xml:id="elcct_II-647410" n="a-605280">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-647420" n="a-605290">O</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647430" n="a-605300">deithydd</w>
+                  <pc xml:id="elcct_II-647440" n="a-605310">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-647450" n="a-605320">darllen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647460" n="a-605330">faen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647470" n="a-605340">ei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647480" n="a-605350">fedd</w>
+                  <pc xml:id="elcct_II-647490" n="a-605360">.</pc>
+                  <c> </c>
+                  <pc xml:id="elcct_II-647500" n="a-605370" unit="sentence">"</pc>
+               </l>
             </lg>
-            <lg>
-               <head>Y Bedd Argraff.</head>
-               <lg n="30" corresp="#stn30">
-                  <l>Yn gorphwys mae, goris y gareg hon,</l>
-                  <l>Rhy w lauc na chaffai Fri na Mawnedd byd;</l>
-                  <l>Ni wgai Addysg ar ei syml fron, </l>
-                  <l>A Phrudd-der oedd feunyddiol ar ei bryd.</l>
+            <lg xml:id="elcct_II-s09025">
+               <head>
+                  <w xml:id="elcct_II-647540" n="a-605380">Y</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647550" n="a-605390">Bedd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-647560" n="a-605400">Argraff</w>
+                  <pc xml:id="elcct_II-647570" n="a-605410" unit="sentence">.</pc>
+               </head>
+               <lg corresp="#stn30" n="30" xml:id="elcct_II-s09030">
+                  <l xml:id="elcct_II-l33355">
+                     <w xml:id="elcct_II-647600" n="a-605420">Yn</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647610" n="a-605430">gorphwys</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647620" n="a-605440">mae</w>
+                     <pc xml:id="elcct_II-647630" n="a-605450">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-647640" n="a-605460">goris</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647650" n="a-605470">y</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647660" n="a-605480">gareg</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647670" n="a-605490">hon</w>
+                     <pc xml:id="elcct_II-647680" n="a-605500">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l33360">
+                     <w xml:id="elcct_II-647690" n="a-605510">Rhyw</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647700" n="a-605520">lauc</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647710" n="a-605530">na</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647720" n="a-605540">chaffai</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647730" n="a-605550">Fri</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647740" n="a-605560">na</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647750" n="a-605570">Mawredd</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647760" n="a-605580">byd</w>
+                     <pc xml:id="elcct_II-647770" n="a-605590">;</pc>
+                  </l>
+                  <l xml:id="elcct_II-l33365">
+                     <w xml:id="elcct_II-647780" n="a-605600">Ni</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647790" n="a-605610">wgai</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647800" n="a-605620">Addysg</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647810" n="a-605630">ar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647820" n="a-605640">ei</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647830" n="a-605650">syml</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647840" n="a-605660">fron</w>
+                     <pc xml:id="elcct_II-647850" n="a-605670">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l33370">
+                     <w xml:id="elcct_II-647860" n="a-605680">A</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647870" n="a-605690">Phrudd-der</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647880" n="a-605700">oedd</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647890" n="a-605710">feunyddiol</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647900" n="a-605720">ar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647910" n="a-605730">ei</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647920" n="a-605740">bryd</w>
+                     <pc xml:id="elcct_II-647930" n="a-605750" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg n="31" corresp="#stn31">
-                  <l>Tosturus oedd, a meddai enaid pur, </l>
-                  <l>A gobrwy gwell derbyniai gan y nef;</l>
-                  <l>Tros bob Trueni teimla 'i fynwes gnr, </l>
-                  <l>A Chyfaill graslawn yr ennillai ef.</l>
+               <lg corresp="#stn31" n="31" xml:id="elcct_II-s09035">
+                  <l xml:id="elcct_II-l33375">
+                     <w xml:id="elcct_II-647960" n="a-605760">Tosturus</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-647970" n="a-605770">oedd</w>
+                     <pc xml:id="elcct_II-647980" n="a-605780">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-647990" n="a-605790">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648000" n="a-605800">meddai</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648010" n="a-605810">enaid</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648020" n="a-605820">pur</w>
+                     <pc xml:id="elcct_II-648030" n="a-605830">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l33380">
+                     <w xml:id="elcct_II-648040" n="a-605840">A</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648050" n="a-605850">gobrwy</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648060" n="a-605860">gwell</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648070" n="a-605870">derbyniai</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648080" n="a-605880">gan</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648090" n="a-605890">y</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648100" n="a-605900">nef</w>
+                     <pc xml:id="elcct_II-648110" n="a-605910">;</pc>
+                  </l>
+                  <l xml:id="elcct_II-l33385">
+                     <w xml:id="elcct_II-648120" n="a-605920">Tros</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648130" n="a-605930">bob</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648140" n="a-605940">Trueni</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648150" n="a-605950">teimla</w>
+                     <c> </c>
+                     <pc xml:id="elcct_II-648160" n="a-605960">'</pc>
+                     <w xml:id="elcct_II-648170" n="a-605970">i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648180" n="a-605980">fynwes</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648190" n="a-605990">gur</w>
+                     <pc xml:id="elcct_II-648200" n="a-606000">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l33390">
+                     <w xml:id="elcct_II-648210" n="a-606010">A</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648220" n="a-606020">Chyfaill</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648230" n="a-606030">graslawn</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648240" n="a-606040">yr</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648250" n="a-606050">ennillai</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648260" n="a-606060">ef</w>
+                     <pc xml:id="elcct_II-648270" n="a-606070" unit="sentence">.</pc>
+                  </l>
                </lg>
-               <lg n="32" corresp="#stn32">
-                  <l>Na cheisia ei rinweddau yn y bedd, </l>
-                  <l>Na chwaith ei wallau tra y dygai oes,</l>
-                  <l>Ei lwch a erys adgyfodiad hedd, </l>
-                  <l>A'i ysbryd at ei Dad a'i Dduw a ffoes.</l>
+               <lg corresp="#stn32" n="32" xml:id="elcct_II-s09040">
+                  <l xml:id="elcct_II-l33395">
+                     <w xml:id="elcct_II-648300" n="a-606080">Na</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648310" n="a-606090">cheisia</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648320" n="a-606100">ei</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648330" n="a-606110">rinweddau</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648340" n="a-606120">yn</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648350" n="a-606130">y</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648360" n="a-606140">bedd</w>
+                     <pc xml:id="elcct_II-648370" n="a-606150">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l33400">
+                     <w xml:id="elcct_II-648380" n="a-606160">Na</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648390" n="a-606170">chwaith</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648400" n="a-606180">ei</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648410" n="a-606190">wallau</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648420" n="a-606200">tra</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648430" n="a-606210">y</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648440" n="a-606220">dygai</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648450" n="a-606230">oes</w>
+                     <pc xml:id="elcct_II-648460" n="a-606240">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l33405">
+                     <w xml:id="elcct_II-648470" n="a-606250">Ei</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648480" n="a-606260">lwch</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648490" n="a-606270">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648500" n="a-606280">erys</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648510" n="a-606290">adgyfodiad</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648520" n="a-606300">hedd</w>
+                     <pc xml:id="elcct_II-648530" n="a-606310">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l33410">
+                     <w xml:id="elcct_II-648540" n="a-606320">A'i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648550" n="a-606330">ysbryd</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648560" n="a-606340">at</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648570" n="a-606350">ei</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648580" n="a-606360">Dad</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648590" n="a-606370">a'i</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648600" n="a-606380">Dduw</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648610" n="a-606390">a</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-648620" n="a-606400">ffoes</w>
+                     <pc xml:id="elcct_II-648630" n="a-606410" unit="sentence">.</pc>
+                  </l>
                </lg>
             </lg>
          </div>

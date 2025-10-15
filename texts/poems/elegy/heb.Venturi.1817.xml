@@ -4,6 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title level="a">שי ר</title>
             <author>Venturi, Abbot Giuseppe</author>
             <respStmt>
                <name xml:id="AH">Alexander Huber</name>
@@ -41,14 +42,17 @@
             <bibl xml:id="heb1817_bib">
                <date>1817</date>
                <author>Venturi, Abbot Giuseppe</author>
+               <title level="a">שי ר</title>
                <title level="m">L'Elegia di Tommaso Gray sopra un cimitero di campagna tradotta dall' inglese in più lingue con varie cose finora inedite</title>
                <editor>Torri, Alessandro</editor>
                <pubPlace>Verona</pubPlace>
                <publisher>Dalla Tipografia Mainardi</publisher>
                <biblScope>153-165</biblScope>
                <idno type="NoC_1917">794</idno>
-               <note type="edst">Transcription (uncorrected OCR) from page images provided by <hi>eScriptorium/Kraken</hi> and <hi>Surya OCR</hi> 
-							(thanks to Daniel Stoekl, PSL University, Paris and William J.B. Mattingly, Smithsonian Data Science Lab, respectively!).</note>
+               <note type="edst" xml:id="elcct_II-n00100">Transcription (uncorrected OCR) from page images provided by 
+              <hi>eScriptorium/Kraken</hi> and 
+              <hi>Surya OCR</hi> (thanks to Daniel Stoekl, PSL University, Paris and William J.B. Mattingly, Smithsonian Data Science Lab, respectively!)
+            </note>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -58,8 +62,10 @@
             <p>XML created for the Thomas Gray Archive (TGA).</p>
          </projectDesc>
          <editorialDecl>
-            <p>Transcription (uncorrected OCR) from page images provided by eScriptorium/Kraken and Surya OCR 
-							(thanks to Daniel Stoekl, PSL University, Paris and William J.B. Mattingly, Smithsonian Data Science Lab, respectively!).</p>
+            <p>Transcription (uncorrected OCR) from page images provided by 
+              eScriptorium/Kraken and 
+              Surya OCR (thanks to Daniel Stoekl, PSL University, Paris and William J.B. Mattingly, Smithsonian Data Science Lab, respectively!)
+            </p>
          </editorialDecl>
          <classDecl>
             <taxonomy xml:id="LCNAF">
@@ -82,241 +88,1875 @@
       <body>
          <div ana="#translation"
               n="Venturi, Giuseppe, 1765-1841"
-              style="direction:rtl;"
-              xml:lang="heb"
               rendition="#lgvspace"
+              style="direction:rtl;"
               type="verse"
-              xml:id="heb.Venturi.1817">
-            <head type="main" style="direction:rtl;">שי ר<lb/>
-							על בית החיים שהעתקתי אני<lb/>
-							יוסף בז לא"א גר וינטורי ז"ל<lb/>
-							בלשון הקדש
-							</head>
-            <lg n="1" corresp="#stn1">
-               <head>א</head>
-               <l>רפה היום לערוב: הן קול שופר:</l>
-               <l>ואבר עף מוליך לצבאתם</l>
-               <l>אל מבלאות צנה כלם ופר:</l>
-               <l>ולי ולאופל יתז עולם נעתם:</l>
+              xml:id="heb.Venturi.1817"
+              xml:lang="heb">
+            <head style="direction:rtl;" type="main">
+               <w xml:id="elcct_II-251000" n="a-236030">שי</w>
+               <c> </c>
+               <w xml:id="elcct_II-251010" n="a-236040">ר</w>
+               <lb/>
+               <c> </c>
+               <w xml:id="elcct_II-251020" n="a-236050">על</w>
+               <c> </c>
+               <w xml:id="elcct_II-251030" n="a-236060">בית</w>
+               <c> </c>
+               <w xml:id="elcct_II-251040" n="a-236070">החיים</w>
+               <c> </c>
+               <w xml:id="elcct_II-251050" n="a-236080">שהעתקתי</w>
+               <c> </c>
+               <w xml:id="elcct_II-251060" n="a-236090">אני</w>
+               <lb/>
+               <c> </c>
+               <w xml:id="elcct_II-251070" n="a-236100">יוסף</w>
+               <c> </c>
+               <w xml:id="elcct_II-251080" n="a-236110">בז</w>
+               <c> </c>
+               <w xml:id="elcct_II-251090" n="a-236120">לא</w>
+               <c> </c>
+               <pc xml:id="elcct_II-251100" n="a-236130">"</pc>
+               <w xml:id="elcct_II-251110" n="a-236140">א</w>
+               <c> </c>
+               <w xml:id="elcct_II-251120" n="a-236150">גר</w>
+               <c> </c>
+               <w xml:id="elcct_II-251130" n="a-236160">וינטורי</w>
+               <c> </c>
+               <w xml:id="elcct_II-251140" n="a-236170">ז</w>
+               <pc xml:id="elcct_II-251150" n="a-236180">"</pc>
+               <c> </c>
+               <w xml:id="elcct_II-251160" n="a-236190">ל</w>
+               <lb/>
+               <c> </c>
+               <w xml:id="elcct_II-251170" n="a-236200">בלשון</w>
+               <c> </c>
+               <w xml:id="elcct_II-251180" n="a-236210">הקדש</w>
+            </head>
+            <lg corresp="#stn1" n="1" xml:id="elcct_II-s03235">
+               <head>
+                  <w xml:id="elcct_II-251220" n="a-236220">א</w>
+               </head>
+               <l xml:id="elcct_II-l12405">
+                  <w xml:id="elcct_II-251240" n="a-236230">רפה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251250" n="a-236240">היום</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251260" n="a-236250">לערוב</w>
+                  <pc xml:id="elcct_II-251270" n="a-236260">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-251280" n="a-236270">הן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251290" n="a-236280">קול</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251300" n="a-236290">שופר</w>
+                  <pc xml:id="elcct_II-251310" n="a-236300">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12410">
+                  <w xml:id="elcct_II-251320" n="a-236310">ואבר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251330" n="a-236320">עף</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251340" n="a-236330">מוליך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251350" n="a-236340">לצבאתם</w>
+               </l>
+               <l xml:id="elcct_II-l12415">
+                  <w xml:id="elcct_II-251360" n="a-236350">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251370" n="a-236360">מבלאות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251380" n="a-236370">צנה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251390" n="a-236380">כלם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251400" n="a-236390">ופר</w>
+                  <pc xml:id="elcct_II-251410" n="a-236400">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12420">
+                  <w xml:id="elcct_II-251420" n="a-236410">ולי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251430" n="a-236420">ולאופל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251440" n="a-236430">יתז</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251450" n="a-236440">עולם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251460" n="a-236450">נעתם</w>
+                  <pc xml:id="elcct_II-251470" n="a-236460">:</pc>
+               </l>
             </lg>
-            <lg n="2" corresp="#stn2">
-               <head>ב</head>
-               <l>ישב צלמות ארץ ומלאה:</l>
-               <l>מפני לילה בל בשר שתק:</l>
-               <l>אך צרעה הומה כי אין נוח בה יצאה:</l>
-               <l>ולרעים ועדריהם שנה תמתק:</l>
+            <lg corresp="#stn2" n="2" xml:id="elcct_II-s03240">
+               <head>
+                  <w xml:id="elcct_II-251510" n="a-236470">ב</w>
+               </head>
+               <l xml:id="elcct_II-l12425">
+                  <w xml:id="elcct_II-251530" n="a-236480">ישב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251540" n="a-236490">צלמות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251550" n="a-236500">ארץ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251560" n="a-236510">ומלאה</w>
+                  <pc xml:id="elcct_II-251570" n="a-236520">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12430">
+                  <w xml:id="elcct_II-251580" n="a-236530">מפני</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251590" n="a-236540">לילה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251600" n="a-236550">בל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251610" n="a-236560">בשר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251620" n="a-236570">שתק</w>
+                  <pc xml:id="elcct_II-251630" n="a-236580">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12435">
+                  <w xml:id="elcct_II-251640" n="a-236590">אך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251650" n="a-236600">צרעה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251660" n="a-236610">הומה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251670" n="a-236620">כי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251680" n="a-236630">אין</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251690" n="a-236640">נוח</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251700" n="a-236650">בה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251710" n="a-236660">יצאה</w>
+                  <pc xml:id="elcct_II-251720" n="a-236670">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12440">
+                  <w xml:id="elcct_II-251730" n="a-236680">ולרעים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251740" n="a-236690">ועדריהם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251750" n="a-236700">שנה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251760" n="a-236710">תמתק</w>
+                  <pc xml:id="elcct_II-251770" n="a-236720">:</pc>
+               </l>
             </lg>
-            <lg n="3" corresp="#stn3">
-               <head>נ</head>
-               <l>וענה א'ים במדבר שממה</l>
-               <l>אל הירח וכוכבי השמים</l>
-               <l>על גרי במגוריו מלכות רומה:</l>
-               <l>עוברי צל הליל כצהרים:</l>
+            <lg corresp="#stn3" n="3" xml:id="elcct_II-s03245">
+               <head>
+                  <w xml:id="elcct_II-251810" n="a-236730">נ</w>
+               </head>
+               <l xml:id="elcct_II-l12445">
+                  <w xml:id="elcct_II-251830" n="a-236740">וענה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251840" n="a-236750">א'ים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251850" n="a-236760">במדבר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251860" n="a-236770">שממה</w>
+               </l>
+               <l xml:id="elcct_II-l12450">
+                  <w xml:id="elcct_II-251870" n="a-236780">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251880" n="a-236790">הירח</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251890" n="a-236800">וכוכבי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251900" n="a-236810">השמים</w>
+               </l>
+               <l xml:id="elcct_II-l12455">
+                  <w xml:id="elcct_II-251910" n="a-236820">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251920" n="a-236830">גרי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251930" n="a-236840">במגוריו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251940" n="a-236850">מלכות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251950" n="a-236860">רומה</w>
+                  <pc xml:id="elcct_II-251960" n="a-236870">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12460">
+                  <w xml:id="elcct_II-251970" n="a-236880">עוברי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251980" n="a-236890">צל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-251990" n="a-236900">הליל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252000" n="a-236910">כצהרים</w>
+                  <pc xml:id="elcct_II-252010" n="a-236920">:</pc>
+               </l>
             </lg>
-            <lg n="4" corresp="#stn4">
-               <head>ד</head>
-               <l>אצל תדהר ותאשור רענן</l>
-               <l>תחת גלים שעל עפר שדה</l>
-               <l>ישנה שנת עולם ושאנן</l>
-               <l>בל אב כפיר מפחד רע מופדה:</l>
+            <lg corresp="#stn4" n="4" xml:id="elcct_II-s03250">
+               <head>
+                  <w xml:id="elcct_II-252050" n="a-236930">ד</w>
+               </head>
+               <l xml:id="elcct_II-l12465">
+                  <w xml:id="elcct_II-252070" n="a-236940">אצל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252080" n="a-236950">תדהר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252090" n="a-236960">ותאשור</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252100" n="a-236970">רענן</w>
+               </l>
+               <l xml:id="elcct_II-l12470">
+                  <w xml:id="elcct_II-252110" n="a-236980">תחת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252120" n="a-236990">גלים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252130" n="a-237000">שעל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252140" n="a-237010">עפר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252150" n="a-237020">שדה</w>
+               </l>
+               <l xml:id="elcct_II-l12475">
+                  <w xml:id="elcct_II-252160" n="a-237030">ישנה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252170" n="a-237040">שנת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252180" n="a-237050">עולם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252190" n="a-237060">ושאנן</w>
+               </l>
+               <l xml:id="elcct_II-l12480">
+                  <w xml:id="elcct_II-252200" n="a-237070">בל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252210" n="a-237080">אב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252220" n="a-237090">כפיר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252230" n="a-237100">מפחד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252240" n="a-237110">רע</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252250" n="a-237120">מופדה</w>
+                  <pc xml:id="elcct_II-252260" n="a-237130">:</pc>
+               </l>
             </lg>
-            <lg n="5" corresp="#stn5">
-               <head>ה'</head>
-               <l>לא יעירם ויקרא הלל בן שחר: מלוע</l>
-               <l>לא כל העות שרים למיניהם:</l>
-               <l>לא קרן היובל במשך מחר:</l>
-               <l>מחשך יצועם אל בתיהם:</l>
+            <lg corresp="#stn5" n="5" xml:id="elcct_II-s03255">
+               <head>
+                  <w xml:id="elcct_II-252300" n="a-237140">ה</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-252310" n="a-237150" unit="sentence">'</pc>
+               </head>
+               <l xml:id="elcct_II-l12485">
+                  <w xml:id="elcct_II-252330" n="a-237160">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252340" n="a-237170">יעירם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252350" n="a-237180">ויקרא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252360" n="a-237190">הלל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252370" n="a-237200">בן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252380" n="a-237210">שחר</w>
+                  <pc xml:id="elcct_II-252390" n="a-237220">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-252400" n="a-237230">מלוע</w>
+               </l>
+               <l xml:id="elcct_II-l12490">
+                  <w xml:id="elcct_II-252410" n="a-237240">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252420" n="a-237250">כל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252430" n="a-237260">העות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252440" n="a-237270">שרים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252450" n="a-237280">למיניהם</w>
+                  <pc xml:id="elcct_II-252460" n="a-237290">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12495">
+                  <w xml:id="elcct_II-252470" n="a-237300">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252480" n="a-237310">קרן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252490" n="a-237320">היובל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252500" n="a-237330">במשך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252510" n="a-237340">מחר</w>
+                  <pc xml:id="elcct_II-252520" n="a-237350">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12500">
+                  <w xml:id="elcct_II-252530" n="a-237360">מחשך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252540" n="a-237370">יצועם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252550" n="a-237380">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252560" n="a-237390">בתיהם</w>
+                  <pc xml:id="elcct_II-252570" n="a-237400">:</pc>
+               </l>
             </lg>
-            <lg n="6" corresp="#stn6">
-               <head>ו</head>
-               <l>לא עוד יגה להם שביב אשם:</l>
-               <l>ויגיע כף נשיהם ביתה יאכלו:</l>
-               <l>ולא כשתילי זית בניהם שם</l>
-               <l>עוד סביב לאב נשיקות פיהו ישאלו:</l>
+            <lg corresp="#stn6" n="6" xml:id="elcct_II-s03260">
+               <head>
+                  <w xml:id="elcct_II-252610" n="a-237410">ו</w>
+               </head>
+               <l xml:id="elcct_II-l12505">
+                  <w xml:id="elcct_II-252630" n="a-237420">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252640" n="a-237430">עוד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252650" n="a-237440">יגה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252660" n="a-237450">להם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252670" n="a-237460">שביב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252680" n="a-237470">אשם</w>
+                  <pc xml:id="elcct_II-252690" n="a-237480">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12510">
+                  <w xml:id="elcct_II-252700" n="a-237490">ויגיע</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252710" n="a-237500">כף</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252720" n="a-237510">נשיהם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252730" n="a-237520">ביתה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252740" n="a-237530">יאכלו</w>
+                  <pc xml:id="elcct_II-252750" n="a-237540">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12515">
+                  <w xml:id="elcct_II-252760" n="a-237550">ולא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252770" n="a-237560">כשתילי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252780" n="a-237570">זית</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252790" n="a-237580">בניהם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252800" n="a-237590">שם</w>
+               </l>
+               <l xml:id="elcct_II-l12520">
+                  <w xml:id="elcct_II-252810" n="a-237600">עוד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252820" n="a-237610">סביב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252830" n="a-237620">לאב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252840" n="a-237630">נשיקות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252850" n="a-237640">פיהו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252860" n="a-237650">ישאלו</w>
+                  <pc xml:id="elcct_II-252870" n="a-237660">:</pc>
+               </l>
             </lg>
-            <lg n="7" corresp="#stn7">
-               <head>ז'</head>
-               <l>במה נתנו חרמס בקמה:</l>
-               <l>כמה יחרשו את אדמתם:</l>
-               <l>מה ששים נהגים עגלה: ומה</l>
-               <l>בסבך עץ שמו קרדמותם:</l>
+            <lg corresp="#stn7" n="7" xml:id="elcct_II-s03265">
+               <head>
+                  <w xml:id="elcct_II-252910" n="a-237670">ז</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-252920" n="a-237680" unit="sentence">'</pc>
+               </head>
+               <l xml:id="elcct_II-l12525">
+                  <w xml:id="elcct_II-252940" n="a-237690">במה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252950" n="a-237700">נתנו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252960" n="a-237710">חרמס</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-252970" n="a-237720">בקמה</w>
+                  <pc xml:id="elcct_II-252980" n="a-237730">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12530">
+                  <w xml:id="elcct_II-252990" n="a-237740">כמה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253000" n="a-237750">יחרשו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253010" n="a-237760">את</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253020" n="a-237770">אדמתם</w>
+                  <pc xml:id="elcct_II-253030" n="a-237780">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12535">
+                  <w xml:id="elcct_II-253040" n="a-237790">מה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253050" n="a-237800">ששים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253060" n="a-237810">נהגים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253070" n="a-237820">עגלה</w>
+                  <pc xml:id="elcct_II-253080" n="a-237830">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-253090" n="a-237840">ומה</w>
+               </l>
+               <l xml:id="elcct_II-l12540">
+                  <w xml:id="elcct_II-253100" n="a-237850">בסבך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253110" n="a-237860">עץ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253120" n="a-237870">שמו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253130" n="a-237880">קרדמותם</w>
+                  <pc xml:id="elcct_II-253140" n="a-237890">:</pc>
+               </l>
             </lg>
-            <lg n="8" corresp="#stn8">
-               <head>ה</head>
-               <l>יושב רומות לא ישחק בעמלם</l>
-               <l>מועיל: שהם עמלים תחת השמש:</l>
-               <l>דברי הימים ושמחה וגילם</l>
-               <l>בני אביון ובלי שם כי באו אמש:</l>
+            <lg corresp="#stn8" n="8" xml:id="elcct_II-s03270">
+               <head>
+                  <w xml:id="elcct_II-253180" n="a-237900">ה</w>
+               </head>
+               <l xml:id="elcct_II-l12545">
+                  <w xml:id="elcct_II-253200" n="a-237910">יושב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253210" n="a-237920">רומות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253220" n="a-237930">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253230" n="a-237940">ישחק</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253240" n="a-237950">בעמלם</w>
+               </l>
+               <l xml:id="elcct_II-l12550">
+                  <w xml:id="elcct_II-253250" n="a-237960">מועיל</w>
+                  <pc xml:id="elcct_II-253260" n="a-237970">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-253270" n="a-237980">שהם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253280" n="a-237990">עמלים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253290" n="a-238000">תחת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253300" n="a-238010">השמש</w>
+                  <pc xml:id="elcct_II-253310" n="a-238020">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12555">
+                  <w xml:id="elcct_II-253320" n="a-238030">דברי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253330" n="a-238040">הימים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253340" n="a-238050">ושמחה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253350" n="a-238060">וגילם</w>
+               </l>
+               <l xml:id="elcct_II-l12560">
+                  <w xml:id="elcct_II-253360" n="a-238070">בני</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253370" n="a-238080">אביון</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253380" n="a-238090">ובלי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253390" n="a-238100">שם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253400" n="a-238110">כי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253410" n="a-238120">באו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253420" n="a-238130">אמש</w>
+                  <pc xml:id="elcct_II-253430" n="a-238140">:</pc>
+               </l>
             </lg>
-            <lg n="9" corresp="#stn9">
-               <head>ט</head>
-               <l>אשה יפת תאר ויפת מראה</l>
-               <l>והבוטח על חילו וברב עשרו</l>
-               <l>לא יקח הבל כי את שחת יראה:</l>
-               <l>לא ירד אחריו בבוד אדרו:</l>
+            <lg corresp="#stn9" n="9" xml:id="elcct_II-s03275">
+               <head>
+                  <w xml:id="elcct_II-253470" n="a-238150">ט</w>
+               </head>
+               <l xml:id="elcct_II-l12565">
+                  <w xml:id="elcct_II-253490" n="a-238160">אשה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253500" n="a-238170">יפת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253510" n="a-238180">תאר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253520" n="a-238190">ויפת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253530" n="a-238200">מראה</w>
+               </l>
+               <l xml:id="elcct_II-l12570">
+                  <w xml:id="elcct_II-253540" n="a-238210">והבוטח</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253550" n="a-238220">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253560" n="a-238230">חילו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253570" n="a-238240">וברב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253580" n="a-238250">עשרו</w>
+               </l>
+               <l xml:id="elcct_II-l12575">
+                  <w xml:id="elcct_II-253590" n="a-238260">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253600" n="a-238270">יקח</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253610" n="a-238280">הבל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253620" n="a-238290">כי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253630" n="a-238300">את</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253640" n="a-238310">שחת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253650" n="a-238320">יראה</w>
+                  <pc xml:id="elcct_II-253660" n="a-238330">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12580">
+                  <w xml:id="elcct_II-253670" n="a-238340">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253680" n="a-238350">ירד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253690" n="a-238360">אחריו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253700" n="a-238370">בבוד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253710" n="a-238380">אדרו</w>
+                  <pc xml:id="elcct_II-253720" n="a-238390">:</pc>
+               </l>
             </lg>
-            <lg n="10" corresp="#stn10">
-               <head>ל</head>
-               <l>איש גא את קברי בני עם אל תבזה:</l>
-               <l>בי בלי אבן משבית ומצבה</l>
-               <l>אל קיר סביב להיכל: פא זה וזה</l>
-               <l>לשור בתוף מחול עגב איש בא:</l>
+            <lg corresp="#stn10" n="10" xml:id="elcct_II-s03280">
+               <head>
+                  <w xml:id="elcct_II-253760" n="a-238400">ל</w>
+               </head>
+               <l xml:id="elcct_II-l12585">
+                  <w xml:id="elcct_II-253780" n="a-238410">איש</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253790" n="a-238420">גא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253800" n="a-238430">את</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253810" n="a-238440">קברי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253820" n="a-238450">בני</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253830" n="a-238460">עם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253840" n="a-238470">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253850" n="a-238480">תבזה</w>
+                  <pc xml:id="elcct_II-253860" n="a-238490">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12590">
+                  <w xml:id="elcct_II-253870" n="a-238500">בי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253880" n="a-238510">בלי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253890" n="a-238520">אבן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253900" n="a-238530">משבית</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253910" n="a-238540">ומצבה</w>
+               </l>
+               <l xml:id="elcct_II-l12595">
+                  <w xml:id="elcct_II-253920" n="a-238550">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253930" n="a-238560">קיר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253940" n="a-238570">סביב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253950" n="a-238580">להיכל</w>
+                  <pc xml:id="elcct_II-253960" n="a-238590">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-253970" n="a-238600">פא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253980" n="a-238610">זה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-253990" n="a-238620">וזה</w>
+               </l>
+               <l xml:id="elcct_II-l12600">
+                  <w xml:id="elcct_II-254000" n="a-238630">לשור</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254010" n="a-238640">בתוף</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254020" n="a-238650">מחול</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254030" n="a-238660">עגב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254040" n="a-238670">איש</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254050" n="a-238680">בא</w>
+                  <pc xml:id="elcct_II-254060" n="a-238690">:</pc>
+               </l>
             </lg>
-            <lg n="11" corresp="#stn11">
-               <head>י"א</head>
-               <l>היחשך מתים מני השחת</l>
-               <l>ציון על קבר פסיל מצבות:</l>
-               <l>היקרא כבוד נפשם משאל תחת:</l>
-               <l>הלקול שיר אזני מות קשובות:</l>
+            <lg corresp="#stn11" n="11" xml:id="elcct_II-s03285">
+               <head>
+                  <w xml:id="elcct_II-254100" n="a-238700">י</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-254110" n="a-238710">"</pc>
+                  <w xml:id="elcct_II-254120" n="a-238720">א</w>
+               </head>
+               <l xml:id="elcct_II-l12605">
+                  <w xml:id="elcct_II-254140" n="a-238730">היחשך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254150" n="a-238740">מתים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254160" n="a-238750">מני</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254170" n="a-238760">השחת</w>
+               </l>
+               <l xml:id="elcct_II-l12610">
+                  <w xml:id="elcct_II-254180" n="a-238770">ציון</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254190" n="a-238780">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254200" n="a-238790">קבר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254210" n="a-238800">פסיל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254220" n="a-238810">מצבות</w>
+                  <pc xml:id="elcct_II-254230" n="a-238820">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12615">
+                  <w xml:id="elcct_II-254240" n="a-238830">היקרא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254250" n="a-238840">כבוד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254260" n="a-238850">נפשם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254270" n="a-238860">משאל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254280" n="a-238870">תחת</w>
+                  <pc xml:id="elcct_II-254290" n="a-238880">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12620">
+                  <w xml:id="elcct_II-254300" n="a-238890">הלקול</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254310" n="a-238900">שיר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254320" n="a-238910">אזני</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254330" n="a-238920">מות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254340" n="a-238930">קשובות</w>
+                  <pc xml:id="elcct_II-254350" n="a-238940">:</pc>
+               </l>
             </lg>
-            <lg n="12" corresp="#stn12">
-               <head>יב</head>
-               <l>בהפנה אולי ישן אדמת עפר</l>
-               <l>לב מלא אש יורדה משחקים:</l>
-               <l>יד אל שבט בעיר מגדל כפר</l>
-               <l>מטיב נגן כנור באפיקים:</l>
+            <lg corresp="#stn12" n="12" xml:id="elcct_II-s03290">
+               <head>
+                  <w xml:id="elcct_II-254390" n="a-238950">יב</w>
+               </head>
+               <l xml:id="elcct_II-l12625">
+                  <w xml:id="elcct_II-254410" n="a-238960">בהפנה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254420" n="a-238970">אולי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254430" n="a-238980">ישן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254440" n="a-238990">אדמת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254450" n="a-239000">עפר</w>
+               </l>
+               <l xml:id="elcct_II-l12630">
+                  <w xml:id="elcct_II-254460" n="a-239010">לב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254470" n="a-239020">מלא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254480" n="a-239030">אש</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254490" n="a-239040">יורדה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254500" n="a-239050">משחקים</w>
+                  <pc xml:id="elcct_II-254510" n="a-239060">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12635">
+                  <w xml:id="elcct_II-254520" n="a-239070">יד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254530" n="a-239080">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254540" n="a-239090">שבט</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254550" n="a-239100">בעיר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254560" n="a-239110">מגדל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254570" n="a-239120">כפר</w>
+               </l>
+               <l xml:id="elcct_II-l12640">
+                  <w xml:id="elcct_II-254580" n="a-239130">מטיב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254590" n="a-239140">נגן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254600" n="a-239150">כנור</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254610" n="a-239160">באפיקים</w>
+                  <pc xml:id="elcct_II-254620" n="a-239170">:</pc>
+               </l>
             </lg>
-            <lg n="13" corresp="#stn13">
-               <head>י"ך</head>
-               <l>אבל לא ידעו ספר הדעת:</l>
-               <l>בו שלל רב לעת הקדומים:</l>
-               <l>ר'ש שהפ'ל תרדמה ברוח נברעת</l>
-               <l>השאירם יגב'ם וכרמים:</l>
+            <lg corresp="#stn13" n="13" xml:id="elcct_II-s03295">
+               <head>
+                  <w xml:id="elcct_II-254660" n="a-239180">י</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-254670" n="a-239190">"</pc>
+                  <w xml:id="elcct_II-254680" n="a-239200">ך</w>
+               </head>
+               <l xml:id="elcct_II-l12645">
+                  <w xml:id="elcct_II-254700" n="a-239210">אבל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254710" n="a-239220">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254720" n="a-239230">ידעו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254730" n="a-239240">ספר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254740" n="a-239250">הדעת</w>
+                  <pc xml:id="elcct_II-254750" n="a-239260">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12650">
+                  <w xml:id="elcct_II-254760" n="a-239270">בו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254770" n="a-239280">שלל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254780" n="a-239290">רב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254790" n="a-239300">לעת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254800" n="a-239310">הקדומים</w>
+                  <pc xml:id="elcct_II-254810" n="a-239320">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12655">
+                  <w xml:id="elcct_II-254820" n="a-239330">ר'ש</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254830" n="a-239340">שהפ'ל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254840" n="a-239350">תרדמה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254850" n="a-239360">ברוח</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254860" n="a-239370">נברעת</w>
+               </l>
+               <l xml:id="elcct_II-l12660">
+                  <w xml:id="elcct_II-254870" n="a-239380">השאירם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254880" n="a-239390">יגב'ם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254890" n="a-239400">וכרמים</w>
+                  <pc xml:id="elcct_II-254900" n="a-239410">:</pc>
+               </l>
             </lg>
-            <lg n="14" corresp="#stn14">
-               <head>לד</head>
-               <l>כן אבן אודם ופטרה וברקת</l>
-               <l>במצולות ים יבסימו תהמות:</l>
-               <l>בז ציץ שרון שושן עמק יונקת</l>
-               <l>להקטיר סמים בגזרת אדמות:</l>
+            <lg corresp="#stn14" n="14" xml:id="elcct_II-s03300">
+               <head>
+                  <w xml:id="elcct_II-254940" n="a-239420">לד</w>
+               </head>
+               <l xml:id="elcct_II-l12665">
+                  <w xml:id="elcct_II-254960" n="a-239430">כן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254970" n="a-239440">אבן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254980" n="a-239450">אודם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-254990" n="a-239460">ופטרה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255000" n="a-239470">וברקת</w>
+               </l>
+               <l xml:id="elcct_II-l12670">
+                  <w xml:id="elcct_II-255010" n="a-239480">במצולות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255020" n="a-239490">ים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255030" n="a-239500">יבסימו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255040" n="a-239510">תהמות</w>
+                  <pc xml:id="elcct_II-255050" n="a-239520">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12675">
+                  <w xml:id="elcct_II-255060" n="a-239530">בז</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255070" n="a-239540">ציץ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255080" n="a-239550">שרון</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255090" n="a-239560">שושן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255100" n="a-239570">עמק</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255110" n="a-239580">יונקת</w>
+               </l>
+               <l xml:id="elcct_II-l12680">
+                  <w xml:id="elcct_II-255120" n="a-239590">להקטיר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255130" n="a-239600">סמים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255140" n="a-239610">בגזרת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255150" n="a-239620">אדמות</w>
+                  <pc xml:id="elcct_II-255160" n="a-239630">:</pc>
+               </l>
             </lg>
-            <lg n="15" corresp="#stn15">
-               <head>טו</head>
-               <l>בי זשכב שם מת"תיה אחר עם אבותיו:</l>
-               <l>עז למפגע מושל ברם ביתו:</l>
-               <l>דו" יד אחר נעים זמירותיו:</l>
-               <l>ויפ"תח אחר נקי מדם בתו:</l>
+            <lg corresp="#stn15" n="15" xml:id="elcct_II-s03305">
+               <head>
+                  <w xml:id="elcct_II-255200" n="a-239640">טו</w>
+               </head>
+               <l xml:id="elcct_II-l12685">
+                  <w xml:id="elcct_II-255220" n="a-239650">בי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255230" n="a-239660">זשכב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255240" n="a-239670">שם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255250" n="a-239680">מת</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-255260" n="a-239690">"</pc>
+                  <w xml:id="elcct_II-255270" n="a-239700">תיה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255280" n="a-239710">אחר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255290" n="a-239720">עם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255300" n="a-239730">אבותיו</w>
+                  <pc xml:id="elcct_II-255310" n="a-239740">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12690">
+                  <w xml:id="elcct_II-255320" n="a-239750">עז</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255330" n="a-239760">למפגע</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255340" n="a-239770">מושל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255350" n="a-239780">ברם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255360" n="a-239790">ביתו</w>
+                  <pc xml:id="elcct_II-255370" n="a-239800">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12695">
+                  <w xml:id="elcct_II-255380" n="a-239810">דו</w>
+                  <pc xml:id="elcct_II-255390" n="a-239820">"</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-255400" n="a-239830">יד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255410" n="a-239840">אחר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255420" n="a-239850">נעים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255430" n="a-239860">זמירותיו</w>
+                  <pc xml:id="elcct_II-255440" n="a-239870">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12700">
+                  <w xml:id="elcct_II-255450" n="a-239880">ויפ</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-255460" n="a-239890">"</pc>
+                  <w xml:id="elcct_II-255470" n="a-239900">תח</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255480" n="a-239910">אחר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255490" n="a-239920">נקי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255500" n="a-239930">מדם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255510" n="a-239940">בתו</w>
+                  <pc xml:id="elcct_II-255520" n="a-239950">:</pc>
+               </l>
             </lg>
-            <lg n="16" corresp="#stn16">
-               <head>יו</head>
-               <l>דבר חכמה ותבונות לזקנים:</l>
-               <l>קום עם רע והתיצב על אף רעם:</l>
-               <l>שום שלוה : השביע חלב חטה את רנים:</l>
-               <l>וקרא דברי חייו בעיני העם-</l>
+            <lg corresp="#stn16" n="16" xml:id="elcct_II-s03310">
+               <head>
+                  <w xml:id="elcct_II-255560" n="a-239960">יו</w>
+               </head>
+               <l xml:id="elcct_II-l12705">
+                  <w xml:id="elcct_II-255580" n="a-239970">דבר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255590" n="a-239980">חכמה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255600" n="a-239990">ותבונות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255610" n="a-240000">לזקנים</w>
+                  <pc xml:id="elcct_II-255620" n="a-240010">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12710">
+                  <w xml:id="elcct_II-255630" n="a-240020">קום</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255640" n="a-240030">עם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255650" n="a-240040">רע</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255660" n="a-240050">והתיצב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255670" n="a-240060">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255680" n="a-240070">אף</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255690" n="a-240080">רעם</w>
+                  <pc xml:id="elcct_II-255700" n="a-240090">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12715">
+                  <w xml:id="elcct_II-255710" n="a-240100">שום</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255720" n="a-240110">שלוה</w>
+                  <pc xml:id="elcct_II-255730" n="a-240120">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-255740" n="a-240130">השביע</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255750" n="a-240140">חלב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255760" n="a-240150">חטה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255770" n="a-240160">את</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255780" n="a-240170">רנים</w>
+                  <pc xml:id="elcct_II-255790" n="a-240180">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12720">
+                  <w xml:id="elcct_II-255800" n="a-240190">וקרא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255810" n="a-240200">דברי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255820" n="a-240210">חייו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255830" n="a-240220">בעיני</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255840" n="a-240230">העם</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-255850" n="a-240240">-</pc>
+               </l>
             </lg>
-            <lg n="17" corresp="#stn17">
-               <head>יץ</head>
-               <l>לא נפל פור להם: גורל מנע</l>
-               <l>את חיל: פן ירבו פשע ברבות כוח:</l>
-               <l>שבת בדם על כסה: ולקול הנע</l>
-               <l>ודל: אזן לאטם ופניהם לברוח:</l>
+            <lg corresp="#stn17" n="17" xml:id="elcct_II-s03315">
+               <head>
+                  <w xml:id="elcct_II-255890" n="a-240250">יץ</w>
+               </head>
+               <l xml:id="elcct_II-l12725">
+                  <w xml:id="elcct_II-255910" n="a-240260">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255920" n="a-240270">נפל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255930" n="a-240280">פור</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255940" n="a-240290">להם</w>
+                  <pc xml:id="elcct_II-255950" n="a-240300">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-255960" n="a-240310">גורל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255970" n="a-240320">מנע</w>
+               </l>
+               <l xml:id="elcct_II-l12730">
+                  <w xml:id="elcct_II-255980" n="a-240330">את</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-255990" n="a-240340">חיל</w>
+                  <pc xml:id="elcct_II-256000" n="a-240350">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-256010" n="a-240360">פן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256020" n="a-240370">ירבו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256030" n="a-240380">פשע</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256040" n="a-240390">ברבות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256050" n="a-240400">כוח</w>
+                  <pc xml:id="elcct_II-256060" n="a-240410">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12735">
+                  <w xml:id="elcct_II-256070" n="a-240420">שבת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256080" n="a-240430">בדם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256090" n="a-240440">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256100" n="a-240450">כסה</w>
+                  <pc xml:id="elcct_II-256110" n="a-240460">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-256120" n="a-240470">ולקול</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256130" n="a-240480">הנע</w>
+               </l>
+               <l xml:id="elcct_II-l12740">
+                  <w xml:id="elcct_II-256140" n="a-240490">ודל</w>
+                  <pc xml:id="elcct_II-256150" n="a-240500">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-256160" n="a-240510">אזן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256170" n="a-240520">לאטם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256180" n="a-240530">ופניהם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256190" n="a-240540">לברוח</w>
+                  <pc xml:id="elcct_II-256200" n="a-240550">:</pc>
+               </l>
             </lg>
-            <lg n="18" corresp="#stn18">
-               <head>וה</head>
-               <l>להשבית נהמת לב סחרחר מרע:</l>
-               <l>לדעך בשת פנים בי כסתם:</l>
-               <l>ולבעל -גאות וגאון ברך לברע:</l>
-               <l>ושור שיר ציון בארץ נכר לא תם:</l>
+            <lg corresp="#stn18" n="18" xml:id="elcct_II-s03320">
+               <head>
+                  <w xml:id="elcct_II-256240" n="a-240560">וה</w>
+               </head>
+               <l xml:id="elcct_II-l12745">
+                  <w xml:id="elcct_II-256260" n="a-240570">להשבית</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256270" n="a-240580">נהמת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256280" n="a-240590">לב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256290" n="a-240600">סחרחר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256300" n="a-240610">מרע</w>
+                  <pc xml:id="elcct_II-256310" n="a-240620">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12750">
+                  <w xml:id="elcct_II-256320" n="a-240630">לדעך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256330" n="a-240640">בשת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256340" n="a-240650">פנים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256350" n="a-240660">בי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256360" n="a-240670">כסתם</w>
+                  <pc xml:id="elcct_II-256370" n="a-240680">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12755">
+                  <w xml:id="elcct_II-256380" n="a-240690">ולבעל</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-256390" n="a-240700">-</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-256400" n="a-240710">גאות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256410" n="a-240720">וגאון</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256420" n="a-240730">ברך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256430" n="a-240740">לברע</w>
+                  <pc xml:id="elcct_II-256440" n="a-240750">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12760">
+                  <w xml:id="elcct_II-256450" n="a-240760">ושור</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256460" n="a-240770">שיר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256470" n="a-240780">ציון</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256480" n="a-240790">בארץ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256490" n="a-240800">נכר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256500" n="a-240810">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256510" n="a-240820">תם</w>
+                  <pc xml:id="elcct_II-256520" n="a-240830">:</pc>
+               </l>
             </lg>
-            <lg n="19" corresp="#stn19">
-               <head>וט</head>
-               <l>רחוק מרגשת עם שריק יהגה</l>
-               <l>רע בל נמצא בכל חפשי נפשם:</l>
-               <l>ובגיא שלוה חיים שקטת גיא</l>
-               <l>פעמיהם בשלום הכ'נו שם:</l>
+            <lg corresp="#stn19" n="19" xml:id="elcct_II-s03325">
+               <head>
+                  <w xml:id="elcct_II-256560" n="a-240840">וט</w>
+               </head>
+               <l xml:id="elcct_II-l12765">
+                  <w xml:id="elcct_II-256580" n="a-240850">רחוק</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256590" n="a-240860">מרגשת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256600" n="a-240870">עם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256610" n="a-240880">שריק</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256620" n="a-240890">יהגה</w>
+               </l>
+               <l xml:id="elcct_II-l12770">
+                  <w xml:id="elcct_II-256630" n="a-240900">רע</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256640" n="a-240910">בל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256650" n="a-240920">נמצא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256660" n="a-240930">בכל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256670" n="a-240940">חפשי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256680" n="a-240950">נפשם</w>
+                  <pc xml:id="elcct_II-256690" n="a-240960">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12775">
+                  <w xml:id="elcct_II-256700" n="a-240970">ובגיא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256710" n="a-240980">שלוה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256720" n="a-240990">חיים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256730" n="a-241000">שקטת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256740" n="a-241010">גיא</w>
+               </l>
+               <l xml:id="elcct_II-l12780">
+                  <w xml:id="elcct_II-256750" n="a-241020">פעמיהם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256760" n="a-241030">בשלום</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256770" n="a-241040">הכ'נו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256780" n="a-241050">שם</w>
+                  <pc xml:id="elcct_II-256790" n="a-241060">:</pc>
+               </l>
             </lg>
-            <lg n="20" corresp="#stn20">
-               <head>כ</head>
-               <l>ולשמור עצמות אלה היבשות</l>
-               <l>אבן תבלית וגלאעד עליהם:</l>
-               <l>בוני גבא עשו: ובשיר קשות</l>
-               <l>נאמר: תאנח בץ איש כמעט מהם:</l>
+            <lg corresp="#stn20" n="20" xml:id="elcct_II-s03330">
+               <head>
+                  <w xml:id="elcct_II-256830" n="a-241070">כ</w>
+               </head>
+               <l xml:id="elcct_II-l12785">
+                  <w xml:id="elcct_II-256850" n="a-241080">ולשמור</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256860" n="a-241090">עצמות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256870" n="a-241100">אלה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256880" n="a-241110">היבשות</w>
+               </l>
+               <l xml:id="elcct_II-l12790">
+                  <w xml:id="elcct_II-256890" n="a-241120">אבן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256900" n="a-241130">תבלית</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256910" n="a-241140">וגלאעד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256920" n="a-241150">עליהם</w>
+                  <pc xml:id="elcct_II-256930" n="a-241160">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12795">
+                  <w xml:id="elcct_II-256940" n="a-241170">בוני</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256950" n="a-241180">גבא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256960" n="a-241190">עשו</w>
+                  <pc xml:id="elcct_II-256970" n="a-241200">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-256980" n="a-241210">ובשיר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-256990" n="a-241220">קשות</w>
+               </l>
+               <l xml:id="elcct_II-l12800">
+                  <w xml:id="elcct_II-257000" n="a-241230">נאמר</w>
+                  <pc xml:id="elcct_II-257010" n="a-241240">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-257020" n="a-241250">תאנח</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257030" n="a-241260">בץ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257040" n="a-241270">איש</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257050" n="a-241280">כמעט</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257060" n="a-241290">מהם</w>
+                  <pc xml:id="elcct_II-257070" n="a-241300">:</pc>
+               </l>
             </lg>
-            <lg n="21" corresp="#stn21">
-               <head>כא</head>
-               <l>שם ושנים ב'ד סופר עצור</l>
-               <l>הם לשמעה קינים הי ושירים:</l>
-               <l>בעט ברזל דברי אלוה סביב צור</l>
-               <l>יורו אבר טוב למות מות ישר'ם:</l>
+            <lg corresp="#stn21" n="21" xml:id="elcct_II-s03335">
+               <head>
+                  <w xml:id="elcct_II-257110" n="a-241310">כא</w>
+               </head>
+               <l xml:id="elcct_II-l12805">
+                  <w xml:id="elcct_II-257130" n="a-241320">שם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257140" n="a-241330">ושנים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257150" n="a-241340">ב'ד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257160" n="a-241350">סופר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257170" n="a-241360">עצור</w>
+               </l>
+               <l xml:id="elcct_II-l12810">
+                  <w xml:id="elcct_II-257180" n="a-241370">הם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257190" n="a-241380">לשמעה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257200" n="a-241390">קינים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257210" n="a-241400">הי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257220" n="a-241410">ושירים</w>
+                  <pc xml:id="elcct_II-257230" n="a-241420">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12815">
+                  <w xml:id="elcct_II-257240" n="a-241430">בעט</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257250" n="a-241440">ברזל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257260" n="a-241450">דברי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257270" n="a-241460">אלוה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257280" n="a-241470">סביב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257290" n="a-241480">צור</w>
+               </l>
+               <l xml:id="elcct_II-l12820">
+                  <w xml:id="elcct_II-257300" n="a-241490">יורו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257310" n="a-241500">אבר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257320" n="a-241510">טוב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257330" n="a-241520">למות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257340" n="a-241530">מות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257350" n="a-241540">ישר'ם</w>
+                  <pc xml:id="elcct_II-257360" n="a-241550">:</pc>
+               </l>
             </lg>
-            <lg n="22" corresp="#stn22">
-               <head>ב ב</head>
-               <l>מי הוא בז חושך בארץ נשיה ואמש</l>
-               <l>עזב את טוב ואת רע חיי הבליו</l>
-               <l>ואת אור מתוק וטוב וחמת שמש</l>
-               <l>נאנח לא שב וישא עיך אחריו:</l>
+            <lg corresp="#stn22" n="22" xml:id="elcct_II-s03340">
+               <head>
+                  <w xml:id="elcct_II-257400" n="a-241560">ב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257410" n="a-241570">ב</w>
+               </head>
+               <l xml:id="elcct_II-l12825">
+                  <w xml:id="elcct_II-257430" n="a-241580">מי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257440" n="a-241590">הוא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257450" n="a-241600">בז</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257460" n="a-241610">חושך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257470" n="a-241620">בארץ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257480" n="a-241630">נשיה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257490" n="a-241640">ואמש</w>
+               </l>
+               <l xml:id="elcct_II-l12830">
+                  <w xml:id="elcct_II-257500" n="a-241650">עזב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257510" n="a-241660">את</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257520" n="a-241670">טוב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257530" n="a-241680">ואת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257540" n="a-241690">רע</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257550" n="a-241700">חיי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257560" n="a-241710">הבליו</w>
+               </l>
+               <l xml:id="elcct_II-l12835">
+                  <w xml:id="elcct_II-257570" n="a-241720">ואת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257580" n="a-241730">אור</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257590" n="a-241740">מתוק</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257600" n="a-241750">וטוב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257610" n="a-241760">וחמת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257620" n="a-241770">שמש</w>
+               </l>
+               <l xml:id="elcct_II-l12840">
+                  <w xml:id="elcct_II-257630" n="a-241780">נאנח</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257640" n="a-241790">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257650" n="a-241800">שב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257660" n="a-241810">וישא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257670" n="a-241820">עיך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257680" n="a-241830">אחריו</w>
+                  <pc xml:id="elcct_II-257690" n="a-241840">:</pc>
+               </l>
             </lg>
-            <lg n="23" corresp="#stn23">
-               <head>כד</head>
-               <l>ישאל לשפוך נפשו אל חיק רורים:</l>
-               <l>בגוע: חפץ אל תדום בת עינם:</l>
-               <l>וקול תולדה יקרא בעמקי אירים:</l>
-               <l>אפר מות יכבה אש אהבה חנם:</l>
+            <lg corresp="#stn23" n="23" xml:id="elcct_II-s03345">
+               <head>
+                  <w xml:id="elcct_II-257730" n="a-241850">כד</w>
+               </head>
+               <l xml:id="elcct_II-l12845">
+                  <w xml:id="elcct_II-257750" n="a-241860">ישאל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257760" n="a-241870">לשפוך</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257770" n="a-241880">נפשו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257780" n="a-241890">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257790" n="a-241900">חיק</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257800" n="a-241910">רורים</w>
+                  <pc xml:id="elcct_II-257810" n="a-241920">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12850">
+                  <w xml:id="elcct_II-257820" n="a-241930">בגוע</w>
+                  <pc xml:id="elcct_II-257830" n="a-241940">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-257840" n="a-241950">חפץ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257850" n="a-241960">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257860" n="a-241970">תדום</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257870" n="a-241980">בת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257880" n="a-241990">עינם</w>
+                  <pc xml:id="elcct_II-257890" n="a-242000">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12855">
+                  <w xml:id="elcct_II-257900" n="a-242010">וקול</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257910" n="a-242020">תולדה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257920" n="a-242030">יקרא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257930" n="a-242040">בעמקי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257940" n="a-242050">אירים</w>
+                  <pc xml:id="elcct_II-257950" n="a-242060">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12860">
+                  <w xml:id="elcct_II-257960" n="a-242070">אפר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257970" n="a-242080">מות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257980" n="a-242090">יכבה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-257990" n="a-242100">אש</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258000" n="a-242110">אהבה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258010" n="a-242120">חנם</w>
+                  <pc xml:id="elcct_II-258020" n="a-242130">:</pc>
+               </l>
             </lg>
-            <lg n="24" corresp="#stn24">
-               <head>כד</head>
-               <l>ואתה זוכר מתי שם לא יקר:</l>
-               <l>כי את נוד חייהם ספרת בשפלך:</l>
-               <l>&#x2028;אם בחגות לב נקרא יקרא בה יבקר&#x2028;</l>
-               <l>חנון: מה היה דבר עשוי עליך:&#x2028;</l>
+            <lg corresp="#stn24" n="24" xml:id="elcct_II-s03350">
+               <head>
+                  <w xml:id="elcct_II-258060" n="a-242140">כד</w>
+               </head>
+               <l xml:id="elcct_II-l12865">
+                  <w xml:id="elcct_II-258080" n="a-242150">ואתה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258090" n="a-242160">זוכר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258100" n="a-242170">מתי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258110" n="a-242180">שם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258120" n="a-242190">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258130" n="a-242200">יקר</w>
+                  <pc xml:id="elcct_II-258140" n="a-242210">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12870">
+                  <w xml:id="elcct_II-258150" n="a-242220">כי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258160" n="a-242230">את</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258170" n="a-242240">נוד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258180" n="a-242250">חייהם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258190" n="a-242260">ספרת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258200" n="a-242270">בשפלך</w>
+                  <pc xml:id="elcct_II-258210" n="a-242280">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12875">
+                  <w xml:id="elcct_II-258220" n="a-242290">&#x2028;</w>
+                  <pc unit="sentence" xml:id="elcct_II-258220-eos" n="a-242300"/>
+                  <c> </c>
+                  <w xml:id="elcct_II-258230" n="a-242310">אם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258240" n="a-242320">בחגות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258250" n="a-242330">לב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258260" n="a-242340">נקרא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258270" n="a-242350">יקרא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258280" n="a-242360">בה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258290" n="a-242370">יבקר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258300" n="a-242380">&#x2028;</w>
+                  <pc unit="sentence" xml:id="elcct_II-258300-eos" n="a-242390"/>
+                  <c> </c>
+               </l>
+               <l xml:id="elcct_II-l12880">
+                  <w xml:id="elcct_II-258310" n="a-242400">חנון</w>
+                  <pc xml:id="elcct_II-258320" n="a-242410">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-258330" n="a-242420">מה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258340" n="a-242430">היה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258350" n="a-242440">דבר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258360" n="a-242450">עשוי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258370" n="a-242460">עליך</w>
+                  <pc xml:id="elcct_II-258380" n="a-242470">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-258390" n="a-242480">&#x2028;</w>
+               </l>
             </lg>
-            <lg n="25" corresp="#stn25">
-               <head>כ'ה</head>
-               <l>ואמר זקז ושב בין רועי הכשב: פפכ</l>
-               <l>רבת ראינוהו בבקוע שחר אורים</l>
-               <l>ר'ץ חבט את הטל נפול על עשב:</l>
-               <l>נכח אור שמש פרוש על הרים:</l>
+            <lg corresp="#stn25" n="25" xml:id="elcct_II-s03355">
+               <head>
+                  <w xml:id="elcct_II-258430" n="a-242490">כ'ה</w>
+               </head>
+               <l xml:id="elcct_II-l12885">
+                  <w xml:id="elcct_II-258450" n="a-242500">ואמר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258460" n="a-242510">זקז</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258470" n="a-242520">ושב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258480" n="a-242530">בין</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258490" n="a-242540">רועי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258500" n="a-242550">הכשב</w>
+                  <pc xml:id="elcct_II-258510" n="a-242560">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-258520" n="a-242570">פפכ</w>
+               </l>
+               <l xml:id="elcct_II-l12890">
+                  <w xml:id="elcct_II-258530" n="a-242580">רבת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258540" n="a-242590">ראינוהו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258550" n="a-242600">בבקוע</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258560" n="a-242610">שחר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258570" n="a-242620">אורים</w>
+               </l>
+               <l xml:id="elcct_II-l12895">
+                  <w xml:id="elcct_II-258580" n="a-242630">ר'ץ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258590" n="a-242640">חבט</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258600" n="a-242650">את</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258610" n="a-242660">הטל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258620" n="a-242670">נפול</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258630" n="a-242680">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258640" n="a-242690">עשב</w>
+                  <pc xml:id="elcct_II-258650" n="a-242700">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12900">
+                  <w xml:id="elcct_II-258660" n="a-242710">נכח</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258670" n="a-242720">אור</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258680" n="a-242730">שמש</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258690" n="a-242740">פרוש</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258700" n="a-242750">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258710" n="a-242760">הרים</w>
+                  <pc xml:id="elcct_II-258720" n="a-242770">:</pc>
+               </l>
             </lg>
-            <lg n="26" corresp="#stn26">
-               <head>כו</head>
-               <l>שם תחת האלה בי טוב צלה</l>
-               <l>שרשיה פתוחים על אדמה</l>
-               <l>עצל ישכב בי חום היום עלה:</l>
-               <l>על פלגי מים שישמחוהו עד מה:</l>
+            <lg corresp="#stn26" n="26" xml:id="elcct_II-s03360">
+               <head>
+                  <w xml:id="elcct_II-258760" n="a-242780">כו</w>
+               </head>
+               <l xml:id="elcct_II-l12905">
+                  <w xml:id="elcct_II-258780" n="a-242790">שם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258790" n="a-242800">תחת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258800" n="a-242810">האלה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258810" n="a-242820">בי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258820" n="a-242830">טוב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258830" n="a-242840">צלה</w>
+               </l>
+               <l xml:id="elcct_II-l12910">
+                  <w xml:id="elcct_II-258840" n="a-242850">שרשיה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258850" n="a-242860">פתוחים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258860" n="a-242870">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258870" n="a-242880">אדמה</w>
+               </l>
+               <l xml:id="elcct_II-l12915">
+                  <w xml:id="elcct_II-258880" n="a-242890">עצל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258890" n="a-242900">ישכב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258900" n="a-242910">בי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258910" n="a-242920">חום</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258920" n="a-242930">היום</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258930" n="a-242940">עלה</w>
+                  <pc xml:id="elcct_II-258940" n="a-242950">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12920">
+                  <w xml:id="elcct_II-258950" n="a-242960">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258960" n="a-242970">פלגי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258970" n="a-242980">מים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258980" n="a-242990">שישמחוהו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-258990" n="a-243000">עד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259000" n="a-243010">מה</w>
+                  <pc xml:id="elcct_II-259010" n="a-243020">:</pc>
+               </l>
             </lg>
-            <lg n="27" corresp="#stn27">
-               <head>כ'ז</head>
-               <l>איפו הגה אל האשרה ילעג בשחוק:</l>
-               <l>קול לא ישמע רק נעות שפתיו:</l>
-               <l>נעוה מאד ונחוץ בבלי חוק:</l>
-               <l>וחולה האהבה כי אנושה מכותיו:</l>
+            <lg corresp="#stn27" n="27" xml:id="elcct_II-s03365">
+               <head>
+                  <w xml:id="elcct_II-259050" n="a-243030">כ'ז</w>
+               </head>
+               <l xml:id="elcct_II-l12925">
+                  <w xml:id="elcct_II-259070" n="a-243040">איפו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259080" n="a-243050">הגה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259090" n="a-243060">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259100" n="a-243070">האשרה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259110" n="a-243080">ילעג</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259120" n="a-243090">בשחוק</w>
+                  <pc xml:id="elcct_II-259130" n="a-243100">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12930">
+                  <w xml:id="elcct_II-259140" n="a-243110">קול</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259150" n="a-243120">לא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259160" n="a-243130">ישמע</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259170" n="a-243140">רק</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259180" n="a-243150">נעות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259190" n="a-243160">שפתיו</w>
+                  <pc xml:id="elcct_II-259200" n="a-243170">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12935">
+                  <w xml:id="elcct_II-259210" n="a-243180">נעוה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259220" n="a-243190">מאד</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259230" n="a-243200">ונחוץ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259240" n="a-243210">בבלי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259250" n="a-243220">חוק</w>
+                  <pc xml:id="elcct_II-259260" n="a-243230">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12940">
+                  <w xml:id="elcct_II-259270" n="a-243240">וחולה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259280" n="a-243250">האהבה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259290" n="a-243260">כי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259300" n="a-243270">אנושה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259310" n="a-243280">מכותיו</w>
+                  <pc xml:id="elcct_II-259320" n="a-243290">:</pc>
+               </l>
             </lg>
-            <lg n="28" corresp="#stn28">
-               <head>בה</head>
-               <l>יום בא ואין הוא כפעם פעמים:</l>
-               <l>אל הר יאל צל אהוב תחת האלה:</l>
-               <l>יים אחר בא ואין הוא על פלגי מים:</l>
-               <l>באחת גאיות גבל או אל אשלה:</l>
+            <lg corresp="#stn28" n="28" xml:id="elcct_II-s03370">
+               <head>
+                  <w xml:id="elcct_II-259360" n="a-243300">בה</w>
+               </head>
+               <l xml:id="elcct_II-l12945">
+                  <w xml:id="elcct_II-259380" n="a-243310">יום</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259390" n="a-243320">בא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259400" n="a-243330">ואין</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259410" n="a-243340">הוא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259420" n="a-243350">כפעם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259430" n="a-243360">פעמים</w>
+                  <pc xml:id="elcct_II-259440" n="a-243370">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12950">
+                  <w xml:id="elcct_II-259450" n="a-243380">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259460" n="a-243390">הר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259470" n="a-243400">יאל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259480" n="a-243410">צל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259490" n="a-243420">אהוב</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259500" n="a-243430">תחת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259510" n="a-243440">האלה</w>
+                  <pc xml:id="elcct_II-259520" n="a-243450">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12955">
+                  <w xml:id="elcct_II-259530" n="a-243460">יים</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259540" n="a-243470">אחר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259550" n="a-243480">בא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259560" n="a-243490">ואין</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259570" n="a-243500">הוא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259580" n="a-243510">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259590" n="a-243520">פלגי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259600" n="a-243530">מים</w>
+                  <pc xml:id="elcct_II-259610" n="a-243540">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12960">
+                  <w xml:id="elcct_II-259620" n="a-243550">באחת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259630" n="a-243560">גאיות</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259640" n="a-243570">גבל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259650" n="a-243580">או</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259660" n="a-243590">אל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259670" n="a-243600">אשלה</w>
+                  <pc xml:id="elcct_II-259680" n="a-243610">:</pc>
+               </l>
             </lg>
-            <lg n="29" corresp="#stn29">
-               <head>כט</head>
-               <l>והן עם סופר מספר יום שלישי:</l>
-               <l>וישאו אותי בית יי"י הולבים:</l>
-               <l>פא אתה חכם מבין: קרא חפשי</l>
-               <l>כל שיר על שיש תחת קוץ ערובים: ססס</l>
+            <lg corresp="#stn29" n="29" xml:id="elcct_II-s03375">
+               <head>
+                  <w xml:id="elcct_II-259720" n="a-243620">כט</w>
+               </head>
+               <l xml:id="elcct_II-l12965">
+                  <w xml:id="elcct_II-259740" n="a-243630">והן</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259750" n="a-243640">עם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259760" n="a-243650">סופר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259770" n="a-243660">מספר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259780" n="a-243670">יום</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259790" n="a-243680">שלישי</w>
+                  <pc xml:id="elcct_II-259800" n="a-243690">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12970">
+                  <w xml:id="elcct_II-259810" n="a-243700">וישאו</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259820" n="a-243710">אותי</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259830" n="a-243720">בית</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259840" n="a-243730">יי</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-259850" n="a-243740">"</pc>
+                  <w xml:id="elcct_II-259860" n="a-243750">י</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259870" n="a-243760">הולבים</w>
+                  <pc xml:id="elcct_II-259880" n="a-243770">:</pc>
+               </l>
+               <l xml:id="elcct_II-l12975">
+                  <w xml:id="elcct_II-259890" n="a-243780">פא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259900" n="a-243790">אתה</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259910" n="a-243800">חכם</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259920" n="a-243810">מבין</w>
+                  <pc xml:id="elcct_II-259930" n="a-243820">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-259940" n="a-243830">קרא</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259950" n="a-243840">חפשי</w>
+               </l>
+               <l xml:id="elcct_II-l12980">
+                  <w xml:id="elcct_II-259960" n="a-243850">כל</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259970" n="a-243860">שיר</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259980" n="a-243870">על</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-259990" n="a-243880">שיש</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-260000" n="a-243890">תחת</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-260010" n="a-243900">קוץ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-260020" n="a-243910">ערובים</w>
+                  <pc xml:id="elcct_II-260030" n="a-243920">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-260040" n="a-243930">ססס</w>
+               </l>
             </lg>
-            <lg>
-               <head>מצבה</head>
-               <lg n="30" corresp="#stn30">
-                  <head>△</head>
-                  <l>פה נער בלי חק שם חיק ארץ נח:</l>
-                  <l>שבטו צעיר ומשפחתו נדח:</l>
-                  <l>בא דעת בלבו: אבל נאנח</l>
-                  <l>לא נמלא שחוק פיהו ותהות רוח:</l>
+            <lg xml:id="elcct_II-s03380">
+               <head>
+                  <w xml:id="elcct_II-260080" n="a-243940">מצבה</w>
+               </head>
+               <lg corresp="#stn30" n="30" xml:id="elcct_II-s03385">
+                  <head>
+                     <w xml:id="elcct_II-260120" n="a-243950">△</w>
+                  </head>
+                  <l xml:id="elcct_II-l12985">
+                     <w xml:id="elcct_II-260140" n="a-243960">פה</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260150" n="a-243970">נער</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260160" n="a-243980">בלי</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260170" n="a-243990">חק</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260180" n="a-244000">שם</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260190" n="a-244010">חיק</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260200" n="a-244020">ארץ</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260210" n="a-244030">נח</w>
+                     <pc xml:id="elcct_II-260220" n="a-244040">:</pc>
+                  </l>
+                  <l xml:id="elcct_II-l12990">
+                     <w xml:id="elcct_II-260230" n="a-244050">שבטו</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260240" n="a-244060">צעיר</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260250" n="a-244070">ומשפחתו</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260260" n="a-244080">נדח</w>
+                     <pc xml:id="elcct_II-260270" n="a-244090">:</pc>
+                  </l>
+                  <l xml:id="elcct_II-l12995">
+                     <w xml:id="elcct_II-260280" n="a-244100">בא</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260290" n="a-244110">דעת</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260300" n="a-244120">בלבו</w>
+                     <pc xml:id="elcct_II-260310" n="a-244130">:</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-260320" n="a-244140">אבל</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260330" n="a-244150">נאנח</w>
+                  </l>
+                  <l xml:id="elcct_II-l13000">
+                     <w xml:id="elcct_II-260340" n="a-244160">לא</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260350" n="a-244170">נמלא</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260360" n="a-244180">שחוק</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260370" n="a-244190">פיהו</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260380" n="a-244200">ותהות</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260390" n="a-244210">רוח</w>
+                     <pc xml:id="elcct_II-260400" n="a-244220">:</pc>
+                  </l>
                </lg>
-               <lg n="31" corresp="#stn31">
-                  <head>↨</head>
-                  <l>חסר ואמת נפשו בלבו:</l>
-                  <l>וגם עמו עשה רב חסד יה:</l>
-                  <l>נח לאביו נרמז: כל שהיה בו:</l>
-                  <l>כאות לב את אוהב נחן לו יה:</l>
+               <lg corresp="#stn31" n="31" xml:id="elcct_II-s03390">
+                  <head>
+                     <w xml:id="elcct_II-260440" n="a-244230">↨</w>
+                  </head>
+                  <l xml:id="elcct_II-l13005">
+                     <w xml:id="elcct_II-260460" n="a-244240">חסר</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260470" n="a-244250">ואמת</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260480" n="a-244260">נפשו</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260490" n="a-244270">בלבו</w>
+                     <pc xml:id="elcct_II-260500" n="a-244280">:</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13010">
+                     <w xml:id="elcct_II-260510" n="a-244290">וגם</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260520" n="a-244300">עמו</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260530" n="a-244310">עשה</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260540" n="a-244320">רב</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260550" n="a-244330">חסד</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260560" n="a-244340">יה</w>
+                     <pc xml:id="elcct_II-260570" n="a-244350">:</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13015">
+                     <w xml:id="elcct_II-260580" n="a-244360">נח</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260590" n="a-244370">לאביו</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260600" n="a-244380">נרמז</w>
+                     <pc xml:id="elcct_II-260610" n="a-244390">:</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-260620" n="a-244400">כל</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260630" n="a-244410">שהיה</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260640" n="a-244420">בו</w>
+                     <pc xml:id="elcct_II-260650" n="a-244430">:</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13020">
+                     <w xml:id="elcct_II-260660" n="a-244440">כאות</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260670" n="a-244450">לב</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260680" n="a-244460">את</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260690" n="a-244470">אוהב</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260700" n="a-244480">נחן</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260710" n="a-244490">לו</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260720" n="a-244500">יה</w>
+                     <pc xml:id="elcct_II-260730" n="a-244510">:</pc>
+                  </l>
                </lg>
-               <lg n="32" corresp="#stn32">
-                  <head>↨</head>
-                  <l>סור צדקתו אל תבכה כי איש לא נגלה:</l>
-                  <l>ואשר חטא בשגגה את תאותו:</l>
-                  <l>יחד בהן בטח וחללה:</l>
-                  <l>בחיק י״י אביו ואלהיו:</l>
+               <lg corresp="#stn32" n="32" xml:id="elcct_II-s03395">
+                  <head>
+                     <w xml:id="elcct_II-260770" n="a-244520">↨</w>
+                  </head>
+                  <l xml:id="elcct_II-l13025">
+                     <w xml:id="elcct_II-260790" n="a-244530">סור</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260800" n="a-244540">צדקתו</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260810" n="a-244550">אל</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260820" n="a-244560">תבכה</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260830" n="a-244570">כי</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260840" n="a-244580">איש</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260850" n="a-244590">לא</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260860" n="a-244600">נגלה</w>
+                     <pc xml:id="elcct_II-260870" n="a-244610">:</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13030">
+                     <w xml:id="elcct_II-260880" n="a-244620">ואשר</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260890" n="a-244630">חטא</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260900" n="a-244640">בשגגה</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260910" n="a-244650">את</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260920" n="a-244660">תאותו</w>
+                     <pc xml:id="elcct_II-260930" n="a-244670">:</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13035">
+                     <w xml:id="elcct_II-260940" n="a-244680">יחד</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260950" n="a-244690">בהן</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260960" n="a-244700">בטח</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-260970" n="a-244710">וחללה</w>
+                     <pc xml:id="elcct_II-260980" n="a-244720">:</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13040">
+                     <w xml:id="elcct_II-260990" n="a-244730">בחיק</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-261000" n="a-244740">י״י</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-261010" n="a-244750">אביו</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-261020" n="a-244760">ואלהיו</w>
+                     <pc xml:id="elcct_II-261030" n="a-244770">:</pc>
+                  </l>
                </lg>
             </lg>
          </div>

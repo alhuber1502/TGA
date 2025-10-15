@@ -50,7 +50,7 @@
                <date type="publ">2000</date>
                <biblScope>vol. 1, 436</biblScope>
                <idno type="NoC_1917">830</idno>
-               <note type="edst">Transcription by Tom Turk.</note>
+               <note type="edst" xml:id="elcct_II-n00155">Transcription by Tom Turk.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -81,47 +81,289 @@
    </teiHeader>
    <text>
       <body>
-         <div ana="#translation"
+         <div ana="#translation #excerpt"
               n="Shelley, P. B."
               rendition="#lgvspace"
               type="verse"
               xml:id="lat.Shelley.1808">
-            <head type="main">Epitaphium</head>
-            <lg n="1" corresp="#stn30">
-               <l>Hic, sinu fessum caput, hospitali,</l>
-               <l>Cespitis, dormit juvenis, nec illi</l>
-               <l>Fata ridebant, popularis ille</l>
-               <l>Nescius aurae.</l>
+            <head type="main">
+               <w xml:id="elcct_II-396160" n="a-372150">Epitaphium</w>
+            </head>
+            <lg corresp="#stn30" n="1" xml:id="elcct_II-s05145">
+               <l xml:id="elcct_II-l17940">
+                  <w xml:id="elcct_II-396190" n="a-372160">Hic</w>
+                  <pc xml:id="elcct_II-396200" n="a-372170">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396210" n="a-372180">sinu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396220" n="a-372190">fessum</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396230" n="a-372200">caput</w>
+                  <pc xml:id="elcct_II-396240" n="a-372210">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396250" n="a-372220">hospitali</w>
+                  <pc xml:id="elcct_II-396260" n="a-372230">,</pc>
+               </l>
+               <l xml:id="elcct_II-l17945">
+                  <w xml:id="elcct_II-396270" n="a-372240">Cespitis</w>
+                  <pc xml:id="elcct_II-396280" n="a-372250">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396290" n="a-372260">dormit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396300" n="a-372270">juvenis</w>
+                  <pc xml:id="elcct_II-396310" n="a-372280">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396320" n="a-372290">nec</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396330" n="a-372300">illi</w>
+               </l>
+               <l xml:id="elcct_II-l17950">
+                  <w xml:id="elcct_II-396340" n="a-372310">Fata</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396350" n="a-372320">ridebant</w>
+                  <pc xml:id="elcct_II-396360" n="a-372330">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396370" n="a-372340">popularis</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396380" n="a-372350">ille</w>
+               </l>
+               <l xml:id="elcct_II-l17955">
+                  <w xml:id="elcct_II-396390" n="a-372360">Nescius</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396400" n="a-372370">aurae</w>
+                  <pc xml:id="elcct_II-396410" n="a-372380" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="2" corresp="#stn30">
-               <l>Musa non vultu, genus, arroganti,</l>
-               <l>Rustica natum grege despicata,</l>
-               <l>Et suum, tristis, puerum, notavit</l>
-               <l>Sollicitudo.</l>
+            <lg corresp="#stn30" n="2" xml:id="elcct_II-s05150">
+               <l xml:id="elcct_II-l17960">
+                  <w xml:id="elcct_II-396430" n="a-372390">Musa</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396440" n="a-372400">non</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396450" n="a-372410">vultu</w>
+                  <pc xml:id="elcct_II-396460" n="a-372420">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396470" n="a-372430">genus</w>
+                  <pc xml:id="elcct_II-396480" n="a-372440">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396490" n="a-372450">arroganti</w>
+                  <pc xml:id="elcct_II-396500" n="a-372460">,</pc>
+               </l>
+               <l xml:id="elcct_II-l17965">
+                  <w xml:id="elcct_II-396510" n="a-372470">Rustica</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396520" n="a-372480">natum</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396530" n="a-372490">grege</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396540" n="a-372500">despicata</w>
+                  <pc xml:id="elcct_II-396550" n="a-372510">,</pc>
+               </l>
+               <l xml:id="elcct_II-l17970">
+                  <w xml:id="elcct_II-396560" n="a-372520">Et</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396570" n="a-372530">suum</w>
+                  <pc xml:id="elcct_II-396580" n="a-372540">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396590" n="a-372550">tristis</w>
+                  <pc xml:id="elcct_II-396600" n="a-372560">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396610" n="a-372570">puerum</w>
+                  <pc xml:id="elcct_II-396620" n="a-372580">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396630" n="a-372590">notavit</w>
+               </l>
+               <l xml:id="elcct_II-l17975">
+                  <w xml:id="elcct_II-396640" n="a-372600">Sollicitudo</w>
+                  <pc xml:id="elcct_II-396650" n="a-372610" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="3" corresp="#stn31">
-               <l>Indoles illi bene larga, pectus</l>
-               <l>Veritas sedem sibi vindicavit,</l>
-               <l>Et pari, tantis meritis, beavit</l>
-               <l>Munere, coelum.</l>
+            <lg corresp="#stn31" n="3" xml:id="elcct_II-s05155">
+               <l xml:id="elcct_II-l17980">
+                  <w xml:id="elcct_II-396670" n="a-372620">Indoles</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396680" n="a-372630">illi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396690" n="a-372640">bene</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396700" n="a-372650">larga</w>
+                  <pc xml:id="elcct_II-396710" n="a-372660">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396720" n="a-372670">pectus</w>
+               </l>
+               <l xml:id="elcct_II-l17985">
+                  <w xml:id="elcct_II-396730" n="a-372680">Veritas</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396740" n="a-372690">sedem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396750" n="a-372700">sibi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396760" n="a-372710">vindicavit</w>
+                  <pc xml:id="elcct_II-396770" n="a-372720">,</pc>
+               </l>
+               <l xml:id="elcct_II-l17990">
+                  <w xml:id="elcct_II-396780" n="a-372730">Et</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396790" n="a-372740">pari</w>
+                  <pc xml:id="elcct_II-396800" n="a-372750">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396810" n="a-372760">tantis</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396820" n="a-372770">meritis</w>
+                  <pc xml:id="elcct_II-396830" n="a-372780">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396840" n="a-372790">beavit</w>
+               </l>
+               <l xml:id="elcct_II-l17995">
+                  <w xml:id="elcct_II-396850" n="a-372800">Munere</w>
+                  <pc xml:id="elcct_II-396860" n="a-372810">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396870" n="a-372820">coelum</w>
+                  <pc xml:id="elcct_II-396880" n="a-372830" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="4" corresp="#stn31">
-               <l>Omne, quod maestis habuit, miserto</l>
-               <l>Corde, largivit lacrymam, recepit,</l>
-               <l>Omne, quod Caelo voluit, fidelis</l>
-               <l>Pectus amici.</l>
+            <lg corresp="#stn31" n="4" xml:id="elcct_II-s05160">
+               <l xml:id="elcct_II-l18000">
+                  <w xml:id="elcct_II-396900" n="a-372840">Omne</w>
+                  <pc xml:id="elcct_II-396910" n="a-372850">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396920" n="a-372860">quod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396930" n="a-372870">maestis</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-396940" n="a-372880">habuit</w>
+                  <pc xml:id="elcct_II-396950" n="a-372890">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396960" n="a-372900">miserto</w>
+               </l>
+               <l xml:id="elcct_II-l18005">
+                  <w xml:id="elcct_II-396970" n="a-372910">Corde</w>
+                  <pc xml:id="elcct_II-396980" n="a-372920">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-396990" n="a-372930">largivit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397000" n="a-372940">lacrymam</w>
+                  <pc xml:id="elcct_II-397010" n="a-372950">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397020" n="a-372960">recepit</w>
+                  <pc xml:id="elcct_II-397030" n="a-372970">,</pc>
+               </l>
+               <l xml:id="elcct_II-l18010">
+                  <w xml:id="elcct_II-397040" n="a-372980">Omne</w>
+                  <pc xml:id="elcct_II-397050" n="a-372990">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397060" n="a-373000">quod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397070" n="a-373010">Caelo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397080" n="a-373020">voluit</w>
+                  <pc xml:id="elcct_II-397090" n="a-373030">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397100" n="a-373040">fidelis</w>
+               </l>
+               <l xml:id="elcct_II-l18015">
+                  <w xml:id="elcct_II-397110" n="a-373050">Pectus</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397120" n="a-373060">amici</w>
+                  <pc xml:id="elcct_II-397130" n="a-373070" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="5" corresp="#stn32">
-               <l>Longius, sed tu, fuge, curiosus,</l>
-               <l>Caeteras laudes, fuge, suspicari,</l>
-               <l>Caeteras culpas, fuge, velle tractas</l>
-               <l>Sede tremenda.</l>
+            <lg corresp="#stn32" n="5" xml:id="elcct_II-s05165">
+               <l xml:id="elcct_II-l18020">
+                  <w xml:id="elcct_II-397150" n="a-373080">Longius</w>
+                  <pc xml:id="elcct_II-397160" n="a-373090">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397170" n="a-373100">sed</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397180" n="a-373110">tu</w>
+                  <pc xml:id="elcct_II-397190" n="a-373120">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397200" n="a-373130">fuge</w>
+                  <pc xml:id="elcct_II-397210" n="a-373140">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397220" n="a-373150">curiosus</w>
+                  <pc xml:id="elcct_II-397230" n="a-373160">,</pc>
+               </l>
+               <l xml:id="elcct_II-l18025">
+                  <w xml:id="elcct_II-397240" n="a-373170">Caeteras</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397250" n="a-373180">laudes</w>
+                  <pc xml:id="elcct_II-397260" n="a-373190">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397270" n="a-373200">fuge</w>
+                  <pc xml:id="elcct_II-397280" n="a-373210">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397290" n="a-373220">suspicari</w>
+                  <pc xml:id="elcct_II-397300" n="a-373230">,</pc>
+               </l>
+               <l xml:id="elcct_II-l18030">
+                  <w xml:id="elcct_II-397310" n="a-373240">Caeteras</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397320" n="a-373250">culpas</w>
+                  <pc xml:id="elcct_II-397330" n="a-373260">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397340" n="a-373270">fuge</w>
+                  <pc xml:id="elcct_II-397350" n="a-373280">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397360" n="a-373290">velle</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397370" n="a-373300">tractas</w>
+               </l>
+               <l xml:id="elcct_II-l18035">
+                  <w xml:id="elcct_II-397380" n="a-373310">Sede</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397390" n="a-373320">tremenda</w>
+                  <pc xml:id="elcct_II-397400" n="a-373330" unit="sentence">.</pc>
+               </l>
             </lg>
-            <lg n="6" corresp="#stn32">
-               <l>Spe tremescentes, recubant, in illa</l>
-               <l>Sede, virtutes, pariter que culpae,</l>
-               <l>In suit, Patris gremio, tremenda</l>
-               <l>Sede, Deique.</l>
+            <lg corresp="#stn32" n="6" xml:id="elcct_II-s05170">
+               <l xml:id="elcct_II-l18040">
+                  <w xml:id="elcct_II-397420" n="a-373340">Spe</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397430" n="a-373350">tremescentes</w>
+                  <pc xml:id="elcct_II-397440" n="a-373360">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397450" n="a-373370">recubant</w>
+                  <pc xml:id="elcct_II-397460" n="a-373380">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397470" n="a-373390">in</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397480" n="a-373400">illa</w>
+               </l>
+               <l xml:id="elcct_II-l18045">
+                  <w xml:id="elcct_II-397490" n="a-373410">Sede</w>
+                  <pc xml:id="elcct_II-397500" n="a-373420">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397510" n="a-373430">virtutes</w>
+                  <pc xml:id="elcct_II-397520" n="a-373440">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397530" n="a-373450">pariter</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397540" n="a-373460">que</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397550" n="a-373470">culpae</w>
+                  <pc xml:id="elcct_II-397560" n="a-373480">,</pc>
+               </l>
+               <l xml:id="elcct_II-l18050">
+                  <w xml:id="elcct_II-397570" n="a-373490">In</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397580" n="a-373500">sui</w>
+                  <pc xml:id="elcct_II-397590" n="a-373510">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397600" n="a-373520">Patris</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-397610" n="a-373530">gremio</w>
+                  <pc xml:id="elcct_II-397620" n="a-373540">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397630" n="a-373550">tremenda</w>
+               </l>
+               <l xml:id="elcct_II-l18055">
+                  <w xml:id="elcct_II-397640" n="a-373560">Sede</w>
+                  <pc xml:id="elcct_II-397650" n="a-373570">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-397660" n="a-373580">Deique</w>
+                  <pc xml:id="elcct_II-397670" n="a-373590" unit="sentence">.</pc>
+               </l>
             </lg>
          </div>
       </body>

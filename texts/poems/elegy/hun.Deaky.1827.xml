@@ -1,0 +1,2336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegia, egy falusi temetöre. Gray tamás Után</title>
+            <author>Deáky, Zsigmund</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="hun1827_bib">
+               <date>1827</date>
+               <author>Deáky, Zsigmund</author>
+               <title level="a">Elegia, egy falusi temetöre. Gray tamás Után</title>
+               <pubPlace>Romában [Rome]</pubPlace>
+               <publisher>De Romanis Fülöp és Miklósnál</publisher>
+               <biblScope>3-7</biblScope>
+               <idno type="NoC_1917">795</idno>
+               <note type="edst" xml:id="elcct_II-n00105">Transcription by Alexander Huber.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Alexander Huber.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation"
+              n="Deáky, Zsigmund"
+              rendition="#lgvspace"
+              type="verse"
+              xml:id="hun.Deaky.1827">
+            <head type="main">
+               <w xml:id="elcct_II-261100" n="a-244780">Elegia</w>
+               <pc xml:id="elcct_II-261110" n="a-244790">,</pc>
+               <c> </c>
+               <w xml:id="elcct_II-261120" n="a-244800">egy</w>
+               <c> </c>
+               <w xml:id="elcct_II-261130" n="a-244810">falusi</w>
+               <c> </c>
+               <w xml:id="elcct_II-261140" n="a-244820">temetöre</w>
+               <pc xml:id="elcct_II-261150" n="a-244830" unit="sentence">.</pc>
+               <c> </c>
+               <w xml:id="elcct_II-261160" n="a-244840">Gray</w>
+               <c> </c>
+               <w xml:id="elcct_II-261170" n="a-244850">tamás</w>
+               <c> </c>
+               <w xml:id="elcct_II-261180" n="a-244860">Után</w>
+               <pc xml:id="elcct_II-261190" n="a-244870" unit="sentence">.</pc>
+            </head>
+            <lg corresp="#stn1" n="1" xml:id="elcct_II-s03400">
+               <l xml:id="elcct_II-l13045">
+                  <w xml:id="elcct_II-261220" n="a-244880">Hirdeti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261230" n="a-244890">a</w>
+                  <pc xml:id="elcct_II-261240" n="a-244900">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-261250" n="a-244910">lemenő</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261260" n="a-244920">napot</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261270" n="a-244930">a'</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261280" n="a-244940">szomor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261290" n="a-244950">esti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261300" n="a-244960">harangszo</w>
+                  <pc xml:id="elcct_II-261310" n="a-244970">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13050">
+                  <w xml:id="elcct_II-261320" n="a-244980">A</w>
+                  <pc xml:id="elcct_II-261330" n="a-244990">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-261340" n="a-245000">bőgő</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261350" n="a-245010">tanya</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261360" n="a-245020">már</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261370" n="a-245030">halkal</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261380" n="a-245040">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261390" n="a-245050">útra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261400" n="a-245060">kerül</w>
+                  <pc xml:id="elcct_II-261410" n="a-245070">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13055">
+                  <w xml:id="elcct_II-261420" n="a-245080">Ballag</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261430" n="a-245090">honja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261440" n="a-245100">fele</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261450" n="a-245110">a</w>
+                  <pc xml:id="elcct_II-261460" n="a-245120">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-261470" n="a-245130">fáradt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261480" n="a-245140">parragi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261490" n="a-245150">ember</w>
+                  <pc xml:id="elcct_II-261500" n="a-245160">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13060">
+                  <w xml:id="elcct_II-261510" n="a-245170">Es</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261520" n="a-245180">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261530" n="a-245190">egesz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261540" n="a-245200">nagy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261550" n="a-245210">kört</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261560" n="a-245220">haggya</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261570" n="a-245230">homályra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261580" n="a-245240">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261590" n="a-245250">ream</w>
+                  <pc xml:id="elcct_II-261600" n="a-245260" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn2" n="2" xml:id="elcct_II-s03405">
+               <l xml:id="elcct_II-l13065">
+                  <w xml:id="elcct_II-261630" n="a-245270">Már</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261640" n="a-245280">tűnik</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261650" n="a-245290">a</w>
+                  <pc xml:id="elcct_II-261660" n="a-245300">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-261670" n="a-245310">szem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261680" n="a-245320">elöl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261690" n="a-245330">a</w>
+                  <pc xml:id="elcct_II-261700" n="a-245340">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-261710" n="a-245350">táj</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261720" n="a-245360">burkolva</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261730" n="a-245370">homályba</w>
+                  <pc xml:id="elcct_II-261740" n="a-245380">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13070">
+                  <w xml:id="elcct_II-261750" n="a-245390">Es</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261760" n="a-245400">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261770" n="a-245410">egész</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261780" n="a-245420">levegő</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261790" n="a-245430">ünnepi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261800" n="a-245440">csendbe</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261810" n="a-245450">lebeg</w>
+                  <pc xml:id="elcct_II-261820" n="a-245460" unit="sentence">.</pc>
+               </l>
+               <l xml:id="elcct_II-l13075">
+                  <w xml:id="elcct_II-261830" n="a-245470">Még</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261840" n="a-245480">csak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261850" n="a-245490">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261860" n="a-245500">éjji</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261870" n="a-245510">bogár</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261880" n="a-245520">repdez</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261890" n="a-245530">szétszedte</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261900" n="a-245540">dönögve</w>
+               </l>
+               <l xml:id="elcct_II-l13080">
+                  <w xml:id="elcct_II-261910" n="a-245550">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261920" n="a-245560">álmot</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261930" n="a-245570">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261940" n="a-245580">akloknak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261950" n="a-245590">tompa</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261960" n="a-245600">harangja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-261970" n="a-245610">ereszt</w>
+                  <pc xml:id="elcct_II-261980" n="a-245620" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn3" n="3" xml:id="elcct_II-s03410">
+               <l xml:id="elcct_II-l13085">
+                  <w xml:id="elcct_II-262010" n="a-245630">Még</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262020" n="a-245640">csak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262030" n="a-245650">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262040" n="a-245660">éjji</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262050" n="a-245670">madár</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262060" n="a-245680">repkény</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262070" n="a-245690">környezte</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262080" n="a-245700">toronyból</w>
+               </l>
+               <l xml:id="elcct_II-l13090">
+                  <w xml:id="elcct_II-262090" n="a-245710">Vijjong</w>
+                  <pc xml:id="elcct_II-262100" n="a-245720">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-262110" n="a-245730">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262120" n="a-245740">a</w>
+                  <pc xml:id="elcct_II-262130" n="a-245750">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-262140" n="a-245760">holdnál</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262150" n="a-245770">durva</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262160" n="a-245780">panaszra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262170" n="a-245790">fakad</w>
+                  <pc xml:id="elcct_II-262180" n="a-245800">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13095">
+                  <w xml:id="elcct_II-262190" n="a-245810">Hogyha</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262200" n="a-245820">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262210" n="a-245830">véltelenül</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262220" n="a-245840">bolyongván</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262230" n="a-245850">rejteke</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262240" n="a-245860">mellett</w>
+                  <pc xml:id="elcct_II-262250" n="a-245870">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13100">
+                  <w xml:id="elcct_II-262260" n="a-245880">Háborgatja</w>
+                  <pc xml:id="elcct_II-262270" n="a-245890">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-262280" n="a-245900">setét</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262290" n="a-245910">ős</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262300" n="a-245920">uradalmaiban</w>
+                  <pc xml:id="elcct_II-262310" n="a-245930" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn4" n="4" xml:id="elcct_II-s03415">
+               <l xml:id="elcct_II-l13105">
+                  <w xml:id="elcct_II-262340" n="a-245940">Ott</w>
+                  <pc xml:id="elcct_II-262350" n="a-245950">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-262360" n="a-245960">hol</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262370" n="a-245970">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262380" n="a-245980">aggott</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262390" n="a-245990">Szil-’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262400" n="a-246000">Tisza</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-262410" n="a-246010">-</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-262420" n="a-246020">fák</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262430" n="a-246030">árnyokra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262440" n="a-246040">terülnek</w>
+                  <pc xml:id="elcct_II-262450" n="a-246050">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13110">
+                  <w xml:id="elcct_II-262460" n="a-246060">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262470" n="a-246070">a</w>
+                  <pc xml:id="elcct_II-262480" n="a-246080">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-262490" n="a-246090">pázsit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262500" n="a-246100">keskeny</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262510" n="a-246110">halmozatokra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262520" n="a-246120">dagad</w>
+                  <pc xml:id="elcct_II-262530" n="a-246130">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13115">
+                  <w xml:id="elcct_II-262540" n="a-246140">Csendesen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262550" n="a-246150">alszanak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262560" n="a-246160">ott</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262570" n="a-246170">a</w>
+                  <pc xml:id="elcct_II-262580" n="a-246180">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-262590" n="a-246190">helység</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262600" n="a-246200">jámbor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262610" n="a-246210">előji</w>
+                  <pc xml:id="elcct_II-262620" n="a-246220">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13120">
+                  <w xml:id="elcct_II-262630" n="a-246230">Egyszerit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262640" n="a-246240">és</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262650" n="a-246250">kisded</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262660" n="a-246260">sírba</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262670" n="a-246270">temetve</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262680" n="a-246280">kiki</w>
+                  <pc xml:id="elcct_II-262690" n="a-246290" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn5" n="5" xml:id="elcct_II-s03420">
+               <l xml:id="elcct_II-l13125">
+                  <w xml:id="elcct_II-262720" n="a-246300">Kedvesen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262730" n="a-246310">illatozó</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262740" n="a-246320">reggelnek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262750" n="a-246330">gyenge</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262760" n="a-246340">morajjá</w>
+                  <pc xml:id="elcct_II-262770" n="a-246350">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13130">
+                  <w xml:id="elcct_II-262780" n="a-246360">Es</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262790" n="a-246370">a</w>
+                  <pc xml:id="elcct_II-262800" n="a-246380">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-262810" n="a-246390">szalma</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262820" n="a-246400">tetőn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262830" n="a-246410">fecske</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262840" n="a-246420">szelíd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262850" n="a-246430">panasza</w>
+                  <pc xml:id="elcct_II-262860" n="a-246440">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13135">
+                  <w xml:id="elcct_II-262870" n="a-246450">Hangos</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262880" n="a-246460">pásztorkürt</w>
+                  <pc xml:id="elcct_II-262890" n="a-246470">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-262900" n="a-246480">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262910" n="a-246490">harsány</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262920" n="a-246500">szóllása</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262930" n="a-246510">kakasnak</w>
+               </l>
+               <l xml:id="elcct_II-l13140">
+                  <w xml:id="elcct_II-262940" n="a-246520">Őket</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262950" n="a-246530">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262960" n="a-246540">fogják</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262970" n="a-246550">költeni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262980" n="a-246560">sirjok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-262990" n="a-246570">alól</w>
+                  <pc xml:id="elcct_II-263000" n="a-246580">;</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn6" n="6" xml:id="elcct_II-s03425">
+               <l xml:id="elcct_II-l13145">
+                  <w xml:id="elcct_II-263030" n="a-246590">Erttek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263040" n="a-246600">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263050" n="a-246610">lángol</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263060" n="a-246620">többé</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263070" n="a-246630">a</w>
+                  <pc xml:id="elcct_II-263080" n="a-246640">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-263090" n="a-246650">tűzhely</w>
+                  <pc xml:id="elcct_II-263100" n="a-246660">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-263110" n="a-246670">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263120" n="a-246680">édes</w>
+               </l>
+               <l xml:id="elcct_II-l13150">
+                  <w xml:id="elcct_II-263130" n="a-246690">Hölgy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263140" n="a-246700">többé</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263150" n="a-246710">haza</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263160" n="a-246720">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263170" n="a-246730">várja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263180" n="a-246740">megosztod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263190" n="a-246750">szive't</w>
+                  <pc xml:id="elcct_II-263200" n="a-246760">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13155">
+                  <w xml:id="elcct_II-263210" n="a-246770">A</w>
+                  <pc xml:id="elcct_II-263220" n="a-246780">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-263230" n="a-246790">dadogó</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263240" n="a-246800">piczinyek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263250" n="a-246810">vörsön</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263260" n="a-246820">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263270" n="a-246830">futnak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263280" n="a-246840">elejbek</w>
+                  <pc xml:id="elcct_II-263290" n="a-246850" unit="sentence">.</pc>
+               </l>
+               <l xml:id="elcct_II-l13160">
+                  <w xml:id="elcct_II-263300" n="a-246860">Karjaikon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263310" n="a-246870">fügvén</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263320" n="a-246880">esdeni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263330" n="a-246890">csókjaikért</w>
+                  <pc xml:id="elcct_II-263340" n="a-246900" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn7" n="7" xml:id="elcct_II-s03430">
+               <l xml:id="elcct_II-l13165">
+                  <w xml:id="elcct_II-263370" n="a-246910">A</w>
+                  <pc xml:id="elcct_II-263380" n="a-246920">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-263390" n="a-246930">sarujók</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263400" n="a-246940">gyakran</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263410" n="a-246950">küzdött</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263420" n="a-246960">a</w>
+                  <pc xml:id="elcct_II-263430" n="a-246970">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-263440" n="a-246980">sárga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263450" n="a-246990">kalásszal</w>
+                  <pc xml:id="elcct_II-263460" n="a-247000">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13170">
+                  <w xml:id="elcct_II-263470" n="a-247010">És</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263480" n="a-247020">a</w>
+                  <pc xml:id="elcct_II-263490" n="a-247030">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-263500" n="a-247040">morcz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263510" n="a-247050">agyagot</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263520" n="a-247060">törte</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263530" n="a-247070">gyakorta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263540" n="a-247080">vasok</w>
+                  <pc xml:id="elcct_II-263550" n="a-247090">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13175">
+                  <w xml:id="elcct_II-263560" n="a-247100">Tulkaikat</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263570" n="a-247110">mi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263580" n="a-247120">vígan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263590" n="a-247130">hajtották</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263600" n="a-247140">rétre</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263610" n="a-247150">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263620" n="a-247160">mezőre</w>
+                  <pc xml:id="elcct_II-263630" n="a-247170" unit="sentence">!</pc>
+               </l>
+               <l xml:id="elcct_II-l13180">
+                  <w xml:id="elcct_II-263640" n="a-247180">Erdők</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263650" n="a-247190">mint</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263660" n="a-247200">dűltek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263670" n="a-247210">férfiú</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263680" n="a-247220">karjok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263690" n="a-247230">alatt</w>
+                  <pc xml:id="elcct_II-263700" n="a-247240" unit="sentence">!</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn8" n="8" xml:id="elcct_II-s03435">
+               <l xml:id="elcct_II-l13185">
+                  <w xml:id="elcct_II-263730" n="a-247250">Büszke</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263740" n="a-247260">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263750" n="a-247270">vagy</w>
+                  <pc xml:id="elcct_II-263760" n="a-247280">!</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-263770" n="a-247290">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263780" n="a-247300">kaczagd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263790" n="a-247310">e</w>
+                  <pc xml:id="elcct_II-263800" n="a-247320">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-263810" n="a-247330">hasznos</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263820" n="a-247340">míveket</w>
+                  <pc xml:id="elcct_II-263830" n="a-247350">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-263840" n="a-247360">és</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263850" n="a-247370">e</w>
+                  <pc xml:id="elcct_II-263860" n="a-247380">’</pc>
+               </l>
+               <l xml:id="elcct_II-l13190">
+                  <w xml:id="elcct_II-263870" n="a-247390">Házi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263880" n="a-247400">vidám</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263890" n="a-247410">éltet</w>
+                  <pc xml:id="elcct_II-263900" n="a-247420">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-263910" n="a-247430">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263920" n="a-247440">nemtelen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263930" n="a-247450">állapotot</w>
+                  <pc xml:id="elcct_II-263940" n="a-247460">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13195">
+                  <w xml:id="elcct_II-263950" n="a-247470">És</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263960" n="a-247480">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263970" n="a-247490">magasra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-263980" n="a-247500">kapál</w>
+                  <pc xml:id="elcct_II-263990" n="a-247510">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-264000" n="a-247520">szád</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264010" n="a-247530">csufnevetésre</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264020" n="a-247540">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264030" n="a-247550">vonjad</w>
+               </l>
+               <l xml:id="elcct_II-l13200">
+                  <w xml:id="elcct_II-264040" n="a-247560">Hallván</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264050" n="a-247570">köznépről</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264060" n="a-247580">eggyügyü</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264070" n="a-247590">kurta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264080" n="a-247600">regét</w>
+                  <pc xml:id="elcct_II-264090" n="a-247610" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn9" n="9" xml:id="elcct_II-s03440">
+               <l xml:id="elcct_II-l13205">
+                  <w xml:id="elcct_II-264120" n="a-247620">A</w>
+                  <pc xml:id="elcct_II-264130" n="a-247630">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-264140" n="a-247640">fényes</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264150" n="a-247650">czimmer</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264160" n="a-247660">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264170" n="a-247670">hatalomnak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264180" n="a-247680">fő</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264190" n="a-247690">ragyogása</w>
+                  <pc xml:id="elcct_II-264200" n="a-247700">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13210">
+                  <w xml:id="elcct_II-264210" n="a-247710">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264220" n="a-247720">a</w>
+                  <pc xml:id="elcct_II-264230" n="a-247730">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-264240" n="a-247740">mit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264250" n="a-247750">erő</w>
+                  <pc xml:id="elcct_II-264260" n="a-247760">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-264270" n="a-247770">szépség</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264280" n="a-247780">képesek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264290" n="a-247790">adni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264300" n="a-247800">nekünk</w>
+                  <pc xml:id="elcct_II-264310" n="a-247810">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13215">
+                  <w xml:id="elcct_II-264320" n="a-247820">Mind</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264330" n="a-247830">ezek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264340" n="a-247840">egy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264350" n="a-247850">perczben</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264360" n="a-247860">feledékenységbe</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264370" n="a-247870">merülnek</w>
+                  <pc xml:id="elcct_II-264380" n="a-247880" unit="sentence">.</pc>
+               </l>
+               <l xml:id="elcct_II-l13220">
+                  <w xml:id="elcct_II-264390" n="a-247890">Tisztelet</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264400" n="a-247900">ösvény</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264410" n="a-247910">is</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264420" n="a-247920">csak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264430" n="a-247930">temetőbe</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264440" n="a-247940">vezet</w>
+                  <pc xml:id="elcct_II-264450" n="a-247950" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn10" n="10" xml:id="elcct_II-s03445">
+               <l xml:id="elcct_II-l13225">
+                  <w xml:id="elcct_II-264480" n="a-247960">És</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264490" n="a-247970">te</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264500" n="a-247980">hiú</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264510" n="a-247990">se</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264520" n="a-248000">gúnyold</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264530" n="a-248010">e</w>
+                  <pc xml:id="elcct_II-264540" n="a-248020">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-264550" n="a-248030">boldogodat</w>
+                  <pc xml:id="elcct_II-264560" n="a-248040">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-264570" n="a-248050">ha</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264580" n="a-248060">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264590" n="a-248070">Emlék</w>
+               </l>
+               <l xml:id="elcct_II-l13230">
+                  <w xml:id="elcct_II-264600" n="a-248080">Pompás</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264610" n="a-248090">trófeumot</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264620" n="a-248100">sírjaikon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264630" n="a-248110">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264640" n="a-248120">emel</w>
+                  <pc xml:id="elcct_II-264650" n="a-248130">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13235">
+                  <w xml:id="elcct_II-264660" n="a-248140">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264670" n="a-248150">versent</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264680" n="a-248160">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264690" n="a-248170">zeneg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264700" n="a-248180">a</w>
+                  <pc xml:id="elcct_II-264710" n="a-248190">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-264720" n="a-248200">kar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264730" n="a-248210">tiszteletekre</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264740" n="a-248220">solosmát</w>
+               </l>
+               <l xml:id="elcct_II-l13240">
+                  <w xml:id="elcct_II-264750" n="a-248230">A</w>
+                  <pc xml:id="elcct_II-264760" n="a-248240">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-264770" n="a-248250">roppant</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264780" n="a-248260">hajlok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264790" n="a-248270">czimteli</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264800" n="a-248280">boltjai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264810" n="a-248290">közt</w>
+                  <pc xml:id="elcct_II-264820" n="a-248300" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn11" n="11" xml:id="elcct_II-s03450">
+               <l xml:id="elcct_II-l13245">
+                  <w xml:id="elcct_II-264850" n="a-248310">Drága</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264860" n="a-248320">veder</w>
+                  <pc xml:id="elcct_II-264870" n="a-248330">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-264880" n="a-248340">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264890" n="a-248350">lelkes</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264900" n="a-248360">melyszobrok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264910" n="a-248370">előbbi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264920" n="a-248380">lakába</w>
+               </l>
+               <l xml:id="elcct_II-l13250">
+                  <w xml:id="elcct_II-264930" n="a-248390">A</w>
+                  <pc xml:id="elcct_II-264940" n="a-248400">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-264950" n="a-248410">suhanó</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264960" n="a-248420">lelket</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264970" n="a-248430">vissza</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264980" n="a-248440">idézhetik</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-264990" n="a-248450">e</w>
+                  <pc xml:id="elcct_II-265000" n="a-248460" unit="sentence">?</pc>
+               </l>
+               <l xml:id="elcct_II-l13255">
+                  <w xml:id="elcct_II-265010" n="a-248470">Váljon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265020" n="a-248480">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265030" n="a-248490">elnémult</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265040" n="a-248500">hamv</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265050" n="a-248510">dics</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265060" n="a-248520">hümnekre</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265070" n="a-248530">feleszmél</w>
+                  <pc xml:id="elcct_II-265080" n="a-248540" unit="sentence">?</pc>
+               </l>
+               <l xml:id="elcct_II-l13260">
+                  <w xml:id="elcct_II-265090" n="a-248550">Szép</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265100" n="a-248560">szó</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265110" n="a-248570">kérleli</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265120" n="a-248580">a</w>
+                  <pc xml:id="elcct_II-265130" n="a-248590">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-265140" n="a-248600">durva</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265150" n="a-248610">halál</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265160" n="a-248620">füleit</w>
+                  <pc xml:id="elcct_II-265170" n="a-248630" unit="sentence">?</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn12" n="12" xml:id="elcct_II-s03455">
+               <l xml:id="elcct_II-l13265">
+                  <w xml:id="elcct_II-265200" n="a-248640">Meglehet</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265210" n="a-248650">e</w>
+                  <pc xml:id="elcct_II-265220" n="a-248660">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-265230" n="a-248670">nyomorult</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265240" n="a-248680">szegletben</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265250" n="a-248690">roskadoz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265260" n="a-248700">olly</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265270" n="a-248710">szív</w>
+                  <pc xml:id="elcct_II-265280" n="a-248720">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13270">
+                  <w xml:id="elcct_II-265290" n="a-248730">A</w>
+                  <pc xml:id="elcct_II-265300" n="a-248740">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-265310" n="a-248750">mellyben</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265320" n="a-248760">hajdan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265330" n="a-248770">mennyei</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265340" n="a-248780">tűz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265350" n="a-248790">lobogott</w>
+                  <pc xml:id="elcct_II-265360" n="a-248800">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13275">
+                  <w xml:id="elcct_II-265370" n="a-248810">Olly</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265380" n="a-248820">kéz</w>
+                  <pc xml:id="elcct_II-265390" n="a-248830">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-265400" n="a-248840">melly</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265410" n="a-248850">ország</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265420" n="a-248860">kormányt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265430" n="a-248870">hordozni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265440" n="a-248880">ügyes</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265450" n="a-248890">volt</w>
+                  <pc xml:id="elcct_II-265460" n="a-248900">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13280">
+                  <w xml:id="elcct_II-265470" n="a-248910">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265480" n="a-248920">a</w>
+                  <pc xml:id="elcct_II-265490" n="a-248930">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-265500" n="a-248940">lantról</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265510" n="a-248950">édes</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265520" n="a-248960">hangokat</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265530" n="a-248970">adni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265540" n="a-248980">tudott</w>
+                  <pc xml:id="elcct_II-265550" n="a-248990" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn13" n="13" xml:id="elcct_II-s03460">
+               <l xml:id="elcct_II-l13285">
+                  <w xml:id="elcct_II-265580" n="a-249000">Ám</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265590" n="a-249010">Könyvét</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265600" n="a-249020">a</w>
+                  <pc xml:id="elcct_II-265610" n="a-249030">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-265620" n="a-249040">nagy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265630" n="a-249050">Tudomány</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265640" n="a-249060">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265650" n="a-249070">tárta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265660" n="a-249080">elejbek</w>
+                  <pc xml:id="elcct_II-265670" n="a-249090">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13290">
+                  <w xml:id="elcct_II-265680" n="a-249100">Titkait</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265690" n="a-249110">és</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265700" n="a-249120">miveit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265710" n="a-249130">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265720" n="a-249140">mutogatta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265730" n="a-249150">nekik</w>
+                  <pc xml:id="elcct_II-265740" n="a-249160">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13295">
+                  <w xml:id="elcct_II-265750" n="a-249170">À</w>
+                  <pc xml:id="elcct_II-265760" n="a-249180">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-265770" n="a-249190">szüklét</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265780" n="a-249200">bennek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265790" n="a-249210">megfojtá</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265800" n="a-249220">a</w>
+                  <pc xml:id="elcct_II-265810" n="a-249230">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-265820" n="a-249240">nemes</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265830" n="a-249250">ösztönt</w>
+                  <pc xml:id="elcct_II-265840" n="a-249260">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13300">
+                  <w xml:id="elcct_II-265850" n="a-249270">És</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265860" n="a-249280">lefagyalta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265870" n="a-249290">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265880" n="a-249300">ész</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265890" n="a-249310">termeti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265900" n="a-249320">indulatit</w>
+                  <pc xml:id="elcct_II-265910" n="a-249330" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn14" n="14" xml:id="elcct_II-s03465">
+               <l xml:id="elcct_II-l13305">
+                  <w xml:id="elcct_II-265940" n="a-249340">A</w>
+                  <pc xml:id="elcct_II-265950" n="a-249350">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-265960" n="a-249360">nap</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265970" n="a-249370">tiszta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265980" n="a-249380">sugárjánál</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-265990" n="a-249390">többszörte</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266000" n="a-249400">világosb</w>
+               </l>
+               <l xml:id="elcct_II-l13310">
+                  <w xml:id="elcct_II-266010" n="a-249410">Drága</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266020" n="a-249420">kövek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266030" n="a-249430">búvnak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266040" n="a-249440">tengerek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266050" n="a-249450">éjjeiben</w>
+                  <pc xml:id="elcct_II-266060" n="a-249460">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13315">
+                  <w xml:id="elcct_II-266070" n="a-249470">Sok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266080" n="a-249480">szép</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266090" n="a-249490">réti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266100" n="a-249500">virág</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266110" n="a-249510">láttatlan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266120" n="a-249520">tárja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266130" n="a-249530">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266140" n="a-249540">keblét</w>
+                  <pc xml:id="elcct_II-266150" n="a-249550">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13320">
+                  <w xml:id="elcct_II-266160" n="a-249560">És</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266170" n="a-249570">a</w>
+                  <pc xml:id="elcct_II-266180" n="a-249580">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-266190" n="a-249590">puszta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266200" n="a-249600">síkon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266210" n="a-249610">szórja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266220" n="a-249620">el</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266230" n="a-249630">illatait</w>
+                  <pc xml:id="elcct_II-266240" n="a-249640" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn15" n="15" xml:id="elcct_II-s03470">
+               <l xml:id="elcct_II-l13325">
+                  <w xml:id="elcct_II-266270" n="a-249650">E</w>
+                  <pc xml:id="elcct_II-266280" n="a-249660">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-266290" n="a-249670">sírban</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266300" n="a-249680">nyugszik</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266310" n="a-249690">tán</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266320" n="a-249700">némelly</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266330" n="a-249710">parragi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266340" n="a-249720">Hampden</w>
+                  <pc xml:id="elcct_II-266350" n="a-249730">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13330">
+                  <w xml:id="elcct_II-266360" n="a-249740">A</w>
+                  <pc xml:id="elcct_II-266370" n="a-249750">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-266380" n="a-249760">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266390" n="a-249770">kikelt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266400" n="a-249780">bátran</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266410" n="a-249790">nemzeti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266420" n="a-249800">telkeiért</w>
+                  <pc xml:id="elcct_II-266430" n="a-249810">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13335">
+                  <w xml:id="elcct_II-266440" n="a-249820">Milton</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266450" n="a-249830">név</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266460" n="a-249840">nélkül</w>
+                  <pc xml:id="elcct_II-266470" n="a-249850">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-266480" n="a-249860">tán</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266490" n="a-249870">Cromuell</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266500" n="a-249880">szendereg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266510" n="a-249890">itten</w>
+                  <pc xml:id="elcct_II-266520" n="a-249900">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13340">
+                  <w xml:id="elcct_II-266530" n="a-249910">Kit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266540" n="a-249920">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266550" n="a-249930">fertőzött</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266560" n="a-249940">a</w>
+                  <pc xml:id="elcct_II-266570" n="a-249950">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-266580" n="a-249960">Haza</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266590" n="a-249970">vére</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266600" n="a-249980">soha</w>
+                  <pc xml:id="elcct_II-266610" n="a-249990" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn16" n="16" xml:id="elcct_II-s03475">
+               <l xml:id="elcct_II-l13345">
+                  <w xml:id="elcct_II-266640" n="a-250000">A</w>
+                  <pc xml:id="elcct_II-266650" n="a-250010">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-266660" n="a-250020">nagy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266670" n="a-250030">gyülekezet</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266680" n="a-250040">figyelmét</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266690" n="a-250050">vonni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266700" n="a-250060">magára</w>
+                  <pc xml:id="elcct_II-266710" n="a-250070">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13350">
+                  <w xml:id="elcct_II-266720" n="a-250080">A</w>
+                  <pc xml:id="elcct_II-266730" n="a-250090">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-266740" n="a-250100">zordon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266750" n="a-250110">sorsnak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266760" n="a-250120">merve</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266770" n="a-250130">tiporni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266780" n="a-250140">dühét</w>
+                  <pc xml:id="elcct_II-266790" n="a-250150">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13355">
+                  <w xml:id="elcct_II-266800" n="a-250160">Boldog</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266810" n="a-250170">bőséget</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266820" n="a-250180">kedvelte</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266830" n="a-250190">Hazára</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266840" n="a-250200">tenyésztni</w>
+                  <pc xml:id="elcct_II-266850" n="a-250210">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13360">
+                  <w xml:id="elcct_II-266860" n="a-250220">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266870" n="a-250230">a</w>
+                  <pc xml:id="elcct_II-266880" n="a-250240">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-266890" n="a-250250">nemzet</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266900" n="a-250260">képén</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266910" n="a-250270">sejteni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266920" n="a-250280">érdemeit</w>
+                  <pc xml:id="elcct_II-266930" n="a-250290">,</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn17" n="17" xml:id="elcct_II-s03480">
+               <l xml:id="elcct_II-l13365">
+                  <w xml:id="elcct_II-266960" n="a-250300">Nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-266970" n="a-250310">sorsok</w>
+                  <pc xml:id="elcct_II-266980" n="a-250320">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-266990" n="a-250330">hol</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267000" n="a-250340">szűk</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267010" n="a-250350">korlátba</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267020" n="a-250360">szorítva</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267030" n="a-250370">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267040" n="a-250380">erkölcs</w>
+                  <pc xml:id="elcct_II-267050" n="a-250390">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13370">
+                  <w xml:id="elcct_II-267060" n="a-250400">Tartva</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267070" n="a-250410">van</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267080" n="a-250420">ott</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267090" n="a-250430">zabolán</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267100" n="a-250440">a</w>
+                  <pc xml:id="elcct_II-267110" n="a-250450">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-267120" n="a-250460">gonosz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267130" n="a-250470">indulat</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267140" n="a-250480">is</w>
+                  <pc xml:id="elcct_II-267150" n="a-250490">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13375">
+                  <w xml:id="elcct_II-267160" n="a-250500">Sorsok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267170" n="a-250510">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267180" n="a-250520">kíszté</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267190" n="a-250530">trónhoz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267200" n="a-250540">vért</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267210" n="a-250550">gazelva</w>
+                  <note resp="#AH" xml:id="elcct_II-n00280">
+                     <w xml:id="elcct_II-267250" n="a-250560">Corrected</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-267260" n="a-250570">in</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-267270" n="a-250580">copy</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-267280" n="a-250590">from</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-267290" n="a-250600">Budapest</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-267300" n="a-250610">Univerity</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-267310" n="a-250620">Library</w>
+                     <pc xml:id="elcct_II-267320" n="a-250630">:</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-267330" n="a-250640">ontva</w>
+                     <pc unit="sentence" xml:id="elcct_II-267330-eos" n="a-250650"/>
+                  </note>
+                  <c> </c>
+                  <w xml:id="elcct_II-267220" n="a-250660">nyomulni</w>
+                  <pc xml:id="elcct_II-267230" n="a-250670">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13380">
+                  <w xml:id="elcct_II-267340" n="a-250680">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267350" n="a-250690">a</w>
+                  <pc xml:id="elcct_II-267360" n="a-250700">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-267370" n="a-250710">nyomorultak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267380" n="a-250720">iránt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267390" n="a-250730">zárni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267400" n="a-250740">szivekhez</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267410" n="a-250750">utat</w>
+                  <pc xml:id="elcct_II-267420" n="a-250760">,</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn18" n="18" xml:id="elcct_II-s03485">
+               <l xml:id="elcct_II-l13385">
+                  <w xml:id="elcct_II-267450" n="a-250770">Sem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267460" n="a-250780">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267470" n="a-250790">hagyta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267480" n="a-250800">igaz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267490" n="a-250810">lelkeknek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267500" n="a-250820">rejtni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267510" n="a-250830">szorultjat</w>
+                  <pc xml:id="elcct_II-267520" n="a-250840">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13390">
+                  <w xml:id="elcct_II-267530" n="a-250850">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267540" n="a-250860">tiszta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267550" n="a-250870">szemérmeknek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267560" n="a-250880">gondosan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267570" n="a-250890">oltni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267580" n="a-250900">tüzet</w>
+                  <pc xml:id="elcct_II-267590" n="a-250910">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13395">
+                  <w xml:id="elcct_II-267600" n="a-250920">Vagy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267610" n="a-250930">pedig</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267620" n="a-250940">a</w>
+                  <pc xml:id="elcct_II-267630" n="a-250950">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-267640" n="a-250960">Gőg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267650" n="a-250970">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267660" n="a-250980">Fény</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267670" n="a-250990">oltárán</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267680" n="a-251000">hinteni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267690" n="a-251010">tömjenyt</w>
+               </l>
+               <l xml:id="elcct_II-l13400">
+                  <w xml:id="elcct_II-267700" n="a-251020">A</w>
+                  <pc xml:id="elcct_II-267710" n="a-251030">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-267720" n="a-251040">kegyes</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267730" n="a-251050">Istennek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267740" n="a-251060">égi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267750" n="a-251070">szövétnekivel</w>
+                  <pc xml:id="elcct_II-267760" n="a-251080" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn19" n="19" xml:id="elcct_II-s03490">
+               <l xml:id="elcct_II-l13405">
+                  <w xml:id="elcct_II-267790" n="a-251090">Távul</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267800" n="a-251100">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267810" n="a-251110">őrült</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267820" n="a-251120">nép</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267830" n="a-251130">ál</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267840" n="a-251140">hivság</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267850" n="a-251150">szülte</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267860" n="a-251160">zajatol</w>
+                  <pc xml:id="elcct_II-267870" n="a-251170" unit="sentence">.</pc>
+               </l>
+               <l xml:id="elcct_II-l13410">
+                  <w xml:id="elcct_II-267880" n="a-251180">Mérséklett</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267890" n="a-251190">vágyok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267900" n="a-251200">vissza</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267910" n="a-251210">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267920" n="a-251220">élni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267930" n="a-251230">szokott</w>
+                  <pc xml:id="elcct_II-267940" n="a-251240">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13415">
+                  <w xml:id="elcct_II-267950" n="a-251250">Csendesen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267960" n="a-251260">és</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267970" n="a-251270">nyugton</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267980" n="a-251280">folyt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-267990" n="a-251290">éltek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268000" n="a-251300">tiszta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268010" n="a-251310">patakként</w>
+                  <pc xml:id="elcct_II-268020" n="a-251320">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13420">
+                  <w xml:id="elcct_II-268030" n="a-251330">Melly</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268040" n="a-251340">csörög</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268050" n="a-251350">a</w>
+                  <pc xml:id="elcct_II-268060" n="a-251360">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-268070" n="a-251370">hüs</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268080" n="a-251380">völgy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268090" n="a-251390">játszi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268100" n="a-251400">virányi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268110" n="a-251410">között</w>
+                  <pc xml:id="elcct_II-268120" n="a-251420" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn20" n="20" xml:id="elcct_II-s03495">
+               <l xml:id="elcct_II-l13425">
+                  <w xml:id="elcct_II-268150" n="a-251430">E</w>
+                  <pc xml:id="elcct_II-268160" n="a-251440">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-268170" n="a-251450">csontok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268180" n="a-251460">még</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268190" n="a-251470">is</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268200" n="a-251480">meg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268210" n="a-251490">vannak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268220" n="a-251500">mentve</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268230" n="a-251510">gunyortól</w>
+                  <pc xml:id="elcct_II-268240" n="a-251520">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13430">
+                  <w xml:id="elcct_II-268250" n="a-251530">Im</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268260" n="a-251540">töredékeny</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268270" n="a-251550">kő</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268280" n="a-251560">rajtok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268290" n="a-251570">emelve</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268300" n="a-251580">vagyon</w>
+                  <pc xml:id="elcct_II-268310" n="a-251590">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13435">
+                  <w xml:id="elcct_II-268320" n="a-251600">Verseik</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268330" n="a-251610">éktelenek</w>
+                  <pc xml:id="elcct_II-268340" n="a-251620">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-268350" n="a-251630">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268360" n="a-251640">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268370" n="a-251650">metszé</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268380" n="a-251660">mesteri</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268390" n="a-251670">vésö</w>
+                  <pc xml:id="elcct_II-268400" n="a-251680">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13440">
+                  <w xml:id="elcct_II-268410" n="a-251690">Könnyüket</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268420" n="a-251700">óhajtnak</w>
+                  <pc xml:id="elcct_II-268430" n="a-251710" unit="sentence">.</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-268440" n="a-251720">Kedves</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268450" n="a-251730">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268460" n="a-251740">illyen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268470" n="a-251750">adó</w>
+                  <pc xml:id="elcct_II-268480" n="a-251760" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn21" n="21" xml:id="elcct_II-s03500">
+               <l xml:id="elcct_II-l13445">
+                  <w xml:id="elcct_II-268510" n="a-251770">Nézd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268520" n="a-251780">évek’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268530" n="a-251790">neveket</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268540" n="a-251800">mint</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268550" n="a-251810">jegyzte</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268560" n="a-251820">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268570" n="a-251830">egyszerű</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268580" n="a-251840">Musa</w>
+                  <pc xml:id="elcct_II-268590" n="a-251850">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13450">
+                  <w xml:id="elcct_II-268600" n="a-251860">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268610" n="a-251870">eggyütt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268620" n="a-251880">mint</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268630" n="a-251890">állnak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268640" n="a-251900">hir</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268650" n="a-251910">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268660" n="a-251920">elegia</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268670" n="a-251930">helyett</w>
+                  <pc xml:id="elcct_II-268680" n="a-251940">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13455">
+                  <w xml:id="elcct_II-268690" n="a-251950">Rajtok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268700" n="a-251960">sok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268710" n="a-251970">szép</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268720" n="a-251980">szent</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268730" n="a-251990">mondást</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268740" n="a-252000">látsz</w>
+                  <pc xml:id="elcct_II-268750" n="a-252010">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-268760" n="a-252020">itt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268770" n="a-252030">is</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268780" n="a-252040">amott</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268790" n="a-252050">is</w>
+                  <pc xml:id="elcct_II-268800" n="a-252060">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13460">
+                  <w xml:id="elcct_II-268810" n="a-252070">Itt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268820" n="a-252080">a</w>
+                  <pc xml:id="elcct_II-268830" n="a-252090">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-268840" n="a-252100">jámbor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268850" n="a-252110">nép</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268860" n="a-252120">halni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268870" n="a-252130">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268880" n="a-252140">Úrba</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268890" n="a-252150">tanul</w>
+                  <pc xml:id="elcct_II-268900" n="a-252160" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn22" n="22" xml:id="elcct_II-s03505">
+               <l xml:id="elcct_II-l13465">
+                  <w xml:id="elcct_II-268930" n="a-252170">Mert</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268940" n="a-252180">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268950" n="a-252190">adá</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268960" n="a-252200">örömest</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-268970" n="a-252210">e</w>
+                  <pc xml:id="elcct_II-268980" n="a-252220">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-268990" n="a-252230">kedves</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269000" n="a-252240">bár</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269010" n="a-252250">sanyar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269020" n="a-252260">éltet</w>
+               </l>
+               <l xml:id="elcct_II-l13470">
+                  <w xml:id="elcct_II-269030" n="a-252270">Alt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269040" n="a-252280">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269050" n="a-252290">örök</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269060" n="a-252300">feledés</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269070" n="a-252310">néma</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269080" n="a-252320">homályainak</w>
+                  <pc xml:id="elcct_II-269090" n="a-252330" unit="sentence">?</pc>
+               </l>
+               <l xml:id="elcct_II-l13475">
+                  <w xml:id="elcct_II-269100" n="a-252340">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269110" n="a-252350">a</w>
+                  <pc xml:id="elcct_II-269120" n="a-252360">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-269130" n="a-252370">melegítő</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269140" n="a-252380">nap</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269150" n="a-252390">szép</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269160" n="a-252400">fényét</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269170" n="a-252410">úgy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269180" n="a-252420">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269190" n="a-252430">hagyá</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269200" n="a-252440">el</w>
+                  <pc xml:id="elcct_II-269210" n="a-252450">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13480">
+                  <w xml:id="elcct_II-269220" n="a-252460">Hogy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269230" n="a-252470">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269240" n="a-252480">sóhajtana</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269250" n="a-252490">fel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269260" n="a-252500">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269270" n="a-252510">vissza</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269280" n="a-252520">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269290" n="a-252530">nézne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269300" n="a-252540">reá</w>
+                  <pc xml:id="elcct_II-269310" n="a-252550" unit="sentence">?</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn23" n="23" xml:id="elcct_II-s03510">
+               <l xml:id="elcct_II-l13485">
+                  <w xml:id="elcct_II-269340" n="a-252560">A</w>
+                  <pc xml:id="elcct_II-269350" n="a-252570">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-269360" n="a-252580">búcsúzó</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269370" n="a-252590">lélek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269380" n="a-252600">hű</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269390" n="a-252610">ölben</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269400" n="a-252620">elömleni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269410" n="a-252630">kivan</w>
+                  <pc xml:id="elcct_II-269420" n="a-252640">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13490">
+                  <w xml:id="elcct_II-269430" n="a-252650">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269440" n="a-252660">a</w>
+                  <pc xml:id="elcct_II-269450" n="a-252670">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-269460" n="a-252680">haldokló</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269470" n="a-252690">szem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269480" n="a-252700">könnyük</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269490" n="a-252710">után</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269500" n="a-252720">epedez</w>
+                  <pc xml:id="elcct_II-269510" n="a-252730">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13495">
+                  <w xml:id="elcct_II-269520" n="a-252740">Sírunkból</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269530" n="a-252750">is</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269540" n="a-252760">még</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269550" n="a-252770">a</w>
+                  <pc xml:id="elcct_II-269560" n="a-252780">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-269570" n="a-252790">természet</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269580" n="a-252800">szava</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269590" n="a-252810">hangzik</w>
+                  <pc xml:id="elcct_II-269600" n="a-252820">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13500">
+                  <w xml:id="elcct_II-269610" n="a-252830">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269620" n="a-252840">szívünk</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269630" n="a-252850">hamvaiban</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269640" n="a-252860">láugodoz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269650" n="a-252870">a</w>
+                  <pc xml:id="elcct_II-269660" n="a-252880">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-269670" n="a-252890">szerelem</w>
+                  <pc xml:id="elcct_II-269680" n="a-252900" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn24" n="24" xml:id="elcct_II-s03515">
+               <l xml:id="elcct_II-l13505">
+                  <w xml:id="elcct_II-269710" n="a-252910">És</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269720" n="a-252920">Te</w>
+                  <pc xml:id="elcct_II-269730" n="a-252930">!</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-269740" n="a-252940">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269750" n="a-252950">e</w>
+                  <pc xml:id="elcct_II-269760" n="a-252960">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-269770" n="a-252970">Népnek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269780" n="a-252980">tisztelt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269790" n="a-252990">emléket</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269800" n="a-253000">emelve</w>
+               </l>
+               <l xml:id="elcct_II-l13510">
+                  <w xml:id="elcct_II-269810" n="a-253010">Érzékeny</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269820" n="a-253020">versben</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269830" n="a-253030">tetteit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269840" n="a-253040">énekeled</w>
+                  <pc xml:id="elcct_II-269850" n="a-253050" unit="sentence">?</pc>
+               </l>
+               <l xml:id="elcct_II-l13515">
+                  <w xml:id="elcct_II-269860" n="a-253060">Egyki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269870" n="a-253070">ha</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269880" n="a-253080">andalgván</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269890" n="a-253090">e</w>
+                  <pc xml:id="elcct_II-269900" n="a-253100">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-269910" n="a-253110">bús</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269920" n="a-253120">tájékra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269930" n="a-253130">vetődik</w>
+                  <pc xml:id="elcct_II-269940" n="a-253140">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13520">
+                  <w xml:id="elcct_II-269950" n="a-253150">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269960" n="a-253160">részvévö</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269970" n="a-253170">szívvel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269980" n="a-253180">sorsod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-269990" n="a-253190">után</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270000" n="a-253200">tudakoz</w>
+                  <pc xml:id="elcct_II-270010" n="a-253210">:</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn25" n="25" xml:id="elcct_II-s03520">
+               <l xml:id="elcct_II-l13525">
+                  <w xml:id="elcct_II-270040" n="a-253220">Tán</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270050" n="a-253230">eggy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270060" n="a-253240">agg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270070" n="a-253250">pásztor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270080" n="a-253260">majd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270090" n="a-253270">így</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270100" n="a-253280">fog</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270110" n="a-253290">szóllani</w>
+                  <pc xml:id="elcct_II-270120" n="a-253300">:</pc>
+                  <c> </c>
+                  <pc xml:id="elcct_II-270130" n="a-253310">»</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-270140" n="a-253320">Ötet</w>
+               </l>
+               <l xml:id="elcct_II-l13530">
+                  <w xml:id="elcct_II-270150" n="a-253330">Itt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270160" n="a-253340">láttuk</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270170" n="a-253350">gyakran</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270180" n="a-253360">hajnali</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270190" n="a-253370">bíbor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270200" n="a-253380">alatt</w>
+                  <pc xml:id="elcct_II-270210" n="a-253390">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13535">
+                  <w xml:id="elcct_II-270220" n="a-253400">Hogy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270230" n="a-253410">gyors</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270240" n="a-253420">lépteivel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270250" n="a-253430">sepré</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270260" n="a-253440">a</w>
+                  <pc xml:id="elcct_II-270270" n="a-253450">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-270280" n="a-253460">reggeli</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270290" n="a-253470">gyöngyöt</w>
+               </l>
+               <l xml:id="elcct_II-l13540">
+                  <w xml:id="elcct_II-270300" n="a-253480">’S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270310" n="a-253490">a</w>
+                  <pc xml:id="elcct_II-270320" n="a-253500">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-270330" n="a-253510">hegyek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270340" n="a-253520">ormáról</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270350" n="a-253530">a</w>
+                  <pc xml:id="elcct_II-270360" n="a-253540">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-270370" n="a-253550">napot</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270380" n="a-253560">üdvözölé</w>
+                  <pc xml:id="elcct_II-270390" n="a-253570" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn26" n="26" xml:id="elcct_II-s03525">
+               <l xml:id="elcct_II-l13545">
+                  <w xml:id="elcct_II-270420" n="a-253580">Ott</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270430" n="a-253590">a</w>
+                  <pc xml:id="elcct_II-270440" n="a-253600">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-270450" n="a-253610">hullámzó</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270460" n="a-253620">bük</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270470" n="a-253630">alatt</w>
+                  <pc xml:id="elcct_II-270480" n="a-253640">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-270490" n="a-253650">melly</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270500" n="a-253660">régi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270510" n="a-253670">tekercses</w>
+               </l>
+               <l xml:id="elcct_II-l13550">
+                  <w xml:id="elcct_II-270520" n="a-253680">Tövéből</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270530" n="a-253690">büszkén</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270540" n="a-253700">ágait</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270550" n="a-253710">égbe</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270560" n="a-253720">löki</w>
+                  <pc xml:id="elcct_II-270570" n="a-253730">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13555">
+                  <w xml:id="elcct_II-270580" n="a-253740">Ott</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270590" n="a-253750">örömest</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270600" n="a-253760">forró</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270610" n="a-253770">délben</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270620" n="a-253780">kényére</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270630" n="a-253790">terűlt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270640" n="a-253800">el</w>
+                  <pc xml:id="elcct_II-270650" n="a-253810">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13560">
+                  <w xml:id="elcct_II-270660" n="a-253820">És</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270670" n="a-253830">mereven</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270680" n="a-253840">nézé</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270690" n="a-253850">a</w>
+                  <pc xml:id="elcct_II-270700" n="a-253860">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-270710" n="a-253870">csevegő</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270720" n="a-253880">patakot</w>
+                  <pc xml:id="elcct_II-270730" n="a-253890">;</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn27" n="27" xml:id="elcct_II-s03530">
+               <l xml:id="elcct_II-l13565">
+                  <w xml:id="elcct_II-270760" n="a-253900">Ott</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270770" n="a-253910">amaz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270780" n="a-253920">erdőben</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270790" n="a-253930">járt</w>
+                  <pc xml:id="elcct_II-270800" n="a-253940">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-270810" n="a-253950">majd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270820" n="a-253960">mosolyogva</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270830" n="a-253970">gunyólag</w>
+                  <pc xml:id="elcct_II-270840" n="a-253980">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13570">
+                  <w xml:id="elcct_II-270850" n="a-253990">És</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270860" n="a-254000">titkon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270870" n="a-254010">rendes</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270880" n="a-254020">rémzeteit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270890" n="a-254030">rebegé</w>
+                  <pc xml:id="elcct_II-270900" n="a-254040">;</pc>
+               </l>
+               <l xml:id="elcct_II-l13575">
+                  <w xml:id="elcct_II-270910" n="a-254050">Majd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270920" n="a-254060">búsan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270930" n="a-254070">bolygott</w>
+                  <pc xml:id="elcct_II-270940" n="a-254080">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-270950" n="a-254090">mint</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270960" n="a-254100">az</w>
+                  <pc xml:id="elcct_II-270970" n="a-254110">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-270980" n="a-254120">kit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-270990" n="a-254130">sok</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271000" n="a-254140">fene</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271010" n="a-254150">gondok</w>
+               </l>
+               <l xml:id="elcct_II-l13580">
+                  <w xml:id="elcct_II-271020" n="a-254160">Öldösnek</w>
+                  <pc xml:id="elcct_II-271030" n="a-254170">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-271040" n="a-254180">vagy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271050" n="a-254190">kit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271060" n="a-254200">bánt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271070" n="a-254210">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271080" n="a-254220">gyötör</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271090" n="a-254230">a</w>
+                  <pc xml:id="elcct_II-271100" n="a-254240">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-271110" n="a-254250">szerelem</w>
+                  <pc xml:id="elcct_II-271120" n="a-254260" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn28" n="28" xml:id="elcct_II-s03535">
+               <l xml:id="elcct_II-l13585">
+                  <w xml:id="elcct_II-271150" n="a-254270">Egy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271160" n="a-254280">reggel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271170" n="a-254290">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271180" n="a-254300">jött</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271190" n="a-254310">a</w>
+                  <pc xml:id="elcct_II-271200" n="a-254320">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-271210" n="a-254330">regi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271220" n="a-254340">szerette</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271230" n="a-254350">halomra</w>
+                  <pc xml:id="elcct_II-271240" n="a-254360">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13590">
+                  <w xml:id="elcct_II-271250" n="a-254370">'S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271260" n="a-254380">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271270" n="a-254390">láttam</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271280" n="a-254400">kedvelt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271290" n="a-254410">büknek</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271300" n="a-254420">az</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271310" n="a-254430">árnyai</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271320" n="a-254440">közt·</w>
+                  <pc xml:id="elcct_II-271330" n="a-254450">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13595">
+                  <w xml:id="elcct_II-271340" n="a-254460">Más</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271350" n="a-254470">nap</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271360" n="a-254480">megvirradt</w>
+                  <pc xml:id="elcct_II-271370" n="a-254490">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-271380" n="a-254500">de</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271390" n="a-254510">nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271400" n="a-254520">ült</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271410" n="a-254530">a</w>
+                  <pc xml:id="elcct_II-271420" n="a-254540">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-271430" n="a-254550">csermelye</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271440" n="a-254560">partján</w>
+                  <pc xml:id="elcct_II-271450" n="a-254570">,</pc>
+               </l>
+               <l xml:id="elcct_II-l13600">
+                  <w xml:id="elcct_II-271460" n="a-254580">Nem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271470" n="a-254590">volt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271480" n="a-254600">a</w>
+                  <pc xml:id="elcct_II-271490" n="a-254610">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-271500" n="a-254620">bérczen</w>
+                  <pc xml:id="elcct_II-271510" n="a-254630">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-271520" n="a-254640">sem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271530" n="a-254650">liget</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271540" n="a-254660">alkonyiban</w>
+                  <pc xml:id="elcct_II-271550" n="a-254670" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn29" n="29" xml:id="elcct_II-s03540">
+               <l xml:id="elcct_II-l13605">
+                  <w xml:id="elcct_II-271580" n="a-254680">Legközelebbi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271590" n="a-254690">napon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271600" n="a-254700">láttuk</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271610" n="a-254710">Szentházba</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271620" n="a-254720">halotti</w>
+               </l>
+               <l xml:id="elcct_II-l13610">
+                  <w xml:id="elcct_II-271630" n="a-254730">Pompa</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271640" n="a-254740">között</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271650" n="a-254750">komolyan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271660" n="a-254760">vinni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271670" n="a-254770">hideg</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271680" n="a-254780">tetemét</w>
+                  <pc xml:id="elcct_II-271690" n="a-254790" unit="sentence">.</pc>
+               </l>
+               <l xml:id="elcct_II-l13615">
+                  <w xml:id="elcct_II-271700" n="a-254800">Jer</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271710" n="a-254810">közelebb</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271720" n="a-254820">’s</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271730" n="a-254830">olvasd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271740" n="a-254840">magad</w>
+                  <pc xml:id="elcct_II-271750" n="a-254850">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-271760" n="a-254860">ott</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271770" n="a-254870">a</w>
+                  <pc xml:id="elcct_II-271780" n="a-254880">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-271790" n="a-254890">csipke</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271800" n="a-254900">bokornál</w>
+               </l>
+               <l xml:id="elcct_II-l13620">
+                  <w xml:id="elcct_II-271810" n="a-254910">Egy</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271820" n="a-254920">sziklába</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271830" n="a-254930">vagyon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271840" n="a-254940">gondosan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271850" n="a-254950">irva</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271860" n="a-254960">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-271870" n="a-254970">volt</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-271880" n="a-254980">«</pc>
+                  <pc xml:id="elcct_II-271890" n="a-254990" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg xml:id="elcct_II-s03545">
+               <head>
+                  <w xml:id="elcct_II-271930" n="a-255000">SIRIRÁS</w>
+                  <pc xml:id="elcct_II-271940" n="a-255010" unit="sentence">.</pc>
+               </head>
+               <lg corresp="#stn30" n="30" xml:id="elcct_II-s03550">
+                  <l xml:id="elcct_II-l13625">
+                     <w xml:id="elcct_II-271970" n="a-255020">Itt</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-271980" n="a-255030">e</w>
+                     <pc xml:id="elcct_II-271990" n="a-255040">’</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-272000" n="a-255050">föld</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272010" n="a-255060">csendes</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272020" n="a-255070">keblében</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272030" n="a-255080">nyugszik</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272040" n="a-255090">egy</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272050" n="a-255100">Ifjú</w>
+                  </l>
+                  <l xml:id="elcct_II-l13630">
+                     <w xml:id="elcct_II-272060" n="a-255110">Rejtve</w>
+                     <pc xml:id="elcct_II-272070" n="a-255120">:</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-272080" n="a-255130">nem</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272090" n="a-255140">isméré</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272100" n="a-255150">öt</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272110" n="a-255160">se</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272120" n="a-255170">szerencse</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272130" n="a-255180">se</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272140" n="a-255190">hir</w>
+                     <pc xml:id="elcct_II-272150" n="a-255200">:</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13635">
+                     <w xml:id="elcct_II-272160" n="a-255210">Bar</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272170" n="a-255220">nem</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272180" n="a-255230">dús</w>
+                     <pc xml:id="elcct_II-272190" n="a-255240">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-272200" n="a-255250">a</w>
+                     <pc xml:id="elcct_II-272210" n="a-255260">’</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-272220" n="a-255270">Szép</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272230" n="a-255280">Tudomány</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272240" n="a-255290">ápolta</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272250" n="a-255300">kegyével</w>
+                     <pc xml:id="elcct_II-272260" n="a-255310">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13640">
+                     <w xml:id="elcct_II-272270" n="a-255320">Billegzé</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272280" n="a-255330">lelkét</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272290" n="a-255340">a</w>
+                     <pc xml:id="elcct_II-272300" n="a-255350">’</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-272310" n="a-255360">komoly</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272320" n="a-255370">andalodás</w>
+                     <pc xml:id="elcct_II-272330" n="a-255380">;</pc>
+                  </l>
+               </lg>
+               <lg corresp="#stn31" n="31" xml:id="elcct_II-s03555">
+                  <l xml:id="elcct_II-l13645">
+                     <w xml:id="elcct_II-272360" n="a-255390">Érző</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272370" n="a-255400">szív</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272380" n="a-255410">dobogott</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272390" n="a-255420">keblében</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272400" n="a-255430">’s</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272410" n="a-255440">lelke</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272420" n="a-255450">igaz</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272430" n="a-255460">volt</w>
+                     <pc xml:id="elcct_II-272440" n="a-255470">;</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13650">
+                     <w xml:id="elcct_II-272450" n="a-255480">Néki</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272460" n="a-255490">az</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272470" n="a-255500">Ég</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272480" n="a-255510">ezekért</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272490" n="a-255520">drága</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272500" n="a-255530">jutalmat</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272510" n="a-255540">adott</w>
+                     <pc xml:id="elcct_II-272520" n="a-255550" unit="sentence">.</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13655">
+                     <w xml:id="elcct_II-272530" n="a-255560">Könnyűt</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272540" n="a-255570">adott</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272550" n="a-255580">ö</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272560" n="a-255590">a</w>
+                     <pc xml:id="elcct_II-272570" n="a-255600">’</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-272580" n="a-255610">sínlőnek</w>
+                     <c> </c>
+                     <pc xml:id="elcct_II-272590" n="a-255620">(</pc>
+                     <w xml:id="elcct_II-272600" n="a-255630">nem</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272610" n="a-255640">bira</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272620" n="a-255650">mással</w>
+                     <pc xml:id="elcct_II-272630" n="a-255660">)</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13660">
+                     <w xml:id="elcct_II-272640" n="a-255670">Tiszta</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272650" n="a-255680">baráti</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272660" n="a-255690">szivet</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272670" n="a-255700">kért</w>
+                     <pc xml:id="elcct_II-272680" n="a-255710">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-272690" n="a-255720">’s</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272700" n="a-255730">ada</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272710" n="a-255740">néki</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272720" n="a-255750">az</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272730" n="a-255760">Ég</w>
+                     <pc xml:id="elcct_II-272740" n="a-255770" unit="sentence">.</pc>
+                  </l>
+               </lg>
+               <lg corresp="#stn32" n="32" xml:id="elcct_II-s03560">
+                  <l xml:id="elcct_II-l13665">
+                     <w xml:id="elcct_II-272770" n="a-255780">Érdemeit</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272780" n="a-255790">ne</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272790" n="a-255800">nyomozd</w>
+                     <pc xml:id="elcct_II-272800" n="a-255810">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-272810" n="a-255820">vándor</w>
+                     <pc xml:id="elcct_II-272820" n="a-255830">,</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-272830" n="a-255840">szűnj</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272840" n="a-255850">gyenge</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272850" n="a-255860">hibájit</w>
+                  </l>
+                  <l xml:id="elcct_II-l13670">
+                     <w xml:id="elcct_II-272860" n="a-255870">A</w>
+                     <pc xml:id="elcct_II-272870" n="a-255880">’</pc>
+                     <c> </c>
+                     <w xml:id="elcct_II-272880" n="a-255890">sir</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272890" n="a-255900">mélyeiből</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272900" n="a-255910">ujra</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272910" n="a-255920">terelni</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272920" n="a-255930">elő</w>
+                     <pc xml:id="elcct_II-272930" n="a-255940" unit="sentence">.</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13675">
+                     <w xml:id="elcct_II-272940" n="a-255950">Mindnyájan</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272950" n="a-255960">rém</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272960" n="a-255970">’s</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272970" n="a-255980">bízodalom</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272980" n="a-255990">közt</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-272990" n="a-256000">nyugszanak</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-273000" n="a-256010">itten</w>
+                     <pc xml:id="elcct_II-273010" n="a-256020">,</pc>
+                  </l>
+                  <l xml:id="elcct_II-l13680">
+                     <w xml:id="elcct_II-273020" n="a-256030">'S</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-273030" n="a-256040">isteni</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-273040" n="a-256050">irgalmas</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-273050" n="a-256060">kéz</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-273060" n="a-256070">fedi</w>
+                     <c> </c>
+                     <w xml:id="elcct_II-273070" n="a-256080">hamvaikat</w>
+                     <pc xml:id="elcct_II-273080" n="a-256090" unit="sentence">.</pc>
+                  </l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

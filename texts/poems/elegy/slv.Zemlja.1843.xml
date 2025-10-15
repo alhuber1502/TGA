@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elegija, pisana na nekim vaškìm pokopalši</title>
+            <author>Žemlja, Jožef</author>
+            <respStmt>
+               <name xml:id="AH">Alexander Huber</name>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>
+               <name type="institution" xml:id="BOD">Bodleian Libraries, University of Oxford</name>
+               <address>
+                  <addrLine>Broad Street</addrLine>
+                  <addrLine>Oxford OX1 3BG</addrLine>
+                  <addrLine>UK</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="TGA">Thomas Gray Archive</publisher>
+            <address>
+               <addrLine>Taylor Institution Library</addrLine>
+               <addrLine>St Giles'</addrLine>
+               <addrLine>Oxford OX1 3NA</addrLine>
+               <addrLine>UK</addrLine>
+               <addrLine>
+                  <email>info@eighteenthcenturypoetry.org</email>
+               </addrLine>
+               <addrLine>
+                  <ref target="https://www.thomasgray.org/">https://www.thomasgray.org/</ref>
+               </addrLine>
+            </address>
+            <pubPlace>Oxford</pubPlace>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="slv1843_bib">
+               <date>1843</date>
+               <author>Žemlja, Jožef</author>
+               <title level="a">Elegija, pisana na nekim vaškìm pokopalši</title>
+               <title level="m">Sédim sinóv, provest u pésmi</title>
+               <pubPlace>Ljubljana</pubPlace>
+               <biblScope>33-40</biblScope>
+               <note type="edst" xml:id="elcct_II-n00230">Transcription by Tom Turk.</note>
+               <idno type="TuT_2013">Turk (2013), 69.</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This e-text is part of the 'Gray's "Elegy" in translation'-section of the Thomas Gray Archive (TGA).</p>
+            <p>XML created for the Thomas Gray Archive (TGA).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcription by Tom Turk.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="LCNAF">
+               <bibl>Library of Congress Name Authority File (<abbr>LCNAF</abbr>)</bibl>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl>
+            <rendition n="linegroups indented" xml:id="lgindent" scheme="css">text-indent: 1em;</rendition>
+            <rendition n="linegroups vertically spaced" xml:id="lgvspace" scheme="css">margin-bottom: 1em;</rendition>
+            <rendition n="aligned centrally" xml:id="align-center" scheme="css">text-align: center;</rendition>
+            <rendition n="aligned right" xml:id="align-right" scheme="css">text-align: right;</rendition>
+            <rendition n="aligned left" xml:id="align-left" scheme="css">text-align: left;</rendition>
+            <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+            <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="#translation #quatrain #cross"
+              n="Žemlja, Jožef"
+              rendition="#lgvspace"
+              rhyme="abab"
+              type="verse"
+              xml:id="slv.Zemlja.1843">
+            <head type="main">
+               <w xml:id="elcct_II-551300" n="a-515830">Elegija</w>
+               <pc xml:id="elcct_II-551310" n="a-515840">,</pc>
+               <c> </c>
+               <w xml:id="elcct_II-551320" n="a-515850">pisana</w>
+               <c> </c>
+               <w xml:id="elcct_II-551330" n="a-515860">na</w>
+               <c> </c>
+               <w xml:id="elcct_II-551340" n="a-515870">nekim</w>
+               <c> </c>
+               <w xml:id="elcct_II-551350" n="a-515880">vaškìm</w>
+               <c> </c>
+               <w xml:id="elcct_II-551360" n="a-515890">pokopalši</w>
+            </head>
+            <lg corresp="#stn1" n="1" xml:id="elcct_II-s07405">
+               <l xml:id="elcct_II-l27160">
+                  <w xml:id="elcct_II-551390" n="a-515900">Večerni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551400" n="a-515910">jemlje</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551410" n="a-515920">zvon</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551420" n="a-515930">od</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551430" n="a-515940">dne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551440" n="a-515950">slovó</w>
+                  <pc xml:id="elcct_II-551450" n="a-515960">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27165">
+                  <w xml:id="elcct_II-551460" n="a-515970">Čez</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551470" n="a-515980">travnik</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551480" n="a-515990">giblje</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551490" n="a-516000">čeda</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551500" n="a-516010">se</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551510" n="a-516020">domú</w>
+                  <pc xml:id="elcct_II-551520" n="a-516030">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27170">
+                  <w xml:id="elcct_II-551530" n="a-516040">Orataj</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551540" n="a-516050">s</w>
+                  <pc xml:id="elcct_II-551550" n="a-516060">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-551560" n="a-516070">polja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551570" n="a-516080">vleče</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551580" n="a-516090">plug</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551590" n="a-516100">berznó</w>
+                  <pc xml:id="elcct_II-551600" n="a-516110">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27175">
+                  <w xml:id="elcct_II-551610" n="a-516120">Zročí</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551620" n="a-516130">svet</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551630" n="a-516140">tmi</w>
+                  <pc xml:id="elcct_II-551640" n="a-516150">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-551650" n="a-516160">in</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551660" n="a-516170">meni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551670" n="a-516180">samimu</w>
+                  <pc xml:id="elcct_II-551680" n="a-516190" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn2" n="2" xml:id="elcct_II-s07410">
+               <l xml:id="elcct_II-l27180">
+                  <w xml:id="elcct_II-551710" n="a-516200">Že</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551720" n="a-516210">vmika</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551730" n="a-516220">se</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551740" n="a-516230">očém</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551750" n="a-516240">obràz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551760" n="a-516250">zemljé</w>
+                  <pc xml:id="elcct_II-551770" n="a-516260">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27185">
+                  <w xml:id="elcct_II-551780" n="a-516270">In</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551790" n="a-516280">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551800" n="a-516290">praznični</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551810" n="a-516300">tihoti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551820" n="a-516310">zrak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551830" n="a-516320">vès</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551840" n="a-516330">spi</w>
+                  <pc xml:id="elcct_II-551850" n="a-516340">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27190">
+                  <w xml:id="elcct_II-551860" n="a-516350">Razun</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551870" n="a-516360">de</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551880" n="a-516370">habe</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551890" n="a-516380">prúsnika</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551900" n="a-516390">brenčé</w>
+                  <pc xml:id="elcct_II-551910" n="a-516400">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27195">
+                  <w xml:id="elcct_II-551920" n="a-516410">In</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-551930" n="a-516420">‘</pc>
+                  <w xml:id="elcct_II-551940" n="a-516430">z</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551950" n="a-516440">támorov</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551960" n="a-516450">lês</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551970" n="a-516460">žvenk</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551980" n="a-516470">zaspán</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-551990" n="a-516480">doní</w>
+                  <pc xml:id="elcct_II-552000" n="a-516490">;</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn3" n="3" xml:id="elcct_II-s07415">
+               <l xml:id="elcct_II-l27200">
+                  <w xml:id="elcct_II-552030" n="a-516500">Razun</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552040" n="a-516510">de</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552050" n="a-516520">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552060" n="a-516530">beršlin</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552070" n="a-516540">skrítim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552080" n="a-516550">varu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552090" n="a-516560">tàm</w>
+               </l>
+               <l xml:id="elcct_II-l27205">
+                  <w xml:id="elcct_II-552100" n="a-516570">Huduje</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552110" n="a-516580">sôve</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552120" n="a-516590">krič</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552130" n="a-516600">nad</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552140" n="a-516610">luno</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552150" n="a-516620">se</w>
+                  <pc xml:id="elcct_II-552160" n="a-516630">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27210">
+                  <w xml:id="elcct_II-552170" n="a-516640">De</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552180" n="a-516650">razodeti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552190" n="a-516660">skrit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552200" n="a-516670">berloga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552210" n="a-516680">hrám</w>
+                  <pc xml:id="elcct_II-552220" n="a-516690">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27215">
+                  <w xml:id="elcct_II-552230" n="a-516700">Samotno</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552240" n="a-516710">njé</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552250" n="a-516720">kraljestvo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552260" n="a-516730">mámiť</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552270" n="a-516740">če</w>
+                  <pc xml:id="elcct_II-552280" n="a-516750" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn4" n="4" xml:id="elcct_II-s07420">
+               <l xml:id="elcct_II-l27220">
+                  <w xml:id="elcct_II-552310" n="a-516760">Pod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552320" n="a-516770">unim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552330" n="a-516780">brestjem</w>
+                  <pc xml:id="elcct_II-552340" n="a-516790">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-552350" n="a-516800">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552360" n="a-516810">tisa</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552370" n="a-516820">sénc</w>
+                  <pc xml:id="elcct_II-552380" n="a-516830">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-552390" n="a-516840">hladní</w>
+                  <pc xml:id="elcct_II-552400" n="a-516850">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27225">
+                  <w xml:id="elcct_II-552410" n="a-516860">Kjer</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552420" n="a-516870">gričke</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552430" n="a-516880">perhke</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552440" n="a-516890">zêlen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552450" n="a-516900">krije</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552460" n="a-516910">mah</w>
+                  <pc xml:id="elcct_II-552470" n="a-516920">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27230">
+                  <w xml:id="elcct_II-552480" n="a-516930">Leží</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552490" n="a-516940">u</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552500" n="a-516950">tesni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552510" n="a-516960">sledinj</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552520" n="a-516970">celici</w>
+                  <pc xml:id="elcct_II-552530" n="a-516980">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27235">
+                  <w xml:id="elcct_II-552540" n="a-516990">Priprostih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552550" n="a-517000">dédov</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552560" n="a-517010">spi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552570" n="a-517020">u</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552580" n="a-517030">miru</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552590" n="a-517040">prah</w>
+                  <pc xml:id="elcct_II-552600" n="a-517050" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn5" n="5" xml:id="elcct_II-s07425">
+               <l xml:id="elcct_II-l27240">
+                  <w xml:id="elcct_II-552630" n="a-517060">Hlap</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552640" n="a-517070">jutra</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552650" n="a-517080">rosniga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552660" n="a-517090">dišeč</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552670" n="a-517100">okròg</w>
+                  <pc xml:id="elcct_II-552680" n="a-517110">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27245">
+                  <w xml:id="elcct_II-552690" n="a-517120">Cvič</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552700" n="a-517130">s</w>
+                  <pc xml:id="elcct_II-552710" n="a-517140">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-552720" n="a-517150">strehe</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552730" n="a-517160">slamne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552740" n="a-517170">vlastovčin</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552750" n="a-517180">žverlèč</w>
+                  <pc xml:id="elcct_II-552760" n="a-517190">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27250">
+                  <w xml:id="elcct_II-552770" n="a-517200">Vrisk</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552780" n="a-517210">petelina</w>
+                  <pc xml:id="elcct_II-552790" n="a-517220">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-552800" n="a-517230">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552810" n="a-517240">pastirja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552820" n="a-517250">rog</w>
+               </l>
+               <l xml:id="elcct_II-l27255">
+                  <w xml:id="elcct_II-552830" n="a-517260">Iz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552840" n="a-517270">spanja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552850" n="a-517280">njih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552860" n="a-517290">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552870" n="a-517300">bo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552880" n="a-517310">jih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552890" n="a-517320">zbudil</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552900" n="a-517330">več</w>
+                  <pc xml:id="elcct_II-552910" n="a-517340" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn6" n="6" xml:id="elcct_II-s07430">
+               <l xml:id="elcct_II-l27260">
+                  <w xml:id="elcct_II-552940" n="a-517350">Vec</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552950" n="a-517360">grel</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552960" n="a-517370">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552970" n="a-517380">bo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552980" n="a-517390">pečí</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-552990" n="a-517400">gorák</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553000" n="a-517410">jih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553010" n="a-517420">kot</w>
+                  <pc xml:id="elcct_II-553020" n="a-517430">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27265">
+                  <w xml:id="elcct_II-553030" n="a-517440">Ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553040" n="a-517450">skerb</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553050" n="a-517460">zvečér</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553060" n="a-517470">jih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553070" n="a-517480">pričakvala</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553080" n="a-517490">žén</w>
+                  <pc xml:id="elcct_II-553090" n="a-517500">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27270">
+                  <w xml:id="elcct_II-553100" n="a-517510">Otrôc</w>
+                  <pc xml:id="elcct_II-553110" n="a-517520">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-553120" n="a-517530">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553130" n="a-517540">ôču</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553140" n="a-517550">tekali</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553150" n="a-517560">naprot</w>
+                  <pc xml:id="elcct_II-553160" n="a-517570">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27275">
+                  <w xml:id="elcct_II-553170" n="a-517580">Ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553180" n="a-517590">se</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553190" n="a-517600">oklepali</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553200" n="a-517610">mu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553210" n="a-517620">krog</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553220" n="a-517630">kolén</w>
+                  <pc xml:id="elcct_II-553230" n="a-517640" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn7" n="7" xml:id="elcct_II-s07435">
+               <l xml:id="elcct_II-l27280">
+                  <w xml:id="elcct_II-553260" n="a-517650">Kolkrat</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553270" n="a-517660">je</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553280" n="a-517670">jenjala</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553290" n="a-517680">stèrn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553300" n="a-517690">serpu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553310" n="a-517700">njih</w>
+                  <pc xml:id="elcct_II-553320" n="a-517710">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27285">
+                  <w xml:id="elcct_II-553330" n="a-517720">Kolkrat</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553340" n="a-517730">sterl</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553350" n="a-517740">plug</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553360" n="a-517750">njih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553370" n="a-517760">terdo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553380" n="a-517770">grudo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553390" n="a-517780">je</w>
+                  <pc xml:id="elcct_II-553400" n="a-517790">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27290">
+                  <w xml:id="elcct_II-553410" n="a-517800">Kak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553420" n="a-517810">bogali</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553430" n="a-517820">so</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553440" n="a-517830">volki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553450" n="a-517840">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553460" n="a-517850">jarmu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553470" n="a-517860">jih</w>
+                  <pc xml:id="elcct_II-553480" n="a-517870">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27295">
+                  <w xml:id="elcct_II-553490" n="a-517880">Kak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553500" n="a-517890">gozd</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553510" n="a-517900">uklanjal</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553520" n="a-517910">pod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553530" n="a-517920">njih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553540" n="a-517930">skjro</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553550" n="a-517940">se</w>
+                  <pc xml:id="elcct_II-553560" n="a-517950" unit="sentence">!</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn8" n="8" xml:id="elcct_II-s07440">
+               <l xml:id="elcct_II-l27300">
+                  <w xml:id="elcct_II-553590" n="a-517960">Koristnih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553600" n="a-517970">opravil</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553610" n="a-517980">njih</w>
+                  <pc xml:id="elcct_II-553620" n="a-517990">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-553630" n="a-518000">njih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553640" n="a-518010">nizkosť</w>
+                  <pc xml:id="elcct_II-553650" n="a-518020">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27305">
+                  <w xml:id="elcct_II-553660" n="a-518030">Veselja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553670" n="a-518040">hišniga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553680" n="a-518050">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553690" n="a-518060">zasramuj</w>
+                  <pc xml:id="elcct_II-553700" n="a-518070">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27310">
+                  <w xml:id="elcct_II-553710" n="a-518080">Z</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553720" n="a-518090">zaničevavnim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553730" n="a-518100">smeham</w>
+                  <pc xml:id="elcct_II-553740" n="a-518110">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-553750" n="a-518120">visokost</w>
+                  <pc xml:id="elcct_II-553760" n="a-518130" unit="sentence">!</pc>
+               </l>
+               <l xml:id="elcct_II-l27315">
+                  <w xml:id="elcct_II-553770" n="a-518140">Njih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553780" n="a-518150">temniga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553790" n="a-518160">življenja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553800" n="a-518170">zgoďb</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553810" n="a-518180">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553820" n="a-518190">čuj</w>
+                  <pc xml:id="elcct_II-553830" n="a-518200">,</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn9" n="9" xml:id="elcct_II-s07445">
+               <l xml:id="elcct_II-l27320">
+                  <w xml:id="elcct_II-553860" n="a-518210">Tic</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553870" n="a-518220">imenitnih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553880" n="a-518230">znamnja</w>
+                  <pc xml:id="elcct_II-553890" n="a-518240">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-553900" n="a-518250">slave</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553910" n="a-518260">moč</w>
+                  <pc xml:id="elcct_II-553920" n="a-518270">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27325">
+                  <w xml:id="elcct_II-553930" n="a-518280">Vse</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553940" n="a-518290">kar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553950" n="a-518300">lepota</w>
+                  <pc xml:id="elcct_II-553960" n="a-518310">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-553970" n="a-518320">kar</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553980" n="a-518330">bogastvo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-553990" n="a-518340">da</w>
+                  <pc xml:id="elcct_II-554000" n="a-518350">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27330">
+                  <w xml:id="elcct_II-554010" n="a-518360">Vse</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554020" n="a-518370">bo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554030" n="a-518380">zakrila</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554040" n="a-518390">tèmè</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554050" n="a-518400">večna</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554060" n="a-518410">noc</w>
+                  <pc xml:id="elcct_II-554070" n="a-518420">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27335">
+                  <w xml:id="elcct_II-554080" n="a-518430">Steza</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554090" n="a-518440">mogočnosti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554100" n="a-518450">le</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554110" n="a-518460">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554120" n="a-518470">gròb</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554130" n="a-518480">peljá</w>
+                  <pc xml:id="elcct_II-554140" n="a-518490" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn10" n="10" xml:id="elcct_II-s07450">
+               <l xml:id="elcct_II-l27340">
+                  <w xml:id="elcct_II-554170" n="a-518500">Ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554180" n="a-518510">zaničujte</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554190" n="a-518520">jih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554200" n="a-518530">prevzetni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554210" n="a-518540">vi</w>
+                  <pc xml:id="elcct_II-554220" n="a-518550" unit="sentence">!</pc>
+               </l>
+               <l xml:id="elcct_II-l27345">
+                  <w xml:id="elcct_II-554230" n="a-518560">De</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554240" n="a-518570">marbeljna</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554250" n="a-518580">spomin</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554260" n="a-518590">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554270" n="a-518600">stavi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554280" n="a-518610">jim</w>
+                  <pc xml:id="elcct_II-554290" n="a-518620">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27350">
+                  <w xml:id="elcct_II-554300" n="a-518630">Kjer</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554310" n="a-518640">ob</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554320" n="a-518650">zrezljanim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554330" n="a-518660">loku</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554340" n="a-518670">glas</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554350" n="a-518680">kupí</w>
+               </l>
+               <l xml:id="elcct_II-l27355">
+                  <w xml:id="elcct_II-554360" n="a-518690">Češenja</w>
+                  <pc xml:id="elcct_II-554370" n="a-518700">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-554380" n="a-518710">sláve</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554390" n="a-518720">kviško</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554400" n="a-518730">k</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554410" n="a-518740">zvoljenim</w>
+                  <pc xml:id="elcct_II-554420" n="a-518750" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn11" n="11" xml:id="elcct_II-s07455">
+               <l xml:id="elcct_II-l27360">
+                  <w xml:id="elcct_II-554450" n="a-518760">Je</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554460" n="a-518770">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554470" n="a-518780">stanu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554480" n="a-518790">vèrč</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554490" n="a-518800">z</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554500" n="a-518810">napisam</w>
+                  <pc xml:id="elcct_II-554510" n="a-518820">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-554520" n="a-518830">pil</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554530" n="a-518840">sopèč</w>
+               </l>
+               <l xml:id="elcct_II-l27365">
+                  <w xml:id="elcct_II-554540" n="a-518850">Nazaj</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554550" n="a-518860">priklícati</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554560" n="a-518870">duhá</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554570" n="a-518880">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554580" n="a-518890">teló</w>
+                  <pc xml:id="elcct_II-554590" n="a-518900" unit="sentence">?</pc>
+               </l>
+               <l xml:id="elcct_II-l27370">
+                  <w xml:id="elcct_II-554600" n="a-518910">Častí</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554610" n="a-518920">slov</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554620" n="a-518930">oživiti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554630" n="a-518940">prah</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554640" n="a-518950">molčèč</w>
+                  <pc xml:id="elcct_II-554650" n="a-518960">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27375">
+                  <w xml:id="elcct_II-554660" n="a-518970">Al</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554670" n="a-518980">sprôsiť</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554680" n="a-518990">smert</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554690" n="a-519000">perlizvanje</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554700" n="a-519010">gluhó</w>
+                  <pc xml:id="elcct_II-554710" n="a-519020" unit="sentence">?</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn12" n="12" xml:id="elcct_II-s07460">
+               <l xml:id="elcct_II-l27380">
+                  <w xml:id="elcct_II-554740" n="a-519030">V</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554750" n="a-519040">neznanim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554760" n="a-519050">kótu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554770" n="a-519060">tim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554780" n="a-519070">leži</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554790" n="a-519080">morbiť</w>
+               </l>
+               <l xml:id="elcct_II-l27385">
+                  <w xml:id="elcct_II-554800" n="a-519090">Nebeške</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554810" n="a-519100">vneto</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554820" n="a-519110">iskrice</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554830" n="a-519120">sercé</w>
+                  <pc xml:id="elcct_II-554840" n="a-519130">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27390">
+                  <w xml:id="elcct_II-554850" n="a-519140">Roké</w>
+                  <pc xml:id="elcct_II-554860" n="a-519150">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-554870" n="a-519160">k</w>
+                  <pc xml:id="elcct_II-554880" n="a-519170">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-554890" n="a-519180">bi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554900" n="a-519190">žiezelj</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554910" n="a-519200">môgle</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554920" n="a-519210">ble</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554930" n="a-519220">nosíť</w>
+                  <pc xml:id="elcct_II-554940" n="a-519230">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27395">
+                  <w xml:id="elcct_II-554950" n="a-519240">Al</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554960" n="a-519250">glase</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-554970" n="a-519260">‘</pc>
+                  <w xml:id="elcct_II-554980" n="a-519270">z</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-554990" n="a-519280">citer</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555000" n="a-519290">klicati</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555010" n="a-519300">sladké</w>
+                  <pc xml:id="elcct_II-555020" n="a-519310" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn13" n="13" xml:id="elcct_II-s07465">
+               <l xml:id="elcct_II-l27400">
+                  <w xml:id="elcct_II-555050" n="a-519320">Vonder</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555060" n="a-519330">bogata</w>
+                  <pc xml:id="elcct_II-555070" n="a-519340">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-555080" n="a-519350">blaga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555090" n="a-519360">učenóst</w>
+               </l>
+               <l xml:id="elcct_II-l27405">
+                  <w xml:id="elcct_II-555100" n="a-519370">Jim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555110" n="a-519380">lista</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555120" n="a-519390">svoj’ga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555130" n="a-519400">ni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555140" n="a-519410">razgrínjala</w>
+                  <pc xml:id="elcct_II-555150" n="a-519420">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27410">
+                  <w xml:id="elcct_II-555160" n="a-519430">Zaterla</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555170" n="a-519440">revš’na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555180" n="a-519450">ôgnja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555190" n="a-519460">njih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555200" n="a-519470">gorkóst</w>
+                  <pc xml:id="elcct_II-555210" n="a-519480">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27415">
+                  <w xml:id="elcct_II-555220" n="a-519490">Vír</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555230" n="a-519500">čistíga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555240" n="a-519510">studenca</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555250" n="a-519520">vstávila</w>
+                  <pc xml:id="elcct_II-555260" n="a-519530" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn14" n="14" xml:id="elcct_II-s07470">
+               <l xml:id="elcct_II-l27420">
+                  <w xml:id="elcct_II-555290" n="a-519540">Kák</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555300" n="a-519550">marskter</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555310" n="a-519560">biser</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555320" n="a-519570">luči</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555330" n="a-519580">zvézdine</w>
+               </l>
+               <l xml:id="elcct_II-l27425">
+                  <w xml:id="elcct_II-555340" n="a-519590">Morjá</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555350" n="a-519600">berlogi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555360" n="a-519610">skrivajo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555370" n="a-519620">temní</w>
+                  <pc xml:id="elcct_II-555380" n="a-519630" unit="sentence">!</pc>
+               </l>
+               <l xml:id="elcct_II-l27430">
+                  <w xml:id="elcct_II-555390" n="a-519640">Marskdej</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555400" n="a-519650">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555410" n="a-519660">samoti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555420" n="a-519670">rožica</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555430" n="a-519680">cvetè</w>
+                  <pc xml:id="elcct_II-555440" n="a-519690">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27435">
+                  <w xml:id="elcct_II-555450" n="a-519700">Lepote</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555460" n="a-519710">svit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555470" n="a-519720">po</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555480" n="a-519730">puši</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555490" n="a-519740">rasgubí</w>
+                  <pc xml:id="elcct_II-555500" n="a-519750" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn15" n="15" xml:id="elcct_II-s07475">
+               <l xml:id="elcct_II-l27440">
+                  <w xml:id="elcct_II-555530" n="a-519760">Marskter</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555540" n="a-519770">leži</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555550" n="a-519780">tù</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555560" n="a-519790">Hampden</w>
+                  <pc xml:id="elcct_II-555570" n="a-519800">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-555580" n="a-519810">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555590" n="a-519820">serčán</w>
+               </l>
+               <l xml:id="elcct_II-l27445">
+                  <w xml:id="elcct_II-555600" n="a-519830">Krivicnika</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555610" n="a-519840">je</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555620" n="a-519850">spodil</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555630" n="a-519860">s</w>
+                  <pc xml:id="elcct_II-555640" n="a-519870">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-555650" n="a-519880">svojih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555660" n="a-519890">njiv</w>
+                  <pc xml:id="elcct_II-555670" n="a-519900">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27450">
+                  <w xml:id="elcct_II-555680" n="a-519910">Marskteri</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555690" n="a-519920">Milton</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-555700" n="a-519930">—</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-555710" n="a-519940">mutast</w>
+                  <pc xml:id="elcct_II-555720" n="a-519950">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-555730" n="a-519960">nepoznán</w>
+                  <pc xml:id="elcct_II-555740" n="a-519970">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27455">
+                  <w xml:id="elcct_II-555750" n="a-519980">Al</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555760" n="a-519990">Kromvel</w>
+                  <pc xml:id="elcct_II-555770" n="a-520000">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-555780" n="a-520010">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555790" n="a-520020">kerví</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555800" n="a-520030">dezele</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555810" n="a-520040">kriv</w>
+                  <pc xml:id="elcct_II-555820" n="a-520050" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn16" n="16" xml:id="elcct_II-s07480">
+               <l xml:id="elcct_II-l27460">
+                  <w xml:id="elcct_II-555850" n="a-520060">Žéť</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555860" n="a-520070">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555870" n="a-520080">zboríh</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555880" n="a-520090">hvalo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555890" n="a-520100">glasno</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555900" n="a-520110">govorov</w>
+                  <pc xml:id="elcct_II-555910" n="a-520120">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27465">
+                  <w xml:id="elcct_II-555920" n="a-520130">Pogubo</w>
+                  <pc xml:id="elcct_II-555930" n="a-520140">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-555940" n="a-520150">trude</w>
+                  <pc xml:id="elcct_II-555950" n="a-520160">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-555960" n="a-520170">meč</w>
+                  <pc xml:id="elcct_II-555970" n="a-520180">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-555980" n="a-520190">smert</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-555990" n="a-520200">zaničváť</w>
+                  <pc xml:id="elcct_II-556000" n="a-520210">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27470">
+                  <w xml:id="elcct_II-556010" n="a-520220">Po</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556020" n="a-520230">sréčni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556030" n="a-520240">trésť</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556040" n="a-520250">deželi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556050" n="a-520260">blagoslov</w>
+                  <pc xml:id="elcct_II-556060" n="a-520270">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27475">
+                  <w xml:id="elcct_II-556070" n="a-520280">V</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556080" n="a-520290">očéh</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556090" n="a-520300">svetá</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556100" n="a-520310">dél</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556110" n="a-520320">slaro</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556120" n="a-520330">svojih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556130" n="a-520340">bráť</w>
+                  <pc xml:id="elcct_II-556140" n="a-520350">,</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn17" n="17" xml:id="elcct_II-s07485">
+               <l xml:id="elcct_II-l27480">
+                  <w xml:id="elcct_II-556170" n="a-520360">Njih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556180" n="a-520370">stan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556190" n="a-520380">jim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556200" n="a-520390">pustil</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556210" n="a-520400">ni</w>
+                  <pc xml:id="elcct_II-556220" n="a-520410">:</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-556230" n="a-520420">pá</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556240" n="a-520430">kòt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556250" n="a-520440">krepóst</w>
+                  <pc xml:id="elcct_II-556260" n="a-520450">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27485">
+                  <w xml:id="elcct_II-556270" n="a-520460">Ogradil</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556280" n="a-520470">je</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556290" n="a-520480">hudôbe</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556300" n="a-520490">jim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556310" n="a-520500">mejé</w>
+                  <pc xml:id="elcct_II-556320" n="a-520510">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27490">
+                  <w xml:id="elcct_II-556330" n="a-520520">Ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556340" n="a-520530">dal</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556350" n="a-520540">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556360" n="a-520550">kervi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556370" n="a-520560">na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556380" n="a-520570">trona</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556390" n="a-520580">zbrêsť</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556400" n="a-520590">vsokóst</w>
+                  <pc xml:id="elcct_II-556410" n="a-520600">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27495">
+                  <w xml:id="elcct_II-556420" n="a-520610">Zapreti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556430" n="a-520620">bratcu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556440" n="a-520630">vsmiljenja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556450" n="a-520640">sercé</w>
+                  <pc xml:id="elcct_II-556460" n="a-520650">,</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn18" n="18" xml:id="elcct_II-s07490">
+               <l xml:id="elcct_II-l27500">
+                  <w xml:id="elcct_II-556490" n="a-520660">Skriváť</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556500" n="a-520670">vestí</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556510" n="a-520680">se</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556520" n="a-520690">krive</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556530" n="a-520700">svéste</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556540" n="a-520710">v'har</w>
+                  <pc xml:id="elcct_II-556550" n="a-520720">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27505">
+                  <w xml:id="elcct_II-556560" n="a-520730">Dušiti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556570" n="a-520740">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556580" n="a-520750">sebi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556590" n="a-520760">čut</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556600" n="a-520770">šramote</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556610" n="a-520780">svét</w>
+                  <pc xml:id="elcct_II-556620" n="a-520790">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27510">
+                  <w xml:id="elcct_II-556630" n="a-520800">Al</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556640" n="a-520810">slasti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556650" n="a-520820">in</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556660" n="a-520830">napuhu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556670" n="a-520840">žgati</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556680" n="a-520850">dar</w>
+                  <pc xml:id="elcct_II-556690" n="a-520860">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27515">
+                  <w xml:id="elcct_II-556700" n="a-520870">S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556710" n="a-520880">kadilam</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556720" n="a-520890">na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556730" n="a-520900">Pierid</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556740" n="a-520910">plamenu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556750" n="a-520920">vnét</w>
+                  <pc xml:id="elcct_II-556760" n="a-520930" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn19" n="19" xml:id="elcct_II-s07495">
+               <l xml:id="elcct_II-l27520">
+                  <w xml:id="elcct_II-556790" n="a-520940">Od</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556800" n="a-520950">hrupa</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556810" n="a-520960">bôja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556820" n="a-520970">ločenih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556830" n="a-520980">svetá</w>
+                  <pc xml:id="elcct_II-556840" n="a-520990">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27525">
+                  <w xml:id="elcct_II-556850" n="a-521000">Njih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556860" n="a-521010">trezne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556870" n="a-521020">želje</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556880" n="a-521030">niso</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556890" n="a-521040">znale</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556900" n="a-521050">zmot</w>
+                  <pc xml:id="elcct_II-556910" n="a-521060">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27530">
+                  <w xml:id="elcct_II-556920" n="a-521070">V</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556930" n="a-521080">samotnim</w>
+                  <pc xml:id="elcct_II-556940" n="a-521090">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-556950" n="a-521100">hladnim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556960" n="a-521110">dolu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556970" n="a-521120">potvanja</w>
+               </l>
+               <l xml:id="elcct_II-l27535">
+                  <w xml:id="elcct_II-556980" n="a-521130">Hodili</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-556990" n="a-521140">so</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557000" n="a-521150">življenja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557010" n="a-521160">tiho</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557020" n="a-521170">pot</w>
+                  <pc xml:id="elcct_II-557030" n="a-521180" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn20" n="20" xml:id="elcct_II-s07500">
+               <l xml:id="elcct_II-l27540">
+                  <w xml:id="elcct_II-557060" n="a-521190">Vbnder</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-557070" n="a-521200">—</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-557080" n="a-521210">košic</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557090" n="a-521220">nečásti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557100" n="a-521230">tih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557110" n="a-521240">rešíť</w>
+                  <pc xml:id="elcct_II-557120" n="a-521250">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27545">
+                  <w xml:id="elcct_II-557130" n="a-521260">Kak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557140" n="a-521270">križ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557150" n="a-521280">kerhák</w>
+                  <pc xml:id="elcct_II-557160" n="a-521290">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-557170" n="a-521300">iz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557180" n="a-521310">débla</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557190" n="a-521320">stesan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557200" n="a-521330">še</w>
+                  <pc xml:id="elcct_II-557210" n="a-521340">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27550">
+                  <w xml:id="elcct_II-557220" n="a-521350">S</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557230" n="a-521360">priproste</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557240" n="a-521370">Muze</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557250" n="a-521380">čerkami</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557260" n="a-521390">pokrít</w>
+                  <pc xml:id="elcct_II-557270" n="a-521400">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27555">
+                  <w xml:id="elcct_II-557280" n="a-521410">Solzice</w>
+                  <pc xml:id="elcct_II-557290" n="a-521420">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-557300" n="a-521430">o</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557310" n="a-521440">popotnik</w>
+                  <pc xml:id="elcct_II-557320" n="a-521450">!</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-557330" n="a-521460">prosi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557340" n="a-521470">te</w>
+                  <pc xml:id="elcct_II-557350" n="a-521480" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn21" n="21" xml:id="elcct_II-s07505">
+               <l xml:id="elcct_II-l27560">
+                  <w xml:id="elcct_II-557380" n="a-521490">Imé</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557390" n="a-521500">njih</w>
+                  <pc xml:id="elcct_II-557400" n="a-521510">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-557410" n="a-521520">starost</w>
+                  <pc xml:id="elcct_II-557420" n="a-521530">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-557430" n="a-521540">terde</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557440" n="a-521550">rôke</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557450" n="a-521560">sléd</w>
+                  <pc xml:id="elcct_II-557460" n="a-521570">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27565">
+                  <w xml:id="elcct_II-557470" n="a-521580">Kraj</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557480" n="a-521590">slave</w>
+                  <pc xml:id="elcct_II-557490" n="a-521600">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-557500" n="a-521610">elegije</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557510" n="a-521620">nadomésť</w>
+                  <pc xml:id="elcct_II-557520" n="a-521630">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27570">
+                  <w xml:id="elcct_II-557530" n="a-521640">In</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557540" n="a-521650">kak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557550" n="a-521660">izrèk</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557560" n="a-521670">iz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557570" n="a-521680">božjih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557580" n="a-521690">knjig</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557590" n="a-521700">beséd</w>
+               </l>
+               <l xml:id="elcct_II-l27575">
+                  <w xml:id="elcct_II-557600" n="a-521710">Učí</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557610" n="a-521720">očistiť</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557620" n="a-521730">kméta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557630" n="a-521740">k</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557640" n="a-521750">smerti</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557650" n="a-521760">vést</w>
+                  <pc xml:id="elcct_II-557660" n="a-521770" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn22" n="22" xml:id="elcct_II-s07510">
+               <l xml:id="elcct_II-l27580">
+                  <w xml:id="elcct_II-557690" n="a-521780">In</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557700" n="a-521790">kdo</w>
+                  <pc xml:id="elcct_II-557710" n="a-521800">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-557720" n="a-521810">kraljestvu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557730" n="a-521820">mutastimu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557740" n="a-521830">zdan</w>
+                  <pc xml:id="elcct_II-557750" n="a-521840" unit="sentence">.</pc>
+               </l>
+               <l xml:id="elcct_II-l27585">
+                  <w xml:id="elcct_II-557760" n="a-521850">Je</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557770" n="a-521860">s</w>
+                  <pc xml:id="elcct_II-557780" n="a-521870">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-557790" n="a-521880">sveta</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557800" n="a-521890">téga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557810" n="a-521900">revniga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557820" n="a-521910">kdej</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557830" n="a-521920">šel</w>
+                  <pc xml:id="elcct_II-557840" n="a-521930" unit="sentence">?</pc>
+               </l>
+               <l xml:id="elcct_II-l27590">
+                  <w xml:id="elcct_II-557850" n="a-521940">Kdo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557860" n="a-521950">sklenil</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557870" n="a-521960">lúči</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557880" n="a-521970">kdej</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557890" n="a-521980">poslednji</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557900" n="a-521990">dan</w>
+                  <pc xml:id="elcct_II-557910" n="a-522000">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27595">
+                  <w xml:id="elcct_II-557920" n="a-522010">Deb</w>
+                  <pc xml:id="elcct_II-557930" n="a-522020">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-557940" n="a-522030">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557950" n="a-522040">bil</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557960" n="a-522050">milo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557970" n="a-522060">še</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557980" n="a-522070">se</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-557990" n="a-522080">nanj</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558000" n="a-522090">ozrel</w>
+                  <pc xml:id="elcct_II-558010" n="a-522100" unit="sentence">?</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn23" n="23" xml:id="elcct_II-s07515">
+               <l xml:id="elcct_II-l27600">
+                  <w xml:id="elcct_II-558040" n="a-522110">Težkó</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558050" n="a-522120">se</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558060" n="a-522130">dúh</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558070" n="a-522140">od</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558080" n="a-522150">sèrca</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558090" n="a-522160">ljub’ga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558100" n="a-522170">loč</w>
+                  <pc xml:id="elcct_II-558110" n="a-522180">’</pc>
+                  <pc xml:id="elcct_II-558120" n="a-522190">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27605">
+                  <w xml:id="elcct_II-558130" n="a-522200">Okó</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558140" n="a-522210">solzíce</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558150" n="a-522220">temno</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558160" n="a-522230">še</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558170" n="a-522240">želí</w>
+                  <pc xml:id="elcct_II-558180" n="a-522250">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27610">
+                  <w xml:id="elcct_II-558190" n="a-522260">Še</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-558200" n="a-522270">‘</pc>
+                  <w xml:id="elcct_II-558210" n="a-522280">z</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558220" n="a-522290">grôba</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558230" n="a-522300">glas</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558240" n="a-522310">natore</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558250" n="a-522320">ima</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558260" n="a-522330">moč</w>
+                  <pc xml:id="elcct_II-558270" n="a-522340">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27615">
+                  <w xml:id="elcct_II-558280" n="a-522350">V</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558290" n="a-522360">pepelu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558300" n="a-522370">našim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558310" n="a-522380">ôginj</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558320" n="a-522390">star</w>
+                  <pc xml:id="elcct_II-558330" n="a-522400">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-558340" n="a-522410">še</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558350" n="a-522420">tli</w>
+                  <pc xml:id="elcct_II-558360" n="a-522430" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn24" n="24" xml:id="elcct_II-s07520">
+               <l xml:id="elcct_II-l27620">
+                  <w xml:id="elcct_II-558390" n="a-522440">In</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558400" n="a-522450">tí</w>
+                  <pc xml:id="elcct_II-558410" n="a-522460">!</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-558420" n="a-522470">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558430" n="a-522480">mertvih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558440" n="a-522490">stan</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558450" n="a-522500">nečíslanih</w>
+               </l>
+               <l xml:id="elcct_II-l27625">
+                  <w xml:id="elcct_II-558460" n="a-522510">V</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558470" n="a-522520">spomin</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558480" n="a-522530">njih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558490" n="a-522540">pripovduješ</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558500" n="a-522550">priprostó</w>
+                  <pc xml:id="elcct_II-558510" n="a-522560">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27630">
+                  <w xml:id="elcct_II-558520" n="a-522570">Ak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558530" n="a-522580">kdo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558540" n="a-522590">morbiti</w>
+                  <pc xml:id="elcct_II-558550" n="a-522600">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-558560" n="a-522610">mísel</w>
+                  <pc xml:id="elcct_II-558570" n="a-522620">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-558580" n="a-522630">teb</w>
+                  <pc xml:id="elcct_II-558590" n="a-522640">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-558600" n="a-522650">lastnìh</w>
+                  <pc xml:id="elcct_II-558610" n="a-522660">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27635">
+                  <w xml:id="elcct_II-558620" n="a-522670">Mém</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558630" n="a-522680">potujóč</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558640" n="a-522690">po</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558650" n="a-522700">tebi</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558660" n="a-522710">vprašal</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558670" n="a-522720">bo</w>
+                  <pc xml:id="elcct_II-558680" n="a-522730">,</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn25" n="25" xml:id="elcct_II-s07525">
+               <l xml:id="elcct_II-l27640">
+                  <w xml:id="elcct_II-558710" n="a-522740">Govoril</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558720" n="a-522750">siv</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558730" n="a-522760">ovčár</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558740" n="a-522770">morbiť</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558750" n="a-522780">bo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558760" n="a-522790">mu</w>
+                  <pc xml:id="elcct_II-558770" n="a-522800">:</pc>
+               </l>
+               <l xml:id="elcct_II-l27645">
+                  <pc xml:id="elcct_II-558780" n="a-522810">„</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-558790" n="a-522820">Pred</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558800" n="a-522830">zorám</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558810" n="a-522840">vidili</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558820" n="a-522850">smo</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558830" n="a-522860">ga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558840" n="a-522870">večkrat</w>
+               </l>
+               <l xml:id="elcct_II-l27650">
+                  <w xml:id="elcct_II-558850" n="a-522880">Tjé</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558860" n="a-522890">rôso</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558870" n="a-522900">bèrcati</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558880" n="a-522910">prot</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558890" n="a-522920">gričiku</w>
+                  <pc xml:id="elcct_II-558900" n="a-522930">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27655">
+                  <w xml:id="elcct_II-558910" n="a-522940">Pozdravit</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558920" n="a-522950">sonca</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558930" n="a-522960">na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558940" n="a-522970">visoki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-558950" n="a-522980">trať</w>
+                  <pc xml:id="elcct_II-558960" n="a-522990" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn26" n="26" xml:id="elcct_II-s07530">
+               <l xml:id="elcct_II-l27660">
+                  <w xml:id="elcct_II-558990" n="a-523000">Ob</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559000" n="a-523010">kraji</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559010" n="a-523020">buke</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559020" n="a-523030">une</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559030" n="a-523040">tam</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559040" n="a-523050">čversté</w>
+                  <pc xml:id="elcct_II-559050" n="a-523060">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27665">
+                  <w xml:id="elcct_II-559060" n="a-523070">R</w>
+                  <pc xml:id="elcct_II-559070" n="a-523080">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-559080" n="a-523090">globoko</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559090" n="a-523100">korenine</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559100" n="a-523110">vsaja</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559110" n="a-523120">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559120" n="a-523130">tla</w>
+                  <pc xml:id="elcct_II-559130" n="a-523140">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27670">
+                  <w xml:id="elcct_II-559140" n="a-523150">Opèrt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559150" n="a-523160">na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559160" n="a-523170">dlaň</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559170" n="a-523180">je</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559180" n="a-523190">stegnjen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559190" n="a-523200">krog</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559200" n="a-523210">poldné</w>
+               </l>
+               <l xml:id="elcct_II-l27675">
+                  <w xml:id="elcct_II-559210" n="a-523220">Potoka</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559220" n="a-523230">pazil</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559230" n="a-523240">mém</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559240" n="a-523250">hitéčiga</w>
+                  <pc xml:id="elcct_II-559250" n="a-523260" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn27" n="27" xml:id="elcct_II-s07535">
+               <l xml:id="elcct_II-l27680">
+                  <w xml:id="elcct_II-559280" n="a-523270">Tik</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559290" n="a-523280">gôse</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559300" n="a-523290">tam</w>
+                  <pc xml:id="elcct_II-559310" n="a-523300">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-559320" n="a-523310">zdej</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559330" n="a-523320">sám</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559340" n="a-523330">seboj</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559350" n="a-523340">v beséd</w>
+                  <pc xml:id="elcct_II-559360" n="a-523350">’</pc>
+                  <pc xml:id="elcct_II-559370" n="a-523360">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27685">
+                  <w xml:id="elcct_II-559380" n="a-523370">Pohajkval</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559390" n="a-523380">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559400" n="a-523390">jéznim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559410" n="a-523400">posmehvanji</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559420" n="a-523410">je</w>
+                  <pc xml:id="elcct_II-559430" n="a-523420">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27690">
+                  <w xml:id="elcct_II-559440" n="a-523430">Zdej</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559450" n="a-523440">kòt</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559460" n="a-523450">kdor</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559470" n="a-523460">vès</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559480" n="a-523470">zgubljèn</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559490" n="a-523480">prepaden</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559500" n="a-523490">bléd</w>
+                  <pc xml:id="elcct_II-559510" n="a-523500">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27695">
+                  <w xml:id="elcct_II-559520" n="a-523510">Al</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559530" n="a-523520">ki</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559540" n="a-523530">ljubezni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559550" n="a-523540">spéh</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559560" n="a-523550">mu</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559570" n="a-523560">nápak</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559580" n="a-523570">grè</w>
+                  <pc unit="sentence" xml:id="elcct_II-559580-eos" n="a-523580">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn28" n="28" xml:id="elcct_II-s07540">
+               <l xml:id="elcct_II-l27700">
+                  <w xml:id="elcct_II-559610" n="a-523590">En</w>
+                  <pc xml:id="elcct_II-559620" n="a-523600">’</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-559630" n="a-523610">jutro</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559640" n="a-523620">na</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559650" n="a-523630">navadni</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559660" n="a-523640">ga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559670" n="a-523650">visáv</w>
+                  <pc xml:id="elcct_II-559680" n="a-523660">,</pc>
+               </l>
+               <l xml:id="elcct_II-l27705">
+                  <w xml:id="elcct_II-559690" n="a-523670">Blíz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559700" n="a-523680">buke</w>
+                  <pc xml:id="elcct_II-559710" n="a-523690">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-559720" n="a-523700">in</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559730" n="a-523710">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559740" n="a-523720">resjì</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559750" n="a-523730">okó</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559760" n="a-523740">zgreší</w>
+                  <pc xml:id="elcct_II-559770" n="a-523750">;</pc>
+               </l>
+               <l xml:id="elcct_II-l27710">
+                  <w xml:id="elcct_II-559780" n="a-523760">Napóci</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559790" n="a-523770">druz'ga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559800" n="a-523780">svit</w>
+                  <pc xml:id="elcct_II-559810" n="a-523790">,</pc>
+                  <c> </c>
+                  <pc xml:id="elcct_II-559820" n="a-523800">—</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-559830" n="a-523810">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559840" n="a-523820">ob</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559850" n="a-523830">gošáv</w>
+                  <pc xml:id="elcct_II-559860" n="a-523840">’</pc>
+               </l>
+               <l xml:id="elcct_II-l27715">
+                  <w xml:id="elcct_II-559870" n="a-523850">Ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559880" n="a-523860">per</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559890" n="a-523870">potoku</w>
+                  <pc xml:id="elcct_II-559900" n="a-523880">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-559910" n="a-523890">ne</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559920" n="a-523900">v</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559930" n="a-523910">germjì</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559940" n="a-523920">ga</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-559950" n="a-523930">ni</w>
+                  <pc xml:id="elcct_II-559960" n="a-523940" unit="sentence">.</pc>
+               </l>
+            </lg>
+            <lg corresp="#stn29" n="29" xml:id="elcct_II-s07545">
+               <l xml:id="elcct_II-l27720">
+                  <w xml:id="elcct_II-559990" n="a-523950">Zazóri</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560000" n="a-523960">trétje</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-560010" n="a-523970">—</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-560020" n="a-523980">se</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560030" n="a-523990">majó</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560040" n="a-524000">skoz</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560050" n="a-524010">vás</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-560060" n="a-524020">—</pc>
+               </l>
+               <l xml:id="elcct_II-l27725">
+                  <w xml:id="elcct_II-560070" n="a-524030">Protgrobju</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560080" n="a-524040">znjim</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560090" n="a-524050">med</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560100" n="a-524060">petjem</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560110" n="a-524070">žalostnim</w>
+                  <pc xml:id="elcct_II-560120" n="a-524080">;</pc>
+                  <c> </c>
+                  <pc xml:id="elcct_II-560130" n="a-524090">—</pc>
+               </l>
+               <l xml:id="elcct_II-l27730">
+                  <w xml:id="elcct_II-560140" n="a-524100">Sèm</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560150" n="a-524110">bliže</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560160" n="a-524120">stopi</w>
+                  <pc xml:id="elcct_II-560170" n="a-524130">,</pc>
+                  <c> </c>
+                  <w xml:id="elcct_II-560180" n="a-524140">in</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560190" n="a-524150">čerk</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560200" n="a-524160">bêri</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560210" n="a-524170">glás</w>
+               </l>
+               <l xml:id="elcct_II-l27735">
+                  <w xml:id="elcct_II-560220" n="a-524180">U</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560230" n="a-524190">kamen</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560240" n="a-524200">vsekanih</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560250" n="a-524210">pod</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560260" n="a-524220">drénam</w>
+                  <c> </c>
+                  <w xml:id="elcct_II-560270" n="a-524230">tim</w>
+                  <c> </c>
+                  <pc xml:id="elcct_II-560280" n="a-524240">“</pc>
+                  <pc xml:id="elcct_II-560290" n="a-524250">:</pc>
+               </l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
