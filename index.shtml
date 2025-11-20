@@ -76,7 +76,7 @@
                   <ul style="padding:5px;">
                   <li><a href="/texts/">Texts</a>
                     <ul>
-                            <li><a href="/texts/poems.shtml">Poems</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=com" --> notes and glosses)
+                            <li><a href="/texts/poems.shtml">Poems</a> (<!--#include virtual="/cgi-bin/ssi_glance.cgi?part=com" --> notes/queries)
                               <ul>
                             <li><a href="/texts/poems/elcc">"Elegy
                                     Written in a Country Churchyard"</a>  (also on <a href="https://www.eighteenthcenturypoetry.org/works/tgaen-welcc.shtml" target="_blank" class="external" title="Eighteenth-Century Poetry Archive">ECPA</a>)</li>
@@ -176,7 +176,7 @@
             search="#ThomasGrayArchive"
             mode="light"
             limit="10"
-            load-more="true"
+            load-more="false"
         custom-styles="section.light { max-height:585px; overflow: scroll;}
         section.light a {color: #8C001A;}"
         >
