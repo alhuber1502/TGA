@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0104"
+             identifier="grayt.ead.0001-letters.0104">grayt.ead.0001-letters.0104</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0104#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.walpole_horace</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Walpole, Horace, 1717-1797"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/17231985">Correspondence with Walpole, Horace</persname>
+                  </unittitle>
+                  <unitdate normal="1734/1771">1734-1771</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="fre">French</language>, <language encodinganalog="546" langcode="grc">Greek</language>, <language encodinganalog="546" langcode="lat">Latin</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>142 letters (129 from Gray, 13 to Gray), dated between 1734 and 1771.</p>
+                  <p>See also: letter <ref target="letters.0075">tgal0075</ref> (with Ashton, Thomas)</p>
+                  <p>See also: letter <ref target="letters.0097">tgal0097</ref> (with Ashton, Thomas)</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0104">
+                  <did>
+                     <unitid type="TGA">letters.0104</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> and <persname role="crp" normal="Walpole, Horace, 1717-1797">Walpole, Horace</persname> to <persname role="rcp" normal="West, Richard, 1716-1742">West, Richard</persname>
+                     </unittitle>
+                     <unitdate normal="17400731">31 July 1740</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is unlocated, a copy, transcription, or published version survives</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=92">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 92, vol. i, 170-173</extref>
+                     </bibref>
+                     <bibref title="WaH_1798">
+                        <emph render="italic">Works of Horatio Walpole, Earl of Orford</emph>, 5 vols. (1798), vol. iv, 450-452</bibref>
+                     <bibref title="TyP_1915">
+                        <extref href="/texts/diglib/primary/TyP_1915i/1/324">
+                           <emph render="italic">Correspondence</emph> (1915), letter no. 125, vol. i, 324-328</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900i/1/78">
+                           <emph render="italic">Letters</emph> (1900-12), postscript, letter no. XLIII, vol. i, 78-79</extref>
+                     </bibref>
+                     <bibref title="ToD_1890">
+                        <extref href="/texts/diglib/primary/ToD_1890/1/150">
+                           <emph render="italic">Gray and his Friends</emph> (1890), section II, letter fragment, 150</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/106">
+                           <emph render="italic">Works</emph> (1816), section II, letter XXVIII, vol. ii, 106-108</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843ii/2/127">
+                           <emph render="italic">Works</emph> (1835-1843), section II, letter XXVIII, vol. ii, 127-130</extref>
+                     </bibref>
+                     <bibref title="L/L_1948">
+                        <extref href="https://libsvcs-1.its.yale.edu/hwcorrespondence/page.asp?vol=13&amp;page=225">
+                           <emph render="italic">Walpole's Correspondence</emph> (1948), vol. i, 225-229</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "I have advised with the most notable antiquarians of this city". Sent from <geogname normal="Florence (Firenze province, Tuscany, Italy), inhabited place [7000457]"
+                                  source="tgn">Florence</geogname>. Dateline: "July 31, 1740. N.S.". Address: "Florence".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Montagu, Lady Mary Wortley</persname>
+                     <persname role="subject">Catullus</persname>
+                     <geogname>Porto-Bello</geogname>
+                     <geogname>Florence</geogname>
+                     <geogname>Cartagena</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0104" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -304,6 +304,15 @@ display: none;
     outline: none;
 }
 
+a:focus-visible {
+    outline: 2px solid #8C001A;
+}
+
+/* Hide the outline for mouse/touch clicks */
+a:focus:not(:focus-visible) {
+    outline: none;
+}
+
 #thumbnails a.active img, .thumbs a:hover img {
     border: 1px solid;
 }
@@ -349,6 +358,9 @@ display: none;
 }
 .listBibl li ul {
     margin-left:-15px;
+}
+.listBibl li {
+    padding-bottom: 5px;
 }
 .lacunae > ol {
     columns:2;

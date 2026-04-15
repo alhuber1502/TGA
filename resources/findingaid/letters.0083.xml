@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0083"
+             identifier="grayt.ead.0001-letters.0083">grayt.ead.0001-letters.0083</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0083#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.gray_mrs</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Gray, Mrs. (Dorothy), 1685-1753">Correspondence with Gray, Mrs. (Dorothy)</persname>
+                  </unittitle>
+                  <unitdate normal="1739/1749">1739-1749</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>12 letters (12 from Gray), dated between 1739 and 1749.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0083">
+                  <did>
+                     <unitid type="TGA">letters.0083</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Gray, Mrs. (Dorothy), 1685-1753">Gray, Mrs. (Dorothy)</persname>
+                     </unittitle>
+                     <unitdate normal="17391107">[7 November 1739]</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is unlocated, a copy, transcription, or published version survives</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=73">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 73, vol. i, 125-127</extref>
+                     </bibref>
+                     <bibref title="MaW_1775">
+                        <extref href="/texts/diglib/primary/1775/1/63">
+                           <emph render="italic">Memoirs</emph> (1775), letter x, section ii, 63-65</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900i/1/41">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. XXVI, vol. i, 41-43</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/56">
+                           <emph render="italic">Works</emph> (1816), section II, letter X, vol. ii, 56-58</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843ii/2/66">
+                           <emph render="italic">Works</emph> (1835-1843), section II, letter X, vol. ii, 66-69</extref>
+                     </bibref>
+                     <bibref title="SeJ_1819">
+                        <extref href="/texts/diglib/primary/1819/1/57">
+                           <emph render="italic">Letters of Thomas Gray</emph>, 2 vols. (1819), letter XXVIII, vol. i, 57-60</extref>
+                     </bibref>
+                     <bibref title="MaW_1814">
+                        <extref href="/texts/diglib/primary/MaW_1814i/1/189">
+                           <emph render="italic">Works</emph> (1814), section II, letter X, vol. i, 189-191</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "I am this night arrived here, and have just set down to rest me". Sent from <geogname normal="Turin (Torino province, Piedmont, Italy), inhabited place [7005688]"
+                                  source="tgn">[Turin]</geogname>.</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Walpole, Horace, 1717-1797</persname>
+                     <geogname>Turin</geogname>
+                     <geogname>Cenis, Mt.</geogname>
+                     <geogname>Alps</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0083" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0075.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0076.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0077.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

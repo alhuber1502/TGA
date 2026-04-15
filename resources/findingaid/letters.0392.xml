@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0392"
+             identifier="grayt.ead.0001-letters.0392">grayt.ead.0001-letters.0392</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0392#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.anstey_christopher</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Anstey, Christopher, 1724-1805"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/39731521">Correspondence with Anstey, Christopher</persname>
+                  </unittitle>
+                  <unitdate normal="1761">1761-</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>1 letters (1 from Gray), dated between 1761 and 1761.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0392">
+                  <did>
+                     <unitid type="TGA">letters.0392</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Anstey, Christopher, 1724-1805">Anstey, Christopher</persname>
+                     </unittitle>
+                     <unitdate normal="176109" certainty="circa">[September 1761]</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is unlocated, a copy, transcription, or published version survives</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=341">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 341, vol. ii, 748-749</extref>
+                     </bibref>
+                     <bibref title="AnC_1808">
+                        <emph render="italic">The Poetical Works of the late Christopher Anstey, Esq, with some account of the life and writings of the author.</emph> Ed. by John Anstey, Esq. London: T. Cadell and W. Davies, 1808, biographical notice</bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "Every language has its idiom, not only of words and phrases, but of customs".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Walpole, Horace, 1717-1797</persname>
+                     <title type="poem">elcc</title>
+                     <persname role="subject">Virgil</persname>
+                     <persname role="subject">Milton, John</persname>
+                     <persname role="subject">Anstey, Christopher, 1724-1805</persname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0392" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

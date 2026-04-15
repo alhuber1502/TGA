@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0138"
+             identifier="grayt.ead.0001-letters.0138">grayt.ead.0001-letters.0138</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0138#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.wharton_thomas</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Wharton, Thomas, 1717-1794">Correspondence with Wharton, Thomas</persname>
+                  </unittitle>
+                  <unitdate normal="1740/1771">1740-1771</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="fre">French</language>, <language encodinganalog="546" langcode="grc">Greek</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>99 letters (99 from Gray), dated between 1740 and 1771.</p>
+                  <p>See also: letter <ref target="letters.0562">tgal0562</ref> (with Mason, William)</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0138">
+                  <did>
+                     <unitid type="TGA">letters.0138</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Wharton, Thomas, 1717-1794">Wharton, Thomas</persname>
+                     </unittitle>
+                     <unitdate normal="17460810" datechar="Julian">[10 August 1746]</unitdate>
+                     <physdesc>
+                        <physfacet>A.L.S.</physfacet>
+                        <extent>3 pages</extent>
+                        <dimensions>239 mm x 181 mm</dimensions>
+                        <physfacet>envelope</physfacet>
+                     </physdesc>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <physloc label="Identifier:">Egerton MS 2400, ff. 11-12</physloc>
+                     <physloc label="Collection:">Manuscripts collection</physloc>
+                     <repository>BLUK</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant and usually available for academic research purposes</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=120">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 120, vol. i, 232-239</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900i/1/129">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. LXVI, vol. i, 129-136</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/151">
+                           <emph render="italic">Works</emph> (1816), section IV, letter VI, vol. ii, 151-156</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843iii/1/1">
+                           <emph render="italic">Works</emph> (1835-1843), section IV, letter IX, vol. iii, 1-8</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "I am just returned hither from Town, where I have past better". Sent from <geogname normal="Stoke Poges (Buckinghamshire, England, United Kingdom), inhabited place [7011896]"
+                                  source="tgn">Stoke Poges</geogname>. to Cambridge. Julian calendar. Dateline: "Sunday". Address: "Stoke". Envelope (front): "[To] / [Th]omas Wharton Esq, / Fellow of [Pem]broke Hall / Cambridge" Postmark: "13 AV".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Brown, James, 1709-1784</persname>
+                     <persname role="subject">Stonhewer, Richard, 1728-1809</persname>
+                     <persname role="subject">Walpole, Horace, 1717-1797</persname>
+                     <persname role="subject">Walpole, Horace, 1717-1797</persname>
+                     <geogname>Windsor</geogname>
+                     <geogname>Vauxhall Gardens</geogname>
+                     <geogname>Richmond (Surrey)</geogname>
+                     <geogname>London</geogname>
+                     <geogname>Hampton Court</geogname>
+                     <geogname>Cambridge</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0138" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0163.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0164.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0165.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0166.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0167.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0168.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0169.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+                  <dao href="/images/diglib/primary/ToD_1900i/0170.PNG" show="showother">
+                     <daodesc>
+                        <p>Digital facsimile from ToD_1900</p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

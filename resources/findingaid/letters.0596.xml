@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0596"
+             identifier="grayt.ead.0001-letters.0596">grayt.ead.0001-letters.0596</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0596#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.warton_thomas</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Warton, Thomas, 1728-1790"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/44371601">Correspondence with Warton, Thomas</persname>
+                  </unittitle>
+                  <unitdate normal="1770">1770-</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>2 letters (1 from Gray, 1 to Gray), dated between 1770 and 1770.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0596">
+                  <did>
+                     <unitid type="TGA">letters.0596</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Warton, Thomas, 1728-1790">Warton, Thomas</persname>
+                     </unittitle>
+                     <unitdate normal="17700415">15 April 1770</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is unlocated, a copy, transcription, or published version survives</p>
+                  </accessrestrict>
+                  <altformavail>
+                     <p>a copy of the letter is in Add. MSS 42560, ff. 219-220, Manuscripts collection, British Library, London, UK</p>
+                  </altformavail>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=518">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 518, vol. iii, 1122-1125</extref>
+                     </bibref>
+                     <bibref title="Gen_1783">
+                        <emph render="italic">Gentleman's Magazine</emph>, Feb. 1783, vol. liii, 100</bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816i/1/lxxxviii">
+                           <emph render="italic">Works</emph> (1816), appendix D., vol. i, lxxxviii-xc</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900iii/1/276">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. CCCLXII, vol. iii, 276-279</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "Our Friend Dr. Hurd having long ago desired me in your name to communicate". Sent from <geogname normal="Cambridge (Cambridgeshire, England, United Kingdom), inhabited place [7010874]"
+                                  source="tgn">Cambridge</geogname>. Dateline: "15 April. 1770". Address: "Pembroke Hall".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Hurd, Richard, 1720-1808</persname>
+                     <persname role="subject">Mason, William, 1724-1797</persname>
+                     <persname role="subject">Warton, Thomas, 1728-1790</persname>
+                     <persname role="subject">Pope, Alexander</persname>
+                     <persname role="subject">Hurd, Dr. Richard</persname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0596" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

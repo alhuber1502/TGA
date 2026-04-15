@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0020"
+             identifier="grayt.ead.0001-letters.0020">grayt.ead.0001-letters.0020</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0020#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.west_richard</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="West, Richard, 1716-1742"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/143039">Correspondence with West, Richard</persname>
+                  </unittitle>
+                  <unitdate normal="1735/1742">1735-1742</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="fre">French</language>, <language encodinganalog="546" langcode="grc">Greek</language>, <language encodinganalog="546" langcode="lat">Latin</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>44 letters (27 from Gray, 17 to Gray), dated between 1735 and 1742.</p>
+                  <p>See also: letter <ref target="letters.0079">tgal0079</ref> (with Walpole, Horace)</p>
+                  <p>See also: letter <ref target="letters.0095">tgal0095</ref> (with Walpole, Horace)</p>
+                  <p>See also: letter <ref target="letters.0104">tgal0104</ref> (with Walpole, Horace)</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0020">
+                  <did>
+                     <unitid type="TGA">letters.0020</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="West, Richard, 1716-1742">West, Richard</persname>
+                     </unittitle>
+                     <unitdate normal="17351220" certainty="circa" datechar="Julian">[20 December 1735]</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is unlocated, a copy, transcription, or published version survives</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=19">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 19, vol. i, 34-35</extref>
+                     </bibref>
+                     <bibref title="MaW_1775">
+                        <extref href="/texts/diglib/primary/1775/1/7">
+                           <emph render="italic">Memoirs</emph> (1775), letter ii, section i, 7-8</extref>
+                     </bibref>
+                     <bibref title="TyP_1915">
+                        <extref href="/texts/diglib/primary/TyP_1915i/1/52">
+                           <emph render="italic">Correspondence</emph> (1915), letter no. 21, vol. i, 52-53</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900i/1/1">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. I, vol. i, 1</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/2">
+                           <emph render="italic">Works</emph> (1816), section I, letter II, vol. ii, 2-4</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843ii/2/2">
+                           <emph render="italic">Works</emph> (1835-1843), section I, letter II, vol. ii, 2-4</extref>
+                     </bibref>
+                     <bibref title="SeJ_1819">
+                        <extref href="/texts/diglib/primary/1819/1/6">
+                           <emph render="italic">Letters of Thomas Gray</emph>, 2 vols. (1819), letter II, vol. i, 6-8</extref>
+                     </bibref>
+                     <bibref title="MaW_1814">
+                        <extref href="/texts/diglib/primary/MaW_1814i/1/138">
+                           <emph render="italic">Works</emph> (1814), section I, letter II, vol. i, 138-140</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "Permit me again to write to you, though I have so long neglected". Sent from <geogname normal="Cambridge (Cambridgeshire, England, United Kingdom), inhabited place [7010874]"
+                                  source="tgn">[Cambridge]</geogname>. Julian calendar.</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Burnet, Gilbert</persname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0020" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0157"
+             identifier="grayt.ead.0001-letters.0157">grayt.ead.0001-letters.0157</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0157#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.walpole_horace</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Walpole, Horace, 1717-1797"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/17231985">Correspondence with Walpole, Horace</persname>
+                  </unittitle>
+                  <unitdate normal="1734/1771">1734-1771</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="fre">French</language>, <language encodinganalog="546" langcode="grc">Greek</language>, <language encodinganalog="546" langcode="lat">Latin</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>142 letters (129 from Gray, 13 to Gray), dated between 1734 and 1771.</p>
+                  <p>See also: letter <ref target="letters.0075">tgal0075</ref> (with Ashton, Thomas)</p>
+                  <p>See also: letter <ref target="letters.0097">tgal0097</ref> (with Ashton, Thomas)</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0157">
+                  <did>
+                     <unitid type="TGA">letters.0157</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Walpole, Horace, 1717-1797">Walpole, Horace</persname>
+                     </unittitle>
+                     <unitdate normal="17470615" certainty="circa" datechar="Julian">[15 June 1747]</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is unlocated, a copy, transcription, or published version survives</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=139">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 139, vol. i, 282-286</extref>
+                     </bibref>
+                     <bibref title="TyP_1915">
+                        <extref href="/texts/diglib/primary/TyP_1915ii/1/79">
+                           <emph render="italic">Correspondence</emph> (1915), letter no. 164, vol. ii, 79-84</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900iii/1/323">
+                           <emph render="italic">Letters</emph> (1900-12), appendix I, vol. iii, 323-325</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843v/1/217">
+                           <emph render="italic">Works</emph> (1835-1843), vol. v, 217-221</extref>
+                     </bibref>
+                     <bibref title="L/L_1948">
+                        <extref href="https://libsvcs-1.its.yale.edu/hwcorrespondence/page.asp?vol=14&amp;page=26">
+                           <emph render="italic">Walpole's Correspondence</emph> (1948), vol. ii, 26-30</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "When I received the testimonial of so many considerable personages". Sent from <geogname normal="Cambridge (Cambridgeshire, England, United Kingdom), inhabited place [7010874]"
+                                  source="tgn">[Cambridge]</geogname>. Julian calendar.</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Chute, John, 1701-1776</persname>
+                     <title type="poem">chcc</title>
+                     <title type="poem">odec</title>
+                     <persname role="subject">
+                        <emph render="italic">Pugna Porcorum</emph>
+                     </persname>
+                     <persname role="subject">Philips, John</persname>
+                     <persname role="subject">Marivaux</persname>
+                     <persname role="subject">Golding</persname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0157" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

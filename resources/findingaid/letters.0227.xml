@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0227"
+             identifier="grayt.ead.0001-letters.0227">grayt.ead.0001-letters.0227</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0227#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.wharton_thomas</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Wharton, Thomas, 1717-1794">Correspondence with Wharton, Thomas</persname>
+                  </unittitle>
+                  <unitdate normal="1740/1771">1740-1771</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="fre">French</language>, <language encodinganalog="546" langcode="grc">Greek</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>99 letters (99 from Gray), dated between 1740 and 1771.</p>
+                  <p>See also: letter <ref target="letters.0562">tgal0562</ref> (with Mason, William)</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0227">
+                  <did>
+                     <unitid type="TGA">letters.0227</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Wharton, Thomas, 1717-1794">Wharton, Thomas</persname>
+                     </unittitle>
+                     <unitdate normal="17550309">9 March 1755</unitdate>
+                     <physdesc>
+                        <physfacet>A.L.S.</physfacet>
+                        <extent>2 pages</extent>
+                        <dimensions>204 mm x 162 mm</dimensions>
+                     </physdesc>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <physloc label="Identifier:">Egerton MS 2400, ff. 69-70</physloc>
+                     <physloc label="Collection:">Manuscripts collection</physloc>
+                     <repository>BLUK</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant and usually available for academic research purposes</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=196">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 196, vol. i, 420-422</extref>
+                     </bibref>
+                     <bibref title="MaW_1775">
+                        <extref href="/texts/diglib/primary/1775/1/232">
+                           <emph render="italic">Memoirs</emph> (1775), letter xx, section iv, 232-233</extref>
+                     </bibref>
+                     <bibref title="NoC_1911">
+                        <extref href="/texts/diglib/primary/NoC_1911/1/177">
+                           <emph render="italic">Essays and Criticisms by Thomas Gray</emph> (1911), letter excerpt, 177-178</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900i/1/261">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. CXVIII, vol. i, 261-262</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/253">
+                           <emph render="italic">Works</emph> (1816), section IV, letter XLVI, vol. ii, 253-255</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843iii/1/128">
+                           <emph render="italic">Works</emph> (1835-1843), section IV, letter LIII, vol. iii, 128-130</extref>
+                     </bibref>
+                     <bibref title="SeJ_1819">
+                        <extref href="/texts/diglib/primary/1819/2/5">
+                           <emph render="italic">Letters of Thomas Gray</emph>, 2 vols. (1819), letter LXXXVIII, vol. ii, 5-6</extref>
+                     </bibref>
+                     <bibref title="MaW_1814">
+                        <extref href="/texts/diglib/primary/MaW_1814i/1/342">
+                           <emph render="italic">Works</emph> (1814), section IV, letter XX, vol. i, 342-343</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "According to my reckoning M<emph render="super">rs</emph> Wh: should have been brought to bed". Sent from <geogname normal="Cambridge (Cambridgeshire, England, United Kingdom), inhabited place [7010874]"
+                                  source="tgn">Cambridge</geogname>. Dateline: "March, 9. 1755". Address: "Camb:<emph render="super">ge</emph>".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Dodsley, Robert, 1703-1764</persname>
+                     <persname role="subject">Gray, Philip, 1676-1741</persname>
+                     <persname role="subject">Stonhewer, Richard, 1728-1809</persname>
+                     <persname role="subject">Pindar</persname>
+                     <geogname>Wanstead, Gray's house at</geogname>
+                     <geogname>London</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0227" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0064"
+             identifier="grayt.ead.0001-letters.0064">grayt.ead.0001-letters.0064</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0064#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.west_richard</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="West, Richard, 1716-1742"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/143039">Correspondence with West, Richard</persname>
+                  </unittitle>
+                  <unitdate normal="1735/1742">1735-1742</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="fre">French</language>, <language encodinganalog="546" langcode="grc">Greek</language>, <language encodinganalog="546" langcode="lat">Latin</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>44 letters (27 from Gray, 17 to Gray), dated between 1735 and 1742.</p>
+                  <p>See also: letter <ref target="letters.0079">tgal0079</ref> (with Walpole, Horace)</p>
+                  <p>See also: letter <ref target="letters.0095">tgal0095</ref> (with Walpole, Horace)</p>
+                  <p>See also: letter <ref target="letters.0104">tgal0104</ref> (with Walpole, Horace)</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0064">
+                  <did>
+                     <unitid type="TGA">letters.0064</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="West, Richard, 1716-1742">West, Richard</persname>
+                     </unittitle>
+                     <unitdate normal="173812" datechar="Julian">[December 1738]</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="lat">Latin</language>
+                     </langmaterial>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is unlocated, a copy, transcription, or published version survives</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=58*">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 58*, vol. i, 93-94</extref>
+                     </bibref>
+                     <bibref title="TyP_1915">
+                        <extref href="/texts/diglib/primary/TyP_1915ii/1/17">
+                           <emph render="italic">Correspondence</emph> (1915), letter no. 139, vol. ii, 17-19</extref>
+                     </bibref>
+                     <bibref title="ToD_1890">
+                        <extref href="/texts/diglib/primary/ToD_1890/1/154">
+                           <emph render="italic">Gray and his Friends</emph> (1890), section II, letter no. 34, 154-155</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900i/1/93">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. L, vol. i, 93-94</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "As I know you are a lover of Curiosities, I send you the following". Sent from <geogname normal="London (Greater London, England, United Kingdom), inhabited place [7011781]"
+                                  source="tgn">[London]</geogname>. Julian calendar.</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Virgil</persname>
+                     <persname role="subject">
+                        <emph render="italic">'Vade Mecum'</emph>
+                     </persname>
+                     <persname role="subject">Swift, Jonathan</persname>
+                     <persname role="subject">Strabo</persname>
+                     <persname role="subject">Sévigné, Mme de</persname>
+                     <persname role="subject">Ray, John</persname>
+                     <persname role="subject">Ovid</persname>
+                     <persname role="subject">More, Henry</persname>
+                     <persname role="subject">Malebranche, Nicholas</persname>
+                     <persname role="subject">Locke, John</persname>
+                     <persname role="subject">Gronovius</persname>
+                     <persname role="subject">Euclid</persname>
+                     <persname role="subject">Cheyne, George</persname>
+                     <persname role="subject">Catullus</persname>
+                     <persname role="subject">Bussy, Comte de</persname>
+                     <persname role="subject">Boileau</persname>
+                     <persname role="subject">Aristotle</persname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0064" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

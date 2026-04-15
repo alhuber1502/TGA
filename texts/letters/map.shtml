@@ -1,0 +1,760 @@
+<!--#config timefmt="%d %b %Y" -->
+<!--#set var="title" value="Texts : Letters : Correspondence Map" -->
+<!--#set var="youarehere" value="<li><a href=\"/\" class=\"breadcrumb\">Home</a></li><li><a href=\"/texts/\" class=\"breadcrumb\">Texts</a></li><li><a href=\"/texts/letters.shtml\" class=\"breadcrumb\">Letters</a></li><li>Correspondence Map</li>" -->
+<!--#set var="bodyid" value="texts"  -->
+<!--#set var="texts" value="active" -->
+<!--#include virtual="/top.shtml" -->
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+<!-- Leaflet.js -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  crossorigin="anonymous"/>
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+<link rel="stylesheet" href="/_js/leaflet-sidebar-v2-master/css/leaflet-sidebar.min.css">
+<script src="/_js/leaflet-sidebar-v2-master/js/leaflet-sidebar.min.js"></script>
+<!-- Leaflet Hash plugin for URL hash syncing -->
+<script src="https://unpkg.com/leaflet-hash@0.2.1/leaflet-hash.js"></script>
+<!-- Leaflet Geodesic plugin for great circle lines -->
+<script src="https://unpkg.com/leaflet.geodesic@2.7.0/dist/leaflet.geodesic.umd.min.js"></script>
+
+    <div id="sidebar" class="leaflet-sidebar collapsed">
+
+      <!-- nav tabs -->
+      <div class="leaflet-sidebar-tabs">
+          <!-- top aligned tabs -->
+          <ul role="tablist">
+              <li><a href="#home" role="tab"><i class="fa-solid fa-earth-europe"></i><span class="sr-only">Correspondence map</span></a></li>
+
+              <li><a href="#details" role="tab"><i class="fa-solid fa-circle-info"></i><span class="sr-only">Correspondence details</span></a></li>
+          </ul>
+          <!-- bottom aligned tabs -->
+          <!--
+          <ul role="tablist">
+              <li><a href="https://github.com/nickpeihl/leaflet-sidebar-v2"><i class="fab fa-github"></i></a></li>
+          </ul>
+          -->
+      </div>
+
+      <!-- panel content -->
+      <div class="leaflet-sidebar-content">
+          <div class="leaflet-sidebar-pane" id="home">
+              <h1 class="leaflet-sidebar-header">
+                  Correspondence map
+                  <span class="leaflet-sidebar-close"><i class="fa-solid fa-caret-left"></i></span>
+              </h1>
+              <div class="intro">
+                <h2>Introduction</h2>
+                <p>
+                  This map is based on the correspondence metadata available in
+                  the Thomas Gray Archive, displaying author and addressee locations when
+                  known or ascertainable. 
+                </p><p>
+                  Blue circles represent author locations at sending, red
+                  circles indicate addressee locations: the size of the circle
+                  signifies the number of letters sent from or addressed to that
+                  location. 
+                </p><p>
+                  Clicking on a circle will provide further details about the
+                  correspondents and search options. Use the date sliders below
+                  to adjust the window of reference, or choose a correspondent
+                  to zero in on a particular exchange. 
+                </p>  
+              </div>
+              <div class="legend">
+                <h2>Key</h2>
+                <p>
+                <input id="catherine" type="checkbox" class="checkbox" value="catherine" checked> <label for="catherine">Author location</label> <span class="legend-dot map-marker-icon"></span><br>
+                <input id="addressees" type="checkbox" class="checkbox" value="addressee" checked> <label for="addressees">Addressee location</label> <span class="legend-dot map-marker-icon addressee-location"></span>
+                </p>
+              </div>
+              <div style="margin-top:20px;">
+                <h2>Filter by years</h2>
+                <div style="margin-top:10px;" id="slider-range"></div>
+                <div>
+                  <label for="year-range">Date range:</label>
+                  <input type="text" id="year-range" readonly style="border:0;
+                  color:darkred; font-weight:bold;">
+                </div>
+              </div>
+              <div style="margin-top:20px;">
+                <!-- TODO: display correspondents by overall letters addressed to them -->
+                <h2>Filter by correspondent</h2>
+                <div style="margin-top:10px;" id="correspondent"></div>
+                <div>
+                  <!--<label for="addr-select">Addressee:</label>-->
+                  <select id="correspondents">
+                    <option value="all" selected="selected">All correspondents</option>
+                  </select>
+                <!-- <input type="text" id="year-range" readonly style="border:0; color:#0074d9; font-weight:bold;"> -->
+                </div>
+              </div>
+          </div>
+
+          <div class="leaflet-sidebar-pane" id="details">
+              <h1 class="leaflet-sidebar-header">
+                  Correspondence details
+                  <span class="leaflet-sidebar-close"><i class="fa-solid fa-caret-left"></i></span>
+              </h1>
+              <div class="results"></div>
+          </div>
+      </div>
+      
+    </div>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+            
+          <section id="main">
+          <style>
+            .map {
+              height: calc(100vh - 80px);
+              width: 100%;
+            }
+            .links line {
+              stroke: #999;
+              stroke-opacity: 0.6;
+              width:0.5px;
+            }			
+            .nodes circle {
+              stroke: #fff;
+              stroke-width: 1.5px;
+            }
+            text {
+              font-family: sans-serif;
+              font-size: 10px;
+            }
+            
+            #key, #filter, #filter div {
+              display:inline-block;
+              font-size:16px;
+              position: relative;
+              border-bottom-right-radius: 3px;
+              border-bottom-left-radius: 3px;
+              border-top-right-radius: 3px;
+              border-top-left-radius: 3px;
+              height: 14px;
+            }
+            #key {
+              margin-top:-2px;
+            }
+            #filter {
+              margin-top: 2px;
+            }
+            .legend-dot {
+                height: 11px;
+                width: 11px;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            .map-marker-icon {
+                background: darkblue;
+                border-color: #ccc;
+                border-radius: 50%;
+                border-style: solid;
+                border-width: 1px;
+            }
+            .map-marker-icon.addressee {
+                background: darkorange;
+                border-color: #ccc;
+            }
+            
+            #slider-range {
+              width: 250px;
+              margin: 0 10px;
+              color:#79211F;
+              height:10px;
+            }
+            #year-range {
+              width: 80px;
+              max-width: 75px;
+            }
+            .ui-widget.ui-widget-content {
+              border: 1px solid #c5c5c5;
+              top: 2px;
+            }
+            
+            .ui-slider-horizontal .ui-slider-range {
+                top: 0px;
+            }
+            .ui-slider .ui-slider-range {
+                position: relative;
+                z-index: 1;
+                font-size: .7em;
+                display: block;
+                border: 0;
+                background-position: 0 0;
+                background: #e9e9e9;
+            }
+            .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+                border: 1px solid #c5c5c5;
+                background: #f6f6f6;
+                font-weight: normal;
+                color: #454545;
+            }
+            .ui-slider-horizontal .ui-slider-handle {
+                top: -0.3em;
+                margin-left: -0.6em;
+            }
+            
+            .ui-slider .ui-slider-handle {
+                position: relative;
+                display: inline-block;
+                z-index: 2;
+                width: 1.2em;
+                height: 1.2em;
+                cursor: default;
+                -ms-touch-action: none;
+                touch-action: none;
+                border-bottom-right-radius: 3px;
+                border-bottom-left-radius: 3px;
+                border-top-right-radius: 3px;
+                border-top-left-radius: 3px;
+                top: -4px;
+                margin-left: -0.6em;
+            }
+            
+            .ui-widget-header {
+                border: 1px solid #ddd;
+                background: #e9e9e9;
+                color: #333;
+                font-weight: bold;
+            }
+            .leaflet-sidebar {
+              width:350px;
+            }
+            .leaflet-verticalcenter.leaflet-right {
+              top:45%;
+              position: absolute
+            }
+            .leaflet-sidebar-pane {
+              min-width: unset;
+            }
+            .leaflet-sidebar-pane h2 {
+              font-size: 1.6em;
+            }
+            .map-line {
+              stroke-width: .75px;
+              stroke: #333;
+            }
+            #correspondents {
+              max-width: 270px;
+            }
+            .leaflet-sidebar-tabs {
+              background-color: #eee !important;
+            }
+            .leaflet-sidebar-tabs ul li.active i {
+              color: white;
+            }
+            .leaflet-sidebar-tabs i {
+              font-size: 20px;
+              margin-left: -2px;
+            }
+            .leaflet-sidebar-tabs>li>a, .leaflet-sidebar-tabs>ul>li>a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                line-height: 40px;
+                color: inherit !important;
+                text-decoration: none;
+                text-align: center;
+                cursor: pointer;
+            }
+            .leaflet-sidebar-header {
+                margin: -10px -20px 0;
+                height: 40px;
+                padding: 5px 20px;
+                line-height: 40px;
+                font-size: 14.4pt;
+                color: #fff;
+                background-color: #88291a;
+                font-size:1.8em !important;
+            }
+            .leaflet-sidebar-tabs>li.active, .leaflet-sidebar-tabs>ul>li.active {
+                background-color: rgb(123 30 9) !important;
+            }
+            .leaflet-sidebar-close {
+              top: unset;
+            }
+            .map-marker-icon {
+                background: #484B70;
+                border-color: darkblue;
+                border-radius: 50%;
+                border-style: solid;
+                border-width: 1px;
+                opacity: 0.4;
+            }
+            .map-marker-icon.addressee-location {
+                background: #9F3432;
+                border-color: darkred;
+            }
+            .leaflet-touch .leaflet-bar a {
+                color: inherit !important;
+            }
+            input[type=checkbox], input[type=radio] {
+                display: inline-block;
+            }
+            .leaflet-container {
+              font-size: 14px;
+            }
+            .leaflet-container .leaflet-control-attribution,
+            .leaflet-container .leaflet-control-layers-list {
+              font-size: 12px;
+            }
+            .results h2 {
+              font-size: 1.4em;
+            }
+            .results h3 {
+              font-size: 1.2em;
+            }
+            .leaflet-container a {
+              color: #8C001A;
+            }
+            .results li {
+              margin-bottom: 0px !important;
+            }
+            </style>
+            <div class="map" id="map"></div>
+
+          </section> <!-- end main section -->
+
+        </div>
+      </div>
+    </div>
+
+<script>
+
+  var citation = "";
+  citation += "Huber, Alexander. ";
+  var citlink = 'https:\/\/<!--#echo var="HTTP_HOST" --><!--#echo var="DOCUMENT_URI" -->';
+  citation += '\"Correspondence Map\". ';
+  citation +='<em>Thomas Gray Archive</em>, '+
+    '<!--#flastmod virtual="/texts/letters/map.shtml" -->'+
+    '. Web. <!--#echo var="DATE_LOCAL" -->. &lt;<a href="'+citlink+'">'+citlink+'</a>&gt;';
+
+
+  /* map layers */
+  var baseMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    noWrap: true
+  });
+  var overlayMap = L.tileLayer('europe1821/{z}/{x}/{y}.png', {
+    attribution: '&copy; David Rumsey map collection',
+    maxZoom: 7
+  });
+
+  /* map */
+  var map = new L.Map('map', {
+    'center': [0, 0],
+    'minZoom': 3,
+    'maxZoom': 11,
+    'tap': false,
+    'maxBounds': [
+      [90,-180],
+      [-90, 180]
+    ],
+    'layers': [
+      baseMap//,overlayMap
+    ]
+  }).setView([50.506376,-3], 5);
+
+  /* hash plugin for URL syncing */
+  var hash = new L.Hash(map);
+
+  /* visualization layers */
+  var markerLayer = L.layerGroup().addTo( map );
+  var lineLayer = L.layerGroup().addTo( map );
+
+  /* main */
+  var startyr, endyr, years, addressees, catherine, correspondents;
+  var people = {}, places = {}, md;
+
+  // initialize
+  var loadPeople = function() {
+    return jq.ajax({ url: "/data/graypeo_md.json", dataType: 'json',
+      success: function(data) {
+        jq.each( data, function(i,v) {
+        people[ v.id ] = {};
+        people[ v.id ].id = v.id;
+        people[ v.id ].name = v.name;
+      });
+      }, error: function (jqXHR, textStatus, errorThrown) { console.log(jqXHR, textStatus, errorThrown); }
+    });
+  }
+  var loadPlaces = function() {
+    return jq.ajax({ url: "/data/graypla_md.json", dataType: 'json',
+      success: function(data) { 
+        jq.each( data, function(i,v) {
+        places[ v.id ] = {};
+        places[ v.id ].id = v.id;
+        places[ v.id ].name = v.name;
+        places[ v.id ].short = v.short;
+        places[ v.id ].lat = v.lat;
+        places[ v.id ].lon = v.lon;
+      });
+      }, error: function (jqXHR, textStatus, errorThrown) { console.log(jqXHR, textStatus, errorThrown); }
+    });
+  }
+  var loadMetadata = function() {
+    return jq.ajax({ url: "/data/gray_md.json", dataType: 'json',
+      success: function(data) { 
+        md = data;
+      }, error: function (jqXHR, textStatus, errorThrown) { console.log(jqXHR, textStatus, errorThrown); }
+    });
+  }
+
+  jq.when( loadPlaces(), loadPeople(), loadMetadata() ).done( function() {
+    // load data and create subsets by year, letter-writer, and addressees
+    years = _.omit( _.groupBy( md, function( record ) {
+      return record.yr.substring(0,4);
+    }), [""]);
+    // get starting and end years
+    startyr = Object.keys( years )[0];
+    endyr = Object.keys( years )[ Object.keys( years ).length-1 ];
+    addressees = _.omit( _.groupBy( md, function( record ) {
+      return record.ad_pl;
+    }), [""] );
+    // Get all unique correspondents (both authors and addressees)
+    // Extract individual person IDs from space-separated au and ad fields
+    var allCorrespondents = [];
+    _.each( md, function( record ) {
+      if ( record.au ) {
+        _.each( record.au.split(" "), function( id ) {
+          if ( id && id !== "" ) allCorrespondents.push( id );
+        });
+      }
+      if ( record.ad ) {
+        _.each( record.ad.split(" "), function( id ) {
+          if ( id && id !== "" ) allCorrespondents.push( id );
+        });
+      }
+    });
+    correspondents = _.uniq( allCorrespondents ).sort();
+    catherine = _.omit( _.groupBy( md, function( record ) {
+      return record.au_pl;
+    }), [""] );
+
+    // start with whole network
+    showYrRange( startyr, endyr );
+    jq( "#slider-range" ).slider({
+      range: true,
+      min: parseInt(startyr),
+      max: parseInt(endyr),
+      values: [ parseInt(startyr),parseInt(endyr) ],
+      slide: function( event, ui ) {
+        jq( "#year-range" ).val( ui.values[ 0 ] + "–" + ui.values[ 1 ] );
+        showYrRange( ui.values[ 0 ],ui.values[ 1 ] );
+      }
+    });
+    jq( "#year-range" ).val( jq( "#slider-range" ).slider( "values", 0 ) +
+        "–" + jq( "#slider-range" ).slider( "values", 1 ) );
+    var corrs = ``;
+    jq.each( correspondents.sort() , function(i,e) {
+      var name = ''
+      jq.each( e.split(','), function(i2,v2) {
+        if ( v2.includes('#') ) { v2 = v2.substring(v2.indexOf('#')+1); }
+        name += people[ v2 ].name;
+        if ( (i2 + 1) != (e.split(',').length)) {
+          name += '/';
+        }
+      });
+      e = jQuery.map( e.split(','), function( n, i ) {
+        return ( n.replace(/orgs\.xml#/, '') );
+      });
+      corrs += `<option value="`+e+`">`+truncateString(name,48);
+      corrs += `</option>`;
+    });
+    jq("select#correspondents").append( corrs );
+    jq("select#correspondents").change(function() {
+      showYrRange( startyr, endyr );
+    });
+  });
+
+  /* controls */
+
+  L.control.layers( {"Base map": baseMap }, { "Historical map": overlayMap } ).addTo(map);
+  // Create additional Control placeholders
+  function addControlPlaceholders(map) {
+    var corners = map._controlCorners,
+      l = 'leaflet-',
+      container = map._controlContainer;
+    function createCorner(vSide, hSide) {
+      var className = l + vSide + ' ' + l + hSide;
+      corners[vSide + hSide] = L.DomUtil.create('div', className, container);
+    }
+    createCorner('verticalcenter', 'left');
+    createCorner('verticalcenter', 'right');
+  }
+  addControlPlaceholders(map);
+  // Change the position of the Zoom Control to a newly created placeholder.
+  map.zoomControl.setPosition('verticalcenterright');
+  // "Center" map in a good starting position and add reset button next to zoom
+  L.easyButton( '<i class="fa-solid fa-rotate-left"></i>', function(){
+    map.setView([50.506376,-3], 5);
+  }).setPosition('verticalcenterright').addTo( map );
+  jq( ".reset_map" ).trigger( 'click' );
+  var sidebar = L.control.sidebar({
+    autopan: false,       // whether to maintain the centered map point when opening the sidebar
+    closeButton: true,    // whether to add a close button to the panes
+    container: 'sidebar', // the DOM container or #ID of a predefined sidebar container that should be used
+    position: 'left',     // left or right
+  }).addTo(map);
+  sidebar.open( 'home' );
+
+  sidebar.on('content', function(e) {
+    if ( e.id == "home" ) {
+
+    } else if ( e.id == "time" ) {
+
+    }
+  })
+
+  function radiusFromCount (count) {
+    //get a radius in pixels for a marker, based on a count                                            
+    //return Math.floor(Math.pow(count, 0.6)) * 8;
+    return Math.floor(Math.pow(count, 0.4)) * 6;
+    //return parseInt(count/8)+6; //linear
+  }
+
+  function showYrRange( start, end ) {
+    startyr = start;
+    endyr = end;
+    markerLayer.clearLayers();
+    lineLayer.clearLayers();
+    var from_markers = [], to_markers = [], links = [];
+    // addressees
+    jq.each( _.sortBy( addressees, 'length' ), function( i,v ) {
+      if ( v[0].ad_pl == '' || !places[ v[0].ad_pl ]) { return; }
+      var num_let = 0;
+      jq.each( v, function( i2,v2 ) {
+        if ( ( jq("select#correspondents").val() != "all" && jq("select#correspondents").val() != v2.ad.replace(" ",",") && jq("select#correspondents").val() != v2.au.replace(" ",",") )
+          || v2.yr.substring(0,4) < startyr || v2.yr.substring(0,4) > endyr ) { 
+            return; }
+        else num_let++;
+      });
+      if ( num_let > 0 ) {
+        var marker = {};
+        marker["group"] = "addressee";
+        marker["lon"] = places[ v[0].ad_pl ].lon;
+        marker["lat"] = places[ v[0].ad_pl ].lat;
+        marker["name"] = places[ v[0].ad_pl ].short;
+        marker["code"] = places[ v[0].ad_pl ].id;
+        marker["size"] = num_let;
+        to_markers.push( marker );
+      }
+    });
+    // Catherine
+    jq.each( _.sortBy( catherine, 'length' ), function( i,v ) {
+      if ( v[0].au_pl == '' || !places[ v[0].au_pl ]) { return; }      
+      var num_let = 0;
+      jq.each( v, function( i2,v2 ) {
+        if ( ( jq("select#correspondents").val() != "all" && jq("select#correspondents").val() != v2.ad && jq("select#correspondents").val() != v2.au ) || v2.yr.substring(0,4) < startyr || v2.yr.substring(0,4) > endyr ) { return; }
+        else {
+          num_let++;
+          if ( v2.ad_pl && places[ v2.ad_pl ] ) { // both writer's and addressee's locations exist
+            links.push( v2 );
+          }
+        }
+      });
+      if ( num_let > 0 ) {
+        var marker = {};
+        marker["group"] = "catherine";
+        marker["lon"] = places[ v[0].au_pl ].lon;
+        marker["lat"] = places[ v[0].au_pl ].lat;
+        marker["name"] = places[ v[0].au_pl ].short;
+        marker["code"] = places[ v[0].au_pl ].id;
+        marker["size"] = num_let;
+        from_markers.push( marker );
+      }
+    });
+    // plot markers
+    if ( jq( ".legend .checkbox[value='catherine']" ).is( ":checked" ) ) {
+      jq.each( from_markers, function ( i,v ) {
+
+        var icon = L.divIcon({
+          className: 'map-marker-icon catherine',
+          iconAnchor: L.point( radiusFromCount(v["size"]) + 2, radiusFromCount(v["size"]) )
+        });
+        var marker = L.marker([ v["lat"],v["lon"] ], {
+            icon: icon,
+            class: 'from-marker',
+            title: v["name"],
+            zIndexOffset: -radiusFromCount(v["size"])  //put larger markers at the back   
+        })
+        .bindPopup( "<div class='popup'><b>"+v["name"] + 
+          "</b><br><span class='small'><em>"+"Author location</em></span><br><span>"+
+            v["size"]+((v["size"] > 1)?" letters ":" letter ")+"sent from this location.</span></div>" )
+        .addTo( markerLayer );
+        var $marker = jq(marker._icon);
+        $marker.css('width', 2*radiusFromCount(v["size"]) + 'px');
+        $marker.css('height', 2*radiusFromCount(v["size"]) + 'px');
+
+          $marker.on('click', function (e) {
+            sidebar.open('details');
+            jq( "#details .results" ).html( retrieve_corr( v["code"], start, end, v["group"] ) )
+            if( !jq( e.target ).hasClass('selected')) {
+              //select only this one                                     
+              jq('.map-marker-icon').removeClass('selected')
+              $marker.addClass('selected');
+            } else {
+              //deselect this one                                        
+              $marker.removeClass('selected');
+            }
+          });
+        
+      });
+    }
+    if ( jq( ".legend .checkbox[value='addressee']" ).is( ":checked" ) ) {
+      jq.each( to_markers, function ( i,v ) {
+
+        var icon = L.divIcon({
+          className: 'map-marker-icon addressee-location addressee',
+          iconAnchor: L.point( radiusFromCount(v["size"]) + -2, radiusFromCount(v["size"]) )
+        });
+        var marker = L.marker([ v["lat"],v["lon"] ], {
+            icon: icon,
+            class: 'to-marker',
+            title: v["name"],
+            zIndexOffset: -radiusFromCount(v["size"])  //put larger markers at the back   
+        })
+        .bindPopup( "<div class='popup'><b>"+v["name"] + 
+          "</b><br><span class='small'><em>"+"Addressee location</em></span><br><span>"+
+            v["size"]+((v["size"] > 1)?" letters ":" letter ")+"addressed to this location.</span></div>" )
+        .addTo( markerLayer );
+        var $marker = jq(marker._icon);
+        $marker.css('width', 2*radiusFromCount(v["size"]) + 'px');
+        $marker.css('height', 2*radiusFromCount(v["size"]) + 'px');
+
+          $marker.on('click', function (e) {
+            sidebar.open('details');
+            $( "#details .results" ).html( retrieve_corr( v["code"], start, end, v["group"] ) )
+            if( !$( e.target ).hasClass('selected')) {
+              //select only this one                                     
+              $('.map-marker-icon').removeClass('selected')
+              $marker.addClass('selected');
+            } else {
+              //deselect this one                                        
+              $marker.removeClass('selected');
+            }
+          });
+        
+      });
+    }
+    // plot links
+    if ( $( ".legend .checkbox[value='catherine']" ).is( ":checked" ) && $( ".legend .checkbox[value='addressee']" ).is( ":checked" ) ) {
+      // get only unique pairs of coordinates, using a string for uniqueness test
+      var lines = _.uniq( links, function (coords) {
+        return places[ coords.au_pl ].lat + " " + places[ coords.au_pl ].lon + " " + places[ coords.ad_pl ].lat + " " + places[ coords.ad_pl ].lon;
+      });
+      $.each(lines, function (i,line) {
+        // Validate coordinates exist and are numeric
+        var fromLat = parseFloat(places[ line.au_pl].lat);
+        var fromLon = parseFloat(places[ line.au_pl].lon);
+        var toLat = parseFloat(places[ line.ad_pl].lat);
+        var toLon = parseFloat(places[ line.ad_pl].lon);
+
+        if (!isNaN(fromLat) && !isNaN(fromLon) && !isNaN(toLat) && !isNaN(toLon)) {
+          var l = L.geodesic( [
+            [
+              [fromLat, fromLon],
+              [toLat, toLon]
+            ]
+          ], {
+                  color: 'black',
+                  weight: 1,
+                  steps: 50,
+                  className: 'map-line links'
+          }).addTo( lineLayer )
+        }
+      });
+    }
+
+  }
+
+  function retrieve_corr( loc, start, end, type ) {
+    var corr = ``;
+    var add = _.filter( ((type=="catherine")?catherine:addressees)[ loc ], function(record) { 
+      return parseInt(record.yr.substring(0,4)) <= endyr && parseInt(record.yr.substring(0,4)) >= startyr 
+    });
+    add = _.sortBy( _.groupBy( add, function( record ) { 
+      return record.ad; 
+    }), 'length').reverse();
+    var snd = _.filter( ((type=="catherine")?catherine:addressees)[ loc ], function(record) { 
+      return parseInt(record.yr.substring(0,4)) <= endyr && parseInt(record.yr.substring(0,4)) >= startyr 
+    });
+    snd = _.sortBy( _.groupBy( snd, function( record ) { 
+      return record.au;
+    }), 'length').reverse();
+    corr += "<h2>"+places[loc].short+"</h2><p><em>"+((type=="catherine")?"Author":"Addressee")+" location</em></p>";
+    if ( type!="catherine" ) {
+      corr += "<h3>"+(add.length)+((add.length>1)?" addressees":" addressee")+":</h3><ul>";
+      $.each( add , function( i,v ) {
+        corr += `<li>`, link = '', q = 'q=*:*&fq=';
+        if ( v[0].ad != '' ) {
+          q += ((type=='catherine')?`origin_str:`:`destination_str:`)+`"`+places[loc].short+`"&fq=`;
+          $.each( v[0].ad.split(" "), function( i2,v2 ) {
+            if ( v2.includes('#') ) { v2 = v2.substring(v2.indexOf('#')+1); }
+            q += `addressee_str:"`+people[v2].name+`"`;
+            link += people[v2].name;
+            if ( (i2 + 1) != (v[0].ad.split(" ").length)) {
+                link += ' / ';
+                q += "&fq=";
+            }
+          });
+        } else {
+          link += "[addressee]";
+          q += ((type=='catherine')?`origin_str:`:`destination_str:`)+`"`+places[loc].short+`" AND -ad:*&fq=`+((type=='catherine')?`origin_str:`:`destination_str:`)+`"`+places[loc].short+`"`;
+        }
+        corr += `<a href='/search/results.shtml?`+q+`&fq=genre:letter&facet=on'>`+link+`</a></li>`;
+      });
+      corr += "</ul>";
+    } else {
+      corr += 
+  //    <p><em>"+((type=="catherine")?"Letter-writer":"Addressee")+" location</em></p>
+        "<h3>"+(snd.length)+((snd.length>1)?" letter-writers":" letter-writer")+":</h3><ul>";
+      $.each( snd , function( i,v ) {
+        corr += `<li>`, link = '', q = 'q=*:*&fq=';
+        if ( v[0].au != '' ) {
+          q += ((type=='catherine')?`origin_str:`:`destination_str:`)+`"`+places[loc].short+`"&fq=`;
+          $.each( v[0].au.split(" "), function( i2,v2 ) {
+            if ( v2.includes('#') ) { v2 = v2.substring(v2.indexOf('#')+1); }
+            q += `author_str:"`+people[v2].name+`"`;
+            link += people[v2].name;
+            if ( (i2 + 1) != (v[0].au.split(" ").length)) {
+                link += ' / ';
+                q += "&fq=";
+            }
+          });
+        } else {
+          link += "[letter-writer]";
+          q += ((type=='catherine')?`origin_str:`:`destination_str:`)+`"`+places[loc].short+`" AND -au:*&fq=`+((type=='catherine')?`origin_str:`:`destination_str:`)+`"`+places[loc].short+`"`;
+        }
+        corr += `<a href='/search/results.shtml?`+q+`&fq=genre:letter&facet=on'>`+link+`</a></li>`;
+      });
+      corr += "</ul>";
+    }
+    return corr;
+  }
+
+  $('.legend .checkbox').change(function () {
+      showYrRange( startyr,endyr );
+  });
+
+  // truncate a string
+  function truncateString(str, num) {
+      if ( str ) {
+          if (str.length <= num) {
+                return str;
+              }
+              return str.slice(0, num) + '...';
+      } else return '';
+  }
+
+</script>
+
+<!--#include virtual="/bottom.shtml" -->

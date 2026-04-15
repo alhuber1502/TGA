@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0641"
+             identifier="grayt.ead.0001-letters.0641">grayt.ead.0001-letters.0641</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0641#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.west_richard</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="West, Richard, 1716-1742"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/143039">Correspondence with West, Richard</persname>
+                  </unittitle>
+                  <unitdate normal="1735/1742">1735-1742</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="fre">French</language>, <language encodinganalog="546" langcode="grc">Greek</language>, <language encodinganalog="546" langcode="lat">Latin</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>44 letters (27 from Gray, 17 to Gray), dated between 1735 and 1742.</p>
+                  <p>See also: letter <ref target="letters.0079">tgal0079</ref> (with Walpole, Horace)</p>
+                  <p>See also: letter <ref target="letters.0095">tgal0095</ref> (with Walpole, Horace)</p>
+                  <p>See also: letter <ref target="letters.0104">tgal0104</ref> (with Walpole, Horace)</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0641">
+                  <did>
+                     <unitid type="TGA">letters.0641</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="West, Richard, 1716-1742">West, Richard</persname>
+                     </unittitle>
+                     <unitdate normal="17370522" datechar="Julian">[22 May 1737]</unitdate>
+                     <physdesc>
+                        <physfacet>A.L.S.</physfacet>
+                        <extent>3 pages</extent>
+                        <physfacet type="condition">the margins are damaged</physfacet>
+                        <physfacet>envelope</physfacet>
+                     </physdesc>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <physloc label="Identifier:">Misc. MSS</physloc>
+                     <physloc label="Building:">The Lewis Walpole Library</physloc>
+                     <physloc label="Collection:">Manuscript Collections</physloc>
+                     <repository>YALE</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant and usually available for academic research purposes</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <emph render="italic">Correspondence</emph> (1971), letter no. 37*, vol. iii, 1315-1319</bibref>
+                     <bibref title="TLS_1937">
+                        <emph render="italic">The Times Literary Supplement</emph>, 23 Oct. 1937, 776</bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "I am qualified with full and ample powers to treat with you in the names". Sent from <geogname normal="Cambridge (Cambridgeshire, England, United Kingdom), inhabited place [7010874]"
+                                  source="tgn">[Cambridge]</geogname>. to [Oxford]. Julian calendar. Envelope (front): "To / Richard West, Esq. / at Christ-Church in / Oxford" Postmark: "23 MA".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Stillingfleet, Benjamin</persname>
+                     <persname role="subject">Pope, Alexander</persname>
+                     <geogname>Cambridge</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0641" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

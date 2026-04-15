@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0308"
+             identifier="grayt.ead.0001-letters.0308">grayt.ead.0001-letters.0308</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0308#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.mason_william</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Mason, William, 1724-1797"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/95718679">Correspondence with Mason, William</persname>
+                  </unittitle>
+                  <unitdate normal="1751/1771">1751-1771</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="lat">Latin</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>99 letters (75 from Gray, 24 to Gray), dated between 1751 and 1771.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0308">
+                  <did>
+                     <unitid type="TGA">letters.0308</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Mason, William, 1724-1797">Mason, William</persname>
+                     </unittitle>
+                     <unitdate normal="17580203">[3 February 1758]</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <physloc label="Building:">Humanities and Social Sciences Library</physloc>
+                     <physloc label="Collection:">Henry W. And Albert A. Berg Collection of English and American Literature</physloc>
+                     <repository>NYPL</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant and usually available for academic research purposes</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=266*">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 266*, vol. ii, 561-563</extref>
+                     </bibref>
+                     <bibref title="MiJ_1853">
+                        <extref href="/texts/diglib/primary/MiJ_1853/1/116">
+                           <emph render="italic">Correspondence</emph> (1853), letter XXVIII, 116-119</extref>
+                     </bibref>
+                     <bibref title="MaW_1775">
+                        <extref href="/texts/diglib/primary/1775/1/256">
+                           <emph render="italic">Memoirs</emph> (1775), letter xxviii, section iv, 256</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900ii/1/2">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. CLVIII, vol. ii, 2-5</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/302">
+                           <emph render="italic">Works</emph> (1816), section IV, letter LXX, vol. ii, 302-305</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843iii/1/183">
+                           <emph render="italic">Works</emph> (1835-1843), section IV, letter LXXVIII, vol. iii, 183-187</extref>
+                     </bibref>
+                     <bibref title="SeJ_1819">
+                        <extref href="/texts/diglib/primary/1819/2/26">
+                           <emph render="italic">Letters of Thomas Gray</emph>, 2 vols. (1819), letter XCIX, vol. ii, 26-29</extref>
+                     </bibref>
+                     <bibref title="MaW_1814">
+                        <extref href="/texts/diglib/primary/MaW_1814i/1/363">
+                           <emph render="italic">Works</emph> (1814), section IV, letter XXVIII, vol. i, 363-366</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "A life spent out of the World has its hours of despondence, its inconveniences,". Sent from <geogname normal="Cambridge (Cambridgeshire, England, United Kingdom), inhabited place [7010874]"
+                                  source="tgn">[Cambridge]</geogname>. Dateline: "Jan: 3. 1758". Envelope (front): "To / The Revd Mr Mason".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Butler, J., Mr</persname>
+                     <persname role="subject">Hurd, Richard, 1720-1808</persname>
+                     <persname role="subject">Hurd, Dr. Richard</persname>
+                     <geogname>Andover</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0308" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

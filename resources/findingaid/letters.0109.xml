@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0109"
+             identifier="grayt.ead.0001-letters.0109">grayt.ead.0001-letters.0109</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0109#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.gray_philip</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Gray, Philip, 1676-1741">Correspondence with Gray, Philip</persname>
+                  </unittitle>
+                  <unitdate normal="1739/1741">1739-1741</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>5 letters (5 from Gray), dated between 1739 and 1741.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0109">
+                  <did>
+                     <unitid type="TGA">letters.0109</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Gray, Philip, 1676-1741">Gray, Philip</persname>
+                     </unittitle>
+                     <unitdate normal="17410112">[12 January 1741]</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is unlocated, a copy, transcription, or published version survives</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=96">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 96, vol. i, 179-181</extref>
+                     </bibref>
+                     <bibref title="MaW_1775">
+                        <extref href="/texts/diglib/primary/1775/1/111">
+                           <emph render="italic">Memoirs</emph> (1775), letter xxix, section ii, 111-113</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900i/1/84">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. XLVII, vol. i, 84-86</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/115">
+                           <emph render="italic">Works</emph> (1816), section II, letter XXXII, vol. ii, 115-116</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843ii/2/138">
+                           <emph render="italic">Works</emph> (1835-1843), section II, letter XXXII, vol. ii, 138-140</extref>
+                     </bibref>
+                     <bibref title="SeJ_1819">
+                        <extref href="/texts/diglib/primary/1819/1/106">
+                           <emph render="italic">Letters of Thomas Gray</emph>, 2 vols. (1819), letter XLVII, vol. i, 106-107</extref>
+                     </bibref>
+                     <bibref title="MaW_1814">
+                        <extref href="/texts/diglib/primary/MaW_1814i/1/233">
+                           <emph render="italic">Works</emph> (1814), section II, letter XXIX, vol. i, 233-234</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "We still continue constant at Florence, at present one of the dullest". Sent from <geogname normal="Florence (Firenze province, Tuscany, Italy), inhabited place [7000457]"
+                                  source="tgn">[Florence]</geogname>.</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Walpole, Horace, 1717-1797</persname>
+                     <geogname>Florence</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0109" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0476"
+             identifier="grayt.ead.0001-letters.0476">grayt.ead.0001-letters.0476</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0476#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.brown_james</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Brown, James, 1709-1784">Correspondence with Brown, James</persname>
+                  </unittitle>
+                  <unitdate normal="1753/1771">1753-1771</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>43 letters (43 from Gray), dated between 1753 and 1771.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0476">
+                  <did>
+                     <unitid type="TGA">letters.0476</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Brown, James, 1709-1784">Brown, James</persname>
+                     </unittitle>
+                     <unitdate normal="17660515">15 May 1766</unitdate>
+                     <physdesc>
+                        <physfacet>A.L.S.</physfacet>
+                        <extent>1s. (2p.)</extent>
+                     </physdesc>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <physloc label="Identifier:">fMS Eng 945 (18)</physloc>
+                     <physloc label="Building:">Houghton Library</physloc>
+                     <repository>HARV</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant and usually available for academic research purposes</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=421">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 421, vol. iii, 924-926</extref>
+                     </bibref>
+                     <bibref title="MiJ_1853">
+                        <extref href="/texts/diglib/primary/MiJ_1853/1/356">
+                           <emph render="italic">Correspondence</emph> (1853), letter XCVII, 356-358</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900iii/1/105">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. CCLXXXII, vol. iii, 105-108</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "To-morrow morning I set out for Canterbury. If any letter comes, I believe". Sent from <geogname normal="London (Greater London, England, United Kingdom), inhabited place [7011781]"
+                                  source="tgn">London</geogname>. Dateline: "May 15, 1766". Address: "Jermyn Street".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Palgrave, William, 1735-1799</persname>
+                     <persname role="subject">Robinson, William, Rev., c. 1726-1803</persname>
+                     <persname role="subject">Macaulay, Mrs. Catherine</persname>
+                     <persname role="subject">Lyttelton, George Lyttelton, 1st Lord</persname>
+                     <geogname>Spain</geogname>
+                     <geogname>Naples</geogname>
+                     <geogname>Kent</geogname>
+                     <geogname>Ireland</geogname>
+                     <geogname>Canterbury</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0476" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

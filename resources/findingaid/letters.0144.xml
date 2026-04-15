@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0144"
+             identifier="grayt.ead.0001-letters.0144">grayt.ead.0001-letters.0144</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0144#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.chute_john</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Chute, John, 1701-1776"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/6079515">Correspondence with Chute, John</persname>
+                  </unittitle>
+                  <unitdate normal="1741/1755">1741-1755</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>9 letters (9 from Gray), dated between 1741 and 1755.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0144">
+                  <did>
+                     <unitid type="TGA">letters.0144</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Chute, John, 1701-1776">Chute, John</persname>
+                     </unittitle>
+                     <unitdate normal="17461123" datechar="Julian">[23 November 1746]</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <physloc label="Collection:">Chute of The Vyne, Sherborne St John</physloc>
+                     <repository>VYNE</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant, but there is no further information about its availability</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=126">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 126, vol. i, 252-254</extref>
+                     </bibref>
+                     <bibref title="ChC_1888">
+                        <emph render="italic">A History of the Vyne in Hampshire.</emph> By Chaloner William Chute. Winchester: Jacob &amp; Johnson, 1888, 102-104</bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900i/1/147">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. LXX, vol. i, 147-149</extref>
+                     </bibref>
+                     <bibref title="ToD_1890">
+                        <extref href="/texts/diglib/primary/ToD_1890/1/181">
+                           <emph render="italic">Gray and his Friends</emph> (1890), section III, letter no. 2, 181-183</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "It is doubtless highly reasonable, that two young Foreigners". Sent from <geogname normal="Cambridge (Cambridgeshire, England, United Kingdom), inhabited place [7010874]"
+                                  source="tgn">Cambridge</geogname>. to [London]. Julian calendar. Dateline: "Sunday". Address: "Cambridge". Envelope (front): "To / John Chute Esq / at the House of Francis Whithed Esq / in New Bond Street / Westminster" Postmark: "CAMBRIDGE 24 NO".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Duclos, Charles Pinot</persname>
+                     <geogname>London</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0144" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

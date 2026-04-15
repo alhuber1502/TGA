@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0094"
+             identifier="grayt.ead.0001-letters.0094">grayt.ead.0001-letters.0094</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0094#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.gray_mrs</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Gray, Mrs. (Dorothy), 1685-1753">Correspondence with Gray, Mrs. (Dorothy)</persname>
+                  </unittitle>
+                  <unitdate normal="1739/1749">1739-1749</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>12 letters (12 from Gray), dated between 1739 and 1749.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0094">
+                  <did>
+                     <unitid type="TGA">letters.0094</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Gray, Mrs. (Dorothy), 1685-1753">Gray, Mrs. (Dorothy)</persname>
+                     </unittitle>
+                     <unitdate normal="17400415">[15 April 1740]</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is unlocated, a copy, transcription, or published version survives</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=82">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 82, vol. i, 147</extref>
+                     </bibref>
+                     <bibref title="MaW_1775">
+                        <extref href="/texts/diglib/primary/1775/1/82">
+                           <emph render="italic">Memoirs</emph> (1775), letter xix, section ii, 82-83</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900i/1/61">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. XXXV, vol. i, 61-62</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/82">
+                           <emph render="italic">Works</emph> (1816), section II, letter XX, vol. ii, 82-83</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843ii/2/97">
+                           <emph render="italic">Works</emph> (1835-1843), section II, letter XX, vol. ii, 97-98</extref>
+                     </bibref>
+                     <bibref title="SeJ_1819">
+                        <extref href="/texts/diglib/primary/1819/1/77">
+                           <emph render="italic">Letters of Thomas Gray</emph>, 2 vols. (1819), letter XXXVII, vol. i, 77-78</extref>
+                     </bibref>
+                     <bibref title="MaW_1814">
+                        <extref href="/texts/diglib/primary/MaW_1814i/1/206">
+                           <emph render="italic">Works</emph> (1814), section II, letter XIX, vol. i, 206-207</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "To-day I am just come from paying my adoration at St. Peter's". Sent from <geogname normal="Rome (Roma province, Lazio, Italy), inhabited place [7000874]"
+                                  source="tgn">[Rome]</geogname>.</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Walpole, Horace, 1717-1797</persname>
+                     <geogname>Rome</geogname>
+                     <geogname>Porto-Bello</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0094" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0398"
+             identifier="grayt.ead.0001-letters.0398">grayt.ead.0001-letters.0398</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0398#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.brown_james</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Brown, James, 1709-1784">Correspondence with Brown, James</persname>
+                  </unittitle>
+                  <unitdate normal="1753/1771">1753-1771</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>43 letters (43 from Gray), dated between 1753 and 1771.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0398">
+                  <did>
+                     <unitid type="TGA">letters.0398</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Brown, James, 1709-1784">Brown, James</persname>
+                     </unittitle>
+                     <unitdate normal="17611022">22 October 1761</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <repository>PRIV</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant, but there is no further information about its availability</p>
+                  </accessrestrict>
+                  <altformavail>
+                     <p>a MS copy is at Pembroke College, Cambridge, GBR/1058/GRA/5/6; Christie's, 14 June 1979 (A. A. Houghton Sale), Lot 237, sold to Fleming</p>
+                  </altformavail>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=347">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 347, vol. ii, 759-761</extref>
+                     </bibref>
+                     <bibref title="Ath_1891">
+                        <emph render="italic">The Athenæum</emph>, 21 Feb. 1891, printed by Edmund Gosse</bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900ii/1/240">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. CCXXXII, vol. ii, 240-241</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "I have sent down by Gillam's waggon to-day 28 parcels of different bulks,". Sent from <geogname normal="London (Greater London, England, United Kingdom), inhabited place [7011781]"
+                                  source="tgn">London</geogname>. to [Cambridge]. Dateline: "Oct: 22. 1761". Address: "London". Envelope (front): "To The Revd Mr Brown President of Pembroke Hall Cambridge".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Mason, William, 1724-1797</persname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0398" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

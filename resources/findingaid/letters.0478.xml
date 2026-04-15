@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0478"
+             identifier="grayt.ead.0001-letters.0478">grayt.ead.0001-letters.0478</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0478#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.wharton_thomas</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Wharton, Thomas, 1717-1794">Correspondence with Wharton, Thomas</persname>
+                  </unittitle>
+                  <unitdate normal="1740/1771">1740-1771</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="fre">French</language>, <language encodinganalog="546" langcode="grc">Greek</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>99 letters (99 from Gray), dated between 1740 and 1771.</p>
+                  <p>See also: letter <ref target="letters.0562">tgal0562</ref> (with Mason, William)</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0478">
+                  <did>
+                     <unitid type="TGA">letters.0478</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Wharton, Thomas, 1717-1794">Wharton, Thomas</persname>
+                     </unittitle>
+                     <unitdate normal="17660826">26 August 1766</unitdate>
+                     <physdesc>
+                        <physfacet>A.L.S.</physfacet>
+                        <extent>3 pages</extent>
+                        <dimensions>236 mm x 190 mm</dimensions>
+                        <physfacet>envelope</physfacet>
+                     </physdesc>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <physloc label="Identifier:">Egerton MS 2400, ff. 174-175</physloc>
+                     <physloc label="Collection:">Manuscripts collection</physloc>
+                     <repository>BLUK</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant and usually available for academic research purposes</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=423">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 423, vol. iii, 929-933</extref>
+                     </bibref>
+                     <bibref title="MaW_1775">
+                        <extref href="/texts/diglib/primary/1775/1/322">
+                           <emph render="italic">Memoirs</emph> (1775), letter liii, section iv, 322-324</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900iii/1/112">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. CCLXXXIV, vol. iii, 112-117</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/473">
+                           <emph render="italic">Works</emph> (1816), section IV, letter CXXVII, vol. ii, 473-476</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843iv/1/80">
+                           <emph render="italic">Works</emph> (1835-1843), section IV, letter CXXXVIII, vol. iv, 80-85</extref>
+                     </bibref>
+                     <bibref title="SeJ_1819">
+                        <extref href="/texts/diglib/primary/1819/2/103">
+                           <emph render="italic">Letters of Thomas Gray</emph>, 2 vols. (1819), letter CXXVIII, vol. ii, 103-105</extref>
+                     </bibref>
+                     <bibref title="MaW_1814">
+                        <extref href="/texts/diglib/primary/MaW_1814i/1/422">
+                           <emph render="italic">Works</emph> (1814), section IV, letter LIII, vol. i, 422-423</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "Whatever my pen may do, I am sure my thoughts expatiate no where oftener". Sent from <geogname normal="Cambridge (Cambridgeshire, England, United Kingdom), inhabited place [7010874]"
+                                  source="tgn">Cambridge</geogname>. to Durham. Dateline: "26 Aug: 1766". Address: "Pemb: Coll:". Envelope (front): "To / D<emph render="super">r</emph> Wharton, M:D: at / Old-Park near Darlington / Durham / to be left at / Sunderland-Bridge" Postmark: "[illeg.]".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Brown, James, 1709-1784</persname>
+                     <persname role="subject">Conway, Henry Seymour, 1721-1795</persname>
+                     <persname role="subject">Grafton, Augustus Henry Fitzroy, Duke of, 1735-1811</persname>
+                     <persname role="subject">Mason, William, 1724-1797</persname>
+                     <persname role="subject">Stonhewer, Richard, 1728-1809</persname>
+                     <persname role="subject">Rousseau, Jean Jacques</persname>
+                     <persname role="subject">Hume, David</persname>
+                     <persname role="subject">Hall-Stevenson, John</persname>
+                     <persname role="subject">Buffon, Comte de</persname>
+                     <persname role="subject">
+                        <emph render="italic">Biographia Britannica</emph>
+                     </persname>
+                     <persname role="subject">Anstey, Christopher, 1724-1805</persname>
+                     <geogname>Thanet, Isle of</geogname>
+                     <geogname>Thames, River</geogname>
+                     <geogname>Sandwich</geogname>
+                     <geogname>Ramsgate</geogname>
+                     <geogname>Old Park</geogname>
+                     <geogname>Medway, River</geogname>
+                     <geogname>Margate</geogname>
+                     <geogname>Kent</geogname>
+                     <geogname>Hythe</geogname>
+                     <geogname>Hartlepool</geogname>
+                     <geogname>Folkestone</geogname>
+                     <geogname>Dover</geogname>
+                     <geogname>Derbyshire</geogname>
+                     <geogname>Deal</geogname>
+                     <geogname>Canterbury</geogname>
+                     <geogname>Calais</geogname>
+                     <geogname>Barham-down</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0478" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

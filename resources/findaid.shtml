@@ -37,6 +37,8 @@
 
 	<h2>Manuscripts</h2>
 
+	<h3>Poems</h3>
+
 	<form name="bylang" method="GET" action="/resources/findaid/" class="findingaidsearch">
 
 	<label for="lang" class="label">Language:</label>
@@ -101,7 +103,112 @@
 									<INPUT class="normal submit" type="submit" value="Show">
 									</FORM>
 
+	<h3>Letters</h3>
 
+									<FORM name="bylettlang" method="GET" action="/resources/findaid/" class="findingaidsearch">
+
+									<label for="lettlang" class="label">Language:</label>
+									<INPUT type="hidden" name="ead" value="grayt.ead.0001">
+									<INPUT type="hidden" name="collection" value="letters">
+									<SELECT name="lang" id="lettlang" onChange="this.form.submit();">
+									<OPTION value="eng">English</option>
+									<OPTION value="lat">Latin</option>
+									<OPTION value="grc">Greek</option>
+									<OPTION value="fre">French</option>
+									<OPTION value="ita">Italian</option>
+									</SELECT>
+									<INPUT class="normal submit" type="submit" value="Show">
+									</FORM>
+
+
+									<FORM name="bylettcorr" method="GET" action="/resources/findaid/" class="findingaidsearch">
+
+									<label for="lettcorr" class="label">Correspondent:</label>
+									<INPUT type="hidden" name="ead" value="grayt.ead.0001">
+									<INPUT type="hidden" name="collection" value="letters">
+									<SELECT name="work" id="lettcorr" onChange="this.form.submit();">
+									<OPTION value="alderson_christopher">Alderson, Christopher</option>
+									<OPTION value="algarotti_francesco">Algarotti, Francesco</option>
+									<OPTION value="anstey_christopher">Anstey, Christopher</option>
+									<OPTION value="antrobus_mary">Antrobus, Mary</option>
+									<OPTION value="antrobus_mrs">Antrobus, Mrs. (Elizabeth)</option>
+									<OPTION value="ashby_george">Ashby, George</option>
+									<OPTION value="ashton_thomas">Ashton, Thomas</option>
+									<OPTION value="beattie_james">Beattie, James</option>
+									<OPTION value="bedingfield_edward">Bedingfield, Edward</option>
+									<OPTION value="bentham_james">Bentham, James</option>
+									<OPTION value="birkett_george">Birkett, George</option>
+									<OPTION value="bonstetten_charles">Bonstetten, Charles Victor de</option>
+									<OPTION value="brockett_lawrence">Brockett, Lawrence</option>
+									<OPTION value="brown_james">Brown, James</option>
+									<OPTION value="butler_j">Butler, J.</option>
+									<OPTION value="chute_john">Chute, John</option>
+									<OPTION value="clerke_john">Clerke, John</option>
+									<OPTION value="cole_william">Cole, William</option>
+									<OPTION value="dodsley_james">Dodsley, James</option>
+									<OPTION value="dodsley_robert">Dodsley, Robert</option>
+									<OPTION value="farmer_richard">Farmer, Richard</option>
+									<OPTION value="grafton_augustus">Grafton, Augustus Henry Fitzroy</option>
+									<OPTION value="gray_mrs">Gray, Mrs. (Dorothy)</option>
+									<OPTION value="gray_philip">Gray, Philip</option>
+									<OPTION value="how_william">How, William Taylor</option>
+									<OPTION value="hurd_richard">Hurd, Richard</option>
+									<OPTION value="jennings_mrs">Jennings, Mrs</option>
+									<OPTION value="lort_michael">Lort, Michael</option>
+									<OPTION value="mason_william">Mason, William</option>
+									<OPTION value="nicholls_norton">Nicholls, Norton</option>
+									<OPTION value="palgrave_william">Palgrave, William</option>
+									<OPTION value="percy_thomas">Percy, Thomas</option>
+									<OPTION value="robinson_william">Robinson, William</option>
+									<OPTION value="schaub_lady">Schaub, Lady</option>
+									<OPTION value="speed_henrietta">Speed, Henrietta Jane</option>
+									<OPTION value="stonhewer_richard">Stonhewer, Richard</option>
+									<OPTION value="walpole_horace">Walpole, Horace</option>
+									<OPTION value="warton_thomas">Warton, Thomas</option>
+									<OPTION value="west_richard">West, Richard</option>
+									<OPTION value="wharton_thomas">Wharton, Thomas</option>
+									<OPTION value="unknown">[unknown correspondent]</option>
+									</SELECT>
+									<INPUT class="normal submit" type="submit" value="Show">
+									</FORM>
+
+
+									<FORM name="bylettholding" method="GET" action="/resources/findaid/" class="findingaidsearch">
+
+									<label for="lettholding" class="label">Holding Institution:</label>
+									<INPUT type="hidden" name="ead" value="grayt.ead.0001">
+									<INPUT type="hidden" name="collection" value="letters">
+									<SELECT name="holding" id="lettholding" onChange="this.form.submit();">
+									<OPTION value="PBCC">Pembroke College, Cambridge</option>
+									<OPTION value="BLUK">British Library</option>
+									<OPTION value="NYPL">New York Public Library</option>
+									<OPTION value="ETON">Eton College</option>
+									<OPTION value="YALE">Yale University Library</option>
+									<OPTION value="HULI">The Huntington</option>
+									<OPTION value="UABD">University of Aberdeen Library</option>
+									<OPTION value="VYNE">The Vyne</option>
+									<OPTION value="HARV">Harvard University</option>
+									<OPTION value="HARC">Hartlebury Castle</option>
+									<OPTION value="HSPO">Historical Society of Pennsylvania</option>
+									<OPTION value="MOLI">Morgan Library &amp; Museum</option>
+									<OPTION value="ROBA">Rosenbach Museum &amp; Library</option>
+									<OPTION value="BDLN">Bodleian Library, Oxford University</option>
+									<OPTION value="JHGL">Johns Hopkins Sheridan Libraries</option>
+									<OPTION value="CAMB">Cambridge University Library</option>
+									<OPTION value="FITZ">Fitzwilliam Museum</option>
+									<OPTION value="FOLG">Folger Shakespeare Library</option>
+									<OPTION value="HAVC">Haverford College</option>
+									<OPTION value="KILA">Kingston Lacy</option>
+									<OPTION value="MAHI">Maine Historical Society</option>
+									<OPTION value="PRIN">Princeton University Library</option>
+									<OPTION value="SALO">Society of Antiquaries of London</option>
+									<OPTION value="TXCU">Texas Christian University Library</option>
+									<OPTION value="UROC">University of Rochester Libraries</option>
+									<OPTION value="WFMU">Wisbech &amp; Fenland Museum</option>
+									<OPTION value="PRIV">[private collections]</option>
+									</SELECT>
+									<INPUT class="normal submit" type="submit" value="Show">
+									</FORM>
 
 <!--
 <p>Show <a title="may take a long time to download!"
@@ -119,11 +226,13 @@ alt="[[MS ID 202/T.M.: Sonnet, On the Death of Richard West, between 1771 and 18
 <h2>About</h2>
 This finding aid to the manuscripts of Thomas Gray
 lists all identified autograph poetry manuscripts as well as transcripts in
-the hands of his contemporaries and early editors of his works (currently
+the hands of his contemporaries and early editors of his works, as well as his
+correspondence, including letters addressed to Gray (currently
 <!--#set var="QUERY_STRING" value="part=mss" -->
 <!--#include virtual="/cgi-bin/ssi_glance.cgi?part=mss" -->
 MSS). </p>
 <h3>About the manuscripts</h3>
+<h4>Poems</h4>
 <p>The majority of Gray's poems (68 of 76) survive in autograph MSS or
 (near) contemporary transcripts, only for eight poetical works is there no
 known MS copy. Gray's MSS were originally left to <a
@@ -131,9 +240,9 @@ href="/materials/glnames.shtml#Mason,%20William,%201724-1797">William Mason</a>
 who was authorized by Gray in his <a
 href="/texts/diglib/primary/BrJ_1891/1/285">will</a>
 to &quot;preserve or destroy at his own discretion.&quot; Mason edited
-many of Gray's letters and poems for his edition of <a
+many of Gray's poems for his edition of <a
 href="/texts/diglib/primary/1775">1775</a>, which
-for a small number of letters and poems is now the only authority. When Mason
+for a small number of poems is now the only authority. When Mason
 died in 1797, Gray's MSS passed on to a mutual friend, <a
 href="/materials/glnames.shtml#Stonhewer,%20Richard,%201728-1809">Richard
 Stonhewer</a>, who donated the most important item, Gray's <em>Commonplace
@@ -141,7 +250,19 @@ Book</em>, to Pembroke College, <a href="/materials/glplaces.shtml#Cambridge%20(
 Everything else, however, passed on to relatives and was ultimately dispersed
 in four auctions in the mid-19th century. Today the majority of Gray's papers
 are preserved in libraries, archives, and museums around the world, only a
-few remain unlocated or are privately owned.</p> 
+few remain unlocated or are privately owned.</p>
+<h4>Letters</h4>
+<p>The majority of the 651 known original, copied, or published letters written
+by or to the poet survive in autograph MSS or (near) contemporary
+transcripts. There are 128 letters for which no MS copy has yet been located, 59
+letters are known to have existed, but have not survived. <a 
+href="/materials/glnames.shtml#Mason%2C%20William%2C%201724-1797">William
+Mason</a> edited many of Gray's letters for his
+edition of <a href="/texts/diglib/primary/1775">1775</a>, which for a number of
+letters is now the only authority. Today most of Gray's letters are preserved in
+libraries, archives, and museums around the world. A few are still privately
+owned. </p> 
+
 <h3>About this finding aid</h3>
 <p>This integrated finding aid is a
 <a class="external" target="_blank"
@@ -167,8 +288,11 @@ for more information.</p>
 		data-offset-bottom="41">
 	      <li><a href="/resources/findaid.shtml">Finding Aid</a></li>
 	      <li><a href="/resources/findaid/intro">Overview</a></li>
-	      <li><a id="poems" title="may take a long time to download!" href="/resources/findaid/collection=poems">Show all MSS</a></li>
-	    </ul>
+	      <li><a id="poems" title="may take a long time to download!"
+	      href="/resources/findaid/collection=poems">Show all MSS poems</a></li>
+	      <li><a id="poems" title="may take a long time to download!"
+	      href="/resources/findaid/collection=letters">Show all MSS letters</a></li>
+		</ul>
 	    
 	  </nav>
 

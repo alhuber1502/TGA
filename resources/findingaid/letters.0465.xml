@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0465"
+             identifier="grayt.ead.0001-letters.0465">grayt.ead.0001-letters.0465</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0465#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.beattie_james</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Beattie, James, 1735-1803"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/14766002">Correspondence with Beattie, James</persname>
+                  </unittitle>
+                  <unitdate normal="1765/1771">1765-1771</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>14 letters (9 from Gray, 5 to Gray), dated between 1765 and 1771.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0465">
+                  <did>
+                     <unitid type="TGA">letters.0465</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Beattie, James, 1735-1803">Beattie, James</persname>
+                     </unittitle>
+                     <unitdate normal="17650908">8 September 1765</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <physloc label="Identifier:">AU MS 30/24/6/1</physloc>
+                     <physloc label="Building:">Historic Collections, Special Libraries and Archives, King's College</physloc>
+                     <physloc label="Collection:">AU MS 30, Papers of James Beattie (1735-1803)</physloc>
+                     <repository>UABD</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant and usually available for academic research purposes</p>
+                  </accessrestrict>
+                  <altformavail>
+                     <p>a photostat is in MS. Toynbee d.32, Bodleian Library, Oxford</p>
+                  </altformavail>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=411">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 411, vol. ii, 886</extref>
+                     </bibref>
+                     <bibref title="MaW_1775">
+                        <extref href="/texts/diglib/primary/1775/1/308">
+                           <emph render="italic">Memoirs</emph> (1775), letter xlix, section iv, 308-309</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900iii/1/81">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. CCLXXVI, vol. iii, 81-82</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/457">
+                           <emph render="italic">Works</emph> (1816), section IV, letter CXXI, vol. ii, 457</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843iv/1/62">
+                           <emph render="italic">Works</emph> (1835-1843), section IV, letter CXXXII, vol. iv, 62</extref>
+                     </bibref>
+                     <bibref title="SeJ_1819">
+                        <extref href="/texts/diglib/primary/1819/2/86">
+                           <emph render="italic">Letters of Thomas Gray</emph>, 2 vols. (1819), letter CXXIII, vol. ii, 86-87</extref>
+                     </bibref>
+                     <bibref title="MaW_1814">
+                        <extref href="/texts/diglib/primary/MaW_1814i/1/410">
+                           <emph render="italic">Works</emph> (1814), section IV, letter XLIX, vol. i, 410</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "A little journey I have been making to Arbroth has been the cause,". Sent from <geogname normal="Glamis Castle (Angus, Scotland, United Kingdom), castle [1100274]"
+                                  source="tgn">Glamis Castle</geogname>. to [Aberdeen]. Dateline: "8 Sept: 1765". Address: "Glames-Castle". Envelope (front): "To Mr Beattie, Professor, in Marischal College Aberdeen" Postmark: "DUNDEE".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <geogname>Glamis</geogname>
+                     <geogname>Arbroath</geogname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0465" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

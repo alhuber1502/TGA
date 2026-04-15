@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0427"
+             identifier="grayt.ead.0001-letters.0427">grayt.ead.0001-letters.0427</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0427#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.algarotti_francesco</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="Algarotti, Francesco, Conte, 1712-1764"
+                               source="viaf"
+                               authfilenumber="http://viaf.org/viaf/68955699">Correspondence with Algarotti, Francesco</persname>
+                  </unittitle>
+                  <unitdate normal="1763">1763-</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>, <language encodinganalog="546" langcode="ita">Italian</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>2 letters (1 from Gray, 1 to Gray), dated between 1763 and 1763.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0427">
+                  <did>
+                     <unitid type="TGA">letters.0427</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname> to <persname role="rcp" normal="Algarotti, Francesco, Conte, 1712-1764">Algarotti, Francesco</persname>
+                     </unittitle>
+                     <unitdate normal="17630909">9 September 1763</unitdate>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <repository>PRIV</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant, but there is no further information about its availability</p>
+                  </accessrestrict>
+                  <altformavail>
+                     <p>owned by John R. Murray</p>
+                  </altformavail>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=374">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 374, vol. ii, 809-813</extref>
+                     </bibref>
+                     <bibref title="Gen_1805">
+                        <emph render="italic">Gentleman's Magazine</emph>,  Jan. 1805, vol. lxxv, pt. i, 9 ff.</bibref>
+                     <bibref title="NoC_1911">
+                        <extref href="/texts/diglib/primary/NoC_1911/1/259">
+                           <emph render="italic">Essays and Criticisms by Thomas Gray</emph> (1911), letter excerpt, 259-264</extref>
+                     </bibref>
+                     <bibref title="ToD_1900">
+                        <extref href="/texts/diglib/primary/ToD_1900iii/1/21">
+                           <emph render="italic">Letters</emph> (1900-12), letter no. CCLIV, vol. iii, 21-25</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/417">
+                           <emph render="italic">Works</emph> (1816), section IV, letter CIX, vol. ii, 417-421</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843iv/1/14">
+                           <emph render="italic">Works</emph> (1835-1843), section IV, letter CXX, vol. iv, 14-20</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "I received some time since the unexpected honour of a Letter from you,". Sent from <geogname normal="Cambridge (Cambridgeshire, England, United Kingdom), inhabited place [7010874]"
+                                  source="tgn">Cambridge</geogname>. Dateline: "Sept: 9. 1763". Address: "Cambridge".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">How, William Taylor, d. 1777</persname>
+                     <persname role="subject">Virgil</persname>
+                     <persname role="subject">Milton, John</persname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0427" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

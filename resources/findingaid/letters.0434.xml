@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "ead" "../ead.dtd">
+<ead audience="external">
+   <eadheader audience="internal"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924"
+              relatedencoding="MARC21"
+              repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              findaidstatus="edited-full-draft">
+      <eadid countrycode="gb"
+             urn="urn:x-thomasgrayarchive:grayt.ead.0001-letters.0434"
+             identifier="grayt.ead.0001-letters.0434">grayt.ead.0001-letters.0434</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Gray Manuscripts:</titleproper>
+            <subtitle>An Inventory at the <emph render="italic">Thomas Gray Archive</emph>.</subtitle>
+            <author encodinganalog="245$c">Alexander Huber</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <emph render="italic">Thomas Gray Archive</emph>
+            </publisher>
+            <date encodinganalog="260$c" normal="2006">2006</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Catalogued in EAD 2002 by Alexander Huber,
+								Editor, <emph render="italic">Thomas Gray Archive</emph>, <date normal="2005">2005-</date>
+         </creation>
+         <langusage>
+            <language encodinganalog="546" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc audience="external"
+             level="otherlevel"
+             type="inventory"
+             relatedencoding="MARC21"
+             id="contents">
+      <did>
+         <unitid encodinganalog="099" label="Identification:" countrycode="gb">grayt.ead.0001-letters.0434#did0001</unitid>
+      </did>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unitid type="collection">mss.letters</unitid>
+               <unittitle id="mss.letters">Letters</unittitle>
+               <unitdate normal="1734/1771">1734-1771</unitdate>
+            </did>
+            <c02 level="class">
+               <did>
+                  <unitid type="correspondent">letters.how_william</unitid>
+                  <unittitle type="uniform" label="Correspondent:">
+                     <persname normal="How, William Taylor, d. 1777">Correspondence with How, William Taylor</persname>
+                  </unittitle>
+                  <unitdate normal="1763/1768">1763-1768</unitdate>
+                  <langmaterial>
+                     <language encodinganalog="546" langcode="eng">English</language>
+                  </langmaterial>
+               </did>
+               <scopecontent>
+                  <p>6 letters (3 from Gray, 3 to Gray), dated between 1763 and 1768.</p>
+               </scopecontent>
+               <c03 level="item" id="letters.0434">
+                  <did>
+                     <unitid type="TGA">letters.0434</unitid>
+                     <unittitle label="Title:">
+                        <persname role="crp" normal="How, William Taylor, d. 1777">How, William Taylor</persname> to <persname role="rcp" normal="Gray, Thomas, 1716-1771">Gray, Thomas</persname>
+                     </unittitle>
+                     <unitdate normal="17631108">8 November 1763</unitdate>
+                     <physdesc>
+                        <physfacet>A.L.S.</physfacet>
+                        <extent>3 pages</extent>
+                        <dimensions>227 mm x 189 mm</dimensions>
+                     </physdesc>
+                     <langmaterial>
+                        <language encodinganalog="546" langcode="eng">English</language>
+                     </langmaterial>
+                     <physloc label="Identifier:">Add. MSS 26889, ff. 54-55</physloc>
+                     <physloc label="Collection:">Manuscripts collection</physloc>
+                     <repository>BLUK</repository>
+                  </did>
+                  <accessrestrict>
+                     <p>The original letter is extant and usually available for academic research purposes</p>
+                  </accessrestrict>
+                  <bibliography>
+                     <bibref title="T/W_1971">
+                        <extref href="http://www.e-enlightenment.com/search/letters/print/?printref_sourceedition=graythOU0084&amp;printref_docnumber=381">
+                           <emph render="italic">Correspondence</emph> (1971), letter no. 381, vol. ii, 825-826</extref>
+                     </bibref>
+                     <bibref title="MaW_1775">
+                        <extref href="/texts/diglib/primary/1775/1/388">
+                           <emph render="italic">Memoirs</emph> (1775), section v, 388</extref>
+                     </bibref>
+                     <bibref title="MiJ_1816">
+                        <extref href="/texts/diglib/primary/MiJ_1816ii/1/424">
+                           <emph render="italic">Works</emph> (1816), section IV, extract of a letter, vol. ii, 424-425</extref>
+                     </bibref>
+                     <bibref title="MiJ_1843">
+                        <extref href="/texts/diglib/primary/MiJ_1843iv/1/22">
+                           <emph render="italic">Works</emph> (1835-1843), section IV, letter CXXI, vol. iv, 22-24</extref>
+                     </bibref>
+                  </bibliography>
+                  <scopecontent>
+                     <p>Incipit: "As in the Letter, with which you honoured me of late, you expressed a". Sent from <geogname normal="Brussels (Bruxelles region, Belgium), inhabited place [7007868]"
+                                  source="tgn">Brussels</geogname>. Dateline: "Nov<emph render="super">r</emph>. 8.<emph render="super">th</emph> 1763". Address: "Brussels".</p>
+                  </scopecontent>
+                  <controlaccess>
+                     <persname role="subject">Algarotti, Francesco, Conte, 1712-1764</persname>
+                     <persname role="subject">Mason, William, 1724-1797</persname>
+                     <persname role="subject">Algarotti, Francesco, Conte, 1712-1764</persname>
+                  </controlaccess>
+                  <dao href="/texts/letters/tgal0434" show="replace">
+                     <daodesc>
+                        <p>Letter record at the <emph render="italic">Thomas Gray Archive</emph>
+                        </p>
+                     </daodesc>
+                  </dao>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
