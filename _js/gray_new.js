@@ -240,7 +240,10 @@ jq(document).ready(function () {
     //console.log('page: %s', page);
     if (anchor != "") {
       if (/\/texts\/letters\/people\.shtml/.test(page)) {
-        jq(".authorname #" + anchor).click();
+        // hashchange_newer.js may already have opened this entry; a second click would close it
+        if (jq(".authorname #" + anchor).next(".briefbio").is(":hidden")) {
+          jq(".authorname #" + anchor).click();
+        }
         return false;
       } else if (/\/texts\/letters\/dates\.shtml/.test(page)) {
         jq(".datelist #" + anchor + " a").click();
@@ -299,7 +302,7 @@ jq(document).ready(function () {
   function poemsLang_filter() {
     var english, latin, greek;
 
-    if (jq("#latin").attr("checked")) {
+    if (jq("#latin").prop("checked")) {
       jq(".latin").show();
       latin = 1;
     } else {
@@ -307,7 +310,7 @@ jq(document).ready(function () {
       latin = 0;
     }
 
-    if (jq("#greek").attr("checked")) {
+    if (jq("#greek").prop("checked")) {
       jq(".greek").show();
 
       greek = 1;
@@ -316,7 +319,7 @@ jq(document).ready(function () {
       greek = 0;
     }
 
-    if (jq("#english").attr("checked")) {
+    if (jq("#english").prop("checked")) {
       jq(".english").show();
 
       english = 1;
@@ -335,7 +338,7 @@ jq(document).ready(function () {
   function poemsGenre_filter() {
     var lyric, satire, imitation, doubtful;
 
-    if (jq("#lyric").attr("checked")) {
+    if (jq("#lyric").prop("checked")) {
       jq("#english").attr("checked", true);
       jq("#latin").attr("disabled", true);
       jq("#greek").attr("disabled", true);
@@ -348,7 +351,7 @@ jq(document).ready(function () {
       lyric = 0;
     }
 
-    if (jq("#satire").attr("checked")) {
+    if (jq("#satire").prop("checked")) {
       jq("#english").attr("checked", true);
       jq("#latin").attr("disabled", true);
       jq("#greek").attr("disabled", true);
@@ -362,7 +365,7 @@ jq(document).ready(function () {
       satire = 0;
     }
 
-    if (jq("#imitation").attr("checked")) {
+    if (jq("#imitation").prop("checked")) {
       jq("#english").attr("checked", true);
       jq("#latin").attr("disabled", true);
       jq("#greek").attr("disabled", true);
@@ -375,7 +378,7 @@ jq(document).ready(function () {
       imitation = 0;
     }
 
-    if (jq("#doubtful").attr("checked")) {
+    if (jq("#doubtful").prop("checked")) {
       jq("#english").attr("checked", true);
       jq("#latin").attr("disabled", true);
       jq("#greek").attr("disabled", true);
@@ -466,13 +469,13 @@ jq(document).ready(function () {
       jq(this).closest(".poemtitle").next(".queries").fadeIn();
       jq(this).closest(".line").addClass("hover");
       jq(this).addClass("close");
-      if (jq("#textual").attr("checked")) {
+      if (jq("#textual").prop("checked")) {
         jq(".com_type_textual").hide();
       } else {
         jq(".com_type_textual").show();
       }
 
-      if (jq("#explanatory").attr("checked")) {
+      if (jq("#explanatory").prop("checked")) {
         jq(".com_type_explanatory").hide();
       } else {
         jq(".com_type_explanatory").show();
@@ -513,13 +516,13 @@ jq(document).ready(function () {
       jq(this).closest(".poemtitle").next(".queries").fadeIn();
       jq(this).closest(".line").addClass("hover");
       jq(this).addClass("close");
-      if (jq("#textual").attr("checked")) {
+      if (jq("#textual").prop("checked")) {
         jq(".com_type_textual").hide();
       } else {
         jq(".com_type_textual").show();
       }
 
-      if (jq("#explanatory").attr("checked")) {
+      if (jq("#explanatory").prop("checked")) {
         jq(".com_type_explanatory").hide();
       } else {
         jq(".com_type_explanatory").show();
@@ -539,27 +542,24 @@ jq(document).ready(function () {
     }
   }); //end click
 
-  jq(".summary").toggle(
-    function () {
+  // alternate open and closed on each click (.toggle(fn, fn) was removed in jQuery 1.9)
+  jq(".summary").on("click", function () {
+    if (!jq(this).hasClass("close")) {
       jq(this).next(".fullquery").fadeIn();
       jq(this).addClass("close");
-
-      return false;
-    },
-    function () {
+    } else {
       jq(this).next(".fullquery").fadeOut();
       jq(this).removeClass("close");
-
-      return false;
     }
-  ); //end toggle
+    return false;
+  }); //end toggle
 
   // Prose filter
 
   function prose_filter() {
     var art, literature, philosophy, travel, history, geography, nature;
 
-    if (jq("#art").attr("checked")) {
+    if (jq("#art").prop("checked")) {
       jq(".art").show();
       art = 1;
     } else {
@@ -567,7 +567,7 @@ jq(document).ready(function () {
       art = 0;
     }
 
-    if (jq("#literature").attr("checked")) {
+    if (jq("#literature").prop("checked")) {
       jq(".literature").show();
 
       literature = 1;
@@ -576,7 +576,7 @@ jq(document).ready(function () {
       literature = 0;
     }
 
-    if (jq("#philosophy").attr("checked")) {
+    if (jq("#philosophy").prop("checked")) {
       jq(".philosophy").show();
 
       philosophy = 1;
@@ -585,7 +585,7 @@ jq(document).ready(function () {
       philosophy = 0;
     }
 
-    if (jq("#travel").attr("checked")) {
+    if (jq("#travel").prop("checked")) {
       jq(".travel").show();
 
       travel = 1;
@@ -594,7 +594,7 @@ jq(document).ready(function () {
       travel = 0;
     }
 
-    if (jq("#history").attr("checked")) {
+    if (jq("#history").prop("checked")) {
       jq(".history").show();
 
       history = 1;
@@ -603,7 +603,7 @@ jq(document).ready(function () {
       history = 0;
     }
 
-    if (jq("#geography").attr("checked")) {
+    if (jq("#geography").prop("checked")) {
       jq(".geography").show();
 
       geography = 1;
@@ -612,7 +612,7 @@ jq(document).ready(function () {
       geography = 0;
     }
 
-    if (jq("#nature").attr("checked")) {
+    if (jq("#nature").prop("checked")) {
       jq(".nature").show();
 
       nature = 1;
@@ -851,7 +851,7 @@ jq(document).ready(function () {
         `"/>`;
     }
     my_modal +=
-      '</h5><textarea style="resize:vertical;" class="form-control" name="comment" id="newNoteText" rows="4" required="required"/>' +
+      '</h5><textarea style="resize:vertical;" class="form-control" name="comment" id="newNoteText" rows="4" required="required"></textarea>' +
       '<h5 style="display: inline-block; padding-right:8px;"> Sort </h5>\
 <div class="btn-group" data-toggle="buttons">\
   <label class="btn btn-default btn-sm active">\
@@ -1481,7 +1481,7 @@ function init_translations() {
         split[0] +
         "</option>";
     }
-    trans_menu += '</select></div><div id="trans_body" />';
+    trans_menu += '</select></div><div id="trans_body"></div>';
     jq("#trans_menu").append(trans_menu);
     trans_by("all");
   } else {
@@ -1500,7 +1500,7 @@ jq(document.body).on("change", 'input[name="transRadio"]', function () {
     jq("select[id='bytrans']").removeAttr("disabled");
     trans_by(jq("select[id='bytrans']").val());
   } else {
-    if (!jq("select[id='bytrans']").attr("disabled")) {
+    if (!jq("select[id='bytrans']").prop("disabled")) {
       jq("select[id='bytrans']").attr("disabled", "disabled");
     }
     if (transValue == "done") {
@@ -1792,8 +1792,8 @@ var results = [],
 <form id="newNoteForm">\
 <h5>Your translation of <span id="contribution-context">"' +
           ref +
-          '"</span></h5><textarea style="resize:vertical;" class="form-control" name="comment" id="newNoteText" rows="4" required="required"/><h5>Note on the translation (optional)</h5>\
-<textarea style="resize:vertical;" class="form-control" name="note" id="newNoteNote" rows="2"/>' +
+          '"</span></h5><textarea style="resize:vertical;" class="form-control" name="comment" id="newNoteText" rows="4" required="required"></textarea><h5>Note on the translation (optional)</h5>\
+<textarea style="resize:vertical;" class="form-control" name="note" id="newNoteNote" rows="2"></textarea>' +
           add_user(2)
       );
       jq("#newNote").modal("show");

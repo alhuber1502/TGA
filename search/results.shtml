@@ -52,13 +52,13 @@
     // search
     if (window.location.href.search(/genre:letter/g) != -1) {
       $( "#search_genre" ).html( "Letters" );
-      $( "#search_field option[value=genre:letter]" ).attr("selected","selected");
+      $( "#search_field option[value='genre:letter']" ).attr("selected","selected");
     } else if (window.location.href.search(/genre:poem/g) != -1) {
       $( "#search_genre" ).html( "Poems" );
-      $( "#search_field option[value=genre:poem]" ).attr("selected","selected");
+      $( "#search_field option[value='genre:poem']" ).attr("selected","selected");
     } else if (window.location.href.search(/genre:prose/g) != -1) {
       $( "#search_genre" ).html( "Prose Works" );
-      $( "#search_field option[value=genre:prose]" ).attr("selected","selected");
+      $( "#search_field option[value='genre:prose']" ).attr("selected","selected");
     }
 
     if ( searchParams.has('q') && searchParams.get('q') != '' ) {

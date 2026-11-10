@@ -234,7 +234,7 @@ async function format_results( docs, base, highlights ) {
 /*
       output += `<div class="item-tools">
       <ul>
-        <li><a href="#`+v.document_id+`" class="details_object"><i class="fas fa-info-circle"></i> Details<span /></a></li>`;
+        <li><a href="#`+v.document_id+`" class="details_object"><i class="fas fa-info-circle"></i> Details<span></span></a></li>`;
         output += (($("#cy").length == 0)?`<li><a href="#`+v.document_id+`" title="View a graph representation of this edition" data-title="`+truncateString(unique_document_title,400)+`" class="graph_object"><i class="fas fa-project-diagram"></i> Graph preview<span /></a> </li>`:``);
       output += `
       </ul>
