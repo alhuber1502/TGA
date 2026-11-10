@@ -101,8 +101,8 @@
 				// The callback is called at once by present location.hash.
 				$.historyInit(pageload, "advanced.html");
 
-				// set onlick event for buttons using the jQuery 1.3 live method
-				$("a[rel='history']").live('click', function(e) {
+				// set onclick event for buttons, delegated from the document
+				$(document).on('click', "a[rel='history']", function(e) {
 					if (e.button != 0) return true;
 
 					var hash = this.href;
